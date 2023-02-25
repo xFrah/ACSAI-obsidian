@@ -1,0 +1,2 @@
+- Appunti della prima lezione di statistica
+- Finire appunti della seconda lezione di Machine Learning
