@@ -1,6 +1,6 @@
 Distance from the [[mean]], obtained with:
 
-![[Pasted image 20230224001800.png]]
+![[../z_images/Pasted image 20230224001800.png]]
 
 Where:
 - **Xi** – a single value of x.

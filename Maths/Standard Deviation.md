@@ -1,6 +1,6 @@
 Measures <span style="background:rgba(183, 152, 255, 0.3)">how much dispersed the data is in relation to the mean</span>.
 
-![[Pasted image 20230224001018.png]]
+![[../z_images/Pasted image 20230224001018.png]]
 
 Where:
 

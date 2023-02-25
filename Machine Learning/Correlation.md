@@ -1,7 +1,7 @@
 Correlation is a statistical measure that indicates <span style="background:rgba(183, 152, 255, 0.3)">how much two variables are related</span>(if they change together at a costant rate).
 Specifically, it indicates the strength of their relationship.
 
-![](Pasted%20image%2020230223213817.png)
+![](../z_images/Pasted%20image%2020230223213817.png)
 
 
 The stronger the relationship is, the closer to ±1 it gets.
@@ -21,7 +21,7 @@ Charateristics:
 - <span style="background:rgba(183, 152, 255, 0.3)">The sign is determined by the slope</span>: a value of +1 implies that all data points lie on a line for which Y increases as X increases, and vice versa for −1. 
 - <span style="background:rgba(183, 152, 255, 0.3)">0 means that there is no linear dependency</span> between variables
 
-![](Pasted%20image%2020230223220310.png)
+![](../z_images/Pasted%20image%2020230223220310.png)
 
 
 ## Covariance of two series
@@ -29,7 +29,7 @@ Charateristics:
 The covariance is a way of calculating the relationship between two variables and it will tell us <span style="background:rgba(183, 152, 255, 0.3)">how much two random variables vary together</span>.
 
 The formula is:
-![](Pasted%20image%2020230223223412.png)
+![[../z_images/Pasted image 20230223223412.png]]
 
 Where:
 -   **Xi** – the values of the X-variable
@@ -41,12 +41,12 @@ Where:
 Why?
 We are basically trying to get the direction of the values in respect to the mean of X and Y, that act as new axes.
 
-![](Pasted%20image%2020230225203834.png)
+![[../z_images/Pasted image 20230225203834.png]]
 
 Basically, we are summing all the areas of the squares that are formed with the new axes.
 The areas are the product of the differences of a point and the means.
 
-![](Pasted%20image%2020230225204059.png)
+![[../z_images/Pasted image 20230225204059.png]]
 
 <span style="background:rgba(183, 152, 255, 0.3)">One side of the square could be of negative value</span>. For this reason we can have negative areas, in the upper-left and lower-right quadrant.
 This is the reason why the covariance can be negative.

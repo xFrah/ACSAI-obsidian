@@ -4,5 +4,7 @@
   "useMarkdownLinks": true,
   "userIgnoreFilters": [
     "z_images/"
-  ]
+  ],
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true
 }
