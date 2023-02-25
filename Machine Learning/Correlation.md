@@ -29,7 +29,7 @@ Charateristics:
 The covariance is a way of calculating the relationship between two variables and it will tell us <span style="background:rgba(183, 152, 255, 0.3)">how much two random variables vary together</span>.
 
 The formula is:
-![[../z_images/Pasted image 20230223223412.png]]
+![](../z_images/Pasted%20image%2020230223223412.png)
 
 Where:
 -   **Xi** – the values of the X-variable
@@ -41,12 +41,12 @@ Where:
 Why?
 We are basically trying to get the direction of the values in respect to the mean of X and Y, that act as new axes.
 
-![[../z_images/Pasted image 20230225203834.png]]
+![](../z_images/Pasted%20image%2020230225203834.png)
 
 Basically, we are summing all the areas of the squares that are formed with the new axes.
 The areas are the product of the differences of a point and the means.
 
-![[../z_images/Pasted image 20230225204059.png]]
+![](../z_images/Pasted%20image%2020230225204059.png)
 
 <span style="background:rgba(183, 152, 255, 0.3)">One side of the square could be of negative value</span>. For this reason we can have negative areas, in the upper-left and lower-right quadrant.
 This is the reason why the covariance can be negative.
