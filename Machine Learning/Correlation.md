@@ -1,7 +1,10 @@
 Correlation is a statistical measure that indicates <span style="background:rgba(183, 152, 255, 0.3)">how much two variables are related</span>(if they change together at a costant rate).
 Specifically, it indicates the strength of their relationship.
 
+![](Pasted%20image%2020230225222008.png)
+
 ![[Pasted image 20230223213817.png]]
+
 
 The stronger the relationship is, the closer to ±1 it gets.
 
