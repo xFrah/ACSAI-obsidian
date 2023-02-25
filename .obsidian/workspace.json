@@ -18,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "cf044c82adf4f63d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/Agents.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aadf6eb0fccd92e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Correlation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,27 +148,27 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "aadf6eb0fccd92e3",
+  "active": "f3dc0cbb1cc9f059",
   "lastOpenFiles": [
-    "Machine Learning/Pasted image 20230225222008.png",
-    "Machine Learning/Pasted image 20230223213817.png",
-    "Machine Learning/Pasted image 20230223215752.png",
-    "Machine Learning/Pasted image 20230223213817 1.png",
-    "Maths/Pasted image 20230224000934.png",
-    "Machine Learning/Pasted image 20230225204059.png",
+    "z_images/Pasted image 20230225222008.png",
     "Machine Learning/Correlation.md",
-    "Maths/Pasted image 20230224001018.png",
-    "Machine Learning/Pasted image 20230223223412.png",
-    "AI/Agents.md",
-    "Machine Learning/Pasted image 20230223220310.png",
-    "Maths/Pasted image 20230224001725.png",
+    "z_images/Pasted image 20230224001018.png",
+    "Maths/Variance.md",
+    "z_images",
+    "Maths/Standard Deviation.md",
+    "z_images/Pasted image 20230224001800.png",
     "Maths/Pasted image 20230224001749.png",
+    "Maths/Pasted image 20230224001725.png",
+    "Maths/Pasted image 20230224000934.png",
+    "Maths/Mean.md",
+    "z_images/Pasted image 20230223220310.png",
+    "z_images/Pasted image 20230223213817.png",
+    "z_images/Pasted image 20230223215752.png",
+    "Machine Learning/Pasted image 20230223213817 1.png",
+    "AI/Agents.md",
     "TODO.md",
     "AI",
-    "Maths/Standard Deviation.md",
     "Machine Learning/Untitled.canvas",
-    "Maths/Variance.md",
-    "Maths/Mean.md",
     "Maths",
     "images",
     "Machine Learning"
