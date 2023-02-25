@@ -11,11 +11,9 @@
             "id": "f3dc0cbb1cc9f059",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Machine Learning/Correlation.md",
-                "mode": "source",
-                "source": false
+                "file": "Machine Learning/Pasted image 20230223213817.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Correlation.md",
+                "file": "Machine Learning/Pasted image 20230223213817.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Correlation.md",
+                "file": "Machine Learning/Pasted image 20230223213817.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Correlation.md"
+                "file": "Machine Learning/Pasted image 20230223213817.png"
               }
             }
           }
@@ -148,10 +146,12 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "f3dc0cbb1cc9f059",
+  "active": "3fbe08ad2a0b5f0f",
   "lastOpenFiles": [
-    "z_images/Pasted image 20230225222008.png",
+    "z_images/Pasted image 20230223215752.png",
+    "z_images/Pasted image 20230223220310.png",
     "Machine Learning/Correlation.md",
+    "z_images/Pasted image 20230225222008.png",
     "z_images/Pasted image 20230224001018.png",
     "Maths/Variance.md",
     "z_images",
@@ -161,9 +161,7 @@
     "Maths/Pasted image 20230224001725.png",
     "Maths/Pasted image 20230224000934.png",
     "Maths/Mean.md",
-    "z_images/Pasted image 20230223220310.png",
-    "z_images/Pasted image 20230223213817.png",
-    "z_images/Pasted image 20230223215752.png",
+    "Machine Learning/Pasted image 20230223213817.png",
     "Machine Learning/Pasted image 20230223213817 1.png",
     "AI/Agents.md",
     "TODO.md",
