@@ -80,16 +80,14 @@ It requires a transition model and a sensor model. Idk man...
 
 ## Goal-based and utility-based agents:
 
-#### Goal based:
-Keeps track of the world state and a set of goals that it's trying to achieve. Then it <span style="background:rgba(183, 152, 255, 0.3)">chooses an action that will eventually lead to the achievement of its goals</span>.
-This is done by basically understanding what its action do, predicting the outcome of the action and then actually acting on it to achieve the goal.
+- #### Goal based:
+	Keeps track of the world state and a set of goals that it's trying to achieve. Then it <span style="background:rgba(183, 152, 255, 0.3)">chooses an action that will eventually lead to the achievement of its goals</span>.
+	This is done by basically understanding what its action do, predicting the outcome of the action and then actually acting on it to achieve the goal.
+	![](../z_images/Pasted%20image%2020230227170839.png)
 
-![](../z_images/Pasted%20image%2020230227170839.png)
-
-#### Utility based:
-To avoid conflicting goals, we have a performance measure based on utility. <span style="background:rgba(183, 152, 255, 0.3)">It will choose the action that is expected to have the best utility</span>.
-
-![](../z_images/Pasted%20image%2020230227170931.png)
+- #### Utility based:
+	To avoid conflicting goals, we have a performance measure based on utility. <span style="background:rgba(183, 152, 255, 0.3)">It will choose the action that is expected to have the best utility</span>.
+	![](../z_images/Pasted%20image%2020230227170931.png)
 
 ## Learning agent:
 The system adapts to the environment. There is a <span style="background:rgba(183, 152, 255, 0.3)">performance assessment to know if the learning is working</span> or not, <span style="background:rgba(183, 152, 255, 0.3)">the learning agent actually changes the performance agent to try and improve</span> its performance.

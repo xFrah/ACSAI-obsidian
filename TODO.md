@@ -1,2 +1,2 @@
 - Appunti della prima lezione di statistica.
-- Impara meglio tipi di agenti, riscrivi gli appunti.
+- Rivedi gli appunti di AI, finisci il resto della lezione, l'algoritmo di search.

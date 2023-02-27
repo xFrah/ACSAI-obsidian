@@ -30,7 +30,7 @@ The covariance is a way of calculating the relationship between two variables 
 
 The formula is:
 
-$$\LARGE\operatorname{cov}(X,Y) = \operatorname{E}[(X - \mu_X)(Y - \mu_Y)]$$
+$$\LARGE\operatorname{cov}(X,Y) = \sum(X - \mu_X)(Y - \mu_Y)$$
 
 Where:
 -   **Xi** – the values of the X-variable
