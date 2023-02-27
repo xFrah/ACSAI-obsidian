@@ -1,1 +1,2 @@
-- Appunti della prima lezione di statistica
+- Appunti della prima lezione di statistica.
+- Impara meglio tipi di agenti, riscrivi gli appunti.

@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"Machine Learning\"",
@@ -20,6 +20,20 @@
         "a": 1,
         "rgb": 2062314
       }
+    },
+    {
+      "query": "path:AI",
+      "color": {
+        "a": 1,
+        "rgb": 1943297
+      }
+    },
+    {
+      "query": "path:\"Computer Vision\"",
+      "color": {
+        "a": 1,
+        "rgb": 12779755
+      }
     }
   ],
   "collapse-display": true,
@@ -32,6 +46,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 2.367395021718146,
-  "close": false
+  "scale": 3.28070190337054,
+  "close": true
 }

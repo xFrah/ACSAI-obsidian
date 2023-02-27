@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f3dc0cbb1cc9f059",
+            "id": "0e2e6945f0d83223",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Correlation.md",
+                "file": "AI/Agents.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Correlation.md",
+                "file": "AI/Agents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Correlation.md",
+                "file": "AI/Agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Correlation.md"
+                "file": "AI/Agents.md"
               }
             }
           }
@@ -148,26 +148,31 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "f3dc0cbb1cc9f059",
+  "active": "3fbe08ad2a0b5f0f",
   "lastOpenFiles": [
-    "Maths/Standard Deviation.md",
-    "z_images/Pasted image 20230225204059.png",
-    "z_images/Pasted image 20230225222008.png",
+    "Computer Vision/Color.md",
     "AI/Agents.md",
+    "z_images/Pasted image 20230227172725.png",
+    "z_images/Pasted image 20230227172131.png",
+    "TODO.md",
+    "z_images/Pasted image 20230227170931.png",
+    "z_images/Pasted image 20230227170839.png",
+    "z_images/Pasted image 20230227170740.png",
+    "z_images/Pasted image 20230227170736.png",
+    "z_images/Pasted image 20230227170710.png",
     "Machine Learning/Correlation.md",
     "Maths/Mean.md",
+    "Maths/Standard Deviation.md",
+    "Statistics/First Lecture.md",
+    "Statistics",
     "Maths/Variance.md",
-    "TODO.md",
-    "z_images/Pasted image 20230223215752.png",
-    "z_images/Pasted image 20230223220310.png",
     "z_images/Pasted image 20230223213817.png",
-    "z_images",
+    "z_images/Pasted image 20230223220310.png",
     "z_images/Pasted image 20230225203834.png",
-    "z_images/Pasted image 20230224001800.png",
-    "z_images/Pasted image 20230224001018.png",
-    "z_images/Pasted image 20230223223412.png",
+    "Computer Vision",
+    "Untitled",
     "z_images",
-    "Maths/Pasted image 20230224001749.png",
+    "z_images",
     "AI",
     "Machine Learning/Untitled.canvas",
     "Maths",

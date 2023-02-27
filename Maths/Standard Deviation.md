@@ -1,8 +1,10 @@
 Measures <span style="background:rgba(183, 152, 255, 0.3)">how much dispersed the data is in relation to the mean</span>.
 
-![](../z_images/Pasted%20image%2020230224001018.png)
+$$ \Huge\sigma = \sqrt{\frac{\sum(x_i - \mu_x)^2}{N}}$$
 
 Where:
+- **Xi** – a point X.
+- **μX** – the mean of X.
 
 ## Calculating Standard Deviation
 

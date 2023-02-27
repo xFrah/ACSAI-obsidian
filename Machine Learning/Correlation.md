@@ -8,7 +8,7 @@ The stronger the relationship is, the closer to ±1 it gets.
 
 ## Pearson Correlation Coefficient
 
-$$\large\rho_{X,Y} = \frac{ cov(X,Y) }{ \sigma_X \sigma_Y }$$
+$$\Huge\rho_{X,Y} = \frac{ cov(X,Y) }{ \sigma_X \sigma_Y }$$
 
 Where:
 - **cov** – the covariance of the two series
@@ -29,13 +29,14 @@ Charateristics:
 The covariance is a way of calculating the relationship between two variables and it will tell us <span style="background:rgba(183, 152, 255, 0.3)">how much two random variables vary together</span>.
 
 The formula is:
-![](../z_images/Pasted%20image%2020230223223412.png)
+
+$$\LARGE\operatorname{cov}(X,Y) = \operatorname{E}[(X - \mu_X)(Y - \mu_Y)]$$
 
 Where:
 -   **Xi** – the values of the X-variable
 -   **Yj** – the values of the Y-variable
--   **X̄** – the [[mean]] (average) of the X-variable
--   **Ȳ** – the mean (average) of the Y-variable
+-   **μX** – the [[mean]] (average) of the X-variable
+-   **μY** – the mean (average) of the Y-variable
 -   **n** – the number of data points
 
 Why?
