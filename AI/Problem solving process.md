@@ -8,4 +8,6 @@ Assumption:
 - The agent can ignore percepts during execution (open loop?)
 - In an unknown envirnment, execute random action!
 
-Wtf complete the lesson!!!!!!!
+Wtf complete the lesson!!!!!!! The search problem dude.
+s -> 2^A = P(A), Weierstrass???
+2^a le possibili azioni da prendere???? diom
