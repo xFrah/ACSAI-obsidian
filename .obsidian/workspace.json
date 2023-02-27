@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Problem solving process.md",
+                "file": "AI/Agent.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "995c215991d0e904",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/Problem solving process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/Problem solving process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "AI/Problem solving process.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -134,8 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,17 +152,18 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "0e2e6945f0d83223",
+  "active": "995c215991d0e904",
   "lastOpenFiles": [
+    "AI/Agent.md",
+    "AI/Environment.md",
+    "AI/Problem solving process.md",
     "Computer Vision/Color.md",
     "Statistics/First Lecture.md",
-    "AI/Problem solving process.md",
     "TODO.md",
     "Machine Learning/Correlation.md",
     "Maths/Mean.md",
     "Maths/Standard Deviation.md",
     "Maths/Variance.md",
-    "AI/Agents.md",
     "z_images/Pasted image 20230227172725.png",
     "z_images/Pasted image 20230227172131.png",
     "z_images/Pasted image 20230227170931.png",

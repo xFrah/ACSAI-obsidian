@@ -4,8 +4,8 @@
 4. Execution
 
 Assumption:
-- Environment is fully observable, deterministic and known.
-- The agent can ignore percepts during execution (open loop?)
+- [Environment](Environment.md) is fully observable, deterministic and known.
+- The [agent](Agent.md) can ignore percepts during execution (open loop?)
 - In an unknown envirnment, execute random action!
 
 Wtf complete the lesson!!!!!!! The search problem dude.

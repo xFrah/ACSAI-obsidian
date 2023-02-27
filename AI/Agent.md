@@ -1,5 +1,5 @@
 1. The agent is a software that <span style="background:rgba(183, 152, 255, 0.3)">acts</span> upon actuation.
-2. The actions of the agent have an effect on the environment.
+2. The actions of the agent have an effect on the [environment](Environment.md).
 3. The <span style="background:rgba(183, 152, 255, 0.3)">agent perceives the environment</span> through sensors.
 
 An agent could be viewed as a function that takes the perceived universe P and the universe of actions A.
@@ -21,30 +21,9 @@ For each possible percept sequence, a rational agent should select an action tha
 ## Ingredients
 
 - Performance measure: measure of how well the model is performing
-- Environment
+- [Environment](Environment.md)
 - Actuators: Conditions that make the agent act. Real???
 - Sensors: Component that enables the agent to perceive the environment.
-
-## Environment
-
-##### Charateristics:
-- **Observability**
-	- Fully observable
-	- Partially observable
-	- Unobservable: no sensors.
-- **Multiplicity**
-	- Single agent
-	- Multi-agent
-		- Competitive
-		- Cooperative
-- **Deterministic** v. **non-Deterministic**
-	- Stochastic?
-- **Episodic** v. **Sequential**
-- **Static** v. **Dynamic** v. **Semi-Dynamic**
-- Discrete v. Continuous
-- Actions's effect
-	- Known
-	- Unknown
 
 
 ## Rationality
