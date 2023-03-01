@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Mode.md",
+                "file": "Statistics/Median.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Mode.md",
+                "file": "Statistics/Median.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Mode.md",
+                "file": "Statistics/Median.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Mode.md"
+                "file": "Statistics/Median.md"
               }
             }
           }
@@ -175,9 +175,9 @@
   },
   "active": "9f303a69ae17723d",
   "lastOpenFiles": [
+    "Statistics/Mode.md",
     "z_images/Pasted image 20230301143247.png",
     "Statistics/Median.md",
-    "Statistics/Mode.md",
     "z_images/Pasted image 20230301142404.png",
     "TODO.md",
     "AI/Problem solving process.md",
@@ -204,7 +204,6 @@
     "AI/Agent.md",
     "z_images/Pasted image 20230228145737.png",
     "z_images/Pasted image 20230228145723.png",
-    "z_images/Pasted image 20230228143731.png",
     "Statistics/First Lecture.md",
     "Statistics",
     "Computer Vision",

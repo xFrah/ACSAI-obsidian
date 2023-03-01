@@ -21,6 +21,6 @@ The median is more <span style="background:rgba(183, 152, 255, 0.3)">robust to e
 
 ![](../z_images/Pasted%20image%2020230301142404.png)
 
-- **Median == Mean**: Symmetrical.
-- **Median < Mean**: Skewed to the right.
-- **Median > Mean**: Skewed to the left.
+- **Median == Mean**: Symmetrical
+- **Median < Mean**: Skewed to the right
+- **Median > Mean**: Skewed to the left
