@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Median.md",
+                "file": "Statistics/Mode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4839c9be8c46ccb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Standard Deviation.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +49,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/Standard Deviation.md",
+                "file": "Statistics/Spread.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ed0136a1eea8b63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Measures of Position.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e5b0f313b36358d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Box plot.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -110,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Median.md",
+                "file": "Statistics/Box plot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Median.md",
+                "file": "Statistics/Box plot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Median.md"
+                "file": "Statistics/Box plot.md"
               }
             }
           }
@@ -173,19 +209,29 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "9f303a69ae17723d",
+  "active": "e5b0f313b36358d7",
   "lastOpenFiles": [
+    "Statistics/Measures of Position.md",
+    "Statistics/Standard Deviation.md",
+    "Statistics/Box plot.md",
+    "z_images/Pasted image 20230301163000.png",
+    "z_images/Pasted image 20230301162729.png",
+    "z_images/Pasted image 20230301162351.png",
+    "z_images/Pasted image 20230301162345.png",
+    "Statistics/Mean.md",
+    "z_images/Pasted image 20230301160048.png",
+    "z_images/Pasted image 20230301155850.png",
+    "Statistics/Spread.md",
+    "Statistics/Variance.md",
+    "z_images/Pasted image 20230301152051.png",
+    "Maths/Matrix recap.md",
     "Statistics/Mode.md",
-    "z_images/Pasted image 20230301143247.png",
     "Statistics/Median.md",
+    "z_images/Pasted image 20230301143247.png",
     "z_images/Pasted image 20230301142404.png",
     "TODO.md",
     "AI/Problem solving process.md",
     "Computer Vision/Color.md",
-    "Maths/Matrix recap.md",
-    "Maths/Mean.md",
-    "Maths/Standard Deviation.md",
-    "Maths/Variance.md",
     "Maths/Vectors recap.md",
     "z_images/Pasted image 20230301141953.png",
     "Maths/Untitled.md",
@@ -195,15 +241,8 @@
     "().md",
     "AI/Environment.md",
     "Machine Learning/Correlation.md",
-    "z_images/Pasted image 20230228151814.png",
-    "z_images/Pasted image 20230228151744.png",
-    "z_images/Pasted image 20230228151326.png",
-    "z_images/Pasted image 20230228151310.png",
-    "z_images/Pasted image 20230228151003.png",
     "Machine Learning/Learning Paradigms.md",
     "AI/Agent.md",
-    "z_images/Pasted image 20230228145737.png",
-    "z_images/Pasted image 20230228145723.png",
     "Statistics/First Lecture.md",
     "Statistics",
     "Computer Vision",

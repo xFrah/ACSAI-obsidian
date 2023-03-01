@@ -15,7 +15,7 @@
       }
     },
     {
-      "query": "path:Maths",
+      "query": "path:Statistics",
       "color": {
         "a": 1,
         "rgb": 2062314
@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 12779755
       }
+    },
+    {
+      "query": "path:Maths",
+      "color": {
+        "a": 1,
+        "rgb": 16728642
+      }
     }
   ],
   "collapse-display": true,
@@ -46,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 2.1855856991757734,
+  "scale": 1.7612205625981903,
   "close": true
 }
