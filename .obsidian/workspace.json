@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Box plot.md",
+                "file": "Machine Learning/Learning Paradigms.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Box plot.md",
+                "file": "Machine Learning/Learning Paradigms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Box plot.md",
+                "file": "Machine Learning/Learning Paradigms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Box plot.md"
+                "file": "Machine Learning/Learning Paradigms.md"
               }
             }
           }
@@ -211,9 +211,11 @@
   },
   "active": "e5b0f313b36358d7",
   "lastOpenFiles": [
+    "Statistics/Spread.md",
+    "Machine Learning/Correlation.md",
+    "Statistics/Box plot.md",
     "Statistics/Measures of Position.md",
     "Statistics/Standard Deviation.md",
-    "Statistics/Box plot.md",
     "z_images/Pasted image 20230301163000.png",
     "z_images/Pasted image 20230301162729.png",
     "z_images/Pasted image 20230301162351.png",
@@ -221,7 +223,6 @@
     "Statistics/Mean.md",
     "z_images/Pasted image 20230301160048.png",
     "z_images/Pasted image 20230301155850.png",
-    "Statistics/Spread.md",
     "Statistics/Variance.md",
     "z_images/Pasted image 20230301152051.png",
     "Maths/Matrix recap.md",
@@ -240,7 +241,6 @@
     "vectors.md",
     "().md",
     "AI/Environment.md",
-    "Machine Learning/Correlation.md",
     "Machine Learning/Learning Paradigms.md",
     "AI/Agent.md",
     "Statistics/First Lecture.md",

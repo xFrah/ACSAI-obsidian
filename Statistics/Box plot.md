@@ -1,7 +1,7 @@
 The 5-number summary is the basis of a graphical display called the box plot, and consists of:
 - Minimum value, 
-- First Quartile, 
-- Median, 
+- First [[Measures of Position|Quartile]], 
+- [Median](Median.md), 
 - Third Quartile, 
 - Maximum value
 
