@@ -1,2 +1,4 @@
 - Appunti della prima lezione di statistica.
 - Rivedi gli appunti di AI, finisci il resto della lezione, l'algoritmo di search.
+- Rifinire gli appunti di Machine learning, ultima lezione.
+- Come è finita la scorsa lezione di computer vision? Cosa hanno fatto di numpy?

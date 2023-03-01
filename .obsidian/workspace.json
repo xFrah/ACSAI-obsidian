@@ -8,23 +8,39 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0e2e6945f0d83223",
+            "id": "d0a08ff8e384be03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Agent.md",
+                "file": "Statistics/Median.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "995c215991d0e904",
+            "id": "9f303a69ae17723d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Mode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "292f8dedf21f9fd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/Standard Deviation.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Statistics/Mode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Statistics/Mode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -131,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Statistics/Mode.md"
+              }
             }
           }
         ],
@@ -139,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -152,29 +173,40 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "995c215991d0e904",
+  "active": "9f303a69ae17723d",
   "lastOpenFiles": [
-    "AI/Agent.md",
-    "AI/Environment.md",
+    "z_images/Pasted image 20230301143247.png",
+    "Statistics/Median.md",
+    "Statistics/Mode.md",
+    "z_images/Pasted image 20230301142404.png",
+    "TODO.md",
     "AI/Problem solving process.md",
     "Computer Vision/Color.md",
-    "Statistics/First Lecture.md",
-    "TODO.md",
-    "Machine Learning/Correlation.md",
+    "Maths/Matrix recap.md",
     "Maths/Mean.md",
     "Maths/Standard Deviation.md",
     "Maths/Variance.md",
-    "z_images/Pasted image 20230227172725.png",
-    "z_images/Pasted image 20230227172131.png",
-    "z_images/Pasted image 20230227170931.png",
-    "z_images/Pasted image 20230227170839.png",
-    "z_images/Pasted image 20230227170740.png",
-    "z_images/Pasted image 20230227170736.png",
-    "z_images/Pasted image 20230227170710.png",
+    "Maths/Vectors recap.md",
+    "z_images/Pasted image 20230301141953.png",
+    "Maths/Untitled.md",
+    "Computer Vision/Numpy.md",
+    "Vectors.md",
+    "vectors.md",
+    "().md",
+    "AI/Environment.md",
+    "Machine Learning/Correlation.md",
+    "z_images/Pasted image 20230228151814.png",
+    "z_images/Pasted image 20230228151744.png",
+    "z_images/Pasted image 20230228151326.png",
+    "z_images/Pasted image 20230228151310.png",
+    "z_images/Pasted image 20230228151003.png",
+    "Machine Learning/Learning Paradigms.md",
+    "AI/Agent.md",
+    "z_images/Pasted image 20230228145737.png",
+    "z_images/Pasted image 20230228145723.png",
+    "z_images/Pasted image 20230228143731.png",
+    "Statistics/First Lecture.md",
     "Statistics",
-    "z_images/Pasted image 20230223213817.png",
-    "z_images/Pasted image 20230223220310.png",
-    "z_images/Pasted image 20230225203834.png",
     "Computer Vision",
     "Untitled",
     "z_images",
