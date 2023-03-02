@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Median.md",
+                "file": "Statistics/Association.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,21 +66,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e5b0f313b36358d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Learning Paradigms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 257.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -146,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Learning Paradigms.md",
+                "file": "Statistics/Association.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Learning Paradigms.md",
+                "file": "Statistics/Association.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Learning Paradigms.md"
+                "file": "Statistics/Association.md"
               }
             }
           }
@@ -195,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,41 +195,44 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "e5b0f313b36358d7",
+  "active": "d0a08ff8e384be03",
   "lastOpenFiles": [
+    "z_images/Pasted image 20230302152600.png",
+    "z_images/Pasted image 20230302152455.png",
+    "z_images/Pasted image 20230302152423.png",
+    "z_images/Pasted image 20230302152142.png",
+    "Machine Learning/Learning Paradigms.md",
+    "Statistics/Association.md",
+    "z_images/Pasted image 20230302151548.png",
+    "z_images/Pasted image 20230302151526.png",
+    "z_images/Pasted image 20230302150721.png",
+    "z_images/Pasted image 20230302150443.png",
+    "z_images/Pasted image 20230302150031.png",
+    "Statistics/Conditional Distribution.md",
+    "Statistics/Contingency table.md",
+    "z_images/Pasted image 20230302145417.png",
+    "z_images/Pasted image 20230302145139.png",
+    "Statistics/Z-score.md",
+    "Statistics/Standard Deviation.md",
+    "standard deviations.md",
+    "TODO.md",
     "Statistics/Spread.md",
     "Machine Learning/Correlation.md",
     "Statistics/Box plot.md",
     "Statistics/Measures of Position.md",
-    "Statistics/Standard Deviation.md",
-    "z_images/Pasted image 20230301163000.png",
-    "z_images/Pasted image 20230301162729.png",
-    "z_images/Pasted image 20230301162351.png",
-    "z_images/Pasted image 20230301162345.png",
     "Statistics/Mean.md",
-    "z_images/Pasted image 20230301160048.png",
-    "z_images/Pasted image 20230301155850.png",
     "Statistics/Variance.md",
-    "z_images/Pasted image 20230301152051.png",
     "Maths/Matrix recap.md",
     "Statistics/Mode.md",
     "Statistics/Median.md",
-    "z_images/Pasted image 20230301143247.png",
-    "z_images/Pasted image 20230301142404.png",
-    "TODO.md",
     "AI/Problem solving process.md",
     "Computer Vision/Color.md",
     "Maths/Vectors recap.md",
-    "z_images/Pasted image 20230301141953.png",
     "Maths/Untitled.md",
     "Computer Vision/Numpy.md",
     "Vectors.md",
     "vectors.md",
     "().md",
-    "AI/Environment.md",
-    "Machine Learning/Learning Paradigms.md",
-    "AI/Agent.md",
-    "Statistics/First Lecture.md",
     "Statistics",
     "Computer Vision",
     "Untitled",
