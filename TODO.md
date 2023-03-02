@@ -2,3 +2,4 @@
 - Rivedi gli appunti di AI, finisci il resto della lezione, l'algoritmo di search.
 - Rifinire gli appunti di Machine learning, ultima lezione.
 - Come è finita la scorsa lezione di computer vision? Cosa hanno fatto di numpy?
+- STUDIA ULTIMA LEZIONE DI MACHINE LEARNING, LINEAR ALGEBRA, DOT PRODUCT, INNER PRODUCT, OUTER PRODUCT, MATRIX-MATRIX MULTIPLICATION

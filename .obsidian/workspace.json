@@ -8,24 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d0a08ff8e384be03",
+            "id": "9f303a69ae17723d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Association.md",
+                "file": "Maths/Vectors recap.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9f303a69ae17723d",
+            "id": "3116f853e881d30b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Mode.md",
+                "file": "Maths/Vectors recap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0570c9086151530b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/General linear algebra.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "656ec59ef3a5b1f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/General linear algebra.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,7 +91,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -133,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Association.md",
+                "file": "Maths/General linear algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Association.md",
+                "file": "Maths/General linear algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -173,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Association.md"
+                "file": "Maths/General linear algebra.md"
               }
             }
           }
@@ -182,7 +207,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,44 +221,43 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "d0a08ff8e384be03",
+  "active": "656ec59ef3a5b1f4",
   "lastOpenFiles": [
+    "Maths/Vectors recap.md",
+    "Maths/General linear algebra.md",
+    "TODO.md",
+    "Maths/Norms.md",
+    "Maths/Matrix recap.md",
+    "z_images/Pasted image 20230302181621.png",
+    "z_images/Pasted image 20230302175512.png",
+    "z_images/Pasted image 20230302165743.png",
+    "z_images/Pasted image 20230302165658.png",
+    "z_images/Pasted image 20230302165539.png",
+    "Machine Learning/Cosine Similarity.md",
+    "Statistics/Standard Deviation.md",
+    "AI/Numpy.md",
+    "Statistics/Mode.md",
+    "2023-03-02.md",
+    "Statistics/Association.md",
     "z_images/Pasted image 20230302152600.png",
     "z_images/Pasted image 20230302152455.png",
     "z_images/Pasted image 20230302152423.png",
     "z_images/Pasted image 20230302152142.png",
     "Machine Learning/Learning Paradigms.md",
-    "Statistics/Association.md",
     "z_images/Pasted image 20230302151548.png",
-    "z_images/Pasted image 20230302151526.png",
-    "z_images/Pasted image 20230302150721.png",
-    "z_images/Pasted image 20230302150443.png",
-    "z_images/Pasted image 20230302150031.png",
     "Statistics/Conditional Distribution.md",
     "Statistics/Contingency table.md",
-    "z_images/Pasted image 20230302145417.png",
-    "z_images/Pasted image 20230302145139.png",
     "Statistics/Z-score.md",
-    "Statistics/Standard Deviation.md",
     "standard deviations.md",
-    "TODO.md",
     "Statistics/Spread.md",
     "Machine Learning/Correlation.md",
     "Statistics/Box plot.md",
     "Statistics/Measures of Position.md",
     "Statistics/Mean.md",
     "Statistics/Variance.md",
-    "Maths/Matrix recap.md",
-    "Statistics/Mode.md",
     "Statistics/Median.md",
     "AI/Problem solving process.md",
     "Computer Vision/Color.md",
-    "Maths/Vectors recap.md",
-    "Maths/Untitled.md",
-    "Computer Vision/Numpy.md",
-    "Vectors.md",
-    "vectors.md",
-    "().md",
     "Statistics",
     "Computer Vision",
     "Untitled",

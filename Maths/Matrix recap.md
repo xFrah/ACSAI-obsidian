@@ -10,7 +10,7 @@ We shouldn't think of it as a list of scalars.
 
 ![](../z_images/Pasted%20image%2020230228151814.png)
 
-We plot a diagonal matrix with [numpy](../Computer%20Vision/Numpy.md):
+We plot a diagonal matrix with [numpy](../AI/Numpy.md):
 
 ```
 #help(np.diag) 
@@ -84,4 +84,18 @@ For each point x and y, we subtract the meanX and meanY. (x, y) - (meanX, meanY)
 Hamaard multiplication: We do multiplications element wise. In python, it is done by the operator "*", between matrices.
 ```
 
-## Inner product (Dot product)
+
+## Matrices as linear map between spaces
+
+DON'T THINK A MATRIX AS A BUNCH OF RANDOM POINTS.
+They actually map a space into another space.
+
+We are gonna take the standard basis, the unit vectors, and we are gonna translate them. Then the operation can be done for every other point.
+
+It's basically just a change of unit vectors.
+
+![](../z_images/Pasted%20image%2020230302175512.png)
+
+![](../z_images/Pasted%20image%2020230302181621.png)
+
+Sometimes they can induce severe distortion when the two vectors lie in the same direction.
