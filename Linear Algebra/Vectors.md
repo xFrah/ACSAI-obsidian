@@ -60,6 +60,8 @@ The span of most 2D vectors is a 2D space.
 If two basis vectors line up in the same directions, the span lies on a single line.
 Another definition, is that if a basis vector sits on the span of another vector, it is redundant and doesn't add anything to the span of the system.
 
+Two vectors are linearly dependent if one is the scaled version of the other.
+
 ![](../z_images/Pasted%20image%2020230304133216.png)
 
 ## Inner product (Dot product)

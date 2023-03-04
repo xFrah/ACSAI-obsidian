@@ -6,6 +6,7 @@ We shouldn't think of it as a list of scalars.
 - n column [[Vectors|vectors]] in a real-valued M-dimensional space.
 - m row vectors in a real-valued N-dimensional space.
 
+
 ## Identity/Diagonal Matrix:
 
 ![](../z_images/Pasted%20image%2020230228151814.png)
@@ -93,8 +94,6 @@ We are gonna take the basis vectors, and we are gonna change them. Then the oper
 
 It's basically just a change of basis vectors.
 
-![](../z_images/Pasted%20image%2020230302175512.png)
-
 We are given the vector: $$\Large\begin{bmatrix}5\\7\end{bmatrix}$$
 we can also represent it as a linear combination of scaled basis vectors:
 
@@ -129,3 +128,29 @@ Often, other people collapse the last part into a single vector whose elements a
 ![](../z_images/Pasted%20image%2020230304142416.png)
 
 Sometimes they can induce severe distortion when the two vectors lie in the same direction.
+
+
+## Matrix multiplication
+
+Now that we have established matrices as transformations, we can merge two matrices/transformations into just 1 matrix, that is called a composition of matrices.
+
+![](../z_images/Pasted%20image%2020230304154959.png)
+
+
+Basically, it goes from right to left, so in this case we first apply rotation and then shear.
+When we apply rotation, we have that:
+$$\Large\hat{j} = \begin{bmatrix}0\\1\end{bmatrix}, \quad \hat{i} =\begin{bmatrix}-1\\0\end{bmatrix}$$
+Now assume j and i are vectors on a basic cartesian plane, with normal basis vectors.
+We now transform the basis vectors of the new j and i, to see where they land, and that will be our final combination.
+$$\Large\begin{bmatrix}1 & 1 \\ 0 & 1 \end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix}, \quad \begin{bmatrix}1 & 1 \\ 0 & 1 \end{bmatrix}\begin{bmatrix}-1\\0\end{bmatrix}$$
+
+Basically, we must substitute the basis vectors of the new j and i with the columns of the shear:
+
+$\Large\begin{bmatrix}1 & 1 \\ 0 & 1 \end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix}=0\begin{bmatrix}1\\0\end{bmatrix}+1\begin{bmatrix}1\\1\end{bmatrix}=\begin{bmatrix}1\\1\end{bmatrix}=\hat{j}$
+
+
+$\Large\begin{bmatrix}1 & 1 \\ 0 & 1 \end{bmatrix}\begin{bmatrix}-1\\0\end{bmatrix}=-1\begin{bmatrix}1\\0\end{bmatrix}+0\begin{bmatrix}1\\1\end{bmatrix}=\begin{bmatrix}-1\\0\end{bmatrix}=\hat{i}$
+
+The result is the matrix:
+$$\Large\begin{bmatrix}1 & -1 \\ 1 & 0 \end{bmatrix}$$
+Which is exactly the same as the composition in the image above.

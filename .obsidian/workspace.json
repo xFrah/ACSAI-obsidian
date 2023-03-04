@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra/General linear algebra.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4839c9be8c46ccb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Linear Algebra/Matrix.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "8ed0136a1eea8b63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Measures of Position.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 484.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -154,7 +129,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,22 +148,25 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "4839c9be8c46ccb9",
+  "active": "0570c9086151530b",
   "lastOpenFiles": [
+    "Statistics/Measures of Position.md",
+    "Linear Algebra/Matrix.md",
+    "z_images/Pasted image 20230304154959.png",
+    "Linear Algebra/Vectors.md",
+    "Linear Algebra/Norms.md",
+    "Linear Algebra/General linear algebra.md",
+    "z_images/Pasted image 20230302175512.png",
     "z_images/Pasted image 20230304142913.png",
     "z_images/Pasted image 20230304142416.png",
     "z_images/Pasted image 20230304142327.png",
-    "Linear Algebra/Vectors.md",
     "Statistics/Standard Deviation.md",
     "z_images/Pasted image 20230304133216.png",
     "z_images/Pasted image 20230304133130.png",
-    "Linear Algebra/Matrix.md",
-    "Linear Algebra/General linear algebra.md",
     "AI/Numpy.md",
     "AI/Problem solving process.md",
     "Machine Learning/Correlation.md",
     "Machine Learning/Cosine Similarity.md",
-    "Linear Algebra/Norms.md",
     "Linear Algebra",
     "Linear algebra.md",
     "Statistics/Spread.md",
@@ -195,9 +174,6 @@
     "z_images/Pasted image 20230304130123.png",
     "z_images/Pasted image 20230304130045.png",
     "z_images/Pasted image 20230304125916.png",
-    "z_images/Pasted image 20230304125819.png",
-    "z_images/Pasted image 20230223213817.png",
-    "z_images/Immagine WhatsApp 2023-03-04 ore 12.27.10.jpg",
     "AI/Sets.md",
     "AI/Functions.md",
     "TODO.md",
@@ -209,7 +185,6 @@
     "Statistics/Z-score.md",
     "standard deviations.md",
     "Statistics/Box plot.md",
-    "Statistics/Measures of Position.md",
     "Statistics/Mean.md",
     "Statistics",
     "Computer Vision",
