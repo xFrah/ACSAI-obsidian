@@ -27,6 +27,41 @@ It would just be to follow the directions of the first vector, than we follow th
 ![](../z_images/Pasted%20image%2020230228151310.png)
 
 
+```ad-important
+A fundamental concept of vectors, is the idea that a vector is the sum of the scaled basis vectors.
+
+Let me clarify. We know that the base vectors are the vectors of length 1 that lie on the two axis.
+
+> ![](../z_images/Pasted%20image%2020230304125916.png)
+
+We can represent the vector `[3, -2]` as the scalars that multiply the basis vectors.
+
+So we would have:
+`3*[1, 0] and -2*[0, 1]`, so `[3, 0] and [0, -2].`
+
+> ![](../z_images/Pasted%20image%2020230304130123.png)
+
+If we sum these two vectors, we can see that the resulting point in space is exactly our vector `[3, -2]`.
+
+So we can represent our vector v as `3*Ĵ + -2*î`.
+
+> ![](../z_images/Pasted%20image%2020230304130045.png)
+```
+
+## Span:
+
+The span of a vector is the set of all their linear combinations(sum of vectors).
+The span of most 2D vectors is a 2D space.
+
+![](../z_images/Pasted%20image%2020230304133130.png)
+
+## Linear indipendence/Dimensions collapsing
+
+If two basis vectors line up in the same directions, the span lies on a single line.
+Another definition, is that if a basis vector sits on the span of another vector, it is redundant and doesn't add anything to the span of the system.
+
+![](../z_images/Pasted%20image%2020230304133216.png)
+
 ## Inner product (Dot product)
 
 We must know this very well!

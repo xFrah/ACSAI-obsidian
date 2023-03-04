@@ -23,7 +23,7 @@ Number of dimension: 2
 Number of elements: 6
 ```
 
-We plot a [[Vectors recap|vector]]:
+We plot a [[../Linear Algebra/Vectors|vector]]:
 
 
 ```

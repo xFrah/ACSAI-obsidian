@@ -3,7 +3,7 @@ We shouldn't think of it as a list of scalars.
 ![](../z_images/Pasted%20image%2020230228151744.png)
 
 ## Interpretation:
-- n column [[Vectors recap|vectors]] in a real-valued M-dimensional space.
+- n column [[Vectors|vectors]] in a real-valued M-dimensional space.
 - m row vectors in a real-valued N-dimensional space.
 
 ## Identity/Diagonal Matrix:
@@ -85,17 +85,47 @@ Hamaard multiplication: We do multiplications element wise. In python, it is don
 ```
 
 
-## Matrices as linear map between spaces
+## Matrices as linear map between spaces/Linear transformations
 
-DON'T THINK A MATRIX AS A BUNCH OF RANDOM POINTS.
-They actually map a space into another space.
+They actually map a space into another space. Or an input vector to an output vector.
 
-We are gonna take the standard basis, the unit vectors, and we are gonna translate them. Then the operation can be done for every other point.
+We are gonna take the basis vectors, and we are gonna change them. Then the operation can be done for every other point/vector.
 
-It's basically just a change of unit vectors.
+It's basically just a change of basis vectors.
 
 ![](../z_images/Pasted%20image%2020230302175512.png)
 
-![](../z_images/Pasted%20image%2020230302181621.png)
+We are given the vector: $$\Large\begin{bmatrix}5\\7\end{bmatrix}$$
+we can also represent it as a linear combination of scaled basis vectors:
+
+$$\Large5\hat{i}+7\hat{j}$$
+
+Now, the whole point of a linear transformation is to change the basis vectors, so we do:
+
+$$\Large\hat{i} = \begin{bmatrix}3\\-2\end{bmatrix},\quad \hat{i}=\begin{bmatrix}2\\1\end{bmatrix}$$
+
+The result is:
+$$\Large5\begin{bmatrix}3\\-2\end{bmatrix}+7\begin{bmatrix}2\\1\end{bmatrix}=\begin{bmatrix}15\\-10\end{bmatrix}+\begin{bmatrix}14\\7\end{bmatrix}$$
+
+The linear combination of our scaled new basis vectors is then our transformed vector:
+
+$$\Large\begin{bmatrix}15\\-10\end{bmatrix}+\begin{bmatrix}14\\7\end{bmatrix}=\begin{bmatrix}15 + 14\\-10 + 7\end{bmatrix}=\begin{bmatrix}29\\-3\end{bmatrix}$$
+
+This transformation can be represented as a matrix:
+$$\Large A=\begin{bmatrix}3 & 2 \\ -2 & 1 \end{bmatrix}$$
+Each column of the matrix is a new basis vector.
+
+
+```ad-tip
+Often, other people collapse the last part into a single vector whose elements are yet to be calculated.
+![](../z_images/Pasted%20image%2020230304142913.png)
+```
+
+
+
+#### Visual examples:
+![](../z_images/Pasted%20image%2020230304142327.png)
+
+![](../z_images/Pasted%20image%2020230304142416.png)
 
 Sometimes they can induce severe distortion when the two vectors lie in the same direction.
