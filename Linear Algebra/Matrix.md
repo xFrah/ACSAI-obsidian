@@ -1,6 +1,6 @@
 We shouldn't think of it as a list of scalars.
 
-![](../z_images/Pasted%20image%2020230228151744.png)
+$$\huge\begin{bmatrix} m_{11} & ... & m_{13} \\ ... & m_{22} & ... \\ m_{31} & ... & m_{33} \end{bmatrix}$$
 
 ## Interpretation:
 - n column [[Vectors|vectors]] in a real-valued M-dimensional space.
@@ -9,12 +9,16 @@ We shouldn't think of it as a list of scalars.
 
 ## Identity/Diagonal Matrix:
 
-![](../z_images/Pasted%20image%2020230228151814.png)
+$$\huge\begin{bmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+$$
 
 We plot a diagonal matrix with [numpy](../Numpy.md):
 
 ```
-#help(np.diag) 
 A = np.diag(np.ones(3)) # firstly create a vector [1,1,1] and then makes it a diagonal matrix 
 print(A)
 ```
@@ -123,6 +127,7 @@ Often, other people collapse the last part into a single vector whose elements a
 
 
 #### Visual examples:
+
 ![](../z_images/Pasted%20image%2020230304142327.png)
 
 ![](../z_images/Pasted%20image%2020230304142416.png)

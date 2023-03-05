@@ -11,8 +11,12 @@
             "id": "329e923149441a4d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Linear Algebra/Matrix.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Linear Algebra/Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Linear Algebra/Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Linear Algebra/Matrix.md"
+              }
             }
           }
         ],
@@ -140,19 +148,21 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "3fbe08ad2a0b5f0f",
+  "active": "329e923149441a4d",
   "lastOpenFiles": [
+    "Linear Algebra/Vectors.md",
+    "Linear Algebra/Norm.md",
+    "Linear Algebra/General linear algebra.md",
+    "Linear Algebra/Matrix.md",
+    "z_images/Pasted image 20230228151814.png",
+    "z_images/Pasted image 20230228151744.png",
     "AI/Sets.md",
     "AI/Functions.md",
-    "Linear Algebra/Vectors.md",
     "z_images/Pasted image 20230228145723.png",
-    "Linear Algebra/Matrix.md",
     "Statistics/Standard Deviation.md",
     "Statistics/Spread.md",
     "Statistics/Measures of Position.md",
     "z_images/Pasted image 20230304154959.png",
-    "Linear Algebra/Norm.md",
-    "Linear Algebra/General linear algebra.md",
     "z_images/Pasted image 20230302175512.png",
     "z_images/Pasted image 20230304142913.png",
     "z_images/Pasted image 20230304142416.png",
@@ -166,8 +176,6 @@
     "Linear Algebra",
     "Linear algebra.md",
     "Machine Learning/Learning Paradigms.md",
-    "z_images/Pasted image 20230304130123.png",
-    "z_images/Pasted image 20230304130045.png",
     "TODO.md",
     "Statistics/Mode.md",
     "2023-03-02.md",
