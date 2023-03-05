@@ -5,6 +5,7 @@ $$\huge\begin{bmatrix} m_{11} & ... & m_{13} \\ ... & m_{22} & ... \\ m_{31} & .
 ## Interpretation:
 - n column [[Vectors|vectors]] in a real-valued M-dimensional space.
 - m row vectors in a real-valued N-dimensional space.
+- Transformations, each column are new basis vectors.
 
 
 ## Identity/Diagonal Matrix:
@@ -15,21 +16,6 @@ $$\huge\begin{bmatrix}
 0 & 0 & 1
 \end{bmatrix}
 $$
-
-We plot a diagonal matrix with [numpy](../Numpy.md):
-
-```
-A = np.diag(np.ones(3)) # firstly create a vector [1,1,1] and then makes it a diagonal matrix 
-print(A)
-```
-Output:
-
-```
-[[1. 0. 0.]
-[0. 1. 0.]
-[0. 0. 1.]]
-```
-
 
 ## Symmetrical matrix:
 
@@ -159,3 +145,17 @@ $\Large\begin{bmatrix}1 & 1 \\ 0 & 1 \end{bmatrix}\begin{bmatrix}-1\\0\end{bmatr
 The result is the matrix:
 $$\Large\begin{bmatrix}1 & -1 \\ 1 & 0 \end{bmatrix}$$
 Which is exactly the same as the composition in the image above.
+
+
+## Determinant
+
+The determinant of a matrix/transformation is the factor by which any area is scaled by the transformation.
+
+![](../z_images/Pasted%20image%2020230305161956.png)
+
+The determinant also allows for negative values.
+Negative values happen when the space is "flipped", for example when the unit vectors cross each other.
+
+A determinant of 0 is means that dimensions have collapsed into a single one, so for example a volume has been squished into a plane or an area has been squished into a single line.
+
+This is what happens when the vectors/column of the matrix are not linearly indipendent.

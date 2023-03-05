@@ -3,8 +3,6 @@ Vectorizing: Avoiding loops.
 We create a matrix:
 
 ```
-import numpy as np 
-
 x = np.array([[2.5, 3.2], [0, 1], [2, -3]], dtype=np.float32)
 
 print(x) 
@@ -22,6 +20,22 @@ Shape (3, 2)
 Number of dimension: 2
 Number of elements: 6
 ```
+
+
+We plot a diagonal matrix:
+
+```
+A = np.diag(np.ones(3)) # firstly create a vector [1,1,1] and then makes it a diagonal matrix 
+print(A)
+```
+Output:
+
+```
+[[1. 0. 0.]
+[0. 1. 0.]
+[0. 0. 1.]]
+```
+
 
 We plot a [[../Linear Algebra/Vectors|vector]]:
 

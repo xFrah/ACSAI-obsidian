@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra/Matrix.md",
+                "file": "Linear Algebra/Vectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra/Matrix.md",
+                "file": "Linear Algebra/Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Algebra/Matrix.md",
+                "file": "Linear Algebra/Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra/Matrix.md"
+                "file": "Linear Algebra/Vectors.md"
               }
             }
           }
@@ -150,42 +150,43 @@
   },
   "active": "329e923149441a4d",
   "lastOpenFiles": [
-    "Linear Algebra/Vectors.md",
-    "Linear Algebra/Norm.md",
-    "Linear Algebra/General linear algebra.md",
+    "z_images/Pasted image 20230305180047.png",
+    "z_images/Pasted image 20230305175829.png",
     "Linear Algebra/Matrix.md",
+    "Linear Algebra/Vectors.md",
+    "z_images/Pasted image 20230305173626.png",
+    "z_images/Pasted image 20230305173257.png",
+    "z_images/Pasted image 20230305173452.png",
+    "z_images/Pasted image 20230305172918.png",
+    "z_images/Pasted image 20230305172741.png",
+    "Linear Algebra/Norm.md",
+    "Statistics/Box plot.md",
+    "Statistics/Mean.md",
+    "Statistics/Mode.md",
+    "Statistics/Median.md",
+    "AI/Agent.md",
+    "AI/Problem solving process.md",
+    "z_images/Pasted image 20230305161956.png",
+    "z_images/Pasted image 20230305161741.png",
+    "Statistics/Z-score.md",
+    "Numpy.md",
+    "Linear Algebra/General linear algebra.md",
     "z_images/Pasted image 20230228151814.png",
     "z_images/Pasted image 20230228151744.png",
     "AI/Sets.md",
     "AI/Functions.md",
-    "z_images/Pasted image 20230228145723.png",
     "Statistics/Standard Deviation.md",
     "Statistics/Spread.md",
     "Statistics/Measures of Position.md",
-    "z_images/Pasted image 20230304154959.png",
-    "z_images/Pasted image 20230302175512.png",
-    "z_images/Pasted image 20230304142913.png",
-    "z_images/Pasted image 20230304142416.png",
-    "z_images/Pasted image 20230304142327.png",
-    "z_images/Pasted image 20230304133216.png",
-    "z_images/Pasted image 20230304133130.png",
-    "Numpy.md",
-    "AI/Problem solving process.md",
     "Machine Learning/Correlation.md",
     "Machine Learning/Cosine Similarity.md",
     "Linear Algebra",
     "Linear algebra.md",
     "Machine Learning/Learning Paradigms.md",
     "TODO.md",
-    "Statistics/Mode.md",
     "2023-03-02.md",
     "Statistics/Association.md",
     "Statistics/Conditional Distribution.md",
-    "Statistics/Contingency table.md",
-    "Statistics/Z-score.md",
-    "standard deviations.md",
-    "Statistics/Box plot.md",
-    "Statistics/Mean.md",
     "Statistics",
     "Computer Vision",
     "z_images",
