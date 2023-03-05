@@ -36,7 +36,7 @@
       }
     },
     {
-      "query": "path:Maths",
+      "query": "path:\"Linear Algebra\"",
       "color": {
         "a": 1,
         "rgb": 16728642

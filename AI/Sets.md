@@ -67,5 +67,5 @@ It maps any set to a natural number.
 
 ## Sequences
 
-Sequences are functions whose domain is the set of positive integers.
+Sequences are [functions](Functions.md) whose domain is the set of positive integers.
 Think of an array, it can map shit to indexes evenly spaced?

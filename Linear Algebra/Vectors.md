@@ -1,15 +1,16 @@
-X is a high dimentional point in a vector space.
+$v$ is a high dimentional point in a vector space.
 
-![](../z_images/Pasted%20image%2020230228145723.png)
+$$\huge v=\begin{bmatrix}x\\y\end{bmatrix}$$
 
-Vectors are written column wise. We can make it row wise by transpising it.
+Vectors are written column wise. We can make it row wise by transposing it.
 
-![](../z_images/Pasted%20image%2020230228145737.png)
+$$\huge v^T=[x_0,\;x_1,\;...,\;x_D]$$
 
 A vector isn't just a list of numbers. We need to have an origin and an orientation of the axes.
 
 Imagine a plane with a looot of dimensions, then a vector is just a point inside of it.
 Each component i of the vector is a scalar that stands for the coordinate of the dimension i.
+
 
 ## Geometric Interpretation:
 
@@ -77,14 +78,14 @@ dot_product = x1y1 + x2y2 + x3y3 + x4y4
 Geometrically, it's the length of the projection of one vector on the other.
 
 ## gpt explanation
-We take the norm of the projection and we multiply with the norm of the other.
+We take the [norm](Norm.md) of the projection and we multiply with the norm of the other.
 
 The norm of the vector v * norm of the vector w * cos(angle)
 
 
 Imagine you have two vectors, let's call them $\mathbf{a}$ and $\mathbf{b}$. The inner product of these two vectors, denoted by $\mathbf{a} \cdot \mathbf{b}$, is calculated by multiplying the corresponding components of the two vectors and adding up the results. That is,
 
-$$ \mathbf{a} \cdot \mathbf{b} = a_1 b_1 + a_2 b_2 + \cdots + a_n b_n $$
+$$\large \mathbf{a} \cdot \mathbf{b} = a_1 b_1 + a_2 b_2 + \cdots + a_n b_n $$
 
 where $a_1$, $a_2$, $\cdots$, $a_n$ and $b_1$, $b_2$, $\cdots$, $b_n$ are the components of the vectors $\mathbf{a}$ and $\mathbf{b}$, respectively.
 
@@ -95,7 +96,7 @@ So, the inner product is essentially a way of measuring the similarity or correl
 
 The inner product of these vectors, denoted by $\mathbf{a} \cdot \mathbf{b}$, is given by:
 
-$$ \mathbf{a} \cdot \mathbf{b} = |\mathbf{a}| |\mathbf{b}| \cos \theta $$
+$$\large \mathbf{a} \cdot \mathbf{b} = |\mathbf{a}| |\mathbf{b}| \cos \theta $$
 
 where $|\mathbf{a}|$ and $|\mathbf{b}|$ are the magnitudes (lengths) of the vectors, and $\theta$ is the angle between the vectors.
 
@@ -106,7 +107,7 @@ Intuitively, when the angle between the vectors is small, the inner product is l
 So, the inner product provides a geometric way to measure the similarity between vectors, based on the angle between them and their magnitudes.
 
 ```ad-hint
-What is the norm of a vector?
+What is the [norm](Norm.md) of a vector?
 
 **The length of the vector** is referred to as the vector norm or the vector's magnitude.
 ```

@@ -11,7 +11,7 @@ We shouldn't think of it as a list of scalars.
 
 ![](../z_images/Pasted%20image%2020230228151814.png)
 
-We plot a diagonal matrix with [numpy](../AI/Numpy.md):
+We plot a diagonal matrix with [numpy](../Numpy.md):
 
 ```
 #help(np.diag) 
