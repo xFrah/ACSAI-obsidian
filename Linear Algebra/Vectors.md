@@ -107,6 +107,8 @@ And we can see that applying the transformation to the vector is the same operat
 In the first way, we are taking the norm/magnitudes of each vector and comparing them in one dimension. 
 In the second way we are collapsing everything in one single dimension(the one of the first vector), then the other vector will automatically project onto the dimension.
 
+	TO BE REVISED!
+
 ```ad-important
 #### How is this useful?
 
@@ -123,7 +125,6 @@ If the two vectors are going in opposite directions, the dot product will be neg
 > ![](../z_images/Pasted%20image%2020230305173626.png)
 ```
 
-
 ```ad-info
 Order doesn't matter, we can take the projection of either one of the two vectors and the dot product will stay the same.
 ```
@@ -136,36 +137,10 @@ Works only if you want to compare vectors that are in the same vector (dimension
 We must know this very well!
 ```
 
-
-
-## gpt explanation
-We take the [norm](Norm.md) of the projection and we multiply with the norm of the other.
-
-The norm of the vector v * norm of the vector w * cos(angle)
-
-
-Imagine you have two vectors, let's call them $\mathbf{a}$ and $\mathbf{b}$. The inner product of these two vectors, denoted by $\mathbf{a} \cdot \mathbf{b}$, is calculated by multiplying the corresponding components of the two vectors and adding up the results. That is,
-
-$$\large \mathbf{a} \cdot \mathbf{b} = a_1 b_1 + a_2 b_2 + \cdots + a_n b_n $$
-
-where $a_1$, $a_2$, $\cdots$, $a_n$ and $b_1$, $b_2$, $\cdots$, $b_n$ are the components of the vectors $\mathbf{a}$ and $\mathbf{b}$, respectively.
-
+```ad-tldr
+#### GPT Explanation
 So, the inner product is essentially a way of measuring the similarity or correlation between two vectors. If the vectors are similar, meaning their corresponding components are aligned in a similar direction, the inner product will be a large positive value. If the vectors are dissimilar, meaning their corresponding components are pointing in different directions or canceling each other out, the inner product will be smaller, possibly negative.
-
-
-## gpt geometric explanation
-
-The inner product of these vectors, denoted by $\mathbf{a} \cdot \mathbf{b}$, is given by:
-
-$$\large \mathbf{a} \cdot \mathbf{b} = |\mathbf{a}| |\mathbf{b}| \cos \theta $$
-
-where $|\mathbf{a}|$ and $|\mathbf{b}|$ are the magnitudes (lengths) of the vectors, and $\theta$ is the angle between the vectors.
-
-Geometrically, the inner product is equal to the projection of one vector onto the other, multiplied by the magnitude of the other vector. In the diagram above, the projection of $\mathbf{a}$ onto $\mathbf{b}$ is given by the length of the blue line, which is equal to $|\mathbf{a}| \cos \theta$. Multiplying this by $|\mathbf{b}|$ gives the area of the rectangle, which is equal to $\mathbf{a} \cdot \mathbf{b}$.
-
-Intuitively, when the angle between the vectors is small, the inner product is large, indicating that the vectors are similar in direction. Conversely, when the angle between the vectors is large, the inner product is small, indicating that the vectors are dissimilar in direction. If the angle between the vectors is 90 degrees, the inner product is zero, indicating that the vectors are orthogonal (perpendicular) to each other.
-
-So, the inner product provides a geometric way to measure the similarity between vectors, based on the angle between them and their magnitudes.
+```
 
 ```ad-hint
 What is the [norm](Norm.md) of a vector?

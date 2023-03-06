@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra/Vectors.md",
+                "file": "Linear Algebra/Matrix.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra/Vectors.md",
+                "file": "Linear Algebra/Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Algebra/Vectors.md",
+                "file": "Linear Algebra/Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra/Vectors.md"
+                "file": "Linear Algebra/Matrix.md"
               }
             }
           }
@@ -150,10 +150,10 @@
   },
   "active": "329e923149441a4d",
   "lastOpenFiles": [
+    "Linear Algebra/Vectors.md",
     "z_images/Pasted image 20230305180047.png",
     "z_images/Pasted image 20230305175829.png",
     "Linear Algebra/Matrix.md",
-    "Linear Algebra/Vectors.md",
     "z_images/Pasted image 20230305173626.png",
     "z_images/Pasted image 20230305173257.png",
     "z_images/Pasted image 20230305173452.png",
@@ -172,7 +172,6 @@
     "Numpy.md",
     "Linear Algebra/General linear algebra.md",
     "z_images/Pasted image 20230228151814.png",
-    "z_images/Pasted image 20230228151744.png",
     "AI/Sets.md",
     "AI/Functions.md",
     "Statistics/Standard Deviation.md",
