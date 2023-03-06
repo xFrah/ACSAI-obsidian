@@ -1,6 +1,6 @@
 $v$ is a high dimentional point in a vector space.
 
-$$\huge v=\begin{bmatrix}x\\y\end{bmatrix}$$
+$$\huge v=\begin{bmatrix}x\\ y\end{bmatrix}$$
 
 Vectors are written column wise. We can make it row wise by transposing it.
 
@@ -110,7 +110,7 @@ In the second way we are collapsing everything in one single dimension(the one o
 	TO BE REVISED!
 
 ```ad-important
-#### How is this useful?
+title: How is this useful?
 
 BECAUSE, the dot product lets you see if two vectors are similar.
 In fact, if two vectors are generally going in the same direction, the dot product will be positive and  big.
@@ -138,11 +138,12 @@ We must know this very well!
 ```
 
 ```ad-tldr
-#### GPT Explanation
+title: GPT Explanation
 So, the inner product is essentially a way of measuring the similarity or correlation between two vectors. If the vectors are similar, meaning their corresponding components are aligned in a similar direction, the inner product will be a large positive value. If the vectors are dissimilar, meaning their corresponding components are pointing in different directions or canceling each other out, the inner product will be smaller, possibly negative.
 ```
 
-```ad-hint
+```ad-info
+title: Norm
 What is the [norm](Norm.md) of a vector?
 
 **The length of the vector** is referred to as the vector norm or the vector's magnitude.

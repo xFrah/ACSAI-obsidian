@@ -58,7 +58,7 @@ You flatten the axes, so you get something that is 1x3. You flatten the rows.
 The axis where you do the operation is said to be flattened.
 
 ```ad-warning
-Question of the exam about this!!
+title: Exam question
 
 What is the geometric meaning of a point cloud and we want to translate it to the origin.
 
@@ -72,7 +72,8 @@ For each point x and y, we subtract the meanX and meanY. (x, y) - (meanX, meanY)
 ```
 
 ```ad-tip
-Hamaard multiplication: We do multiplications element wise. In python, it is done by the operator "*", between matrices.
+title: Hamaard multiplication
+We do multiplications element wise. In python, it is done by the operator "*", between matrices.
 ```
 
 
@@ -106,6 +107,7 @@ Each column of the matrix is a new basis vector.
 
 
 ```ad-tip
+title: Alternative writing
 Often, other people collapse the last part into a single vector whose elements are yet to be calculated.
 ![](../z_images/Pasted%20image%2020230304142913.png)
 ```

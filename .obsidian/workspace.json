@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra/Matrix.md",
+                "file": "Numpy.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra/Matrix.md",
+                "file": "Numpy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Algebra/Matrix.md",
+                "file": "Numpy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra/Matrix.md"
+                "file": "Numpy.md"
               }
             }
           }
@@ -150,16 +150,18 @@
   },
   "active": "329e923149441a4d",
   "lastOpenFiles": [
+    "Linear Algebra/Matrix.md",
     "Linear Algebra/Vectors.md",
+    "Machine Learning/Correlation.md",
+    "Linear Algebra/Norm.md",
+    "Numpy.md",
     "z_images/Pasted image 20230305180047.png",
     "z_images/Pasted image 20230305175829.png",
-    "Linear Algebra/Matrix.md",
     "z_images/Pasted image 20230305173626.png",
     "z_images/Pasted image 20230305173257.png",
     "z_images/Pasted image 20230305173452.png",
     "z_images/Pasted image 20230305172918.png",
     "z_images/Pasted image 20230305172741.png",
-    "Linear Algebra/Norm.md",
     "Statistics/Box plot.md",
     "Statistics/Mean.md",
     "Statistics/Mode.md",
@@ -169,7 +171,6 @@
     "z_images/Pasted image 20230305161956.png",
     "z_images/Pasted image 20230305161741.png",
     "Statistics/Z-score.md",
-    "Numpy.md",
     "Linear Algebra/General linear algebra.md",
     "z_images/Pasted image 20230228151814.png",
     "AI/Sets.md",
@@ -177,7 +178,6 @@
     "Statistics/Standard Deviation.md",
     "Statistics/Spread.md",
     "Statistics/Measures of Position.md",
-    "Machine Learning/Correlation.md",
     "Machine Learning/Cosine Similarity.md",
     "Linear Algebra",
     "Linear algebra.md",
