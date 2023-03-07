@@ -65,3 +65,5 @@ what's opencv-contrib-python? its fucking legacy features and patented code?
 np.random.seed: its the seed that np.random uses to generate random numbers
 
 you can do this apparently: arr[::-1, ::-1] to flip vertically and horizontally a 2D matrix.
+
+If you select a slice out of the matrix, the new object will not be a mere copy, but a reference to the real objects. I THINK.
