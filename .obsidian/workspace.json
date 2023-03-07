@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Learning Paradigms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86b2d8d075f7c3c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/PCA.md",
+                "file": "Machine Learning/Transformations.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Rotations and Translations.md",
+                "file": "Linear Algebra/Matrix.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Rotations and Translations.md",
+                "file": "Machine Learning/Transformations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Rotations and Translations.md",
+                "file": "Machine Learning/Transformations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Rotations and Translations.md"
+                "file": "Machine Learning/Transformations.md"
               }
             }
           }
@@ -185,43 +173,43 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "d083c273f67f047b",
+  "active": "cced0476e15f0b6b",
   "lastOpenFiles": [
+    "z_images/Pasted image 20230307181604.png",
+    "z_images/Pasted image 20230307174837.png",
+    "Machine Learning/Learning Paradigms.md",
+    "Linear Algebra/Matrix.md",
+    "Linear Algebra/Norm.md",
+    "Machine Learning/Transformations.md",
+    "z_images/Pasted image 20230307171444.png",
+    "z_images/Pasted image 20230307165614.png",
+    "Machine Learning/PCA.md",
+    "Machine Learning/Cosine Similarity.md",
     "z_images/Pasted image 20230307151148.png",
     "z_images/Pasted image 20230307143854.png",
-    "Linear Algebra/Matrix.md",
     "Linear Algebra/Vectors.md",
-    "Machine Learning/Rotations and Translations.md",
-    "Machine Learning/PCA.md",
-    "Machine Learning/Learning Paradigms.md",
     "Machine Learning/Correlation.md",
     "TODO.md",
     "AI/Search problems.md",
     "AI/Sets.md",
     "Numpy.md",
-    "Linear Algebra/Norm.md",
     "z_images/Pasted image 20230305180047.png",
     "z_images/Pasted image 20230305175829.png",
     "z_images/Pasted image 20230305173626.png",
     "z_images/Pasted image 20230305173257.png",
     "z_images/Pasted image 20230305173452.png",
-    "z_images/Pasted image 20230305172918.png",
-    "z_images/Pasted image 20230305172741.png",
     "Statistics/Box plot.md",
     "Statistics/Mean.md",
     "Statistics/Mode.md",
     "Statistics/Median.md",
     "AI/Agent.md",
     "AI/Problem solving process.md",
-    "z_images/Pasted image 20230305161956.png",
-    "z_images/Pasted image 20230305161741.png",
     "Statistics/Z-score.md",
     "Linear Algebra/General linear algebra.md",
     "AI/Functions.md",
     "Statistics/Standard Deviation.md",
     "Statistics/Spread.md",
     "Statistics/Measures of Position.md",
-    "Machine Learning/Cosine Similarity.md",
     "Linear Algebra",
     "Linear algebra.md",
     "Statistics",
