@@ -72,7 +72,7 @@ Two vectors are linearly dependent if one is the scaled version of the other.
 
 Let $\large x$ and $\large y$ be two 2D vectors with their magnitudes $\large |x|$ and $\large |y|$.
 
-Now, we take $\large y$ and compute the length of its projection onto $\large x$, which we call $\large y_p$:
+Now, we take $\large y$ and compute the length of its [projection](Projection.md) onto $\large x$, which we call $\large y_p$:
 
 $$\Large y_p=|y|\cos{\theta}$$
 
@@ -104,7 +104,7 @@ Since the components of our vector are adding value to the same dimension, for u
 
 So the new vector/scalar is -2. 
 And we can see that applying the transformation to the vector is the same operation that we described before.
-In the first way, we are taking the norm/magnitudes of each vector and comparing them in one dimension. 
+In the first way, we are taking the [norm](Norm.md)/magnitudes of each vector and comparing them in one dimension. 
 In the second way we are collapsing everything in one single dimension(the one of the first vector), then the other vector will automatically project onto the dimension.
 
 	TO BE REVISED!

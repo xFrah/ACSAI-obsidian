@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "path:AI",
+      "query": "path:\"Artificial Intelligence\"",
       "color": {
         "a": 1,
         "rgb": 1943297

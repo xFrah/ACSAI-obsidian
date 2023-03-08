@@ -1,5 +1,5 @@
 - Appunti della prima lezione di statistica.
 - Rifinire gli appunti di Machine learning, ultima lezione.
 - Come è finita la scorsa lezione di computer vision? Cosa hanno fatto di numpy?
-- STUDIA ULTIMA LEZIONE DI MACHINE LEARNING, LINEAR ALGEBRA, DOT PRODUCT, INNER PRODUCT, OUTER PRODUCT, MATRIX-MATRIX MULTIPLICATION
 - Ultima lezione di ai, graphs, trees, chains
+- STUDIA ULTIMA LEZIONE DI MACHINE LEARNING: https://mybinder.org/v2/gh/iacopomasi/AI-ML-Unit-2/HEAD?urlpath=/tree/AA2223/course/03_math_recap_eig_pca_3dmm/03_math_recap_eig_pca_3dmm.ipynb, UNTIL PAGE 21.

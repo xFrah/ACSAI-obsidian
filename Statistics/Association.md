@@ -90,3 +90,5 @@ The variables are:
 	
 - Not associated:
 		![](../z_images/Pasted%20image%2020230302152600.png)
+
+The strength of the association can be measured through the [correlation coefficient](Correlation%20coefficient.md).
