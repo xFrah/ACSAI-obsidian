@@ -83,12 +83,8 @@
             "id": "78e9a866ee6b3580",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -182,7 +178,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +194,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -221,9 +215,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -244,12 +236,13 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "62c9edd83bcceed7",
+  "active": "78e9a866ee6b3580",
   "lastOpenFiles": [
+    "Machine Learning/PCA.md",
+    "Machine Learning/Covariance matrix.md",
+    "README.md",
     "z_images/walter-white-fuck-you-walt-fuck-you.gif",
     "z_images/Pasted image 20230309164933.png",
-    "Machine Learning/PCA.md",
-    "README.md",
     "z_images/Pasted image 20230309162850.png",
     "z_images/Pasted image 20230309162805.png",
     "z_images/Pasted image 20230309162804.png",
@@ -259,8 +252,6 @@
     "z_images/Pasted image 20230309160942.png",
     "z_images/Pasted image 20230309160917.png",
     "z_images/Pasted image 20230309160913.png",
-    "z_images/Pasted image 20230309160909.png",
-    "Machine Learning/Covariance matrix.md",
     "Machine Learning/SVD.md",
     "Probability/Finding probabilities.md",
     "Probability/Event.md",
@@ -273,8 +264,8 @@
     "Statistics/Box plot.md",
     "Statistics/Measures of Position.md",
     "Statistics/Median.md",
-    "Numpy.md",
-    "Computer Vision/Color.md",
+    "AI-LAB/Numpy.md",
+    "AI-LAB/Color.md",
     "Untitled 1.md",
     "Statistics/Variance.md",
     "Statistics/Standard Deviation.md",
@@ -286,7 +277,7 @@
     "z_images/Non confermato 535.crdownload",
     "Linear Algebra",
     "Statistics",
-    "Computer Vision",
+    "AI-LAB",
     "z_images",
     "z_images",
     "Artificial Intelligence",

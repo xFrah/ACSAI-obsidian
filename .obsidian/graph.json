@@ -29,7 +29,7 @@
       }
     },
     {
-      "query": "path:\"Computer Vision\"",
+      "query": "path:\"AI-LAB\"",
       "color": {
         "a": 1,
         "rgb": 12779755
@@ -40,6 +40,13 @@
       "color": {
         "a": 1,
         "rgb": 16728642
+      }
+    },
+    {
+      "query": "path:Probability",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
       }
     }
   ],
