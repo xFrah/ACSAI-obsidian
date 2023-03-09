@@ -80,6 +80,18 @@
             }
           },
           {
+            "id": "78e9a866ee6b3580",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e339ef8b0d8fb8e3",
             "type": "leaf",
             "state": {
@@ -104,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/PCA.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/PCA.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -210,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/PCA.md"
+                "file": "README.md"
               }
             }
           }
@@ -232,14 +244,17 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "97052dc8003e0d5d",
+  "active": "62c9edd83bcceed7",
   "lastOpenFiles": [
+    "z_images/walter-white-fuck-you-walt-fuck-you.gif",
+    "z_images/Pasted image 20230309164933.png",
+    "Machine Learning/PCA.md",
+    "README.md",
     "z_images/Pasted image 20230309162850.png",
     "z_images/Pasted image 20230309162805.png",
     "z_images/Pasted image 20230309162804.png",
     "z_images/Pasted image 20230309162713.png",
     "Statistics/Regression.md",
-    "Machine Learning/PCA.md",
     "z_images/Pasted image 20230309161558.png",
     "z_images/Pasted image 20230309160942.png",
     "z_images/Pasted image 20230309160917.png",
@@ -247,12 +262,10 @@
     "z_images/Pasted image 20230309160909.png",
     "Machine Learning/Covariance matrix.md",
     "Machine Learning/SVD.md",
-    "z_images/Pasted image 20230309152504.png",
     "Probability/Finding probabilities.md",
     "Probability/Event.md",
     "Statistics/Randomness.md",
     "Probability",
-    "z_images/Pasted image 20230309134857.png",
     "Statistics/Samples vs Population.md",
     "Linear Algebra/Eigenvectors and Eigenvalues.md",
     "Linear Algebra/Transformations.md",
@@ -263,7 +276,6 @@
     "Numpy.md",
     "Computer Vision/Color.md",
     "Untitled 1.md",
-    "Untitled.md",
     "Statistics/Variance.md",
     "Statistics/Standard Deviation.md",
     "Statistics/Spread.md",
