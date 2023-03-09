@@ -52,17 +52,23 @@ The least squares regression is the line that minimizes the vertical distance be
 The slope is given by:
 $$\large r \frac{std(y)}{std(x)} = \frac{cov(x, y)\,\bcancel{std(y)}}{std(x)\;std(x)\bcancel{std(y)}} = \frac{cov(x, y)}{std(x)^2} = \frac{\sum(x_i - \mu_x)(y_i - \mu_y)}{\sum(x_i - \mu_x)^2}$$
 
+
 Where:
-- $\large r$ is the correlation coefficient
+- $\large r$ is the [correlation coefficient](Correlation%20coefficient.md)
 $$\large r_{x,y} = \frac{ cov(x,y) }{ std(x) \, std(y) }$$
-- $\large std$ is the standard deviation:
+- $\large std$ is the [standard deviation](Standard%20Deviation.md):
 $$ \large std = \sqrt{\sum(x_i - \mu_x)^2}$$
-- $\large cov$ is the covariance:
+- $\large cov$ is the [covariance](Covariance.md):
 $$\large cov=\sum(X - \mu_X)(Y - \mu_Y)$$
-- $\large \mu_x$ is the mean of x
+- $\large \mu_x$ is the [mean](Mean.md) of x
 - $\large \mu_y$ is the mean of y
 
-I DON'T FUCKING UNDERSTAND, R HAS STD NOT VARIANCE AS DENOMINATOR, THEN WHY ARE WE SIMPLIFYING LIKE THIS?? Because maybe they are standard deviations
+
+```ad-hint
+title: Why?
+Because.
+```
+
 
 ```ad-note
 The sum of the residuals about the least squares regression line will always be zero

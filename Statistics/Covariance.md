@@ -28,4 +28,4 @@ Obviously, if the points are all over and not going in a specific direction, the
 
 On the contrary, if we have a very marked and specific direction in the data, the covariance will be 1. The more sparse the data is, the closer to 0 it gets because of all the different sign areas.
 
-Final remark, <span style="background:rgba(183, 152, 255, 0.3)">we are not getting any information about the strength of the relation</span>, only about its direction. We will see that this will be accomplished with the Pearson Correlation Coefficient, which will indicate direction and strength of the relation.
+Final remark, <span style="background:rgba(183, 152, 255, 0.3)">we are not getting any information about the strength of the relation</span>, only about its direction. We will see that this will be accomplished with the Pearson [Correlation Coefficient](Correlation%20coefficient.md), which will indicate direction and strength of the relation.

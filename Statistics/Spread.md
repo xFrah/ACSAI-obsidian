@@ -9,7 +9,7 @@ The range is the difference between the largest and smallest values in the data 
 
 ## [Standard deviation](Standard%20Deviation.md)
 
-- Each data value has an associated deviation from the mean x - ux.
+- Each data value has an associated deviation from the [mean](Mean.md) x - ux.
 - A deviation is considered positive if it falls above the mean and negative if it falls below the mean.
 - The sum of deviations is always zero, the mean is the center.
 - A measure of variation can be obtained by summarizing the squared devitions of eah obsercations from the mean and calculating an average of these squared deviations.

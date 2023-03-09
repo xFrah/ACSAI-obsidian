@@ -13,7 +13,7 @@ Steps to find median:
 ![](../z_images/Pasted%20image%2020230301141953.png)
 
 
-```ad-hint
+```ad-info
 The median is more <span style="background:rgba(183, 152, 255, 0.3)">robust to extreme values</span> than the [mean](../Maths/Mean.md), because the median doesn't take into considerations all the values.
 ```
 
