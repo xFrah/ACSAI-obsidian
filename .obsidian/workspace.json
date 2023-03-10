@@ -83,8 +83,24 @@
             "id": "78e9a866ee6b3580",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Artificial Intelligence/Search problems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "137f73af368d839e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -112,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -178,6 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,6 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -215,7 +233,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TODO.md"
+              }
             }
           }
         ],
@@ -223,23 +243,29 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obisidian-note-linker:Note Linker": false
+      "obisidian-note-linker:Note Linker": false,
+      "switcher:Open quick switcher": false,
+      "random-note:Open random note": false
     }
   },
-  "active": "78e9a866ee6b3580",
+  "active": "137f73af368d839e",
   "lastOpenFiles": [
+    "Artificial Intelligence/Best-first search.md",
+    "Artificial Intelligence/Search problems.md",
+    "Artificial Intelligence/Set theory.md",
     "Machine Learning/PCA.md",
+    "Machine Learning/Learning Paradigms.md",
     "Machine Learning/Covariance matrix.md",
+    "Machine Learning/Cosine Similarity.md",
+    "Linear Algebra/Eigenvectors and Eigenvalues.md",
     "README.md",
     "z_images/walter-white-fuck-you-walt-fuck-you.gif",
     "z_images/Pasted image 20230309164933.png",
@@ -258,7 +284,6 @@
     "Statistics/Randomness.md",
     "Probability",
     "Statistics/Samples vs Population.md",
-    "Linear Algebra/Eigenvectors and Eigenvalues.md",
     "Linear Algebra/Transformations.md",
     "Statistics/Association.md",
     "Statistics/Box plot.md",
@@ -270,10 +295,6 @@
     "Statistics/Variance.md",
     "Statistics/Standard Deviation.md",
     "Statistics/Spread.md",
-    "Statistics/Mode.md",
-    "Statistics/Covariance.md",
-    "Statistics/Mean.md",
-    "TODO.md",
     "z_images/Non confermato 535.crdownload",
     "Linear Algebra",
     "Statistics",
