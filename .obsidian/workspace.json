@@ -4,71 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "704b50be7be53796",
+        "id": "b922a8c77643d356",
         "type": "tabs",
         "children": [
           {
-            "id": "b1dac6d026da6c0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Covariance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "464c7418bbba7e0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Samples vs Population.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b9944d265ba19d48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Randomness.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62cbd5c3af38a3c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability/Event.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5149bd2850c65e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability/Finding probabilities.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97052dc8003e0d5d",
+            "id": "9c06d2ed7011b843",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,57 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "78e9a866ee6b3580",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Artificial Intelligence/Search problems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "137f73af368d839e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TODO.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e339ef8b0d8fb8e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Covariance matrix.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e13a2c84c7933573",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Standard Deviation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "Machine Learning/PCA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO.md",
+                "file": "Machine Learning/PCA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -234,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "Machine Learning/PCA.md"
               }
             }
           }
@@ -256,45 +147,45 @@
       "random-note:Open random note": false
     }
   },
-  "active": "137f73af368d839e",
+  "active": "9c06d2ed7011b843",
   "lastOpenFiles": [
-    "Artificial Intelligence/Best-first search.md",
-    "Artificial Intelligence/Search problems.md",
-    "Artificial Intelligence/Set theory.md",
-    "Machine Learning/PCA.md",
-    "Machine Learning/Learning Paradigms.md",
     "Machine Learning/Covariance matrix.md",
     "Machine Learning/Cosine Similarity.md",
     "Linear Algebra/Eigenvectors and Eigenvalues.md",
+    "Linear Algebra/Vectors.md",
+    "Linear Algebra/Transformations.md",
+    "Linear Algebra/Matrix.md",
+    "Linear Algebra/Hyperplanes.md",
+    "Linear Algebra/Projection.md",
+    "Linear Algebra/Norm.md",
+    "z_images/Pasted image 20230311005745.png",
+    "Statistics/Standard Deviation.md",
+    "Machine Learning/PCA.md",
+    "Artificial Intelligence/Search problems.md",
+    "z_images/Pasted image 20230310215652.png",
+    "z_images/Pasted image 20230307151148.png",
+    "z_images/Pasted image 20230310212726.png",
+    "z_images/Pasted image 20230310212711.png",
+    "TODO.md",
+    "Artificial Intelligence/Best-first search.md",
+    "Artificial Intelligence/Set theory.md",
+    "Machine Learning/Learning Paradigms.md",
     "README.md",
     "z_images/walter-white-fuck-you-walt-fuck-you.gif",
     "z_images/Pasted image 20230309164933.png",
     "z_images/Pasted image 20230309162850.png",
     "z_images/Pasted image 20230309162805.png",
     "z_images/Pasted image 20230309162804.png",
-    "z_images/Pasted image 20230309162713.png",
     "Statistics/Regression.md",
-    "z_images/Pasted image 20230309161558.png",
-    "z_images/Pasted image 20230309160942.png",
-    "z_images/Pasted image 20230309160917.png",
-    "z_images/Pasted image 20230309160913.png",
     "Machine Learning/SVD.md",
     "Probability/Finding probabilities.md",
     "Probability/Event.md",
     "Statistics/Randomness.md",
     "Probability",
     "Statistics/Samples vs Population.md",
-    "Linear Algebra/Transformations.md",
     "Statistics/Association.md",
     "Statistics/Box plot.md",
     "Statistics/Measures of Position.md",
-    "Statistics/Median.md",
-    "AI-LAB/Numpy.md",
-    "AI-LAB/Color.md",
-    "Untitled 1.md",
-    "Statistics/Variance.md",
-    "Statistics/Standard Deviation.md",
-    "Statistics/Spread.md",
     "z_images/Non confermato 535.crdownload",
     "Linear Algebra",
     "Statistics",
