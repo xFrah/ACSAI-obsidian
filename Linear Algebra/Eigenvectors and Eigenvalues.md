@@ -28,3 +28,10 @@ The determinant of a [matrix](Matrix.md) is the product of eigenvalues.
 ```ad-info
 In a 3D rotation, the axis of rotation is an eigenvector. It doesn't change direction.
 ```
+
+
+## Formal definition
+
+![](../z_images/Pasted%20image%2020230311132943.png)
+
+The <font color="#31859b">eigen vectors</font> are such that when receiving a <font color="#b2a2c7">linear transformation</font>, they stay on the same <font color="#31859b">original direction</font>, only scaled by their <font color="#c0504d">eigenvalue</font>($\large\lambda$).

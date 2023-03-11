@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3ba99552088a8852",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/PCA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/PCA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Machine Learning/PCA.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,45 +152,44 @@
       "random-note:Open random note": false
     }
   },
-  "active": "9c06d2ed7011b843",
+  "active": "3ba99552088a8852",
   "lastOpenFiles": [
+    "Linear Algebra/Spectral decomposition.md",
+    "z_images/Pasted image 20230311142934.png",
+    "z_images/Pasted image 20230311140450.png",
+    "z_images/Pasted image 20230311142752.png",
+    "Linear Algebra/Symmetric matrix.md",
+    "Linear Algebra/Eigenvectors and Eigenvalues.md",
+    "z_images/Pasted image 20230311132943.png",
+    "z_images/Pasted image 20230311132928.png",
+    "Machine Learning/SVD.md",
+    "Linear Algebra/Transformations.md",
+    "Linear Algebra/Vectors.md",
+    "z_images/Pasted image 20230311131627.png",
+    "z_images/Pasted image 20230311130642.png",
+    "z_images/Pasted image 20230311123400.png",
+    "Machine Learning/PCA.md",
     "Machine Learning/Covariance matrix.md",
     "Machine Learning/Cosine Similarity.md",
-    "Linear Algebra/Eigenvectors and Eigenvalues.md",
-    "Linear Algebra/Vectors.md",
-    "Linear Algebra/Transformations.md",
     "Linear Algebra/Matrix.md",
     "Linear Algebra/Hyperplanes.md",
     "Linear Algebra/Projection.md",
     "Linear Algebra/Norm.md",
     "z_images/Pasted image 20230311005745.png",
     "Statistics/Standard Deviation.md",
-    "Machine Learning/PCA.md",
     "Artificial Intelligence/Search problems.md",
     "z_images/Pasted image 20230310215652.png",
-    "z_images/Pasted image 20230307151148.png",
-    "z_images/Pasted image 20230310212726.png",
-    "z_images/Pasted image 20230310212711.png",
     "TODO.md",
     "Artificial Intelligence/Best-first search.md",
     "Artificial Intelligence/Set theory.md",
     "Machine Learning/Learning Paradigms.md",
     "README.md",
-    "z_images/walter-white-fuck-you-walt-fuck-you.gif",
-    "z_images/Pasted image 20230309164933.png",
-    "z_images/Pasted image 20230309162850.png",
-    "z_images/Pasted image 20230309162805.png",
-    "z_images/Pasted image 20230309162804.png",
     "Statistics/Regression.md",
-    "Machine Learning/SVD.md",
     "Probability/Finding probabilities.md",
     "Probability/Event.md",
     "Statistics/Randomness.md",
     "Probability",
     "Statistics/Samples vs Population.md",
-    "Statistics/Association.md",
-    "Statistics/Box plot.md",
-    "Statistics/Measures of Position.md",
     "z_images/Non confermato 535.crdownload",
     "Linear Algebra",
     "Statistics",

@@ -1,4 +1,4 @@
-## Isometries: Rotations and Translations
+## Isometries/Orthogonal matrix: Rotations and Translations
 
 If we want to rotate, we can add one single scalar. We can do that by using this transformation [matrix](Matrix.md), and justby using a single number we can rotate.
 
@@ -19,6 +19,14 @@ Then, with $\large\begin{bmatrix} \cos{\theta}\\ \sin{\theta} \end{bmatrix}$, wi
 
 For $\large\hat{i}$ it's the same thing, the only difference is that it is at a different position in the unit circle.
 In fact, when $\large\theta = 0$, $\large\begin{bmatrix} -\sin{\theta}\\ \cos{\theta} \end{bmatrix} = \large\begin{bmatrix} 0\\ 1 \end{bmatrix}$, which is exactly the basic $\large\hat{i}$.
+```
+
+```ad-info
+If you transpose an orthogonal matrix(rotation), you get its inverse matrix, which is the exact rotation but backwards.
+
+So with $AA^T$, nothing changes.
+
+> ![](../z_images/Pasted%20image%2020230311130642.png)
 ```
 
 
