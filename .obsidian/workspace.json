@@ -23,12 +23,28 @@
             "id": "3ba99552088a8852",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Linear Algebra/SVD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4930aed6adf8a1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Algebra/SVD.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -94,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Linear Algebra/SVD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Linear Algebra/SVD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -131,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Linear Algebra/SVD.md"
+              }
             }
           }
         ],
@@ -152,44 +173,45 @@
       "random-note:Open random note": false
     }
   },
-  "active": "3ba99552088a8852",
+  "active": "3fbe08ad2a0b5f0f",
   "lastOpenFiles": [
+    "Linear Algebra/Symmetric matrix.md",
+    "Linear Algebra/SVD.md",
+    "Linear Algebra/Hyperplanes.md",
     "Linear Algebra/Spectral decomposition.md",
+    "Linear Algebra/Rectangular matrix.md",
+    "z_images/Pasted image 20230311153429.png",
+    "z_images/Pasted image 20230311153401.png",
+    "z_images/Pasted image 20230311153357.png",
+    "Machine Learning/Learning Paradigms.md",
+    "Artificial Intelligence/Problem solving process.md",
+    "Artificial Intelligence/Graph.md",
+    "Linear Algebra/Projection.md",
+    "Linear Algebra/Transformations.md",
+    "Linear Algebra/Eigenvectors and Eigenvalues.md",
+    "Machine Learning/Covariance matrix.md",
+    "Linear Algebra/Vectors.md",
     "z_images/Pasted image 20230311142934.png",
     "z_images/Pasted image 20230311140450.png",
     "z_images/Pasted image 20230311142752.png",
-    "Linear Algebra/Symmetric matrix.md",
-    "Linear Algebra/Eigenvectors and Eigenvalues.md",
     "z_images/Pasted image 20230311132943.png",
     "z_images/Pasted image 20230311132928.png",
-    "Machine Learning/SVD.md",
-    "Linear Algebra/Transformations.md",
-    "Linear Algebra/Vectors.md",
     "z_images/Pasted image 20230311131627.png",
     "z_images/Pasted image 20230311130642.png",
-    "z_images/Pasted image 20230311123400.png",
     "Machine Learning/PCA.md",
-    "Machine Learning/Covariance matrix.md",
     "Machine Learning/Cosine Similarity.md",
     "Linear Algebra/Matrix.md",
-    "Linear Algebra/Hyperplanes.md",
-    "Linear Algebra/Projection.md",
     "Linear Algebra/Norm.md",
-    "z_images/Pasted image 20230311005745.png",
     "Statistics/Standard Deviation.md",
-    "Artificial Intelligence/Search problems.md",
-    "z_images/Pasted image 20230310215652.png",
     "TODO.md",
     "Artificial Intelligence/Best-first search.md",
     "Artificial Intelligence/Set theory.md",
-    "Machine Learning/Learning Paradigms.md",
     "README.md",
     "Statistics/Regression.md",
     "Probability/Finding probabilities.md",
     "Probability/Event.md",
     "Statistics/Randomness.md",
     "Probability",
-    "Statistics/Samples vs Population.md",
     "z_images/Non confermato 535.crdownload",
     "Linear Algebra",
     "Statistics",

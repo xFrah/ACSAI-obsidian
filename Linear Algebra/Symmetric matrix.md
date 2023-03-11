@@ -6,6 +6,20 @@ It is describable by:
 $$\Large A_{ji}=A_{ij}$$
 
 
+```ad-info
+title: Why are they useful?
+The eigenvectors are perpendicular to each other.
+
+That means that if we pack the eigenvectors(normalized) into a matrix, we obtain an orthogonal matrix that describes a rotation of the basis vectors to the eigenvectors.
+
+‎ 
+
+But the cool thing is:
+
+If we transpose this orthogonal matrix, we get its inverse, so the counter to the original rotation.
+```
+
+
 ```ad-hint
 Non-square matrices cannot be symmetrical.
 ```

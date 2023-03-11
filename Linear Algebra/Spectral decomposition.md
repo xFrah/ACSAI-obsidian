@@ -14,7 +14,7 @@ Whenever you have a [symmetric matrix](Symmetric%20matrix.md) S, we can always a
 ![](../z_images/Pasted%20image%2020230311142752.png)
 
 What is happening is that:
-$Q^T$) We rotate the plane so that the eigenvectors end up on the basis [vectors](Vectors.md).
+$Q^T$) We rotate the plane so that the [[Eigenvectors and Eigenvalues|eigenvectors]] end up on the basis [vectors](Vectors.md).
 $A$) Once we have the eigenvectors there, we scale them.
 $Q$) We rotate the plane so that the eigenvectors end up shere they were before. But now they are scaled.
 
@@ -23,11 +23,14 @@ $Q$) We rotate the plane so that the eigenvectors end up shere they were before.
 
 ![](../z_images/Pasted%20image%2020230311142934.png)
 
+(The steps are not in order)
 - $Q$ is an [[Transformations|orthogonal matrix]], which means that it's a rotation. Its columns are the eigenvectors of S.
 	- It makes the basis vectors rotate to the eigenvectors.
+	![](../z_images/Pasted%20image%2020230311153429.png)
 - $Q^T$ is the inverse of Q, which means that it counters the rotation of Q perfectly.
 - A is a diagonal matrix, which means that all the values except the ones on the diagonal, are zero. 
 	- Its purpose is to scale the axes. We rotated everything so that we could scale the eigenvectors with this simple matrix.
+	![](../z_images/Pasted%20image%2020230311153401.png)
 
 ```ad-hint
 You can only do this with symmetric matrices.
