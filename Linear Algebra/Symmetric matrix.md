@@ -29,3 +29,47 @@ If the matrix is symmetrical, the eigenvectors are perpendicular.
 
 Why?
 ```
+
+## Creating symmetry
+
+Symmetric matrices are very powerful, so we artificially create symmetry to take advantage of it.
+
+If we multiply any [rectangular matrix](Rectangular%20matrix.md) to its transposed, we get a square matrix, that is also symmetrical.
+$$\Large \begin{bmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6
+\end{bmatrix}\begin{bmatrix}
+1 & 4 \\
+2 & 5 \\
+3 & 6
+\end{bmatrix}^T = \begin{bmatrix}
+14 & 32 \\
+32 & 77
+\end{bmatrix}$$
+
+We can also do it both ways:
+$$\Large\begin{bmatrix}
+1 & 4 \\
+2 & 5 \\
+3 & 6
+\end{bmatrix}^T \begin{bmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6
+\end{bmatrix}= \begin{bmatrix}
+17 & 22 & 27\\
+22 & 29 & 36 \\
+27 & 36 & 45
+\end{bmatrix}$$
+
+So we just created two square symmetrical matrices from a singular rectangular matrix.
+
+We all these two matrices:
+$$\Large S_L=\begin{bmatrix}
+14 & 32 \\
+32 & 77
+\end{bmatrix}, \quad S_R=\begin{bmatrix}
+17 & 22 & 27\\
+22 & 29 & 36 \\
+27 & 36 & 45
+\end{bmatrix}$$
+

@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -173,12 +172,14 @@
       "random-note:Open random note": false
     }
   },
-  "active": "3fbe08ad2a0b5f0f",
+  "active": "f4930aed6adf8a1c",
   "lastOpenFiles": [
+    "z_images/Immagine WhatsApp 2023-03-12 ore 17.35.10.jpg",
     "Linear Algebra/Symmetric matrix.md",
     "Linear Algebra/SVD.md",
-    "Linear Algebra/Hyperplanes.md",
     "Linear Algebra/Spectral decomposition.md",
+    "Machine Learning/PCA.md",
+    "Linear Algebra/Hyperplanes.md",
     "Linear Algebra/Rectangular matrix.md",
     "z_images/Pasted image 20230311153429.png",
     "z_images/Pasted image 20230311153401.png",
@@ -198,7 +199,6 @@
     "z_images/Pasted image 20230311132928.png",
     "z_images/Pasted image 20230311131627.png",
     "z_images/Pasted image 20230311130642.png",
-    "Machine Learning/PCA.md",
     "Machine Learning/Cosine Similarity.md",
     "Linear Algebra/Matrix.md",
     "Linear Algebra/Norm.md",
@@ -210,7 +210,6 @@
     "Statistics/Regression.md",
     "Probability/Finding probabilities.md",
     "Probability/Event.md",
-    "Statistics/Randomness.md",
     "Probability",
     "z_images/Non confermato 535.crdownload",
     "Linear Algebra",
