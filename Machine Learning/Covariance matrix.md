@@ -13,3 +13,4 @@
 | 99    | -3.266832 | -2.636531 |
 
 This is a [covariance](../Statistics/Covariance.md) [matrix](../Linear%20Algebra/Matrix.md), its columns are the dimensions of the samples and the rows are the actual samples.
+

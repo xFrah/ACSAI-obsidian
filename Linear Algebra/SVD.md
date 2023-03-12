@@ -39,6 +39,11 @@ $U\Sigma$:
 We have the scaling information in the $\Sigma$ matrix, then we rotate those scaled vectors to where they are after $AV$(by applying $U$, by $U$ definition).
 
 
+Result:
+If we then want A, we divide both sides by V^-1.
+$$\large A=U\Sigma V^{-1}$$
+
+
 ## How do we get U and V?
 
 We make spectral decomposition of AA^T, which returns a symmetrical matrix.

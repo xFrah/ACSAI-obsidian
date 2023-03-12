@@ -81,3 +81,7 @@ cum_var_exp = np.cumsum(var_exp)
 ```
 
 ![](../z_images/Pasted%20image%2020230309161558.png)
+
+
+Praticamente stiamo cercando di trovare lo unit vector che massimizza la somma di tutti i dot product tra un ipotetico variabile unit vector(che stiamo cercando) e tutti i vettori nel dataset.
+

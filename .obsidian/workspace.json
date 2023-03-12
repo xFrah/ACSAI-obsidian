@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra/SVD.md",
+                "file": "Machine Learning/Covariance matrix.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra/SVD.md",
+                "file": "Machine Learning/Covariance matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Algebra/SVD.md",
+                "file": "Machine Learning/Covariance matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra/SVD.md"
+                "file": "Machine Learning/Covariance matrix.md"
               }
             }
           }
@@ -174,17 +174,17 @@
   },
   "active": "f4930aed6adf8a1c",
   "lastOpenFiles": [
+    "Machine Learning/Learning Paradigms.md",
+    "Machine Learning/PCA.md",
+    "Linear Algebra/SVD.md",
     "z_images/Immagine WhatsApp 2023-03-12 ore 17.35.10.jpg",
     "Linear Algebra/Symmetric matrix.md",
-    "Linear Algebra/SVD.md",
     "Linear Algebra/Spectral decomposition.md",
-    "Machine Learning/PCA.md",
     "Linear Algebra/Hyperplanes.md",
     "Linear Algebra/Rectangular matrix.md",
     "z_images/Pasted image 20230311153429.png",
     "z_images/Pasted image 20230311153401.png",
     "z_images/Pasted image 20230311153357.png",
-    "Machine Learning/Learning Paradigms.md",
     "Artificial Intelligence/Problem solving process.md",
     "Artificial Intelligence/Graph.md",
     "Linear Algebra/Projection.md",
@@ -198,7 +198,6 @@
     "z_images/Pasted image 20230311132943.png",
     "z_images/Pasted image 20230311132928.png",
     "z_images/Pasted image 20230311131627.png",
-    "z_images/Pasted image 20230311130642.png",
     "Machine Learning/Cosine Similarity.md",
     "Linear Algebra/Matrix.md",
     "Linear Algebra/Norm.md",
