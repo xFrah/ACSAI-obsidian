@@ -3,3 +3,4 @@
 - STUDIA ULTIMA LEZIONE DI MACHINE LEARNING: https://mybinder.org/v2/gh/iacopomasi/AI-ML-Unit-2/HEAD?urlpath=/tree/AA2223/course/03_math_recap_eig_pca_3dmm/03_math_recap_eig_pca_3dmm.ipynb, UNTIL PAGE 21.
 - Studia PCA
 - Studia AI best search
+- Studia ultima lezione di AI, depth first search? ecc
