@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Covariance matrix.md",
+                "file": "Machine Learning/Cosine Similarity.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "91c283f52f136630",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Variance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da2a4a93ff081bb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability/Random variable.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/PCA.md",
+                "file": "Probability/Probability distribution.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -93,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -109,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Covariance matrix.md",
+                "file": "Probability/Probability distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Covariance matrix.md",
+                "file": "Probability/Probability distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Covariance matrix.md"
+                "file": "Probability/Probability distribution.md"
               }
             }
           }
@@ -171,14 +197,30 @@
       "random-note:Open random note": false
     }
   },
-  "active": "3ba99552088a8852",
+  "active": "f4930aed6adf8a1c",
   "lastOpenFiles": [
+    "z_images/Pasted image 20230315152851.png",
+    "z_images/Pasted image 20230315152117.png",
+    "Probability/Random variable.md",
+    "Statistics/Randomness.md",
+    "Machine Learning/PCA.md",
+    "Statistics/Variance.md",
+    "AI-LAB/Warp.md",
+    "Probability/Probability distribution.md",
+    "z_images/Pasted image 20230315151735.png",
+    "z_images/Pasted image 20230315151714.png",
+    "z_images/Pasted image 20230315151024.png",
+    "z_images/Pasted image 20230315150955.png",
+    "z_images/Pasted image 20230315150939.png",
+    "z_images/Pasted image 20230315150630.png",
+    "Probability/Finding probabilities.md",
+    "Machine Learning/Covariance matrix.md",
+    "Machine Learning/Cosine Similarity.md",
+    "Linear Algebra/Vectors.md",
     "Linear Algebra/Matrix.md",
     "Linear Algebra/Norm.md",
     "Linear Algebra/Projection.md",
     "Linear Algebra/Eigenvectors and Eigenvalues.md",
-    "Machine Learning/Covariance matrix.md",
-    "Machine Learning/PCA.md",
     "Machine Learning/Learning Paradigms.md",
     "Linear Algebra/SVD.md",
     "Machine Learning/3D Morphable models.md",
@@ -190,25 +232,9 @@
     "Linear Algebra/Rectangular matrix.md",
     "z_images/Pasted image 20230311153429.png",
     "z_images/Pasted image 20230311153401.png",
-    "z_images/Pasted image 20230311153357.png",
     "Artificial Intelligence/Problem solving process.md",
     "Artificial Intelligence/Graph.md",
     "Linear Algebra/Transformations.md",
-    "Linear Algebra/Vectors.md",
-    "z_images/Pasted image 20230311142934.png",
-    "z_images/Pasted image 20230311140450.png",
-    "z_images/Pasted image 20230311142752.png",
-    "z_images/Pasted image 20230311132943.png",
-    "z_images/Pasted image 20230311132928.png",
-    "z_images/Pasted image 20230311131627.png",
-    "Machine Learning/Cosine Similarity.md",
-    "Statistics/Standard Deviation.md",
-    "Artificial Intelligence/Best-first search.md",
-    "Artificial Intelligence/Set theory.md",
-    "README.md",
-    "Statistics/Regression.md",
-    "Probability/Finding probabilities.md",
-    "Probability/Event.md",
     "Probability",
     "z_images/Non confermato 535.crdownload",
     "Linear Algebra",

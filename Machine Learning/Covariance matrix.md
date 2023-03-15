@@ -39,12 +39,30 @@ Let's actually compute it using the formula $\large C = \frac{XX^T}{1-n}$:
 
 
 $\large \begin{bmatrix}
--2.123062 & -2.267402 \\
--1.775958 & 0.070899 \\
--1.582416 & -3.072345 \\
--0.492453 & -0.920361
+-2.12 & -2.26 \\
+-1.77 & 0.07 \\
+-1.58 & -3.07 \\
+-0.49 & -0.92
 \end{bmatrix} 
 \begin{bmatrix}
+-2.12 & -1.77 & -1.58 & -0.49 \\
+-2.26 & 0.07 & -3.07 & -0.92
+\end{bmatrix}^T$
 
-\end{bmatrix}$
+
 ```
+
+$$\large \begin{bmatrix}
+-2.12\begin{bmatrix}
+-2.12\\
+-1.77\\
+-1.58\\
+-0.49
+\end{bmatrix} + 
+-2.26\begin{bmatrix}
+-2.26\\
+0.07\\
+-3.07\\
+-0.92
+\end{bmatrix},\quad
+\end{bmatrix}$$
