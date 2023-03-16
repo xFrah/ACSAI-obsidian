@@ -22,7 +22,7 @@ We can compute [variance](../Statistics/Variance.md) and [standard deviation](..
 
 ## Distributions for discrete random variables:
 
-#### Mean of a probability distribution
+#### [Mean](../Statistics/Mean.md) of a probability distribution
 
 Can be computed by:
 $$\Large\mu=\sum x·p(x)$$
@@ -33,7 +33,7 @@ It is also called the expected value of X.
 
 ## Distributions for continuous random variables
 
-A continuous random variable has infinite possible values in an interval(ex. age, height, weight, income).
+A continuous [random variable](Random%20variable.md) has infinite possible values in an interval(ex. age, height, weight, income).
 
 It's probability distribution is specified by a density curve and the probability of an interval is given by the area under the curve over the interval(we take the integral).
 
@@ -50,18 +50,9 @@ It's probability distribution is specified by a density curve and the probabilit
 
 #### Probabilities for bell-shaped distributions(symmetrical)
 
-- The mean, median and mode are equal.
+- The [mean](../Statistics/Mean.md), [median](../Statistics/Median.md) and [mode](../Statistics/Mode.md) are equal.
 - Location is determined by the mean $\large \mu$.
-- Spread is determined by the standard deviation $\large \sigma$.
+- [Spread](../Statistics/Spread.md) is determined by the standard deviation $\large \sigma$.
 - The random variable has an infinite theoretical range, from $-\infty$ to $+\infty$.
 - The distribution is completely specified by the two parameters mean and variance.
 	- ![](../z_images/Pasted%20image%2020230315152851.png)
-
-
-## z-score and the Standard Normal Distribution
-
-The z-score for a value x of a random variable is the number of standard deviations that x falls from the mean: $\Large\frac{(x - \mu)}{\sigma}$.
-
-- z-score assumes positive values when the value is above the mean and negative when its below.
-- A standard normal distribution has mean $\large \mu$ and standard deviation $\large \sigma$  = 1.
-- When a random variable has normal distribution and its values are converted to z-scores by subtracting the mean and dividing by the standard deviation, the z-scores.

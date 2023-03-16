@@ -14,3 +14,4 @@ A discrete random variable has separate values as possible outcomes(1, 2, 3) and
 If the variable can take any value in a real interval it is said to be continuous.
 
 ![](../z_images/Pasted%20image%2020230315150955.png)
+
