@@ -141,6 +141,7 @@ The whole point of using SVD here is that we can avoid calculating U or U by doi
 
 So for example, if V($X^TX$) is the bigger one, we calculate U and $\Sigma$ by calculating the covariance matrix($XX^T$), or viceversa?
 
+
 ## PCA on images
 
 
