@@ -1,4 +1,4 @@
-The sampling distribution of a statistic is the probability distribution that specifies probability for the possible values the statistic can take.
+The sampling distribution of a statistic is the [probability distribution](../Probability/Probability%20distribution.md) that specifies probability for the possible values the statistic can take.
 
 They describe the variability that occurs from sample to sample, because no sample is equal.
 

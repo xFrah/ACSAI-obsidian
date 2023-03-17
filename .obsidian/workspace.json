@@ -20,55 +20,31 @@
             }
           },
           {
-            "id": "c042155d36ecb64f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability/Normal distribution.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97f295e10d15fa4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability/Empirical rule.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f3cf9334264d67cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability/Empirical rule.md",
+                "file": "Machine Learning/PCA.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "10b99cb07e23f56d",
+            "id": "4f75bc1bf799f7c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Sampling distributions.md",
+                "file": "Machine Learning/Gradient.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Sampling distributions.md",
+                "file": "Machine Learning/Gradient.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Sampling distributions.md",
+                "file": "Machine Learning/Gradient.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -174,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Sampling distributions.md"
+                "file": "Machine Learning/Gradient.md"
               }
             }
           }
@@ -196,12 +172,19 @@
       "random-note:Open random note": false
     }
   },
-  "active": "10b99cb07e23f56d",
+  "active": "4f75bc1bf799f7c1",
   "lastOpenFiles": [
-    "Probability/Empirical rule.md",
-    "Statistics/Sampling distributions.md",
+    "Machine Learning/PCA.md",
+    "Machine Learning/Gradient.md",
+    "Linear Algebra/SVD.md",
+    "Linear Algebra/Transformations.md",
+    "Linear Algebra/Symmetric matrix.md",
     "Probability/Binomial distribution.md",
     "Probability/Normal distribution.md",
+    "Statistics/Randomness.md",
+    "Statistics/Sampling distributions.md",
+    "Probability/Empirical rule.md",
+    "standard deviations.md",
     "z_images/Pasted image 20230316150947.png",
     "Probability/Probability distribution.md",
     "z_images/Pasted image 20230316145151.png",
@@ -215,11 +198,9 @@
     "Probability/Event.md",
     "Statistics/Correlation coefficient.md",
     "Statistics/Box plot.md",
-    "Statistics/Randomness.md",
     "Probability/Random variable.md",
     "z_images/Pasted image 20230315152851.png",
     "z_images/Pasted image 20230315152117.png",
-    "Machine Learning/PCA.md",
     "AI-LAB/Warp.md",
     "z_images/Pasted image 20230315151735.png",
     "z_images/Pasted image 20230315151714.png",
@@ -229,11 +210,6 @@
     "Machine Learning/Cosine Similarity.md",
     "Linear Algebra/Vectors.md",
     "Linear Algebra/Matrix.md",
-    "Linear Algebra/Norm.md",
-    "Linear Algebra/Projection.md",
-    "Linear Algebra/Eigenvectors and Eigenvalues.md",
-    "Machine Learning/Learning Paradigms.md",
-    "Linear Algebra/SVD.md",
     "Probability",
     "z_images/Non confermato 535.crdownload",
     "Linear Algebra",

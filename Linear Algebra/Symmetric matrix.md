@@ -1,4 +1,4 @@
-A symmetric matrixi is a [matrix](Matrix.md) that has equal values on both sides of its diagonal.
+A symmetric matrix is a [matrix](Matrix.md) that has equal values on both sides of its diagonal.
 
 ![](../z_images/Pasted%20image%2020230311123400.png)
 
