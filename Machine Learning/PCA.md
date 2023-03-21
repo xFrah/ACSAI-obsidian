@@ -15,7 +15,7 @@ title: Motivation
 We measure the variation in the data, when it goes below 95% of what it was before, we stop.
 So we keep the minimum number of dimensions that retains > 95% of the variation.
 
-We delete the eigenvalues with less energy?????????
+We delete the dimensions with less variance, which is calculated across all the samples(ex. images in a batch).
 Variance is the sum of all [[Eigenvectors and Eigenvalues|eigenvalues]]?????
 
 ```ad-example
@@ -50,7 +50,6 @@ We just shifted the [mean](../Statistics/Mean.md) to 0 and rescaled all axis, so
 center = X.mean(axis=0) #X shape is 100x2 
 std = X.std(axis=0) 
 Xp = (X-center)/std
-
 ```
 Output:
 ![](../z_images/Pasted%20image%2020230309160917.png)

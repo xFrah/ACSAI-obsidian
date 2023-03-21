@@ -1,4 +1,4 @@
-Takes a vector and outputs a scalar.
+Takes a vector and outputs a scalar. It generally computes our loss.
 
 STUDY FUCKING PARTIAL DERIVATIVE
 
@@ -9,3 +9,4 @@ Think of it as a direction. It is the direction of steepest ascent. The directio
 It outputs the direction you shouuld go to get the highest increase in value.
 
 Given that you want to minimize a loss function, you need the direction of steepets descent, -gradient.
+
