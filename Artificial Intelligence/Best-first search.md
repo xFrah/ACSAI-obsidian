@@ -4,7 +4,7 @@ def best_first_search(problem, f):
 	node: Node = problem.INITIAL  # setting starting node
 	frontier: list[Node] = [] # priority queue
 	reached: dict = {problem.INITIAL: node}
-
+	
 	while len(frontier) != 0:
 		node = frontier.pop()
 		

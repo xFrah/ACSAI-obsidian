@@ -17,3 +17,10 @@ The z-score for a value x of a [random variable](Random%20variable.md) is the nu
 
 - z-score assumes positive values when the value is above the mean and negative when its below.
 - When a random variable has normal distribution and its values are converted to z-scores by subtracting the mean and dividing by the standard deviation, the z-scores.
+
+
+
+```ad-warning
+title: Exam question
+You can skip excercises about binomial distribution and so on, but try to do all the excercises about normal distribution, they are in the exam. Because she needs to see if we are able to see the tables.
+```

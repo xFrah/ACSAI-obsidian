@@ -14,3 +14,11 @@ If a different random sample of 3160 voters were selected, a different sample pr
 
 WTFFFFFFFFFFFFFFFFFFFF
 CHAPTER 7, DO AGAIN.
+
+How to get the probability of each sample?
+
+
+## Probabilities of sample means?
+
+
+we have just info about std, then we have only information about marginal error.
