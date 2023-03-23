@@ -86,3 +86,6 @@ $$\large m =\underbrace{\arg\max_m \underbrace{\big( \min_{k<k^{\prime}} \left| 
 We don't take max() across points when selecting the centroids.
 We sample randomly but proportionally according to the distance between centroids.
 
+$$\large Pr[\mu_k=x_m] \propto \min_{k<k^{\prime}} || x_m - \mu_k^{\prime}||_2^2$$
+
+## Inverse transform sampling???
