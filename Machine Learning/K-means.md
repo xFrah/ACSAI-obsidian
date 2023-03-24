@@ -20,15 +20,9 @@ for point in zip(x, y):
 # calculate the new centroids
 new_centroids = []
 
-for centroid in assignments.keys():
-	
-	new_centroids.append(
-		(
-			sum([point[0] for point in assignments[centroid]]) / len(assignments[centroid]),
+for centroid in assignments.keys(): # assignments: dict[centroid, points]
 
-			sum([point[1] for point in assignments[centroid]]) / len(assignments[centroid]),
-		)
-	)
+	new_centroids.append(get_x_mean(points), get_y_mean(points)),
 ```
 
 - We repeat from assignment step until the algorithm converges.
@@ -55,7 +49,7 @@ K-means can also be used to get the boundaries of the voronoi regions.
 ## K-means as a loss minimization problem
 
 $$\large \mathcal{L}(\mu,y;D) = \sum_{i=1}^N \left| \left| x_i - \mu_{y_i} \right|\right|_2^2$$
-This is the criterion for separating samples in K groups of equal variance. By minimizing a the "inertia" or "within-cluster sum-of-squares"
+This is the criterion for separating samples in K groups of equal [variance](../Statistics/Variance.md). By minimizing a the "inertia" or "within-cluster sum-of-squares"
 
 There are only 2 points in which k-means changes its values:
 
@@ -64,7 +58,7 @@ There are only 2 points in which k-means changes its values:
 
 Those two operations will never increase the value of the loss, at most it stays the same.
 
-Tries to minimize the spread of each cluster.
+Tries to minimize the [spread](../Statistics/Spread.md) of each cluster.
 
 
 ## Convergence

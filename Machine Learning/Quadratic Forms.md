@@ -1,4 +1,4 @@
-Given A, a square matrix of DxD and x, a vector of D dimensions, a quadratic form is:
+Given A, a square [matrix](../Linear%20Algebra/Matrix.md) of DxD and x, a vector of D dimensions, a quadratic form is:
 $$\large x^TAx$$
 It is a vector to scalar function.
 It is used for characterizing Definiteness of matrices.
