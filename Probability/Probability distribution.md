@@ -1,5 +1,5 @@
-For every possible value we get the corresponding distribution.
-The sum of the probability should give 1.
+A probability distribution is a function that <font color="#b2a2c7">describes the likelihood or probability of different possible outcomes</font> in a random event or experiment. 
+<font color="#b2a2c7">It maps each possible outcome to its probability</font>, such that the sum of the probabilities of all possible outcomes is equal to 1.
 
 ```ad-example
 title: Toss 2 coins:
@@ -25,7 +25,7 @@ We can compute [variance](../Statistics/Variance.md) and [standard deviation](..
 #### [Mean](../Statistics/Mean.md) of a probability distribution
 
 Can be computed by:
-$$\Large\mu=\sum x·p(x)$$
+$$\large\mu=\sum x·p(x)$$
 It is basically a weighted average, because values of x that are more likely receive greater weight p(x).
 
 It is also called the expected value of X.
