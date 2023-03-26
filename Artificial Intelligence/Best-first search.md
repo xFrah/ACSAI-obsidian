@@ -1,20 +1,17 @@
 
-```python
-def best_first_search(problem, f):
-	node: Node = problem.INITIAL  # setting starting node
-	frontier: list[Node] = [] # priority queue
-	reached: dict = {problem.INITIAL: node}
-	
-	while len(frontier) != 0:
-		node = frontier.pop()
-		
-		# if current node is a goal, return
-		if node in problem.goals:
-			return node
-			
-		for child: Node in problem.expand(node):
-			s = child
-			if s not in reached or or child.path_cost < reached[s]
+We have 2 data structures:
+- Explored: set of already examined nodes
+- Frontier: set of nodes that have an edge on the explored set
+
+Basically at every step of the algorithm we must choose a node from the frontier and traverse it, adding it to the explored set.
+
+This node is chosen by getting the one with the minimum value of a function f(n).
+
+
+```ad-note
+title: Greedy best-first search
+This algorithm is said to be "informed" when $\large f$ is an [[Heuristics|heuristic]] function.
+
+So at every step we expand on the node that appears closer to the destination.
 ```
 
-to be continued

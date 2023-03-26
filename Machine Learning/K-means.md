@@ -129,7 +129,7 @@ $$\large p(d^{\prime})= \frac{d^{\prime}}{\sum_{d \in D} d}$$
 
 <br>
 
-This is the probability mass function, which gives the probability that the random variable takes the value d'. In other words, it maps each possible value of the random variable to its probability.
+This is the probability mass function, which gives the probability that the [random variable](../Probability/Random%20variable.md) takes the value d'. In other words, it maps each possible value of the random variable to its probability.
 
 <br>
 

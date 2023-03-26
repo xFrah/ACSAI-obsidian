@@ -1,29 +1,27 @@
-we combine the overall cost 
-f(n) = g(n) + h(n)
+This is a specific case of the [Best-first search](Best-first%20search.md) that uses the following evaluation function:
+$$\large f(n) = g(n) + h(n)$$
 
-g(n) is the cost to reach n
-h(n) = estimated movement cost to move from n to the final destination. This is often referred to as the heuristic, which is nothing but a kind of smart guess. We really don’t know the actual distance until we find the path. There can be many ways to calculate this h.
+Where:
+- $\large g(n)$ is the cost to reach n.
+- $\large h(n)$ = estimated movement cost to move from n to the final destination. [[Heuristics|Heuristic function]].
 
-so that f(n) is the expected cost of the most convenient walk from the initial state to the goal state that covers node n.
+So that $\large f(n)$ is the expected cost of the most convenient walk from the initial state to the goal state that covers node n.
 
+At each step we the choose the node from the frontier with minimal value of $\large f(n)$.
 
-What A* Search Algorithm does is that at each step it picks the node according to f.
-At each step it picks the node/cell having the lowest f, and process that node/cell.
-
-
-## Approximation Heuristics
-
-We actually could calculate the exact value of h, but that would be time consuming.
-For this reason we turn to approximations, an example is the manhattan distance:
-
-```
- h = abs (current_cell.x – goal.x) + abs (current_cell.y – goal.y)
-```
-
-![](../z_images/Pasted%20image%2020230317154434.png)
+Whether A* is cost-optimal depends on certain properties of the heuristic:
+- Admissibility
+- Consistency
 
 
 ## Admissibility and consistency
+
+Let H(n) be the actual path from n to G.
+h(n) must never surpass H(n).
+
+
+An admissible heuristic is one that never overestimates the cost to reach a goal.
+So an admissible heuristic must be "optimistic".
 
 Admissibility: h(n) is <= to the minimum path cost from n to the goal
 
