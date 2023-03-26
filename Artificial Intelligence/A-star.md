@@ -16,6 +16,8 @@ Whether A* is cost-optimal depends on certain properties of the heuristic:
 
 ## Admissibility and consistency
 
+An heuristic function is said to be admissible if it never overstimates the cost of reaching the goal.
+
 Let H(n) be the actual path from n to G.
 h(n) must never surpass H(n).
 
