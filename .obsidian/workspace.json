@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a1d609113f57edf3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI-LAB/Histogram.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c01a9e9a35d759a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI-LAB/Corner extraction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,13 +90,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -87,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/K-means.md",
+                "file": "AI-LAB/Corner extraction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/K-means.md",
+                "file": "AI-LAB/Corner extraction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/K-means.md"
+                "file": "AI-LAB/Corner extraction.md"
               }
             }
           }
@@ -149,8 +172,11 @@
       "random-note:Open random note": false
     }
   },
-  "active": "8752f772709fe764",
+  "active": "0c01a9e9a35d759a",
   "lastOpenFiles": [
+    "AI-LAB/Histogram.md",
+    "AI-LAB/Corner extraction.md",
+    "Machine Learning/K-means.md",
     "z_images/Pasted image 20230328155917.png",
     "z_images/Pasted image 20230328155323.png",
     "z_images/Pasted image 20230328155207.png",
@@ -159,7 +185,6 @@
     "Artificial Intelligence/A-star.md",
     "Artificial Intelligence/Heuristics.md",
     "Artificial Intelligence/Best-first search.md",
-    "Machine Learning/K-means.md",
     "Machine Learning/Gradient.md",
     "Machine Learning/Hessian.md",
     "Linear Algebra/Norm.md",
@@ -184,9 +209,7 @@
     "Statistics/Point estimation.md",
     "Probability/Normal distribution.md",
     "Statistics/Sampling distributions.md",
-    "Artificial Intelligence/BFS.md",
     "z_images/Pasted image 20230321171605.png",
-    "z_images/Pasted image 20230321171530.png",
     "Probability",
     "z_images/Non confermato 535.crdownload",
     "Linear Algebra",
