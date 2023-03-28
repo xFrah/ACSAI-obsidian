@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Artificial Intelligence/A-star.md",
+                "file": "Machine Learning/K-means.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Artificial Intelligence/A-star.md",
+                "file": "Machine Learning/K-means.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Artificial Intelligence/A-star.md",
+                "file": "Machine Learning/K-means.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Artificial Intelligence/A-star.md"
+                "file": "Machine Learning/K-means.md"
               }
             }
           }
@@ -150,9 +151,14 @@
   },
   "active": "8752f772709fe764",
   "lastOpenFiles": [
+    "z_images/Pasted image 20230328155917.png",
+    "z_images/Pasted image 20230328155323.png",
+    "z_images/Pasted image 20230328155207.png",
+    "z_images/Pasted image 20230328155138.png",
+    "z_images/Pasted image 20230328155125.png",
+    "Artificial Intelligence/A-star.md",
     "Artificial Intelligence/Heuristics.md",
     "Artificial Intelligence/Best-first search.md",
-    "Artificial Intelligence/A-star.md",
     "Machine Learning/K-means.md",
     "Machine Learning/Gradient.md",
     "Machine Learning/Hessian.md",
@@ -179,13 +185,8 @@
     "Probability/Normal distribution.md",
     "Statistics/Sampling distributions.md",
     "Artificial Intelligence/BFS.md",
-    "Artificial Intelligence/Various search algorithms.md",
     "z_images/Pasted image 20230321171605.png",
     "z_images/Pasted image 20230321171530.png",
-    "z_images/Pasted image 20230321171341.png",
-    "z_images/Pasted image 20230321165721.png",
-    "z_images/Pasted image 20230321143535.png",
-    "z_images/Pasted image 20230321143357.png",
     "Probability",
     "z_images/Non confermato 535.crdownload",
     "Linear Algebra",

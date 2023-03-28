@@ -95,6 +95,8 @@ To select a new centroid:
 2. Then we select the point that has the greatest distance from its selected centroid.
 3. That will be our new centroid.
 
+This approach has a big problem though, because the centroids are always gonna be placed on outliers, if there are any.
+
 
 ## K-means++
 
@@ -150,3 +152,59 @@ Where:
 	
 4. There we fucking have it, we have just used our distribution to give weights to the elements of D.
 
+This is not really correct but who gives a shit?
+
+
+## Parametrization by norm
+
+By choosing the type of norm that we use to compute distances, we can produce a whole family of algorithms.
+
+
+## How to choose K?
+
+We need to get the k that gives a large gap between k-1 means and k-means cost functions.
+
+We can't simply use the loss function(it would be overfitting).
+We pay a penalty depending on the number of k(number of clusters).
+You are allowed to change the number of clusters
+
+
+We construct a new loss function:
+
+$$\large\arg\min_K \mathcal{L}_K  + \underbrace{K\cdot 2D}_{\text{regularization}}$$
+Where:
+- $\arg\min_K \mathcal{L}_K$ = minimum loss with k clusters.
+- Penalty for the number of clusters.
+
+
+## Color compression
+
+We want to compress the colors in an image to make it smaller on the disk:
+
+![](../z_images/Pasted%20image%2020230328155125.png)
+
+
+Look at the color space as a 3d space with axis R, G and B:
+
+![](../z_images/Pasted%20image%2020230328155138.png)
+
+
+You cluster the colors with k-means, and you get the centroids:
+
+![](../z_images/Pasted%20image%2020230328155207.png)
+
+
+When you get k colors, every pixel now becomes a pointer to one of those colors. If you have 16 colors, each pixel is composed by just 4 bits.
+
+![](../z_images/Pasted%20image%2020230328155323.png)
+
+
+## Bag of visual words(non ho capito un cazzo)
+
+Nowadays, image recognition is done through neural networks, but before that we did it like this:
+
+You cluster the images together(using k-means), then the centroids become the patch tokens.
+
+We take patches of the image. We build an histogram of it.
+
+![](../z_images/Pasted%20image%2020230328155917.png)
