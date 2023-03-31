@@ -53,7 +53,7 @@ For large n for any population and also for every n from an underlying populatio
 $$\large \mu_x +z_{\alpha/2}\frac{s}{\sqrt{n}}$$
 
 Where:
-- $\large s$ - Sample standard deviation
+- $\large s$ - Sample [standard deviation](Standard%20Deviation.md)
 - $\large n$ - Number of samples
 - $\large \frac{s}{\sqrt{n}}$ - Standard error
 - $\large \alpha$ - Probability threshold
@@ -74,3 +74,5 @@ To find critical values, you need to follow those steps:
 3. Look up the critical value that corresponds with the alpha value:
 ```
 
+
+## to be continued

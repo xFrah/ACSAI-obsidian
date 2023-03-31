@@ -2,6 +2,8 @@ chapter 12 of bishop book.
 
 Given an input of D dimensions, our objective is to find a subspace that maximizes the [variance](../Statistics/Variance.md) of the data, as we need compress the data but as make it as lossless as we can.
 
+We delete the directions/dimensions with less variance, meaning that we lose the dimensions that carry less information.
+
 
 ```ad-tldr
 title: Motivation
@@ -10,27 +12,59 @@ title: Motivation
 ```
 
 
-## How to choose dimensionality of subspace?
+```ad-example
+title: PCA example
+Recall that with PCA, we can kill the dimensions that we don't really need to explain the data well enough.
 
-We measure the variation in the data, when it goes below 95% of what it was before, we stop.
-So we keep the minimum number of dimensions that retains > 95% of the variation.
+<br>
 
-We delete the dimensions with less variance, which is calculated across all the samples(ex. images in a batch).
-Variance is the sum of all [[Eigenvectors and Eigenvalues|eigenvalues]]?????
+Now, imagine a TV.
+
+<br>
+
+A tv basically retains all the information of the 2 dimensions, but doesn't have the third one(depth).
+
+And in fact, we don't really need the third dimension to understand what we are looking at, 2D is just enough!
+```
+
+
+## Output of PCA
+
+The PCA outputs the transformation matrix that we need to apply to the original data matrix to kill the dimensions.
+
+That is often called the $U$ matrix, because it is the $U$ that results from [SVD](../Linear%20Algebra/SVD.md) or [Spectral decomposition](../Linear%20Algebra/Spectral%20decomposition.md).
+
+If we project the data using this matrix, the space will actually shrink and lose variance, while still retaining most of the information.
+
 
 ```ad-example
 Starting from a 2D point cloud, we can reduce the dimensions by 1 if the energy remains > 95%.
-Before:
+
+In this specific case, we are killing a single dimension.
+
+<br>
+
+Before applying $U$:
 > ![](../z_images/Pasted%20image%2020230309162713.png)
 
-After:
+After applying $U$:
 > ![](../z_images/Pasted%20image%2020230309162805.png)
 
-After reconstruction:
+After reconstruction(this is not part of the process, it's done by projecting with $U^T$):
 > ![](../z_images/Pasted%20image%2020230309162850.png)
 
 All that variance has been lost.
 ```
+
+
+## How to choose dimensionality of subspace?
+
+We can actually measure how much relative variance the dimensions have compared to the total variance.
+
+- We either sort the dimensions and keep only a certain number of them, a piacere.
+- Or we sort the dimensions and kill only the ones that can be killable without too much loss.
+
+In the end, we are just given all the dimensions and how much variance they carry, we choose how to act.
 
 
 ## How to:
@@ -54,93 +88,104 @@ Xp = (X-center)/std
 Output:
 ![](../z_images/Pasted%20image%2020230309160917.png)
 
-## 2. Find the [covariance](../Statistics/Covariance.md) matrix
 
-The eigenvalues of hte 
-```python
-C = np.cov(X, rowvar=False) 
-Sigma, U = np.linalg.eig(C) 
-```
+## 2. Use [SVD](../Linear%20Algebra/SVD.md) or [Spectral decomposition](../Linear%20Algebra/Spectral%20decomposition.md) to find U
 
-```python
-print(C.shape)
-> (2, 2)
+U is basically the matrix containing the eigenvectors of the data matrix. Meaning that it contains the directions of the data.
 
-print(Sigma.shape, U.shape, Sigma)
-> ((2,), (2, 2), array([0.47772418, 6.90110921]))
-```
+Those eigenvectors are called the principal components of the data.
+The first eigenvectors is the vector that fits best the point cloud, the rest are vectors orthogonal to the first.
+Think of it as we were fitting an ellipse through the point cloud.
 
-```python
-total_energy = Sigma.sum() 
-var_exp = [(i / total_energy) for i in Sigma] 
-cum_var_exp = np.cumsum(var_exp)
-```
+![](../z_images/Pasted%20image%2020230331113141.png)
 
 
-Praticamente stiamo cercando di trovare lo unit vector che massimizza la somma di tutti i dot product tra un ipotetico variabile unit vector(che stiamo cercando) e tutti i vettori nel dataset.
+Mathematically, U's columns are the eigenvectors of the [covariance matrix](Covariance%20matrix.md).
 
+Remember, we are working in the standardized version of the data $X'$, so in this case the covariance matrix would be $\frac{1}{n}X'{X'}^T$.
 
-Re-explanation of the professor:
+In conclusion, to get the principal components of the point cloud, we need to get the eigenvectors of the covariance matrix $\frac{1}{n}X'{X'}^T$.
 
-You center the point cloud to the origin.
-covariance matrix = $\large X^T X \frac{1}{2}$ we can compute it like this because the data is centered.
+```ad-faq
+title: [Spectral decomposition](../Linear%20Algebra/Spectral%20decomposition.md) vs [SVD](../Linear%20Algebra/SVD.md)
 
-now we do the [spectral decomposition](../Linear%20Algebra/Spectral%20decomposition.md) of the [covariance matrix](Covariance%20matrix.md).
-we solve it
-its going to give us a vector lambda.
-U = each column vector is a direction. They are perpendicular. Those are the components that we need.
+We have a problem here, it's called the large dimensionality curse.
 
-$\large \frac{1}{N}X^T X=U \Sigma U^T$
+Basically if the dimensionality of the data is too damn big, than the covariance matrix would be very expensive to compute. Thus we need to find a way to avoid this.
 
-we select the eigenvector with the smallest eigenvalue and we remove that dimension.
+<br>
+Spectral decomposition:
 
-Data decorrelation:
-you take x and you project it with U^T.
-By doing this we are decorrelating the data.
+If we use the spectral decomposition to compute the PCA, we would be forced to compute the covariance matrix.
 
-WTFFFFFFFFFFFF
+<br>
 
-## SEE THIS:
-http://ufldl.stanford.edu/tutorial/unsupervised/PCAWhitening/
+SVD:
 
+Recall that in SVD there are two matrices, U and V.
 
-https://stats.stackexchange.com/questions/194278/meaning-of-reconstruction-error-in-pca-and-lda 
+If X is NxD, then U will be DxD and V will be NxN.
 
+<br>
 
+The thing is, if we transpose X, we can still understand the data, so if DxD is bigger than NxN, we can literally transpose X and get the smallest covariance matrix through SVD.
 
-## Large dimensionality problem, [[Spectral decomposition|SD]] vs [[SVD]]
+<br>
 
-The covariance matrix has DxD entries, so it can be very large if the input has very high dimensionality.
+Another way to look at it, is that you are just computing V instead of U, if U is larger than V.
 
-So we do directly SVD instead of spectral decomposition so that we can avoid to compute XX^T.
+<br>
+<br>
 
-We do SVD of X itself.
-
-**Spectral:**
-
-$\large \frac{1}{N} XX^T = U\Sigma U^T$
-
-**SVD:**
+Professors take on this:
 
 $\large X = U S V^T$
 
-$\large \frac{1}{N}(USV^T)(USV^T)^T$
+$\large \frac{1}{N}X'{X'}^T=\frac{1}{N}(USV^T)(USV^T)^T$
 
-$\large \frac{1}{N}^T USV^T\,VS^TU^T = \frac{1}{N}US^2U^T$
+$\large \frac{1}{N}X'{X'}^T=\frac{1}{N}^T USV^T\,VS^TU^T = \frac{1}{N}US^2U^T$
 
-in this case we don't pass through the covariance matrix.
+<br>
 
-
-#### Another take
-
-Since the dataset is transposable, which means that we can either do the decomposition of X or X^T and the significance remains the same.
-
-Which means that we can compute the svd that takes less computational time.
-The whole point of using SVD here is that we can avoid calculating U or U by doing the inverse formula, having the other variables.
-
-So for example, if V($X^TX$) is the bigger one, we calculate U and $\Sigma$ by calculating the covariance matrix($XX^T$), or viceversa?
+Here he eliminated one of the two matrices from the formula. We just eliminate the bigger one.
+```
 
 
-## PCA on images
+Let's say we wanna go through with the Spectral decomposition.
+We compute the [spectral decomposition](../Linear%20Algebra/Spectral%20decomposition.md) of the [covariance matrix](Covariance%20matrix.md):
+
+$$\large \frac{1}{N}X^T X=U \Sigma U^T$$
+
+Where:
+- $X$ is the original data
+- $U$ is the matrix that contains the eigenvectors of the matrix we are decomposing, in this case $\frac{1}{N}XX^T$.
+- $\Sigma$ is the matrix containing the eigenvalues of the eigenvectors. Basically they tell how extended each of the principal components are. It should look like this:
+
+$$
+\Sigma = Q \begin{bmatrix}
+\lambda_1 & 0 & \cdots & 0 \\
+0 & \lambda_2 & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 & \cdots & \lambda_n
+\end{bmatrix} Q^{-1},
+$$
+
+
+## Data decorrelation
+
+By decorrelating the data we mean that we are putting the [[Covariance|covariances]] to zero across all the axes.
+
+We can do this by projecting $X$ with $U^T$, which is basically just rotating the principal components to align with the basis vectors.
+
+![](../z_images/Pasted%20image%2020230331121748.png)
+
+As you can see, there is no correlation anymore between the axes. No direction of growth, no nothing.
+
+
+
+```ad-seealso
+http://ufldl.stanford.edu/tutorial/unsupervised/PCAWhitening/
+https://stats.stackexchange.com/questions/194278/meaning-of-reconstruction-error-in-pca-and-lda 
+```
 
 

@@ -41,7 +41,7 @@ BECAUSE, the covariance gives just the sum of the areas, which could be an arbit
 BUT, <span style="background:rgba(183, 152, 255, 0.3)">if we divide by the standard deviations, we are giving normalizing/standardizing this value</span>.
 
 Both the covariance and the standard deviation are divided by n, so in the equation they cancel it out.
-Since the standard deviation, without n, basically takes the sum of all the all the differences between the point and the mean (squared), it will simply be a sum of all the variances of all points.
+Since the standard deviation, without n, basically takes the sum of all the all the differences between the point and the [mean](Mean.md) (squared), it will simply be a sum of all the variances of all points.
 
 So, simply, <span style="background:rgba(183, 152, 255, 0.3)">the product of the standard deviations is the maximum value that the covariance can assume</span>.
 
