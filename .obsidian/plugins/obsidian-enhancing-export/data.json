@@ -43,7 +43,10 @@
       "name": "OPML"
     }
   ],
-  "defaultExportDirectoryMode": "Same",
+  "defaultExportDirectoryMode": "Auto",
   "openExportedFile": true,
-  "lastEditName": "PDF"
+  "lastExportDirectory": {
+    "win32": "C:\\Users\\fdimo\\Documents"
+  },
+  "lastEditName": "Markdown"
 }
