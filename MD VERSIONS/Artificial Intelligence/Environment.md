@@ -1,0 +1,18 @@
+##### Charateristics:
+- **Observability**
+	- Fully observable
+	- Partially observable
+	- Unobservable: no sensors.
+- **Multiplicity**
+	- Single agent
+	- Multi-agent
+		- Competitive
+		- Cooperative
+- **Deterministic** v. **non-Deterministic**
+	- Stochastic?
+- **Episodic** v. **Sequential**
+- **Static** v. **Dynamic** v. **Semi-Dynamic**
+- Discrete v. Continuous
+- Actions's effect
+	- Known
+	- Unknown

@@ -1,1 +1,1 @@
-![](z_images/walter-white-fuck-you-walt-fuck-you.gif)
+![](MD%20VERSIONS/z_images/walter-white-fuck-you-walt-fuck-you.gif)
