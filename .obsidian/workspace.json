@@ -187,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,8 +200,9 @@
       "random-note:Open random note": false
     }
   },
-  "active": "d389efe12dad18cf",
+  "active": "3fbe08ad2a0b5f0f",
   "lastOpenFiles": [
+    "Machine Learning/PCA.pdf",
     "z_images/Pasted image 20230331121748.png",
     "z_images/Pasted image 20230331113141.png",
     "z_images/Pasted image 20230331112941.png",
@@ -236,7 +238,6 @@
     "Machine Learning/3D Morphable models.md",
     "z_images/kmeans.gif",
     "z_images/kmeans2.gif",
-    "z_images/kmeans1.gif",
     "Probability",
     "z_images/Non confermato 535.crdownload",
     "Linear Algebra",
