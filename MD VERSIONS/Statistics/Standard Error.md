@@ -4,7 +4,7 @@ The difference between the statistic(estimate) and the true value of the paramet
 
 ## Standard error
 
-The standard absolute error of estimation of the [[Point and Interval estimation|estimator]](square root of squared errors mean). 
+The standard absolute error of estimation of the [[Estimation|estimator]](square root of squared errors mean). 
 
 
 ```ad-note

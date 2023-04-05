@@ -75,4 +75,12 @@ To find critical values, you need to follow those steps:
 ```
 
 
-## to be continued
+## Confidence Interval for two means
+
+The confidence interval for two means is a range of values that is likely to contain the true difference between two population means with a certain level of confidence.
+
+We can get the confidence interval for the difference between two population means ($\large \mu_1 - \mu_2$) if:
+- When the populations are independent and normally distributed with a common variance $\large\sigma^2$.
+- when the populations are independent and normally distributed with unequal variances.
+- when the populations are dependent and normally distributed.
+

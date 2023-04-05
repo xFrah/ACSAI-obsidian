@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Statistics/Confidence interval of population mean.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a398adda0eed682",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD VERSIONS/Machine Learning/Sphering.md",
+                "file": "MD VERSIONS/Statistics/Estimation.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Statistics/Confidence interval of population mean.md",
+                "file": "MD VERSIONS/Statistics/Estimation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Statistics/Confidence interval of population mean.md",
+                "file": "MD VERSIONS/Statistics/Estimation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Statistics/Confidence interval of population mean.md"
+                "file": "MD VERSIONS/Statistics/Estimation.md"
               }
             }
           }
@@ -162,15 +151,18 @@
   },
   "active": "fd94fc1ab32ef8aa",
   "lastOpenFiles": [
-    "MD VERSIONS/Statistics/Point and Interval estimation.md",
-    "MD VERSIONS/Machine Learning/Gaussian distribution.md",
+    "MD VERSIONS/Statistics/Standard Error.md",
+    "MD VERSIONS/Statistics/Estimation.md",
     "MD VERSIONS/Machine Learning/Sphering.md",
+    "MD VERSIONS/Statistics/Confidence interval of population mean.md",
+    "MD VERSIONS/Statistics/Correlation coefficient.md",
+    "MD VERSIONS/Machine Learning/Gaussian distribution.md",
     "MD VERSIONS/Machine Learning/Learning Paradigms.md",
     "MD VERSIONS/Machine Learning/PCA.md",
     "MD VERSIONS/Machine Learning/Unsupervised Learning.md",
-    "Pasted image 20230404111256.png",
-    "Pasted image 20230404110326.png",
-    "Pasted image 20230404110121.png",
+    "MD VERSIONS/z_images/Pasted image 20230404111256.png",
+    "MD VERSIONS/z_images/Pasted image 20230404110326.png",
+    "MD VERSIONS/z_images/Pasted image 20230404110121.png",
     "MD VERSIONS/AI-LAB/Convolution.md",
     "MD VERSIONS/AI-LAB/Color equalization.md",
     "MD VERSIONS/AI-LAB/HSV.md",
@@ -178,14 +170,13 @@
     "MD VERSIONS/Probability/Normal distribution.md",
     "MD VERSIONS/Machine Learning/K-means.md",
     "MD VERSIONS/Probability/Finding probabilities.md",
-    "Pasted image 20230402120530.png",
+    "MD VERSIONS/z_images/Pasted image 20230402120530.png",
     "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
     "PDF VERSIONS/PCA.pdf",
     "PDF VERSIONS/K-means.pdf",
     "MD VERSIONS/Statistics/Mean.md",
     "MD VERSIONS/Statistics/Covariance.md",
     "PDF VERSIONS/Covariance.pdf",
-    "MD VERSIONS/Statistics/Correlation coefficient.md",
     "PDF VERSIONS/Correlation coefficient.pdf",
     "MD VERSIONS/Statistics/Association.md",
     "PDF VERSIONS/Association.pdf",
@@ -197,8 +188,6 @@
     "MD VERSIONS/Statistics/Samples vs Population.md",
     "MD VERSIONS/Statistics/Median.md",
     "PDF VERSIONS/Median.pdf",
-    "MD VERSIONS/Statistics/Standard Error.md",
-    "MD VERSIONS/Statistics/Standard Deviation.md",
     "PDF VERSIONS/Standard Deviation.pdf",
     "PDF VERSIONS/Spectral decomposition.pdf",
     "PDF VERSIONS/Covariance matrix.pdf",

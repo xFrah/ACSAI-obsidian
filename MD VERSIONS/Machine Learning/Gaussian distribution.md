@@ -9,7 +9,7 @@ Where:
 - $\large \sigma$ is the standard deviation and it controls the shape of the distribution.
 - $\large k$ is the dimensions
 
-![](../../Pasted%20image%2020230402120530.png)
+![](../z_images/Pasted%20image%2020230402120530.png)
 
 
 ```ad-tldr

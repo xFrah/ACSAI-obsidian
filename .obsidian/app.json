@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "z_images",
+  "attachmentFolderPath": "MD VERSIONS/z_images",
   "useMarkdownLinks": true,
   "userIgnoreFilters": [
     "z_images/"
