@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "TODO.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "TODO.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "active": "85236c95aa30600f",
   "lastOpenFiles": [
+    "README.md",
     "MD VERSIONS/Machine Learning/PCA.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
     "MD VERSIONS/AI-LAB/Color equalization.md",
@@ -185,7 +186,6 @@
     "MD VERSIONS/Linear Algebra/Matrix.md",
     "MD VERSIONS/Linear Algebra/Hyperplanes.md",
     "MD VERSIONS/Linear Algebra/Eigenvectors and Eigenvalues.md",
-    "MD VERSIONS/Linear Algebra/Norm.md",
     "MD VERSIONS/z_images/Pasted image 20230404111256.png",
     "MD VERSIONS/z_images/Pasted image 20230404110326.png",
     "MD VERSIONS/z_images/Pasted image 20230404110121.png",
