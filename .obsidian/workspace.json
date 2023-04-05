@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/PCA.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/PCA.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/PCA.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/PCA.md"
+                "file": "README.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "active": "85236c95aa30600f",
   "lastOpenFiles": [
+    "MD VERSIONS/Machine Learning/PCA.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
     "MD VERSIONS/AI-LAB/Color equalization.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Color.html",
@@ -169,7 +170,6 @@
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Numpy.html",
     "MD VERSIONS/AI-LAB/Numpy.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Warp.html",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB",
     "MD VERSIONS/AI-LAB/Warp.md",
     "MD VERSIONS/Artificial Intelligence/Agent.md",
     "MD VERSIONS/Artificial Intelligence/A-star.md",
