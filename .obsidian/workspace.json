@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "README.md"
               }
             }
           }
@@ -150,6 +150,9 @@
   },
   "active": "85236c95aa30600f",
   "lastOpenFiles": [
+    "MD VERSIONS/Machine Learning/K-means.md",
+    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
+    "TODO.md",
     "README.md",
     "MD VERSIONS/Machine Learning/PCA.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
@@ -180,12 +183,9 @@
     "MD VERSIONS/Artificial Intelligence/Environment.md",
     "MD VERSIONS/Artificial Intelligence/Functions.md",
     "MD VERSIONS/Artificial Intelligence/Graph.md",
-    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
     "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
     "MD VERSIONS/Artificial Intelligence/Set theory.md",
     "MD VERSIONS/Linear Algebra/Matrix.md",
-    "MD VERSIONS/Linear Algebra/Hyperplanes.md",
-    "MD VERSIONS/Linear Algebra/Eigenvectors and Eigenvalues.md",
     "MD VERSIONS/z_images/Pasted image 20230404111256.png",
     "MD VERSIONS/z_images/Pasted image 20230404110326.png",
     "MD VERSIONS/z_images/Pasted image 20230404110121.png",
