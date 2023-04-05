@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fa4951ea365b5322",
+        "id": "e7e9b11009cb83cf",
         "type": "tabs",
         "children": [
           {
-            "id": "fd94fc1ab32ef8aa",
+            "id": "85236c95aa30600f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Statistics/Estimation.md",
+                "file": "MD VERSIONS/Machine Learning/PCA.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Statistics/Estimation.md",
+                "file": "MD VERSIONS/Machine Learning/PCA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Statistics/Estimation.md",
+                "file": "MD VERSIONS/Machine Learning/PCA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Statistics/Estimation.md"
+                "file": "MD VERSIONS/Machine Learning/PCA.md"
               }
             }
           }
@@ -149,48 +148,48 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "fd94fc1ab32ef8aa",
+  "active": "85236c95aa30600f",
   "lastOpenFiles": [
-    "MD VERSIONS/Statistics/Standard Error.md",
-    "MD VERSIONS/Statistics/Estimation.md",
-    "MD VERSIONS/Machine Learning/Sphering.md",
-    "MD VERSIONS/Statistics/Confidence interval of population mean.md",
-    "MD VERSIONS/Statistics/Correlation coefficient.md",
-    "MD VERSIONS/Machine Learning/Gaussian distribution.md",
-    "MD VERSIONS/Machine Learning/Learning Paradigms.md",
-    "MD VERSIONS/Machine Learning/PCA.md",
-    "MD VERSIONS/Machine Learning/Unsupervised Learning.md",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
+    "MD VERSIONS/AI-LAB/Color equalization.md",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Color.html",
+    "MD VERSIONS/AI-LAB/Color.md",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Contour detection.html",
+    "MD VERSIONS/AI-LAB/Contour detection.md",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Convolution.html",
+    "MD VERSIONS/AI-LAB/Convolution.md",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Corner extraction.html",
+    "MD VERSIONS/AI-LAB/Corner extraction.md",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Histogram.html",
+    "MD VERSIONS/AI-LAB/Histogram.md",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/HSV.html",
+    "MD VERSIONS/AI-LAB/HSV.md",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Kernel.html",
+    "MD VERSIONS/AI-LAB/Kernel.md",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Numpy.html",
+    "MD VERSIONS/AI-LAB/Numpy.md",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Warp.html",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB",
+    "MD VERSIONS/AI-LAB/Warp.md",
+    "MD VERSIONS/Artificial Intelligence/Agent.md",
+    "MD VERSIONS/Artificial Intelligence/A-star.md",
+    "MD VERSIONS/Artificial Intelligence/BFS.md",
+    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
+    "MD VERSIONS/Artificial Intelligence/DFS.md",
+    "MD VERSIONS/Artificial Intelligence/Environment.md",
+    "MD VERSIONS/Artificial Intelligence/Functions.md",
+    "MD VERSIONS/Artificial Intelligence/Graph.md",
+    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
+    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
+    "MD VERSIONS/Artificial Intelligence/Set theory.md",
+    "MD VERSIONS/Linear Algebra/Matrix.md",
+    "MD VERSIONS/Linear Algebra/Hyperplanes.md",
+    "MD VERSIONS/Linear Algebra/Eigenvectors and Eigenvalues.md",
+    "MD VERSIONS/Linear Algebra/Norm.md",
     "MD VERSIONS/z_images/Pasted image 20230404111256.png",
     "MD VERSIONS/z_images/Pasted image 20230404110326.png",
     "MD VERSIONS/z_images/Pasted image 20230404110121.png",
-    "MD VERSIONS/AI-LAB/Convolution.md",
-    "MD VERSIONS/AI-LAB/Color equalization.md",
-    "MD VERSIONS/AI-LAB/HSV.md",
-    "MD VERSIONS/AI-LAB/Corner extraction.md",
-    "MD VERSIONS/Probability/Normal distribution.md",
-    "MD VERSIONS/Machine Learning/K-means.md",
-    "MD VERSIONS/Probability/Finding probabilities.md",
     "MD VERSIONS/z_images/Pasted image 20230402120530.png",
-    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
-    "PDF VERSIONS/PCA.pdf",
-    "PDF VERSIONS/K-means.pdf",
-    "MD VERSIONS/Statistics/Mean.md",
-    "MD VERSIONS/Statistics/Covariance.md",
-    "PDF VERSIONS/Covariance.pdf",
-    "PDF VERSIONS/Correlation coefficient.pdf",
-    "MD VERSIONS/Statistics/Association.md",
-    "PDF VERSIONS/Association.pdf",
-    "MD VERSIONS/Statistics/Measures of Position.md",
-    "PDF VERSIONS/Measures of Position.pdf",
-    "MD VERSIONS/Statistics/Expected value.md",
-    "MD VERSIONS/Statistics/Mode.md",
-    "MD VERSIONS/Statistics/Sampling distributions.md",
-    "MD VERSIONS/Statistics/Samples vs Population.md",
-    "MD VERSIONS/Statistics/Median.md",
-    "PDF VERSIONS/Median.pdf",
-    "PDF VERSIONS/Standard Deviation.pdf",
-    "PDF VERSIONS/Spectral decomposition.pdf",
-    "PDF VERSIONS/Covariance matrix.pdf",
     "MD VERSIONS/z_images/Pasted image 20230331121748.png",
     "MD VERSIONS/z_images/Pasted image 20230331113141.png",
     "MD VERSIONS/z_images/Pasted image 20230331112941.png",

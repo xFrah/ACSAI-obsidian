@@ -54,9 +54,10 @@ The point estimator for a population mean $\large \mu$ is defined as:
 
 $$\large \bar{X}=\dfrac{1}{n}\sum\limits_{i=1}^n X_i$$
 
-```
+<br>
 
 ![](../z_images/Pasted%20image%2020230323144134.png)
+```
 
 
 ## Point estimate
@@ -77,7 +78,7 @@ $$\large \bar{x}=\dfrac{1}{88}\sum\limits_{i=1}^{88} x_i=3.12$$
 A good estimator has two desirable properties:
 
 - **Unbiased:** The bias of a point estimator is defined as the difference between the [[Expected value]] of the estimator and the value of the parameter being estimated(basically the [Standard Error](Standard%20Error.md)). When the estimated value of the parameter and the value of the parameter being estimated are equal, the estimator is considered unbiased.
-- **Small [standard error](Standard%20Error.md):** Lower standard error compared to other estimators. It tends to fall closer than other estimates to the parameter. Or the sample mean has a smaller standard error than the sample [median](Median.md) when estimating the population mean of a normal distribution.
+- **Small [standard error](Standard%20Error.md):** Lower standard error compared to other estimators. It tends to fall closer than other estimates to the parameter. Or the sample mean has a smaller standard error than the sample [median](Median.md) when estimating the population mean of a [normal distribution](../Probability/Normal%20distribution.md).
 
 ```ad-example
 The sample mean is an unbiased estimator of the population [mean](Mean.md).
