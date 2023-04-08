@@ -1,5 +1,5 @@
 - **Initialization step:** we take K random centroids from the space.
-- **Assignment step:** For each point, we compute the distance to the k random centroids, the point now belongs to that centroid. The assignments can move but the centroids are fixed.
+- **Assignment step:** For each point, we get the closest centroid, the point now belongs to that centroid. The assignments can move but the centroids are fixed.
 
 ```python
 # for each point, calculate the distance to the centroids and assign it to the closest centroid

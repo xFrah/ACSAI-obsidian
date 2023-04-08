@@ -35,7 +35,7 @@ The multivariate normal distribution is a multidimensional generalisation of the
 
 $$\large f(x) = \frac{1}{\sqrt{(2\pi)^k \det\Sigma}}^{\huge-\frac{1}{2}(x - \mu)^T \Sigma^{-1}(x-\mu)}$$
 
-Basically we have a quadratic form in the exponent
+Basically we have a [quadratic form](../Linear%20Algebra/Quadratic%20form.md) in the exponent
 Where:
 - $\large \mu$ is the [mean](../Statistics/Mean.md)
 - $\large \Sigma$ is the [covariance matrix](Covariance%20matrix.md).
