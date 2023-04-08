@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Linear Algebra/Quadratic form.md",
+                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Linear Algebra/Quadratic form.md",
+                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Linear Algebra/Quadratic form.md",
+                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Linear Algebra/Quadratic form.md"
+                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md"
               }
             }
           }
@@ -151,8 +151,12 @@
   },
   "active": "39008ca4d993ee99",
   "lastOpenFiles": [
-    "MD VERSIONS/Linear Algebra/Rayleigh coefficient.md",
+    "MD VERSIONS/z_images/Pasted image 20230408174342.png",
+    "MD VERSIONS/z_images/Pasted image 20230408174333.png",
+    "MD VERSIONS/z_images/Pasted image 20230408174230.png",
+    "MD VERSIONS/z_images/Pasted image 20230408155105.png",
     "MD VERSIONS/Linear Algebra/Quadratic form.md",
+    "MD VERSIONS/Linear Algebra/Rayleigh coefficient.md",
     "MD VERSIONS/Machine Learning/K-means.md",
     "MD VERSIONS/Machine Learning/Quadratic Forms.md",
     "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
@@ -187,16 +191,12 @@
     "MD VERSIONS/Artificial Intelligence/A-star.md",
     "MD VERSIONS/Artificial Intelligence/BFS.md",
     "MD VERSIONS/Artificial Intelligence/Best-first search.md",
-    "MD VERSIONS/Artificial Intelligence/DFS.md",
     "MD VERSIONS/z_images/Pasted image 20230404111256.png",
     "MD VERSIONS/z_images/Pasted image 20230404110326.png",
     "MD VERSIONS/z_images/Pasted image 20230404110121.png",
     "MD VERSIONS/z_images/Pasted image 20230402120530.png",
     "MD VERSIONS/z_images/Pasted image 20230331121748.png",
     "MD VERSIONS/z_images/Pasted image 20230331113141.png",
-    "MD VERSIONS/z_images/Pasted image 20230331112941.png",
-    "MD VERSIONS/z_images/Pasted image 20230328155917.png",
-    "MD VERSIONS/z_images/Pasted image 20230328155323.png",
     "Machine Learning/Untitled.canvas"
   ]
 }

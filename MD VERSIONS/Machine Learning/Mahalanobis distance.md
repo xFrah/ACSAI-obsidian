@@ -1,14 +1,7 @@
-It measures how many standard deviations away x is from the [mean](../Statistics/Mean.md) of $\mathcal{N}(\mu,\Sigma)$
-Alternatively, it measures how far away a vector is from a distribution.
-
-The thing is, if we have a point cloud / distribution like this:
+It measures how many standard deviations away x is from the [mean](../Statistics/Mean.md) of $\mathcal{N}(\mu,\Sigma)$.
+Alternatively, it measures how far away a point is from a distribution/cluster(and not between two distinct points) like this:
 
 ![](../z_images/Pasted%20image%2020230405214722.png)
-
-How can you even tell how many standard deviations away a point is from the mean?
-Standard deviations of what lol.
-
-TO BE CONTINUED
 
 ```ad-hint
 title: Why don't we use the Euclidean distance?
@@ -17,6 +10,22 @@ Recall that the euclidean distance is simply a straight line between two points.
 <br>
 
 Euclidean distance will work fine as long as the dimensions are equally weighted and are indipendent of each other.
+
+<br>
+
+The Euclidean distance between a point and the center of the points (distribution) can give little or misleading information about how close a point really is to the cluster.
+
+<br>
+
+![](../z_images/Pasted%20image%2020230408155105.png)
+
+<br>
+
+In the right image, if you use the euclidean distance, you wouldn't be able to spot the point in pink as an outlier, because it has the same distance as the point in purple, which is actually in the cluster.
+
+<br>
+
+So, it cannot be used to really judge how close a point actually is to a distribution of points.
 ```
 
 
@@ -26,4 +35,52 @@ If each of the axes are rescaled to have [variance](../Statistics/Variance.md) 1
 The formula is:
 $$\large D_M(\vec{x}) = \sqrt{(x - \mu)^\mathsf{T} \mathbf{\Sigma}^{-1} (x - \mu)}$$
 
-We are weighting each dimension proportionally to the [standard deviation](../Statistics/Standard%20Deviation.md).
+## What?
+
+This is what the Mahalanobis distance actually does:
+1. It decorrelates the variables
+2. Scales the principal components to make the variance equal to 1.
+3. It calculates the euclidean distance
+
+
+```ad-example
+From this:
+![](../z_images/Pasted%20image%2020230408174333.png)
+To this:
+![](../z_images/Pasted%20image%2020230408174342.png)
+
+```
+
+
+```ad-quote
+"The Mahalanobis distance is simply the distance of the test point from the center of mass divided by the width of the ellipsoid in the direction of the test point." - Some guy on Stack Overflow.
+```
+
+
+```ad-seealso
+title: Useful links to complete the notes
+https://math.stackexchange.com/questions/428064/distance-of-a-test-point-from-the-center-of-an-ellipsoid
+
+<br>
+
+https://math.stackexchange.com/questions/424445/bottom-to-top-explanation-of-the-mahanalobis-distance/424459#424459
+
+<br>
+
+https://www.machinelearningplus.com/statistics/mahalanobis-distance/
+
+<br>
+
+https://blogs.sas.com/content/iml/2012/02/15/what-is-mahalanobis-distance.html
+
+<br>
+
+https://blogs.sas.com/content/iml/2012/02/08/use-the-cholesky-transformation-to-correlate-and-uncorrelate-variables.html
+
+<br>
+
+https://stats.stackexchange.com/questions/62092/bottom-to-top-explanation-of-the-mahalanobis-distance
+
+
+
+```
