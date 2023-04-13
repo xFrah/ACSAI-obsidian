@@ -13,19 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Joint distribution.md",
+                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "48e89858ff079ec4",
+            "id": "97024d888ca84c62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Bayes Theorem.md",
+                "file": "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03f89973c986c810",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Statistics/Central Limit Theorem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b497a4fc6a7c960e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Bayes Theorem.md",
+                "file": "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Bayes Theorem.md",
+                "file": "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Bayes Theorem.md"
+                "file": "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md"
               }
             }
           }
@@ -161,35 +185,39 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "48e89858ff079ec4",
+  "active": "97024d888ca84c62",
   "lastOpenFiles": [
-    "MD VERSIONS/z_images/Pasted image 20230409184122.png",
-    "MD VERSIONS/Machine Learning/Joint distribution.md",
-    "MD VERSIONS/Machine Learning/Bayes Theorem.md",
+    "MD VERSIONS/z_images/Pasted image 20230414002635.png",
+    "MD VERSIONS/z_images/Pasted image 20230414002211.png",
+    "MD VERSIONS/z_images/Pasted image 20230414001747.png",
+    "MD VERSIONS/z_images/Pasted image 20230414001424.png",
+    "MD VERSIONS/z_images/Pasted image 20230414001222.png",
+    "MD VERSIONS/z_images/Pasted image 20230414000844.png",
     "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
+    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
+    "MD VERSIONS/Machine Learning/Joint distribution.md",
+    "MD VERSIONS/Statistics/Central Limit Theorem.md",
+    "MD VERSIONS/Statistics/Mean.md",
+    "MD VERSIONS/Machine Learning/Bayes Theorem.md",
+    "MD VERSIONS/z_images/Pasted image 20230413142348.png",
+    "MD VERSIONS/Statistics/Significance Test.md",
+    "MD VERSIONS/z_images/Pasted image 20230412142310.png",
+    "MD VERSIONS/z_images/Pasted image 20230410202840.png",
+    "MD VERSIONS/z_images/Pasted image 20230410143011.png",
+    "MD VERSIONS/z_images/Pasted image 20230410115558.png",
     "MD VERSIONS/Machine Learning/Gaussian distribution.md",
-    "MD VERSIONS/z_images/Pasted image 20230409114422.png",
     "MD VERSIONS/Probability/Conditional Probability.md",
     "MD VERSIONS/Probability/Finding probabilities.md",
     "MD VERSIONS/Probability/Probability distribution.md",
     "MD VERSIONS/Probability/Event.md",
-    "MD VERSIONS/z_images/Pasted image 20230409112919.png",
     "MD VERSIONS/Machine Learning/Quadratic Forms.md",
     "MD VERSIONS/Statistics/Standard Deviation.md",
-    "MD VERSIONS/z_images/prob2.png",
     "MD VERSIONS/z_images/prob1.png.~tmp",
-    "MD VERSIONS/z_images/prob1.png",
-    "MD VERSIONS/z_images/Pasted image 20230408184905.png",
-    "MD VERSIONS/z_images/Pasted image 20230408174342.png",
-    "MD VERSIONS/z_images/Pasted image 20230408174333.png",
-    "MD VERSIONS/z_images/Pasted image 20230408174230.png",
-    "MD VERSIONS/z_images/Pasted image 20230408155105.png",
     "MD VERSIONS/Linear Algebra/Quadratic form.md",
     "MD VERSIONS/Linear Algebra/Rayleigh coefficient.md",
     "MD VERSIONS/Machine Learning/K-means.md",
     "MD VERSIONS/AI-LAB/Contour detection.md",
     "MD VERSIONS/Probability/Normal distribution.md",
-    "MD VERSIONS/z_images/Pasted image 20230405214722.png",
     "README.md",
     "MD VERSIONS/Artificial Intelligence/Heuristics.md",
     "TODO.md",
@@ -200,13 +228,9 @@
     "MD VERSIONS/AI-LAB/Color.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Contour detection.html",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Convolution.html",
-    "MD VERSIONS/AI-LAB/Convolution.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Corner extraction.html",
-    "MD VERSIONS/AI-LAB/Corner extraction.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Histogram.html",
-    "MD VERSIONS/AI-LAB/Histogram.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/HSV.html",
-    "MD VERSIONS/AI-LAB/HSV.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Kernel.html",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Numpy.html",
     "Machine Learning/Untitled.canvas"
