@@ -1,3 +1,5 @@
+## The "useless" bayesian vision
+
 The goal of maximum likelihood is to fit a distribution to some data.
 Using the [Bayes Theorem](Bayes%20Theorem.md), we want to find the most likely value for the parametetrs of our model, given the data.
 
@@ -42,9 +44,34 @@ $$\large p({\color{red}{D}};\boldsymbol{\mu}, \boldsymbol{\Sigma}) = p({\color{r
 
 So we take the derivative of this shit with respect to $\mu$ and we actually find the Maximum Likelihood parameters.
 
+Obviously, you can do the same to find the standard deviations. You lock in the $\mu$ and you let the [standard deviation](../Statistics/Standard%20Deviation.md) change, then you stick with the value that gives the maximum likelyhood:
+
+![](../z_images/Pasted%20image%2020230415125133.png)
+
 
 ```ad-tldr
 In order to get the maximum likelihood parameters for multiple data points, we must multiply all the individual likelihood functions and take the derivative of that, solving for $\mu$ and $\sigma$.
+```
+
+
+## After endless mathematical proofs... the end
+
+There is a whole ass proof to justify that the maximum likelihood estimate is equal to the [mean](../Statistics/Mean.md) of the measurements. The proof is covered in the link below:
+
+![](../z_images/Pasted%20image%2020230415124246.png)
+
+Similarly, there is a proof that shows that the width of the distribution is equal to the [standard deviation](../Statistics/Standard%20Deviation.md) of the measurements:
+
+![](../z_images/Pasted%20image%2020230415124322.png)
+
+These notions may be obvious, but now we have the math to back it up.
+
+```ad-tldr
+![](../z_images/Pasted%20image%2020230415124450.png)
+
+<br>
+
+![](../z_images/Pasted%20image%2020230415124511.png)
 ```
 
 
