@@ -98,11 +98,4 @@ So the variables are not telling us anything about each other as they are totall
 The determinant is there because if we integrate this its going to 1. If we stretch sigma we should normalize it.
 
 
-## Joint, Marginal, Conditional and Bayes Theorem
-
-#### Joint
 The distribution above can be seen as [joint distribution](Joint%20distribution.md) $p(X, Y)$ of two random variables $X$ and $Y$.
-
-It defines the density for two variables that co-occur together.
-
-We ca

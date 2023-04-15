@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
+                "file": "MD VERSIONS/AI-LAB/Contour detection.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
+                "file": "MD VERSIONS/AI-LAB/Contour detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
+                "file": "MD VERSIONS/AI-LAB/Contour detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md"
+                "file": "MD VERSIONS/AI-LAB/Contour detection.md"
               }
             }
           }
@@ -174,6 +174,10 @@
   },
   "active": "abd6b819966913ca",
   "lastOpenFiles": [
+    "MD VERSIONS/Statistics/Regression.md",
+    "MD VERSIONS/Machine Learning/Gaussian distribution.md",
+    "MD VERSIONS/Machine Learning/Joint distribution.md",
+    "MD VERSIONS/Machine Learning/K-means.md",
     "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
     "MD VERSIONS/z_images/Pasted image 20230415125133.png",
     "MD VERSIONS/z_images/Pasted image 20230415124511.png",
@@ -181,7 +185,6 @@
     "MD VERSIONS/z_images/Pasted image 20230415124322.png",
     "MD VERSIONS/z_images/Pasted image 20230415124246.png",
     "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
-    "MD VERSIONS/Machine Learning/Gaussian distribution.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
     "MD VERSIONS/AI-LAB/Color equalization.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Contour detection.html",
@@ -212,8 +215,6 @@
     "MD VERSIONS/Artificial Intelligence/Graph.md",
     "MD VERSIONS/Artificial Intelligence/Heuristics.md",
     "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
-    "MD VERSIONS/Artificial Intelligence/Set theory.md",
-    "MD VERSIONS/Linear Algebra/Eigenvectors and Eigenvalues.md",
     "MD VERSIONS/z_images/Pasted image 20230414002635.png",
     "MD VERSIONS/z_images/Pasted image 20230414002211.png",
     "MD VERSIONS/z_images/Pasted image 20230414001747.png",

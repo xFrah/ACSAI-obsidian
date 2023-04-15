@@ -46,6 +46,23 @@ or just
 $$\large G = |G_x|+|G_y|$$
 
 
+```ad-tldr
+When using the sobel operator, we take the product of the kernel elements and the corresponding pixels, and we add them all together. This is just normal convolution.
+
+<br>
+
+So if the result is very positive or very negative we have detected an edge, because the sides of the convolution are too different.
+
+<br>
+
+If the two sides have mostly the same values, the result is close to zero.
+
+<br>
+
+We can also interpret this as a discrete derivative.
+```
+
+
 ```ad-tip
 The operator * stands for "cross product", whichi is not really a cross product, we are just multiplying the elements in the same position and we are summing them. In this way we get a scalar.
 ```
