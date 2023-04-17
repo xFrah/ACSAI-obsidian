@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "1befce086dc3290f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e110b53b3cd1668",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Artificial Intelligence/Best-first search.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "03f89973c986c810",
             "type": "leaf",
             "state": {
@@ -43,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -109,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/AI-LAB/Contour detection.md",
+                "file": "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/AI-LAB/Contour detection.md",
+                "file": "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/AI-LAB/Contour detection.md"
+                "file": "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md"
               }
             }
           }
@@ -172,8 +198,14 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "abd6b819966913ca",
+  "active": "1befce086dc3290f",
   "lastOpenFiles": [
+    "MD VERSIONS/z_images/Pasted image 20230416193009.png",
+    "MD VERSIONS/Machine Learning/Mixture of Gaussians.md",
+    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
+    "MD VERSIONS/Artificial Intelligence/BFS.md",
+    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
+    "MD VERSIONS/AI-LAB/Contour detection.md",
     "MD VERSIONS/Statistics/Regression.md",
     "MD VERSIONS/Machine Learning/Gaussian distribution.md",
     "MD VERSIONS/Machine Learning/Joint distribution.md",
@@ -188,7 +220,6 @@
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
     "MD VERSIONS/AI-LAB/Color equalization.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Contour detection.html",
-    "MD VERSIONS/AI-LAB/Contour detection.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Color.html",
     "MD VERSIONS/AI-LAB/Color.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Corner extraction.html",
@@ -207,14 +238,9 @@
     "MD VERSIONS/AI-LAB/Warp.md",
     "MD VERSIONS/Artificial Intelligence/A-star.md",
     "MD VERSIONS/Artificial Intelligence/Agent.md",
-    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
     "MD VERSIONS/Artificial Intelligence/DFS.md",
-    "MD VERSIONS/Artificial Intelligence/BFS.md",
     "MD VERSIONS/Artificial Intelligence/Environment.md",
     "MD VERSIONS/Artificial Intelligence/Functions.md",
-    "MD VERSIONS/Artificial Intelligence/Graph.md",
-    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
-    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
     "MD VERSIONS/z_images/Pasted image 20230414002635.png",
     "MD VERSIONS/z_images/Pasted image 20230414002211.png",
     "MD VERSIONS/z_images/Pasted image 20230414001747.png",
