@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
+                "file": "MD VERSIONS/Machine Learning/Mixture of Gaussians.md",
                 "mode": "source",
                 "source": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
+                "file": "MD VERSIONS/Machine Learning/Mixture of Gaussians.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
+                "file": "MD VERSIONS/Machine Learning/Mixture of Gaussians.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md"
+                "file": "MD VERSIONS/Machine Learning/Mixture of Gaussians.md"
               }
             }
           }
@@ -200,11 +200,13 @@
   },
   "active": "1befce086dc3290f",
   "lastOpenFiles": [
+    "MD VERSIONS/z_images/Pasted image 20230418102907.png",
+    "MD VERSIONS/z_images/Pasted image 20230418102821.png",
+    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
     "MD VERSIONS/z_images/Pasted image 20230416193009.png",
     "MD VERSIONS/Machine Learning/Mixture of Gaussians.md",
     "MD VERSIONS/Artificial Intelligence/Best-first search.md",
     "MD VERSIONS/Artificial Intelligence/BFS.md",
-    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
     "MD VERSIONS/AI-LAB/Contour detection.md",
     "MD VERSIONS/Statistics/Regression.md",
     "MD VERSIONS/Machine Learning/Gaussian distribution.md",
@@ -244,8 +246,6 @@
     "MD VERSIONS/z_images/Pasted image 20230414002635.png",
     "MD VERSIONS/z_images/Pasted image 20230414002211.png",
     "MD VERSIONS/z_images/Pasted image 20230414001747.png",
-    "MD VERSIONS/z_images/Pasted image 20230414001424.png",
-    "MD VERSIONS/z_images/Pasted image 20230414001222.png",
     "Machine Learning/Untitled.canvas"
   ]
 }
