@@ -45,6 +45,7 @@ K-means can also be used to get the boundaries of the voronoi regions.
 ![](../z_images/kmeans.gif)
 ```
 
+---
 
 ## K-means as a loss minimization problem
 
@@ -65,6 +66,7 @@ Tries to minimize the [spread](../Statistics/Spread.md) of each cluster.
 
 K-means is always guaranteed to converge(to end), at least to a local optimum.
 
+---
 
 ## Furthest-first Heuristics
 
@@ -97,6 +99,7 @@ To select a new centroid:
 
 This approach has a big problem though, because the centroids are always gonna be placed on outliers, if there are any.
 
+---
 
 ## K-means++
 
@@ -118,6 +121,7 @@ The probability of each point of being selected is proportional to the distance 
 
 But how do we actually sample from a set of distances?
 
+---
 
 ## Inverse transform sampling
 
@@ -159,6 +163,7 @@ This is not really correct but who gives a shit?
 
 By choosing the type of norm that we use to compute distances, we can produce a whole family of algorithms.
 
+---
 
 ## How to choose K?
 
@@ -176,6 +181,7 @@ Where:
 - $\arg\min_K \mathcal{L}_K$ = minimum loss with k clusters.
 - Penalty for the number of clusters.
 
+---
 
 ## Color compression
 

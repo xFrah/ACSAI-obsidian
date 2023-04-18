@@ -19,6 +19,7 @@ If we take the first derivative we can identify the flex:
 
 ![](../z_images/Pasted%20image%2020230321171605.png)
 
+---
 
 ## Sobel
 

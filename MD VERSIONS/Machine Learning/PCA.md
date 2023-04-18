@@ -23,6 +23,7 @@ A tv basically retains all the information of the 2 dimensions, but doesn't have
 And in fact, we don't really need the third dimension to understand what we are looking at, 2D is just enough!
 ```
 
+---
 
 ## Output of PCA
 
@@ -52,6 +53,7 @@ After reconstruction(this is not part of the process, it's done by projecting wi
 All that variance has been lost.
 ```
 
+---
 
 ## How to choose dimensionality of subspace?
 
@@ -62,6 +64,7 @@ We can actually measure how much relative variance the dimensions have compared 
 
 In the end, we are just given all the dimensions and how much variance they carry, we choose how to act.
 
+---
 
 ## How to:
 
@@ -166,6 +169,7 @@ $$
 \end{bmatrix} Q^{-1},
 $$
 
+---
 
 ## Data decorrelation
 

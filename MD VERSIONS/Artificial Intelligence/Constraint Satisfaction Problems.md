@@ -15,6 +15,7 @@ A constraint satisfaction problem consists of three components:
 - $D$ - a set of domains { ${D_1,...,D_n}$ }, one for each variable.
 - $C$ - a set of constraints, which specify allowable combinations of values.
 
+---
 
 ## Domains
 
@@ -52,6 +53,7 @@ Types if assignments:
 
 The solution to a CSP is a complete, consistent assignment.
 
+---
 
 ## Map coloring problem
 
@@ -72,6 +74,7 @@ $C = \{SA\neq WA,\; SA \neq NT,\; SA\neq Q,\; SA \neq NSW,\; SA \neq V,\; WA \ne
 Of course, we are using abbreviations here, for example $SA\neq WA$ stands for $\large \langle \, (SA,\;WA),\; SA \neq WA \, \rangle$.
 ```
 
+---
 
 ## And then what?
 
