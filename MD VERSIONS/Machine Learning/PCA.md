@@ -28,7 +28,6 @@ And in fact, we don't really need the third dimension to understand what we are 
 ## Output of PCA
 
 PCA gives us the transformation matrix that, when applied to the original data matrix, kills the dimensions/directions we wish to get rid of.
-Most of the time we want to get rid of unnecessary dimensions for the representation of data, because the other dimensions explain it well enough.
 
 That matrix is often called the $U$ matrix, because it is the $U$ that results from [SVD](../Linear%20Algebra/SVD.md) or [Spectral decomposition](../Linear%20Algebra/Spectral%20decomposition.md).
 
