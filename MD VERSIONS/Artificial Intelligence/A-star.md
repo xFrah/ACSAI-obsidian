@@ -13,6 +13,7 @@ Whether A* is cost-optimal depends on certain properties of the heuristic:
 - Admissibility
 - Consistency
 
+---
 
 ## Admissibility and consistency
 

@@ -15,4 +15,5 @@ $$\large\sum^{K}_{k=1}\pi_k = 1$$
 
 ## How to fit?
 
-A gaussian mixture model can be fitted with the [Expectation Maximization](Expectation%20Maximization.md) algorithm for GMMs.
+In supervised learning, we just get $\mu$ and $\Sigma$ of the clusters.
+In unsupervised learning, we use the [Expectation Maximization](Expectation%20Maximization.md) algorithm for GMMs.
