@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
+                "file": "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
+                "file": "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
+                "file": "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md"
+                "file": "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md"
               }
             }
           }
@@ -155,9 +155,12 @@
   },
   "active": "b18215cc11e9e16d",
   "lastOpenFiles": [
+    "MD VERSIONS/Machine Learning/PCA.md",
+    "MD VERSIONS/Machine Learning/K-means.md",
+    "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
+    "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
     "MD VERSIONS/z_images/Pasted image 20230420182122.png",
     "MD VERSIONS/z_images/Pasted image 20230420182037.png",
-    "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
     "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
     "MD VERSIONS/AI-LAB/Color equalization.md",
@@ -190,8 +193,6 @@
     "MD VERSIONS/Artificial Intelligence/Heuristics.md",
     "MD VERSIONS/Artificial Intelligence/Graph.md",
     "MD VERSIONS/Artificial Intelligence/Functions.md",
-    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
-    "MD VERSIONS/Artificial Intelligence/Set theory.md",
     "MD VERSIONS/z_images/Pasted image 20230420172459.png",
     "MD VERSIONS/z_images/Pasted image 20230420171130.png",
     "MD VERSIONS/z_images/Pasted image 20230418145242.png",
@@ -200,7 +201,6 @@
     "MD VERSIONS/z_images/Pasted image 20230418144930.png",
     "MD VERSIONS/z_images/Pasted image 20230418144751.png",
     "MD VERSIONS/z_images/1_RIHS9QCl8p-NEmUwxFaK-A.gif",
-    "MD VERSIONS/z_images/Pasted image 20230418144608.png",
     "Machine Learning/Untitled.canvas"
   ]
 }
