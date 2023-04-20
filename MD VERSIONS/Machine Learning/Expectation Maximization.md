@@ -1,14 +1,18 @@
 We want to estimate the parameters of each gaussian in a [Gaussian Mixture Model](Gaussian%20Mixture%20Model.md).
+Imagine we have a 1D dataset:
 
 ![](../z_images/Pasted%20image%2020230418142138.png)
+
 
 This is pretty easy if we already know which point belongs to which [[Gaussian distribution|gaussian]]:
 
 ![](../z_images/Pasted%20image%2020230418142204.png)
 
+
 We can just compute the [mean](../Statistics/Mean.md) and [[Standard Deviation|standard deviations]] from the points, resulting in this GMM:
 
 ![](../z_images/Pasted%20image%2020230418142233.png)
+
 
 But what if we don't actually know the clusters in advance?
 
@@ -21,17 +25,50 @@ It's a lot like [K-means](K-means.md), because we are trying to solve a similar 
 ![](../z_images/Pasted%20image%2020230418143320.png)
 
 
-0) We set random parameters for the gaussians:
->![](../z_images/Pasted%20image%2020230418144751.png)
+### 0) Initialization: We set random parameters for the gaussians:
 
-1) We assign the labels according to the [Mahalanobis Distance](Mahalanobis%20distance.md) of points from distributions.
-> ![](../z_images/Pasted%20image%2020230418144930.png)
+![](../z_images/Pasted%20image%2020230418144751.png)
 
-2) Update parameters:
-> ![](../z_images/Pasted%20image%2020230418145110.png)
 
-4) Repeat step 1 and step 2 until convergence:
->![](../z_images/Pasted%20image%2020230418145204.png)
->![](../z_images/Pasted%20image%2020230418145242.png)
->At step 4 we have already converged.
+### 1) E-step: Assign the labels
+
+This is done by computing the responsibilities for each point. We assign the label with highest responsibility.
+
+```ad-quote
+title: Responsibility Notion
+In a Gaussian Mixture Model, $r_{ic}$ stands for the probability that the point $x_i$ belongs to cluster $c$.
+
+<br>
+
+$$\large\gamma_{k} =\frac{
+ \mathcal{N}(x_i;\mu_k,\Sigma_k)\cdot\pi_k}
+{\sum_j\mathcal{N}(x_i;\mu_j,\Sigma_j)\cdot\pi_j}$$
+
+Where:
+- The numerator stands for the height of the selected gaussian at that point
+- The denominator is the height of the mixture model at that point, that would be the sum of all the gaussians.
+
+<br>
+
+TLDR:
+
+The gaussian that has higher responsibility for a given datapoint is the one that explains the datapoint the best.
+```
+
+![](../z_images/Pasted%20image%2020230418144930.png)
+
+
+### 2) M-step: Update parameters:
+
+This step consists in updating the parameters of the gaussians: mean $\mu_c$, [covariance](../Statistics/Covariance.md) $\Sigma_c$ and size $\pi_c$.
+
+![](../z_images/Pasted%20image%2020230418145110.png)
+
+
+### ?) Repeat step 1 and step 2 until convergence:
+
+![](../z_images/Pasted%20image%2020230418145204.png)
+![](../z_images/Pasted%20image%2020230418145242.png)
+
+At step 4 we have already converged.
 

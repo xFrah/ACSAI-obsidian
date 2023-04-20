@@ -10,4 +10,4 @@ Each gaussian k in the mixture has those 3 parameters:
 
 The mixing coefficients are probabilities, and so their sum is 1:
 $$\large\sum^{K}_{k=1}\pi_k = 1$$
-KEEP GOING
+

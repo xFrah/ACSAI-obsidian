@@ -72,7 +72,8 @@ Suppose we have a point cloud X:
 
 ![](../z_images/Pasted%20image%2020230309160942.png)
 
-## 1. Standardize the data
+### 1. Standardize the data
+
 First step, we standardize the data :
 $$\large X' = \frac{X-\mu}{\sigma}$$
 
@@ -88,7 +89,7 @@ Output:
 ![](../z_images/Pasted%20image%2020230309160917.png)
 
 
-## 2. Use [SVD](../Linear%20Algebra/SVD.md) or [Spectral decomposition](../Linear%20Algebra/Spectral%20decomposition.md) to find U
+### 2. Use [SVD](../Linear%20Algebra/SVD.md) or [Spectral decomposition](../Linear%20Algebra/Spectral%20decomposition.md) to find U
 
 U is basically the matrix containing the eigenvectors of the data matrix. Meaning that it contains the directions of the data.
 
