@@ -9,11 +9,13 @@ $$\large \begin{bmatrix}
 
 This is a blurring kernel: for every pixel, it's combining equally the values of the neighboring pixels with the value of the pixel itself.
 
+---
 
 ## Using the kernels
 
-The operator * stands for "cross product", whichi is not really a cross product, we are just multiplying the elements in the same position and we are summing them. In this way we get a scalar.
+The operator $\ast$ stands for "cross product", whichi is not really a cross product, we are just multiplying the elements in the same position and we are summing them. In this way we get a scalar.
 
+---
 
 ## Gaussian blur
 

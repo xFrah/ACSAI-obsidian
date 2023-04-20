@@ -1,6 +1,6 @@
 The covariance matrix is defined as a square matrix where the diagonal elements represent the variance and the off-diagonal elements represent the covariance.
 
-$$\Large \begin{bmatrix}
+$$\large \begin{bmatrix}
 var(x) & cov(x, y) \\
 cov(x, y) & var(y)
 \end{bmatrix}$$

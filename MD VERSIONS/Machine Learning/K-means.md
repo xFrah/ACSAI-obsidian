@@ -75,7 +75,7 @@ How do we choose the initial centroids effectively?
 We choose the first one arbitrarily from the data points.
 The other ones, we try to place them <font color="#b2a2c7">as far away as possible from all the centroids</font> that we just placed.
 
-$$\large m =\underbrace{\arg\max_m \underbrace{\big( \min_{k<k^{\prime}} \left| \left| x_m - \mu_k^{\prime}\right|\right|_2^2 \big)}_{\text{fix m, distance of closest centroids}}}_{\text{select points with max distances from previous}}$$
+$$\large m =\underbracket{\arg\max_m \underbracket{\big( \min_{k<k^{\prime}} \left| \left| x_m - \mu_k^{\prime}\right|\right|_2^2 \big)}_{\text{fix m, distance of closest centroids}}}_{\text{select points with max distances from previous}}$$
 
 
 ```python
@@ -126,8 +126,7 @@ But how do we actually sample from a set of distances?
 ## Inverse transform sampling
 
 1. We turn the set D of distances into a [probability distribution](../Probability/Probability%20distribution.md)(the probability mass function).
-	
-$$\large p(d_i)= \frac{d_i}{\sum{D}}$$
+	$$\large p(d_i)= \frac{d_i}{\sum{D}}$$
 	
 ```ad-seealso
 title: Probability mass function Notion

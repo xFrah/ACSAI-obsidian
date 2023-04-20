@@ -29,6 +29,7 @@ So with $AA^T$, nothing changes.
 > ![](../z_images/Pasted%20image%2020230311130642.png)
 ```
 
+---
 
 ## Similarity: Scale, Flip, Rotation and Translations
 
@@ -54,6 +55,7 @@ Here we are just scaling the main components of the two vectors.
 
 ![](../z_images/Pasted%20image%2020230307171444.png)
 
+---
 
 ## Affine: 
 

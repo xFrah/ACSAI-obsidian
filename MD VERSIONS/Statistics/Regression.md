@@ -12,6 +12,7 @@ Where:
 
 ![](../z_images/Pasted%20image%2020230308151724.png)
 
+---
 
 ## Error
 
@@ -26,6 +27,7 @@ Where $\large e$ represents:
 - Omitted variables
 - Errors in the equation, because it may not be perfectly linear
 
+---
 
 ## Residual
 
@@ -44,6 +46,7 @@ title: Why squared?
 Because it's either that or the absolute value. And in this case we don't care about the unit of measurament, we just care about minimizing the value.
 ```
 
+---
 
 ## Calculating the least-squares regression line
 

@@ -12,7 +12,7 @@ Input: The type of fruit
 Output: The box from which it has been picked
 
 
-## How do we solve this?
+### How do we solve this?
 
 In order to find the probability of the event red box given the event orange, we just use conditional probability as usual.
 

@@ -41,9 +41,7 @@ Where:
 - $\large \Sigma$ is the [covariance matrix](Covariance%20matrix.md).
 - $\large k$ is the dimensions
 
-we have a quadratic form in the exponent
-determinant tells you how much the space is deformed. by dividing by it we are normalizing the data.
-
+The determinant tells you how much the space is deformed. by dividing by it we are normalizing the data.
 
 ```ad-example
 With values:

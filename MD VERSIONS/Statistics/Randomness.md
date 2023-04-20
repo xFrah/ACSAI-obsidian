@@ -4,6 +4,8 @@ The probability of times that something happens in the short run is very unpredi
 
 <span style="background:rgba(183, 152, 255, 0.3)">Probability quantifies long-run randomness.</span>
 
+---
+
 ## Law of large numbers:
 
 As the number of trials increase, the proportion of occurrences of any given outcome approaches a particulare number in the long run.
@@ -15,6 +17,7 @@ As one tosses a (perfect) die, in the long run 1/6 of the observations will be a
 > ![](../z_images/Pasted%20image%2020230309134010.png)
 ```
 
+---
 
 ## Definitions
 

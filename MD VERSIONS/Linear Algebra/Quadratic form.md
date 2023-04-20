@@ -17,13 +17,13 @@ a \\ b \\ c
 \begin{bmatrix}
 x \\ y \\ z
 \end{bmatrix}$$
-If we take the dot product between the vector of coefficients and the vector of variables, we get the original expression.
+If we take the [dot product](Dot%20product.md) between the vector of coefficients and the vector of variables, we get the original expression.
 
 The notation for this expression is $\large V\cdot X$.
 
 
 ```ad-hint
-Recall that the dot product between two [vectors](Vectors.md) is basically multiplying the elements with same index and summing all of the results together.
+Recall that the [dot product](Dot%20product.md) between two [vectors](Vectors.md) is basically multiplying the elements with same index and summing all of the results together.
 ```
 
 
@@ -98,3 +98,14 @@ $$\Large x^tAx$$
 Where:
 - $\large x$ is the vector of variables
 - $A$ is the matrix of coefficients
+
+
+## Vector to scalar
+
+It is a vector to scalar function.
+It is used for characterizing Definiteness of matrices.
+
+Because for any x != 0, the definiteness of the quadratic form can give you information about the eigenvalues.
+
+![](../z_images/Pasted%20image%2020230321143357.png)
+

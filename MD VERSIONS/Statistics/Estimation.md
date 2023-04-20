@@ -9,6 +9,7 @@ title: Example of population parameters
 We can't possibly survey the entire population.
 So we take a random sample from the population and use it to estimate the value of the population parameter.
 
+---
 
 ## Some definitions
 
@@ -42,6 +43,7 @@ For example, the parameter space of a population mean $\large \mu$ is defined as
 $\large \Omega=\{\mu: 0\le \mu\le 4\}$
 ```
 
+---
 
 ## Point Estimator
 
@@ -60,7 +62,7 @@ $$\large \bar{X}=\dfrac{1}{n}\sum\limits_{i=1}^n X_i$$
 ```
 
 
-## Point estimate
+### Point estimate
 
 Instead, the **point estimate** is the value that results from the point estimator on a real set of data.
 
@@ -73,7 +75,7 @@ $$\large \bar{x}=\dfrac{1}{88}\sum\limits_{i=1}^{88} x_i=3.12$$
 ```
 
 
-## Goodness of a Point Estimator
+### Goodness of a Point Estimator
 
 A good estimator has two desirable properties:
 

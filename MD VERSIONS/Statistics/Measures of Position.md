@@ -4,6 +4,8 @@ Percentile The $p^{th}$ percentile is a value such that $p$ % of the observation
 
 ![](../z_images/Pasted%20image%2020230301155850.png)
 
+---
+
 ## Quartiles
 
 The Quartiles split the distribution into <span style="background:rgba(183, 152, 255, 0.3)">four parts that have the same number of observations</span>:
@@ -26,6 +28,7 @@ It is not the range that we are dividing, but the observations
 In fact, not all quartiles are equal in x range.
 ```
 
+---
 
 ## Interquartile Range (IQR)
 

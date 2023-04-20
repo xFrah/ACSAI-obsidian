@@ -35,7 +35,7 @@ If each of the axes are rescaled to have [variance](../Statistics/Variance.md) 1
 The formula is:
 $$\large D_M(\vec{x}) = \sqrt{(x - \mu)^\mathsf{T} \mathbf{\Sigma}^{-1} (x - \mu)}$$
 
-## What?
+### What?
 
 This is what the Mahalanobis distance actually does:
 1. It decorrelates the variables

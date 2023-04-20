@@ -5,7 +5,6 @@ A symmetric matrix is a [matrix](Matrix.md) that has equal values on both sides 
 It is describable by:
 $$\Large A_{ji}=A_{ij}$$
 
-
 ```ad-info
 title: Why are they useful?
 The eigenvectors are perpendicular to each other.
@@ -19,7 +18,6 @@ But the cool thing is:
 If we transpose this orthogonal matrix, we get its inverse, so the counter to the original rotation.
 ```
 
-
 ```ad-hint
 Non-square matrices cannot be symmetrical.
 ```
@@ -29,6 +27,8 @@ If the matrix is symmetrical, the eigenvectors are perpendicular.
 
 Why?
 ```
+
+---
 
 ## Creating symmetry
 

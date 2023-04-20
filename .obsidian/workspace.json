@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Expectation Maximization.md",
+                "file": "MD VERSIONS/Linear Algebra/Vectors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b18215cc11e9e16d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -78,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Expectation Maximization.md",
+                "file": "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Expectation Maximization.md",
+                "file": "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Expectation Maximization.md"
+                "file": "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md"
               }
             }
           }
@@ -141,45 +153,46 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "822bc00841a6c457",
+  "active": "b18215cc11e9e16d",
   "lastOpenFiles": [
-    "MD VERSIONS/z_images/Pasted image 20230420172459.png",
-    "MD VERSIONS/z_images/Pasted image 20230420171130.png",
-    "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md",
-    "MD VERSIONS/Machine Learning/K-means.md",
-    "MD VERSIONS/Machine Learning/Expectation Maximization.md",
-    "MD VERSIONS/Machine Learning/PCA.md",
-    "MD VERSIONS/Machine Learning/Joint distribution.md",
-    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
-    "MD VERSIONS/Machine Learning/Cosine Similarity.md",
-    "MD VERSIONS/Machine Learning/Bayes Theorem.md",
-    "MD VERSIONS/Machine Learning/Gaussian distribution.md",
-    "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
     "MD VERSIONS/AI-LAB/Color equalization.md",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Convolution.html",
+    "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md",
+    "MD VERSIONS/AI-LAB/Convolution.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Contour detection.html",
     "MD VERSIONS/AI-LAB/Contour detection.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Convolution.html",
-    "MD VERSIONS/AI-LAB/Convolution.md",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Corner extraction.html",
+    "MD VERSIONS/AI-LAB/Corner extraction.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Histogram.html",
     "MD VERSIONS/AI-LAB/Histogram.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/HSV.html",
     "MD VERSIONS/AI-LAB/HSV.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Kernel.html",
     "MD VERSIONS/AI-LAB/Kernel.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Corner extraction.html",
-    "MD VERSIONS/AI-LAB/Corner extraction.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Numpy.html",
     "MD VERSIONS/AI-LAB/Numpy.md",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Tokenizing.html",
+    "MD VERSIONS/AI-LAB/Tokenizing.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Warp.html",
     "MD VERSIONS/AI-LAB/Warp.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Project.html",
     "MD VERSIONS/AI-LAB/Project.md",
-    "MD VERSIONS/AI-LAB/Tokenizing.md",
     "MD VERSIONS/Artificial Intelligence/A-star.md",
     "MD VERSIONS/Artificial Intelligence/Agent.md",
-    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
     "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
+    "MD VERSIONS/Artificial Intelligence/BFS.md",
+    "MD VERSIONS/Artificial Intelligence/DFS.md",
+    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
+    "MD VERSIONS/Artificial Intelligence/Environment.md",
+    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
+    "MD VERSIONS/Artificial Intelligence/Graph.md",
+    "MD VERSIONS/Artificial Intelligence/Functions.md",
+    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
+    "MD VERSIONS/Artificial Intelligence/Set theory.md",
+    "MD VERSIONS/Probability/Conditional Probability.md",
+    "MD VERSIONS/z_images/Pasted image 20230420172459.png",
+    "MD VERSIONS/z_images/Pasted image 20230420171130.png",
     "MD VERSIONS/z_images/Pasted image 20230418145242.png",
     "MD VERSIONS/z_images/Pasted image 20230418145204.png",
     "MD VERSIONS/z_images/Pasted image 20230418145110.png",
@@ -188,7 +201,6 @@
     "MD VERSIONS/z_images/1_RIHS9QCl8p-NEmUwxFaK-A.gif",
     "MD VERSIONS/z_images/Pasted image 20230418144608.png",
     "MD VERSIONS/z_images/Pasted image 20230418143320.png",
-    "MD VERSIONS/z_images/Pasted image 20230418142233.png",
     "Machine Learning/Untitled.canvas"
   ]
 }

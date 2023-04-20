@@ -12,6 +12,7 @@ A joint distribution is like uniting the distributions of the two random variabl
 
 ![](../z_images/prob2.png)
 
+---
 
 ## Some definitions
 
@@ -57,6 +58,7 @@ Which basically means that after the first event happened, our output space has 
 
 ```
 
+---
 
 ## Joint = Marginal × Conditional
 

@@ -2,6 +2,8 @@ An association (dependence) exists between two variables if a particular value/c
 
 ![](../z_images/Pasted%20image%2020230302144744.png)
 
+---
+
 ## Response and Explanatory variables:
 
 - Response variable: The dependent variable, it is the outcome variable on which we are making comparisons.
@@ -9,8 +11,9 @@ An association (dependence) exists between two variables if a particular value/c
 
 ![](../z_images/Pasted%20image%2020230302145139.png)
 
+---
 
-## Condingency table
+## Contingency table
 
 Useful for looking at the associations between two categorical variables.
 
@@ -23,6 +26,8 @@ Useful for looking at the associations between two categorical variables.
 
 The original table was:
 ![](../z_images/Pasted%20image%2020230302143750.png)
+
+---
 
 ## Conditional proportions or percentages
 
@@ -47,6 +52,8 @@ If there is no association between OS and Gen, then the conditional proportions 
 
 In this case the two variables are said to be indipendent.
 
+---
+
 #### Another example:
 
 ![](../z_images/Pasted%20image%2020230302150721.png)
@@ -62,6 +69,7 @@ In this case the two variables are said to be indipendent.
 In these examples, for each category of the response we find under which category of the explanatory variable its percentage is greater than the corresponding marginal.
 ```
 
+---
 
 ## Association of quantitative variables, Scatterplot
 

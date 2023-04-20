@@ -2,11 +2,13 @@ CSP search algorithms aim to take advantage of the structure of states(and not [
 
 We want to eliminate large portions of the search space all at once by identifying which combinations violate the constraints.
 
+---
 
 ## States in CSP
 
 In CSP, each state is a set of variables, each of which has a value. A problem is solved when all the variables satisfy the constraints.
 
+---
 
 ## CSP problem definition
 
@@ -15,9 +17,8 @@ A constraint satisfaction problem consists of three components:
 - $D$ - a set of domains { ${D_1,...,D_n}$ }, one for each variable.
 - $C$ - a set of constraints, which specify allowable combinations of values.
 
----
 
-## Domains
+### Domains
 
 A domain $D_i$ consists of a set of allowable values { ${v_1,...,v_k}$ } for variable $X_i$ .
 
@@ -26,7 +27,7 @@ A boolean variable would have domain {$true$, $false$}.
 ```
 
 
-##  Constraints
+###  Constraints
 
 A constraint $C_j$ consists of a pair $(scope, \;rel)$ where:
 - $scope$ is a tuple of variables that are used in the constraint.
@@ -41,7 +42,7 @@ $$\large \langle \, (X_1,\;X_2),\; X_1 > X_2 \, \rangle$$
 ```
 
 
-## Assignments
+### Assignments
 
 A CSPs assignment is the process of assigning a value to a variable.
 

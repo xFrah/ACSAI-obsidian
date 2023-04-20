@@ -6,7 +6,9 @@ Where:
 - **Xi** – a point X.
 - **μX** – the mean of X.
 
-## Calculating Standard Deviation
+---
+
+## Computing Standard Deviation
 
 Standard deviation is calculated as follows:
 

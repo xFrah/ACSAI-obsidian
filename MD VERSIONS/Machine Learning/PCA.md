@@ -91,11 +91,11 @@ Output:
 
 ### 2. Use [SVD](../Linear%20Algebra/SVD.md) or [Spectral decomposition](../Linear%20Algebra/Spectral%20decomposition.md) to find U
 
-U is basically the matrix containing the eigenvectors of the data matrix. Meaning that it contains the directions of the data.
+U is simply the matrix containing the eigenvectors of the data matrix.
 
-Those eigenvectors are called the principal components of the data.
-The first eigenvectors is the vector that fits best the point cloud, the rest are vectors orthogonal to the first.
-Think of it as we were fitting an ellipse through the point cloud.
+Those eigenvectors are called the principal components of the data, since the first eigenvector is the vector that fits best the point cloud, and the rest are vectors orthogonal to the first.
+
+Think of it as we were fitting an ellipse through the point cloud:
 
 ![](../z_images/Pasted%20image%2020230331113141.png)
 
@@ -135,9 +135,8 @@ The thing is, if we transpose X, we can still understand the data, so if DxD is 
 Another way to look at it, is that you are just computing V instead of U, if U is larger than V.
 
 <br>
-<br>
 
-Professors take on this:
+Professor's take on this:
 
 $\large X = U S V^T$
 
