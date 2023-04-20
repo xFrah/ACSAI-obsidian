@@ -28,6 +28,7 @@ At value 5, the probability distribution tells you the probability that X takes 
 We call this distribution univariate because it consists of one [random variable](../Probability/Random%20variable.md).
 ```
 
+---
 
 ## Multivariate Gaussian distribution
 
@@ -94,6 +95,5 @@ So the variables are not telling us anything about each other as they are totall
 
 
 The determinant is there because if we integrate this its going to 1. If we stretch sigma we should normalize it.
-
 
 The distribution above can be seen as [joint distribution](Joint%20distribution.md) $p(X, Y)$ of two random variables $X$ and $Y$.
