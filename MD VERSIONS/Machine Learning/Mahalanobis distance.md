@@ -1,7 +1,14 @@
 It measures how many standard deviations away x is from the [mean](../Statistics/Mean.md) of $\mathcal{N}(\mu,\Sigma)$.
 Alternatively, it measures how far away a point is from a distribution/cluster(and not between two distinct points) like this:
 
-![](../z_images/Pasted%20image%2020230405214722.png)
+![](../z_images/Pasted%20image%2020230420182122.png)
+
+
+The Mahalanobis distance is unitless, scale-invariant and takes into account the correlations of the data set.
+If each of the axes are rescaled to have [variance](../Statistics/Variance.md) 1, the Mahalanobis distance corresponds to the standard Euclidean distance.
+
+The formula is:
+$$\large D_M(\vec{x}) = \sqrt{(x - \mu)^\mathsf{T} \mathbf{\Sigma}^{-1} (x - \mu)}$$
 
 ```ad-hint
 title: Why don't we use the Euclidean distance?
@@ -28,34 +35,25 @@ In the right image, if you use the euclidean distance, you wouldn't be able to s
 So, it cannot be used to really judge how close a point actually is to a distribution of points.
 ```
 
+---
 
-The Mahalanobis distance is unitless, scale-invariant and takes into account the correlations of the data set.
-If each of the axes are rescaled to have [variance](../Statistics/Variance.md) 1, the Mahalanobis distance corresponds to the standard Euclidean distance.
-
-The formula is:
-$$\large D_M(\vec{x}) = \sqrt{(x - \mu)^\mathsf{T} \mathbf{\Sigma}^{-1} (x - \mu)}$$
-
-### What?
+## Formula explanation
 
 This is what the Mahalanobis distance actually does:
 1. It decorrelates the variables
 2. Scales the principal components to make the variance equal to 1.
 3. It calculates the euclidean distance
 
-
-```ad-example
 From this:
 ![](../z_images/Pasted%20image%2020230408174333.png)
+
 To this:
 ![](../z_images/Pasted%20image%2020230408174342.png)
-
-```
 
 
 ```ad-quote
 "The Mahalanobis distance is simply the distance of the test point from the center of mass divided by the width of the ellipsoid in the direction of the test point." - Some guy on Stack Overflow.
 ```
-
 
 ```ad-seealso
 title: Useful links to complete the notes
