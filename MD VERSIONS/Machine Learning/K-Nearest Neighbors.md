@@ -26,7 +26,7 @@ This is why we need normalization.
 
 WHAT THE FUUUUCK
 
-PCA in this environment would not work well, this is why we do something called local pca.
+[PCA](PCA.md) in this environment would not work well, this is why we do something called local pca.
 Local pca estimates a local tangent space on the non linear point clouds.
 
 ```ad-hint

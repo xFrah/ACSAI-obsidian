@@ -7,6 +7,7 @@ $$\huge\begin{bmatrix} m_{11} & ... & m_{13} \\ ... & m_{22} & ... \\ m_{31} & .
 - m row vectors in a real-valued N-dimensional space.
 - Transformations, each column are new basis vectors.
 
+---
 
 ## Identity/Diagonal Matrix:
 
@@ -17,9 +18,11 @@ $$\huge\begin{bmatrix}
 \end{bmatrix}
 $$
 
+---
+
 ## Symmetrical matrix:
 
-A matrix is simmetrical if??? ARE YOU SURE???
+A matrix is simmetrical if:
 
 $$\Large A = A^T$$
 
@@ -29,12 +32,15 @@ $$\Large A = A^T$$
     
 3.  $(AB)^T = B^T A^T$: The transpose of a product of two matrices is equal to the product of their transposes in reverse order.
 
+---
 
 ## Trace of a matrix
 
 The trace is the sum of the diagonal elements.
 
 $$\Large\text{trace}(A) = \sum_{i} a_{ii}$$
+
+---
 
 ## Reduction operations (sum across rows)
 Rows will disappear.
@@ -76,6 +82,7 @@ title: Hamaard multiplication
 We do multiplications element wise. In python, it is done by the operator "*", between matrices.
 ```
 
+---
 
 ## Matrices as linear map between spaces/Linear transformations
 
@@ -113,8 +120,7 @@ Often, other people collapse the last part into a single vector whose elements a
 ```
 
 
-
-#### Visual examples:
+### Visual examples:
 
 ![](../z_images/Pasted%20image%2020230304142327.png)
 
@@ -122,6 +128,7 @@ Often, other people collapse the last part into a single vector whose elements a
 
 Sometimes they can induce severe distortion when the two vectors lie in the same direction.
 
+---
 
 ## Matrix multiplication
 
@@ -148,6 +155,7 @@ The result is the matrix:
 $$\Large\begin{bmatrix}1 & -1 \\ 1 & 0 \end{bmatrix}$$
 Which is exactly the same as the composition in the image above.
 
+---
 
 ## Determinant
 
@@ -161,3 +169,65 @@ Negative values happen when the space is "flipped", for example when the unit ve
 A determinant of 0 is means that dimensions have collapsed into a single one, so for example a volume has been squished into a plane or an area has been squished into a single line.
 
 This is what happens when the vectors/column of the matrix are not linearly indipendent.
+
+---
+
+## Rectangular matrices
+
+With rectangular matrices we can actually erase dimensions.
+
+Example:
+
+$$\Large\begin{bmatrix}
+3 & -2 & 1 \\
+2 & 1 & -1
+\end{bmatrix}\begin{bmatrix}
+1 \\
+2 \\
+3
+\end{bmatrix}=\begin{bmatrix}
+2 \\
+1
+\end{bmatrix}$$
+
+We can see that one dimension gets erased, here's the math:
+
+$\Large1\begin{bmatrix}3\\2\end{bmatrix}+2\begin{bmatrix}-2\\1\end{bmatrix}+3\begin{bmatrix}1\\-1\end{bmatrix}=\Large\begin{bmatrix}3\\2\end{bmatrix}+\Large\begin{bmatrix}-4\\2\end{bmatrix}+\begin{bmatrix}3\\-3\end{bmatrix}$
+
+$\Large=\begin{bmatrix}3 -4 + 3\\2+2-3\end{bmatrix}=\begin{bmatrix}2\\1\end{bmatrix}$
+
+Mathematically, you can see that it makes perfect sense.
+
+```ad-hint
+We are basically just scaling the new unit [vectors](Vectors.md) by the scalars of the vector.
+```
+
+```ad-important
+We can also see that the scalar for the third unit vector still influences the rest of the plane.
+
+The main component of the third unit vector is not there anymore, which means that the dimension is flat but the rest of the components still influence the other dimensions.
+
+It should be equivalent to:
+$$\Large\begin{bmatrix}
+3 & -2 & 1 \\
+2 & 1 & -1 \\
+0 & 0 & 0
+\end{bmatrix}$$
+```
+
+
+### Dimension eraser
+
+Here is a rectangular matrix that just kills one dimension and doesn't change or scale anything else:
+$$\Large\begin{bmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0
+\end{bmatrix}$$
+Here the main components of the unit vectors are all still 1, but not the third one.
+
+It should be the equivalent of:
+$$\Large\begin{bmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 0
+\end{bmatrix}$$

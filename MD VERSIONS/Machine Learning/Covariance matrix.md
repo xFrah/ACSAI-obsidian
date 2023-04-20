@@ -66,3 +66,5 @@ $$\large \begin{bmatrix}
 -0.92
 \end{bmatrix},\quad
 \end{bmatrix}$$
+
+Why does this operation result in the actual covariances?

@@ -4,6 +4,7 @@ This thing's name is quadratic form, it just means that all the things that are 
 
 We want to express this in a vectorized matter.
 
+---
 
 ## A first, simple example
 
@@ -26,6 +27,7 @@ The notation for this expression is $\large V\cdot X$.
 Recall that the [dot product](Dot%20product.md) between two [vectors](Vectors.md) is basically multiplying the elements with same index and summing all of the results together.
 ```
 
+---
 
 ## Now, for the quadratic form
 
@@ -99,6 +101,7 @@ Where:
 - $\large x$ is the vector of variables
 - $A$ is the matrix of coefficients
 
+---
 
 ## Vector to scalar
 

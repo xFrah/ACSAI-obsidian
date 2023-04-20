@@ -91,7 +91,7 @@ Output:
 
 ### 2. Use [SVD](../Linear%20Algebra/SVD.md) or [Spectral decomposition](../Linear%20Algebra/Spectral%20decomposition.md) to find U
 
-U is simply the matrix containing the eigenvectors of the data matrix.
+U is simply the matrix containing the [[Eigenvectors and Eigenvalues|eigenvectors]] of the data matrix.
 
 Those eigenvectors are called the principal components of the data, since the first eigenvector is the vector that fits best the point cloud, and the rest are vectors orthogonal to the first.
 

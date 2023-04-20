@@ -18,6 +18,7 @@ $Q^T$) We rotate the plane so that the [[Eigenvectors and Eigenvalues|eigenvecto
 $A$) Once we have the eigenvectors there, we scale them.
 $Q$) We rotate the plane so that the eigenvectors end up shere they were before. But now they are scaled.
 
+---
 
 ## More detail:
 

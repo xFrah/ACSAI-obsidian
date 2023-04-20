@@ -43,6 +43,7 @@ Result:
 If we then want A, we divide both sides by V^-1.
 $$\large A=U\Sigma V^{-1}$$
 
+---
 
 ## How do we get U and V?
 

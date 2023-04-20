@@ -29,6 +29,7 @@ The determinant of a [matrix](Matrix.md) is the product of eigenvalues.
 In a 3D rotation, the axis of rotation is an eigenvector. It doesn't change direction.
 ```
 
+---
 
 ## Formal definition
 
