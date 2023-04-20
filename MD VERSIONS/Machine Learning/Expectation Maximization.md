@@ -62,6 +62,11 @@ The gaussian that has higher responsibility for a given datapoint is the one tha
 
 This step consists in updating the parameters of the gaussians: mean $\mu_c$, [covariance](../Statistics/Covariance.md) $\Sigma_c$ and size $\pi_c$.
 
+$\large\begin{aligned} &\mu_{k}=\frac{1}{N_{k}} \sum_{n=1}^{N} \gamma_{k}^{(n)}\mathbf{x}^{(n)} \\&\Sigma_{k}=\frac{1}{N_{k}} \sum_{n=1}^{N} \gamma_{k}^{(n)}\left(\mathbf{x}^{(n)}\mu_{k}\right)\left(\mathbf{x}^{(n)}-\mu_{k}\right)^{T} \\&\pi_{k}=\frac{N_{k}}{N} \text { with } N_{k}=\sum_{n=1}^{N} \gamma_{k}^{(n)}\end{aligned}$
+
+TODO: make it similar to this:
+![](../z_images/Pasted%20image%2020230420171130.png)
+
 ![](../z_images/Pasted%20image%2020230418145110.png)
 
 
@@ -72,3 +77,9 @@ This step consists in updating the parameters of the gaussians: mean $\mu_c$, [c
 
 At step 4 we have already converged.
 
+
+## lol?
+
+Each step increases the log-likelihood of our model until convergence.
+
+![](../z_images/Pasted%20image%2020230420172459.png)
