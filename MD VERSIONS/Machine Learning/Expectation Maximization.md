@@ -83,3 +83,11 @@ At step 4 we have already converged.
 Each step increases the log-likelihood of our model until convergence.
 
 ![](../z_images/Pasted%20image%2020230420172459.png)
+
+
+
+```ad-seealso
+title: Sources
+### Clustering (4): Gaussian Mixture Models and EM
+https://www.youtube.com/watch?v=qMTuMa86NzU
+```
