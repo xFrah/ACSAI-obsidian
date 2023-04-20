@@ -27,17 +27,18 @@ And in fact, we don't really need the third dimension to understand what we are 
 
 ## Output of PCA
 
-The PCA outputs the transformation matrix that we need to apply to the original data matrix to kill the dimensions.
+PCA gives us the transformation matrix that, when applied to the original data matrix, kills the dimensions/directions we wish to get rid of.
+Most of the time we want to get rid of unnecessary dimensions for the representation of data, because the other dimensions explain it well enough.
 
-That is often called the $U$ matrix, because it is the $U$ that results from [SVD](../Linear%20Algebra/SVD.md) or [Spectral decomposition](../Linear%20Algebra/Spectral%20decomposition.md).
+That matrix is often called the $U$ matrix, because it is the $U$ that results from [SVD](../Linear%20Algebra/SVD.md) or [Spectral decomposition](../Linear%20Algebra/Spectral%20decomposition.md).
 
-If we project the data using this matrix, the space will actually shrink and lose variance, while still retaining most of the information.
+If we project the data using this matrix, the space will actually shrink and lose variance, while still retaining most of the information(if we choose wisely what to kill).
 
 
 ```ad-example
-Starting from a 2D point cloud, we can reduce the dimensions by 1 if the energy remains > 95%.
+In this example, we reduce a point cloud's dimension from 2 to 1.
 
-In this specific case, we are killing a single dimension.
+So in this specific case, we are killing a single dimension.
 
 <br>
 
@@ -55,14 +56,20 @@ All that variance has been lost.
 
 ---
 
-## How to choose dimensionality of subspace?
+## How to choose what to kill and how much
 
-We can actually measure how much relative variance the dimensions have compared to the total variance.
+We can actually measure how much relative variance the dimensions have compared to the total variance. 
 
 - We either sort the dimensions and keep only a certain number of them, a piacere.
 - Or we sort the dimensions and kill only the ones that can be killable without too much loss.
 
 In the end, we are just given all the dimensions and how much variance they carry, we choose how to act.
+
+
+```ad-tldr
+We want to get rid of the dimensions that have less variance/information.
+```
+
 
 ---
 
