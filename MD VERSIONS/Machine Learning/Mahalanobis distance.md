@@ -57,7 +57,7 @@ The vector $(x-\mu)$ starts from $\mu$ and ends at the point $x$ (see [[Vectors|
 As you may already know, if you multiply white data by a [covariance matrix](Covariance%20matrix.md) $\Sigma$:
 $$\large \Sigma = \begin{bmatrix}
 1 & 0.7 \\
-0 & 1
+0.7 & 1
 \end{bmatrix}$$
 The white data becomes a point cloud with correlated dimensions:
 
