@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md"
+                "file": "README.md"
               }
             }
           }
@@ -141,10 +141,12 @@
   },
   "active": "22557a58b9d8359d",
   "lastOpenFiles": [
+    "TODO.md",
+    "README.md",
+    "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
     "MD VERSIONS/AI-LAB/Color equalization.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Convolution.html",
-    "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
     "MD VERSIONS/AI-LAB/Convolution.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Contour detection.html",
     "MD VERSIONS/AI-LAB/Contour detection.md",
@@ -162,7 +164,6 @@
     "MD VERSIONS/AI-LAB/Tokenizing.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Warp.html",
     "MD VERSIONS/AI-LAB/Warp.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Project.html",
     "MD VERSIONS/AI-LAB/Project.md",
     "MD VERSIONS/Artificial Intelligence/A-star.md",
     "MD VERSIONS/Artificial Intelligence/Agent.md",
@@ -176,7 +177,6 @@
     "MD VERSIONS/Artificial Intelligence/Functions.md",
     "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
     "MD VERSIONS/Artificial Intelligence/Set theory.md",
-    "MD VERSIONS/Probability/Conditional Probability.md",
     "MD VERSIONS/z_images/invcov.gif",
     "MD VERSIONS/z_images/cov.gif",
     "MD VERSIONS/z_images/Immagine WhatsApp 2023-03-12 ore 17.35.10.jpg",
