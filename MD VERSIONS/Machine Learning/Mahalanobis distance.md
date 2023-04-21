@@ -101,11 +101,9 @@ To this:
 ```
 
 
-### 3) $\vec{(x-\mu)}\Sigma^{-1}\vec{(x-\mu)}$ Get the lenght of the undistorted vector
+### 3) $\vec{(x-\mu)}\Sigma^{-1}\vec{(x-\mu)}$ - Get a scalar
 
-Now that we have $\Sigma^{-1}\vec{(x-\mu)}$, we need its [norm](../Linear%20Algebra/Norm.md). We get that by doing a [dot product](../Linear%20Algebra/Dot%20product.md) with its distorted self $\vec{(x-\mu)}$.
-
-In this way we get a scalar, so that will be our distance.
+Now that we have $\Sigma^{-1}\vec{(x-\mu)}$, we need a scalar representing a distance. We get that by doing a [dot product](../Linear%20Algebra/Dot%20product.md) with its distorted self $\vec{(x-\mu)}$.
 
 I haven't had time to finish this part yet.
 

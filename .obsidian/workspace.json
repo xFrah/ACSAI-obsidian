@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "MD VERSIONS/Machine Learning/Mahalanobis distance.md"
               }
             }
           }
@@ -141,8 +141,9 @@
   },
   "active": "22557a58b9d8359d",
   "lastOpenFiles": [
-    "TODO.md",
+    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
     "README.md",
+    "TODO.md",
     "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
     "MD VERSIONS/AI-LAB/Color equalization.md",
@@ -176,7 +177,6 @@
     "MD VERSIONS/Artificial Intelligence/Graph.md",
     "MD VERSIONS/Artificial Intelligence/Functions.md",
     "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
-    "MD VERSIONS/Artificial Intelligence/Set theory.md",
     "MD VERSIONS/z_images/invcov.gif",
     "MD VERSIONS/z_images/cov.gif",
     "MD VERSIONS/z_images/Immagine WhatsApp 2023-03-12 ore 17.35.10.jpg",
