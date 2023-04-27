@@ -129,7 +129,7 @@ def constraint_propagation(region, region_colors, constraints, domains, traverse
 
 
 
-constraint_propagation("WA", regions, constraints, domains, traversed)
+constraint_propagation("WA", region_colors, constraints, domains, traversed)
 ```
 
 Example output:
