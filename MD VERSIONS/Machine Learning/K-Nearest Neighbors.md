@@ -42,3 +42,11 @@ We could also unwrap the shape into a kind of plane but we won't do that.
 ## Advantages and disadvantages of KNN
 
 TODO
+
+---
+
+## Higher k
+
+We choose higher k because with k = 1 one little fluctuation can change drastically the label.
+
+So it is too sensitive to fluctuation in the data.

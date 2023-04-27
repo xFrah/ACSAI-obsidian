@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
+                "file": "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
+                "file": "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
+                "file": "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md"
+                "file": "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md"
               }
             }
           }
@@ -141,6 +142,7 @@
   },
   "active": "22557a58b9d8359d",
   "lastOpenFiles": [
+    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
     "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
     "MD VERSIONS/Machine Learning/K-means.md",
     "MD VERSIONS/Machine Learning/PCA.md",
@@ -173,7 +175,6 @@
     "MD VERSIONS/AI-LAB/Project.md",
     "MD VERSIONS/Artificial Intelligence/A-star.md",
     "MD VERSIONS/Artificial Intelligence/Agent.md",
-    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
     "MD VERSIONS/Artificial Intelligence/BFS.md",
     "MD VERSIONS/Artificial Intelligence/DFS.md",
     "MD VERSIONS/Artificial Intelligence/Best-first search.md",
