@@ -83,3 +83,118 @@ Basically we can proceed with the assignments.
 Whenever we find that a partial assignment has violated a constraint, we immediately discard further processing on it.
 
 We do this until we find a solution.
+
+---
+
+### [Actual code](https://github.com/xFrah/CSP-UNI) of Map Coloring algorithm:
+
+```python
+constraints = {
+    "WA": ["NT", "SA"],
+    "NT": ["WA", "SA", "Q"],
+    "SA": ["WA", "NT", "Q", "NSW", "V"],
+    "Q": ["NT", "SA", "NSW"],
+    "NSW": ["Q", "SA", "V"],
+    "V": ["SA", "NSW", "T"],
+    "T": ["V"],
+}
+
+region_colors = {r: get_random_color() for r in list(constraints.keys())}
+domains = {region: set(colors.values()) for region in region_colors}
+traversed = set()
+
+
+def constraint_propagation(region, region_colors, constraints, domains, traversed):
+
+    print(f"Traversing {region} with domain {domains[region]}")
+    traversed.add(region)
+
+    # choose a random color from the domain
+    color = get_color_from_domain(region, domains)
+    region_colors[region] = color
+    print(f"[{region}] Set {region} to {color}")
+
+
+    # remove the color from the domain of the neighbors
+    for constraint in constraints[region]:
+        if color in domains[constraint]:
+            domains[constraint].remove(color)
+        print(f"[{region}] Removed {color} from {constraint}")
+
+  
+    # choose new neighbor to traverse
+    for constraint in constraints[region]:
+        if constraint not in traversed:
+            constraint_propagation(constraint, region_colors, constraints, domains, traversed)
+
+
+
+constraint_propagation("WA", regions, constraints, domains, traversed)
+```
+
+Example output:
+
+```
+Traversing WA with domain {(0, 255, 0), (255, 0, 0), (0, 0, 255)}
+[WA] Set WA to red
+[WA] Removed red from NT
+[WA] Removed red from SA
+
+Traversing NT with domain {(0, 255, 0), (255, 0, 0)}
+[NT] Set NT to blue
+[NT] Removed blue from WA
+[NT] Removed blue from SA
+[NT] Removed blue from Q
+
+Traversing SA with domain {(0, 255, 0)}
+[SA] Set SA to green
+[SA] Removed green from WA
+[SA] Removed green from NT
+[SA] Removed green from Q
+[SA] Removed green from NSW
+[SA] Removed green from V
+
+Traversing Q with domain {(0, 0, 255)}
+[Q] Set Q to red
+[Q] Removed red from NT
+[Q] Removed red from SA
+[Q] Removed red from NSW
+
+Traversing NSW with domain {(255, 0, 0)}
+[NSW] Set NSW to blue
+[NSW] Removed blue from Q
+[NSW] Removed blue from SA
+[NSW] Removed blue from V
+
+Traversing V with domain {(0, 0, 255)}
+[V] Set V to red
+[V] Removed red from SA
+[V] Removed red from NSW
+[V] Removed red from T
+
+Traversing T with domain {(0, 255, 0), (255, 0, 0)}
+[T] Set T to blue
+[T] Removed blue from V
+
+Constraint satisfied: WA, NT = red, blue
+Constraint satisfied: WA, SA = red, green
+Constraint satisfied: NT, WA = blue, red
+Constraint satisfied: NT, SA = blue, green
+Constraint satisfied: NT, Q = blue, red
+Constraint satisfied: SA, WA = green, red
+Constraint satisfied: SA, NT = green, blue
+Constraint satisfied: SA, Q = green, red
+Constraint satisfied: SA, NSW = green, blue
+Constraint satisfied: SA, V = green, red
+Constraint satisfied: Q, NT = red, blue
+Constraint satisfied: Q, SA = red, green
+Constraint satisfied: Q, NSW = red, blue
+Constraint satisfied: NSW, Q = blue, red
+Constraint satisfied: NSW, SA = blue, green
+Constraint satisfied: NSW, V = blue, red
+Constraint satisfied: V, SA = red, green
+Constraint satisfied: V, NSW = red, blue
+Constraint satisfied: V, T = red, blue 
+Constraint satisfied: T, V = blue, red 
+All constraints satisfied
+```
