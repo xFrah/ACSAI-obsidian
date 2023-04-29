@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,11 +117,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md"
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -142,51 +142,52 @@
   },
   "active": "22557a58b9d8359d",
   "lastOpenFiles": [
-    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
-    "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
-    "MD VERSIONS/Machine Learning/K-means.md",
-    "MD VERSIONS/Machine Learning/PCA.md",
-    "MD VERSIONS/AI-LAB/Tokenizing.md",
-    "MD VERSIONS/z_images/Pasted image 20230424153428.png",
-    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
-    "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
-    "MD VERSIONS/Machine Learning/Joint distribution.md",
-    "README.md",
-    "TODO.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
-    "MD VERSIONS/AI-LAB/Color equalization.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Convolution.html",
-    "MD VERSIONS/AI-LAB/Convolution.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Contour detection.html",
-    "MD VERSIONS/AI-LAB/Contour detection.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Corner extraction.html",
-    "MD VERSIONS/AI-LAB/Corner extraction.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Histogram.html",
-    "MD VERSIONS/AI-LAB/Histogram.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/HSV.html",
-    "MD VERSIONS/AI-LAB/HSV.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Kernel.html",
-    "MD VERSIONS/AI-LAB/Kernel.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Numpy.html",
-    "MD VERSIONS/AI-LAB/Numpy.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Tokenizing.html",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Warp.html",
-    "MD VERSIONS/AI-LAB/Warp.md",
-    "MD VERSIONS/AI-LAB/Project.md",
-    "MD VERSIONS/Artificial Intelligence/A-star.md",
-    "MD VERSIONS/Artificial Intelligence/Agent.md",
-    "MD VERSIONS/Artificial Intelligence/BFS.md",
+    "MD VERSIONS/z_images/Pasted image 20230429140815.png",
+    "MD VERSIONS/z_images/Pasted image 20230429140012.png",
+    "MD VERSIONS/z_images/Pasted image 20230429135826.png",
+    "MD VERSIONS/z_images/Pasted image 20230429135058.png",
+    "MD VERSIONS/z_images/Pasted image 20230429134751.png",
+    "MD VERSIONS/z_images/Pasted image 20230429134710.png",
+    "MD VERSIONS/z_images/Pasted image 20230429134538.png",
+    "MD VERSIONS/Statistics/Standard Deviation.md",
+    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+    "MD VERSIONS/z_images/Pasted image 20230429133839.png",
+    "MD VERSIONS/Statistics/Association.md",
+    "MD VERSIONS/z_images/Pasted image 20230429133404.png",
+    "MD VERSIONS/Machine Learning/Expectation Maximization.md",
+    "MD VERSIONS/Statistics/Variable types.md",
+    "MD VERSIONS/z_images/Pasted image 20230429132810.png",
+    "MD VERSIONS/z_images/Pasted image 20230429132751.png",
+    "MD VERSIONS/Statistics/Box plot.md",
+    "MD VERSIONS/Statistics/Expected value.md",
+    "MD VERSIONS/Statistics/Measures of Position.md",
+    "MD VERSIONS/Statistics/Spread.md",
+    "MD VERSIONS/Statistics/Significance Test.md",
+    "MD VERSIONS/Statistics/Standard Error.md",
+    "MD VERSIONS/Statistics/Z-score.md",
+    "MD VERSIONS/Statistics/Variance.md",
+    "MD VERSIONS/Statistics/Central Limit Theorem.md",
+    "MD VERSIONS/Statistics/Covariance.md",
+    "MD VERSIONS/Statistics/Estimation.md",
+    "MD VERSIONS/Statistics/Samples vs Population.md",
+    "MD VERSIONS/Guides to the exams",
+    "MD VERSIONS/Guides to the Excercises.md",
+    "MD VERSIONS/Statistics/Guide.md",
+    "MD VERSIONS/Machine Learning/Gaussian distribution.md",
+    "MD VERSIONS/Linear Algebra/Projection.md",
+    "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md",
+    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
+    "MD VERSIONS/Artificial Intelligence/Set theory.md",
     "MD VERSIONS/Artificial Intelligence/DFS.md",
-    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
-    "MD VERSIONS/z_images/invcov.gif",
-    "MD VERSIONS/z_images/cov.gif",
-    "MD VERSIONS/z_images/Immagine WhatsApp 2023-03-12 ore 17.35.10.jpg",
-    "MD VERSIONS/z_images/Figure_3.png",
-    "MD VERSIONS/z_images/Figure_2.png",
-    "MD VERSIONS/z_images/Figure_1.png",
-    "MD VERSIONS/z_images/Pasted image 20230420205135.png",
-    "MD VERSIONS/z_images/Pasted image 20230420205125.png",
-    "MD VERSIONS/z_images/Pasted image 20230420205105.png",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Convolution.html",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Contour detection.html",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Corner extraction.html",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Histogram.html",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/HSV.html",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Kernel.html",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Numpy.html",
+    "HTML VERSIONS/MD VERSIONS/AI-LAB/Tokenizing.html",
     "Machine Learning/Untitled.canvas"
   ]
 }
