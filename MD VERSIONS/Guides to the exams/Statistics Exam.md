@@ -68,7 +68,7 @@ Observations take numerical values that represent different magnitudes of the va
 1. This is getting boring:
 	![](../z_images/Pasted%20image%2020230429135826.png)
 	
-2. An histogram is a chart used to display numerical data.:
+2. An [histogram](../AI-LAB/Histogram.md) is a chart used to display numerical data.:
 	![](../z_images/Pasted%20image%2020230429140012.png) 
 	
 ```ad-note

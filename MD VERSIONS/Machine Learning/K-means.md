@@ -158,9 +158,13 @@ Where:
 This is not really correct but who gives a shit?
 
 
-## Parametrization by norm
+
+```ad-info
+title: Parametrization by norm
 
 By choosing the type of norm that we use to compute distances, we can produce a whole family of algorithms.
+```
+
 
 ---
 
@@ -175,7 +179,7 @@ You are allowed to change the number of clusters
 
 We construct a new loss function:
 
-$$\large\arg\min_K \mathcal{L}_K  + \underbrace{K\cdot 2D}_{\text{regularization}}$$
+$$\large\arg\min_K \mathcal{L}_K +\underbracket{K\cdot 2D}_{\text{regularization}}$$
 Where:
 - $\arg\min_K \mathcal{L}_K$ = minimum loss with k clusters.
 - Penalty for the number of clusters.
@@ -203,6 +207,7 @@ When you get k colors, every pixel now becomes a pointer to one of those colors.
 
 ![](../z_images/Pasted%20image%2020230328155323.png)
 
+---
 
 ## Bag of visual words(non ho capito un cazzo)
 

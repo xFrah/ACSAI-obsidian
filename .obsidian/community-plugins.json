@@ -1,6 +1,5 @@
 [
   "obsidian-git",
-  "editing-toolbar",
   "obisidian-note-linker",
   "obsidian-admonition",
   "obsidian-completr",
@@ -8,5 +7,6 @@
   "webpage-html-export",
   "obsidian-better-internal-link-inserter",
   "obsidian-better-codeblock",
-  "obsidian-enhancing-export"
+  "obsidian-enhancing-export",
+  "editing-toolbar"
 ]
