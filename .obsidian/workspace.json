@@ -11,8 +11,13 @@
             "id": "22607b2a6e0b59c4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Impurity functions.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -52,12 +57,21 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "545d64090ce3212c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -68,27 +82,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3faf563edf97e57f",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
             "id": "62c9edd83bcceed7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "MD VERSIONS/Machine Learning/Impurity functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -110,11 +109,29 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Impurity functions.md"
+              }
+            }
+          },
+          {
+            "id": "f501308563189c00",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Impurity functions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -132,54 +149,54 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "3fbe08ad2a0b5f0f",
+  "active": "22607b2a6e0b59c4",
   "lastOpenFiles": [
-    "Rectangular matrix.md",
-    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+    "MD VERSIONS/Statistics/Expected value.md",
+    "MD VERSIONS/z_images/Pasted image 20230506172400.png",
+    "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
+    "MD VERSIONS/Machine Learning/Impurity functions.md",
+    "MD VERSIONS/Statistics/Unbiased Estimators.md",
+    "MD VERSIONS/Statistics/Correlation coefficient.md",
+    "MD VERSIONS/Statistics/Variable types.md",
+    "MD VERSIONS/Statistics/TODO statistics.md",
+    "MD VERSIONS/Statistics/Sampling distributions.md",
+    "MD VERSIONS/Statistics/Standard Deviation.md",
+    "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
+    "MD VERSIONS/z_images/Pasted image 20230505164953.png",
+    "MD VERSIONS/Statistics/Mean.md",
+    "MD VERSIONS/z_images/Pasted image 20230505162005.png",
+    "MD VERSIONS/Statistics/Median.md",
+    "MD VERSIONS/z_images/Pasted image 20230505161037.png",
+    "MD VERSIONS/z_images/Pasted image 20230505160845.png",
+    "MD VERSIONS/z_images/Pasted image 20230505160646.png",
+    "MD VERSIONS/Machine Learning/Decision trees.md",
+    "MD VERSIONS/Machine Learning/Cross-entropy.md",
+    "entropy.md",
+    "MD VERSIONS/Machine Learning/Hessian.md",
+    "MD VERSIONS/z_images/Pasted image 20230504151116.png",
+    "MD VERSIONS/z_images/Pasted image 20230504150519.png",
+    "MD VERSIONS/z_images/Pasted image 20230504143601.png",
+    "MD VERSIONS/z_images/Pasted image 20230504143542.png",
+    "MD VERSIONS/Statistics/Significance Test.md",
+    "MD VERSIONS/Statistics/Standard Error.md",
+    "MD VERSIONS/Statistics/Regression.md",
+    "MD VERSIONS/Statistics/Covariance.md",
+    "MD VERSIONS/Statistics/Central Limit Theorem.md",
+    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
+    "MD VERSIONS/Machine Learning/Joint distribution.md",
+    "MD VERSIONS/Machine Learning/Bayes Theorem.md",
+    "MD VERSIONS/Machine Learning/3D Morphable models.md",
+    "MD VERSIONS/Linear Algebra/Projection.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
-    "MD VERSIONS/AI-LAB/Color equalization.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Contour detection.html",
-    "MD VERSIONS/AI-LAB/Contour detection.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Convolution.html",
-    "MD VERSIONS/AI-LAB/Convolution.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Kernel.html",
-    "MD VERSIONS/AI-LAB/Kernel.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Corner extraction.html",
-    "MD VERSIONS/AI-LAB/Corner extraction.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Histogram.html",
-    "MD VERSIONS/AI-LAB/Histogram.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/HSV.html",
-    "MD VERSIONS/AI-LAB/HSV.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Numpy.html",
-    "MD VERSIONS/AI-LAB/Numpy.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Project.html",
-    "MD VERSIONS/AI-LAB/Project.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Tokenizing.html",
-    "MD VERSIONS/AI-LAB/Tokenizing.md",
-    "MD VERSIONS/AI-LAB/Warp.md",
-    "MD VERSIONS/Artificial Intelligence/Agent.md",
-    "MD VERSIONS/Artificial Intelligence/A-star.md",
-    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
-    "MD VERSIONS/Artificial Intelligence/DFS.md",
-    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
-    "MD VERSIONS/Artificial Intelligence/Environment.md",
-    "MD VERSIONS/Artificial Intelligence/Functions.md",
-    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
-    "MD VERSIONS/Artificial Intelligence/BFS.md",
-    "MD VERSIONS/Artificial Intelligence/Graph.md",
-    "MD VERSIONS/Artificial Intelligence/Set theory.md",
-    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
-    "MD VERSIONS/Linear Algebra/Dot product.md",
-    "MD VERSIONS/z_images/Pasted image 20230502150217.png",
-    "MD VERSIONS/z_images/Pasted image 20230502145426.png",
-    "MD VERSIONS/z_images/Pasted image 20230502145226.png",
-    "MD VERSIONS/z_images/Pasted image 20230429140815.png",
-    "MD VERSIONS/z_images/Pasted image 20230429140012.png",
-    "MD VERSIONS/z_images/Pasted image 20230429135826.png",
-    "MD VERSIONS/z_images/Pasted image 20230429135058.png",
-    "MD VERSIONS/z_images/Pasted image 20230429134751.png",
-    "MD VERSIONS/z_images/Pasted image 20230429134710.png",
-    "MD VERSIONS/z_images/Pasted image 20230429134538.png",
     "Machine Learning/Untitled.canvas"
   ]
 }

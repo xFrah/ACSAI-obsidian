@@ -28,3 +28,7 @@ But, we square the distances so that they are always positive, then we sqrt ever
 
 I'm positive that this is correct, tho I'm not 100% sure.
 ```
+
+
+
+## Sample Standard deviation
