@@ -13,6 +13,12 @@ Imagine that we have a distribution P(x) and a distribution Q(x).
 
 <br>
 
+The more rare the event is, the more information it conveys, and more surprise:
+- If you have a set of only 0s and you pick a 0, it doesn't tell you anything.
+- If you have a set full of 1s and just one 0, if you pick that zero it tells you a lot of information(and you are surprised!).
+
+<br>
+
 When we compute entropy of P(x), we are getting the average number of bits that are used to represent any event x in P:
 - The weights/frequencies of events is given by P(x)
 - The actual number of bits for any of these events is given by $\log p(x)$.
@@ -41,7 +47,7 @@ That basically changes the resulting average cost per event x for this configura
 
 <br>
 
-The events that needed a lot of bits to represent, are now a lot more. 
+The events that needed a lot of bits to represent, have now increased in number. 
 
 And this is a big thing, because now the high h(x) is gonna get multiplied by the high p(x), and the cross-entropy is going to the moon.
 
