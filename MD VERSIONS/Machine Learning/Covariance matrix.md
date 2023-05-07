@@ -67,4 +67,36 @@ $$\large \begin{bmatrix}
 \end{bmatrix},\quad
 \end{bmatrix}$$
 
-Why does this operation result in the actual covariances?
+Fuck this, let's do something more interesting...
+
+---
+
+## Covariance matrix as a transformation
+
+As you may already know, if you multiply white data by a covariance matrix $\Sigma$:
+$$\large \Sigma = \begin{bmatrix}
+1 & 0.7 \\
+0.7 & 1
+\end{bmatrix}$$
+The white data becomes a point cloud with correlated dimensions:
+
+![](../z_images/Figure_3.png)
+
+
+```ad-hint
+title: Why does it transform like that?
+
+Because the unit vectors now become:
+
+$$\large \hat{i}=\begin{bmatrix}
+1 \\ 0.7
+\end{bmatrix}, \quad
+\hat{j}=\begin{bmatrix}
+0.7 \\ 1
+\end{bmatrix}
+$$
+
+<br>
+
+![](../z_images/cov.gif)
+```

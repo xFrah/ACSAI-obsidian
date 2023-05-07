@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Impurity functions.md",
+                "file": "MD VERSIONS/Machine Learning/Cross-entropy.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -82,12 +81,29 @@
         "type": "tabs",
         "children": [
           {
+            "id": "f501308563189c00",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Cross-entropy.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
             "id": "62c9edd83bcceed7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Impurity functions.md",
+                "file": "MD VERSIONS/Machine Learning/Cross-entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -110,24 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Impurity functions.md"
-              }
-            }
-          },
-          {
-            "id": "f501308563189c00",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "MD VERSIONS/Machine Learning/Impurity functions.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "MD VERSIONS/Machine Learning/Cross-entropy.md"
               }
             }
           }
@@ -151,10 +150,17 @@
   },
   "active": "22607b2a6e0b59c4",
   "lastOpenFiles": [
-    "MD VERSIONS/Statistics/Expected value.md",
-    "MD VERSIONS/z_images/Pasted image 20230506172400.png",
-    "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
+    "MD VERSIONS/Machine Learning/Covariance matrix.md",
     "MD VERSIONS/Machine Learning/Impurity functions.md",
+    "MD VERSIONS/Machine Learning/Cross-entropy.md",
+    "MD VERSIONS/z_images/Figure_1oidjgkerjg.png",
+    "MD VERSIONS/Machine Learning/Kullback-Leibler divergence.md",
+    "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
+    "MD VERSIONS/z_images/kl1.png",
+    "MD VERSIONS/Statistics/Expected value.md",
+    "MD VERSIONS/Linear Algebra/Vectors.md",
+    "MD VERSIONS/Machine Learning/3D Morphable models.md",
+    "MD VERSIONS/z_images/Pasted image 20230506172400.png",
     "MD VERSIONS/Statistics/Unbiased Estimators.md",
     "MD VERSIONS/Statistics/Correlation coefficient.md",
     "MD VERSIONS/Statistics/Variable types.md",
@@ -170,23 +176,15 @@
     "MD VERSIONS/z_images/Pasted image 20230505160845.png",
     "MD VERSIONS/z_images/Pasted image 20230505160646.png",
     "MD VERSIONS/Machine Learning/Decision trees.md",
-    "MD VERSIONS/Machine Learning/Cross-entropy.md",
     "entropy.md",
     "MD VERSIONS/Machine Learning/Hessian.md",
     "MD VERSIONS/z_images/Pasted image 20230504151116.png",
     "MD VERSIONS/z_images/Pasted image 20230504150519.png",
-    "MD VERSIONS/z_images/Pasted image 20230504143601.png",
-    "MD VERSIONS/z_images/Pasted image 20230504143542.png",
     "MD VERSIONS/Statistics/Significance Test.md",
     "MD VERSIONS/Statistics/Standard Error.md",
     "MD VERSIONS/Statistics/Regression.md",
     "MD VERSIONS/Statistics/Covariance.md",
     "MD VERSIONS/Statistics/Central Limit Theorem.md",
-    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
-    "MD VERSIONS/Machine Learning/Joint distribution.md",
-    "MD VERSIONS/Machine Learning/Bayes Theorem.md",
-    "MD VERSIONS/Machine Learning/3D Morphable models.md",
-    "MD VERSIONS/Linear Algebra/Projection.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Contour detection.html",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Convolution.html",

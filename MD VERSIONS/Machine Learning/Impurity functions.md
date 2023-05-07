@@ -120,7 +120,11 @@ Since we are dealing with probabilities, $\large p(x)$ will always be in [0, 1],
 
 <br>
 
-We can see that the lower the probability for a label is, the more negative the log result will be.
+We can see that the lower the probability for a label is, the more negative the log result will be:
+
+<br>
+
+![](../z_images/Figure_1oidjgkerjg.png)
 
 <br>
 
