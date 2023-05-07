@@ -31,7 +31,7 @@ You can see that the less probable an event x is, the more information(surprise,
 
 <br>
 
-Now imagine that we have the number of bits for any event x determined by the same distribution, but the distribution/frequency of events changes. 
+Now imagine that the distribution/frequency of events changes, while the number of bits necessary to represent any one of those events stays the same.
 
 That basically changes the resulting average cost per event x for this configuration.
 
