@@ -3,23 +3,6 @@ It is used in machine learning to estimate the loss/error for categorical multi-
 
 The formula for cross-[[impurity functions|entropy]] is:
 $$\large H(x) = -\sum_{x \in X} p(x)\log q(x)$$
-Where:
-- $\large q(x)$ - predicted probability of label
-- $\large p(x)$ - true probability of label
-- $\large \log q(x)$ - surprise of the predicted label
-
-```python
-import numpy as np
-
-# assume we are predicting a label for an instance
-
-p = np.array([0, 1, 0])             # True probability (one-hot)
-q = np.array([0.228, 0.619, 0.153]) # Predicted probability
-
-cross_entropy_loss = -np.sum(p * np.log(q))
-print(cross_entropy_loss)
-# 0.47965000629754095
-```
 
 ```ad-hint
 title: Formula explanation
@@ -53,4 +36,42 @@ Now imagine that we have the number of bits for any event x determined by the sa
 <br>
 
 ![](../z_images/Figure_asdasdasd1.png)
+
+<br>
+
+The events that needed a lot of bits to represent, are now a lot more.
+
+So this <font color="#245bdb">encoding</font> is shit for this <font color="#c00000">distribution</font> of events.
+```
+
+```ad-hint
+title: Some considerations
+Given the definition above, we should understand that the cross-entropy can never be lower than the entropies of the two single distributions.
+
+<br>
+
+This is because the bits for each event are modeled on a specific distribution, and that is the best you can do on it. 
+
+<br>
+
+When you change the distribution of events, it all goes to shit.
+```
+
+
+---
+
+## Cross-Entropy as a loss function
+
+
+```python
+import numpy as np
+
+# assume we are predicting a label for an instance
+
+p = np.array([0, 1, 0])             # True probability (one-hot)
+q = np.array([0.228, 0.619, 0.153]) # Predicted probability
+
+cross_entropy_loss = -np.sum(p * np.log(q))
+print(cross_entropy_loss)
+# 0.47965000629754095
 ```
