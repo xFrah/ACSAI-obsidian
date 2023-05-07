@@ -41,7 +41,9 @@ That basically changes the resulting average cost per event x for this configura
 
 <br>
 
-The events that needed a lot of bits to represent, are now a lot more.
+The events that needed a lot of bits to represent, are now a lot more. 
+
+And this is a big thing, because now the high h(x) is gonna get multiplied by the high p(x), and the cross-entropy is going to the moon.
 
 So this <font color="#245bdb">encoding</font> is shit for this <font color="#c00000">distribution</font> of events.
 ```
