@@ -23,8 +23,34 @@ print(cross_entropy_loss)
 
 ```ad-hint
 title: Formula explanation
-###### What is the exact difference with entropy?
+Imagine that we have a distribution P(x) and a distribution Q(x).
 
-### Coming soon
+- $h(x)=\log p(x)$ is the number of bits required to represent the event x in distribution P.
+- $h(x)=\log q(x)$ is the number of bits required to represent the event x in distribution Q.
 
+<br>
+
+When we compute entropy of P(x), we are getting the average number of bits that are used to represent any event x in P:
+- The weights/frequencies of events is given by P(x)
+- The actual number of bits for any of these events is given by $\log p(x)$.
+
+<br>
+
+Here we have the P(x) distribution in red and its $\log p(x)$ in blue:
+
+<br>
+
+![](../z_images/Figure_1dfdfgdfg.png)
+
+<br>
+
+You can see that the less probable an event x is, the more information(surprise, given by $\log p(x)$) is needed to represent it.
+
+<br>
+
+Now imagine that we have the number of bits for any event x determined by the same distribution, but the distribution/frequency of events changes. That basically changes the average cost per event x.
+
+<br>
+
+![](../z_images/Figure_asdasdasd1.png)
 ```
