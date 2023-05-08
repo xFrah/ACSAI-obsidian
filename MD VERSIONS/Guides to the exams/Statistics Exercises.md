@@ -152,3 +152,96 @@ When we convert from continuous to intervals, what is the type of the new variab
 
 # [Recitation 2](https://elearning.uniroma1.it/pluginfile.php/1249383/mod_resource/content/0/Recitation2.pdf)
 
+## Exercise 1
+
+![](../z_images/Pasted%20image%2020230508142329.png)
+
+
+1. The sample [standard deviation](../Statistics/Standard%20Deviation.md) is computed as follows: $\Large \sqrt{\frac{\sum(x_i - \bar{x})^2}{N-1}}$
+2. We are gonna do this later.
+
+```ad-info
+title: Why N - 1?
+### This is a non-technical explanation
+Because the sample standard deviation is computed as an approximation of the real standard deviation, from a sample of the population.
+
+<br>
+
+This means that the data point we get are more likely to be around the mean and less likely to be on the tails of the distribution.
+
+<br>
+
+So the sample standard deviation always underestimates the real value.
+
+For this reason we decrease the denominator and overshoot the number.
+
+```
+
+
+## Exercise 2
+
+We are gonna skip this for now
+
+
+## Exercise 3
+
+![](../z_images/Pasted%20image%2020230508144508.png)
+
+
+1. Mean and sample standard deviation:
+	1. Mean: $\frac{57+35+61+64+90+78+60+53+55+57+71+30}{12}=59.25$
+	2. Sample standard deviation = $\Large \sqrt{\frac{5.06+588.06+3.06+22.56+945.56+351.56+0.56+39.06+18.06+5.06+138.06+855.56}{11}}\normalsize=16.44$
+2.  We got to split the observation in 4 subsets of equal length:
+	1. First we sort the data: 30, 35, 53, 55, 57, 57, 60, 61, 64, 71, 78, 90.
+	2. Then we do the thing: [30, 35, 53], [55, 57, 57], [60, 61, 64], [71, 78, 90]
+	3. Then we compute the quartiles: $\large\frac{53+55}{2}\normalsize=54$ , $\large\frac{57+60}{2}\normalsize=58.5$, $\large\frac{64+71}{2}\normalsize=67.5$
+	
+```ad-hint
+title: Quartiles recap
+The Quartiles split the distribution into four parts that have the same number of observations:
+
+<br>
+
+![](../z_images/Pasted%20image%2020230301160048.png)
+
+<br>
+
+You can find the quartiles by:
+1. Ordering the set
+2. Splitting the set in 4 subsets
+3. Getting the mean between the extremes of the subsets
+
+<br>
+
+Example:
+
+[30, 35, 53], [55, 57, 57], [60, 61, 64], [71, 78, 90]
+- Q1 = $\large\frac{53+55}{2}\normalsize=54$
+- Q2 = $\large\frac{57+60}{2}\normalsize=58.5$
+- Q3 = $\large\frac{64+71}{2}\normalsize=67.5$
+```
+	
+ 3. The mean, the quartiles, and the standard deviation all reduce by 5%:
+	 1. New $\bar{x} = 0.95 ∗ 59.25 = 56.29$, 
+	 2. New $\sigma_s = 0.95 ∗ 16.44 = 15.62$
+	 3. New $Q1 = 0.95 ∗ 54 = 51.3$,
+	 4. New $Q2 = 0.95 ∗ 58.5 = 55.58$, 
+	 5. New $Q3 = 0.95 ∗ 67.5 = 64.13$.
+
+4. We do the same thing for some reason:
+	 1. New $\bar{x} = 2∗59.25+3 = 121.5$, 
+	 2. New $\sigma_s = 2 ∗ 16.44 = 32.882$,
+	 3. New $Q1 = 2∗54+3 = 111$,
+	 4. New $Q2 = 2 ∗ 58.5 + 3 = 120$, 
+	 5. New $Q3 = 2 ∗ 67.5 + 3 = 138$.
+	
+5. Range and IRQ. 
+	1. Range is just the max - min value. 
+	2. IRQ is the length of the interval [Q1, Q3].
+	
+6. [[Box plot|Box pot]]:
+	![](../z_images/Pasted%20image%2020230508220307.png)
+	
+```ad-example
+![](../z_images/Pasted%20image%2020230301162729.png)
+```

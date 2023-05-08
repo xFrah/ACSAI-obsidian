@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Cross-entropy.md",
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9647650e333cdd6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Statistics/Measures of Position.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Cross-entropy.md",
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Cross-entropy.md",
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,11 +140,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Cross-entropy.md"
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exercises.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -150,8 +165,15 @@
   },
   "active": "22607b2a6e0b59c4",
   "lastOpenFiles": [
-    "MD VERSIONS/Machine Learning/Impurity functions.md",
+    "MD VERSIONS/Statistics/Box plot.md",
+    "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
+    "MD VERSIONS/z_images/Pasted image 20230508220307.png",
+    "MD VERSIONS/Statistics/Measures of Position.md",
+    "MD VERSIONS/z_images/Pasted image 20230508144508.png",
+    "MD VERSIONS/Statistics/Standard Deviation.md",
+    "MD VERSIONS/z_images/Pasted image 20230508142329.png",
     "MD VERSIONS/Machine Learning/Cross-entropy.md",
+    "MD VERSIONS/Machine Learning/Impurity functions.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
     "MD VERSIONS/AI-LAB/Color equalization.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Contour detection.html",
@@ -182,10 +204,6 @@
     "MD VERSIONS/Artificial Intelligence/Environment.md",
     "MD VERSIONS/Artificial Intelligence/Graph.md",
     "MD VERSIONS/Artificial Intelligence/Functions.md",
-    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
-    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
-    "MD VERSIONS/Artificial Intelligence/Set theory.md",
-    "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
     "MD VERSIONS/z_images/cov.gif",
     "MD VERSIONS/z_images/Figure_asdasdasd1.png",
     "MD VERSIONS/z_images/Figure_1dsfdsfsdfsdfrt5re.png",
@@ -193,9 +211,6 @@
     "MD VERSIONS/z_images/Figure_1oidjgkerjg.png",
     "MD VERSIONS/z_images/kl1.png",
     "MD VERSIONS/z_images/Pasted image 20230506172400.png",
-    "MD VERSIONS/z_images/Pasted image 20230505164953.png",
-    "MD VERSIONS/z_images/Pasted image 20230505162005.png",
-    "MD VERSIONS/z_images/Pasted image 20230505161037.png",
     "Machine Learning/Untitled.canvas"
   ]
 }
