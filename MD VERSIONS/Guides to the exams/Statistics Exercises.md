@@ -245,3 +245,35 @@ Example:
 ```ad-example
 ![](../z_images/Pasted%20image%2020230301162729.png)
 ```
+
+
+
+I can't do all exercises, from here i just categorize them
+
+
+## [Correlation coefficient](../Statistics/Correlation%20coefficient.md)
+
+
+
+## [Regression](../Statistics/Regression.md) line
+
+Imagine need to find that line:
+
+![](../z_images/Figure_134344334.png)
+
+We don't have to bruteforce our way to the best-fitting line.
+We already know that a line can be described with the following formula:
+
+$$\large y=mx + q$$
+1. We find r([correlation coefficient](../Statistics/Correlation%20coefficient.md)):
+	1.   We find the covariance: $\large cov(x,y)=\sum (x-\bar{x})(y-\bar{y})$ ![](../z_images/Figure_134645654657456.png) 
+	
+	2.   Then the correlation coefficient: $r = \Large \frac{cov(x,y)}{\sqrt{\sum (x - \bar{x})^2\sum (y - \bar{y})^2}}$
+
+2. We find $m$:
+
+$$\large m=r(\frac{\sigma_y}{\sigma_x})$$
+3. We find q using the mean values, because we are sure that they are on the regression line:
+$$\large y = mx+q$$
+$$\large q = \bar{y}-m\bar{x}$$
+

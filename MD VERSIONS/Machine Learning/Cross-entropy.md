@@ -85,3 +85,11 @@ cross_entropy_loss = -np.sum(p * np.log(q))
 print(cross_entropy_loss)
 # 0.47965000629754095
 ```
+
+
+---
+
+
+```ad-seealso
+https://machinelearningmastery.com/cross-entropy-for-machine-learning/
+```
