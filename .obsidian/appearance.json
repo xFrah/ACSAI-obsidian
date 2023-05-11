@@ -1,9 +1,10 @@
 {
-  "accentColor": "",
+  "accentColor": "#7560a4",
   "translucency": false,
   "nativeMenus": false,
   "baseFontSize": 16,
   "enabledCssSnippets": [],
   "cssTheme": "Dracula Gemini",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "baseFontSizeAction": true
 }
