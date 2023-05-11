@@ -1,7 +1,7 @@
 {
   "inlineCSS": true,
   "inlineJS": true,
-  "inlineImages": true,
+  "inlineImages": false,
   "makeNamesWebStyle": false,
   "includePluginCSS": "obsidian-admonition",
   "addDarkModeToggle": true,
