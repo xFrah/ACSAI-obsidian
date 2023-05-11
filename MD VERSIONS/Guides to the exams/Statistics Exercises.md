@@ -1,4 +1,5 @@
-# [Recitation 1](https://elearning.uniroma1.it/pluginfile.php/1249385/mod_resource/content/0/Recitation1.pdf):
+# [Recitation 1](https://elearning.uniroma1.it/pluginfile.php/1249385/mod_resource/content/0/Recitation1.pdf)
+---
 
 
 ## Exercise 1
@@ -150,8 +151,9 @@ When we convert from continuous to intervals, what is the type of the new variab
 	2. Absolutely nothing lol. Because the order doesn't change and 400 wasn't in the middle anyways.
 
 
-# [Recitation 2](https://elearning.uniroma1.it/pluginfile.php/1249383/mod_resource/content/0/Recitation2.pdf)
 
+# [Recitation 2](https://elearning.uniroma1.it/pluginfile.php/1249383/mod_resource/content/0/Recitation2.pdf)
+---
 ## Exercise 1
 
 ![](../z_images/Pasted%20image%2020230508142329.png)
@@ -251,9 +253,8 @@ Example:
 I can't do all exercises, from here i just categorize them
 
 
-## [Correlation coefficient](../Statistics/Correlation%20coefficient.md)
-
-
+# [Recitation 3](https://elearning.uniroma1.it/pluginfile.php/1259239/mod_resource/content/0/SolRecitation3.pdf)
+---
 
 ## [Regression](../Statistics/Regression.md) line
 
@@ -265,15 +266,130 @@ We don't have to bruteforce our way to the best-fitting line.
 We already know that a line can be described with the following formula:
 
 $$\large y=mx + q$$
-1. We find r([correlation coefficient](../Statistics/Correlation%20coefficient.md)):
-	1.   We find the covariance: $\large cov(x,y)=\sum (x-\bar{x})(y-\bar{y})$ ![](../z_images/Figure_134645654657456.png) 
+1. We find r ([correlation coefficient](../Statistics/Correlation%20coefficient.md)):
+	1.   We find the [covariance](../Statistics/Covariance.md): $\large cov(x,y)=\sum (x-\bar{x})(y-\bar{y})$ ![](../z_images/Figure_134645654657456.png) 
 	
-	2.   Then the correlation coefficient: $r = \Large \frac{cov(x,y)}{\sqrt{\sum (x - \bar{x})^2\sum (y - \bar{y})^2}}$
+	2.   Then:  $$r = \frac{cov(x,y)}{\sqrt{\sum (x - \bar{x})^2\sum (y - \bar{y})^2}}$$
 
 2. We find $m$:
-
 $$\large m=r(\frac{\sigma_y}{\sigma_x})$$
 3. We find q using the mean values, because we are sure that they are on the regression line:
 $$\large y = mx+q$$
 $$\large q = \bar{y}-m\bar{x}$$
 
+
+```ad-warning
+If the exercise asks you to motivate why the regression line fits the data well, you say that $r^2 = tot\%$.
+
+<br>
+
+$tot\%$ of the variability of X is explained by Y.
+```
+
+
+
+## Residual
+
+$$\text{e} = \text{prediction} - \text{ground truth}$$
+
+
+# [Recitation 4](https://elearning.uniroma1.it/pluginfile.php/1259240/mod_resource/content/0/SolRecitation4n.pdf) 
+---
+
+
+## Sample space
+
+It is the collection of all possible outcomes of an experiment.
+
+A box contains four balls: one red, one blue, one yellow and one pink.
+  
+- **Consider an experiment that consists of drawing a ball from the box at random, replacing it, and drawing a second ball:**
+	S = {RR, RB, RY, RP, BR, BB, BY, BP, YR, YB, YY, YP, PR, PB, PY, PP}
+	
+- **Let A be the event that the first ball drawn is Yellow. List all outcomes in A:**
+	A = {YR, YB, YY, YP}
+	
+- **Let B the event that both balls have the same color. List all the outcomes in B:**
+	B = {RR, BB, YY, PP}
+	
+
+
+## Probabilities
+
+We are in the same sample space as the examples above:
+
+1. **Compute P(A) and P(Ac):**
+	P(A) 1/4 = 0.25 
+	P(Ac) = 1 - 0.25 = 0.75 
+	
+2. **Compute P(B) and P(Bc):**
+	P(B) = 1/4 = 0.25 
+	P(Bc) = 1 - 0.25 = 0.75 
+	
+3. **Compute P(A and B):**
+	P(A and B) = P(A ∩ B) = 1/16 = 0.0625 
+	
+4. **Compute P(A or B):**
+	P(A or B) = P(A ∪ B) = 0.25 + 0.25 - 0.06 = 0.44 
+	
+5. **Compute P(A | B):**
+	P(A | B) = 0.0625/0.25 = 0.25
+	
+```ad-summary
+title: Quick recap on [conditional probability](../Probability/Conditional%20Probability.md):
+When we are searching for the probability of an event A given that another event B has already happened, we can restrict the sample space to the event B.
+
+<br>
+
+Now we search for the intersection of the two events in the sample space of B and we get this formula:
+
+<br>
+
+$$P(A \,|\, B) = \frac{P(A\, ∩ \,B)}{P(B)}$$
+```
+
+
+
+## Dependend and Independent Events
+
+Two events are dependent if the happening of one of them changes the probability of the other one happening.
+
+$$\large P(A\cap B) = P(A)\times P(B\,|\,A)$$
+
+In this formula, the more B is independent from A, the more $P(B\,|\,A)$ approaches $P(B)$.
+$$\large P(A\cap B) = P(A)\times P(B)$$
+
+
+![](../z_images/Pasted%20image%2020230511133103.png)
+
+P(N) = 175 / 590 = 0.296
+P(S) = 570 / 590 = 0.966
+P(S|N) = 160 / 175 = 0.914
+
+- **Compute the probability that an individual did not wear a seatbelt and survived:**
+	P(N and S) = P(N) x P(S|N) = 0.296 x (160/175) = 0.27
+	P(N and S) if independent = P(N) x P(S) = 0.296 x 0.966 = 0.286
+	
+	Since those two are not equal, the events are not independent.
+	
+
+
+
+# [Recitation 5](https://elearning.uniroma1.it/pluginfile.php/1259241/mod_resource/content/1/SolRecitation5.pdf)
+---
+
+
+## Probability distributions
+
+We are sometimes asked to find the mean of a probability distribution. That is the [[Expected value|Expectation]]:
+$$\large E[X]=\mu = \sum p(x) \,x$$
+
+If we are asked to find the variance:
+$$\large \sigma^2=\sum (x-\mu)^2 P(x)$$
+> [!tldr]
+> Literally the expectation of the squared difference of the points from the mean.
+> 
+> $$\large E[(X - \mu)^2]$$
+
+> [!NOTE] Note
+> If you are asked to complete the distribution, remember that the y values must amount to 1.

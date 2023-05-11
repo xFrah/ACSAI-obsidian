@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Decision trees.md",
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Decision trees.md",
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Decision trees.md",
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Decision trees.md"
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exercises.md"
               }
             }
           }
@@ -164,52 +165,52 @@
   },
   "active": "9647650e333cdd6a",
   "lastOpenFiles": [
-    "MD VERSIONS/Machine Learning/Kullback-Leibler divergence.md",
-    "MD VERSIONS/Statistics/Central Limit Theorem.md",
-    "MD VERSIONS/Machine Learning/Gaussian distribution.md",
-    "Pippo.md",
-    "MD VERSIONS/Machine Learning/Cross-entropy.md",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/A-star.html",
+    "MD VERSIONS/Artificial Intelligence/A-star.md",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Agent.html",
     "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
-    "MD VERSIONS/Statistics/Variable types.md",
-    "MD VERSIONS/Statistics/Mean.md",
-    "MD VERSIONS/Machine Learning/Impurity functions.md",
-    "MD VERSIONS/Statistics/Variance.md",
-    "MD VERSIONS/Statistics/Covariance.md",
-    "MD VERSIONS/Statistics/Correlation coefficient.md",
+    "MD VERSIONS/Artificial Intelligence/Agent.md",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Best-first search.html",
+    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.html",
+    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/BFS.html",
+    "MD VERSIONS/Artificial Intelligence/BFS.md",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/DFS.html",
+    "MD VERSIONS/Artificial Intelligence/DFS.md",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Environment.html",
+    "MD VERSIONS/Artificial Intelligence/Environment.md",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Functions.html",
+    "MD VERSIONS/Artificial Intelligence/Functions.md",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Graph.html",
+    "MD VERSIONS/Artificial Intelligence/Graph.md",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
+    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Heuristics.html",
+    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
+    "MD VERSIONS/Artificial Intelligence/Set theory.md",
+    "MD VERSIONS/AI-LAB/Color equalization.md",
+    "MD VERSIONS/AI-LAB/Contour detection.md",
+    "MD VERSIONS/AI-LAB/Convolution.md",
+    "MD VERSIONS/AI-LAB/Corner extraction.md",
+    "MD VERSIONS/AI-LAB/Histogram.md",
+    "MD VERSIONS/AI-LAB/HSV.md",
+    "MD VERSIONS/AI-LAB/Kernel.md",
+    "MD VERSIONS/AI-LAB/Numpy.md",
+    "MD VERSIONS/AI-LAB/Project.md",
+    "MD VERSIONS/AI-LAB/Tokenizing.md",
+    "MD VERSIONS/AI-LAB/Warp.md",
+    "MD VERSIONS/Linear Algebra/Dot product.md",
+    "MD VERSIONS/z_images/Pasted image 20230511133103.png",
     "MD VERSIONS/z_images/Figure_134645654657456.png",
     "MD VERSIONS/z_images/Figure_134344334.png",
     "MD VERSIONS/z_images/Pasted image 20230510154648.png",
-    "MD VERSIONS/Statistics/Box plot.md",
     "MD VERSIONS/z_images/Pasted image 20230508220307.png",
-    "MD VERSIONS/Statistics/Measures of Position.md",
     "MD VERSIONS/z_images/Pasted image 20230508144508.png",
-    "MD VERSIONS/Statistics/Standard Deviation.md",
     "MD VERSIONS/z_images/Pasted image 20230508142329.png",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Color equalization.html",
-    "MD VERSIONS/AI-LAB/Color equalization.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Contour detection.html",
-    "MD VERSIONS/AI-LAB/Contour detection.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Convolution.html",
-    "MD VERSIONS/AI-LAB/Convolution.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Corner extraction.html",
-    "MD VERSIONS/AI-LAB/Corner extraction.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Histogram.html",
-    "MD VERSIONS/AI-LAB/Histogram.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/HSV.html",
-    "MD VERSIONS/AI-LAB/HSV.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Kernel.html",
-    "MD VERSIONS/AI-LAB/Kernel.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Numpy.html",
-    "MD VERSIONS/AI-LAB/Numpy.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Project.html",
-    "MD VERSIONS/AI-LAB/Project.md",
-    "HTML VERSIONS/MD VERSIONS/AI-LAB/Tokenizing.html",
-    "MD VERSIONS/AI-LAB/Tokenizing.md",
-    "MD VERSIONS/AI-LAB/Warp.md",
     "MD VERSIONS/z_images/cov.gif",
     "MD VERSIONS/z_images/Figure_asdasdasd1.png",
     "MD VERSIONS/z_images/Figure_1dsfdsfsdfsdfrt5re.png",
-    "MD VERSIONS/z_images/Figure_1dfdfgdfg.png",
     "Machine Learning/Untitled.canvas"
   ]
 }
