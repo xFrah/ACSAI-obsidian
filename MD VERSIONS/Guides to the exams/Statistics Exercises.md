@@ -371,7 +371,7 @@ P(S|N) = 160 / 175 = 0.914
 	P(N and S) if independent = P(N) x P(S) = 0.296 x 0.966 = 0.286
 	
 	Since those two are not equal, the events are not independent.
-	
+
 
 
 
@@ -393,3 +393,81 @@ $$\large \sigma^2=\sum (x-\mu)^2 P(x)$$
 
 > [!NOTE] Note
 > If you are asked to complete the distribution, remember that the y values must amount to 1.
+
+
+
+## Normal curve and Z-Score
+
+![](../z_images/Pasted%20image%2020230511165147.png)
+
+Some exercises may ask you to calculate the probability in an interval of the Normal distribution.
+
+I think you would do this with integrals, but i guess that integrating the normal distribution might not be easy?
+
+Anyway, we have this exercise:
+
+**In a population the vehicle speed distribution is well approximated by a Normal curve with mean 50 and standard deviation 15.**
+
+- **Compute the probability that a randomly selected vehicle speed is greater than 73**
+
+For this, i must elaborate a lot so bear with me down here...
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+### What is a z-score and what's its purpose:
+
+Basically the z-score is how many standard deviations our value is away from the mean.
+The z-score is useful because it is standardized for the standard normal curve.
+
+Basically if we get an exercise like the one above, where we would need to use an integral, we have a table of ready-to-go values, the z-table.
+
+
+### The z-table:
+
+The z-table assigns to every z-score the area under the curve up to that z-score(the left of it).
+The table is computed from the standard normal curve, but the z-score is standardized, so if our distribution follows a normal curve we can use the table.
+
+![](../z_images/Pasted%20image%2020230511173014.png)
+
+Getting back to the exercise:
+
+**Compute the probability that a randomly selected vehicle speed is greater than 73:**
+
+1.    We compute the z-score:
+$$\large z = \frac{x - \mu}{\sigma} = 1.53$$
+
+![](../z_images/asdasdasd.png)
+
+2.    Now we've got to use the z-table to find the area corresponding to the z-score of 1.53:
+
+![](../z_images/Pasted%20image%2020230511175121.png)
+
+We use the entry -1.5 because if we used 1.53 we would get all the area to the left of 1.53, and we want the area to the right. We can use the negative z because the normal distribution is symmetric:
+
+![](../z_images/asdasdasd2.png)
+
+Our result is **0.063**.
+
+
+> [!info]
+> We could have also computed the complement of the area, instead of getting the inverse of the z-score.
+> 
+> This is because the total area of the normal curve is 1.
+
+
+
+
+## Binomial distribution
+
+A binomial distribution can be thought of as simply the probability of a SUCCESS or FAILURE outcome in an experiment or survey that is repeated multiple times.
+
+Binomial distributions must meet the following three criteria:
+
+1.   **The number of observations or trials is fixed.** 
+	In other words, you can only figure out the probability of something happening if you do it a certain number of times. This is common sense: 
+	- If you toss a coin once, your probability of getting a tails is 50%. 
+	- If you toss a coin a 20 times, your probability of getting a tails is very, very close to 100%.
+	
+2.   **Each observation or trial is independent.**  
+	In other words, none of your trials have an effect on the probability of the next trial.
+	
+3.   The **probability of success** (tails, heads, fail or pass) is **exactly the same** from one trial to another.
