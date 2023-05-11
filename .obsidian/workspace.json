@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Statistics Exercises.md"
+                "file": "README.md"
               }
             }
           }
@@ -163,6 +163,7 @@
   },
   "active": "9647650e333cdd6a",
   "lastOpenFiles": [
+    "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
     "MD VERSIONS/Statistics/Spread.md",
     "MD VERSIONS/Statistics/Samples vs Population.md",
     "MD VERSIONS/Statistics/Significance Test.md",
@@ -173,7 +174,6 @@
     "MD VERSIONS/Statistics/Unbiased Estimators.md",
     "MD VERSIONS/Statistics/Variance.md",
     "MD VERSIONS/Statistics/Z-score.md",
-    "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
     "MD VERSIONS/AI-LAB/Color equalization.md",
     "MD VERSIONS/AI-LAB/Contour detection.md",
     "MD VERSIONS/AI-LAB/Convolution.md",

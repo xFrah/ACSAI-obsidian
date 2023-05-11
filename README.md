@@ -1,5 +1,6 @@
 # IMPORTANT!!!!!
-# THE IMAGES ARE BROKEN IN THE LATEST HTML EXPORTS, GO BACK A FEW COMMITS TO READ THE NOTES CORRECTLY!!!!!!! (FIX IS COMING)
+# THE HTML VERSION OF THE NOTES IS CURRENTLY BROKEN, TO VIEW THEM EITHER USE OBSIDIAN OR GO BACK A FEW COMMITS
+## In the last commits there still is a html folder, but all the formulas in latex are broken. So go back further.
 
 If you want to read these notes, you either have to:
 - Download the repo and open the html versions with the explorer(it will use chrome or edge to open them).
