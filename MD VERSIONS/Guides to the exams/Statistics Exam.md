@@ -273,7 +273,7 @@ $$\large y=mx + q$$
 
 2. We find $m$:
 $$\large m=r(\frac{\sigma_y}{\sigma_x})$$
-3. We find q using the mean values, because we are sure that they are on the regression line:
+3. We find q using the mean values, because we are sure that they are on the [regression](../Statistics/Regression.md) line:
 $$\large y = mx+q$$
 $$\large q = \bar{y}-m\bar{x}$$
 
@@ -384,7 +384,7 @@ P(S|N) = 160 / 175 = 0.914
 We are sometimes asked to find the mean of a probability distribution. That is the [[Expected value|Expectation]]:
 $$\large E[X]=\mu = \sum p(x) \,x$$
 
-If we are asked to find the variance:
+If we are asked to find the [variance](../Statistics/Variance.md):
 $$\large \sigma^2=\sum (x-\mu)^2 P(x)$$
 > [!tldr]
 > Literally the expectation of the squared difference of the points from the mean.
@@ -410,10 +410,8 @@ Anyway, we have this exercise:
 
 - **Compute the probability that a randomly selected vehicle speed is greater than 73**
 
-For this, i must elaborate a lot so bear with me down here...
-↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
-### What is a z-score and what's its purpose:
+### What is a [z-score](../Statistics/Z-score.md) and what's its purpose:
 
 Basically the z-score is how many standard deviations our value is away from the mean.
 The z-score is useful because it is standardized for the standard normal curve.
@@ -471,3 +469,47 @@ Binomial distributions must meet the following three criteria:
 	In other words, none of your trials have an effect on the probability of the next trial.
 	
 3.   The **probability of success** (tails, heads, fail or pass) is **exactly the same** from one trial to another.
+
+
+### For now I'm skipping this
+
+
+
+# [Recitation 6](https://elearning.uniroma1.it/pluginfile.php/1259242/mod_resource/content/0/SolRecitation6.pdf)
+---
+
+## Sampling distributions
+
+When people enter an apple store, $p=0.25$ of them buys a product before leaving. This is the real proportion, it is the ground truth and we have it.
+
+Imagine we sample the population and try to obtain p from the samples. Now P becomes uncertain, it is random variable $\hat{P}$:
+
+![](../z_images/Pasted%20image%2020230512170514.png)
+
+According to the Central Limit Theorem, for large samples, the sample proportion is approximately normally distributed, with mean:
+$$\large\mu_{\hat{P}}= p$$
+and standard deviation:
+$$\large\sigma_{\hat{P}}=\sqrt{\frac{pq}{n}}$$
+
+Where:
+- $p$ is the proportion/statistic of something.
+- $q = 1-p$
+- $\mu_{\hat{P}}$ is the mean of the distribution of sampled proportions.
+- $\sigma_{\hat{P}}$ is the standard deviation of the sampled proportions.
+
+
+> [!hint] $\large\sigma_{\hat{P}}$ formula explanation
+> ## WIP
+
+> [!example]
+> **For the population of individuals who own an iPhone, suppose p = 0.25 is the proportion that has a given app.**
+> 
+> 1. For a random sample of size n = 4, and the mean and the standard deviation of the sampling distribution of the sample proportion:
+> 	$$\large \mu_{\hat{P}}=0.25, \quad\large \sigma_{\hat{P}}=\sqrt{\frac{0.25 \times 0.75}{4}}=0.216$$
+> 	
+> ![](../z_images/samplingproportion.gif)
+
+
+
+
+

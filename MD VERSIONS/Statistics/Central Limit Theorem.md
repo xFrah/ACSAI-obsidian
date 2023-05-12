@@ -1,1 +1,1 @@
-asdasdasdasdasd
+The central limit theorem states that, when "estimating a statistic", if you take sufficiently large random samples from the population, then the distribution of the sample means will be approximately normally distributed.

@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c5ad6375de99e538",
+        "id": "6a0bb2d288510382",
         "type": "tabs",
         "children": [
           {
-            "id": "9647650e333cdd6a",
+            "id": "379c2d4c6b7894c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2205c61678a757a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD VERSIONS/Statistics/Correlation coefficient.md",
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md"
               }
             }
           }
@@ -158,37 +145,39 @@
       "command-palette:Open command palette": false,
       "switcher:Open quick switcher": false,
       "random-note:Open random note": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "webpage-html-export:Export Vault to HTML": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "9647650e333cdd6a",
+  "active": "379c2d4c6b7894c6",
   "lastOpenFiles": [
-    "MD VERSIONS/Guides to the exams/Statistics Exercises.md",
+    "MD VERSIONS/z_images/samplingproportion.gif",
+    "MD VERSIONS/z_images/Pasted image 20230512170514.png",
+    "MD VERSIONS/Statistics/Central Limit Theorem.md",
+    "MD VERSIONS/Statistics/Sampling distributions.md",
+    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+    "MD VERSIONS/Probability/Binomial distribution.md",
+    "MD VERSIONS/Probability/Normal distribution.md",
+    "MD VERSIONS/Probability/Random variable.md",
+    "MD VERSIONS/Probability/Probability distribution.md",
+    "MD VERSIONS/Statistics/Empirical rule.md",
+    "MD VERSIONS/Linear Algebra/Matrix.md",
+    "MD VERSIONS/Linear Algebra/Symmetric matrix.md",
+    "Rectangular matrix.md",
+    "MD VERSIONS/Statistics/Z-score.md",
+    "README.md",
     "MD VERSIONS/Statistics/Spread.md",
     "MD VERSIONS/Statistics/Samples vs Population.md",
     "MD VERSIONS/Statistics/Significance Test.md",
-    "MD VERSIONS/Statistics/Sampling distributions.md",
     "MD VERSIONS/Statistics/Standard Error.md",
     "MD VERSIONS/Statistics/Standard Deviation.md",
     "MD VERSIONS/Statistics/Variable types.md",
     "MD VERSIONS/Statistics/Unbiased Estimators.md",
     "MD VERSIONS/Statistics/Variance.md",
-    "MD VERSIONS/Statistics/Z-score.md",
     "MD VERSIONS/AI-LAB/Color equalization.md",
     "MD VERSIONS/AI-LAB/Contour detection.md",
     "MD VERSIONS/AI-LAB/Convolution.md",
     "MD VERSIONS/AI-LAB/Corner extraction.md",
-    "MD VERSIONS/AI-LAB/Histogram.md",
-    "MD VERSIONS/AI-LAB/HSV.md",
-    "MD VERSIONS/AI-LAB/Kernel.md",
-    "MD VERSIONS/AI-LAB/Numpy.md",
-    "MD VERSIONS/AI-LAB/Tokenizing.md",
-    "MD VERSIONS/AI-LAB/Warp.md",
-    "MD VERSIONS/AI-LAB/Project.md",
-    "MD VERSIONS/Artificial Intelligence/A-star.md",
-    "MD VERSIONS/Artificial Intelligence/Agent.md",
-    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
-    "MD VERSIONS/Artificial Intelligence/BFS.md",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/DFS.html",
@@ -208,7 +197,6 @@
     "MD VERSIONS/z_images/aaaaa.png",
     "MD VERSIONS/z_images/Pasted image 20230511133103.png",
     "MD VERSIONS/z_images/Figure_134645654657456.png",
-    "MD VERSIONS/z_images/Figure_134344334.png",
     "Machine Learning/Untitled.canvas"
   ]
 }
