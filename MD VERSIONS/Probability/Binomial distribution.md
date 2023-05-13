@@ -38,7 +38,7 @@ $$\large \mu = \sum(x) = np$$
 and
 $$\large \sigma^2=var(X)=np(1-p)$$
 
-## Approximation with [normal distribution](Normal%20distribution.md)
+## Approximation with [normal distribution](../Statistics/Normal%20distribution.md)
 
 The binomial distribution can be well approximated by the normal distribution when the expected number of success($np$) and the expected number of failures($n(1-p)$) are both at least 15.
 

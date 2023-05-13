@@ -75,7 +75,7 @@ Observations take numerical values that represent different magnitudes of the va
 1. This is getting boring:
 	![](../z_images/Pasted%20image%2020230429135826.png)
 	
-2. An [histogram](../AI-LAB/Histogram.md) is a chart used to display numerical data.:
+2. An [histogram](../Statistics/Histogram.md) is a chart used to display numerical data.:
 	![](../z_images/Pasted%20image%2020230429140012.png) 
 	
 ```ad-note
@@ -454,7 +454,7 @@ Our result is **0.063**.
 
 
 
-## Binomial distribution
+## [Binomial distribution](../Probability/Binomial%20distribution.md)
 
 A binomial distribution can be thought of as simply the probability of a SUCCESS or FAILURE outcome in an experiment or survey that is repeated multiple times.
 
@@ -495,15 +495,15 @@ $$\large var(X) = np(p-1)$$
 # [Recitation 6](https://elearning.uniroma1.it/pluginfile.php/1259242/mod_resource/content/0/SolRecitation6.pdf)
 ---
 
-## Sampling distributions
+## [Sampling distributions](../Statistics/Sampling%20distributions.md)
 
 When people enter an apple store, $p=0.25$ of them buys a product before leaving. This is the real proportion, it is the ground truth and we have it.
 
-Imagine we sample the population and try to obtain p from the samples. Now P becomes uncertain, it is random variable $\hat{P}$:
+Imagine we sample the population and try to obtain p from the samples. Now P becomes uncertain, it is [random variable](../Probability/Random%20variable.md) $\hat{P}$:
 
 ![](../z_images/Pasted%20image%2020230512170514.png)
 
-According to the Central Limit Theorem, for large samples, the sample proportion is approximately normally distributed, with mean:
+According to the [Central Limit Theorem](../Statistics/Central%20Limit%20Theorem.md), for large samples, the sample proportion is approximately normally distributed, with mean:
 $$\large\mu_{\hat{P}}= p$$
 and standard deviation:
 $$\large\sigma_{\hat{P}}=\sqrt{\frac{pq}{n}}$$
@@ -521,10 +521,10 @@ $$\large \sigma_s = \frac{\sigma}{\sqrt{n}}$$
 > [!warning]
 > Sometimes we want to compute the probability of successes being more than a certain number. 
 > 
-> We know that we can get the area under a curve by using the z-scores, but this distribution only approximates a normal distribution when using a large n.
+> We know that we can get the area under a curve by using the z-scores, but this distribution only approximates a [normal distribution](../Statistics/Normal%20distribution.md) when using a large n.
 > 
 > So when we have a small n we need to go sideways:
-> - If our configuration is also a binomial distribution, we can use that formula to compute every single discrete probability.
+> - If our configuration is also a [binomial distribution](../Probability/Binomial%20distribution.md), we can use that formula to compute every single discrete probability.
 > 
 
 > [!example]
@@ -537,7 +537,7 @@ $$\large \sigma_s = \frac{\sigma}{\sqrt{n}}$$
 > 
 > 2. Find the probability that the proportion of having the app is at least 0.75 when n = 4.
 > 	
-> 	Here the sample size is too small, so we can't use the normal distribution stuff.
+> 	Here the sample size is too small, so we can't use the [normal distribution](../Statistics/Normal%20distribution.md) stuff.
 > 	0.75 of 4 = 3, so we need the probability that at least 3 people have the app. 
 > 	We do that by  summing the probabilities that 3 people have the app and 4 people have the app.
 > 	Since those probabilities are discrete and there are only 2 possible outcomes per trial, we can use the binomial distribution formula
@@ -562,3 +562,16 @@ $$\large \sigma_s = \frac{\sigma}{\sqrt{n}}$$
 > 
 > 
 ![](../z_images/Figure_17y87y87y.png)
+
+
+
+# [Recitation 7](https://elearning.uniroma1.it/pluginfile.php/1266646/mod_resource/content/0/SolRecitation7.pdf)
+---
+
+
+## [Standard Error](../Statistics/Standard%20Error.md)
+
+It's the average error of the [estimation](../Statistics/Estimation.md) from the samples:
+$$\large e=\frac{\sigma}{\sqrt{n}}$$
+
+## [Confidence interval](../Statistics/Confidence%20interval.md)
