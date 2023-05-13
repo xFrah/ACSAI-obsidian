@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -151,6 +152,7 @@
   },
   "active": "379c2d4c6b7894c6",
   "lastOpenFiles": [
+    "MD VERSIONS/z_images/Figure_17y87y87y.png",
     "MD VERSIONS/z_images/samplingproportion.gif",
     "MD VERSIONS/z_images/Pasted image 20230512170514.png",
     "MD VERSIONS/Statistics/Central Limit Theorem.md",
@@ -196,7 +198,6 @@
     "MD VERSIONS/z_images/Pasted image 20230511165147.png",
     "MD VERSIONS/z_images/aaaaa.png",
     "MD VERSIONS/z_images/Pasted image 20230511133103.png",
-    "MD VERSIONS/z_images/Figure_134645654657456.png",
     "Machine Learning/Untitled.canvas"
   ]
 }

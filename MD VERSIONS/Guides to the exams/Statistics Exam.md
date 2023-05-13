@@ -471,7 +471,24 @@ Binomial distributions must meet the following three criteria:
 3.   The **probability of success** (tails, heads, fail or pass) is **exactly the same** from one trial to another.
 
 
-### For now I'm skipping this
+The thing is imagine we flip a coin 5 times. There are $2^5=32$ equally likely outcomes. Now we want to know how many outcomes have 3 heads in them.
+The formula to find out is:
+$$\large P(x)=\frac{n!}{(n-x)!x!}p^xq^{n-x}$$
+Where:
+- $n$ is the number of trials or the size of the sample.
+- $x$ is the number of successes, or in this case the number of heads.
+- $p$ is the probability of success in one trial.
+- $q=1-p$, or the probability of failure in one trial.
+- $P(x)$ is the probability of getting x successes(here 3 heads) in $n$ trials with $p$ probability of success per trial.
+
+
+Mean of a binomial distribution is given by:
+$$\large E[X]=np$$
+Variance of a binomial distribution is given by:
+$$\large var(X) = np(p-1)$$
+
+> [!hint]
+> With big sample sizes this formula approximates to a normal distribution, so we can use z-scores to find areas under the curve.
 
 
 
@@ -498,8 +515,17 @@ Where:
 - $\sigma_{\hat{P}}$ is the standard deviation of the sampled proportions.
 
 
-> [!hint] $\large\sigma_{\hat{P}}$ formula explanation
-> ## WIP
+If the statistic is not a proportion, the standard deviation is computed as:
+$$\large \sigma_s = \frac{\sigma}{\sqrt{n}}$$
+
+> [!warning]
+> Sometimes we want to compute the probability of successes being more than a certain number. 
+> 
+> We know that we can get the area under a curve by using the z-scores, but this distribution only approximates a normal distribution when using a large n.
+> 
+> So when we have a small n we need to go sideways:
+> - If our configuration is also a binomial distribution, we can use that formula to compute every single discrete probability.
+> 
 
 > [!example]
 > **For the population of individuals who own an iPhone, suppose p = 0.25 is the proportion that has a given app.**
@@ -508,8 +534,31 @@ Where:
 > 	$$\large \mu_{\hat{P}}=0.25, \quad\large \sigma_{\hat{P}}=\sqrt{\frac{0.25 \times 0.75}{4}}=0.216$$
 > 	
 > ![](../z_images/samplingproportion.gif)
+> 
+> 2. Find the probability that the proportion of having the app is at least 0.75 when n = 4.
+> 	
+> 	Here the sample size is too small, so we can't use the normal distribution stuff.
+> 	0.75 of 4 = 3, so we need the probability that at least 3 people have the app. 
+> 	We do that by  summing the probabilities that 3 people have the app and 4 people have the app.
+> 	Since those probabilities are discrete and there are only 2 possible outcomes per trial, we can use the binomial distribution formula
+> 	
 
-
-
-
-
+> [!example]
+> **In the population, IQ scores are normally distributed with mean µ = 100 and variance σ 2 = 15. Suppose to draw a random samples of 25 individuals from the population and measure the IQ score**
+> 
+> 1. Compute the probability of observing a sample mean between 98 and 102 when drawing a sample of 25 individuals:
+>   
+> The standard deviation of the sample mean for a sample of size 25. Is given by:
+> $$\large\sigma_s = \frac{\sigma}{\sqrt{n}}=\frac{\sqrt{15}}{\sqrt{25}}=0.774$$ 
+> 
+> The z-scores for 98 and 102 are:
+> $$\large z_1 = \frac{98-100}{0.774}=-2.582,\quad z_2 = \frac{102-100}{0.774}=2.582$$
+> 
+> The areas given by the z-tables for the z-scores are:
+> $$\large A_{z1}=0.0049,\quad A_{z2}=0.9950$$
+> 
+> The area between the two z-scores is given by:
+> $$\large A_{z2-z1} = A_{z2} - A_{z1} = 0.9950 - 0.0049 = 0.9901$$
+> 
+> 
+![](../z_images/Figure_17y87y87y.png)
