@@ -11,8 +11,13 @@
             "id": "379c2d4c6b7894c6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md"
+              }
             }
           }
         ],
@@ -142,6 +151,7 @@
   },
   "active": "379c2d4c6b7894c6",
   "lastOpenFiles": [
+    "MD VERSIONS/z_images/Pasted image 20230514133232.png",
     "MD VERSIONS/Probability/Binomial distribution.md",
     "MD VERSIONS/Statistics/Normal distribution.md",
     "MD VERSIONS/Linear Algebra/Quadratic form.md",
@@ -170,7 +180,6 @@
     "MD VERSIONS/Statistics/Significance Test.md",
     "MD VERSIONS/Statistics/Standard Deviation.md",
     "MD VERSIONS/Statistics/Variable types.md",
-    "MD VERSIONS/Statistics/Unbiased Estimators.md",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/DFS.html",
