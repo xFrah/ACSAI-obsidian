@@ -640,3 +640,17 @@ $$\large CI_{95\%} = 0.82 ± 0.0215= [0,7985, 0,8415]$$
 
 > [!hint]
 > If sample size increases, the margin of error decreases, and thus the CI becomes narrower.
+
+
+
+## Significance Level
+
+
+The significance level is a threshold that determines whether a study result can be considered statistically significant after performing the statistical tests.
+
+ A $\alpha$ of 0.05 indicates a 5% risk of concluding that a difference exists between the population mean and the sample mean, when there is no actual difference(so the probability of getting a bad sample).
+
+
+![](../z_images/Pasted%20image%2020230514164513.png)
+
+We expect to obtain a sample mean that falls in the critical region 5% of the time.
