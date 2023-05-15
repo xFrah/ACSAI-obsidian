@@ -641,6 +641,14 @@ $$\large CI_{95\%} = 0.82 ± 0.0215= [0,7985, 0,8415]$$
 > [!hint]
 > If sample size increases, the margin of error decreases, and thus the CI becomes narrower.
 
+> [!hint]
+> ### Describe the effect of standard deviation, sample size and α on the confidence interval.
+>  - lower standard deviation → lower margin of error → narrower CI 
+>  - higher standard deviation → higher margin of error → wider CI 
+>  - lower sample size → higher margin of error → wider CI 
+>  - higher sample size → lower margin of error → narrower CI 
+>  - lower α → higher level of confidence 1-α →higher margin of error → wider CI 
+>  - higher α → lower level of confidence 1-α → lower margin of error → narrower CI
 
 
 ## Significance Level
@@ -648,9 +656,99 @@ $$\large CI_{95\%} = 0.82 ± 0.0215= [0,7985, 0,8415]$$
 
 The significance level is a threshold that determines whether a study result can be considered statistically significant after performing the statistical tests.
 
- A $\alpha$ of 0.05 indicates a 5% risk of concluding that a difference exists between the population mean and the sample mean, when there is no actual difference(so the probability of getting a bad sample).
+A $\alpha$ of 0.05 indicates a 5% risk of concluding that a difference exists between the population mean and the sample mean, when there is no actual difference(so the probability of getting a bad sample).
 
 
 ![](../z_images/Pasted%20image%2020230514164513.png)
 
 We expect to obtain a sample mean that falls in the critical region 5% of the time.
+
+
+## Multiplier for significance level
+
+I think it is the z-value for the bounds of the critical regions.
+If $\alpha = 0.05$, then a single area measures $\Large\frac{\alpha}{2}\normalsize=0.025$.
+
+So we need to find the z-value for the area 0.025 and that will be our "multiplier". 
+
+
+## t-distribution
+
+It's like a normal curve but wider.
+You must use the t-distribution table(instead of z-table) when the population standard deviation is not known and the sample size is small (n<30).
+
+General Correct Rule: If σ is not known, then using t-distribution is correct. If σ is known, then using the normal distribution is correct.
+
+
+> [!danger]
+> Do exercise 2 and the last ones. We did not exercises on t-distribution.
+
+
+# Recitation 8
+---
+
+## Significance test
+
+I will explain using an exercise:
+
+**In a sample of 402 Tor Vergata first-year students, 174 are enrolled into Statistics course.**
+
+**Is the proportion of students enrolled into Statistics course in the population of all Tor Vergata first-year students different from 0.50 at the significance level α = 0.05?**
+
+
+### 1. Assumptions
+
+The distribution approximates to a normal distribution because of the large sample size.
+
+
+### 2. Hypothesis
+
+We are given an hypothesis:
+
+$$\large H_0 : p=0.5,\quad H_1: p \neq 0.5$$
+Where:
+- $H_0$ is the actual hypothesis, or null hypothesis.
+- $H_1$ is the alternative hypothesis.
+
+In a significance test, the null hypothesis is presumed to be true unless the data give strong evidence against it.
+
+
+### 3. Test statistic
+
+A test statistic measures how far the point estimate falls from the parameter value given in the null hypothesis. The result is the number of standard errors between the two.
+
+First, we construct the normal curve considering the hypothesis:
+
+$$\large n=402,\quad p= 0.5,\quad\sigma=\sqrt{\frac{pq}{402}}=0.0249$$
+Then we take the sample:
+$$\large\quad\hat{p}=\frac{174}{402} = 0.4328$$
+
+![](../z_images/Figure_5t54t54t45451.png)
+
+We can already see from the plot that this sample proportion really doesn't agree with our hypothesis. 
+Mathematically, to disprove the hypothesis we need to check if the sample mean/proportion lands beyond the significance level threshold.
+
+In order to do just that, we need the z-score for the sample proportion, also called the test statistic:
+
+$$\large z=\frac{0.4328-0.5}{\sigma}=-2.6947$$
+
+Now we compute the areas under the curves to determine whether the sample proportion exceedes the $\alpha$ threshold or not.
+
+
+### 4. p-value
+
+This is just the area under the curve at the left of the test statistic value. We can later compare it with the significance level to see if we really are out of bounds.
+
+$$\large\text{p-value}=P(Z<\text{test statistic})\times2=P(Z<-2.6947)\times2=0.0035\times 2=0.0070$$
+
+> [!hint] Why x2?
+> Because the significance level $\alpha$ is the area under both tails of the distribution.
+> So we can either use $\Large \frac{\alpha}{2}$ or $\text{p-value}\times2$.
+
+
+Once we have it, we proceed to accept or reject the hypothesis:
+- If $\text{p-value} < \alpha$, we reject $H_0$
+- If $\text{p-value} \geq \alpha$, we accept $H_0$
+
+
+In this case $0.0070 < 0.05$, so we reject the hypothesis.
