@@ -751,7 +751,7 @@ $$\large\text{p-value}=P(Z<\text{test statistic})\times2=P(Z<-2.6947)\times2=0.0
 
 ### 5. Conclusion
 
-Once we have the p-value, we proceed to either accept or reject the hypothesis:
+Once we have the p-value, we proceed to either accept or reject the hypothesis by comparing the two areas:
 - If $\text{p-value} < \alpha$, we reject $H_0$
 - If $\text{p-value} \geq \alpha$, we accept $H_0$
 
