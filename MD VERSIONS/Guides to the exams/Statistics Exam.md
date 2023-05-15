@@ -743,10 +743,15 @@ $$\large\text{p-value}=P(Z<\text{test statistic})\times2=P(Z<-2.6947)\times2=0.0
 
 > [!hint] Why x2?
 > Because the significance level $\alpha$ is the area under both tails of the distribution.
-> So we can either use $\Large \frac{\alpha}{2}$ or $\text{p-value}\times2$.
+> So we can either use $\Large \frac{\alpha}{2}$ or $\text{p-value}\times2$ when comparing.
+> 
+> ![](../z_images/Pasted%20image%2020230515193455.png)
 
 
-Once we have it, we proceed to accept or reject the hypothesis:
+
+### 5. Conclusion
+
+Once we have the p-value, we proceed to either accept or reject the hypothesis:
 - If $\text{p-value} < \alpha$, we reject $H_0$
 - If $\text{p-value} \geq \alpha$, we accept $H_0$
 
