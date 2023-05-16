@@ -11,8 +11,13 @@
             "id": "dea7678fbc0cbd53",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md"
+              }
             }
           }
         ],
@@ -136,12 +145,14 @@
       "command-palette:Open command palette": false,
       "switcher:Open quick switcher": false,
       "random-note:Open random note": false,
-      "omnisearch:Omnisearch": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "dea7678fbc0cbd53",
   "lastOpenFiles": [
+    "MD VERSIONS/z_images/Pasted image 20230516174107.png",
+    "MD VERSIONS/z_images/Pasted image 20230516173728.png",
+    "MD VERSIONS/z_images/Pasted image 20230516164710.png",
     "MD VERSIONS/Linear Algebra/Dot product.md",
     "MD VERSIONS/Linear Algebra/Projection.md",
     "MD VERSIONS/Linear Algebra/Matrix.md",
@@ -167,7 +178,6 @@
     "MD VERSIONS/Statistics/Estimation.md",
     "MD VERSIONS/Statistics/Mode.md",
     "MD VERSIONS/Statistics/Randomness.md",
-    "MD VERSIONS/Statistics/Spread.md",
     "MD VERSIONS/z_images/Pasted image 20230515193455.png",
     "MD VERSIONS/z_images/Figure_5t54t54t45451.png",
     "MD VERSIONS/z_images/Pasted image 20230514164513.png",
@@ -186,8 +196,6 @@
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/BFS.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Best-first search.html",
     "MD VERSIONS/z_images/asdasdasd2.png",
-    "MD VERSIONS/z_images/Pasted image 20230511175121.png",
-    "MD VERSIONS/z_images/asdasdasd.png",
     "Machine Learning/Untitled.canvas"
   ]
 }
