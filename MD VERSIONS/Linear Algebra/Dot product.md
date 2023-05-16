@@ -1,6 +1,6 @@
 Let $\large x$ and $\large y$ be two 2D [vectors](Vectors.md) with their magnitudes $\large |x|$ and $\large |y|$.
 
-Now, we take $\large y$ and compute the length of its [projection](Projection.md) onto $\large x$, which we call $\large y_p$:
+Now, we take $\large y$ and compute the length of its projection onto $\large x$, which we call $\large y_p$:
 
 $$\Large y_p=|y|\cos{\theta}$$
 

@@ -65,15 +65,10 @@ The axis where you do the operation is said to be flattened.
 
 ```ad-warning
 title: Exam question
-
-What is the geometric meaning of a point cloud and we want to translate it to the origin.
-
-How do we translate this point cloud to the origin? We can compute the mean of the point cloud, in which dimensional space is this WHAT THE FUCK IS HE SAYING
+How do we translate a point cloud to the origin?
 
 We compute the mean of the point cloud and then we subtract it from all the point.
 The new mean of the point cloud is 0.
-
-For each point x and y, we subtract the meanX and meanY. (x, y) - (meanX, meanY)
 
 ```
 
