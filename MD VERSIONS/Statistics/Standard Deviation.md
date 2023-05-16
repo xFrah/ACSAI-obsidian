@@ -21,14 +21,26 @@ Standard deviation is calculated as follows:
 
 
 ```ad-hint
-Why?
+title: Formula explanation
 
 We are taking the <span style="background:rgba(183, 152, 255, 0.3)">average of the distances from the mean for each point</span>.
 But, we square the distances so that they are always positive, then we sqrt everything to get the correct unit of measurament.
-
-I'm positive that this is correct, tho I'm not 100% sure.
 ```
 
 
+![](../z_images/Pasted%20image%2020230301152051.png)
 
-## Sample Standard deviation
+---
+
+## Sample standard deviation
+
+When the data is a sample, we adjust the [variance](Variance.md) to:
+$$\Large \sigma^2 = \frac{1}{N - 1} \sum_{i=1}^{n}(x_i-\mu)^2 $$
+and the standard deviation to:
+$$ \Large\sigma = \sqrt{\frac{\sum(x_i - \mu_x)^2}{N - 1}}$$
+
+#### Properties of standard deviation:
+- σ[s] measures the spread (variability) of the data. 
+- σ[s] = 0 only when all observations have the same value. 
+- σ[s] has the same units of measurement as the original observations. The variance has units that are squared. 
+- σ[s]is not resistant. A few extreme values can greatly increase its value. 

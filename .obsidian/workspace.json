@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6a0bb2d288510382",
+        "id": "354a2046a0ec5868",
         "type": "tabs",
         "children": [
           {
-            "id": "379c2d4c6b7894c6",
+            "id": "dea7678fbc0cbd53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+                "file": "MD VERSIONS/Statistics/Z-score.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+                "file": "MD VERSIONS/Statistics/Z-score.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+                "file": "MD VERSIONS/Statistics/Z-score.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md"
+                "file": "MD VERSIONS/Statistics/Z-score.md"
               }
             }
           }
@@ -146,12 +145,33 @@
       "command-palette:Open command palette": false,
       "switcher:Open quick switcher": false,
       "random-note:Open random note": false,
-      "webpage-html-export:Export Vault to HTML": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "379c2d4c6b7894c6",
+  "active": "dea7678fbc0cbd53",
   "lastOpenFiles": [
+    "MD VERSIONS/Statistics/Significance Test.md",
+    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+    "MD VERSIONS/Statistics/Box plot.md",
+    "MD VERSIONS/Statistics/Association.md",
+    "MD VERSIONS/Statistics/Confidence interval.md",
+    "MD VERSIONS/Statistics/Correlation coefficient.md",
+    "MD VERSIONS/Statistics/Covariance.md",
+    "MD VERSIONS/Statistics/Empirical rule.md",
+    "MD VERSIONS/Statistics/Estimation.md",
+    "MD VERSIONS/Statistics/Measures of Position.md",
+    "MD VERSIONS/Statistics/Mode.md",
+    "MD VERSIONS/Statistics/Randomness.md",
+    "MD VERSIONS/Statistics/Spread.md",
+    "MD VERSIONS/Statistics/Standard Deviation.md",
+    "MD VERSIONS/Statistics/Sampling distributions.md",
+    "MD VERSIONS/Statistics/Unbiased Estimators.md",
+    "MD VERSIONS/Linear Algebra/SVD.md",
+    "MD VERSIONS/Linear Algebra/Hyperplanes.md",
+    "MD VERSIONS/AI-LAB/Convolution.md",
+    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
+    "MD VERSIONS/Statistics/Z-score.md",
     "MD VERSIONS/z_images/Pasted image 20230515193455.png",
     "MD VERSIONS/z_images/Figure_5t54t54t45451.png",
     "MD VERSIONS/z_images/Pasted image 20230514164513.png",
@@ -161,29 +181,9 @@
     "MD VERSIONS/Linear Algebra/Quadratic form.md",
     "MD VERSIONS/Linear Algebra/Projection.md",
     "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md",
-    "MD VERSIONS/Statistics/Histogram.md",
-    "MD VERSIONS/Linear Algebra/Rayleigh quotient.md",
-    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
-    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
-    "MD VERSIONS/Statistics/Standard Error.md",
     "MD VERSIONS/z_images/Figure_17y87y87y.png",
     "MD VERSIONS/z_images/samplingproportion.gif",
     "MD VERSIONS/z_images/Pasted image 20230512170514.png",
-    "MD VERSIONS/Statistics/Central Limit Theorem.md",
-    "MD VERSIONS/Statistics/Sampling distributions.md",
-    "MD VERSIONS/Probability/Random variable.md",
-    "MD VERSIONS/Probability/Probability distribution.md",
-    "MD VERSIONS/Statistics/Empirical rule.md",
-    "MD VERSIONS/Linear Algebra/Matrix.md",
-    "MD VERSIONS/Linear Algebra/Symmetric matrix.md",
-    "Rectangular matrix.md",
-    "MD VERSIONS/Statistics/Z-score.md",
-    "README.md",
-    "MD VERSIONS/Statistics/Spread.md",
-    "MD VERSIONS/Statistics/Samples vs Population.md",
-    "MD VERSIONS/Statistics/Significance Test.md",
-    "MD VERSIONS/Statistics/Standard Deviation.md",
-    "MD VERSIONS/Statistics/Variable types.md",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/DFS.html",
@@ -197,7 +197,6 @@
     "MD VERSIONS/z_images/asdasdasd2.png",
     "MD VERSIONS/z_images/Pasted image 20230511175121.png",
     "MD VERSIONS/z_images/asdasdasd.png",
-    "MD VERSIONS/z_images/Pasted image 20230511173014.png",
     "Machine Learning/Untitled.canvas"
   ]
 }

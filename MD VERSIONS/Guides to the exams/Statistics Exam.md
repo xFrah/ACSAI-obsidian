@@ -687,7 +687,7 @@ General Correct Rule: If σ is not known, then using t-distribution is correct. 
 # Recitation 8
 ---
 
-## Significance test
+## Significance Test
 
 I will explain using an exercise:
 
@@ -698,7 +698,7 @@ I will explain using an exercise:
 
 ### 1. Assumptions
 
-The distribution approximates to a normal distribution because of the large sample size.
+The distribution approximates to a [[Normal distribution|normal distribution]] because of the large sample size.
 
 
 ### 2. Hypothesis
@@ -715,9 +715,9 @@ In a significance test, the null hypothesis is presumed to be true unless the da
 
 ### 3. Test statistic
 
-A test statistic measures how far the point estimate falls from the parameter value given in the null hypothesis. The result is the number of standard errors between the two.
+A test statistic measures how far the point estimate falls from the parameter value given in the null hypothesis. The result is the number of [[Standard Error|standard errors]] between the two.
 
-First, we construct the normal curve considering the hypothesis:
+First, we construct the [[Normal distribution|normal curve]] considering the hypothesis:
 
 $$\large n=402,\quad p= 0.5,\quad\sigma=\sqrt{\frac{pq}{402}}=0.0249$$
 Then we take the sample:
@@ -726,9 +726,9 @@ $$\large\quad\hat{p}=\frac{174}{402} = 0.4328$$
 ![](../z_images/Figure_5t54t54t45451.png)
 
 We can already see from the plot that this sample proportion really doesn't agree with our hypothesis. 
-Mathematically, to disprove the hypothesis we need to check if the sample mean/proportion lands beyond the significance level threshold.
+Mathematically, to disprove the hypothesis we need to check if the sample mean/proportion lands beyond the [[Significance Test|significance level]] threshold.
 
-In order to do just that, we need the z-score for the sample proportion, also called the test statistic:
+In order to do just that, we need the [[z-score]] for the sample proportion, also called the test statistic:
 
 $$\large z=\frac{0.4328-0.5}{\sigma}=-2.6947$$
 
@@ -751,7 +751,7 @@ $$\large\text{p-value}=P(Z<\text{test statistic})\times2=P(Z<-2.6947)\times2=0.0
 
 ### 5. Conclusion
 
-Once we have the p-value, we proceed to either accept or reject the hypothesis by comparing the two areas:
+Once we have the p-value, we proceed to either accept or reject the hypothesis by comparing the two area
 - If $\text{p-value} < \alpha$, we reject $H_0$
 - If $\text{p-value} \geq \alpha$, we accept $H_0$
 
