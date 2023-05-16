@@ -59,7 +59,7 @@ There are only 2 points in which k-means changes its values:
 - We fix y, and then we try to optimize the centroids.
 
 Those two operations will never increase the value of the loss, at most it stays the same.
-Tries to minimize the [spread](../Statistics/Spread.md) of each cluster.
+Tries to minimize the spread of each cluster.
 
 
 ## Convergence

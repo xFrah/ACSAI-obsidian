@@ -52,7 +52,7 @@ It's probability distribution is specified by a density curve and the probabilit
 
 - The [mean](../Statistics/Mean.md), [median](../Statistics/Median.md) and [mode](../Statistics/Mode.md) are equal.
 - Location is determined by the mean $\large \mu$.
-- [Spread](../Statistics/Spread.md) is determined by the standard deviation $\large \sigma$.
+- Spread is determined by the standard deviation $\large \sigma$.
 - The [random variable](Random%20variable.md) has an infinite theoretical range, from $-\infty$ to $+\infty$.
 - The distribution is completely specified by the two parameters mean and variance.
 
