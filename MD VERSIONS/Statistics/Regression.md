@@ -65,15 +65,3 @@ $$ \large std = \sqrt{\sum(x_i - \mu_x)^2}$$
 $$\large cov=\sum(X - \mu_X)(Y - \mu_Y)$$
 - $\large \mu_x$ is the [mean](Mean.md) of x
 - $\large \mu_y$ is the mean of y
-
-
-```ad-hint
-title: Why?
-Because.
-```
-
-
-```ad-note
-The sum of the residuals about the least squares regression line will always be zero
-```
-

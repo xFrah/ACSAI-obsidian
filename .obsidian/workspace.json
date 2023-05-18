@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "354a2046a0ec5868",
+        "id": "2e43ea5f0180572c",
         "type": "tabs",
         "children": [
           {
-            "id": "dea7678fbc0cbd53",
+            "id": "782becbc10c36539",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+                "file": "MD VERSIONS/Machine Learning/Decision trees.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+                "file": "MD VERSIONS/Machine Learning/Decision trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+                "file": "MD VERSIONS/Machine Learning/Decision trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Statistics Exam.md"
+                "file": "MD VERSIONS/Machine Learning/Decision trees.md"
               }
             }
           }
@@ -145,11 +146,32 @@
       "command-palette:Open command palette": false,
       "switcher:Open quick switcher": false,
       "random-note:Open random note": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "dea7678fbc0cbd53",
+  "active": "782becbc10c36539",
   "lastOpenFiles": [
+    "MD VERSIONS/z_images/Pasted image 20230518181627.png",
+    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+    "MD VERSIONS/Machine Learning/Decision trees.md",
+    "MD VERSIONS/Machine Learning/Cross-validation.md",
+    "MD VERSIONS/z_images/Pasted image 20230518170125.png",
+    "MD VERSIONS/z_images/Pasted image 20230518165425.png",
+    "MD VERSIONS/z_images/Pasted image 20230518165356.png",
+    "MD VERSIONS/z_images/Pasted image 20230518163505.png",
+    "MD VERSIONS/z_images/Pasted image 20230518163448.png",
+    "MD VERSIONS/Machine Learning/Logistic Regression.md",
+    "MD VERSIONS/Machine Learning/Neural Networks.md",
+    "MD VERSIONS/Statistics/Advanced Regression.md",
+    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+    "MD VERSIONS/Statistics/Standard Error.md",
+    "MD VERSIONS/Statistics/Regression.md",
+    "MD VERSIONS/Statistics/Confidence interval.md",
+    "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
+    "MD VERSIONS/Statistics/Significance Level.md",
+    "MD VERSIONS/Probability/Random variable.md",
+    "MD VERSIONS/Statistics/Box plot.md",
     "MD VERSIONS/z_images/Pasted image 20230516174107.png",
     "MD VERSIONS/z_images/Pasted image 20230516173728.png",
     "MD VERSIONS/z_images/Pasted image 20230516164710.png",
@@ -157,7 +179,6 @@
     "MD VERSIONS/Linear Algebra/Projection.md",
     "MD VERSIONS/Linear Algebra/Matrix.md",
     "MD VERSIONS/Probability/Event.md",
-    "MD VERSIONS/Machine Learning/Decision trees.md",
     "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
     "MD VERSIONS/Statistics/Association.md",
     "MD VERSIONS/Artificial Intelligence/Set theory.md",
@@ -165,26 +186,8 @@
     "MD VERSIONS/Machine Learning/Kullback-Leibler divergence.md",
     "MD VERSIONS/AI-LAB/Warp.md",
     "MD VERSIONS/Artificial Intelligence/Best-first search.md",
-    "MD VERSIONS/Statistics/Box plot.md",
-    "MD VERSIONS/Probability/Probability distribution.md",
-    "MD VERSIONS/Machine Learning/K-means.md",
-    "MD VERSIONS/Statistics/Z-score.md",
-    "MD VERSIONS/Statistics/Significance Test.md",
-    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
-    "MD VERSIONS/Statistics/Confidence interval.md",
-    "MD VERSIONS/Statistics/Correlation coefficient.md",
-    "MD VERSIONS/Statistics/Covariance.md",
-    "MD VERSIONS/Statistics/Empirical rule.md",
-    "MD VERSIONS/Statistics/Estimation.md",
-    "MD VERSIONS/Statistics/Mode.md",
-    "MD VERSIONS/Statistics/Randomness.md",
     "MD VERSIONS/z_images/Pasted image 20230515193455.png",
     "MD VERSIONS/z_images/Figure_5t54t54t45451.png",
-    "MD VERSIONS/z_images/Pasted image 20230514164513.png",
-    "MD VERSIONS/z_images/Pasted image 20230514133232.png",
-    "MD VERSIONS/z_images/Figure_17y87y87y.png",
-    "MD VERSIONS/z_images/samplingproportion.gif",
-    "MD VERSIONS/z_images/Pasted image 20230512170514.png",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/DFS.html",
@@ -195,7 +198,6 @@
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/BFS.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Best-first search.html",
-    "MD VERSIONS/z_images/asdasdasd2.png",
     "Machine Learning/Untitled.canvas"
   ]
 }

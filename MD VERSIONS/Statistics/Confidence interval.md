@@ -1,86 +1,65 @@
-A confidence interval is the [mean](Mean.md) of your estimate + a margin of error(variation in the estimate). 
-This is the range of values you expect your estimate to fall between if you redo your test, within a certain level of confidence.
+### Confidence Level 
 
-The sample mean is the point estimate of the population mean.
+The confidence level is the overall capture rate if the method is used many times. 
+The sample mean will vary from sample to sample, but the method estimate ± margin of error is used to get an interval based on each sample. 
+C% of these intervals capture the unknown population mean 𝜇. 
+In other words, **the actual mean will be located within the interval C% of the time.**
 
-```ad-faq
-title: Population mean definition
-The population mean is the mean of a variable considering the whole population.
+The population mean for a certain variable is estimated by computing a confidence interval for that mean.
 
-<br>
+The formula for the confidence interval is:
 
-$$\large \mu_x = \frac{sum\;of\;the\;items}{number\;of\;items}$$
+$$\large \text{Confidence interval} = \text{sample mean} ± \text{margin of error}$$
 
-<br>
-
-The sample mean is the same but computed using only a sample of the population.
-
-<br>
-
-$$\large \mu_{sx} = \frac{sum\;of\;the\;items\;in\;the\;sample}{number\;of\;items\;in\;the\;sample}$$
-```
+![](../z_images/Pasted%20image%2020230514133232.png)
 
 
-The exact [standard error](Standard%20Error.md) of the sample mean is $\Large \frac{\sigma}{\sqrt{n}}$.
+In order to find the confidence interval, we must find the margin of error first:
 
-```ad-faq
-title: Standard error definition
-The standard error is a statistical term that measures the accuracy with which a sample distribution represents a population by using [standard deviation](Standard%20Deviation.md). 
+$$\large \text{Margin of error} = z^* \cdot \text{Standard Error}$$
 
-<br>
+> [!hint] Formula Explanation
+> For each C% there is a specific z-score, that gives you the bounds of the interval.
+> 
+> The margin of error is just the un-normalized bound, because we are converting the z-score to a real value.
 
-In statistics, a sample mean deviates from the actual mean of a population; this deviation is the standard error of the mean.
-```
-
-
-We don't know the population standard deviation $\large \sigma$ but we estimate it using the sample standard deviation, $\large s$.
-
-```ad-faq
-title: Sample standard deviation
-It's the average of the distances of all the points from the mean.
-
-<br>
-
-In the case of a sample population, the sample standard deviation is the average of all the distances of all the observations in the sample from the sample mean.
-
-<br>
-
-$$\large s = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2}$$
-```
+> [!question] Where to find values for $z^*$?
+> You can find the values for $z^*$ in the c-table or z-table.
 
 
-For large n for any population and also for every n from an underlying population that is normal, the confidence interval for the population mean is:
-$$\Large \mu_x +z_{\alpha/2}\frac{s}{\sqrt{n}}$$
+Ex. **When a General Social Survey asked 1326 subjects, "Do you believe in science?", the proportion who answered yes was 0.82.**
 
-Where:
-- $\large s$ - Sample [standard deviation](Standard%20Deviation.md)
-- $\large n$ - Number of samples
-- $\large \frac{s}{\sqrt{n}}$ - Standard error
-- $\large \alpha$ - Probability threshold
-- $\large z_{\alpha/2}$ - Critical value of the $\large z$ distribution.
+**Construct the 95% confidence interval.**
 
+The sample proportion is equal to 0.82, now we just need the standard error in order to calculate the margin of error.
 
-```ad-faq
-title: Critical values
-Critical values tell you how many standard deviations away from the mean you need to go to reach the desired confidence level for your confidence interval.
+$$\large \text{Standard error}=\sqrt{\frac{0.82 \times 0.18}{1326}} = 0.011$$
 
-<br>
-
-To find critical values, you need to follow those steps:
-1. Choose an alpha ($\large \alpha$) value:
-	The most common is 0.05
-2. Decide if you need a one-tailed interval or a two-tailed interval:
-	You will most likely use a two-tailed interval. For a two-tailed interval, divide your alpha by two to get the alpha value for the upper and lower tails.
-3. Look up the critical value that corresponds with the alpha value:
-```
+> [!question] Why this formula?
+> This is the standard error formula for the sample proportion:
+> $$\large e=\sqrt{\frac{pq}{n}}$$
+> 
+> It's different from the one we use for the sample mean:
+> $$\large e=\frac{\sigma}{\sqrt{n}}$$
 
 
-## Confidence Interval for two means
+$$\large \text{Margin of error} = 1.96 \cdot 0.011=0.0215$$
 
-The confidence interval for two means is a range of values that is likely to contain the true difference between two population means with a certain level of confidence.
+So the confidence interval would be
+$$\large CI_{95\%} = 0.82 ± 0.0215= [0,7985, 0,8415]$$
 
-We can get the confidence interval for the difference between two population means ($\large \mu_1 - \mu_2$) if:
-- When the populations are independent and normally distributed with a common variance $\large\sigma^2$.
-- when the populations are independent and normally distributed with unequal variances.
-- when the populations are dependent and normally distributed.
+> [!hint] How to interpret
+> We are 95% confidence that between 79.8% and 84.2% of people believe in science.
+
+> [!hint]
+> If sample size increases, the margin of error decreases, and thus the CI becomes narrower.
+
+> [!hint]
+> ### Describe the effect of standard deviation, sample size and α on the confidence interval.
+>  - lower standard deviation → lower margin of error → narrower CI 
+>  - higher standard deviation → higher margin of error → wider CI 
+>  - lower sample size → higher margin of error → wider CI 
+>  - higher sample size → lower margin of error → narrower CI 
+>  - lower α → higher level of confidence 1-α →higher margin of error → wider CI 
+>  - higher α → lower level of confidence 1-α → lower margin of error → narrower CI
 

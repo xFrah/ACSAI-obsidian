@@ -180,11 +180,6 @@ For this reason we decrease the denominator and overshoot the number.
 ```
 
 
-## Exercise 2
-
-We are gonna skip this for now
-
-
 ## Exercise 3
 
 ![](../z_images/Pasted%20image%2020230508144508.png)
@@ -414,7 +409,7 @@ Anyway, we have this exercise:
 ### What is a [z-score](../Statistics/Z-score.md) and what's its purpose:
 
 Basically the z-score is how many standard deviations our value is away from the mean.
-The z-score is useful because it is standardized for the standard normal curve.
+The z-score is useful because it is standardized for every normal curve.
 
 Basically if we get an exercise like the one above, where we would need to use an integral, we have a table of ready-to-go values, the z-table.
 
@@ -831,7 +826,7 @@ Where:
 
 It is the total sum of squares:
 
-$$\large\text{SSE} = \sum_{i=0}^{N} (y_i - \bar{y})^2$$
+$$\large\text{SST} = \sum_{i=0}^{N} (y_i - \bar{y})^2$$
 
 It is basically the sum of all the squared deviations from the mean.
 
