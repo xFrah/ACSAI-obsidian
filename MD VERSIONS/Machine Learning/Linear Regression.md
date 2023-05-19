@@ -31,7 +31,7 @@ $$\large \mathcal{L}\big(y, f_{\boldsymbol{\theta}}(x)\big) = \big(f_{\boldsymbo
 
 ## Vectorization of loss function
 
-We define the **design matrix** $X$, **label matrix** $y$ and the parameters as:
+We define the **design [matrix](../Linear%20Algebra/Matrix.md)** $X$, **label matrix** $y$ and the parameters as:
 
 $$\large\def\horzbar{\rule[.5ex]{2.5ex}{0.5pt}}
 X =
@@ -82,7 +82,7 @@ Given this new vectorization, we can rewrite the cost function as:
 $$\large\mathcal{J}(\theta;x,y)= \frac{1}{2} \sum_{i=1}^{n}  (\underbracket{\theta^Tx_i}_{f_{\boldsymbol{\theta}}} - y_i)^2=\frac{1}{2} \big(X\theta - y \big)^T\big(X\theta - y \big)$$
 
 > [!hint] Formula Explanation
-> $\theta^T x_i$ is the dot product between datapoint and parameters.
+> $\theta^T x_i$ is the [dot product](../Linear%20Algebra/Dot%20product.md) between datapoint and parameters.
 > 
 > $$\large y=\begin{bmatrix}
 > q & m
@@ -136,7 +136,7 @@ $$\large\mathcal{J}(\theta;x,y)= \frac{1}{2} \sum_{i=1}^{n}  (\underbracket{\the
 >
 > \left[
 >  \begin{array}{ccc}
->    & x^{T}_{1}\theta - y_1 & x^{T}_{2}\theta - y_2 & \dots & x^{T}_{n}\theta - y_n & 
+>    x^{T}_{1}\theta - y_1 & x^{T}_{2}\theta - y_2 & \dots & x^{T}_{n}\theta - y_n
 >  \end{array}
 >\right]
 >

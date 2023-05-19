@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -151,9 +152,9 @@
   },
   "active": "782becbc10c36539",
   "lastOpenFiles": [
+    "MD VERSIONS/Machine Learning/Linear Regression.md",
     "MD VERSIONS/Linear Algebra/Rayleigh quotient.md",
     "MD VERSIONS/Linear Algebra/Symmetric matrix.md",
-    "MD VERSIONS/Machine Learning/Linear Regression.md",
     "MD VERSIONS/z_images/Pasted image 20230519120711.png",
     "MD VERSIONS/z_images/Pasted image 20230519120657.png",
     "MD VERSIONS/Machine Learning/Information Gain.md",
