@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Decision trees.md",
+                "file": "MD VERSIONS/Machine Learning/Information Gain.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Decision trees.md",
+                "file": "MD VERSIONS/Machine Learning/Information Gain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Decision trees.md",
+                "file": "MD VERSIONS/Machine Learning/Information Gain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Decision trees.md"
+                "file": "MD VERSIONS/Machine Learning/Information Gain.md"
               }
             }
           }
@@ -152,12 +151,20 @@
   },
   "active": "782becbc10c36539",
   "lastOpenFiles": [
+    "MD VERSIONS/Machine Learning/Decision trees.md",
+    "MD VERSIONS/Machine Learning/Information Gain.md",
+    "MD VERSIONS/z_images/Pasted image 20230519115645.png",
+    "MD VERSIONS/Artificial Intelligence/A-star.md",
+    "MD VERSIONS/Statistics/Variance.md",
+    "MD VERSIONS/Statistics/Significance Level.md",
+    "MD VERSIONS/Probability/Conditional Probability.md",
+    "MD VERSIONS/Statistics/Estimation.md",
+    "MD VERSIONS/Linear Algebra/Dot product.md",
     "MD VERSIONS/z_images/Pasted image 20230519113651.png",
     "MD VERSIONS/z_images/Pasted image 20230519113628.png",
     "MD VERSIONS/z_images/Pasted image 20230519113620.png",
     "MD VERSIONS/z_images/Pasted image 20230518181627.png",
     "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
-    "MD VERSIONS/Machine Learning/Decision trees.md",
     "MD VERSIONS/Machine Learning/Cross-validation.md",
     "MD VERSIONS/z_images/Pasted image 20230518170125.png",
     "MD VERSIONS/z_images/Pasted image 20230518165425.png",
@@ -172,22 +179,13 @@
     "MD VERSIONS/Statistics/Regression.md",
     "MD VERSIONS/Statistics/Confidence interval.md",
     "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
-    "MD VERSIONS/Statistics/Significance Level.md",
     "MD VERSIONS/Probability/Random variable.md",
     "MD VERSIONS/Statistics/Box plot.md",
-    "MD VERSIONS/z_images/Pasted image 20230516174107.png",
-    "MD VERSIONS/z_images/Pasted image 20230516173728.png",
-    "MD VERSIONS/Linear Algebra/Dot product.md",
     "MD VERSIONS/Linear Algebra/Projection.md",
     "MD VERSIONS/Linear Algebra/Matrix.md",
     "MD VERSIONS/Probability/Event.md",
     "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
     "MD VERSIONS/Statistics/Association.md",
-    "MD VERSIONS/Artificial Intelligence/Set theory.md",
-    "MD VERSIONS/Statistics/Measures of Position.md",
-    "MD VERSIONS/Machine Learning/Kullback-Leibler divergence.md",
-    "MD VERSIONS/AI-LAB/Warp.md",
-    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/DFS.html",

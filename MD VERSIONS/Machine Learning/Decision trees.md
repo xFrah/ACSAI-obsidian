@@ -16,11 +16,11 @@ Like in K-means we proceed with a **greedy approach** by minimizing the entrop
     2.  **[Greedy Step]** Choose:
 	    A) a dimension among axes 
 	    B) **BEST** splitting value that minimize the Impurity function on the chosen axes
-	    When Impurity is Entropy we **minimize the entropy** also know as **maximizing the Information Gain.**
+	    When Impurity is Entropy we **minimize the entropy** also known as **maximizing the Information Gain.**
 	    
     3.  Once A) and B) are chosen save them as "parameters" of the model
 	    
-    4.  Apply **recursion to the sub-problem**.
+    4.  Apply **recursion to the ramifications**.
 
 
 -   **Termination**:
