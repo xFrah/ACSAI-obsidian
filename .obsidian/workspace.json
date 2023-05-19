@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Information Gain.md",
+                "file": "MD VERSIONS/Machine Learning/Linear Regression.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Information Gain.md",
+                "file": "MD VERSIONS/Machine Learning/Linear Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Information Gain.md",
+                "file": "MD VERSIONS/Machine Learning/Linear Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Information Gain.md"
+                "file": "MD VERSIONS/Machine Learning/Linear Regression.md"
               }
             }
           }
@@ -151,8 +151,13 @@
   },
   "active": "782becbc10c36539",
   "lastOpenFiles": [
-    "MD VERSIONS/Machine Learning/Decision trees.md",
+    "MD VERSIONS/Linear Algebra/Rayleigh quotient.md",
+    "MD VERSIONS/Linear Algebra/Symmetric matrix.md",
+    "MD VERSIONS/Machine Learning/Linear Regression.md",
+    "MD VERSIONS/z_images/Pasted image 20230519120711.png",
+    "MD VERSIONS/z_images/Pasted image 20230519120657.png",
     "MD VERSIONS/Machine Learning/Information Gain.md",
+    "MD VERSIONS/Machine Learning/Decision trees.md",
     "MD VERSIONS/z_images/Pasted image 20230519115645.png",
     "MD VERSIONS/Artificial Intelligence/A-star.md",
     "MD VERSIONS/Statistics/Variance.md",
@@ -169,8 +174,6 @@
     "MD VERSIONS/z_images/Pasted image 20230518170125.png",
     "MD VERSIONS/z_images/Pasted image 20230518165425.png",
     "MD VERSIONS/z_images/Pasted image 20230518165356.png",
-    "MD VERSIONS/z_images/Pasted image 20230518163505.png",
-    "MD VERSIONS/z_images/Pasted image 20230518163448.png",
     "MD VERSIONS/Machine Learning/Logistic Regression.md",
     "MD VERSIONS/Machine Learning/Neural Networks.md",
     "MD VERSIONS/Statistics/Advanced Regression.md",
@@ -184,8 +187,6 @@
     "MD VERSIONS/Linear Algebra/Projection.md",
     "MD VERSIONS/Linear Algebra/Matrix.md",
     "MD VERSIONS/Probability/Event.md",
-    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
-    "MD VERSIONS/Statistics/Association.md",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/DFS.html",

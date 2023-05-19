@@ -2,14 +2,14 @@ Suppose we have a point cloud like this:
 
 ![](../z_images/Figure_1.png)
 
-Recall that the principal component of a point cloud is the unit vector that maximises the variance.
+Recall that the principal component of a point cloud is the unit vector that maximises the [variance](../Statistics/Variance.md).
 
 We compute that variance by using this formula:
 $$\large var = \vec{v}^T\Sigma \vec{v}$$
 
 Maximizing any function of the form above, where $\vec{v}$ is a normalized unit vector, can be formulated as a so called [Rayleigh Quotient](https://en.wikipedia.org/wiki/Rayleigh_quotient "Rayleigh Quotient").
 
-The maximum of such a Rayleigh Quotient is obtained by setting $\vec{v}$ equal to the largest eigenvector of matrix $\Sigma$.
+The maximum of such a Rayleigh Quotient is obtained by setting $\vec{v}$ equal to the largest [[Eigenvectors and Eigenvalues|eigenvector]] of matrix $\Sigma$.
 
 ---
 
@@ -23,7 +23,7 @@ Imagine $\vec{v}$ is the biggest principal component of the data shown above(so 
 The eigenvector of a matrix $A$ is a unit vector that when transformed by $A$, doesn't change direction but just gets scaled by its corresponding eigenvalue $\lambda$.
 ```
 
-So, if we multiply $\vec{v}$ by covariance matrix $\Sigma$, we are basically just stretching it(by its $\lambda$).
+So, if we multiply $\vec{v}$ by [covariance matrix](../Machine%20Learning/Covariance%20matrix.md) $\Sigma$, we are basically just stretching it(by its $\lambda$).
 
 The norm of the new stretched vector $\Sigma \vec{v}$ is now equal to the variance in its direction(or $\lambda$ in this case since its an eigenvector).
 
