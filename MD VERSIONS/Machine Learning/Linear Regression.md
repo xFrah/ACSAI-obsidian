@@ -1,4 +1,4 @@
-We want to regress a $y$ from $x$, starting from a finite number of datapoints:
+xWe want to regress a $y$ from $x$, starting from a finite number of datapoints:
 
 ![](../z_images/Pasted%20image%2020230519120711.png)
 
@@ -150,7 +150,47 @@ $$\large\mathcal{J}(\theta;x,y)= \frac{1}{2} \sum_{i=1}^{n}  (\underbracket{\the
 >\right]
 > $$
 
+---
+
+## Finding critical points
+
+We set the gradient to zero and we solve it.
+
+$$\large\nabla_{\theta} \mathcal{J}(\theta;X,y)= \nabla_{\theta} \frac{1}{2} \big(X\theta - y \big)^T\big(X\theta - y \big) = 0$$
+
+$$\nabla_{\theta} \frac{1}{2} \big[ (X\theta)^T(X\theta) - \underbracket{(X\theta)^Ty}_{\text{scalar}} -  \underbracket  {y^T(X\theta)}_{\text{scalar}}  + y^Ty \big]$$
+$$\nabla_{\theta} \frac{1}{2} \big[ (X\theta)^T(X\theta) - 2\theta^T(X^Ty)  + y^Ty) \big]$$
+$$\nabla_{\theta} \frac{1}{2} \big[ \theta^T(X^TX)\theta - 2\theta^T(X^Ty)  + y^Ty) \big]$$
+$$\frac{1}{2} \big[ 2X^TX\theta - 2X^Ty \big] = 0$$
+
+$$\large X^TX\theta = X^Ty$$
+
+## Getting parameters at $\nabla = 0$
+
+Assuming $X^TX$ is invertible, we can get the parameters by using an inverse formula of the last equation:
+$$\large\theta = \underbracket{(X^TX)^{-1}X^T}_{\text{pseudo inverse}}y$$
+
+There is also other stuff that I won't cover here, yet.
+
+---
+
+## Probabilistic view
+
+We need to assume that each $y$ is generated linearly, but with additional Gaussian noise:
+$$\large y_i = \theta^Tx_i + \epsilon$$
+where
+$$\large\epsilon = \mathcal{N}(0,\sigma^2)$$
+-   We observe $(x_i,y_i)$ but we do not know $\theta$ and the noise ϵ.
+-   The noise changes from sample to sample but we know it is distributed as Gaussian.
 
 
+We can also express $f_0$ as a gaussian distribution centered on $\theta^{T} x_i$.
+We look at the conditional probability of $y$ given $x$ aka $p(y|x;θ)$:
 
+$$\large p\left(y_i \mid x_i ; \theta\right)=\frac{1}{\sqrt{2 \pi} \sigma}^{\huge-\frac{\left(y_i-\theta^{T} x_i\right)^{2}}{2 \sigma^{2}}}$$
 
+> [!hint] Formula Explanation
+> The formula of the Gaussian Distribution is:
+> $$\large P(x \mid \mu, \sigma^{2}) = \frac{1}{\sqrt{2\pi \sigma^{2}}}^{\huge- \frac{(x - \mu)^{2}}{2\sigma^{2}}}$$
+> 
+> This formula up there just uses $\theta^{T} x_i$ as the mean.
