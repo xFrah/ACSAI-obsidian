@@ -214,7 +214,7 @@ I'm talking about the likelihood, aka the height of the gaussian at $y_i$.
 > It is a measure of how well the gaussian fits our point.
 
 
-So, for each datapoint, one of these gaussians gets created. 
+So, for each datapoint, one of these gaussians gets created to explain the possible error of the y value.
 The more $y_i$ is close to $\theta^{T} x_i$(mean of gaussian), the more likelihood we have(higher on the gaussian).
 
 We have the maximum likelihood for a single point at $\theta^{T} x_i = y_i$.
@@ -227,7 +227,7 @@ Down below is the initial configuration:
 
 ![](../z_images/Pasted%20image%2020230521195632.png)
 
-We can also see that the error gaussians we have generated with the current parameters aren't really a great fit to the points, and so we get a low likelihood(green lines multiplied). We can do better.
+We can also see that the error gaussians we have generated with the current parameters aren't really a great fit to the points, and so we get a low likelihood(product of green lines). We can do better.
 
 ![](../z_images/Pasted%20image%2020230521195849.png)
 
