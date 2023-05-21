@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "782becbc10c36539",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD VERSIONS/Machine Learning/Linear Regression.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e805f3c04b37145b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
+                "file": "MD VERSIONS/Machine Learning/PCA.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Linear Regression.md",
+                "file": "MD VERSIONS/Machine Learning/PCA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Linear Regression.md",
+                "file": "MD VERSIONS/Machine Learning/PCA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Linear Regression.md"
+                "file": "MD VERSIONS/Machine Learning/PCA.md"
               }
             }
           }
@@ -163,8 +150,10 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "782becbc10c36539",
+  "active": "e805f3c04b37145b",
   "lastOpenFiles": [
+    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
+    "MD VERSIONS/Machine Learning/Linear Regression.md",
     "MD VERSIONS/z_images/Pasted image 20230521195849.png",
     "MD VERSIONS/z_images/Pasted image 20230521195632.png",
     "MD VERSIONS/z_images/Pasted image 20230521195612.png",
@@ -174,14 +163,11 @@
     "MD VERSIONS/z_images/Gauss1.png",
     "MD VERSIONS/z_images/Pasted image 20230520200300.png",
     "MD VERSIONS/z_images/Pasted image 20230520200248.png",
-    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
-    "MD VERSIONS/Machine Learning/Linear Regression.md",
     "MD VERSIONS/Statistics/Z-score.md",
     "MD VERSIONS/Machine Learning/Gaussian distribution.md",
     "MD VERSIONS/Linear Algebra/Rayleigh quotient.md",
     "MD VERSIONS/Linear Algebra/Symmetric matrix.md",
     "MD VERSIONS/z_images/Pasted image 20230519120711.png",
-    "MD VERSIONS/z_images/Pasted image 20230519120657.png",
     "MD VERSIONS/Machine Learning/Information Gain.md",
     "MD VERSIONS/Machine Learning/Decision trees.md",
     "MD VERSIONS/Artificial Intelligence/A-star.md",

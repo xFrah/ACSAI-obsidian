@@ -175,6 +175,9 @@ $$
 \end{bmatrix} Q^{-1},
 $$
 
+
+### 3. Apply U to the data
+
 ---
 
 ## Data decorrelation
