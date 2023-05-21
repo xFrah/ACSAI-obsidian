@@ -154,7 +154,7 @@ $$\large\mathcal{J}(\theta;x,y)= \frac{1}{2} \sum_{i=1}^{n}  (\underbracket{\the
 
 ## Finding critical points
 
-We set the gradient to zero and we solve it.
+We set the [gradient](Gradient.md) to zero and we solve it.
 
 $$\large\nabla_{\theta} \mathcal{J}(\theta;X,y)= \nabla_{\theta} \frac{1}{2} \big(X\theta - y \big)^T\big(X\theta - y \big) = 0$$
 
@@ -184,13 +184,63 @@ $$\large\epsilon = \mathcal{N}(0,\sigma^2)$$
 -   The noise changes from sample to sample but we know it is distributed as Gaussian.
 
 
-We can also express $f_0$ as a gaussian distribution centered on $\theta^{T} x_i$.
-We look at the conditional probability of $y$ given $x$ aka $p(y|x;θ)$:
-
+We can also express $f_0(x_i)$ as a [gaussian distribution](Gaussian%20distribution.md) centered on $\theta^{T} x_i$(because of the Gaussian distributed error).
 $$\large p\left(y_i \mid x_i ; \theta\right)=\frac{1}{\sqrt{2 \pi} \sigma}^{\huge-\frac{\left(y_i-\theta^{T} x_i\right)^{2}}{2 \sigma^{2}}}$$
 
 > [!hint] Formula Explanation
 > The formula of the Gaussian Distribution is:
 > $$\large P(x \mid \mu, \sigma^{2}) = \frac{1}{\sqrt{2\pi \sigma^{2}}}^{\huge- \frac{(x - \mu)^{2}}{2\sigma^{2}}}$$
 > 
-> This formula up there just uses $\theta^{T} x_i$ as the mean.
+> This formula up there just uses $\theta^{T} x_i$ as the [mean](../Statistics/Mean.md) and the gaussian lives in the $y$ space.
+> 
+> ![](../z_images/Pasted%20image%2020230520200248.png)
+> 
+
+---
+
+## Parameter estimation through [[Maximum Likelihood Principle|Maximum Likelihood]]
+
+The formula $\large \frac{1}{\sqrt{2 \pi} \sigma}^{\LARGE-\frac{\left(y_i-\theta^{T} x_i\right)^{2}}{2 \sigma^{2}}}$ creates a gaussian centered at $\theta^{T} x_i$ and returns the height of the gaussian at $y_i$.
+
+![](../z_images/Gauss1.png)
+*($\theta^T x_i = 2.7$ and $y_i = 0$, $L=0.08$)*
+
+This curve is useful because it gives us a measure of how much the gaussian fits the ground truth.
+I'm talking about the likelihood, aka the height of the gaussian at $y_i$.
+
+> [!tldr]
+> The likelihood of a y is the probability of getting the ground truth value, based on the gaussian that is centered on the prediction($θ^T x_i$).
+> 
+> It is a measure of how well the gaussian fits our point.
+
+
+So, for each datapoint, one of these gaussians gets created. 
+The more $y_i$ is close to $\theta^{T} x_i$(mean of gaussian), the more likelihood we have(higher on the gaussian).
+
+We have the maximum likelihood for a single point at $\theta^{T} x_i = y_i$.
+
+
+### Here is an example:
+
+We have 2 points in green and we want to get the best parameters for our regression line. 
+Down below is the initial configuration:
+
+![](../z_images/Pasted%20image%2020230521195632.png)
+
+We can also see that the error gaussians we have generated with the current parameters aren't really a great fit to the points, and so we get a low likelihood(green lines multiplied). We can do better.
+
+![](../z_images/Pasted%20image%2020230521195849.png)
+
+We can see that changing the parameters also changes the predictions and, obviously, the mean of the gaussians change.
+Now that the gaussians/predictions are more aligned with the ground truth we get more likelihood.
+
+And the product of the likelihoods will be much higher.
+
+
+> [!tldr]
+> By changing the parameters we change the predictions. Each prediction carries a gaussian(centered on the predicted $y$).
+> 
+> If we project the ground truth y onto the gaussian we get the likelihood of getting that $y_i$ given $x_i$ and parameters $\theta$
+> 
+> We want to move our gaussians by changing the parameters, so that the likelihoods will be higher.
+
