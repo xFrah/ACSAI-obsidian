@@ -1,4 +1,4 @@
-Imagine we want to take the derivative of a function like this:
+Imagine we take the derivative of a function like this:
 
 ![](../z_images/Pasted%20image%2020230522120629.png)
 
