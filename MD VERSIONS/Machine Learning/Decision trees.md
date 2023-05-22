@@ -4,7 +4,7 @@ $$\large H(P,Q) - H(P) = \underbracket{-\sum_{x \in X} p(x)\log q(x)}_{\text{cro
 
 In order to increase this divergence, we have got to minimize entropy?
 
-Like in K-means we proceed with a **greedy approach** by minimizing the entropy of the entire tree minPH(P)
+Like in [K-means](K-means.md) we proceed with a **greedy approach** by minimizing the entropy of the entire tree minPH(P)
 
 ---
 
@@ -16,7 +16,7 @@ Like in K-means we proceed with a **greedy approach** by minimizing the entrop
     2.  **[Greedy Step]** Choose:
 	    A) a dimension among axes 
 	    B) **BEST** splitting value that minimize the Impurity function on the chosen axes
-	    When Impurity is Entropy we **minimize the entropy** also known as **maximizing the Information Gain.**
+	    When Impurity is Entropy we **minimize the entropy** also known as **maximizing the [Information Gain](Information%20Gain.md).**
 	    
     3.  Once A) and B) are chosen save them as "parameters" of the model
 	    
@@ -45,7 +45,7 @@ Like in K-means we proceed with a **greedy approach** by minimizing the entrop
 | $x_5$ | Yes | Short | Yes | 0 (no) |
 
 1. Using the training data, construct **a decision tree** for the **binary classification** of customers into ‘Satisfied (1)’ or ‘Unsatisfied (0)’. 
-2. Use the **Information Gain (IG)** as the decision criterion to select which attribute to split on. Show your calculations for the IG for all possible attributes for every split.
+2. Use the **[Information Gain](Information%20Gain.md) (IG)** as the decision criterion to select which attribute to split on. Show your calculations for the IG for all possible attributes for every split.
 
 
 ### How to approach this
@@ -106,7 +106,7 @@ Split on **Overcooked pasta** and compute the new Entropy. We have two cases:
 	![](../z_images/Pasted%20image%2020230519113651.png)
 
 
-Information Gain for split on $\texttt{Overcooked pasta}$:
+[Information Gain](Information%20Gain.md) for split on $\texttt{Overcooked pasta}$:
 $$IG(Y~|~\texttt{Ov. pasta}) \doteq \frac{5}{5}H(S) - \Big[ \frac{2}{5}H(y~|~\texttt{Ov. pasta==No}) + \frac{3}{5}H(y~|~\texttt{Ov. pasta==Yes}) \Big]$$
 
 

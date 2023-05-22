@@ -191,7 +191,7 @@ $$\large p\left(y_i \mid x_i ; \theta\right)=\frac{1}{\sqrt{2 \pi} \sigma}^{\hug
 > The formula of the Gaussian Distribution is:
 > $$\large P(x \mid \mu, \sigma^{2}) = \frac{1}{\sqrt{2\pi \sigma^{2}}}^{\huge- \frac{(x - \mu)^{2}}{2\sigma^{2}}}$$
 > 
-> This formula up there just uses $\theta^{T} x_i$ as the [mean](../Statistics/Mean.md) and the gaussian lives in the $y$ space.
+> This formula up there just uses $\theta^{T} x_i$ as the mean and the gaussian lives in the $y$ space.
 > 
 > ![](../z_images/Pasted%20image%2020230520200248.png)
 > 

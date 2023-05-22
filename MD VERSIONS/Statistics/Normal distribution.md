@@ -1,10 +1,10 @@
 It's a [probability distribution](Probability%20distribution.md) that is symmetric around the mean.
-It shows that data near the [mean](../Statistics/Mean.md) occur more frequently than data far from the mean.
+It shows that data near the mean occur more frequently than data far from the mean.
 
 It is also called the [Gaussian distribution](../Machine%20Learning/Gaussian%20distribution.md) or bell curve.
 
 Properties:
-- The [mean](../Statistics/Mean.md) is always zero and the [standard deviation](../Statistics/Standard%20Deviation.md) is 1.
+- The mean is always zero and the [standard deviation](../Statistics/Standard%20Deviation.md) is 1.
 - It is symmetrical.
 - Its mean, [median](../Statistics/Median.md) and [mode](../Statistics/Mode.md) are all equal to one another.
 - The width of the mean is described by the standard distribution:

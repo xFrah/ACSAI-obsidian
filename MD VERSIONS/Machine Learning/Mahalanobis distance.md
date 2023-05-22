@@ -1,4 +1,4 @@
-It measures how many standard deviations away x is from the [mean](../Statistics/Mean.md) of $\mathcal{N}(\mu,\Sigma)$.
+It measures how many standard deviations away x is from the mean of $\mathcal{N}(\mu,\Sigma)$.
 Alternatively, it measures how far away a point is from a distribution/cluster(and not between two distinct points) like this:
 
 ![](../z_images/Pasted%20image%2020230420182122.png)

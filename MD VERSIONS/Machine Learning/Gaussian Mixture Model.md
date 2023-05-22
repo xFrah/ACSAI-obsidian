@@ -2,7 +2,7 @@ A Gaussian Mixture is a function composed by several [[Gaussian distribution|gau
 If we have k clusters in our dataset, we will have k gaussians.
 
 Each gaussian k in the mixture has those 3 parameters:
-- $\mu$ - the [mean](../Statistics/Mean.md)/center.
+- $\mu$ - the mean/center.
 - $\Sigma$ - the width/slope/shape/[covariance](../Statistics/Covariance.md) in all the dimensions.
 - $\pi_k$ - a mixing probability defining how big the gaussian should be in the mixture.
 

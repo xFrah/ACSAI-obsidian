@@ -1,6 +1,6 @@
 ## Simple regression equation
 
-A regression equation describes how the mean value of a Y-variable relates to specific values of the X-variable:
+A [regression](Regression.md) equation describes how the mean value of a Y-variable relates to specific values of the X-variable:
 
 $$\large E[y_i] = \beta_0 + \beta_1\cdot x_i$$
 $$\text{or}$$
@@ -50,11 +50,11 @@ Where:
 
 
 > [!hint]
-> The MSE is the sample variance of the errors and estimates $\sigma^2$:
+> The MSE is the sample [variance](Variance.md) of the errors and estimates $\sigma^2$:
 > 
 > $$\large E\{\text{MSE}\} = σ^2$$
 > 
-> Of course, then the standard deviation of errors is computed as:
+> Of course, then the [standard deviation](Standard%20Deviation.md) of errors is computed as:
 > 
 > $$\large s=\sqrt{\text{MSE}}$$
 > 

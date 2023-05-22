@@ -12,7 +12,7 @@ Where:
 
 Standard deviation is calculated as follows:
 
-1.  Calculate the [[Mean]] of all data points.
+1.  Calculate the mean of all data points.
 2.  Calculate the [[Variance]] for each data point.
 3.  Square the variance of each data point <font color="#7f7f7f">(from Step 2)</font>.
 4.  Sum of squared variance values <font color="#7f7f7f">(from Step 3)</font>.

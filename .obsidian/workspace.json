@@ -4,45 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2e43ea5f0180572c",
+        "id": "2bd2d6e6270b9381",
         "type": "tabs",
         "children": [
           {
-            "id": "e805f3c04b37145b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD VERSIONS/Machine Learning/Linear Regression.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4681986dce8d6272",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD VERSIONS/Calculus/Partial derivatives.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce268ee0f8c2cc9e",
+            "id": "833a456c0b94fadd",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,12 +121,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,38 +139,38 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "3fbe08ad2a0b5f0f",
+  "active": "833a456c0b94fadd",
   "lastOpenFiles": [
-    "MD VERSIONS/Calculus/Gradient.md",
+    "MD VERSIONS/Probability/Probability distribution.md",
+    "MD VERSIONS/Statistics/Covariance.md",
+    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
+    "MD VERSIONS/Statistics/Z-score.md",
+    "MD VERSIONS/Machine Learning/Expectation Maximization.md",
+    "MD VERSIONS/Statistics/Normal distribution.md",
+    "MD VERSIONS/Machine Learning/PCA.md",
+    "MD VERSIONS/Statistics/Empirical rule.md",
+    "MD VERSIONS/Machine Learning/Gaussian distribution.md",
+    "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md",
+    "MD VERSIONS/Statistics/Variance.md",
+    "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
+    "MD VERSIONS/Statistics/Standard Deviation.md",
+    "MD VERSIONS/Statistics/Significance Level.md",
+    "MD VERSIONS/Statistics/Advanced Regression.md",
     "MD VERSIONS/Machine Learning/Linear Regression.md",
-    "MD VERSIONS/Calculus/Partial derivatives.md",
+    "MD VERSIONS/Statistics/Regression.md",
+    "MD VERSIONS/Statistics/Confidence interval.md",
+    "Mean.md",
+    "MD VERSIONS/Statistics/Expected value.md",
+    "MD VERSIONS/Probability/Binomial distribution.md",
+    "MD VERSIONS/Statistics/Mean.md",
+    "MD VERSIONS/Statistics/Box plot.md",
+    "MD VERSIONS/Statistics/Variable types.md",
+    "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
+    "MD VERSIONS/Artificial Intelligence/Graph.md",
     "MD VERSIONS/z_images/Pasted image 20230522121259.png",
     "MD VERSIONS/z_images/Pasted image 20230522120629.png",
-    "MD VERSIONS/Calculus/Hessian.md",
     "MD VERSIONS/Calculus",
     "MD VERSIONS/z_images/Pasted image 20230522115650.png",
-    "MD VERSIONS/Machine Learning/Covariance matrix.md",
-    "MD VERSIONS/Statistics/Estimation.md",
-    "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
-    "MD VERSIONS/Statistics/Standard Deviation.md",
-    "MD VERSIONS/Probability/Random variable.md",
-    "MD VERSIONS/Probability/Finding probabilities.md",
-    "MD VERSIONS/Probability/Event.md",
-    "MD VERSIONS/Probability/Conditional Probability.md",
-    "MD VERSIONS/Probability/Binomial distribution.md",
-    "MD VERSIONS/Probability/Probability distribution.md",
-    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
-    "MD VERSIONS/Machine Learning/Cross-validation.md",
-    "MD VERSIONS/AI-LAB/Kernel.md",
-    "MD VERSIONS/AI-LAB/Project.md",
-    "MD VERSIONS/Linear Algebra/Quadratic form.md",
-    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
-    "MD VERSIONS/Statistics/Association.md",
-    "MD VERSIONS/Statistics/Box plot.md",
-    "MD VERSIONS/Statistics/Histogram.md",
-    "MD VERSIONS/Statistics/Sampling distributions.md",
-    "MD VERSIONS/Statistics/Samples vs Population.md",
-    "MD VERSIONS/Linear Algebra/Hyperplanes.md",
     "MD VERSIONS/z_images/Pasted image 20230521195849.png",
     "MD VERSIONS/z_images/Pasted image 20230521195632.png",
     "MD VERSIONS/z_images/Pasted image 20230521195612.png",

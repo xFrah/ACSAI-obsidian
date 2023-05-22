@@ -63,5 +63,5 @@ $$\large r_{x,y} = \frac{ cov(x,y) }{ std(x) \, std(y) }$$
 $$ \large std = \sqrt{\sum(x_i - \mu_x)^2}$$
 - $\large cov$ is the [covariance](Covariance.md):
 $$\large cov=\sum(X - \mu_X)(Y - \mu_Y)$$
-- $\large \mu_x$ is the [mean](Mean.md) of x
+- $\large \mu_x$ is the mean of x
 - $\large \mu_y$ is the mean of y

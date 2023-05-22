@@ -83,7 +83,7 @@ Suppose we have a point cloud X:
 First step, we standardize the data :
 $$\large X' = \frac{X-\mu}{\sigma}$$
 
-We just shifted the [mean](../Statistics/Mean.md) to 0 and rescaled all axis, so that the [standard deviation](../Statistics/Standard%20Deviation.md) is 1.
+We just shifted the mean to 0 and rescaled all axis, so that the [standard deviation](../Statistics/Standard%20Deviation.md) is 1.
 
 
 ```python

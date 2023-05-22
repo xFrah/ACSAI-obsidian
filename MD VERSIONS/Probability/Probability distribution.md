@@ -20,7 +20,7 @@ We can compute [variance](../Statistics/Variance.md) and [standard deviation](..
 
 ## Distributions for discrete random variables:
 
-#### [Mean](../Statistics/Mean.md) of a probability distribution
+#### Mean of a probability distribution
 
 Can be computed by:
 $$\large\mu=\sum x·p(x)$$
@@ -50,7 +50,7 @@ It's probability distribution is specified by a density curve and the probabilit
 
 ## Probabilities for bell-shaped distributions(symmetrical)
 
-- The [mean](../Statistics/Mean.md), [median](../Statistics/Median.md) and [mode](../Statistics/Mode.md) are equal.
+- The mean, [median](../Statistics/Median.md) and [mode](../Statistics/Mode.md) are equal.
 - Location is determined by the mean $\large \mu$.
 - Spread is determined by the standard deviation $\large \sigma$.
 - The [random variable](Random%20variable.md) has an infinite theoretical range, from $-\infty$ to $+\infty$.

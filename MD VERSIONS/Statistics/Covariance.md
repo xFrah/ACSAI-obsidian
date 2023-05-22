@@ -7,7 +7,7 @@ $$\LARGE\operatorname{cov}(X,Y) = \sum(X - \mu_X)(Y - \mu_Y)$$
 Where:
 -   **Xi** – the values of the X-variable
 -   **Yj** – the values of the Y-variable
--   **μX** – the [[Mean]] (average) of the X-variable
+-   **μX** – the mean (average) of the X-variable
 -   **μY** – the mean (average) of the Y-variable
 -   **n** – the number of data points
 

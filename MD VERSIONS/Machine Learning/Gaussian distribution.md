@@ -1,5 +1,5 @@
 The [normal distribution](../Statistics/Normal%20distribution.md), also known as Gaussian distribution, is defined by two parameters:
-- [mean](../Statistics/Mean.md) $\large \mu$, which is [expected value](../Statistics/Expected%20value.md) of the distribution 
+- Mean $\large \mu$, which is [expected value](../Statistics/Expected%20value.md) of the distribution 
 - [standard deviation](../Statistics/Standard%20Deviation.md) $\large \sigma$, which corresponds to the expected squared deviation from the mean.
 
 For every value x, the density equals to:
@@ -38,7 +38,7 @@ $$\large f(x) = \frac{1}{\sqrt{(2\pi)^k \det\Sigma}}^{\huge-\frac{1}{2}(x - \mu)
 
 Basically we have a [quadratic form](../Linear%20Algebra/Quadratic%20form.md) in the exponent
 Where:
-- $\large \mu$ is the [mean](../Statistics/Mean.md)
+- $\large \mu$ is the mean
 - $\large \Sigma$ is the [covariance matrix](Covariance%20matrix.md).
 - $\large k$ is the dimensions
 

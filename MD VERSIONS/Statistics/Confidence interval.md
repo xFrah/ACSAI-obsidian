@@ -19,7 +19,7 @@ In order to find the confidence interval, we must find the margin of error first
 $$\large \text{Margin of error} = z^* \cdot \text{Standard Error}$$
 
 > [!hint] Formula Explanation
-> For each C% there is a specific z-score, that gives you the bounds of the interval.
+> For each C% there is a specific [z-score](Z-score.md), that gives you the bounds of the interval.
 > 
 > The margin of error is just the un-normalized bound, because we are converting the z-score to a real value.
 
@@ -31,7 +31,7 @@ Ex. **When a General Social Survey asked 1326 subjects, "Do you believe in scien
 
 **Construct the 95% confidence interval.**
 
-The sample proportion is equal to 0.82, now we just need the standard error in order to calculate the margin of error.
+The sample proportion is equal to 0.82, now we just need the [standard error](Standard%20Error.md) in order to calculate the margin of error.
 
 $$\large \text{Standard error}=\sqrt{\frac{0.82 \times 0.18}{1326}} = 0.011$$
 
@@ -55,7 +55,7 @@ $$\large CI_{95\%} = 0.82 ± 0.0215= [0,7985, 0,8415]$$
 > If sample size increases, the margin of error decreases, and thus the CI becomes narrower.
 
 > [!hint]
-> ### Describe the effect of standard deviation, sample size and α on the confidence interval.
+> ### Describe the effect of [standard deviation](Standard%20Deviation.md), sample size and α on the confidence interval.
 >  - lower standard deviation → lower margin of error → narrower CI 
 >  - higher standard deviation → higher margin of error → wider CI 
 >  - lower sample size → higher margin of error → wider CI 

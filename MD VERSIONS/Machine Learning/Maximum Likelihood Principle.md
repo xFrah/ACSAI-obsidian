@@ -58,7 +58,7 @@ In order to get the maximum likelihood parameters for multiple data points, we m
 
 ## After endless mathematical proofs... the end
 
-There is a whole ass proof to justify that the maximum likelihood estimate is equal to the [mean](../Statistics/Mean.md) of the measurements. The proof is covered in the link below:
+There is a whole ass proof to justify that the maximum likelihood estimate is equal to the mean of the measurements. The proof is covered in the link below:
 
 ![](../z_images/Pasted%20image%2020230415124246.png)
 

@@ -1,4 +1,4 @@
-It epresents the number of [[Standard Deviation|standard deviations]] an observation is from the [mean](Mean.md).
+It epresents the number of [[Standard Deviation|standard deviations]] an observation is from the mean.
 
 $$\huge z=\frac{x-\mu}{\sigma}$$
 

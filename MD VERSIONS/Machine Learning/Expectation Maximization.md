@@ -9,7 +9,7 @@ This is pretty easy if we already know which point belongs to which [[Gaussian d
 ![](../z_images/Pasted%20image%2020230418142204.png)
 
 
-We can just compute the [mean](../Statistics/Mean.md) and [[Standard Deviation|standard deviations]] from the points, resulting in this GMM:
+We can just compute the mean and [[Standard Deviation|standard deviations]] from the points, resulting in this GMM:
 
 ![](../z_images/Pasted%20image%2020230418142233.png)
 

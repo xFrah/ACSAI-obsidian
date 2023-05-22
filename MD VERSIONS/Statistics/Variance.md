@@ -1,4 +1,4 @@
-The average of the squared deviations from the [mean](Mean.md)., obtained with:
+The average of the squared deviations from the mean, obtained with:
 
 $$\Large \sigma^2 = \frac{1}{n} \sum_{i=1}^{n}(x_i-\mu)^2 $$
 

@@ -31,7 +31,7 @@ The shape of the distribution depends on n and p:
 ```
 
 
-## [Mean](../Statistics/Mean.md) and [standard deviation](../Statistics/Standard%20Deviation.md)
+## Mean and [standard deviation](../Statistics/Standard%20Deviation.md)
 
 The formulas are:
 $$\large \mu = \sum(x) = np$$
