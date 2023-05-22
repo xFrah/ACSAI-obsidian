@@ -154,7 +154,7 @@ $$\large\mathcal{J}(\theta;x,y)= \frac{1}{2} \sum_{i=1}^{n}  (\underbracket{\the
 
 ## Finding critical points
 
-We set the [gradient](Gradient.md) to zero and we solve it.
+We set the [gradient](../Calculus/Gradient.md) to zero and we solve it.
 
 $$\large\nabla_{\theta} \mathcal{J}(\theta;X,y)= \nabla_{\theta} \frac{1}{2} \big(X\theta - y \big)^T\big(X\theta - y \big) = 0$$
 
@@ -251,7 +251,7 @@ In the end, the total likelihood is the probability that all that individual gro
 
 ## Gradient Descent
 
-If we cannot find the best possible parameters by using a formula or "closed form solution", you may need to use [gradient](Gradient.md) descent.
+If we cannot find the best possible parameters by using a formula or "closed form solution", you may need to use [gradient](../Calculus/Gradient.md) descent.
 
 The function $\mathcal{J}(\theta;x,y)$ is a **convex quadratic function**. 
 

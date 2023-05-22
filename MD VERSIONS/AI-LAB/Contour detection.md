@@ -41,7 +41,7 @@ $$\large G_y=\begin{bmatrix}
 +1 & +2 & +1
 \end{bmatrix}*I$$
 
-3. We compute an approximation of the [gradient](../Machine%20Learning/Gradient.md) in that point by combining both results above is computed:
+3. We compute an approximation of the [gradient](../Calculus/Gradient.md) in that point by combining both results above is computed:
 $$\large G=\sqrt{G^{2}_x + G^{2}_y}$$
 or just
 $$\large G = |G_x|+|G_y|$$
