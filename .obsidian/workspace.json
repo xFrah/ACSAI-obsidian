@@ -11,11 +11,30 @@
             "id": "e805f3c04b37145b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Linear Regression.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4681986dce8d6272",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Calculus/Partial derivatives.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -81,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MD VERSIONS/Calculus/Partial derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "MD VERSIONS/Calculus/Partial derivatives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "MD VERSIONS/Calculus/Partial derivatives.md"
+              }
             }
           }
         ],
@@ -140,8 +164,16 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "e805f3c04b37145b",
+  "active": "62c9edd83bcceed7",
   "lastOpenFiles": [
+    "MD VERSIONS/z_images/Pasted image 20230522121259.png",
+    "MD VERSIONS/z_images/Pasted image 20230522120629.png",
+    "MD VERSIONS/Calculus/Partial derivatives.md",
+    "MD VERSIONS/Machine Learning/Hessian.md",
+    "MD VERSIONS/Calculus",
+    "MD VERSIONS/Machine Learning/Linear Regression.md",
+    "MD VERSIONS/z_images/Pasted image 20230522115650.png",
+    "MD VERSIONS/Machine Learning/Covariance matrix.md",
     "MD VERSIONS/Statistics/Estimation.md",
     "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
     "MD VERSIONS/Statistics/Standard Deviation.md",
@@ -163,11 +195,6 @@
     "MD VERSIONS/Statistics/Sampling distributions.md",
     "MD VERSIONS/Statistics/Samples vs Population.md",
     "MD VERSIONS/Linear Algebra/Hyperplanes.md",
-    "MD VERSIONS/Statistics/Significance Level.md",
-    "MD VERSIONS/Machine Learning/Cosine Similarity.md",
-    "MD VERSIONS/Machine Learning/PCA.md",
-    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
-    "MD VERSIONS/Machine Learning/Linear Regression.md",
     "MD VERSIONS/z_images/Pasted image 20230521195849.png",
     "MD VERSIONS/z_images/Pasted image 20230521195632.png",
     "MD VERSIONS/z_images/Pasted image 20230521195612.png",
@@ -176,8 +203,6 @@
     "MD VERSIONS/z_images/Gauss2.png",
     "MD VERSIONS/z_images/Gauss1.png",
     "MD VERSIONS/z_images/Pasted image 20230520200300.png",
-    "MD VERSIONS/z_images/Pasted image 20230520200248.png",
-    "MD VERSIONS/z_images/Pasted image 20230519120711.png",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/DFS.html",
@@ -187,7 +212,6 @@
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Environment.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/BFS.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Best-first search.html",
     "Machine Learning/Untitled.canvas"
   ]
 }

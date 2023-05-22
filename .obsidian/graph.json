@@ -48,6 +48,13 @@
         "a": 1,
         "rgb": 5419488
       }
+    },
+    {
+      "query": "path:\"MD VERSIONS/Calculus\"",
+      "color": {
+        "a": 1,
+        "rgb": 10682368
+      }
     }
   ],
   "collapse-display": true,
@@ -55,7 +62,7 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,

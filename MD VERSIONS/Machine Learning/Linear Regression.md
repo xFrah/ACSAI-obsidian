@@ -246,3 +246,18 @@ In the end, the total likelihood is the probability that all that individual gro
 > 
 > We want to move our gaussians by changing the parameters, so that the likelihoods will be higher.
 
+
+---
+
+## Gradient Descent
+
+If we cannot find the best possible parameters by using a formula or "closed form solution", you may need to use [gradient](Gradient.md) descent.
+
+The function $\mathcal{J}(\theta;x,y)$ is a **convex quadratic function**. 
+
+![](../z_images/Pasted%20image%2020230522115650.png)
+
+The Hessian of $\mathcal{J}(\theta;x,y)$) at any vector $θ$ is the positive definite matrix $X^TX$. Since $\mathcal{J}$ is lower bounded and grows at infinity, there is a minimum.
+
+-   if $\operatorname{rank}({X}) =\min\{d,n\}$ then $X^TX$ is strictly positive definite. In this case the error function $\mathcal{J}$ is strictly convex, so the **minimum is unique (Ball Shape)**
+-   if $\operatorname{rank}({X}) < \min\{d,n\}$ then then $\mathcal{J}$ is not strictly convex and the minimum
