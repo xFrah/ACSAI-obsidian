@@ -11,8 +11,13 @@
             "id": "833a456c0b94fadd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,10 +125,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -141,6 +151,13 @@
   },
   "active": "833a456c0b94fadd",
   "lastOpenFiles": [
+    "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
+    "MD VERSIONS/Machine Learning/Gradient.md",
+    "MD VERSIONS/Machine Learning/Gradient Descent.md",
+    "MD VERSIONS/Machine Learning/Linear Regression.md",
+    "MD VERSIONS/Calculus/Jacobian.md",
+    "MD VERSIONS/Calculus/Hessian.md",
+    "MD VERSIONS/Statistics/Sampling distributions.md",
     "MD VERSIONS/Probability/Probability distribution.md",
     "MD VERSIONS/Statistics/Covariance.md",
     "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
@@ -156,17 +173,10 @@
     "MD VERSIONS/Statistics/Standard Deviation.md",
     "MD VERSIONS/Statistics/Significance Level.md",
     "MD VERSIONS/Statistics/Advanced Regression.md",
-    "MD VERSIONS/Machine Learning/Linear Regression.md",
     "MD VERSIONS/Statistics/Regression.md",
     "MD VERSIONS/Statistics/Confidence interval.md",
     "Mean.md",
     "MD VERSIONS/Statistics/Expected value.md",
-    "MD VERSIONS/Probability/Binomial distribution.md",
-    "MD VERSIONS/Statistics/Mean.md",
-    "MD VERSIONS/Statistics/Box plot.md",
-    "MD VERSIONS/Statistics/Variable types.md",
-    "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
-    "MD VERSIONS/Artificial Intelligence/Graph.md",
     "MD VERSIONS/z_images/Pasted image 20230522121259.png",
     "MD VERSIONS/z_images/Pasted image 20230522120629.png",
     "MD VERSIONS/Calculus",

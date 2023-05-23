@@ -8,45 +8,45 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Machine Learning\"",
+      "query": "path:\"MD VERSIONS/Linear Algebra\"",
       "color": {
         "a": 1,
-        "rgb": 15767552
+        "rgb": 14701138
       }
     },
     {
-      "query": "path:Statistics",
+      "query": "path:\"MD VERSIONS/Machine Learning\"",
       "color": {
         "a": 1,
-        "rgb": 2062314
+        "rgb": 14725458
       }
     },
     {
-      "query": "path:\"Artificial Intelligence\"",
+      "query": "path:\"MD VERSIONS/Artificial Intelligence\"",
       "color": {
         "a": 1,
-        "rgb": 1943297
+        "rgb": 5431378
       }
     },
     {
-      "query": "path:\"AI-LAB\"",
+      "query": "path:\"MD VERSIONS/AI-LAB\"",
       "color": {
         "a": 1,
-        "rgb": 12779755
+        "rgb": 5431473
       }
     },
     {
-      "query": "path:\"Linear Algebra\"",
-      "color": {
-        "a": 1,
-        "rgb": 16728642
-      }
-    },
-    {
-      "query": "path:Probability",
+      "query": "path:\"MD VERSIONS/Probability\"",
       "color": {
         "a": 1,
         "rgb": 5419488
+      }
+    },
+    {
+      "query": "path:\"MD VERSIONS/Statistics\"",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
       }
     },
     {
@@ -57,7 +57,7 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -67,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7654582110819186,
+  "scale": 0.8765722227467282,
   "close": true
 }

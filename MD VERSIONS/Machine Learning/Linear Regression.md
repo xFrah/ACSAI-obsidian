@@ -154,7 +154,7 @@ $$\large\mathcal{J}(\theta;x,y)= \frac{1}{2} \sum_{i=1}^{n}  (\underbracket{\the
 
 ## Finding critical points
 
-We set the [gradient](../Calculus/Gradient.md) to zero and we solve it.
+We set the [gradient](Gradient.md) to zero and we solve it.
 
 $$\large\nabla_{\theta} \mathcal{J}(\theta;X,y)= \nabla_{\theta} \frac{1}{2} \big(X\theta - y \big)^T\big(X\theta - y \big) = 0$$
 
@@ -246,18 +246,23 @@ In the end, the total likelihood is the probability that all that individual gro
 > 
 > We want to move our gaussians by changing the parameters, so that the likelihoods will be higher.
 
-
 ---
 
-## Gradient Descent
+## Gradient descent
 
-If we cannot find the best possible parameters by using a formula or "closed form solution", you may need to use [gradient](../Calculus/Gradient.md) descent.
+We can also get the parameters through [gradient descent](Gradient%20Descent.md).
 
-The function $\mathcal{J}(\theta;x,y)$ is a **convex quadratic function**. 
 
-![](../z_images/Pasted%20image%2020230522115650.png)
+### 1. Initialization
 
-The Hessian of $\mathcal{J}(\theta;x,y)$) at any vector $θ$ is the positive definite matrix $X^TX$. Since $\mathcal{J}$ is lower bounded and grows at infinity, there is a minimum.
+$$\large\theta \sim \texttt{random}~~\text{or zero}$$
 
--   if $\operatorname{rank}({X}) =\min\{d,n\}$ then $X^TX$ is strictly positive definite. In this case the error function $\mathcal{J}$ is strictly convex, so the **minimum is unique (Ball Shape)**
--   if $\operatorname{rank}({X}) < \min\{d,n\}$ then then $\mathcal{J}$ is not strictly convex and the minimum
+
+### 2. Repeat until convergence
+
+$$\large \theta \leftarrow  \theta -\gamma \nabla_{\theta}\mathcal{J}(\theta;x,y)$$
+$$\large\theta \leftarrow  \theta -\gamma \nabla_{\theta}  \frac{1}{2} \sum_{i=1}^n \big(\theta^Tx - y \big)^2$$
+$$\large\theta \leftarrow  \theta -\gamma  \frac{1}{2} \sum_{i=1}^n \big(2\theta^Txx - 2yx \big)$$
+$$\large\theta \leftarrow  \theta -\gamma \sum_{i=1}^n \big(\theta^Tx_i- y_i\big)x_i$$
+
+I don't really know what's happening here.
