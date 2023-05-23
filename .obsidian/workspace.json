@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2bd2d6e6270b9381",
+        "id": "e3b40c2aa5fef560",
         "type": "tabs",
         "children": [
           {
-            "id": "833a456c0b94fadd",
+            "id": "7eeaca8e1516a471",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,13 +118,10 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -140,8 +130,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
       "templates:Insert template": false,
+      "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "switcher:Open quick switcher": false,
       "random-note:Open random note": false,
@@ -149,8 +139,11 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "833a456c0b94fadd",
+  "active": "f501308563189c00",
   "lastOpenFiles": [
+    "MD VERSIONS/Machine Learning/Expectation Maximization.md",
+    "MD VERSIONS/z_images/Pasted image 20230418142057.png",
+    "MD VERSIONS/z_images/Pasted image 20230429135826.png",
     "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
     "MD VERSIONS/Machine Learning/Gradient.md",
     "MD VERSIONS/Machine Learning/Gradient Descent.md",
@@ -162,7 +155,6 @@
     "MD VERSIONS/Statistics/Covariance.md",
     "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
     "MD VERSIONS/Statistics/Z-score.md",
-    "MD VERSIONS/Machine Learning/Expectation Maximization.md",
     "MD VERSIONS/Statistics/Normal distribution.md",
     "MD VERSIONS/Machine Learning/PCA.md",
     "MD VERSIONS/Statistics/Empirical rule.md",
@@ -176,7 +168,6 @@
     "MD VERSIONS/Statistics/Regression.md",
     "MD VERSIONS/Statistics/Confidence interval.md",
     "Mean.md",
-    "MD VERSIONS/Statistics/Expected value.md",
     "MD VERSIONS/z_images/Pasted image 20230522121259.png",
     "MD VERSIONS/z_images/Pasted image 20230522120629.png",
     "MD VERSIONS/Calculus",
@@ -186,8 +177,6 @@
     "MD VERSIONS/z_images/Pasted image 20230521195612.png",
     "MD VERSIONS/z_images/Pasted image 20230521195546.png",
     "MD VERSIONS/z_images/Gauss3.png",
-    "MD VERSIONS/z_images/Gauss2.png",
-    "MD VERSIONS/z_images/Gauss1.png",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/DFS.html",
