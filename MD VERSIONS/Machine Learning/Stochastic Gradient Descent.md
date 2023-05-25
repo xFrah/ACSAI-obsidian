@@ -1,6 +1,19 @@
-it was a cold winter morning when i first saw my father hit my mother, the cold had always bothered him. falling down due to the snow was a tipping point for him. the first punch was enough to cause some blood to come from her mouth.
-Then the referee came out, he started pegging my father.
-Then my mother took out the pope, who then of course raped my little brother, because he's black and because of stochastic gradient descent. (i think)
+While classic [Gradient Descent](Gradient%20Descent.md) has to iterate through all the datapoints just to update the parameters once, Stochastic [Gradient](Gradient.md) Descent(SGD) will process only a small subset of the dataset and then update the parameters.
+
+> [!hint] Difference between GD and SGD
+> ### GD
+> $$\large\theta \leftarrow  \theta -\gamma \sum_{i=1}^n \big(\underbracket{\theta^Tx_i- y_i\big)}_{\text{scalar}}\underbracket{x_i}_{\mathbb{R}^d}$$
+> ![](../z_images/Pasted%20image%2020230525171924.png)
+> ### SGD 
+> $$\large\theta \leftarrow  \theta -\gamma  \big(\underbracket{\theta^Tx_i- y_i\big)}_{\text{scalar}}\underbrace{x_i}_{\mathbb{R}^d} \qquad \text{where}~ i\sim \mathcal{U}(0,n)|$$
+> ![](../z_images/Pasted%20image%2020230525172014.png)
+
+
+So the idea is to **update the parameters for each single training sample selected randomly:**
+
+$$\theta \leftarrow  \theta -\gamma  \big(\underbracket{\theta^Tx_i- y_i\big)}_{\text{scalar}}\underbracket{x_i}_{\mathbb{R}^d} \qquad \text{where} \qquad  i\sim \mathcal{U}(0,n)$$
+
+![](../z_images/Pasted%20image%2020230525165800.png)
 
 
 > [!seealso] Useful links

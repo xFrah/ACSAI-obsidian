@@ -14,8 +14,17 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "fc45433dfd535715",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,8 +139,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templates:Insert template": false,
       "graph:Open graph view": false,
+      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "switcher:Open quick switcher": false,
       "random-note:Open random note": false,
@@ -139,21 +148,34 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "f501308563189c00",
+  "active": "fc45433dfd535715",
   "lastOpenFiles": [
+    "MD VERSIONS/Machine Learning/Gradient Descent.md",
+    "MD VERSIONS/Machine Learning/Basis Function.md",
+    "MD VERSIONS/Machine Learning/Polynomial Regression.md",
+    "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
+    "MD VERSIONS/z_images/Pasted image 20230525172345.png",
+    "MD VERSIONS/z_images/Pasted image 20230525172014.png",
+    "MD VERSIONS/z_images/Pasted image 20230525171924.png",
+    "MD VERSIONS/z_images/Pasted image 20230525165800.png",
+    "MD VERSIONS/z_images/Pasted image 20230525165755.png",
+    "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
+    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
+    "MD VERSIONS/Machine Learning/Joint distribution.md",
+    "MD VERSIONS/Machine Learning/K-means.md",
+    "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
+    "MD VERSIONS/Machine Learning/Kullback-Leibler divergence.md",
+    "MD VERSIONS/Machine Learning/Linear Regression.md",
+    "MD VERSIONS/Machine Learning/Neural Networks.md",
+    "MD VERSIONS/Machine Learning/Hessian.md",
     "MD VERSIONS/Machine Learning/Expectation Maximization.md",
     "MD VERSIONS/z_images/Pasted image 20230418142057.png",
     "MD VERSIONS/z_images/Pasted image 20230429135826.png",
-    "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
     "MD VERSIONS/Machine Learning/Gradient.md",
-    "MD VERSIONS/Machine Learning/Gradient Descent.md",
-    "MD VERSIONS/Machine Learning/Linear Regression.md",
-    "MD VERSIONS/Calculus/Jacobian.md",
-    "MD VERSIONS/Calculus/Hessian.md",
+    "MD VERSIONS/Machine Learning/Jacobian.md",
     "MD VERSIONS/Statistics/Sampling distributions.md",
     "MD VERSIONS/Probability/Probability distribution.md",
     "MD VERSIONS/Statistics/Covariance.md",
-    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
     "MD VERSIONS/Statistics/Z-score.md",
     "MD VERSIONS/Statistics/Normal distribution.md",
     "MD VERSIONS/Machine Learning/PCA.md",
@@ -161,22 +183,10 @@
     "MD VERSIONS/Machine Learning/Gaussian distribution.md",
     "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md",
     "MD VERSIONS/Statistics/Variance.md",
-    "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
-    "MD VERSIONS/Statistics/Standard Deviation.md",
-    "MD VERSIONS/Statistics/Significance Level.md",
-    "MD VERSIONS/Statistics/Advanced Regression.md",
-    "MD VERSIONS/Statistics/Regression.md",
-    "MD VERSIONS/Statistics/Confidence interval.md",
-    "Mean.md",
     "MD VERSIONS/z_images/Pasted image 20230522121259.png",
     "MD VERSIONS/z_images/Pasted image 20230522120629.png",
     "MD VERSIONS/Calculus",
     "MD VERSIONS/z_images/Pasted image 20230522115650.png",
-    "MD VERSIONS/z_images/Pasted image 20230521195849.png",
-    "MD VERSIONS/z_images/Pasted image 20230521195632.png",
-    "MD VERSIONS/z_images/Pasted image 20230521195612.png",
-    "MD VERSIONS/z_images/Pasted image 20230521195546.png",
-    "MD VERSIONS/z_images/Gauss3.png",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/DFS.html",
