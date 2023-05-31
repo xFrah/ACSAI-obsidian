@@ -19,8 +19,13 @@
             "id": "fc45433dfd535715",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Basis Function.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MD VERSIONS/Machine Learning/Basis Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "MD VERSIONS/Machine Learning/Basis Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Basis Function.md"
+              }
             }
           }
         ]
@@ -150,52 +159,52 @@
   },
   "active": "fc45433dfd535715",
   "lastOpenFiles": [
-    "MD VERSIONS/Machine Learning/Gradient Descent.md",
-    "MD VERSIONS/Machine Learning/Basis Function.md",
-    "MD VERSIONS/Machine Learning/Polynomial Regression.md",
-    "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
+    "MD VERSIONS/Artificial Intelligence/A-star.md",
+    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
+    "MD VERSIONS/Artificial Intelligence/BFS.md",
+    "MD VERSIONS/Artificial Intelligence/Agent.md",
+    "MD VERSIONS/Artificial Intelligence/DFS.md",
+    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
+    "MD VERSIONS/Artificial Intelligence/Environment.md",
+    "MD VERSIONS/Artificial Intelligence/Functions.md",
+    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
+    "MD VERSIONS/Artificial Intelligence/Graph.md",
+    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
+    "MD VERSIONS/Artificial Intelligence/Set theory.md",
+    "MD VERSIONS/Linear Algebra/Eigenvectors and Eigenvalues.md",
+    "MD VERSIONS/Linear Algebra/Dot product.md",
+    "MD VERSIONS/Linear Algebra/Norm.md",
+    "MD VERSIONS/Linear Algebra/Hyperplanes.md",
+    "MD VERSIONS/Linear Algebra/Matrix.md",
+    "MD VERSIONS/Linear Algebra/Quadratic form.md",
+    "MD VERSIONS/Linear Algebra/Rayleigh quotient.md",
+    "MD VERSIONS/Linear Algebra/Spectral decomposition.md",
+    "MD VERSIONS/Linear Algebra/Symmetric matrix.md",
+    "MD VERSIONS/Linear Algebra/SVD.md",
+    "MD VERSIONS/Linear Algebra/Transformations.md",
+    "MD VERSIONS/Linear Algebra/Vectors.md",
+    "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
+    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Heuristics.html",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Graph.html",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Functions.html",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Environment.html",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/DFS.html",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.html",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/BFS.html",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Best-first search.html",
     "MD VERSIONS/z_images/Pasted image 20230525172345.png",
     "MD VERSIONS/z_images/Pasted image 20230525172014.png",
     "MD VERSIONS/z_images/Pasted image 20230525171924.png",
     "MD VERSIONS/z_images/Pasted image 20230525165800.png",
     "MD VERSIONS/z_images/Pasted image 20230525165755.png",
-    "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
-    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
-    "MD VERSIONS/Machine Learning/Joint distribution.md",
-    "MD VERSIONS/Machine Learning/K-means.md",
-    "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
-    "MD VERSIONS/Machine Learning/Kullback-Leibler divergence.md",
-    "MD VERSIONS/Machine Learning/Linear Regression.md",
-    "MD VERSIONS/Machine Learning/Neural Networks.md",
-    "MD VERSIONS/Machine Learning/Hessian.md",
-    "MD VERSIONS/Machine Learning/Expectation Maximization.md",
     "MD VERSIONS/z_images/Pasted image 20230418142057.png",
     "MD VERSIONS/z_images/Pasted image 20230429135826.png",
-    "MD VERSIONS/Machine Learning/Gradient.md",
-    "MD VERSIONS/Machine Learning/Jacobian.md",
-    "MD VERSIONS/Statistics/Sampling distributions.md",
-    "MD VERSIONS/Probability/Probability distribution.md",
-    "MD VERSIONS/Statistics/Covariance.md",
-    "MD VERSIONS/Statistics/Z-score.md",
-    "MD VERSIONS/Statistics/Normal distribution.md",
-    "MD VERSIONS/Machine Learning/PCA.md",
-    "MD VERSIONS/Statistics/Empirical rule.md",
-    "MD VERSIONS/Machine Learning/Gaussian distribution.md",
-    "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md",
-    "MD VERSIONS/Statistics/Variance.md",
     "MD VERSIONS/z_images/Pasted image 20230522121259.png",
     "MD VERSIONS/z_images/Pasted image 20230522120629.png",
-    "MD VERSIONS/Calculus",
     "MD VERSIONS/z_images/Pasted image 20230522115650.png",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/DFS.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Heuristics.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Graph.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Functions.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Environment.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/BFS.html",
     "Machine Learning/Untitled.canvas"
   ]
 }
