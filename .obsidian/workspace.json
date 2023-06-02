@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Basis Function.md",
+                "file": "MD VERSIONS/Machine Learning/Polylomial Regression.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "78126bc83aba100f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Linear Regression.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Basis Function.md",
+                "file": "MD VERSIONS/Machine Learning/Polylomial Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Basis Function.md",
+                "file": "MD VERSIONS/Machine Learning/Polylomial Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,11 +140,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Basis Function.md"
+                "file": "MD VERSIONS/Machine Learning/Polylomial Regression.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -150,7 +165,12 @@
   },
   "active": "7eeaca8e1516a471",
   "lastOpenFiles": [
+    "MD VERSIONS/Machine Learning/Linear Regression.md",
+    "MD VERSIONS/Machine Learning/Polylomial Regression.md",
     "MD VERSIONS/Machine Learning/Basis Function.md",
+    "MD VERSIONS/z_images/Pasted image 20230602131410.png",
+    "MD VERSIONS/z_images/Pasted image 20230602125608.png",
+    "MD VERSIONS/Linear Algebra/SVD.md",
     "MD VERSIONS/z_images/Pasted image 20230531092902.png",
     "MD VERSIONS/z_images/Pasted image 20230531092849.png",
     "MD VERSIONS/z_images/Pasted image 20230531092826.png",
@@ -178,9 +198,6 @@
     "MD VERSIONS/Linear Algebra/Quadratic form.md",
     "MD VERSIONS/Linear Algebra/Rayleigh quotient.md",
     "MD VERSIONS/Linear Algebra/Spectral decomposition.md",
-    "MD VERSIONS/Linear Algebra/Symmetric matrix.md",
-    "MD VERSIONS/Linear Algebra/SVD.md",
-    "MD VERSIONS/Linear Algebra/Transformations.md",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Heuristics.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
@@ -193,8 +210,6 @@
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Best-first search.html",
     "MD VERSIONS/z_images/Pasted image 20230525172345.png",
     "MD VERSIONS/z_images/Pasted image 20230525172014.png",
-    "MD VERSIONS/z_images/Pasted image 20230525171924.png",
-    "MD VERSIONS/z_images/Pasted image 20230525165800.png",
     "Machine Learning/Untitled.canvas"
   ]
 }
