@@ -51,7 +51,7 @@ We add a penalty cost to the loss function:
 
 $$\large\mathbf{\theta}^{\star} = \arg\min_{\mathbf{\theta}} (\,\mathcal{J}_{\text{data}}(\mathbf{\theta};\mathbf{x},y)  +\lambda\mathcal{J}_{\text{reg.}}(\mathbf{\theta})\,)$$
 
-Here is the closed form solution for getting the parameters as we set the gradient to 0:
+Here is the closed form solution for getting the parameters as we set the [gradient](Gradient.md) to 0:
 $$\nabla_{\theta}\mathcal{J}(\mathbf{\theta};\mathbf{x},y) = \frac{1}{2} \sum_{i=1}^{n}\mathcal{L}\big(y_{i}, f_{\boldsymbol{\theta}}(\mathbf{x}_i)\big) + \frac{\lambda}{2} \boldsymbol{\theta}^T \boldsymbol{\theta}=0 
 \quad \rightarrow \quad 
 (\lambda \mathbf{I} + \mathbf{X}^T\mathbf{X})\boldsymbol{\theta} = \mathbf{X}^T\mathbf{y}
@@ -66,7 +66,7 @@ $$\nabla_{\theta} \mathcal{J}(\theta;X,y)= \nabla_{\theta} \frac{1}{2} \sum_{i=1
 > 
 > Where the loss function is usually the least squares:
 > 
-> $$\sum_{i=1}^{n}\mathcal{L}\big(y_{i}, f_{\boldsymbol{\theta}}(\mathbf{x}_i)\big) = \big(X\theta - y \big)^T\big(X\theta - y \big)$$
+> $$\large\sum_{i=1}^{n}\mathcal{L}\big(y_{i}, f_{\boldsymbol{\theta}}(\mathbf{x}_i)\big) = \big(X\theta - y \big)^T\big(X\theta - y \big)$$
 > 
 > Here we are just adding the term $\Large\frac{\lambda}{2} \normalsize\boldsymbol{\theta}^T \boldsymbol{\theta}$ to the mixture, which means that we are squaring the parameters and summing them:
 > $$\large\sum^{m}_{i=0}\theta_i^2$$

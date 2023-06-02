@@ -149,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,8 +164,8 @@
   },
   "active": "7eeaca8e1516a471",
   "lastOpenFiles": [
-    "MD VERSIONS/Machine Learning/Linear Regression.md",
     "MD VERSIONS/Machine Learning/Polylomial Regression.md",
+    "MD VERSIONS/Machine Learning/Linear Regression.md",
     "MD VERSIONS/Machine Learning/Basis Function.md",
     "MD VERSIONS/z_images/Pasted image 20230602131410.png",
     "MD VERSIONS/z_images/Pasted image 20230602125608.png",
