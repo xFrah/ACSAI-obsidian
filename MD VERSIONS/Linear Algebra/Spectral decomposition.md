@@ -1,3 +1,7 @@
+---
+alias: Eigendecomposition
+---
+
 We know that we can actually combine multiple [transformations](Transformations.md) into just one [matrix](Matrix.md).
 
 This matrix would applied would have the same result than if we applied the individual matrices one after the other.

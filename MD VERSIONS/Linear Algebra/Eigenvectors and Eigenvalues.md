@@ -1,3 +1,7 @@
+---
+alias: Eigenvectors, Eigenvalue, Eigenvector, Eigenvalue
+---
+
 In a transformation, eigenvectors are the [vectors](Vectors.md) that don't change direction, but get just scaled.
 
 The factors by which they get scaled is called eigenvalue, and each eigenvactor has an associated eigenvalue.

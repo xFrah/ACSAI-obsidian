@@ -1,3 +1,7 @@
+---
+alias: Gradients
+---
+
 The gradient of a multivariate function is a vector that contains all its [partial derivatives](../Calculus/Partial%20derivatives.md).
 
 $$\large\nabla f=\begin{bmatrix}

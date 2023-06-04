@@ -1,3 +1,7 @@
+---
+alias: Norms
+---
+
 The norm of a [[Vectors|vector]] tells us how big it is.
 It's the magnitude of a vector.
 Different norms encode different notions of size.

@@ -1,3 +1,7 @@
+---
+alias: Rotation, Translation, Rotations, Translations, Scale, Flip, Affine
+---
+
 ## Isometries/Orthogonal matrix: Rotations and Translations
 
 If we want to rotate, we can add one single scalar. We can do that by using this transformation [matrix](Matrix.md), and justby using a single number we can rotate.

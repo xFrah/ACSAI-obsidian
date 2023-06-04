@@ -1,3 +1,7 @@
+---
+alias: Hyperplane, Hyper-plane, Hyper-planes
+---
+
 In an d-dimensiona vector space, an hyperplane has d-1 dimensions and divides the space in two half spaces.
 In the case of a 2D space, it's a line. In the case of 3D space it's a plane.
 

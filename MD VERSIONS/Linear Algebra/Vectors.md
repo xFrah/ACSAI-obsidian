@@ -1,3 +1,7 @@
+---
+alias: Vector
+---
+
 $v$ is a high dimentional point in a vector space.
 
 $$\huge v=\begin{bmatrix}x\\ y\end{bmatrix}$$

@@ -1,3 +1,7 @@
+---
+alias: Perceptrons
+---
+
 > [!note] A few notes
 > - We study this algorityhm mostly for **historical importance and didatic duty**
 > - Nowdays it is not anymore practically used
@@ -73,4 +77,4 @@ $$\large\boldsymbol{\theta} \leftarrow  \boldsymbol{\theta} +\gamma \left(y - \s
 
 - It loops forever if the data is **NOT** linearly separable.
 - Even if the data is linearly separable, it may take an amount of time that is **infeasible** in practice to use it.
-- Does not converge to an optimal solution such as SVM, but it just returns a generic separating hyper-plane.
+- Does not converge to an optimal solution such as SVM, but it just returns a generic separating [hyper-plane](../Linear%20Algebra/Hyperplanes.md).

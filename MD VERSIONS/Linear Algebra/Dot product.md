@@ -1,3 +1,7 @@
+---
+alias: Dot products
+---
+
 Let $\large x$ and $\large y$ be two 2D [vectors](Vectors.md) with their magnitudes $\large |x|$ and $\large |y|$.
 
 Now, we take $\large y$ and compute the length of its projection onto $\large x$, which we call $\large y_p$:

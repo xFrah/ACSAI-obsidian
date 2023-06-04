@@ -1,3 +1,7 @@
+---
+alias: KNN
+---
+
 Whenever you get new data point, you assign it the label of the k closest points in the dataset.
 This is so simple that i'm not wasting time for these notes yet.
 

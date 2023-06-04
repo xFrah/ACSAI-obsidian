@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Perceptron.md",
+                "file": "MD VERSIONS/Machine Learning/Polynomial Regression.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Perceptron.md",
+                "file": "MD VERSIONS/Machine Learning/Polynomial Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Perceptron.md",
+                "file": "MD VERSIONS/Machine Learning/Polynomial Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Perceptron.md"
+                "file": "MD VERSIONS/Machine Learning/Polynomial Regression.md"
               }
             }
           }
@@ -152,42 +151,43 @@
   },
   "active": "7eeaca8e1516a471",
   "lastOpenFiles": [
+    "MD VERSIONS/AI-LAB/Color equalization.md",
+    "MD VERSIONS/AI-LAB/Contour detection.md",
+    "MD VERSIONS/AI-LAB/Corner extraction.md",
+    "MD VERSIONS/AI-LAB/Convolution.md",
+    "MD VERSIONS/AI-LAB/HSV.md",
+    "MD VERSIONS/AI-LAB/Kernel.md",
+    "MD VERSIONS/AI-LAB/Numpy.md",
+    "MD VERSIONS/AI-LAB/Tokenizing.md",
+    "MD VERSIONS/AI-LAB/Warp.md",
+    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
+    "MD VERSIONS/Artificial Intelligence/A-star.md",
+    "MD VERSIONS/Artificial Intelligence/Agent.md",
+    "MD VERSIONS/Artificial Intelligence/DFS.md",
+    "MD VERSIONS/Artificial Intelligence/BFS.md",
+    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
+    "MD VERSIONS/Artificial Intelligence/Environment.md",
+    "MD VERSIONS/Artificial Intelligence/Functions.md",
+    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
+    "MD VERSIONS/Artificial Intelligence/Graph.md",
+    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
+    "MD VERSIONS/Artificial Intelligence/Set theory.md",
+    "MD VERSIONS/Calculus/Partial derivatives.md",
+    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+    "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
+    "MD VERSIONS/Linear Algebra/Dot product.md",
+    "HTML VERSIONS/MD VERSIONS/Machine Learning/Perceptron.html",
     "MD VERSIONS/z_images/Pasted image 20230604192208.png",
     "MD VERSIONS/z_images/Pasted image 20230604190444.png",
     "MD VERSIONS/z_images/Pasted image 20230604190407.png",
-    "MD VERSIONS/Machine Learning/Perceptron.md",
-    "MD VERSIONS/Linear Algebra/Vectors.md",
-    "MD VERSIONS/Machine Learning/Polynomial Regression.md",
-    "MD VERSIONS/Machine Learning/Polynomial Regression.md",
-    "MD VERSIONS/Linear Algebra/Dot product.md",
     "MD VERSIONS/z_images/Pasted image 20230604181653.png",
     "MD VERSIONS/z_images/Pasted image 20230604181652.png",
     "MD VERSIONS/z_images/Pasted image 20230604181650.png",
     "MD VERSIONS/z_images/Pasted image 20230604180812.png",
-    "MD VERSIONS/Machine Learning/Linear Regression.md",
     "MD VERSIONS/z_images/Pasted image 20230604174005.png",
-    "MD VERSIONS/Machine Learning/Basis Function.md",
     "MD VERSIONS/z_images/Pasted image 20230602131410.png",
     "MD VERSIONS/z_images/Pasted image 20230602125608.png",
-    "MD VERSIONS/Linear Algebra/SVD.md",
-    "MD VERSIONS/z_images/Pasted image 20230531092902.png",
-    "README.md",
-    "MD VERSIONS/Artificial Intelligence/A-star.md",
-    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
-    "MD VERSIONS/Artificial Intelligence/BFS.md",
-    "MD VERSIONS/Artificial Intelligence/Agent.md",
-    "MD VERSIONS/Artificial Intelligence/DFS.md",
-    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
-    "MD VERSIONS/Artificial Intelligence/Environment.md",
-    "MD VERSIONS/Artificial Intelligence/Functions.md",
-    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
-    "MD VERSIONS/Artificial Intelligence/Graph.md",
-    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
-    "MD VERSIONS/Artificial Intelligence/Set theory.md",
-    "MD VERSIONS/Linear Algebra/Eigenvectors and Eigenvalues.md",
-    "MD VERSIONS/Linear Algebra/Norm.md",
-    "MD VERSIONS/Linear Algebra/Hyperplanes.md",
-    "MD VERSIONS/Linear Algebra/Matrix.md",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Heuristics.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
@@ -197,7 +197,6 @@
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/DFS.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/BFS.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Best-first search.html",
     "Machine Learning/Untitled.canvas"
   ]
 }
