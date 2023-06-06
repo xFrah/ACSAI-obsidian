@@ -1,3 +1,7 @@
+---
+alias: Conditional probabilities
+---
+
 Assume we have events A and B. The probability of A occurring given that B has occurred is:
 
 $$\large P(A\,|\,B) = \frac{P(A \cap B)}{P(B)}$$
