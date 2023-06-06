@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Polynomial Regression.md",
+                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Polynomial Regression.md",
+                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Polynomial Regression.md",
+                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Polynomial Regression.md"
+                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md"
               }
             }
           }
@@ -151,32 +151,32 @@
   },
   "active": "7eeaca8e1516a471",
   "lastOpenFiles": [
-    "MD VERSIONS/AI-LAB/Color equalization.md",
-    "MD VERSIONS/AI-LAB/Contour detection.md",
-    "MD VERSIONS/AI-LAB/Corner extraction.md",
-    "MD VERSIONS/AI-LAB/Convolution.md",
-    "MD VERSIONS/AI-LAB/HSV.md",
-    "MD VERSIONS/AI-LAB/Kernel.md",
-    "MD VERSIONS/AI-LAB/Numpy.md",
-    "MD VERSIONS/AI-LAB/Tokenizing.md",
-    "MD VERSIONS/AI-LAB/Warp.md",
-    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
-    "MD VERSIONS/Artificial Intelligence/A-star.md",
-    "MD VERSIONS/Artificial Intelligence/Agent.md",
-    "MD VERSIONS/Artificial Intelligence/DFS.md",
-    "MD VERSIONS/Artificial Intelligence/BFS.md",
-    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
-    "MD VERSIONS/Artificial Intelligence/Environment.md",
-    "MD VERSIONS/Artificial Intelligence/Functions.md",
-    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
-    "MD VERSIONS/Artificial Intelligence/Graph.md",
-    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
-    "MD VERSIONS/Artificial Intelligence/Set theory.md",
-    "MD VERSIONS/Calculus/Partial derivatives.md",
-    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
-    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
-    "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
-    "MD VERSIONS/Linear Algebra/Dot product.md",
+    "MD VERSIONS/Machine Learning/Sigmoid.md",
+    "MD VERSIONS/z_images/Pasted image 20230606145350.png",
+    "MD VERSIONS/Probability/Introduction to Probability.md",
+    "MD VERSIONS/Machine Learning/Logistic Regression.md",
+    "MD VERSIONS/Machine Learning/Perceptron.md",
+    "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
+    "MD VERSIONS/Machine Learning/Polynomial Regression.md",
+    "MD VERSIONS/Machine Learning/PCA.md",
+    "MD VERSIONS/Machine Learning/Neural Networks.md",
+    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
+    "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
+    "MD VERSIONS/Machine Learning/Linear Regression.md",
+    "MD VERSIONS/Machine Learning/Kullback-Leibler divergence.md",
+    "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
+    "MD VERSIONS/Machine Learning/K-means.md",
+    "MD VERSIONS/Machine Learning/Impurity functions.md",
+    "MD VERSIONS/Machine Learning/Gradient Descent.md",
+    "MD VERSIONS/Machine Learning/Gradient.md",
+    "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md",
+    "MD VERSIONS/Machine Learning/Gaussian distribution.md",
+    "MD VERSIONS/Machine Learning/Expectation Maximization.md",
+    "MD VERSIONS/Machine Learning/Decision trees.md",
+    "MD VERSIONS/Machine Learning/Cross-validation.md",
+    "MD VERSIONS/Machine Learning/Cross-entropy.md",
+    "MD VERSIONS/Machine Learning/Covariance matrix.md",
+    "MD VERSIONS/Machine Learning/Cosine Similarity.md",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Perceptron.html",
     "MD VERSIONS/z_images/Pasted image 20230604192208.png",
     "MD VERSIONS/z_images/Pasted image 20230604190444.png",
@@ -187,7 +187,6 @@
     "MD VERSIONS/z_images/Pasted image 20230604180812.png",
     "MD VERSIONS/z_images/Pasted image 20230604174005.png",
     "MD VERSIONS/z_images/Pasted image 20230602131410.png",
-    "MD VERSIONS/z_images/Pasted image 20230602125608.png",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Heuristics.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
