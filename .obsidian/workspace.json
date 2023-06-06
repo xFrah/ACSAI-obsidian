@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a8f9de4bdef0f56d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Sigmoid.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -151,11 +164,12 @@
   },
   "active": "7eeaca8e1516a471",
   "lastOpenFiles": [
-    "MD VERSIONS/Machine Learning/Cosine Similarity.md",
+    "MD VERSIONS/Machine Learning/Sigmoid.md",
     "MD VERSIONS/Machine Learning/Logistic Regression.md",
+    "MD VERSIONS/z_images/Pasted image 20230606204042.png",
+    "MD VERSIONS/Machine Learning/Cosine Similarity.md",
     "MD VERSIONS/Probability/Conditional Probability.md",
     "MD VERSIONS/Machine Learning/Perceptron.md",
-    "MD VERSIONS/Machine Learning/Sigmoid.md",
     "MD VERSIONS/z_images/Pasted image 20230606145350.png",
     "MD VERSIONS/Probability/Introduction to Probability.md",
     "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
@@ -177,7 +191,6 @@
     "MD VERSIONS/Machine Learning/Decision trees.md",
     "MD VERSIONS/Machine Learning/Cross-validation.md",
     "MD VERSIONS/Machine Learning/Cross-entropy.md",
-    "MD VERSIONS/Machine Learning/Covariance matrix.md",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Perceptron.html",
     "MD VERSIONS/z_images/Pasted image 20230604192208.png",
     "MD VERSIONS/z_images/Pasted image 20230604190444.png",
@@ -187,7 +200,6 @@
     "MD VERSIONS/z_images/Pasted image 20230604181650.png",
     "MD VERSIONS/z_images/Pasted image 20230604180812.png",
     "MD VERSIONS/z_images/Pasted image 20230604174005.png",
-    "MD VERSIONS/z_images/Pasted image 20230602131410.png",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Heuristics.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
