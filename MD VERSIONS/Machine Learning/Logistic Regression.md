@@ -25,6 +25,8 @@ $$\large\sigma(z)= \frac{1}{1+\exp^{-z}} \quad\rightarrow\quad f_{\boldsymbol{\t
 > 
 > $$\large\text{If} \quad x=0 \quad\text{then} \quad p(y=1\,|\,0;\theta)=0.5$$
 > 
+> ![](../z_images/Pasted%20image%2020230607093521.png)
+> 
 >When we change the parameters $\theta$ we change the shape of the sigmoid(its extension in all dimensions):
 > 
 > ![](../z_images/Pasted%20image%2020230606204042.png)

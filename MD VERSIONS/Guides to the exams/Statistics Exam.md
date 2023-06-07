@@ -449,7 +449,7 @@ Our result is **0.063**.
 
 
 
-## [Binomial distribution](../Probability/Binomial%20distribution.md)
+## Bernoulli distribution
 
 A binomial distribution can be thought of as simply the probability of a SUCCESS or FAILURE outcome in an experiment or survey that is repeated multiple times.
 
@@ -519,7 +519,7 @@ $$\large \sigma_s = \frac{\sigma}{\sqrt{n}}$$
 > We know that we can get the area under a curve by using the z-scores, but this distribution only approximates a [normal distribution](../Statistics/Normal%20distribution.md) when using a large n.
 > 
 > So when we have a small n we need to go sideways:
-> - If our configuration is also a [binomial distribution](../Probability/Binomial%20distribution.md), we can use that formula to compute every single discrete probability.
+> - If our configuration is also a [binomial distribution](../Probability/Bernoulli%20distribution.md), we can use that formula to compute every single discrete probability.
 > 
 
 > [!example]

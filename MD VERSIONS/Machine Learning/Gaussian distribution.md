@@ -1,5 +1,5 @@
 ---
-alias: Gaussian, Gaussian curve
+alias: Gaussian, Gaussian curve, Gaussians
 ---
 
 The [normal distribution](../Statistics/Normal%20distribution.md), also known as Gaussian distribution, is defined by two parameters:

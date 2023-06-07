@@ -20,7 +20,7 @@ The more rare the event is, the more information it conveys, and more surprise:
 <br>
 
 When we compute entropy of P(x), we are getting the average number of bits that are used to represent any event x in P:
-- The weights/frequencies of events is given by P(x)
+- The weight/frequency of event x is given by P(x)
 - The actual number of bits for any of these events is given by $\log p(x)$.
 
 <br>

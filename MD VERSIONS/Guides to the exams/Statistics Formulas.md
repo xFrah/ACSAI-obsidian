@@ -21,7 +21,7 @@ $$\large z = \frac{x - \mu}{\sigma}$$
 ##### Test statistic(s-score with $\sigma=\text{SE}$)
 $$\large z = \frac{x - \mu}{\text{SE}}$$
 
-## [Binomial distribution](../Probability/Binomial%20distribution.md)
+## Bernoulli distribution
 
 ##### Probability at x
 $$\large P(x)=\frac{n!}{(n-x)!x!}p^xq^{n-x}$$

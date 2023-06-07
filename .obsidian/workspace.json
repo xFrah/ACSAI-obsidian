@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a8f9de4bdef0f56d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD VERSIONS/Machine Learning/Sigmoid.md",
+                "file": "MD VERSIONS/Probability/Bernoulli distribution.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md",
+                "file": "MD VERSIONS/Probability/Bernoulli distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md",
+                "file": "MD VERSIONS/Probability/Bernoulli distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md"
+                "file": "MD VERSIONS/Probability/Bernoulli distribution.md"
               }
             }
           }
@@ -164,6 +151,21 @@
   },
   "active": "7eeaca8e1516a471",
   "lastOpenFiles": [
+    "MD VERSIONS/z_images/coin-flip-simulation-3.gif",
+    "MD VERSIONS/z_images/coin-flip-simulation-3.gif.crdownload",
+    "MD VERSIONS/z_images/Pasted image 20230607215602.png",
+    "MD VERSIONS/z_images/Pasted image 20230607215506.png",
+    "MD VERSIONS/Statistics/Empirical rule.md",
+    "MD VERSIONS/Probability/Bernoulli distribution.md",
+    "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
+    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+    "MD VERSIONS/Machine Learning/Decision trees.md",
+    "MD VERSIONS/Machine Learning/Cross-entropy.md",
+    "MD VERSIONS/Machine Learning/Gaussian distribution.md",
+    "MD VERSIONS/Calculus/Partial derivatives.md",
+    "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
+    "MD VERSIONS/Machine Learning/Logistic Regression.md",
+    "MD VERSIONS/z_images/Pasted image 20230607093521.png",
     "MD VERSIONS/AI-LAB/Contour detection.md",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Sigmoid.html",
     "HTML VERSIONS/MD VERSIONS/Probability/Introduction to Probability.html",
@@ -181,17 +183,6 @@
     "MD VERSIONS/Artificial Intelligence/BFS.md",
     "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
     "MD VERSIONS/Artificial Intelligence/Environment.md",
-    "MD VERSIONS/Artificial Intelligence/Functions.md",
-    "MD VERSIONS/Artificial Intelligence/DFS.md",
-    "MD VERSIONS/Artificial Intelligence/Graph.md",
-    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
-    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
-    "MD VERSIONS/Artificial Intelligence/Set theory.md",
-    "MD VERSIONS/Calculus/Partial derivatives.md",
-    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
-    "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
-    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
-    "MD VERSIONS/Linear Algebra/Dot product.md",
     "MD VERSIONS/z_images/Pasted image 20230606204042.png",
     "MD VERSIONS/z_images/Pasted image 20230606145350.png",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Perceptron.html",
@@ -200,16 +191,12 @@
     "MD VERSIONS/z_images/Pasted image 20230604190407.png",
     "MD VERSIONS/z_images/Pasted image 20230604181653.png",
     "MD VERSIONS/z_images/Pasted image 20230604181652.png",
-    "MD VERSIONS/z_images/Pasted image 20230604181650.png",
-    "MD VERSIONS/z_images/Pasted image 20230604180812.png",
-    "MD VERSIONS/z_images/Pasted image 20230604174005.png",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Heuristics.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Graph.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Functions.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Environment.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/DFS.html",
     "Machine Learning/Untitled.canvas"
   ]
 }
