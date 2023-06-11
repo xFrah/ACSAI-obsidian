@@ -48,7 +48,7 @@ We compute the dot product as explained before, then we output 1 if the result i
 
 We update the parameters until convergence by using this formula:
 
-$$\large\boldsymbol{\theta} \leftarrow  \boldsymbol{\theta} +\gamma \left(y - \sigma(\mathbf{\theta}^T\mathbf{x})\right)\mathbf{x}$$
+$$\large\boldsymbol{\theta} \leftarrow  \boldsymbol{\theta} +\gamma \left(y_i - \sigma(\mathbf{\theta}^T\mathbf{x}_i)\right)\mathbf{x}_i$$
 
 > [!hint] Formula Explanation
 > 

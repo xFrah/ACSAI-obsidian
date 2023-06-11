@@ -41,11 +41,12 @@ $$\large\sigma(z)= \frac{1}{1+\exp^{-z}} \quad\rightarrow\quad f_{\boldsymbol{\t
 ## Learning parameters in Logistic Regression
 
 We use the same statistical approach that we used with linear regression.
-Keep in mind that $f_\theta$ is defined as:
+Keep in mind that $f_\theta$ is defined as...
 
 $$\large f_{\boldsymbol{\theta}}(\mathbf{x}) \doteq \frac{1}{1+\exp^{-\boldsymbol{\theta}^T\mathbf{x}}}$$
 
-For a single point, the conditional probability of $y$ can be written as:
+... and its output range is [0, 1].
+For a single point, the conditional probability/likelihood of $y$ can be written as:
 
 $$\large p(y\mid\mathbf{x};\boldsymbol{\theta}) = \big(f_{\boldsymbol{\theta}}\big)^y\big(1-f_{\boldsymbol{\theta}}\big)^{1-y}$$
 
@@ -64,3 +65,40 @@ For multiple points, it is:
 $$\large L(\theta;\mathbf{X};\mathbf{y})=p(\vec{y} \mid {\mathbf{x}_1,\ldots,\mathbf{x}_n} ; \theta)=\prod_{i=1}^{n}\left(f_{\boldsymbol{\theta}}\left(x_i\right)\right)^{y_i} \;\left(1-f_{\boldsymbol{\theta}}(x_i)\right)^{1-y_i}$$
 
 ![](../z_images/Pasted%20image%2020230610213720.png)
+
+---
+
+## Maximizing Log Likelihood
+
+$$\large\ell(\theta)=\log L(\theta) \\=\sum_{i=1}^{n} y^{(i)} \log f\left(x^{(i)}\right)+\left(1-y^{(i)}\right) \log \left(1-f\left(x^{(i)}\right)\right)$$
+
+where:
+- $\ell(\theta)$ is the loss
+- $L(\theta)$ is the likelihood
+
+
+We want to maximize the Log Likelihood as it means that it is likely that the input generate the desired output with our parameters.
+
+> [!note]
+> We are about to use [gradient descent](Gradient%20Descent.md) to find the correct parameters, the procedure is similar to the one we used for learning the [Perceptron](Perceptron.md).
+> 
+> This is also the same update rule that we use in Linear Regression, but with different $f_\theta$.
+
+
+The [gradient](Gradient.md) of the Log Likelihood is as follows:
+
+$$\large\sum_{i=1}^{n} \big[ y^{(i)}-\sigma(\theta^Tx^{(i)})\big]x^{(i)}$$
+
+So we update the parameter using this formula:
+
+$$\large\boldsymbol{\theta} := \boldsymbol{\theta} + \gamma  \sum_{i=1}^{n} \big[ y^{(i)}-\sigma(\theta^Tx^{(i)})\big]\mathbf{x^{(i)}}$$
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020230611124258.png)
+> ![](../z_images/Pasted%20image%2020230611124306.png)
+
+---
+
+## ?
+
+We then use [KL-divergence](Kullback-Leibler%20divergence.md) or [cross-entropy](Cross-entropy.md) to do shit?

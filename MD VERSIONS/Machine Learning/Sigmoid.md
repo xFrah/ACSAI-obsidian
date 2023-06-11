@@ -1,3 +1,7 @@
+---
+alias: Logistic Function
+---
+
 A sigmoid is a mathematical function which has a characteristic S-shaped curve:
 
 $$\large\sigma(x)= \frac{1}{1+e^{-x}}$$

@@ -264,5 +264,3 @@ $$\large \theta \leftarrow  \theta -\gamma \nabla_{\theta}\mathcal{J}(\theta;x,y
 $$\large\theta \leftarrow  \theta -\gamma \nabla_{\theta}  \frac{1}{2} \sum_{i=1}^n \big(\theta^Tx - y \big)^2$$
 $$\large\theta \leftarrow  \theta -\gamma  \frac{1}{2} \sum_{i=1}^n \big(2\theta^Txx - 2yx \big)$$
 $$\large\theta \leftarrow  \theta -\gamma \sum_{i=1}^n \big(\theta^Tx_i- y_i\big)x_i$$
-
-I don't really know what's happening here.

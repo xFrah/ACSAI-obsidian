@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md",
+                "file": "MD VERSIONS/Machine Learning/Perceptron.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b8bcb18fef4ba677",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Multi-Class Classification.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a428892f38c48b76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Gradient.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md",
+                "file": "MD VERSIONS/Machine Learning/Multi-Class Classification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md",
+                "file": "MD VERSIONS/Machine Learning/Multi-Class Classification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md"
+                "file": "MD VERSIONS/Machine Learning/Multi-Class Classification.md"
               }
             }
           }
@@ -149,54 +176,54 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "7eeaca8e1516a471",
+  "active": "b8bcb18fef4ba677",
   "lastOpenFiles": [
-    "MD VERSIONS/Machine Learning/Logistic Regression.md",
-    "MD VERSIONS/Machine Learning/Linear Regression.md",
+    "HTML VERSIONS/MD VERSIONS/Machine Learning/Generalized Linear Model.html",
+    "HTML VERSIONS/MD VERSIONS/Machine Learning/Multi-Class Classification.html",
+    "HTML VERSIONS/MD VERSIONS/Probability/Bernoulli distribution.html",
+    "MD VERSIONS/Statistics/Correlation coefficient.md",
+    "MD VERSIONS/Statistics/Central Limit Theorem.md",
+    "MD VERSIONS/Statistics/Covariance.md",
+    "MD VERSIONS/Statistics/Confidence interval.md",
+    "MD VERSIONS/Statistics/Measures of Position.md",
+    "MD VERSIONS/Statistics/Empirical rule.md",
+    "MD VERSIONS/Statistics/Estimation.md",
+    "MD VERSIONS/Statistics/Expected value.md",
+    "MD VERSIONS/Statistics/Median.md",
+    "MD VERSIONS/Statistics/Mode.md",
+    "MD VERSIONS/Statistics/Normal distribution.md",
+    "MD VERSIONS/Statistics/Regression.md",
+    "MD VERSIONS/Statistics/Sampling distributions.md",
+    "MD VERSIONS/Statistics/Standard Error.md",
+    "MD VERSIONS/Statistics/Significance Level.md",
+    "MD VERSIONS/Statistics/Significance Test.md",
+    "MD VERSIONS/Statistics/Variable types.md",
+    "MD VERSIONS/Statistics/Standard Deviation.md",
+    "MD VERSIONS/Statistics/Z-score.md",
+    "MD VERSIONS/Statistics/Variance.md",
+    "MD VERSIONS/Machine Learning/Multi-Class Classification.md",
+    "MD VERSIONS/z_images/Pasted image 20230611204757.png",
+    "MD VERSIONS/z_images/Pasted image 20230611204724.png",
+    "MD VERSIONS/z_images/Pasted image 20230611204455.png",
+    "MD VERSIONS/z_images/Pasted image 20230611202656.png",
+    "MD VERSIONS/Machine Learning/Gradient.md",
+    "MD VERSIONS/Machine Learning/Gradient Descent.md",
+    "MD VERSIONS/z_images/Pasted image 20230611183202.png",
+    "MD VERSIONS/z_images/Pasted image 20230611134416.png",
+    "MD VERSIONS/Linear Algebra/Hyperplanes.md",
+    "MD VERSIONS/Machine Learning/Perceptron.md",
+    "MD VERSIONS/z_images/Pasted image 20230611124306.png",
+    "MD VERSIONS/z_images/Pasted image 20230611124258.png",
     "MD VERSIONS/z_images/Pasted image 20230610213720.png",
     "MD VERSIONS/z_images/Pasted image 20230610213536.png",
-    "MD VERSIONS/z_images/Pasted image 20230610213520.png",
-    "MD VERSIONS/Machine Learning/Generalized Linear Model.md",
-    "MD VERSIONS/Machine Learning/Perceptron.md",
-    "MD VERSIONS/Machine Learning/Gradient Descent.md",
-    "MD VERSIONS/AI-LAB/Convolution.md",
-    "MD VERSIONS/AI-LAB/Color equalization.md",
-    "MD VERSIONS/AI-LAB/Numpy.md",
-    "MD VERSIONS/AI-LAB/Tokenizing.md",
-    "MD VERSIONS/AI-LAB/Warp.md",
-    "MD VERSIONS/AI-LAB/HSV.md",
-    "MD VERSIONS/AI-LAB/Contour detection.md",
-    "MD VERSIONS/Probability/Bernoulli distribution.md",
-    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
-    "MD VERSIONS/Statistics/Empirical rule.md",
-    "MD VERSIONS/z_images/coin-flip-simulation-3.gif",
     "MD VERSIONS/z_images/coin-flip-simulation-3.gif.crdownload",
-    "MD VERSIONS/z_images/Pasted image 20230607215602.png",
-    "MD VERSIONS/z_images/Pasted image 20230607215506.png",
-    "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
-    "MD VERSIONS/Machine Learning/Decision trees.md",
-    "MD VERSIONS/Machine Learning/Cross-entropy.md",
-    "MD VERSIONS/Machine Learning/Gaussian distribution.md",
-    "MD VERSIONS/Calculus/Partial derivatives.md",
-    "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
-    "MD VERSIONS/z_images/Pasted image 20230607093521.png",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Sigmoid.html",
     "HTML VERSIONS/MD VERSIONS/Probability/Introduction to Probability.html",
-    "MD VERSIONS/AI-LAB/Corner extraction.md",
-    "MD VERSIONS/AI-LAB/Kernel.md",
-    "MD VERSIONS/Artificial Intelligence/A-star.md",
-    "MD VERSIONS/Artificial Intelligence/Agent.md",
-    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
-    "MD VERSIONS/z_images/Pasted image 20230606204042.png",
-    "MD VERSIONS/z_images/Pasted image 20230606145350.png",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Perceptron.html",
-    "MD VERSIONS/z_images/Pasted image 20230604192208.png",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Heuristics.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Graph.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Functions.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Environment.html",
     "Machine Learning/Untitled.canvas"
   ]
 }
