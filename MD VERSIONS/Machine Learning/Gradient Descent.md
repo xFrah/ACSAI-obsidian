@@ -28,13 +28,13 @@ $$\large\mathcal{J}(\theta;x,y)= \frac{1}{2} \sum_{i=1}^{n}\mathcal{L}\big(y_{i}
 
 1. We input the parameters into the loss function, so that we get a new function that has inputs $(x, y)$.
 
-3. We take the gradient of the loss function.
+2. We take the gradient of the loss function.
 
-4. We input $(x, y)$ into the gradient, which gives us the [[Partial derivatives|slope in every dimension]] of the curve at those inputs.
+3. We input $(x, y)$ into the gradient, which gives us the [[Partial derivatives|slope in every dimension]] of the curve at those inputs.
 
-5. We then take a small step towards the direction of steepest descent.
+4. We then take a small step towards the direction of steepest descent.
 
-6. We repeat this until convergence
+5. We repeat this until convergence
 
 
 ### 3. Convergence

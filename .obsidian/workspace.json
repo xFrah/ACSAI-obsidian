@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Probability/Bernoulli distribution.md",
+                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Probability/Bernoulli distribution.md",
+                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Probability/Bernoulli distribution.md",
+                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Probability/Bernoulli distribution.md"
+                "file": "MD VERSIONS/Machine Learning/Logistic Regression.md"
               }
             }
           }
@@ -151,46 +151,46 @@
   },
   "active": "7eeaca8e1516a471",
   "lastOpenFiles": [
+    "MD VERSIONS/Machine Learning/Logistic Regression.md",
+    "MD VERSIONS/Machine Learning/Linear Regression.md",
+    "MD VERSIONS/z_images/Pasted image 20230610213720.png",
+    "MD VERSIONS/z_images/Pasted image 20230610213536.png",
+    "MD VERSIONS/z_images/Pasted image 20230610213520.png",
+    "MD VERSIONS/Machine Learning/Generalized Linear Model.md",
+    "MD VERSIONS/Machine Learning/Perceptron.md",
+    "MD VERSIONS/Machine Learning/Gradient Descent.md",
+    "MD VERSIONS/AI-LAB/Convolution.md",
+    "MD VERSIONS/AI-LAB/Color equalization.md",
+    "MD VERSIONS/AI-LAB/Numpy.md",
+    "MD VERSIONS/AI-LAB/Tokenizing.md",
+    "MD VERSIONS/AI-LAB/Warp.md",
+    "MD VERSIONS/AI-LAB/HSV.md",
+    "MD VERSIONS/AI-LAB/Contour detection.md",
+    "MD VERSIONS/Probability/Bernoulli distribution.md",
+    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+    "MD VERSIONS/Statistics/Empirical rule.md",
     "MD VERSIONS/z_images/coin-flip-simulation-3.gif",
     "MD VERSIONS/z_images/coin-flip-simulation-3.gif.crdownload",
     "MD VERSIONS/z_images/Pasted image 20230607215602.png",
     "MD VERSIONS/z_images/Pasted image 20230607215506.png",
-    "MD VERSIONS/Statistics/Empirical rule.md",
-    "MD VERSIONS/Probability/Bernoulli distribution.md",
     "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
-    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
     "MD VERSIONS/Machine Learning/Decision trees.md",
     "MD VERSIONS/Machine Learning/Cross-entropy.md",
     "MD VERSIONS/Machine Learning/Gaussian distribution.md",
     "MD VERSIONS/Calculus/Partial derivatives.md",
     "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
-    "MD VERSIONS/Machine Learning/Logistic Regression.md",
     "MD VERSIONS/z_images/Pasted image 20230607093521.png",
-    "MD VERSIONS/AI-LAB/Contour detection.md",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Sigmoid.html",
     "HTML VERSIONS/MD VERSIONS/Probability/Introduction to Probability.html",
-    "MD VERSIONS/AI-LAB/Convolution.md",
-    "MD VERSIONS/AI-LAB/Color equalization.md",
     "MD VERSIONS/AI-LAB/Corner extraction.md",
     "MD VERSIONS/AI-LAB/Kernel.md",
-    "MD VERSIONS/AI-LAB/Numpy.md",
-    "MD VERSIONS/AI-LAB/Tokenizing.md",
-    "MD VERSIONS/AI-LAB/Warp.md",
-    "MD VERSIONS/AI-LAB/HSV.md",
     "MD VERSIONS/Artificial Intelligence/A-star.md",
     "MD VERSIONS/Artificial Intelligence/Agent.md",
     "MD VERSIONS/Artificial Intelligence/Best-first search.md",
-    "MD VERSIONS/Artificial Intelligence/BFS.md",
-    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
-    "MD VERSIONS/Artificial Intelligence/Environment.md",
     "MD VERSIONS/z_images/Pasted image 20230606204042.png",
     "MD VERSIONS/z_images/Pasted image 20230606145350.png",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Perceptron.html",
     "MD VERSIONS/z_images/Pasted image 20230604192208.png",
-    "MD VERSIONS/z_images/Pasted image 20230604190444.png",
-    "MD VERSIONS/z_images/Pasted image 20230604190407.png",
-    "MD VERSIONS/z_images/Pasted image 20230604181653.png",
-    "MD VERSIONS/z_images/Pasted image 20230604181652.png",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Heuristics.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",

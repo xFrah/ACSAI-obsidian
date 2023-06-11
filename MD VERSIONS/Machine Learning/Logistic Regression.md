@@ -35,3 +35,32 @@ $$\large\sigma(z)= \frac{1}{1+\exp^{-z}} \quad\rightarrow\quad f_{\boldsymbol{\t
 > 
 > $$\large\lim_{z\mapsto \infty}\sigma(z)=1 \quad\text{and}\quad\large\lim_{z\mapsto -\infty}\sigma(z)=0$$
 > 
+
+---
+
+## Learning parameters in Logistic Regression
+
+We use the same statistical approach that we used with linear regression.
+Keep in mind that $f_\theta$ is defined as:
+
+$$\large f_{\boldsymbol{\theta}}(\mathbf{x}) \doteq \frac{1}{1+\exp^{-\boldsymbol{\theta}^T\mathbf{x}}}$$
+
+For a single point, the conditional probability of $y$ can be written as:
+
+$$\large p(y\mid\mathbf{x};\boldsymbol{\theta}) = \big(f_{\boldsymbol{\theta}}\big)^y\big(1-f_{\boldsymbol{\theta}}\big)^{1-y}$$
+
+> [!note]
+> 
+> In the case of [linear regression](Linear%20Regression.md), the [conditional probability](../Probability/Conditional%20Probability.md) of $y$ was:
+> 
+> $$\large p\left(y_i \mid x_i ; \theta\right)=\frac{1}{\sqrt{2 \pi} \sigma}^{\Huge-\frac{\left(y_i-\theta^{T} x_i\right)^{2}}{2 \sigma^{2}}}$$
+> 
+> We used a [Gaussian distribution](Gaussian%20distribution.md), but here in Logistic Regression we use a [Bernoulli distribution](../Probability/Bernoulli%20distribution.md).
+
+![](../z_images/Pasted%20image%2020230610213536.png)
+
+For multiple points, it is:
+
+$$\large L(\theta;\mathbf{X};\mathbf{y})=p(\vec{y} \mid {\mathbf{x}_1,\ldots,\mathbf{x}_n} ; \theta)=\prod_{i=1}^{n}\left(f_{\boldsymbol{\theta}}\left(x_i\right)\right)^{y_i} \;\left(1-f_{\boldsymbol{\theta}}(x_i)\right)^{1-y_i}$$
+
+![](../z_images/Pasted%20image%2020230610213720.png)

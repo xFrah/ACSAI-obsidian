@@ -24,7 +24,7 @@ So the mean of a Bernoulli distribution with parameter $p$ actually approaches $
 
 ---
 
-## Variance
+## [Variance](../Statistics/Variance.md)
 
 ### WIP
 
