@@ -1,3 +1,7 @@
+---
+alias: Principal Components Analysis
+---
+
 Given an input of D dimensions, our objective is to find a subspace that maximizes the [variance](../Statistics/Variance.md) of the data, as we need compress the data but as make it as lossless as we can.
 
 We delete the directions/dimensions with less variance, meaning that we lose the dimensions that carry less information.

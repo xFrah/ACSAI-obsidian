@@ -4,7 +4,9 @@
   "useMarkdownLinks": true,
   "userIgnoreFilters": [
     "z_images/",
-    "MD VERSIONS/Guides to the exams/"
+    "MD VERSIONS/Guides to the exams/",
+    "MD VERSIONS/Statistics/",
+    "MD VERSIONS/AI-LAB/"
   ],
   "newLinkFormat": "relative",
   "alwaysUpdateLinks": true,
