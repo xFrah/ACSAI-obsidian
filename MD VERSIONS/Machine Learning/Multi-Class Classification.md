@@ -9,6 +9,9 @@ A point $\mathbf{x}$ belongs to class $k$ if
 
 $$\large \mathbf{w}^T_k\mathbf{x} + b_k  > \mathbf{w}^T_j\mathbf{x} + b_j \;\; \text{of every other class j}$$
 
+> [!hint]
+> It's as if we were using multiple [perceptrons](Perceptron.md) at once.
+
 ---
 
 ## Let's vectorize even more

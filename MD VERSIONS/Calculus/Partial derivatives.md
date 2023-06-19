@@ -32,3 +32,21 @@ Where:
 - $\partial$ means partial derivative specifically.
 - $f$ is the multivariate function we want to derive.
 - $x$ is the variable that can still move freely.
+
+---
+
+## How to compute
+
+Every variable that is not the variable we using gets turned into a constant.
+
+So if we want to take the derivative of...
+
+$$\large f(x,y) = y^3x^2$$
+
+... with respect to $x$:
+
+$$\large\begin{align*}\frac{\partial f}{\partial x}(x) = 2c^3x.\end{align*}$$
+We treat $y^3$ as a constant $c$ and use the usual derivation rules.
+
+---
+
