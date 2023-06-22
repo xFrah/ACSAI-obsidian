@@ -105,3 +105,18 @@ For all columns:
 ### Delete
 
 ![](../z_images/Pasted%20image%2020230622231849.png)
+
+---
+
+## How to write a trigger
+
+
+```sql
+CREATE TRIGGER trigger_name
+AFTER UPDATE ON table
+FOR EACH ROW
+UPDATE table2
+SET column2 = NEW.column1
+WHERE table2.id = NEW.id 
+```
+
