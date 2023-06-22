@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Neural Networks.md",
+                "file": "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Neural Networks.md",
+                "file": "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Neural Networks.md",
+                "file": "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Neural Networks.md"
+                "file": "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md"
               }
             }
           }
@@ -151,45 +151,46 @@
   },
   "active": "3f8253f19c7c2654",
   "lastOpenFiles": [
+    "MD VERSIONS/z_images/Pasted image 20230622231849.png",
+    "MD VERSIONS/z_images/Pasted image 20230622231733.png",
+    "MD VERSIONS/z_images/Pasted image 20230622231701.png",
+    "MD VERSIONS/z_images/Pasted image 20230622231636.png",
+    "MD VERSIONS/z_images/Pasted image 20230622230753.png",
+    "MD VERSIONS/z_images/Pasted image 20230622224033.png",
+    "MD VERSIONS/z_images/Pasted image 20230622223127.png",
+    "MD VERSIONS/z_images/Pasted image 20230622221813.png",
+    "MD VERSIONS/z_images/Pasted image 20230622220720.png",
+    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+    "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md",
+    "MD VERSIONS/Data Management 2/Untitled.md",
+    "MD VERSIONS/Data Management 2/ER Model.md",
     "MD VERSIONS/Machine Learning/Neural Networks.md",
-    "MD VERSIONS/z_images/Pasted image 20230619195457.png",
-    "MD VERSIONS/z_images/Pasted image 20230619195448.png",
+    "MD VERSIONS/z_images/Pasted image 20230621200326.png",
+    "MD VERSIONS/z_images/Pasted image 20230621200143.png",
+    "MD VERSIONS/Machine Learning/Multi-Class Classification.md",
+    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
+    "MD VERSIONS/Machine Learning/PCA.md",
     "MD VERSIONS/Calculus/Chain Rule.md",
     "MD VERSIONS/Calculus/Partial derivatives.md",
     "MD VERSIONS/Machine Learning/Backpropagation.md",
-    "MD VERSIONS/Machine Learning/Multi-Class Classification.md",
-    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
     "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
     "MD VERSIONS/Machine Learning/Gradient Descent.md",
-    "MD VERSIONS/z_images/Pasted image 20230614193952.png",
-    "MD VERSIONS/z_images/Pasted image 20230614193938.png",
     "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
-    "MD VERSIONS/z_images/Pasted image 20230614134652.png",
-    "MD VERSIONS/z_images/Pasted image 20230614134640.png",
     "MD VERSIONS/Machine Learning/Linear Regression.md",
     "MD VERSIONS/Machine Learning/Kullback-Leibler divergence.md",
     "MD VERSIONS/Machine Learning/Logistic Regression.md",
     "MD VERSIONS/Machine Learning/Perceptron.md",
     "MD VERSIONS/Machine Learning/Polynomial Regression.md",
-    "MD VERSIONS/Machine Learning/PCA.md",
     "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
     "MD VERSIONS/Machine Learning/Sigmoid.md",
     "MD VERSIONS/Machine Learning/Sphering.md",
     "MD VERSIONS/Machine Learning/Generalized Linear Model.md",
-    "MD VERSIONS/Data Management 2/ER Model.md",
-    "MD VERSIONS/z_images/Pasted image 20230612144549.png",
-    "MD VERSIONS/z_images/Pasted image 20230612124457.png",
-    "MD VERSIONS/z_images/Pasted image 20230612123031.png",
-    "MD VERSIONS/z_images/Pasted image 20230612113504.png",
     "MD VERSIONS/Data Management 2",
     "MD VERSIONS/Machine Learning/Information Gain.md",
     "MD VERSIONS/Machine Learning/Cross-validation.md",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Generalized Linear Model.html",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Multi-Class Classification.html",
     "HTML VERSIONS/MD VERSIONS/Probability/Bernoulli distribution.html",
-    "MD VERSIONS/Statistics/Correlation coefficient.md",
-    "MD VERSIONS/Statistics/Central Limit Theorem.md",
-    "MD VERSIONS/Statistics/Covariance.md",
     "MD VERSIONS/z_images/coin-flip-simulation-3.gif.crdownload",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Sigmoid.html",
     "HTML VERSIONS/MD VERSIONS/Probability/Introduction to Probability.html",
