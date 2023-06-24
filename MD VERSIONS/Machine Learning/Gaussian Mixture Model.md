@@ -1,3 +1,7 @@
+---
+alias: GMM, GMMs, Gaussian Mixture Models
+---
+
 A Gaussian Mixture is a function composed by several [[Gaussian distribution|gaussian distributions]].
 If we have k clusters in our dataset, we will have k gaussians.
 

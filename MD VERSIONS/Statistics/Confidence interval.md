@@ -46,6 +46,7 @@ $$\large \text{Standard error}=\sqrt{\frac{0.82 \times 0.18}{1326}} = 0.011$$
 $$\large \text{Margin of error} = 1.96 \cdot 0.011=0.0215$$
 
 So the confidence interval would be
+
 $$\large CI_{95\%} = 0.82 ± 0.0215= [0,7985, 0,8415]$$
 
 > [!hint] How to interpret
@@ -54,8 +55,7 @@ $$\large CI_{95\%} = 0.82 ± 0.0215= [0,7985, 0,8415]$$
 > [!hint]
 > If sample size increases, the margin of error decreases, and thus the CI becomes narrower.
 
-> [!hint]
-> ### Describe the effect of [standard deviation](Standard%20Deviation.md), sample size and α on the confidence interval.
+> [!example] Effect of [standard deviation](Standard%20Deviation.md), sample size and α on the confidence interval.
 >  - lower standard deviation → lower margin of error → narrower CI 
 >  - higher standard deviation → higher margin of error → wider CI 
 >  - lower sample size → higher margin of error → wider CI 

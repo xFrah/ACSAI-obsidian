@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e3b40c2aa5fef560",
+        "id": "491a5b877127e24e",
         "type": "tabs",
         "children": [
           {
-            "id": "3f8253f19c7c2654",
+            "id": "16db0a7ca694f3e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md",
+                "file": "MD VERSIONS/Statistics/Significance Level.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md",
+                "file": "MD VERSIONS/Statistics/Significance Level.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md",
+                "file": "MD VERSIONS/Statistics/Significance Level.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md"
+                "file": "MD VERSIONS/Statistics/Significance Level.md"
               }
             }
           }
@@ -149,9 +149,42 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "3f8253f19c7c2654",
+  "active": "16db0a7ca694f3e7",
   "lastOpenFiles": [
+    "MD VERSIONS/Statistics/Significance Test.md",
+    "MD VERSIONS/Statistics/Significance Level.md",
+    "MD VERSIONS/Statistics/Mode.md",
+    "MD VERSIONS/Statistics/Median.md",
+    "MD VERSIONS/Statistics/Variable types.md",
+    "MD VERSIONS/Statistics/Variance.md",
+    "MD VERSIONS/Statistics/Z-score.md",
+    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
     "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md",
+    "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
+    "MD VERSIONS/Statistics/Association.md",
+    "MD VERSIONS/Statistics/Box plot.md",
+    "MD VERSIONS/Statistics/Confidence interval.md",
+    "MD VERSIONS/Statistics/Correlation coefficient.md",
+    "MD VERSIONS/Statistics/Covariance.md",
+    "MD VERSIONS/Statistics/Empirical rule.md",
+    "MD VERSIONS/Statistics/Estimation.md",
+    "MD VERSIONS/Statistics/Expected value.md",
+    "MD VERSIONS/Machine Learning/Perceptron.md",
+    "MD VERSIONS/Machine Learning/Polynomial Regression.md",
+    "MD VERSIONS/Machine Learning/Jacobian.md",
+    "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md",
+    "MD VERSIONS/Machine Learning/Expectation Maximization.md",
+    "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
+    "MD VERSIONS/AI-LAB/Contour detection.md",
+    "HTML VERSIONS/MD VERSIONS/Calculus/Chain Rule.html",
+    "HTML VERSIONS/MD VERSIONS/Data Management 2/ER Model.html",
+    "HTML VERSIONS/MD VERSIONS/Data Management 2",
+    "HTML VERSIONS/MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.html",
+    "HTML VERSIONS/MD VERSIONS/Machine Learning/Backpropagation.html",
+    "MD VERSIONS/z_images/Pasted image 20230623092547.png",
+    "MD VERSIONS/z_images/Pasted image 20230623090302.png",
+    "MD VERSIONS/z_images/Pasted image 20230623090251.png",
     "MD VERSIONS/z_images/Pasted image 20230622231849.png",
     "MD VERSIONS/z_images/Pasted image 20230622231733.png",
     "MD VERSIONS/z_images/Pasted image 20230622231701.png",
@@ -159,43 +192,11 @@
     "MD VERSIONS/z_images/Pasted image 20230622230753.png",
     "MD VERSIONS/z_images/Pasted image 20230622224033.png",
     "MD VERSIONS/z_images/Pasted image 20230622223127.png",
-    "MD VERSIONS/z_images/Pasted image 20230622221813.png",
-    "MD VERSIONS/z_images/Pasted image 20230622220720.png",
-    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
-    "MD VERSIONS/Data Management 2/Untitled.md",
-    "MD VERSIONS/Data Management 2/ER Model.md",
-    "MD VERSIONS/Machine Learning/Neural Networks.md",
-    "MD VERSIONS/z_images/Pasted image 20230621200326.png",
-    "MD VERSIONS/Machine Learning/Multi-Class Classification.md",
-    "MD VERSIONS/Machine Learning/Maximum Likelihood Principle.md",
-    "MD VERSIONS/Machine Learning/PCA.md",
-    "MD VERSIONS/Calculus/Chain Rule.md",
-    "MD VERSIONS/Calculus/Partial derivatives.md",
-    "MD VERSIONS/Machine Learning/Backpropagation.md",
-    "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
-    "MD VERSIONS/Machine Learning/Gradient Descent.md",
-    "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
-    "MD VERSIONS/Machine Learning/Linear Regression.md",
-    "MD VERSIONS/Machine Learning/Kullback-Leibler divergence.md",
-    "MD VERSIONS/Machine Learning/Logistic Regression.md",
-    "MD VERSIONS/Machine Learning/Perceptron.md",
-    "MD VERSIONS/Machine Learning/Polynomial Regression.md",
-    "MD VERSIONS/Machine Learning/Mahalanobis distance.md",
-    "MD VERSIONS/Machine Learning/Sigmoid.md",
-    "MD VERSIONS/Machine Learning/Sphering.md",
-    "MD VERSIONS/Machine Learning/Generalized Linear Model.md",
     "MD VERSIONS/Data Management 2",
-    "MD VERSIONS/Machine Learning/Information Gain.md",
-    "MD VERSIONS/Machine Learning/Cross-validation.md",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Generalized Linear Model.html",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Multi-Class Classification.html",
     "HTML VERSIONS/MD VERSIONS/Probability/Bernoulli distribution.html",
     "MD VERSIONS/z_images/coin-flip-simulation-3.gif.crdownload",
-    "HTML VERSIONS/MD VERSIONS/Machine Learning/Sigmoid.html",
-    "HTML VERSIONS/MD VERSIONS/Probability/Introduction to Probability.html",
-    "HTML VERSIONS/MD VERSIONS/Machine Learning/Perceptron.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Heuristics.html",
     "Machine Learning/Untitled.canvas"
   ]
 }

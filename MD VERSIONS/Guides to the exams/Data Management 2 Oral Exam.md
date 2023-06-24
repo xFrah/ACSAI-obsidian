@@ -106,10 +106,18 @@ For all columns:
 
 ![](../z_images/Pasted%20image%2020230622231849.png)
 
+
+### Alter table
+
+![](../z_images/Pasted%20image%2020230623090302.png)
+
+### Add constraint to column
+
+![](../z_images/Pasted%20image%2020230623092547.png)
+
 ---
 
 ## How to write a trigger
-
 
 ```sql
 CREATE TRIGGER trigger_name
@@ -117,6 +125,6 @@ AFTER UPDATE ON table
 FOR EACH ROW
 UPDATE table2
 SET column2 = NEW.column1
-WHERE table2.id = NEW.id 
+WHERE table2.id = NEW.id
 ```
 

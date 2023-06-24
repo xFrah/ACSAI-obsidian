@@ -6,7 +6,8 @@
     "z_images/",
     "MD VERSIONS/Guides to the exams/",
     "MD VERSIONS/Statistics/",
-    "MD VERSIONS/AI-LAB/"
+    "MD VERSIONS/AI-LAB/",
+    "MD VERSIONS/Data Management 2/"
   ],
   "newLinkFormat": "relative",
   "alwaysUpdateLinks": true,
