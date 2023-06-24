@@ -94,7 +94,7 @@ Then we proceed with [gradient descent](Gradient%20Descent.md).
 
 ## Learning the parameters... but faster
 
-Insteand of computing the derivatives by hand, we want to automate the process so that it can work with any loss function and can be more easily implemented.
+Instead of computing the derivatives by hand, we want to automate the process so that it can work with any loss function and can be more easily implemented.
 
 For these reasons we re-write everythign using the [chain rule](../Calculus/Chain%20Rule.md) of derivation.
 We have this fucking graph and every node is an operation.
@@ -102,12 +102,20 @@ We have this fucking graph and every node is an operation.
 ![](../z_images/Pasted%20image%2020230619195457.png)
 
 
-We want to derive $\mathcal{L}$, which is composed of $z$ and $q$.
+### 1. Starting the chain, base case
+
+We want to derive $\mathcal{L}$, which is composed of $z$ and $q$:
+
+$$\large \mathcal{L}(x,y,z) = q\cdot z$$
+
 So we compute the partial derivatives of $\mathcal{L}$ with respect to $q$ and with respect to $z$:
 
 $$\large\frac{\partial\mathcal{L}}{\partial q}=z, \frac{\partial\mathcal{L}}{\partial z}=q$$
 
-But we know that $q$ is actually a whole other function, so we have got to derive it aswell:
+
+### 2. Going down the chain
+
+But we know that $q$ is actually a whole other function $q(x, y)$, so we have got to derive it aswell with respect to its two inputs:
 
 $$\large\frac{\partial\mathcal{q}}{\partial x}=1, \frac{\partial\mathcal{q}}{\partial y}=1$$
 
@@ -115,9 +123,16 @@ We now have the derivatives of every piece of the graph:
 
 $$\large\frac{\partial\mathcal{L}}{\partial q}=z, \frac{\partial\mathcal{L}}{\partial z}=q, \frac{\partial\mathcal{q}}{\partial x}=1, \frac{\partial\mathcal{q}}{\partial y}=1$$
 
-Now we use the chain rule toD put it all together and take the derivative with respect to $x$:
+
+### 3. Put the chain together
+
+Now we use the chain rule to put it all together and take the derivative with respect to $x$:
 
 $$\large\frac{\partial\mathcal{L}(x,y,z)}{\partial x} =  \big(\underbracket{(\mathbf{x}+y)}_{q}z\big)^{\prime}=\frac{\partial\mathcal{L}}{\partial q}\frac{\partial q}{\partial x}$$
+
+So in this case the result would be:
+
+$$\large \frac{\partial\mathcal{L}}{\partial q}\frac{\partial q}{\partial x} = z \cdot 1$$
 
 > [!hint]
 > This is possible because we remember the chain rule...
