@@ -38,15 +38,13 @@ Where:
 ## How to compute
 
 Every variable that is not the variable we using gets turned into a constant.
-
 So if we want to take the derivative of...
 
 $$\large f(x,y) = y^3x^2$$
 
-... with respect to $x$:
+... with respect to $x$, we treat $y$ as a constant $c$ and use the usual derivation rules.
 
 $$\large\begin{align*}\frac{\partial f}{\partial x}(x) = 2c^3x.\end{align*}$$
-We treat $y^3$ as a constant $c$ and use the usual derivation rules.
 
 ---
 

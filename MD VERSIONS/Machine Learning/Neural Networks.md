@@ -8,11 +8,13 @@ We can use the linear [[Multi-Class Classification|soft-max regression]] to repr
 ## The single layer
 
 $$\large\underbracket{\mathbf{z}}_{\mathbb{R}^{Kx1}} = \underbracket{\mathbf{W}}_{\mathbb{R}^{K\times d}}\underbracket{\mathbf{x}}_{\mathbb{R}^{d\times1}} + \underbracket{\mathbf{b}}_{\mathbb{R}^K}$$
+
 Each row of the [matrix](../Linear%20Algebra/Matrix.md) W contains the parameters of the [hyperplane](../Linear%20Algebra/Hyperplanes.md) of one class.
 In other words, each row of W represents the feature that output neuron k is looking for.
 
 $$\large\mathbf{W} \mathbf{x}=\left(\begin{array}{c}-\text { neuron feature - } \\\vdots \\-\text { neuron feature }-\end{array}\right)\left(\begin{array}{c}\mid \\\mathbf{x} \\\mid\end{array}\right)$$
 
+$$\large\sigma(\mathbf{W} \mathbf{x}  + \boldsymbol{b})=\sigma \circ \begin{bmatrix} \underline{w_{11}} & \underline{w_{12}} & \cdots & \underline{w_{1 d}} \\ w_{21} & w_{22} & \cdots & w_{2 d} \\ \vdots & \cdots & \ddots & \vdots \\ w_{k 1} & w_{m 2} & \cdots & w_{k d} \end{bmatrix}  \begin{bmatrix} x_{1} \\ x_{2} \\ \vdots \\ x_{d} \end{bmatrix} +  \begin{bmatrix} b_{1} \\ b_{2} \\ \vdots \\ b_{k} \end{bmatrix}  =\sigma \circ \begin{bmatrix} z_{1} \\ z_{2} \\ \vdots \\ z_{k} \end{bmatrix}$$
 
 > [!info]
 > We are using the same technique of the Perceptron, we are just using a lot of them.
@@ -106,7 +108,7 @@ We have this fucking graph and every node is an operation.
 
 We want to derive $\mathcal{L}$, which is composed of $z$ and $q$:
 
-$$\large \mathcal{L}(x,y,z) = q\cdot z$$
+$$\large \mathcal{L}(x,y,z) = q\cdot z = (x+y)\cdot z$$
 
 So we compute the partial derivatives of $\mathcal{L}$ with respect to $q$ and with respect to $z$:
 
@@ -156,9 +158,7 @@ $$\large \frac{\partial\mathcal{L}}{\partial q}\frac{\partial q}{\partial x} = z
 > 
 > ![](../z_images/Pasted%20image%2020230621200004.png)
 > 
-> We want to minimize the function, but we have multiple variables so we change only one of them at a time, this time we are fixing everything but $z$.
-> 
-> What is the value of the gradient of $\mathcal{L}$ on $z$?
+> We want to minimize the function, but we have multiple variables so we change only one of them at a time, this time we are fixing everything but $z$:
 > 
 > $$\large\frac{\partial\mathcal{L}}{\partial z}= q = 3$$
 > 
@@ -167,5 +167,36 @@ $$\large \frac{\partial\mathcal{L}}{\partial q}\frac{\partial q}{\partial x} = z
 > Now we fix everything but $q$:
 > 
 > $$\large\frac{\partial\mathcal{L}}{\partial q}= z = -4$$
-> 
+>
 > ![](../z_images/Pasted%20image%2020230621200326.png)
+> 
+> $$\large\frac{\partial\mathcal{L}}{\partial y} = \frac{\partial\mathcal{L}}{\partial q}\frac{\partial q}{\partial y} = z\cdot 1= -4$$
+> $$\large\frac{\partial\mathcal{L}}{\partial x} = \frac{\partial\mathcal{L}}{\partial q}\frac{\partial q}{\partial x} = z\cdot 1= -4$$
+> 
+> ![](../z_images/Pasted%20image%2020230625105044.png)
+
+> [!example] Gradient of [SoftMax](Multi-Class%20Classification.md) + [Cross-Entropy](Cross-entropy.md) Loss
+> ![](../z_images/Pasted%20image%2020230625131211.png)
+> 
+> 
+> We want to get the gradient of the loss function with respect to the weights.
+> In order to do this, we use the chain rule on the graph above:
+> 
+> $$\large\frac{\partial\mathcal{L}}{\partial\mathbf{W}^1} = \frac{\partial\mathcal{L}}{\partial\mathbf{z}}\frac{\partial\mathbf{z}}{\partial\sigma}\frac{\partial\mathbf{\sigma}}{\partial\mathbf{h}}\frac{\partial\mathbf{h}}{\partial\mathbf{W}^1}$$
+> 
+> The first step is to compute the partial derivative of the loss function with respect to z, but what is our loss function?
+> Recall the softmax formula:
+> 
+> $$\large\text{softmax}_i(z) = \frac{e^{z_i}}{\sum_{k=1}^K e^{z_k}}= \hat{y}_i = p,\quad \text{cross-entropy} = -\sum_{x \in X} y_i\log \hat{y}_i$$
+> 
+> Based on these two functions, the loss function is:
+> 
+> $$\large\begin{split}\begin{aligned}\mathcal{L}(\mathbf{y}, \hat{\mathbf{y}}) &=  - \sum_{j=1}^q y_j \log \frac{e^{z_j}}{\sum_{k=1}^q e^{z_k}} \\&= \sum_{j=1}^q y_j \log \sum_{k=1}^q e^{z_k} - \sum_{j=1}^q y_j z_j\\&= \log \sum_{k=1}^q e^{z_k} - \sum_{j=1}^q y_j z_j.\end{aligned}\end{split}$$
+> 
+> Now, the next step is to take its derivative with respect to class $j$, which is equal to:
+> 
+> $$\large\frac{\partial\mathcal{L}}{\partial_{z_j}} (\mathbf{y}, \hat{\mathbf{y}}) = \frac{e^{z_j}}{\sum_{k=1}^q e^{z_k}} - y_j = \mathrm{softmax}(\mathbf{z})_j - y_j$$
+> 
+> $$\large p = [0.2,\;0.7, \;0.1]\quad y =[0, \;1, \;0]$$
+> $$\large \frac{\partial\mathcal{L}}{\partial z}  = [0.2, \;0.7-1, \;0.1] = [0.2, \;-0.3, \;0.1]$$
+> 

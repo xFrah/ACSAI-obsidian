@@ -1,3 +1,7 @@
+---
+alias: Softmax, Argmax
+---
+
 We use multiple [[Perceptron|Binary Classifiers]] to divide the space into multiple [hyperplanes](../Linear%20Algebra/Hyperplanes.md) representing different classes.
 
 ![](../z_images/Pasted%20image%2020230611134416.png)

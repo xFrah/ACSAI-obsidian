@@ -5,16 +5,17 @@ var(x) & cov(x, y) \\
 cov(x, y) & var(y)
 \end{bmatrix}$$
 
+
 ## How to compute it
-$$\large C_{i,j}=cov(D_i\,, \;D_j)$$where $D_i$ and $D_j$ are the variables/dimensions(ex. x and y).
+$$\large C_{i,j}=cov(D_i\,, \;D_j)$$Where $D_i$ and $D_j$ are the variables/dimensions(ex. x and y).
 Visually:
+
 $$\large C=\begin{bmatrix}
 cov(x, x) & cov(x, y) \\
 cov(x, y) & cov(y, y)
 \end{bmatrix}$$
 
 Since $\large cov(k, k)=var(k)$, the elements on the diagonal are all variances.
-
 An alternative formula that takes a whole matrix as input:
 
 $$\large C = \frac{XX^T}{1-n}$$
@@ -74,10 +75,12 @@ Fuck this, let's do something more interesting...
 ## Covariance matrix as a transformation
 
 As you may already know, if you multiply white data by a covariance matrix $\Sigma$:
-$$\large \Sigma = \begin{bmatrix}
+
+$$\LARGE \Sigma = \begin{bmatrix}
 1 & 0.7 \\
 0.7 & 1
 \end{bmatrix}$$
+
 The white data becomes a point cloud with correlated dimensions:
 
 ![](../z_images/Figure_3.png)

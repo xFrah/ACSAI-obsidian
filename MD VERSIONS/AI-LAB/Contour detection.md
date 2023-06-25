@@ -63,7 +63,6 @@ If the two sides have mostly the same values, the result is close to zero.
 We can also interpret this as a discrete derivative.
 ```
 
-
 ```ad-tip
 The operator * stands for "cross product", whichi is not really a cross product, we are just multiplying the elements in the same position and we are summing them. In this way we get a scalar.
 ```

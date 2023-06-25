@@ -1,5 +1,5 @@
 It is commonly used to quantify the difference between two [[Probability distribution|probability distributions]] in the [Kullback-Leibler divergence](Kullback-Leibler%20divergence.md).
-It is also used in machine learning to estimate the loss/error for categorical multi-class classification.
+It is also used in machine learning to estimate the loss/error for categorical [multi-class classification](Multi-Class%20Classification.md).
 
 The formula for cross-[[impurity functions|entropy]] is:
 
