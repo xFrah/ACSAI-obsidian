@@ -1,5 +1,5 @@
 ---
-alias: Entropy, Gini, Gini impurity
+alias: Gini, Gini impurity
 ---
 
 Measures impurity given a set of labels. They tell you how pure a set is.
@@ -8,7 +8,7 @@ Measures impurity given a set of labels. They tell you how pure a set is.
 We will cover a few impurity functions:
 - Missclassification
 - Gini Index
-- Entropy
+- [Entropy](Entropy.md)
 
 ---
 
@@ -93,7 +93,7 @@ For each class $k$, we multiply the probability of picking k($p_k$) and its comp
 
 ---
 
-## Entropy
+## [Entropy](Entropy.md)
 
 The entropy describes the degree of confusion in the set.
 Another way you can think of it, is that entropy describes how surprised we are when we pick a value from the set. (You wouldn't be very surprised if a dice had only 6s in it)

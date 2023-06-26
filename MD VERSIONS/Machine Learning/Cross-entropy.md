@@ -1,3 +1,7 @@
+---
+alias: Cross-entropy Loss, CE Loss
+---
+
 It is commonly used to quantify the difference between two [[Probability distribution|probability distributions]] in the [Kullback-Leibler divergence](Kullback-Leibler%20divergence.md).
 It is also used in machine learning to estimate the loss/error for categorical [multi-class classification](Multi-Class%20Classification.md).
 
@@ -20,7 +24,7 @@ $$\large H(x) = -\sum_{x \in X} p(x)\log q(x)$$
 
 > [!hint] Formula explanation
 > 
-> When we compute entropy of P(x), we are getting the **average number of bits that are used to represent the events** in P:
+> When we compute [entropy](Entropy.md) of P(x), we are getting the **average number of bits that are used to represent the events** in P:
 > - The weight/frequency of event x is given by P(x)
 > - The actual number of bits for any of these events is given by $\log p(x)$.
 > 

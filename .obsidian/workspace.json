@@ -19,17 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8be74a799115896e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,13 +86,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MD VERSIONS/Machine Learning/Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -111,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "MD VERSIONS/Machine Learning/Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -132,11 +125,12 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "MD VERSIONS/Machine Learning/Neural Networks.md"
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -154,10 +148,14 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "8be74a799115896e",
+  "active": "16db0a7ca694f3e7",
   "lastOpenFiles": [
-    "MD VERSIONS/Machine Learning/Cross-entropy.md",
+    "MD VERSIONS/Machine Learning/Gradient.md",
     "MD VERSIONS/Machine Learning/Neural Networks.md",
+    "MD VERSIONS/Machine Learning/Backpropagation.md",
+    "MD VERSIONS/Machine Learning/Entropy.md",
+    "MD VERSIONS/Machine Learning/Impurity functions.md",
+    "MD VERSIONS/Machine Learning/Cross-entropy.md",
     "MD VERSIONS/z_images/Pasted image 20230625131211.png",
     "MD VERSIONS/Guides to the exams/Statistics Exam.md",
     "MD VERSIONS/Machine Learning/Multi-Class Classification.md",
@@ -173,7 +171,6 @@
     "MD VERSIONS/Statistics/Variable types.md",
     "MD VERSIONS/Statistics/Normal distribution.md",
     "MD VERSIONS/Statistics/Sampling distributions.md",
-    "MD VERSIONS/Machine Learning/Backpropagation.md",
     "MD VERSIONS/Machine Learning/Basis Function.md",
     "MD VERSIONS/Machine Learning/Bayes Theorem.md",
     "MD VERSIONS/Machine Learning/Covariance matrix.md",
@@ -181,8 +178,6 @@
     "MD VERSIONS/Artificial Intelligence/Agent.md",
     "MD VERSIONS/Artificial Intelligence/BFS.md",
     "MD VERSIONS/Artificial Intelligence/Best-first search.md",
-    "MD VERSIONS/Artificial Intelligence/DFS.md",
-    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
     "HTML VERSIONS/MD VERSIONS/Calculus/Chain Rule.html",
     "HTML VERSIONS/MD VERSIONS/Data Management 2/ER Model.html",
     "HTML VERSIONS/MD VERSIONS/Data Management 2",

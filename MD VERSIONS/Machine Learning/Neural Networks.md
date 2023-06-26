@@ -175,28 +175,88 @@ $$\large \frac{\partial\mathcal{L}}{\partial q}\frac{\partial q}{\partial x} = z
 > 
 > ![](../z_images/Pasted%20image%2020230625105044.png)
 
-> [!example] Gradient of [SoftMax](Multi-Class%20Classification.md) + [Cross-Entropy](Cross-entropy.md) Loss
-> ![](../z_images/Pasted%20image%2020230625131211.png)
+---
+
+## Gradient of [SoftMax](Multi-Class%20Classification.md) + [Cross-Entropy Loss](Cross-entropy.md)
+
+
+![](../z_images/Pasted%20image%2020230625131211.png)
+
+
+We want to get the gradient of the loss function with respect to the weights.
+In order to do this, we use the chain rule on the graph above:
+
+$$\large\frac{\partial\mathcal{L}}{\partial\mathbf{W}^1} = \frac{\partial\mathcal{L}}{\partial\mathbf{z}}\frac{\partial\mathbf{z}}{\partial\sigma}\frac{\partial\mathbf{\sigma}}{\partial\mathbf{h}}\frac{\partial\mathbf{h}}{\partial\mathbf{W}^1}$$
+
+
+### 1) Defining $\mathcal{L}$
+
+The first step is to compute the partial derivative of the loss function with respect to z.
+
+> [!hint] What was $z$ again?
+> Remember that $z$ is the vector that contains the dot products between the inputs and every row of the weight matrix.
+> It basically contains the output values of the neurons.
 > 
+> $$\large k \;\text{classes} = k\; \text{output neurons} = z \;\text{has}\; k \;\text{elements}$$
+
+
+Recall the softmax formula:
+
+$$\large\text{softmax}_i(z) = \frac{e^{z_i}}{\sum_{k=1}^K e^{z_k}}= \hat{y}_i = p,\quad \text{cross-entropy} = -\sum_{x \in X} y_i\log \hat{y}_i$$
+
+> [!hint] What was softmax again?
+> The function softmax assigns decimal probabilities to each neuron/class in a multi-class problem.
 > 
-> We want to get the gradient of the loss function with respect to the weights.
-> In order to do this, we use the chain rule on the graph above:
+> $$\LARGE [-\infty, \;\infty] \rightarrow [0,\; 1]$$
 > 
-> $$\large\frac{\partial\mathcal{L}}{\partial\mathbf{W}^1} = \frac{\partial\mathcal{L}}{\partial\mathbf{z}}\frac{\partial\mathbf{z}}{\partial\sigma}\frac{\partial\mathbf{\sigma}}{\partial\mathbf{h}}\frac{\partial\mathbf{h}}{\partial\mathbf{W}^1}$$
+> It takes the vector $z$ as input and outputs a vector of same length $k$.
+
+
+Based on these two functions, the loss function is:
+
+$$\large\begin{split}\begin{aligned}\mathcal{L}(\mathbf{y}, \hat{\mathbf{y}}) &=  - \sum_{j=1}^q y_j \log \frac{e^{z_j}}{\sum_{k=1}^q e^{z_k}} \\&= \sum_{j=1}^q y_j \log \sum_{k=1}^q e^{z_k} - \sum_{j=1}^q y_j z_j\\&= \log \sum_{k=1}^q e^{z_k} - \sum_{j=1}^q y_j z_j.\end{aligned}\end{split}$$
+ 
+Now that we have the loss function, we can go down the chain.
+
+$$\large\frac{\partial\mathcal{L}}{\partial\mathbf{W}^1} = \frac{\partial\mathcal{L}}{\partial\mathbf{z}}\frac{\partial\mathbf{z}}{\partial\mathbf{W}^1}$$
+
+
+### 2) $\large\frac{\partial\mathcal{L}}{\partial\mathbf{z}} \rightarrow$ vector of length $k$
+
+We take the derivative of $\mathcal{L}$ with respect to class $j$, which is equal to:
+
+$$\large\frac{\partial\mathcal{L}}{\partial_{z_j}} (\mathbf{y}, \hat{\mathbf{y}}) = \frac{e^{z_j}}{\sum_{k=1}^q e^{z_k}} - y_j = \mathrm{softmax}(\mathbf{z})_j - y_j$$
+
+> [!example]
+> If we do that for every neuron, given the following predictions and ground truth...
 > 
-> The first step is to compute the partial derivative of the loss function with respect to z, but what is our loss function?
-> Recall the softmax formula:
+> $$\large \hat{y} = [0.2,\;0.7, \;0.1]\quad y =[0, \;1, \;0]$$
 > 
-> $$\large\text{softmax}_i(z) = \frac{e^{z_i}}{\sum_{k=1}^K e^{z_k}}= \hat{y}_i = p,\quad \text{cross-entropy} = -\sum_{x \in X} y_i\log \hat{y}_i$$
+> ... we get this:
+> $$\large \frac{\partial\mathcal{L}}{\partial z}  = [0.2, \;0.7-1, \;0.1] = \underbracket{[0.2, \;-0.3, \;0.1]}_{gradient}$$
 > 
-> Based on these two functions, the loss function is:
+
+> [!hint]
+> Since the output is a [vector](../Linear%20Algebra/Vectors.md) composed of [partial derivatives](../Calculus/Partial%20derivatives.md), we can call it a [gradient](Gradient.md)!
 > 
-> $$\large\begin{split}\begin{aligned}\mathcal{L}(\mathbf{y}, \hat{\mathbf{y}}) &=  - \sum_{j=1}^q y_j \log \frac{e^{z_j}}{\sum_{k=1}^q e^{z_k}} \\&= \sum_{j=1}^q y_j \log \sum_{k=1}^q e^{z_k} - \sum_{j=1}^q y_j z_j\\&= \log \sum_{k=1}^q e^{z_k} - \sum_{j=1}^q y_j z_j.\end{aligned}\end{split}$$
-> 
-> Now, the next step is to take its derivative with respect to class $j$, which is equal to:
-> 
-> $$\large\frac{\partial\mathcal{L}}{\partial_{z_j}} (\mathbf{y}, \hat{\mathbf{y}}) = \frac{e^{z_j}}{\sum_{k=1}^q e^{z_k}} - y_j = \mathrm{softmax}(\mathbf{z})_j - y_j$$
-> 
-> $$\large p = [0.2,\;0.7, \;0.1]\quad y =[0, \;1, \;0]$$
-> $$\large \frac{\partial\mathcal{L}}{\partial z}  = [0.2, \;0.7-1, \;0.1] = [0.2, \;-0.3, \;0.1]$$
-> 
+> $$\large\begin{bmatrix}
+\LARGE\frac{\partial \mathcal{L}}{\partial z_1} \\
+\LARGE\frac{\partial \mathcal{L}}{\partial z_2} \\
+\LARGE\vdots
+\end{bmatrix}$$
+
+
+We go further down the chain:
+
+$$\large\frac{\partial\mathcal{L}}{\partial\mathbf{W}^1} = \frac{\partial\mathcal{L}}{\partial\mathbf{z}}\frac{\partial\mathbf{z}}{\partial\mathbf{W}^1} \quad\rightarrow\quad \frac{\partial\mathcal{L}}{\partial\mathbf{z}}\underbracket{\frac{\partial\mathbf{z}}{\partial\mathbf{\sigma}}\frac{\partial\mathbf{\sigma}}{\partial\mathbf{W}^1}}_{\frac{\partial\mathbf{z}}{\partial\mathbf{W}^1}}$$
+
+### 3) $\large\frac{\partial z}{\partial\mathbf{\sigma}} \rightarrow$ ?
+
+We recall that
+
+$$\large\mathbf{z} = \mathbf{W}\sigma+\mathbf{b}$$
+
+So the derivative with respect to $\sigma$:
+
+$$\large \frac{\partial\mathbf{z}}{\partial\mathbf{\sigma}}=\mathbf{W}$$
+

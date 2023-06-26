@@ -1,6 +1,6 @@
 Information gain or **IG** measures how well a given attribute separates the training examples according to their target classification. 
 
-Constructing a decision tree is all about finding an attribute that returns the highest information gain and the smallest entropy.
+Constructing a decision tree is all about finding an attribute that returns the highest information gain and the smallest [entropy](Entropy.md).
 
 ![](../z_images/Pasted%20image%2020230519115645.png)
 
