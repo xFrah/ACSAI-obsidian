@@ -257,7 +257,7 @@ We go further down the chain:
 
 $$\large\frac{\partial\mathcal{L}}{\partial\mathbf{W}^1} = \frac{\partial\mathcal{L}}{\partial\mathbf{z}}\frac{\partial\mathbf{z}}{\partial\mathbf{W}^1} \quad\rightarrow\quad \frac{\partial\mathcal{L}}{\partial\mathbf{z}}\underbracket{\frac{\partial\mathbf{z}}{\partial\mathbf{\sigma}}\frac{\partial\mathbf{\sigma}}{\partial\mathbf{W}^1}}_{\frac{\partial\mathbf{z}}{\partial\mathbf{W}^1}}$$
 
-### 3) Gradient of Second layer $\large\frac{\partial z}{\partial\mathbf{\sigma}} \rightarrow$ matrix?
+### 3) Gradient of Second layer $\large\frac{\partial z}{\partial\mathbf{\sigma}} \rightarrow$ matrix
 
 We recall that
 
@@ -288,7 +288,7 @@ Since the output is a diagonal matrix/[jacobian](Jacobian.md) full of 0s, it is 
 > https://math.stackexchange.com/a/4081490
 
 
-### 5) Gradient of First layer $\frac{\partial\mathbf{h}}{\partial\mathbf{W}^1} \rightarrow$ 
+### 5) Gradient of First layer $\frac{\partial\mathbf{h}}{\partial\mathbf{W}^1} \rightarrow$ scalar/vector with one value
 
 Remember that here h returns a vector of scores for each class or feature of W.
 
@@ -300,7 +300,7 @@ $$\large \mathbf{h}_i = (\mathbf{W}_i)^T\mathbf{x}+b_i = \sum_j \mathbf{W}_{ij} 
 
 ... and we derive it:
 
-$$\large\frac{\partial h}{\partial \mathbf{W_{ij}}} = x_j$$
+$$\large\frac{\partial \mathbf{h}}{\partial \mathbf{W_{ij}}} = x_j$$
 
 > [!hint] Why this derivative?
 > Basically the dot product between $\mathbf{W_j}$ and $x$ is just doing this:
@@ -317,3 +317,7 @@ $$\large\frac{\partial h}{\partial \mathbf{W_{ij}}} = x_j$$
 ### Let's wrap it up
 
 ![](../z_images/Pasted%20image%2020230629183351.png)
+![](../z_images/Pasted%20image%2020230629234007.png)
+![](../z_images/Pasted%20image%2020230629234024.png)
+![](../z_images/Pasted%20image%2020230629234038.png)
+![](../z_images/Pasted%20image%2020230629234048.png)
