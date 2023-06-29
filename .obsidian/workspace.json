@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -130,7 +131,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -148,17 +150,20 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "16db0a7ca694f3e7",
+  "active": "3fbe08ad2a0b5f0f",
   "lastOpenFiles": [
     "MD VERSIONS/Machine Learning/Gradient.md",
     "MD VERSIONS/Machine Learning/Neural Networks.md",
+    "MD VERSIONS/Calculus/Chain Rule.md",
+    "MD VERSIONS/z_images/Pasted image 20230628141400.png",
+    "MD VERSIONS/z_images/Pasted image 20230628141245.png",
+    "MD VERSIONS/Machine Learning/Multi-Class Classification.md",
     "MD VERSIONS/Machine Learning/Backpropagation.md",
     "MD VERSIONS/Machine Learning/Entropy.md",
     "MD VERSIONS/Machine Learning/Impurity functions.md",
     "MD VERSIONS/Machine Learning/Cross-entropy.md",
     "MD VERSIONS/z_images/Pasted image 20230625131211.png",
     "MD VERSIONS/Guides to the exams/Statistics Exam.md",
-    "MD VERSIONS/Machine Learning/Multi-Class Classification.md",
     "MD VERSIONS/z_images/Pasted image 20230625105044.png",
     "MD VERSIONS/AI-LAB/Tokenizing.md",
     "MD VERSIONS/AI-LAB/Numpy.md",
@@ -177,7 +182,6 @@
     "MD VERSIONS/Artificial Intelligence/A-star.md",
     "MD VERSIONS/Artificial Intelligence/Agent.md",
     "MD VERSIONS/Artificial Intelligence/BFS.md",
-    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
     "HTML VERSIONS/MD VERSIONS/Calculus/Chain Rule.html",
     "HTML VERSIONS/MD VERSIONS/Data Management 2/ER Model.html",
     "HTML VERSIONS/MD VERSIONS/Data Management 2",
@@ -189,8 +193,6 @@
     "MD VERSIONS/z_images/Pasted image 20230622231849.png",
     "MD VERSIONS/z_images/Pasted image 20230622231733.png",
     "MD VERSIONS/z_images/Pasted image 20230622231701.png",
-    "MD VERSIONS/z_images/Pasted image 20230622231636.png",
-    "MD VERSIONS/z_images/Pasted image 20230622230753.png",
     "MD VERSIONS/Data Management 2",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Generalized Linear Model.html",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Multi-Class Classification.html",

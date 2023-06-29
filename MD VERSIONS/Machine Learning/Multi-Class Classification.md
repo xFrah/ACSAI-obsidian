@@ -69,7 +69,7 @@ In order to extract the prediction from the [matrix](../Linear%20Algebra/Matrix.
 
 ### Argmax
 
-If we use argmax to get the predicted class out of the output, for each point we just get the class:
+If we use argmax to get the predicted class out of the output, for each point we just get the class index:
 
 ![](../z_images/Pasted%20image%2020230611183202.png)
 
@@ -92,14 +92,14 @@ Above we can see the probability that the points belong to the third class.
 Let's reiterate, now we extract the predictions with softmax function $\sigma$ as follows:
 
 $$\large f_{\boldsymbol{\theta}}(\mathbf{x}) \doteq \boldsymbol{\sigma}\left(  \mathbf{W}\mathbf{X} + \mathbf{b} \right)$$
-with $\sigma$ being the softmax:
+with $\sigma$ being the softmax function:
 
 $$\large\boldsymbol{\sigma}_i(z)= \frac{e^{z_i}}{\sum_{k=1}^K e^{z_k}}$$
 
 > [!hint]
 > We model the probability of each class as:
 > 
-> $$\large\begin{cases}p(y=1\| \mathbf{x};\mathbf{W},\mathbf{b}) = p_1 = \boldsymbol{\sigma}_1\left(  \mathbf{W}\mathbf{X} + \mathbf{b} \right)\\p(y=2\| \mathbf{x};\mathbf{W},\mathbf{b}) = p_2 =  \boldsymbol{\sigma}_2\left(  \mathbf{W}\mathbf{X} + \mathbf{b} \right)\\\ldots \\p(y=K\| \mathbf{x};\mathbf{W},\mathbf{b}) = p_K =  \boldsymbol{\sigma}_K\left(  \mathbf{W}\mathbf{X} + \mathbf{b} \right)\\\end{cases}$$
+> $$\large\begin{cases}p(y=1\;|\; \mathbf{x};\mathbf{W},\mathbf{b}) = p_1 = \boldsymbol{\sigma}_1\left(  \mathbf{W}\mathbf{X} + \mathbf{b} \right)\\p(y=2\;|\; \mathbf{x};\mathbf{W},\mathbf{b}) = p_2 =  \boldsymbol{\sigma}_2\left(  \mathbf{W}\mathbf{X} + \mathbf{b} \right)\\\ldots \\p(y=K\;|\; \mathbf{x};\mathbf{W},\mathbf{b}) = p_K =  \boldsymbol{\sigma}_K\left(  \mathbf{W}\mathbf{X} + \mathbf{b} \right)\\\end{cases}$$
 > 
 
 

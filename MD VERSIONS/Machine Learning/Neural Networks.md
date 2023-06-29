@@ -94,11 +94,17 @@ Then we proceed with [gradient descent](Gradient%20Descent.md).
 
 ---
 
-## Learning the parameters... but faster
+## Backpropagation
 
 Instead of computing the derivatives by hand, we want to automate the process so that it can work with any loss function and can be more easily implemented.
 
-For these reasons we re-write everythign using the [chain rule](../Calculus/Chain%20Rule.md) of derivation.
+This method traverses the network in reverse order, from the output to the input layer, according to the [chain rule](../Calculus/Chain%20Rule.md) from calculus. 
+All the derivatives from before can be rewritten using the chain rule like this: 
+
+$$\large\frac{\partial\mathcal{L}}{\partial x} =  \big(\underbracket{(\mathbf{x}+y)}_{q}z\big)^{\prime}=\frac{\partial\mathcal{L}}{\partial q}\frac{\partial q}{\partial x}$$
+
+Since the chain rule computes the gradient of each intermediate variable and parameter ([partial derivatives](../Calculus/Partial%20derivatives.md)), it will also output the [gradients](Gradient.md) $\LARGE\frac{\partial\mathcal{L}}{\partial \mathbf{W}^1}$ and $\LARGE\frac{\partial\mathcal{L}}{\partial \mathbf{W}^2}$, which is what we need.
+
 We have this fucking graph and every node is an operation.
 
 ![](../z_images/Pasted%20image%2020230619195457.png)
@@ -183,6 +189,15 @@ $$\large \frac{\partial\mathcal{L}}{\partial q}\frac{\partial q}{\partial x} = z
 ![](../z_images/Pasted%20image%2020230625131211.png)
 
 
+Here is the list of layers:
+
+$$\large\text{Input layer} \quad\rightarrow\quad \mathbf{x}$$
+$$\large\text{First hidden layer} \quad\rightarrow\quad\mathbf{h} = \mathbf{Wx}+\mathbf{b}$$
+$$\large\text{Relu activation layer} \quad\rightarrow\quad \sigma(\mathbf{z})= \max(0,\,\mathbf{z})$$
+$$\large \text{Second hidden layer} \quad\rightarrow\quad\mathbf{z} = \mathbf{W}\sigma+\mathbf{b}$$
+$$\large\text{Softmax}\quad\rightarrow\quad\hat{y}=\frac{e^{z_i}}{\sum_{k=1}^K e^{z_k}}$$
+$$\large \text{Cross-entropy Loss} \quad\rightarrow\quad -\sum_{x \in X} y_i\log \hat{y}_i$$
+
 We want to get the gradient of the loss function with respect to the weights.
 In order to do this, we use the chain rule on the graph above:
 
@@ -190,15 +205,6 @@ $$\large\frac{\partial\mathcal{L}}{\partial\mathbf{W}^1} = \frac{\partial\mathca
 
 
 ### 1) Defining $\mathcal{L}$
-
-The first step is to compute the partial derivative of the loss function with respect to z.
-
-> [!hint] What was $z$ again?
-> Remember that $z$ is the vector that contains the dot products between the inputs and every row of the weight matrix.
-> It basically contains the output values of the neurons.
-> 
-> $$\large k \;\text{classes} = k\; \text{output neurons} = z \;\text{has}\; k \;\text{elements}$$
-
 
 Recall the softmax formula:
 
@@ -221,7 +227,7 @@ Now that we have the loss function, we can go down the chain.
 $$\large\frac{\partial\mathcal{L}}{\partial\mathbf{W}^1} = \frac{\partial\mathcal{L}}{\partial\mathbf{z}}\frac{\partial\mathbf{z}}{\partial\mathbf{W}^1}$$
 
 
-### 2) $\large\frac{\partial\mathcal{L}}{\partial\mathbf{z}} \rightarrow$ vector of length $k$
+### 2) Gradient of loss function $\large\frac{\partial\mathcal{L}}{\partial\mathbf{z}} \rightarrow$ vector of length $k$
 
 We take the derivative of $\mathcal{L}$ with respect to class $j$, which is equal to:
 
@@ -250,7 +256,7 @@ We go further down the chain:
 
 $$\large\frac{\partial\mathcal{L}}{\partial\mathbf{W}^1} = \frac{\partial\mathcal{L}}{\partial\mathbf{z}}\frac{\partial\mathbf{z}}{\partial\mathbf{W}^1} \quad\rightarrow\quad \frac{\partial\mathcal{L}}{\partial\mathbf{z}}\underbracket{\frac{\partial\mathbf{z}}{\partial\mathbf{\sigma}}\frac{\partial\mathbf{\sigma}}{\partial\mathbf{W}^1}}_{\frac{\partial\mathbf{z}}{\partial\mathbf{W}^1}}$$
 
-### 3) $\large\frac{\partial z}{\partial\mathbf{\sigma}} \rightarrow$ ?
+### 3) Gradient of Second layer $\large\frac{\partial z}{\partial\mathbf{\sigma}} \rightarrow$ matrix?
 
 We recall that
 
@@ -259,4 +265,19 @@ $$\large\mathbf{z} = \mathbf{W}\sigma+\mathbf{b}$$
 So the derivative with respect to $\sigma$:
 
 $$\large \frac{\partial\mathbf{z}}{\partial\mathbf{\sigma}}=\mathbf{W}$$
+
+### 4) Gradient of ReLu $\large\frac{\partial \sigma}{\partial\mathbf{h}} \rightarrow$ ???
+
+$$\large\frac{\partial\mathbf{\sigma}}{\partial \mathbf{h}} = \operatorname{diag(\{0,1\}_{ii})}$$
+
+> [!hint] What was $\sigma$ again?
+> $$\large\sigma(z)= \max(0,\,z) \quad \text{ReLu}$$
+> 
+> ![](../z_images/Pasted%20image%2020230628141400.png)
+> 
+> It outputs a vector of length $k$, same as vector $z$.
+
+
+
+### 5) Gradient of First layer $\frac{\partial\mathbf{h}}{\partial\mathbf{W}^1} \rightarrow$ ???
 
