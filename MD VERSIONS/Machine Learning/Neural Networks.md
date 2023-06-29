@@ -103,7 +103,8 @@ All the derivatives from before can be rewritten using the chain rule like this:
 
 $$\large\frac{\partial\mathcal{L}}{\partial x} =  \big(\underbracket{(\mathbf{x}+y)}_{q}z\big)^{\prime}=\frac{\partial\mathcal{L}}{\partial q}\frac{\partial q}{\partial x}$$
 
-Since the chain rule computes the gradient of each intermediate variable and parameter ([partial derivatives](../Calculus/Partial%20derivatives.md)), it will also output the [gradients](Gradient.md) $\LARGE\frac{\partial\mathcal{L}}{\partial \mathbf{W}^1}$ and $\LARGE\frac{\partial\mathcal{L}}{\partial \mathbf{W}^2}$, which is what we need.
+Since the chain rule computes the gradient of each intermediate variable and parameter ([partial derivatives](../Calculus/Partial%20derivatives.md)), it will also output the [gradients](Gradient.md) $\LARGE\frac{\partial\mathcal{L}}{\partial \mathbf{W}^1}$ and $\LARGE\frac{\partial\mathcal{L}}{\partial \mathbf{W}^2}$, which is exactly what we need.
+
 
 We have this fucking graph and every node is an operation.
 
@@ -192,9 +193,9 @@ $$\large \frac{\partial\mathcal{L}}{\partial q}\frac{\partial q}{\partial x} = z
 Here is the list of layers:
 
 $$\large\text{Input layer} \quad\rightarrow\quad \mathbf{x}$$
-$$\large\text{First hidden layer} \quad\rightarrow\quad\mathbf{h} = \mathbf{Wx}+\mathbf{b}$$
+$$\large\text{First hidden layer} \quad\rightarrow\quad\mathbf{h} = \mathbf{W^1x}+\mathbf{b^1}$$
 $$\large\text{Relu activation layer} \quad\rightarrow\quad \sigma(\mathbf{z})= \max(0,\,\mathbf{z})$$
-$$\large \text{Second hidden layer} \quad\rightarrow\quad\mathbf{z} = \mathbf{W}\sigma+\mathbf{b}$$
+$$\large \text{Second hidden layer} \quad\rightarrow\quad\mathbf{z} = \mathbf{W^2}\sigma+\mathbf{b^2}$$
 $$\large\text{Softmax}\quad\rightarrow\quad\hat{y}=\frac{e^{z_i}}{\sum_{k=1}^K e^{z_k}}$$
 $$\large \text{Cross-entropy Loss} \quad\rightarrow\quad -\sum_{x \in X} y_i\log \hat{y}_i$$
 
@@ -227,11 +228,11 @@ Now that we have the loss function, we can go down the chain.
 $$\large\frac{\partial\mathcal{L}}{\partial\mathbf{W}^1} = \frac{\partial\mathcal{L}}{\partial\mathbf{z}}\frac{\partial\mathbf{z}}{\partial\mathbf{W}^1}$$
 
 
-### 2) Gradient of loss function $\large\frac{\partial\mathcal{L}}{\partial\mathbf{z}} \rightarrow$ vector of length $k$
+### 2) Gradient of Loss function $\large\frac{\partial\mathcal{L}}{\partial\mathbf{z}} \rightarrow$ vector of length $k$
 
 We take the derivative of $\mathcal{L}$ with respect to class $j$, which is equal to:
 
-$$\large\frac{\partial\mathcal{L}}{\partial_{z_j}} (\mathbf{y}, \hat{\mathbf{y}}) = \frac{e^{z_j}}{\sum_{k=1}^q e^{z_k}} - y_j = \mathrm{softmax}(\mathbf{z})_j - y_j$$
+$$\large\frac{\partial\mathcal{L}}{\partial_{z_j}} (\mathbf{y}, \hat{\mathbf{y}} \,\text{or z}) = \frac{e^{z_j}}{\sum_{k=1}^q e^{z_k}} - y_j = \mathrm{softmax}(\mathbf{z})_j - y_j$$
 
 > [!example]
 > If we do that for every neuron, given the following predictions and ground truth...
@@ -266,9 +267,15 @@ So the derivative with respect to $\sigma$:
 
 $$\large \frac{\partial\mathbf{z}}{\partial\mathbf{\sigma}}=\mathbf{W}$$
 
-### 4) Gradient of ReLu $\large\frac{\partial \sigma}{\partial\mathbf{h}} \rightarrow$ ???
+### 4) Gradient of ReLu $\large\frac{\partial \sigma}{\partial\mathbf{h}} \rightarrow$ vector/diagonal matrix of {0, 1}
+
+The derivative of ReLu is a diagonal matrix that can only have 0 and 1s on the diagonal:
 
 $$\large\frac{\partial\mathbf{\sigma}}{\partial \mathbf{h}} = \operatorname{diag(\{0,1\}_{ii})}$$
+
+Since the output is a diagonal matrix/[jacobian](Jacobian.md) full of 0s, it is not implemented as a full matrix in practice but as **the diagonal vector**, because it would be very memory-inefficient.
+
+![](../z_images/Pasted%20image%2020230629110500.png)
 
 > [!hint] What was $\sigma$ again?
 > $$\large\sigma(z)= \max(0,\,z) \quad \text{ReLu}$$
@@ -277,7 +284,24 @@ $$\large\frac{\partial\mathbf{\sigma}}{\partial \mathbf{h}} = \operatorname{diag
 > 
 > It outputs a vector of length $k$, same as vector $z$.
 
+> [!faq] Wtf? Why?
+> https://math.stackexchange.com/a/4081490
 
 
 ### 5) Gradient of First layer $\frac{\partial\mathbf{h}}{\partial\mathbf{W}^1} \rightarrow$ ???
 
+Remember that here h returns a vector of scores for each class or feature of W.
+
+$$\large\mathbf{h} = \mathbf{W}\mathbf{x}+\mathbf{b}$$
+
+Instead of considering the whole vector, we take the function for a single score/element of h...
+
+$$\large \mathbf{h}_i = (\mathbf{W}_i)^T\mathbf{x}+b = \sum_j \mathbf{W}_{ij} x_j + \mathbf{b}_i$$
+
+... and we derive it:
+
+$$\large\frac{\partial h}{\partial \mathbf{W_\text{row}}} = x_j$$
+
+![](../z_images/Pasted%20image%2020230629145859.png)
+
+![](../z_images/Pasted%20image%2020230629183351.png)
