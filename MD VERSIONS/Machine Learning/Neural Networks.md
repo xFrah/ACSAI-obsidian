@@ -288,7 +288,7 @@ Since the output is a diagonal matrix/[jacobian](Jacobian.md) full of 0s, it is 
 > https://math.stackexchange.com/a/4081490
 
 
-### 5) Gradient of First layer $\frac{\partial\mathbf{h}}{\partial\mathbf{W}^1} \rightarrow$ ???
+### 5) Gradient of First layer $\frac{\partial\mathbf{h}}{\partial\mathbf{W}^1} \rightarrow$ 
 
 Remember that here h returns a vector of scores for each class or feature of W.
 
@@ -296,12 +296,24 @@ $$\large\mathbf{h} = \mathbf{W}\mathbf{x}+\mathbf{b}$$
 
 Instead of considering the whole vector, we take the function for a single score/element of h...
 
-$$\large \mathbf{h}_i = (\mathbf{W}_i)^T\mathbf{x}+b = \sum_j \mathbf{W}_{ij} x_j + \mathbf{b}_i$$
+$$\large \mathbf{h}_i = (\mathbf{W}_i)^T\mathbf{x}+b_i = \sum_j \mathbf{W}_{ij} x_j + \mathbf{b}_i$$
 
 ... and we derive it:
 
-$$\large\frac{\partial h}{\partial \mathbf{W_\text{row}}} = x_j$$
+$$\large\frac{\partial h}{\partial \mathbf{W_{ij}}} = x_j$$
 
-![](../z_images/Pasted%20image%2020230629145859.png)
+> [!hint] Why this derivative?
+> Basically the dot product between $\mathbf{W_j}$ and $x$ is just doing this:
+> 
+> $$\large\mathbf{h}_i=\sum_j\mathbf{W_{ij} x_j}\quad\rightarrow\quad \mathbf{W}_{i,0} \cdot x_0 + \mathbf{W}_{i,1} \cdot x_1 + \dots + \mathbf{W}_{i,n}\cdot x_n$$
+> 
+> If we take the derivative with respect to a single $\mathbf{W_j}$, all the products/constants are turned into 0s, and we are left with a single element of the form $\mathbf{W_j} \cdot x_j$, then we turn $\mathbf{W_j}$ into a 1 and all that remains is $x_j$.
+> 
+> $$\large\frac{\partial\mathbf{h}}{\partial\mathbf{W}_{ij}} = \begin{bmatrix}           \quad \LARGE\frac{\partial\mathbf{h}_0}{\partial\mathbf{W}_{ij}} \large= 0 + \dots + 0\quad \\           \LARGE\frac{\partial\mathbf{h}_1}{\partial\mathbf{W}_{ij}} \large= 0 + \dots + 0 \\           \vdots \\           \LARGE\frac{\partial\mathbf{h}_i}{\partial\mathbf{W}_{ij}} \large= 0+x_{j}+0\\            \vdots \\            \LARGE\frac{\partial\mathbf{h}_n}{\partial\mathbf{W}_{ij}} \large=0 + \dots + 0         \end{bmatrix} \qquad \frac{\partial\mathbf{h}}{\partial\mathbf{W}_{ij}} = \begin{bmatrix}           0 \\           0 \\           \vdots \\           x_{j}~~i^{\text{th}} \text{row}\\            \vdots \\            0         \end{bmatrix}$$
+> 
+> ![](../z_images/Pasted%20image%2020230629145859.png)
+
+
+### Let's wrap it up
 
 ![](../z_images/Pasted%20image%2020230629183351.png)
