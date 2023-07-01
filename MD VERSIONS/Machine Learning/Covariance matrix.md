@@ -18,7 +18,7 @@ cov(x, y) & cov(y, y)
 Since $\large cov(k, k)=var(k)$, the elements on the diagonal are all variances.
 An alternative formula that takes a whole matrix as input:
 
-$$\large C = \frac{XX^T}{1-n}$$
+$$\large C = \frac{XX^T}{n-1}$$
 
 ```ad-example
 Take this sample data, the variables are x and y:
@@ -34,7 +34,7 @@ Take this sample data, the variables are x and y:
 <br>
 
 
-Let's actually compute it using the formula $\large C = \frac{XX^T}{1-n}$:
+Let's actually compute it using the formula $\large C = \frac{XX^T}{n-1}$:
 
 <br>
 

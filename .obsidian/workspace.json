@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Neural Networks.md",
+                "file": "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20352d9519dcc1d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Linear Algebra/Matrix.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Neural Networks.md",
+                "file": "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Neural Networks.md",
+                "file": "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Neural Networks.md"
+                "file": "MD VERSIONS/Guides to the exams/Machine Learning Exam.md"
               }
             }
           }
@@ -149,8 +163,25 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "16db0a7ca694f3e7",
+  "active": "62c9edd83bcceed7",
   "lastOpenFiles": [
+    "MD VERSIONS/z_images/Pasted image 20230701155847.png",
+    "MD VERSIONS/z_images/Pasted image 20230701134902.png",
+    "MD VERSIONS/Machine Learning/Covariance matrix.md",
+    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+    "MD VERSIONS/Linear Algebra/Matrix.md",
+    "MD VERSIONS/z_images/Pasted image 20230701131332.png",
+    "MD VERSIONS/z_images/Pasted image 20230701131314.png",
+    "MD VERSIONS/z_images/Pasted image 20230701120225.png",
+    "MD VERSIONS/z_images/Pasted image 20230701120152.png",
+    "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md",
+    "MD VERSIONS/Machine Learning/Neural Networks.md",
+    "MD VERSIONS/Machine Learning/PCA.md",
+    "MD VERSIONS/Machine Learning/K-means.md",
+    "MD VERSIONS/Machine Learning/K-Nearest Neighbors.md",
+    "MD VERSIONS/Linear Algebra/Hyperplanes.md",
+    "MD VERSIONS/Machine Learning/Multi-Class Classification.md",
+    "MD VERSIONS/Machine Learning/Perceptron.md",
     "MD VERSIONS/AI-LAB/Contour detection.md",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Entropy.html",
     "MD VERSIONS/AI-LAB/Convolution.md",
@@ -166,28 +197,11 @@
     "MD VERSIONS/Artificial Intelligence/BFS.md",
     "MD VERSIONS/Artificial Intelligence/Environment.md",
     "MD VERSIONS/Artificial Intelligence/Heuristics.md",
-    "MD VERSIONS/Artificial Intelligence/Functions.md",
-    "MD VERSIONS/Artificial Intelligence/Graph.md",
-    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
-    "MD VERSIONS/Artificial Intelligence/Set theory.md",
-    "MD VERSIONS/Calculus/Partial derivatives.md",
-    "MD VERSIONS/Calculus/Chain Rule.md",
-    "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md",
-    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
-    "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
-    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
-    "MD VERSIONS/Linear Algebra/Dot product.md",
-    "MD VERSIONS/Linear Algebra/Eigenvectors and Eigenvalues.md",
     "MD VERSIONS/z_images/Pasted image 20230629234048.png",
     "MD VERSIONS/z_images/Pasted image 20230629234038.png",
     "MD VERSIONS/z_images/Pasted image 20230629234024.png",
     "MD VERSIONS/z_images/Pasted image 20230629234007.png",
     "MD VERSIONS/z_images/Pasted image 20230629183351.png",
-    "MD VERSIONS/z_images/Pasted image 20230629183320.png",
-    "MD VERSIONS/z_images/Pasted image 20230629145859.png",
-    "MD VERSIONS/z_images/Pasted image 20230629145520.png",
-    "MD VERSIONS/z_images/Pasted image 20230629145513.png",
-    "MD VERSIONS/z_images/Pasted image 20230629145105.png",
     "HTML VERSIONS/MD VERSIONS/Calculus/Chain Rule.html",
     "HTML VERSIONS/MD VERSIONS/Data Management 2/ER Model.html",
     "HTML VERSIONS/MD VERSIONS/Data Management 2",

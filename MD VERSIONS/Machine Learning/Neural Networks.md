@@ -7,10 +7,12 @@ We can use the linear [[Multi-Class Classification|soft-max regression]] to repr
 
 ## The single layer
 
+We use $k$ Perceptrons to give scores to $k$ classes based on the input $\mathbf{x}$.
+
 $$\large\underbracket{\mathbf{z}}_{\mathbb{R}^{Kx1}} = \underbracket{\mathbf{W}}_{\mathbb{R}^{K\times d}}\underbracket{\mathbf{x}}_{\mathbb{R}^{d\times1}} + \underbracket{\mathbf{b}}_{\mathbb{R}^K}$$
 
-Each row of the [matrix](../Linear%20Algebra/Matrix.md) W contains the parameters of the [hyperplane](../Linear%20Algebra/Hyperplanes.md) of one class.
-In other words, each row of W represents the feature that output neuron k is looking for.
+Each row of the [matrix](../Linear%20Algebra/Matrix.md) W contains the parameters of the [hyperplane](../Linear%20Algebra/Hyperplanes.md) of one class/Perceptron.
+In other words, each row of W represents the feature that output neuron $z_i$ is looking for.
 
 $$\large\mathbf{W} \mathbf{x}=\left(\begin{array}{c}-\text { neuron feature - } \\\vdots \\-\text { neuron feature }-\end{array}\right)\left(\begin{array}{c}\mid \\\mathbf{x} \\\mid\end{array}\right)$$
 
@@ -29,14 +31,15 @@ $$\large\sigma(\mathbf{W} \mathbf{x}  + \boldsymbol{b})=\sigma \circ \begin{bmat
 
 ---
 
+
 ## Adding layers
 
-We can add other layers to improve the expressivenes of our graph.
+We can add other layers of Perceptrons to improve the expressivenes of our graph.
 
 ![](../z_images/Pasted%20image%2020230614134652.png)
 
 
-By doing this, in the last layer we are basically classifying the features $\phi(x)$ picked up by the hidden layer.
+By doing this, in the second layer we are basically classifying the features $\phi(x)$ picked up by the first hidden layer.
 
 $$\large\mathbf{p}=\sigma(\mathbf{W}^2\underbracket{\left(\sigma(\mathbf{W}^1 \mathbf{x}  + \boldsymbol{b}^1) \right)}_{\boldsymbol{\phi}(x)}   + \boldsymbol{b}^2)$$
 or, with more layers:
@@ -59,6 +62,7 @@ $$\large \begin{aligned}
 
 ---
 
+
 ## Initialization
 
 Why can't you just put all the weights to 0 or another constant value? 
@@ -71,6 +75,7 @@ Because if every neuron in a layer is the same, they all contribute equally to t
 So we need an asymmetric initialization, randomness breaks the symmetric so that each neuron learns different things (gradients updates are different).
 
 ---
+
 
 ## Learning the parameters
 
@@ -94,11 +99,13 @@ Then we proceed with [gradient descent](Gradient%20Descent.md).
 
 ---
 
+
 ## Backpropagation
 
 Instead of computing the derivatives by hand, we want to automate the process so that it can work with any loss function and can be more easily implemented.
 
 This method traverses the network in reverse order, from the output to the input layer, according to the [chain rule](../Calculus/Chain%20Rule.md) from calculus. 
+
 All the derivatives from before can be rewritten using the chain rule like this: 
 
 $$\large\frac{\partial\mathcal{L}}{\partial x} =  \big(\underbracket{(\mathbf{x}+y)}_{q}z\big)^{\prime}=\frac{\partial\mathcal{L}}{\partial q}\frac{\partial q}{\partial x}$$
@@ -106,7 +113,7 @@ $$\large\frac{\partial\mathcal{L}}{\partial x} =  \big(\underbracket{(\mathbf{x}
 Since the chain rule computes the gradient of each intermediate variable and parameter ([partial derivatives](../Calculus/Partial%20derivatives.md)), it will also output the [gradients](Gradient.md) $\LARGE\frac{\partial\mathcal{L}}{\partial \mathbf{W}^1}$ and $\LARGE\frac{\partial\mathcal{L}}{\partial \mathbf{W}^2}$, which is exactly what we need.
 
 
-We have this fucking graph and every node is an operation.
+We have this fucking graph and every node is an operation/nested function.
 
 ![](../z_images/Pasted%20image%2020230619195457.png)
 
@@ -183,6 +190,7 @@ $$\large \frac{\partial\mathcal{L}}{\partial q}\frac{\partial q}{\partial x} = z
 > ![](../z_images/Pasted%20image%2020230625105044.png)
 
 ---
+
 
 ## Gradient of [SoftMax](Multi-Class%20Classification.md) + [Cross-Entropy Loss](Cross-entropy.md)
 
@@ -303,7 +311,7 @@ $$\large \mathbf{h}_i = (\mathbf{W}_i)^T\mathbf{x}+b_i = \sum_j \mathbf{W}_{ij} 
 $$\large\frac{\partial \mathbf{h}}{\partial \mathbf{W_{ij}}} = x_j$$
 
 > [!hint] Why this derivative?
-> Basically the dot product between $\mathbf{W_j}$ and $x$ is just doing this:
+> Basically the [dot product](../Linear%20Algebra/Dot%20product.md) between $\mathbf{W_j}$ and $x$ is just doing this:
 > 
 > $$\large\mathbf{h}_i=\sum_j\mathbf{W_{ij} x_j}\quad\rightarrow\quad \mathbf{W}_{i,0} \cdot x_0 + \mathbf{W}_{i,1} \cdot x_1 + \dots + \mathbf{W}_{i,n}\cdot x_n$$
 > 

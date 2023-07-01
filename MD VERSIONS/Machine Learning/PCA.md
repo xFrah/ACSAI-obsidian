@@ -160,7 +160,7 @@ Here he eliminated one of the two matrices from the formula. We just eliminate t
 ```
 
 
-Let's say we wanna go through with the Spectral decomposition.
+Let's say we wanna go through with Spectral decomposition.
 We compute the [spectral decomposition](../Linear%20Algebra/Spectral%20decomposition.md) of the [covariance matrix](Covariance%20matrix.md):
 
 $$\large \frac{1}{N}X^T X=U \Sigma U^T$$
