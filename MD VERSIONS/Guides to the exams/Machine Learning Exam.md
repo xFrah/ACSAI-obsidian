@@ -224,3 +224,41 @@ In Masi's words:
 $$\large\gamma_{k} =\frac{
  \mathcal{N}(x_i;\mu_k,\Sigma_k)\cdot\pi_k}
 {\sum_j\mathcal{N}(x_i;\mu_j,\Sigma_j)\cdot\pi_j}$$
+
+The exercise is telling us that at $x=0$, each gaussian has the same height, they just have different mixing coefficients.
+
+$$\large\gamma_{k} =\frac{
+ 0.95\cdot\pi_k}
+{\sum_{j}0.95\cdot\pi_j}$$
+
+So the responsibilities are just the mixing coefficients.
+
+---
+
+
+![](../z_images/Pasted%20image%2020230702204630.png)
+
+
+### Generate 10K samples from the GMM and reproject them
+
+In this case, after PCA we are left with 10k images in the form of vector of 50 pixels that can have value in between [0, 255].
+
+But Masi also gives us the mean of the original images and the U matrix used to compress them.
+
+> [!hint]
+> This is useful because we can reverse the process and get a compressed version of the original images.
+
+
+If we want to generate those samples using a GMM, **repeat the following process 10K times**:
+
+1. By using inverse transform sampljng on the cumulative mass function of the mixing coefficients, we select which digit we want to generate.
+
+> [!hint]
+> This is because the gaussians don't have all the same size, so some are more probable to be picked or more present in the GMM.
+> 
+> To solve this, we do a weighted random pick of the gaussian.
+
+2. We sample from the selected gaussian.
+3. We reproject the sampled image from the subspace to its original dimensions by multiplying it by $U^T$ and adding $\mu_\text{pca}$.
+
+![](../z_images/Pasted%20image%2020230703000945.png)
