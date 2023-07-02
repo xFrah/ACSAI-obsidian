@@ -1,3 +1,5 @@
+## Exercise 1
+
 ![](../z_images/Pasted%20image%2020230701120225.png)
 
 ### What is the dimensionality of the samples in the design [matrix](../Linear%20Algebra/Matrix.md)?
@@ -97,3 +99,69 @@ $$\large= \frac{1}{4}\begin{bmatrix}
 7. We add the mean back to all the points.
 
 ![](../z_images/Pasted%20image%2020230701155847.png)
+
+
+### What happens to the covariance matrix
+
+The variance stays the same but the covariance changes sign:
+
+```
+[[1 -0.8]
+ [-0.8 1]]
+ 
+[[1 0.8]
+ [0.8 1]]
+```
+
+
+### What happens to the determinant
+
+The absolute value of the determinant doesn't change at all because the space doesn't get stretched or shrinked, just rotated.
+
+
+### Increase the PCs by 5%
+
+Whe need to apply a stretching transformation after step 4.
+In order to do that, we need to change the basis vectors with something 5% bigger.
+
+$$\large \begin{bmatrix}
+1 & 0 \\
+0 & 1
+\end{bmatrix} = \begin{bmatrix}
+1.05 & 0 \\
+0 & 1.05
+\end{bmatrix}$$
+---
+
+
+![](../z_images/Pasted%20image%2020230702115237.png)
+
+
+### Explain why it's bad to use PCA in this case
+
+The classifier won't work, because we are projecting the data in a dimension where the classifier can't tell a difference between the two classes.
+
+These will be the 2 principal components.
+
+![](../z_images/Pasted%20image%2020230702120305.png)
+
+
+If we project all data on the first PC, we get something like this:
+
+![](../z_images/Pasted%20image%2020230702120808.png)
+
+
+You can't distinguish classes in this scatterplot.
+
+
+### What would make the classifier work?
+
+Killing the first principal component and projecting everything on the second.
+
+---
+
+
+## Exercise 2
+
+![](../z_images/Pasted%20image%2020230702121045.png)
+

@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -163,8 +162,12 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "62c9edd83bcceed7",
+  "active": "16db0a7ca694f3e7",
   "lastOpenFiles": [
+    "MD VERSIONS/z_images/Pasted image 20230702121045.png",
+    "MD VERSIONS/z_images/Pasted image 20230702120808.png",
+    "MD VERSIONS/z_images/Pasted image 20230702120305.png",
+    "MD VERSIONS/z_images/Pasted image 20230702115237.png",
     "MD VERSIONS/z_images/Pasted image 20230701155847.png",
     "MD VERSIONS/z_images/Pasted image 20230701134902.png",
     "MD VERSIONS/Machine Learning/Covariance matrix.md",
@@ -198,10 +201,6 @@
     "MD VERSIONS/Artificial Intelligence/Environment.md",
     "MD VERSIONS/Artificial Intelligence/Heuristics.md",
     "MD VERSIONS/z_images/Pasted image 20230629234048.png",
-    "MD VERSIONS/z_images/Pasted image 20230629234038.png",
-    "MD VERSIONS/z_images/Pasted image 20230629234024.png",
-    "MD VERSIONS/z_images/Pasted image 20230629234007.png",
-    "MD VERSIONS/z_images/Pasted image 20230629183351.png",
     "HTML VERSIONS/MD VERSIONS/Calculus/Chain Rule.html",
     "HTML VERSIONS/MD VERSIONS/Data Management 2/ER Model.html",
     "HTML VERSIONS/MD VERSIONS/Data Management 2",
