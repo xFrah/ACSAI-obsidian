@@ -1,6 +1,6 @@
 ## Exercise 1
 
-![](../z_images/Pasted%20image%2020230701120225.png)
+![](../z_images/Pasted%20image%2020230702135011.png)
 
 ### What is the dimensionality of the samples in the design [matrix](../Linear%20Algebra/Matrix.md)?
 
@@ -12,27 +12,33 @@ There are 5 samples.
 
 The $\mu$ matrix is composed of the averages for each dimension.
 
-$$\large\mu = \LARGE\begin{bmatrix}\frac{-4+9+4+0-3}{5} \\ \frac{10-4+8+0+0}{5}\end{bmatrix}$$
+$$\large\mu = \LARGE\begin{bmatrix}\frac{-4+9+4+0-3}{5} \\ \frac{10-4+8+0+0}{5}\end{bmatrix}\large = \begin{bmatrix}
+1.2 \\ 2.8
+\end{bmatrix}$$
 
 We compute the [covariance matrix](../Machine%20Learning/Covariance%20matrix.md) in the following way:
 
-$$\large \Sigma = \frac{1}{n-1}XX^T=\frac{1}{4}\begin{bmatrix}
--4 & 9 & 4 & 0 & -3 \\
-10 & -4 & 8 & 0 & 0
-\end{bmatrix} \begin{bmatrix}
--4 & 10 \\
-9 & -4 \\
-4 & 8 \\
-0 & 0 \\
--3 & 0
+$$\large X_\text{new}=X-\mu = \begin{bmatrix}
+-5.2 & 7.8 & 2.8 & -1.2 & -4.2 \\
+7.2 & -6.8 & 5.2 & -2.8 & -2.8
 \end{bmatrix}$$
-$$\large= \frac{1}{4}\begin{bmatrix}
-122 & -44 \\
--44 & 180 
+$$\large \Sigma = \frac{1}{n}XX^T=\frac{1}{5}\begin{bmatrix}
+-5.2 & 7.8 & 2.8 & -1.2 & -4.2 \\
+7.2 & -6.8 & 5.2 & -2.8 & -2.8
+\end{bmatrix} \begin{bmatrix}
+-5.2 & 7.2 \\
+7.8 & -6.8 \\
+2.8 & 5.2 \\
+-1.2 & -2.8 \\
+-4.2 & -2.8
+\end{bmatrix}$$
+$$\large= \frac{1}{5}\begin{bmatrix}
+114.8 & -60.8 \\
+-60.8 & 140.8 
 \end{bmatrix}=
 \begin{bmatrix}
- 30.5 & -11\\
- -11 & 45
+ 22.96 & -12.16\\
+ -12.16 & 28.16
 \end{bmatrix}$$
 
 > [!hint]
@@ -85,20 +91,20 @@ $$\large= \frac{1}{4}\begin{bmatrix}
 ---
 
 
-![](../z_images/Pasted%20image%2020230701134902.png)
+![](../z_images/Pasted%20image%2020230702135031.png)
 
 
 ### Describe the process that applies those transformations
 
-1. We get the [covariance matrix](../Machine%20Learning/Covariance%20matrix.md) of the point cloud, which can be computed with $\frac{1}{n-1}XX^T$
-2. Using [PCA](../Machine%20Learning/PCA.md)/[Spectral decomposition](../Linear%20Algebra/Spectral%20decomposition.md), we get the [eigenvectors](../Linear%20Algebra/Eigenvectors%20and%20Eigenvalues.md) of the covariance matrix.
-3. We centre the point cloud by subtracting the mean from all the points.
+1. **We center the point cloud by subtracting the mean from all the points.**
+2. We get the [covariance matrix](../Machine%20Learning/Covariance%20matrix.md) of the point cloud, which can be computed with $\frac{1}{n-1}XX^T$
+3. Using [PCA](../Machine%20Learning/PCA.md)/[Spectral decomposition](../Linear%20Algebra/Spectral%20decomposition.md), we get the [eigenvectors](../Linear%20Algebra/Eigenvectors%20and%20Eigenvalues.md) of the covariance matrix.
 4. We apply the transposed eigenvectors matrix so to bring the eigenvectors to our basis vectors.
 5. Now we swap the two eigenvectors/principal components.
 6. We apply the new eigenvector matrix and so that the basis vectors end up on the new eigenvectors.
 7. We add the mean back to all the points.
 
-![](../z_images/Pasted%20image%2020230701155847.png)
+![](../z_images/Pasted%20image%2020230702131306.png)
 
 
 ### What happens to the covariance matrix
@@ -134,12 +140,12 @@ $$\large \begin{bmatrix}
 ---
 
 
-![](../z_images/Pasted%20image%2020230702115237.png)
+![](../z_images/Pasted%20image%2020230702135049.png)
 
 
-### Explain why it's bad to use PCA in this case
+### Explain why it's bad to use [PCA](../Machine%20Learning/PCA.md) in this case
 
-The classifier won't work, because we are projecting the data in a dimension where the classifier can't tell a difference between the two classes.
+The classifier won't work because we are projecting the data in a dimension where the classifier can't tell the difference between the two classes.
 
 These will be the 2 principal components.
 
@@ -163,5 +169,58 @@ Killing the first principal component and projecting everything on the second.
 
 ## Exercise 2
 
-![](../z_images/Pasted%20image%2020230702121045.png)
+![](../z_images/Pasted%20image%2020230702135122.png)
+![](../z_images/Pasted%20image%2020230702123954.png)
 
+![](../z_images/Pasted%20image%2020230702135152.png)
+
+
+### Write the density in equation form
+
+Since he doesn't actually want us to compute the results(I THINK), we are gonna write the equations(not the [gaussian](../Machine%20Learning/Gaussian%20distribution.md) one).
+
+The following formula gives the density of the [GMM](../Machine%20Learning/Gaussian%20Mixture%20Model.md) at a point $x$, which basically means the total height of all the gaussians summed at that point.
+
+$$\large p(x) = \sum_{i} \pi_i \cdot \mathcal{N}(x; \mu_i;\sigma_i^2)$$
+$$\large p(x) = 0.57\cdot \mathcal{N}(x; 1.80;46.81)+ 0.11 \cdot \mathcal{N}(x; 1.13;6.91)+ 0.22 \cdot \mathcal{N}(x; 1.05;3.31)+0.10 \cdot\mathcal{N}(x; 1.12;7.62)$$
+
+---
+
+
+![](../z_images/Pasted%20image%2020230702132523.png)
+
+
+### Why the determinant in the denominator?
+
+> [!note]
+> The determinant $|\Sigma|$ of a matrix encodes the change in volume that results from a transformation.
+
+
+In the Gaussian pdf, we have: 
+- $\Sigma$ in the exponent, which changes the shape of the curve
+- $|\Sigma|$ in the denominator, which makes the volume equal to 1.
+
+![](../z_images/Pasted%20image%2020230702134431.png)
+
+
+The one in the denominator is there to counter-act the change in volume that the $\Sigma$ in the exponent causes(because the volume of a pdf must amount to 1).
+
+
+### Why is $\mu$ not in the denominator?
+
+In Masi's words:
+
+> [!quote]
+> The location parameter $\mu$ is just translating the distribution in space somewhere thus does not affect the volume.
+
+---
+
+
+![](../z_images/Pasted%20image%2020230702140631.png)
+
+
+### Write the equation that computes the [[Gaussian Mixture Model|responsibilities]]
+
+$$\large\gamma_{k} =\frac{
+ \mathcal{N}(x_i;\mu_k,\Sigma_k)\cdot\pi_k}
+{\sum_j\mathcal{N}(x_i;\mu_j,\Sigma_j)\cdot\pi_j}$$

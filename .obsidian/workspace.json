@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Linear Algebra/Matrix.md",
+                "file": "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -164,19 +165,22 @@
   },
   "active": "16db0a7ca694f3e7",
   "lastOpenFiles": [
-    "MD VERSIONS/z_images/Pasted image 20230702121045.png",
-    "MD VERSIONS/z_images/Pasted image 20230702120808.png",
-    "MD VERSIONS/z_images/Pasted image 20230702120305.png",
-    "MD VERSIONS/z_images/Pasted image 20230702115237.png",
-    "MD VERSIONS/z_images/Pasted image 20230701155847.png",
-    "MD VERSIONS/z_images/Pasted image 20230701134902.png",
-    "MD VERSIONS/Machine Learning/Covariance matrix.md",
+    "MD VERSIONS/Machine Learning/Gaussian Mixture Model.md",
     "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+    "MD VERSIONS/Machine Learning/Expectation Maximization.md",
+    "GMM.md",
+    "MD VERSIONS/z_images/Pasted image 20230702140635.png",
+    "MD VERSIONS/z_images/Pasted image 20230702140631.png",
+    "MD VERSIONS/z_images/Pasted image 20230702140558.png",
+    "MD VERSIONS/z_images/Pasted image 20230702135213.png",
+    "MD VERSIONS/z_images/Pasted image 20230702135152.png",
+    "MD VERSIONS/z_images/Pasted image 20230702135122.png",
+    "MD VERSIONS/z_images/Pasted image 20230702135049.png",
+    "MD VERSIONS/z_images/Pasted image 20230702135031.png",
+    "MD VERSIONS/z_images/Pasted image 20230702135011.png",
+    "MD VERSIONS/z_images/Pasted image 20230702134431.png",
     "MD VERSIONS/Linear Algebra/Matrix.md",
-    "MD VERSIONS/z_images/Pasted image 20230701131332.png",
-    "MD VERSIONS/z_images/Pasted image 20230701131314.png",
-    "MD VERSIONS/z_images/Pasted image 20230701120225.png",
-    "MD VERSIONS/z_images/Pasted image 20230701120152.png",
+    "MD VERSIONS/Machine Learning/Covariance matrix.md",
     "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md",
     "MD VERSIONS/Machine Learning/Neural Networks.md",
     "MD VERSIONS/Machine Learning/PCA.md",
@@ -198,9 +202,6 @@
     "MD VERSIONS/Artificial Intelligence/DFS.md",
     "MD VERSIONS/Artificial Intelligence/Best-first search.md",
     "MD VERSIONS/Artificial Intelligence/BFS.md",
-    "MD VERSIONS/Artificial Intelligence/Environment.md",
-    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
-    "MD VERSIONS/z_images/Pasted image 20230629234048.png",
     "HTML VERSIONS/MD VERSIONS/Calculus/Chain Rule.html",
     "HTML VERSIONS/MD VERSIONS/Data Management 2/ER Model.html",
     "HTML VERSIONS/MD VERSIONS/Data Management 2",

@@ -17,6 +17,25 @@ $$\large\sum^{K}_{k=1}\pi_k = 1$$
 
 ---
 
+
+## Responsibilities in a GMM
+
+In a Gaussian Mixture Model, $r_{ic}$ stands for the probability that the point $x_i$ belongs to cluster $c$.
+
+$$\large\gamma_{k} =\frac{
+ \mathcal{N}(x_i;\mu_k,\Sigma_k)\cdot\pi_k}
+{\sum_j\mathcal{N}(x_i;\mu_j,\Sigma_j)\cdot\pi_j}$$
+
+Where:
+- The numerator stands for the height of the selected gaussian at that point
+- The denominator is the height of the mixture model at that point, that would be the sum of all the gaussians.
+
+> [!tldr]
+> The gaussian that has higher responsibility for a given datapoint is the one that explains the datapoint the best.
+
+---
+
+
 ## How to fit?
 
 In supervised learning, we just get $\mu$ and $\Sigma$ of the clusters.

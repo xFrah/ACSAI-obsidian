@@ -32,28 +32,7 @@ It's a lot like [K-means](K-means.md), because we are trying to solve a similar 
 
 ### 1) E-step: Assign the labels
 
-This is done by computing the responsibilities for each point. We assign the label with highest responsibility.
-
-```ad-quote
-title: Responsibility Notion
-In a Gaussian Mixture Model, $r_{ic}$ stands for the probability that the point $x_i$ belongs to cluster $c$.
-
-<br>
-
-$$\large\gamma_{k} =\frac{
- \mathcal{N}(x_i;\mu_k,\Sigma_k)\cdot\pi_k}
-{\sum_j\mathcal{N}(x_i;\mu_j,\Sigma_j)\cdot\pi_j}$$
-
-Where:
-- The numerator stands for the height of the selected gaussian at that point
-- The denominator is the height of the mixture model at that point, that would be the sum of all the gaussians.
-
-<br>
-
-TLDR:
-
-The gaussian that has higher responsibility for a given datapoint is the one that explains the datapoint the best.
-```
+This is done by computing the responsibilities for each point. We assign the label with highest [[Gaussian Mixture Model|responsibility]].
 
 ![](../z_images/Pasted%20image%2020230418144930.png)
 
