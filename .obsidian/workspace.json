@@ -26,14 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Statistics/Expected value.md",
+                "file": "MD VERSIONS/Machine Learning/Neural Networks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+                "file": "MD VERSIONS/Machine Learning/Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+                "file": "MD VERSIONS/Machine Learning/Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Machine Learning Exam.md"
+                "file": "MD VERSIONS/Machine Learning/Neural Networks.md"
               }
             }
           }
@@ -162,44 +163,44 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "16db0a7ca694f3e7",
+  "active": "20352d9519dcc1d4",
   "lastOpenFiles": [
     "MD VERSIONS/AI-LAB/Contour detection.md",
     "MD VERSIONS/AI-LAB/Convolution.md",
-    "MD VERSIONS/AI-LAB/Kernel.md",
     "MD VERSIONS/AI-LAB/Corner extraction.md",
+    "MD VERSIONS/AI-LAB/Kernel.md",
     "MD VERSIONS/AI-LAB/Numpy.md",
     "MD VERSIONS/AI-LAB/Tokenizing.md",
-    "MD VERSIONS/Calculus/Chain Rule.md",
-    "MD VERSIONS/Calculus/Partial derivatives.md",
-    "MD VERSIONS/Artificial Intelligence/A-star.md",
-    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
     "MD VERSIONS/Artificial Intelligence/Agent.md",
+    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
+    "MD VERSIONS/Artificial Intelligence/A-star.md",
     "MD VERSIONS/Artificial Intelligence/DFS.md",
     "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
-    "MD VERSIONS/Artificial Intelligence/BFS.md",
     "MD VERSIONS/Artificial Intelligence/Environment.md",
+    "MD VERSIONS/Artificial Intelligence/BFS.md",
+    "MD VERSIONS/Artificial Intelligence/Functions.md",
     "MD VERSIONS/Artificial Intelligence/Heuristics.md",
     "MD VERSIONS/Artificial Intelligence/Graph.md",
-    "MD VERSIONS/Artificial Intelligence/Functions.md",
     "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
     "MD VERSIONS/Artificial Intelligence/Set theory.md",
+    "MD VERSIONS/Calculus/Chain Rule.md",
+    "MD VERSIONS/Calculus/Partial derivatives.md",
     "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md",
     "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
     "MD VERSIONS/Guides to the exams/Statistics Exam.md",
     "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
-    "MD VERSIONS/Linear Algebra/Dot product.md",
-    "MD VERSIONS/Linear Algebra/Eigenvectors and Eigenvalues.md",
+    "MD VERSIONS/Machine Learning/Basis Function.md",
+    "MD VERSIONS/Machine Learning/Covariance matrix.md",
+    "MD VERSIONS/z_images/Pasted image 20230703151707.png",
+    "MD VERSIONS/z_images/Pasted image 20230703151648.png",
+    "MD VERSIONS/z_images/Pasted image 20230703145717.png",
+    "MD VERSIONS/z_images/Pasted image 20230703133832.png",
+    "MD VERSIONS/z_images/Pasted image 20230703133537.png",
+    "MD VERSIONS/z_images/Pasted image 20230703133256.png",
+    "MD VERSIONS/z_images/Pasted image 20230703123230.png",
+    "MD VERSIONS/z_images/Pasted image 20230703123206.png",
     "MD VERSIONS/z_images/Pasted image 20230703000945.png",
     "MD VERSIONS/z_images/Pasted image 20230703000021.png",
-    "MD VERSIONS/z_images/Pasted image 20230702235514.png",
-    "MD VERSIONS/z_images/Pasted image 20230702204630.png",
-    "MD VERSIONS/z_images/Pasted image 20230702140635.png",
-    "MD VERSIONS/z_images/Pasted image 20230702140631.png",
-    "MD VERSIONS/z_images/Pasted image 20230702140558.png",
-    "MD VERSIONS/z_images/Pasted image 20230702135213.png",
-    "MD VERSIONS/z_images/Pasted image 20230702135152.png",
-    "MD VERSIONS/z_images/Pasted image 20230702135122.png",
     "HTML VERSIONS/MD VERSIONS/Machine Learning/Entropy.html",
     "HTML VERSIONS/MD VERSIONS/Calculus/Chain Rule.html",
     "HTML VERSIONS/MD VERSIONS/Data Management 2/ER Model.html",

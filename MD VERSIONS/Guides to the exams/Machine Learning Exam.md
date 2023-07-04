@@ -94,6 +94,10 @@ $$\large= \frac{1}{5}\begin{bmatrix}
 ![](../z_images/Pasted%20image%2020230702135031.png)
 
 
+> [!danger] How do we compute a determinant?
+> It might be in the exam.
+
+
 ### Describe the process that applies those transformations
 
 1. **We center the point cloud by subtracting the mean from all the points.**
@@ -172,6 +176,10 @@ Killing the first principal component and projecting everything on the second.
 ![](../z_images/Pasted%20image%2020230702135122.png)
 ![](../z_images/Pasted%20image%2020230702123954.png)
 
+> [!danger]
+> It would be best to go back and study the specifics of the [Expectation Maximization](../Machine%20Learning/Expectation%20Maximization.md) algorithm.
+
+
 ![](../z_images/Pasted%20image%2020230702135152.png)
 
 
@@ -241,7 +249,7 @@ So the responsibilities are just the mixing coefficients.
 
 ### Generate 10K samples from the GMM and reproject them
 
-In this case, after PCA we are left with 10k images in the form of vector of 50 pixels that can have value in between [0, 255].
+In this case, after [PCA](../Machine%20Learning/PCA.md) we are left with 10k images in the form of vector of 50 pixels that can have value in between [0, 255].
 
 But Masi also gives us the mean of the original images and the U matrix used to compress them.
 
@@ -249,9 +257,9 @@ But Masi also gives us the mean of the original images and the U matrix used to 
 > This is useful because we can reverse the process and get a compressed version of the original images.
 
 
-If we want to generate those samples using a GMM, **repeat the following process 10K times**:
+If we want to generate those samples using a [GMM](../Machine%20Learning/Gaussian%20Mixture%20Model.md), **repeat the following process 10K times**:
 
-1. By using inverse transform sampljng on the cumulative mass function of the mixing coefficients, we select which digit we want to generate.
+1. By using inverse transform sampling on the cumulative mass function of the mixing coefficients, we select which digit we want to generate.
 
 > [!hint]
 > This is because the gaussians don't have all the same size, so some are more probable to be picked or more present in the GMM.
@@ -262,3 +270,77 @@ If we want to generate those samples using a GMM, **repeat the following process
 3. We reproject the sampled image from the subspace to its original dimensions by multiplying it by $U^T$ and adding $\mu_\text{pca}$.
 
 ![](../z_images/Pasted%20image%2020230703000945.png)
+
+---
+
+
+## Exercise 3
+
+![](../z_images/Pasted%20image%2020230703123206.png)
+
+> [!danger]
+> Go back and study Gini impurity and Missclassification!
+
+
+![](../z_images/Pasted%20image%2020230703123230.png)
+
+
+### [Entropy](../Machine%20Learning/Entropy.md) of tree
+
+The entropy of the tree is given by the entropy of the last leaves weighed by the number of elements contained in them:
+
+$$\large \frac{2}{11}H(D) + \frac{6}{11}H(E) + \frac{3}{11}H(C)$$
+
+---
+
+
+![](../z_images/Pasted%20image%2020230703133256.png)
+
+
+### Inference on a sample
+
+Masi gives us the sample [-1, -1000].
+
+We know that:
+1. If $x_1 <= 23$ then we go to leaf $B$.
+2. Then if $x_2 <= 0$ then we go to leaf $D$.
+
+![](../z_images/Pasted%20image%2020230703133537.png)
+
+
+Since there is equal probability that the class is square and triangle, it's best to say that the algorithm is unsure here.
+
+---
+
+
+![](../z_images/Pasted%20image%2020230703133832.png)
+
+
+### How to reduce overfitting in a [decision tree](../Machine%20Learning/Decision%20trees.md)
+
+We cannot use the following strategies because:
+- **Minimizing the leaf size**: Would change the depth of the tree
+- **Capping the maximum depth**: Would change the depth of the tree
+- **Conditional leaf generation**(A node will be split if this split induces a decrease of the impurity greater than or equal to a value): Would change the depth of the tree
+
+So we use **Bagging and Ensamble**, which is a technique that consists in splitting the dataset and training a decision tree on each one of the splits.
+
+Then to make inference we average the outputs of the [random forest](../Machine%20Learning/Decision%20trees.md) and we have got our model with reduced variance.
+
+---
+
+
+![](../z_images/Pasted%20image%2020230703145717.png)
+
+### How to make random weighed prediction based on the elements in the leaves
+
+We apply inverse transform sampling on the probabilities of the elements in the leaves????????????????????
+
+---
+
+
+## Exercise 4
+
+![](../z_images/Pasted%20image%2020230703151648.png)
+
+![](../z_images/Pasted%20image%2020230703151707.png)

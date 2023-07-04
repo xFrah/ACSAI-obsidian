@@ -24,8 +24,6 @@ $$\large\sigma(\mathbf{W} \mathbf{x}  + \boldsymbol{b})=\sigma \circ \begin{bmat
 
 > [!tldr]
 > Each neuron's value equals to the [dot product](../Linear%20Algebra/Dot%20product.md) between the weights for that neuron and the data [vector](../Linear%20Algebra/Vectors.md) $\mathbb{x}$.
-> 
-> We then put the result through a softmax and the output will indicate whether a neuron fires or not.
 
 ![](../z_images/Pasted%20image%2020230612021128.png)
 
