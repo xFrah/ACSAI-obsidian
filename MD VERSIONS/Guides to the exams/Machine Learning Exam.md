@@ -344,3 +344,18 @@ We apply inverse transform sampling on the probabilities of the elements in the 
 ![](../z_images/Pasted%20image%2020230703151648.png)
 
 ![](../z_images/Pasted%20image%2020230703151707.png)
+
+
+### What are TPR and FPR?
+
+The true positive rate, also referred to sensitivity or recall, is **used to measure the percentage of actual positives which are correctly identified**.
+
+FPR is the opposite.
+
+### What is the ROC curve and how do we compute it?
+
+ROC curve is a performance measurement for the classification problems at various threshold settings.
+
+It plots TPR and FPR at various threshold values.
+
+An example of threshold would be 0.7, which is the minimum confidence the algorithm must have to output a positive.

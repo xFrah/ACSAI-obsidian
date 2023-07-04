@@ -2,17 +2,6 @@
 alias: Random forest, Random forests, Decision tree
 ---
 
-## Measuring distance between distributions
-
-$$\large H(P,Q) - H(P) = \underbracket{-\sum_{x \in X} p(x)\log q(x)}_{\text{cross-entropy}} - \underbracket{\big(-\sum_{x \in X} p(x)\log p(x)\big)}_{\text{entropy}}$$
-
-In order to increase this divergence, we have got to minimize [entropy](Entropy.md)?
-
-Like in [K-means](K-means.md) we proceed with a **greedy approach** by minimizing the entropy of the entire tree minPH(P)
-
----
-
-
 ## How to build a tree
 
 -   Resort to a **greedy heuristic**:

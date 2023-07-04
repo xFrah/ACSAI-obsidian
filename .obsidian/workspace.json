@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20352d9519dcc1d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD VERSIONS/Machine Learning/Neural Networks.md",
+                "file": "MD VERSIONS/Machine Learning/ROC.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Neural Networks.md",
+                "file": "MD VERSIONS/Machine Learning/ROC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Neural Networks.md",
+                "file": "MD VERSIONS/Machine Learning/ROC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Neural Networks.md"
+                "file": "MD VERSIONS/Machine Learning/ROC.md"
               }
             }
           }
@@ -163,8 +149,25 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "20352d9519dcc1d4",
+  "active": "16db0a7ca694f3e7",
   "lastOpenFiles": [
+    "MD VERSIONS/z_images/Pasted image 20230704191353.png",
+    "MD VERSIONS/z_images/Pasted image 20230704191352.png",
+    "MD VERSIONS/z_images/Pasted image 20230704191204.png",
+    "MD VERSIONS/z_images/Pasted image 20230704191100.png",
+    "MD VERSIONS/z_images/Pasted image 20230704190824.png",
+    "MD VERSIONS/z_images/Pasted image 20230704190502.png",
+    "MD VERSIONS/z_images/Pasted image 20230704190440.png",
+    "MD VERSIONS/z_images/Pasted image 20230704190001.png",
+    "MD VERSIONS/z_images/Pasted image 20230704185706.png",
+    "MD VERSIONS/z_images/Pasted image 20230704185552.png",
+    "MD VERSIONS/z_images/Pasted image 20230704185229.png",
+    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+    "MD VERSIONS/Machine Learning/ROC.md",
+    "MD VERSIONS/Machine Learning/Kullback-Leibler divergence.md",
+    "MD VERSIONS/Machine Learning/Decision trees.md",
+    "MD VERSIONS/Machine Learning/Entropy.md",
+    "MD VERSIONS/Machine Learning/Neural Networks.md",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Tokenizing.html",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Numpy.html",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Kernel.html",
@@ -175,7 +178,6 @@
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Set theory.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Problem solving process.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Heuristics.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Graph.html",
     "MD VERSIONS/AI-LAB/Contour detection.md",
     "MD VERSIONS/AI-LAB/Convolution.md",
     "MD VERSIONS/AI-LAB/Corner extraction.md",
@@ -195,22 +197,6 @@
     "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
     "MD VERSIONS/Artificial Intelligence/Set theory.md",
     "MD VERSIONS/Calculus/Chain Rule.md",
-    "MD VERSIONS/Calculus/Partial derivatives.md",
-    "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md",
-    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
-    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
-    "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
-    "MD VERSIONS/Machine Learning/Basis Function.md",
-    "MD VERSIONS/z_images/Pasted image 20230703151707.png",
-    "MD VERSIONS/z_images/Pasted image 20230703151648.png",
-    "MD VERSIONS/z_images/Pasted image 20230703145717.png",
-    "MD VERSIONS/z_images/Pasted image 20230703133832.png",
-    "MD VERSIONS/z_images/Pasted image 20230703133537.png",
-    "MD VERSIONS/z_images/Pasted image 20230703133256.png",
-    "MD VERSIONS/z_images/Pasted image 20230703123230.png",
-    "MD VERSIONS/z_images/Pasted image 20230703123206.png",
-    "MD VERSIONS/z_images/Pasted image 20230703000945.png",
-    "MD VERSIONS/z_images/Pasted image 20230703000021.png",
     "Machine Learning/Untitled.canvas"
   ]
 }
