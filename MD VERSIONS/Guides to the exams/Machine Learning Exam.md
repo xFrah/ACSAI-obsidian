@@ -279,7 +279,7 @@ If we want to generate those samples using a [GMM](../Machine%20Learning/Gaussia
 ![](../z_images/Pasted%20image%2020230703123206.png)
 
 > [!danger]
-> Go back and study Gini impurity and Missclassification!
+> Go back and study [Gini impurity](../Machine%20Learning/Impurity%20functions.md) and [Missclassification](../Machine%20Learning/Impurity%20functions.md)!
 
 
 ![](../z_images/Pasted%20image%2020230703123230.png)
@@ -354,8 +354,76 @@ FPR is the opposite.
 
 ### What is the ROC curve and how do we compute it?
 
-ROC curve is a performance measurement for the classification problems at various threshold settings.
+[ROC](../Machine%20Learning/ROC.md) curve is a performance measurement for the classification problems at various threshold settings.
 
 It plots TPR and FPR at various threshold values.
 
 An example of threshold would be 0.7, which is the minimum confidence the algorithm must have to output a positive.
+
+---
+
+
+## Exercise 5
+
+![](../z_images/Pasted%20image%2020230705110526.png)
+
+![](../z_images/Pasted%20image%2020230705110537.png)
+
+### How many parameters?
+
+Layer 1) We have 2048 weights for each neuron of the first layer, so:
+
+$$\large 2048 \cdot 1024 = 20.971.52$$
+
+**BUT THIS LAYER IS NOT TRAINABLE, SO IT DOESNT COUNT.**
+
+Layer 2) We have 1024 weights for each neuron of the second layer, so:
+
+$$\large 1024 \cdot 512 = 524.288$$
+
+Layer 3) We have 512 weights for each neuron of the second layer, so:
+
+$$\large 512 \cdot 10 = 5.120$$
+
+When we sum them all toghether, we get the total number of pararmeters:
+
+$$\large 524.288 + 5.120=529.408$$
+
+---
+
+
+![](../z_images/Pasted%20image%2020230705111857.png)
+
+wtf?
+
+
+---
+
+
+![](../z_images/Pasted%20image%2020230705114313.png)
+
+
+### Draw the DAG 
+
+![](../z_images/Pasted%20image%2020230705130054.png)
+
+![](../z_images/Pasted%20image%2020230705134109.png)
+
+
+### Compute the [gradient](../Machine%20Learning/Gradient.md) using the [chain rule](../Calculus/Chain%20Rule.md)
+
+At the last gate, we compute the derivatives with respect to each component of $\mathcal{L}$:
+
+$$\large\mathcal{L}=\text{sqrt}\cdot \text{plus} \quad\rightarrow\quad \frac{\partial \mathcal{L}}{\partial \text{plus}}=\text{sqrt},\quad \frac{\partial \mathcal{L}}{\partial \text{sqrt}}=\text{plus}$$
+
+Now, in order to apply the chain rule, we would need to know the derivatives of $\text{sqrt}$ and $\text{plus}$.
+
+$$\large\text{sqrt}=\sqrt{x}\quad\rightarrow\quad \frac{\partial \text{sqrt}}{\partial x}=\frac{1}{2} \cdot x^{\frac{1}{2}-1}=\frac{1}{2x}$$
+$$\large\text{plus}=\text{cube}+\text{sqrt}\quad\rightarrow\quad\frac{\partial \text{plus}}{\partial \text{cube}}=\text{sqrt}, \quad \frac{\partial \text{plus}}{\partial \text{sqrt}}=\text{cube}$$
+The only remaining thing is $\text{cube}$.
+
+$$\large\text{cube}=y^3\quad\rightarrow\quad\frac{\partial \text{cube}}{\partial \text{y}}=3y^2$$
+
+Let's kill a fucking gate.
+
+#### WIP

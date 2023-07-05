@@ -1,5 +1,5 @@
 ---
-alias: Gini, Gini impurity
+alias: Gini, Gini impurity, Missclassification
 ---
 
 Measures impurity given a set of labels. They tell you how pure a set is.

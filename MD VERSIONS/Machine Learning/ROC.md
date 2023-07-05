@@ -1,6 +1,6 @@
 ## TPR and FPR
 
-Assume we are in a logistic regression setting.
+Assume we are in a [logistic regression](Logistic%20Regression.md) setting.
 We put a 0.5 threshold for the positive class...
 
 ![](../z_images/Pasted%20image%2020230704185229.png)
