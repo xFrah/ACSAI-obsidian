@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "491a5b877127e24e",
+        "id": "e9611359fe0c071f",
         "type": "tabs",
         "children": [
           {
-            "id": "16db0a7ca694f3e7",
+            "id": "959370783067d0ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+                "file": "MD VERSIONS/Guides to the exams/Artificial Intelligence Exam.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "8426f8dd8ce03275",
+            "id": "e11d9e3739fcae37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Neural Networks.md",
+                "file": "MD VERSIONS/Artificial Intelligence/A-star.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eca6b464f59a7921",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Artificial Intelligence/Best-first search.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+                "file": "MD VERSIONS/Guides to the exams/Artificial Intelligence Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+                "file": "MD VERSIONS/Guides to the exams/Artificial Intelligence Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Machine Learning Exam.md"
+                "file": "MD VERSIONS/Guides to the exams/Artificial Intelligence Exam.md"
               }
             }
           }
@@ -163,24 +176,36 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "16db0a7ca694f3e7",
+  "active": "959370783067d0ea",
   "lastOpenFiles": [
-    "MD VERSIONS/Machine Learning/Neural Networks.md",
-    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
+    "MD VERSIONS/Guides to the exams/Artificial Intelligence Exam.md",
+    "MD VERSIONS/z_images/Pasted image 20230707184842.png",
+    "MD VERSIONS/z_images/Pasted image 20230707184827.png",
+    "MD VERSIONS/z_images/Pasted image 20230707184809.png",
+    "MD VERSIONS/Artificial Intelligence/A-star.md",
+    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
+    "MD VERSIONS/Artificial Intelligence/DFS.md",
+    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
+    "MD VERSIONS/Artificial Intelligence/Functions.md",
+    "MD VERSIONS/Artificial Intelligence/Environment.md",
+    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
+    "MD VERSIONS/Artificial Intelligence/BFS.md",
+    "MD VERSIONS/z_images/Pasted image 20230707154807.png",
+    "MD VERSIONS/z_images/Pasted image 20230707152607.png",
+    "MD VERSIONS/z_images/Pasted image 20230707152459.png",
+    "MD VERSIONS/Machine Learning/K-means.md",
+    "MD VERSIONS/Machine Learning/Expectation Maximization.md",
     "MD VERSIONS/Machine Learning/Impurity functions.md",
+    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+    "MD VERSIONS/Machine Learning/Neural Networks.md",
+    "MD VERSIONS/z_images/Pasted image 20230705213955.png",
     "MD VERSIONS/Calculus/Chain Rule.md",
     "MD VERSIONS/z_images/Pasted image 20230705134109.png",
     "MD VERSIONS/z_images/Pasted image 20230705130054.png",
     "MD VERSIONS/z_images/Pasted image 20230705130052.png",
-    "MD VERSIONS/z_images/Pasted image 20230705114313.png",
-    "MD VERSIONS/z_images/Pasted image 20230705111857.png",
-    "MD VERSIONS/z_images/Pasted image 20230705110537.png",
-    "MD VERSIONS/z_images/Pasted image 20230705110526.png",
     "MD VERSIONS/Machine Learning/Covariance matrix.md",
     "MD VERSIONS/Machine Learning/ROC.md",
-    "MD VERSIONS/z_images/Pasted image 20230704191353.png",
-    "MD VERSIONS/z_images/Pasted image 20230704191352.png",
-    "MD VERSIONS/z_images/Pasted image 20230704191204.png",
     "MD VERSIONS/Machine Learning/Kullback-Leibler divergence.md",
     "MD VERSIONS/Machine Learning/Decision trees.md",
     "MD VERSIONS/Machine Learning/Entropy.md",
@@ -198,19 +223,6 @@
     "MD VERSIONS/AI-LAB/Convolution.md",
     "MD VERSIONS/AI-LAB/Corner extraction.md",
     "MD VERSIONS/AI-LAB/Kernel.md",
-    "MD VERSIONS/AI-LAB/Numpy.md",
-    "MD VERSIONS/AI-LAB/Tokenizing.md",
-    "MD VERSIONS/Artificial Intelligence/Agent.md",
-    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
-    "MD VERSIONS/Artificial Intelligence/A-star.md",
-    "MD VERSIONS/Artificial Intelligence/DFS.md",
-    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
-    "MD VERSIONS/Artificial Intelligence/Environment.md",
-    "MD VERSIONS/Artificial Intelligence/BFS.md",
-    "MD VERSIONS/Artificial Intelligence/Functions.md",
-    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
-    "MD VERSIONS/Artificial Intelligence/Graph.md",
-    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
     "Machine Learning/Untitled.canvas"
   ]
 }

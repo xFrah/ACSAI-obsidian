@@ -355,10 +355,9 @@ FPR is the opposite.
 ### What is the ROC curve and how do we compute it?
 
 [ROC](../Machine%20Learning/ROC.md) curve is a performance measurement for the classification problems at various threshold settings.
-
 It plots TPR and FPR at various threshold values.
 
-An example of threshold would be 0.7, which is the minimum confidence the algorithm must have to output a positive.
+![](../z_images/Pasted%20image%2020230705213955.png)
 
 ---
 
@@ -426,4 +425,42 @@ $$\large\text{cube}=y^3\quad\rightarrow\quad\frac{\partial \text{cube}}{\partial
 
 Let's kill a fucking gate.
 
-#### WIP
+---
+
+
+## Useful things to remember
+
+### ROC and AUC
+
+ROC is computed by TPR and FPR, which are both divided respectively by $Positives_\text{ground truth}$ and $Negatives_\text{ground truth}$.
+
+The AUC is computed by computing:
+
+$$\large \text{AUC} = \sum_i{(FPR_i - FPR_{i-1}) \cdot TPR_i}$$
+
+### Useful local gradients
+
+
+#### Sigmoid:
+
+$$\large\sigma(x)=\frac{1}{1+e^{-x}}\quad \rightarrow \quad \sigma(x)(1-\sigma(x))$$
+#### Softmax + Cross-entropy:
+
+$$\large\mathcal{L}(\mathbf{y}, \hat{\mathbf{y}}) =  - \sum_{j=1}^q y_j \log \frac{e^{z_j}}{\sum_{k=1}^q e^{z_k}} $$
+$$\large\frac{\partial\mathcal{L}}{\partial_{z_j}} (\mathbf{y}, \hat{\mathbf{y}} \,\text{or z}) = \frac{e^{z_j}}{\sum_{k=1}^q e^{z_k}} - y_j = \mathrm{softmax}(\mathbf{z})_j - y_j$$
+
+#### Product gate:
+
+$$\large\text{Usually a product gate is composed of two elements, if you fix one, the other remains.}$$
+
+#### Sum gate:
+
+$$\large\text{Usually a Sum gate is composed of two elements, if you fix one, it goes to 1 and the other disappears.}$$
+
+#### +1 gate:
+
+$$\large\text{Since it's just a constant, the one goes to zero and the input variable goes to 1.}$$
+
+#### $\text{*-1}$ gate:
+
+$$\large\text{It should just return -1, because the variable goes to 1.}$$

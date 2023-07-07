@@ -1,3 +1,6 @@
+---
+alias: Best first search
+---
 
 We have 2 data structures:
 - Explored: set of already examined nodes

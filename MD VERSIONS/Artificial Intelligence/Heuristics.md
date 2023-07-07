@@ -1,3 +1,7 @@
+---
+alias: Heuristic
+---
+
 A heuristic function returns the apparent distance from a node to the destination, or the apparent cost.
 
 It is nothing but a kind of smart guess. We really don’t know the actual distance until we find the path.
