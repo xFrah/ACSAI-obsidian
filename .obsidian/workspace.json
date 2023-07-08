@@ -11,39 +11,8 @@
             "id": "959370783067d0ea",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD VERSIONS/Guides to the exams/Artificial Intelligence Exam.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e11d9e3739fcae37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/A-star.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eca6b464f59a7921",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Best-first search.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -96,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -113,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Artificial Intelligence Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/Artificial Intelligence Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MD VERSIONS/Guides to the exams/Artificial Intelligence Exam.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -178,8 +142,14 @@
   },
   "active": "959370783067d0ea",
   "lastOpenFiles": [
+    "MD VERSIONS/Linear Algebra/Matrix.md",
+    "MD VERSIONS/Artificial Intelligence/Artificial Intelligence Exam.md",
+    "MD VERSIONS/Artificial Intelligence/Logical Equivalence.md",
+    "MD VERSIONS/Artificial Intelligence/Propositional Satisfiability.md",
+    "MD VERSIONS/z_images/Pasted image 20230708173131.png",
+    "MD VERSIONS/z_images/Pasted image 20230708172845.png",
+    "MD VERSIONS/z_images/Pasted image 20230708172755.png",
     "MD VERSIONS/Artificial Intelligence/Heuristics.md",
-    "MD VERSIONS/Guides to the exams/Artificial Intelligence Exam.md",
     "MD VERSIONS/z_images/Pasted image 20230707184842.png",
     "MD VERSIONS/z_images/Pasted image 20230707184827.png",
     "MD VERSIONS/z_images/Pasted image 20230707184809.png",
@@ -201,9 +171,6 @@
     "MD VERSIONS/Machine Learning/Neural Networks.md",
     "MD VERSIONS/z_images/Pasted image 20230705213955.png",
     "MD VERSIONS/Calculus/Chain Rule.md",
-    "MD VERSIONS/z_images/Pasted image 20230705134109.png",
-    "MD VERSIONS/z_images/Pasted image 20230705130054.png",
-    "MD VERSIONS/z_images/Pasted image 20230705130052.png",
     "MD VERSIONS/Machine Learning/Covariance matrix.md",
     "MD VERSIONS/Machine Learning/ROC.md",
     "MD VERSIONS/Machine Learning/Kullback-Leibler divergence.md",
@@ -221,8 +188,6 @@
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Heuristics.html",
     "MD VERSIONS/AI-LAB/Contour detection.md",
     "MD VERSIONS/AI-LAB/Convolution.md",
-    "MD VERSIONS/AI-LAB/Corner extraction.md",
-    "MD VERSIONS/AI-LAB/Kernel.md",
     "Machine Learning/Untitled.canvas"
   ]
 }

@@ -22,6 +22,11 @@ The cost will be the [heuristic](../Artificial%20Intelligence/Heuristics.md) $h(
 
 Here, in addition to the cost, the prof has included the direction that the edge takes us to.
 
+---
+
+
+![](../z_images/Pasted%20image%2020230708172755.png)
+
 
 ### Run [A*](../Artificial%20Intelligence/A-star.md)
 
@@ -38,7 +43,39 @@ In the squares above:
 
 ![](../z_images/Pasted%20image%2020230707184842.png)
 
+---
+
+
+![](../z_images/Pasted%20image%2020230708172845.png)
+
 
 ### Can BFS constitute an admissible heuristic
 
 A heuristic function is said to be **admissible** if it never overestimates the cost of reaching the goal. Also it must have a value for every input.
+
+#### WIP
+
+---
+
+
+## Section 2
+
+
+
+---
+
+
+## Section 3
+
+> [!note] Required Notions
+> - Propositional Logic
+> - [Satisfiability](Propositional%20Satisfiability.md) of a Compound Proposition
+> - [Contrapositive](Logical%20Equivalence.md) of a proposition
+> - Forward Chaining
+> - [Entailment](Propositional%20Satisfiability.md) of propositions
+> - Tableau Resolution Deductive System
+> - DPLL
+
+
+![](../z_images/Pasted%20image%2020230708173131.png)
+
