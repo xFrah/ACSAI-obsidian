@@ -30,7 +30,30 @@ $$\large p \land \lnot p$$
 > 
 > $$\large \{a \to c,\; b \to c \} ⊨ ψ$$
 
+> [!example] Contradiction check
+> $$\large (a → c) ∧ (b → c) ∧ ¬ ((a ∨ b) → c)$$
+> 
+> Is this a contradiction?
+> For it to be true, it would need:
+> 1. $ν (a → c) = T$ 
+> 2. $ν (b → c) = T$
+> 3. $ν (a ∨ b) → c = F$
+> 
+> For $ν (a ∨ b) → c$ to be false, we need that $a \lor b$ is True and $c$ is False.
+> But then:
+> - $ν (a → c) = F$, contradicting point 1.
+> - $ν (b → c) = F$, contradicting point 2.
 
-## How to:
 
-In order to determine the satisfiability of a compound proposition, 
+
+## TT-ENTAILS
+
+Algorithm for checking whether a proposition entails another or not.
+We just build a truth table that contains every possible input combination/model.
+
+> [!hint]
+> It's just a bruteforce.
+
+
+For every mode, we check the entailment(if second proposition is False, the first must also be False).
+If the condition is true for every model, then we have an entailment.
