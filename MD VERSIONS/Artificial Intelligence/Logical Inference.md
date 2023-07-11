@@ -1,3 +1,21 @@
+---
+alias: Modus ponens, Modus Tollens, Conjunction Elimination, Contraposition, Contrapositive
+---
+
+A deductive system is defined by a set of formulae called axioms and a set of Inference Rules.
+
+These inference rules can be applied to deriva proof, which is a chain of conclusion that leads to the desired goal(in our case [SAT problems](Propositional%20Satisfiability.md) conclusions).
+
+> [!note]
+> If a formula φ can be deduced from
+a set of formulae Γ in a deductive
+system D, we say that φ is a
+deductive consequence of Γ in D,
+denoted with
+>
+> $$\large Γ ⊢_D φ$$
+
+
 ### 1) Modus Ponens
 
 $$\large\frac{{P \to Q \quad P}}{{Q}}$$

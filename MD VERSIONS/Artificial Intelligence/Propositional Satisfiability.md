@@ -1,5 +1,5 @@
 ---
-alias: Satisfiability, Tautology, Contradiction, Entailment
+alias: Satisfiability, Tautology, Contradiction, Entailment, SAT problem, SAT problems
 ---
 
 When you have a compound proposition, you want to be able to determine **whether it is possible for it to be true**.
@@ -30,7 +30,22 @@ $$\large p \land \lnot p$$
 > 
 > $$\large \{a \to c,\; b \to c \} ⊨ ψ$$
 
+---
+
+
+## Solving SAT problems
+
+In order to prove satisfiability, we can either use:
+- TT-ENTAILS
+- Proof by contradiction
+
 > [!example] Contradiction check
+> We want to prove that:
+> 
+> $$\large \{a → c, b → c\} ⊨ (a ∨ b) → c$$
+> 
+> We do that by checking the unsatisfiability of $(\alpha \land \lnot \beta)$:
+> 
 > $$\large (a → c) ∧ (b → c) ∧ ¬ ((a ∨ b) → c)$$
 > 
 > Is this a contradiction?
@@ -44,16 +59,13 @@ $$\large p \land \lnot p$$
 > - $ν (a → c) = F$, contradicting point 1.
 > - $ν (b → c) = F$, contradicting point 2.
 
-
-
-## TT-ENTAILS
-
-Algorithm for checking whether a proposition entails another or not.
-We just build a truth table that contains every possible input combination/model.
-
-> [!hint]
-> It's just a bruteforce.
-
-
-For every mode, we check the entailment(if second proposition is False, the first must also be False).
-If the condition is true for every model, then we have an entailment.
+> [!example] TT-ENTAILS
+> Algorithm for checking whether a proposition entails another or not.
+> We just build a truth table that contains every possible input combination/model.
+> 
+> > [!hint]
+> > It's just a bruteforce.
+> 
+> 
+> For every mode, we check the entailment(if second proposition is False, the first must also be False).
+> If the condition is true for every model, then we have an entailment.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Logical Inference.md",
+                "file": "MD VERSIONS/Artificial Intelligence/Prenex Normal Form.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Logical Inference.md",
+                "file": "MD VERSIONS/Artificial Intelligence/Prenex Normal Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Logical Inference.md",
+                "file": "MD VERSIONS/Artificial Intelligence/Prenex Normal Form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Logical Inference.md"
+                "file": "MD VERSIONS/Artificial Intelligence/Prenex Normal Form.md"
               }
             }
           }
@@ -150,13 +150,25 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b59d4abc71f02652",
+  "active": "3fbe08ad2a0b5f0f",
   "lastOpenFiles": [
-    "MD VERSIONS/Artificial Intelligence/Propositional Satisfiability.md",
-    "MD VERSIONS/Artificial Intelligence/Logical Inference.md",
-    "MD VERSIONS/Artificial Intelligence/Logical Equivalence.md",
-    "MD VERSIONS/Artificial Intelligence/Propositional Inference.md",
+    "MD VERSIONS/Artificial Intelligence/PCNF.md",
+    "MD VERSIONS/Artificial Intelligence/Negational Normal Form.md",
+    "MD VERSIONS/Artificial Intelligence/First Order Logic.md",
+    "MD VERSIONS/Artificial Intelligence/Prenex Normal Form.md",
+    "MD VERSIONS/z_images/Pasted image 20230711183631.png",
+    "MD VERSIONS/z_images/Pasted image 20230711183107.png",
+    "MD VERSIONS/z_images/Pasted image 20230711183106.png",
     "MD VERSIONS/Artificial Intelligence/CNF.md",
+    "MD VERSIONS/Artificial Intelligence/Logical Inference.md",
+    "MD VERSIONS/Artificial Intelligence/Arity.md",
+    "MD VERSIONS/z_images/Pasted image 20230710182554.png",
+    "MD VERSIONS/Artificial Intelligence/Forward and backward Chaining.md",
+    "MD VERSIONS/Artificial Intelligence/Propositional Satisfiability.md",
+    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
+    "MD VERSIONS/Artificial Intelligence/Propositional Resolution.md",
+    "MD VERSIONS/Artificial Intelligence/Propositional Inference.md",
+    "MD VERSIONS/Artificial Intelligence/Logical Equivalence.md",
     "MD VERSIONS/Artificial Intelligence/Exam.md",
     "MD VERSIONS/Machine Learning/Neural Networks.md",
     "MD VERSIONS/AI-LAB/Contour detection.md",
@@ -170,14 +182,6 @@
     "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
     "MD VERSIONS/Artificial Intelligence/DFS.md",
     "MD VERSIONS/Artificial Intelligence/Best-first search.md",
-    "MD VERSIONS/Artificial Intelligence/BFS.md",
-    "MD VERSIONS/Artificial Intelligence/Environment.md",
-    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
-    "MD VERSIONS/Artificial Intelligence/Functions.md",
-    "MD VERSIONS/Artificial Intelligence/Graph.md",
-    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
-    "MD VERSIONS/Artificial Intelligence/Set theory.md",
-    "MD VERSIONS/Calculus/Chain Rule.md",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Logical Equivalence.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Propositional Satisfiability.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Exam.html",
@@ -188,10 +192,6 @@
     "MD VERSIONS/z_images/Pasted image 20230707184842.png",
     "MD VERSIONS/z_images/Pasted image 20230707184827.png",
     "MD VERSIONS/z_images/Pasted image 20230707184809.png",
-    "MD VERSIONS/z_images/Pasted image 20230707154807.png",
-    "MD VERSIONS/z_images/Pasted image 20230707152607.png",
-    "MD VERSIONS/z_images/Pasted image 20230707152459.png",
-    "MD VERSIONS/z_images/Pasted image 20230705213955.png",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Tokenizing.html",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Numpy.html",
     "HTML VERSIONS/MD VERSIONS/AI-LAB/Kernel.html",
