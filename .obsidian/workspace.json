@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Prenex Normal Form.md",
+                "file": "MD VERSIONS/Machine Learning/Attention Mechanism.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3a5c2b2b227c880",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Linear Algebra/Gaussian Elimination.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Prenex Normal Form.md",
+                "file": "MD VERSIONS/Linear Algebra/Gaussian Elimination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Prenex Normal Form.md",
+                "file": "MD VERSIONS/Linear Algebra/Gaussian Elimination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Artificial Intelligence/Prenex Normal Form.md"
+                "file": "MD VERSIONS/Linear Algebra/Gaussian Elimination.md"
               }
             }
           }
@@ -149,8 +163,24 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b59d4abc71f02652",
+  "active": "f3a5c2b2b227c880",
   "lastOpenFiles": [
+    "MD VERSIONS/Linear Algebra/Matrix operations.md",
+    "MD VERSIONS/Linear Algebra/Untitled.md",
+    "MD VERSIONS/Linear Algebra/Matrix.md",
+    "MD VERSIONS/Linear Algebra/Gaussian Elimination.md",
+    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
+    "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
+    "Micropython README.md",
+    "MD VERSIONS/Machine Learning/Attention Mechanism.md",
+    "MD VERSIONS/z_images/Pasted image 20230721204532.png",
+    "MD VERSIONS/z_images/Pasted image 20230721204516.png",
+    "MD VERSIONS/Artificial Intelligence/Prenex Normal Form.md",
+    "MD VERSIONS/Artificial Intelligence/PCNF.md",
+    "MD VERSIONS/Artificial Intelligence/First Order Logic.md",
+    "MD VERSIONS/Artificial Intelligence/Forward and backward Chaining.md",
+    "MD VERSIONS/Artificial Intelligence/MAC.md",
+    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
     "MD VERSIONS/AI-LAB/Contour detection.md",
     "MD VERSIONS/AI-LAB/Convolution.md",
     "MD VERSIONS/AI-LAB/Kernel.md",
@@ -161,22 +191,8 @@
     "MD VERSIONS/Artificial Intelligence/Agent.md",
     "MD VERSIONS/Artificial Intelligence/Best-first search.md",
     "MD VERSIONS/Artificial Intelligence/Arity.md",
-    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
     "MD VERSIONS/Artificial Intelligence/BFS.md",
     "MD VERSIONS/Artificial Intelligence/DFS.md",
-    "MD VERSIONS/Artificial Intelligence/CNF.md",
-    "MD VERSIONS/Artificial Intelligence/Exam.md",
-    "MD VERSIONS/Artificial Intelligence/Environment.md",
-    "MD VERSIONS/Artificial Intelligence/Forward and backward Chaining.md",
-    "MD VERSIONS/Artificial Intelligence/First Order Logic.md",
-    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
-    "MD VERSIONS/Artificial Intelligence/Logical Equivalence.md",
-    "MD VERSIONS/Artificial Intelligence/Functions.md",
-    "MD VERSIONS/Artificial Intelligence/Graph.md",
-    "MD VERSIONS/Artificial Intelligence/Problem solving process.md",
-    "MD VERSIONS/Artificial Intelligence/Logical Inference.md",
-    "MD VERSIONS/Artificial Intelligence/Negational Normal Form.md",
-    "MD VERSIONS/Artificial Intelligence/Set theory.md",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Arity.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/CNF.html",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Forward and backward Chaining.html",
@@ -195,8 +211,6 @@
     "MD VERSIONS/z_images/Pasted image 20230708172845.png",
     "MD VERSIONS/z_images/Pasted image 20230708172755.png",
     "MD VERSIONS/z_images/Pasted image 20230707184842.png",
-    "MD VERSIONS/z_images/Pasted image 20230707184827.png",
-    "MD VERSIONS/z_images/Pasted image 20230707184809.png",
     "Machine Learning/Untitled.canvas"
   ]
 }
