@@ -28,7 +28,6 @@ The matrix is used in many areas of linear algebra, including solving systems of
 
 ---
 
-
 ## Augmented and Coefficient Matrix
 
 Consider a system of linear equations as follows: 
@@ -45,5 +44,105 @@ $$\large [A|B] = \begin{bmatrix} 2 & 3 & -4 & 1 \\ 5 & -6 & 7 & -8 \\ -9 & 10 & 
 
 ---
 
-
 ## Elementary row operations
+
+1. **Interchange 2 rows**
+2. **Multiply a row** by a non-zero constant
+3. **Add** a multiple of a row to another row???
+
+---
+
+## Gaussian Elimination with back-substitution
+
+1. **Write the Augmented Matrix:** Write down the augmented matrix.
+    
+2. **Perform Row Operations to Reach Row Echelon Form:** Use elementary row operations to transform the augmented matrix into row echelon form.
+    
+> [!tldr]
+> - **Swap Rows:** You can swap two rows.
+> - **Multiply a Row by a Scalar:** You can multiply a row by a nonzero constant.
+> - **Add a Multiple of One Row to Another Row:** You can replace a row by adding to it a scalar multiple of another row.
+	
+3. **Back Substitution:** Write down the system corresponding to the matrix, then start with the last row and solve for the variable in that row. Then, move up to the previous row and use the previously found variables to solve for the new variable. Continue this process until all variables are found.
+
+
+> [!example]
+> 
+> Suppose we have the following system of linear equations:
+> 
+> $$\large\begin{align*}
+x + 2y - z &= 4 \\
+3x + 8y + z &= 20 \\
+4x + 6y + 5z &= \phantom{-}6
+\end{align*}$$
+>
+>We can represent this system as an augmented matrix:
+>
+>$$\large\begin{bmatrix}
+1 & 2 & -1 & 4 \\
+3 & 8 & 1 & 20 \\
+4 & 6 & 5 & 6
+\end{bmatrix}$$
+> 
+> Now, we'll perform Gaussian elimination to reach row echelon form:
+>
+>1. **First Pivot:**
+   No need to change the first row. Start with the second row and subtract three times the first row from it. Then, subtract four times the first row from the third row:
+>
+>$$\large\begin{bmatrix}
+1 & 2 & -1 & 4 \\
+3 & 8 & 1 & 20 \\
+4 & 6 & 5 & 6
+\end{bmatrix}\rightarrow\begin{bmatrix}
+1 & 2 & -1 & \phantom{-}4 \\
+0 & 2 & 4 & \phantom{-}8 \\
+4 & 6 & 5 & 6
+\end{bmatrix}\rightarrow
+\begin{bmatrix}
+1 & 2 & -1 & \phantom{-}4 \\
+0 & 2 & 4 & \phantom{-}8 \\
+0 & -2 & 9 & -10
+\end{bmatrix}$$
+>
+>2. **Second Pivot:**
+   Divide the second row by 2 to make the leading coefficient 1. Then, subtract the second row from the third row:
+>
+>$$\large\begin{bmatrix}
+1 & 2 & -1 & \phantom{-}4 \\
+0 & 2 & 4 & \phantom{-}8 \\
+0 & -2 & 9 & -10
+\end{bmatrix}\rightarrow\begin{bmatrix}
+1 & 2 & -1 & \phantom{-}4 \\
+0 & 1 & 2 & \phantom{-}4 \\
+0 & -2 & 9 & -10
+\end{bmatrix}$$
+>
+>3. **Third Pivot**
+>   Add the second row to the third row in order to shift the leading coefficient. Then, divide by 11 to make the leading coefficient 1.
+>   
+> $$\large\begin{bmatrix}
+1 & 2 & -1 & \phantom{-}4 \\
+0 & 1 & 2 & \phantom{-}4 \\
+0 & -2 & 9 & -10
+\end{bmatrix}\rightarrow\begin{bmatrix}
+1 & 2 & -1 & \phantom{-}4 \\
+0 & 1 & 2 & \phantom{-}4 \\
+0 & 0 & 11 & -6
+\end{bmatrix}\rightarrow\begin{bmatrix}
+1 & 2 & -1 & \phantom{-}4 \\
+0 & 1 & 2 & \phantom{-}4 \\
+0 & 0 & 1 & -\frac{6}{11}
+\end{bmatrix}$$
+>
+>4. **Back Substitution:**
+>   
+> $$\large\begin{align*} x + 2y - z &= 4 \\ y + 2z &= 4 \\ z &= -\frac{6}{11} \end{align*}$$
+>   
+   Now, we can find the variables using back substitution:
+>   - Solve the third equation for $z$:  $z = -\frac{6}{11}$
+>  ### WIP, WRONG
+>   - Use z to find $y$: $y + 2\left(-\frac{6}{11}\right) = 4 \Rightarrow y = \frac{26}{5}$
+>   - Use y and z to find $x$: $x + 2\left(\frac{26}{5}\right) - \left(-\frac{14}{5}\right) = 4 \Rightarrow x = -\frac{8}{5}$
+>
+>
+>So, the solution to the system is $x = -\frac{8}{5}$, $y = \frac{26}{5}$, and $z = -\frac{14}{5}$.
