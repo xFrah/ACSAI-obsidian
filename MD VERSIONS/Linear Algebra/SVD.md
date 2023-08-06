@@ -5,7 +5,7 @@ alias: Singular Value Decomposition
 SVD stands for singular value decomposition.
 Sometimes it is useful to decompose transformation matrices in multiple matrices that only do a type of transformation each.
 
-The difference with [spectral decomposition](Spectral%20decomposition.md), is that SVD doesn't require a [symmetric matrix](Symmetric%20matrix.md), but just about any [matrix](Matrix.md).
+The difference with [spectral decomposition](Spectral%20decomposition.md), is that SVD doesn't require a [symmetric matrix](Symmetric%20matrix.md), but just about any [matrix](Matrix%20(ML).md).
 
 SVD says that any matrix, regardless of symmetry, rank or shape, can unconditionally be decomposed into 3 special matrices.
 

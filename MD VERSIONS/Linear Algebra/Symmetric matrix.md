@@ -1,4 +1,4 @@
-A symmetric matrix is a [matrix](Matrix.md) that has equal values on both sides of its diagonal.
+A symmetric matrix is a [matrix](Matrix%20(ML).md) that has equal values on both sides of its diagonal.
 
 ![](../z_images/Pasted%20image%2020230311123400.png)
 
@@ -34,7 +34,7 @@ Why?
 
 Symmetric matrices are very powerful, so we artificially create symmetry to take advantage of it.
 
-If we multiply any [[Matrix|rectangular matrix]] to its transposed, we get a square matrix, that is also symmetrical.
+If we multiply any [[Matrix (ML)|rectangular matrix]] to its transposed, we get a square matrix, that is also symmetrical.
 $$\Large \begin{bmatrix}
 1 & 2 & 3 \\
 4 & 5 & 6

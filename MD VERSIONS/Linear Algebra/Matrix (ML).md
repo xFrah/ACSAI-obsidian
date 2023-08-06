@@ -1,5 +1,5 @@
 ---
-alias: Matrices
+alias: Matrices, Matrix
 ---
 
 We shouldn't think of it as a list of scalars.
@@ -35,14 +35,6 @@ $$\Large A = A^T$$
 2.  $(A+B)^T = A^T + B^T$: The transpose of the sum of two matrices is equal to the sum of their transposes.
     
 3.  $(AB)^T = B^T A^T$: The transpose of a product of two matrices is equal to the product of their transposes in reverse order.
-
----
-
-## Trace of a matrix
-
-The trace is the sum of the diagonal elements.
-
-$$\Large\text{trace}(A) = \sum_{i} a_{ii}$$
 
 ---
 

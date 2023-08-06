@@ -1,4 +1,4 @@
-## Definition of Row Echelon form
+## Row Echelon Form
 
 
 > [!summary] Pivot definition
@@ -48,7 +48,7 @@ $$\large [A|B] = \begin{bmatrix} 2 & 3 & -4 & 1 \\ 5 & -6 & 7 & -8 \\ -9 & 10 & 
 
 1. **Interchange 2 rows**
 2. **Multiply a row** by a non-zero constant
-3. **Add** a multiple of a row to another row???
+3. **Add** a multiple(potentially negative) of a row to another row
 
 ---
 
@@ -146,3 +146,32 @@ x + 2y - z &= 4 \\
 >
 >
 >So, the solution to the system is $x = -\frac{8}{5}$, $y = \frac{26}{5}$, and $z = -\frac{14}{5}$.
+
+---
+
+## Reduced Row Echelon Form
+
+A matrix is in RREF if it satisfies this additional following condition(with respect to r.e.f): 
+
+4. **Zero Above and Below Pivots:** Every entry above and below a pivot is 0. 
+
+
+> [!example]
+> Here's an example of a matrix in Reduced Row Echelon Form: 
+> 
+> $$\large\begin{bmatrix} 1 & 0 & 3 & 7 \\ 0 & 1 & -2 & -3 \\ 0 & 0 & 0 & 0 \end{bmatrix}$$
+> 
+> This matrix satisfies all the conditions for RREF: 
+> - The leading coefficient in each non-zero row is 1. 
+> - The pivots occur in successive columns. 
+> - There is a row with all zero entries at the bottom of the matrix. - There are zeros above and below each pivot.
+
+---
+
+## Gauss-Jordan Elimination
+
+Same steps as the Gauss-Jordan Elimination, but now we continue the reduction process until we have a Reduced Row Echelon Form.
+
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020230806102622.png)

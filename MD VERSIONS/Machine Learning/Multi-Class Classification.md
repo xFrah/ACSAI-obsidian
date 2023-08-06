@@ -64,7 +64,7 @@ Since this is multi-class classification, we use [cross-entropy](Cross-entropy.m
 > If we want to compute the [gradient](Gradient.md) of the loss function and proceed with [gradient descent](Gradient%20Descent.md), we need the prediction function to be differentiable(we should be able to evaluate its derivative at any point).
 
 
-In order to extract the prediction from the [matrix](../Linear%20Algebra/Matrix.md) $\mathbf{Y}$, we can either use Argmax or Softmax.
+In order to extract the prediction from the [matrix](../Linear%20Algebra/Matrix%20(ML).md) $\mathbf{Y}$, we can either use Argmax or Softmax.
 
 
 ### Argmax

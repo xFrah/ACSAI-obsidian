@@ -2,7 +2,7 @@
 
 ![](../z_images/Pasted%20image%2020230702135011.png)
 
-### What is the dimensionality of the samples in the design [matrix](../Linear%20Algebra/Matrix.md)?
+### What is the dimensionality of the samples in the design [matrix](../Linear%20Algebra/Matrix%20(ML).md)?
 
 Well the exercise tells us that the columns are the samples, so there are 2 dimensions.
 There are 5 samples.

@@ -157,6 +157,8 @@ $\large \frac{1}{N}X'{X'}^T=\frac{1}{N}^T USV^T\,VS^TU^T = \frac{1}{N}US^2U^T$
 <br>
 
 Here he eliminated one of the two matrices from the formula. We just eliminate the bigger one.
+
+![](../z_images/Pasted%20image%2020230806105609.png)
 ```
 
 

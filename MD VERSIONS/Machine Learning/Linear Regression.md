@@ -31,7 +31,7 @@ $$\large \mathcal{L}\big(y, f_{\boldsymbol{\theta}}(x)\big) = \big(f_{\boldsymbo
 
 ## Vectorization of loss function
 
-We define the **design [matrix](../Linear%20Algebra/Matrix.md)** $X$, **label matrix** $y$ and the parameters as:
+We define the **design [matrix](../Linear%20Algebra/Matrix%20(ML).md)** $X$, **label matrix** $y$ and the parameters as:
 
 $$\large\def\horzbar{\rule[.5ex]{2.5ex}{0.5pt}}
 X =

@@ -1,0 +1,27 @@
+{
+  "provider": "openai",
+  "model": "text-davinci-003",
+  "enable_by_default": false,
+  "keybind": "Tab",
+  "delay_ms": 2000,
+  "accept": {
+    "splitter_regex": " ",
+    "display_splitter_regex": "\\.",
+    "completion_completeness_regex": ".*(?!p{L})[^d]$",
+    "min_accept_length": 4,
+    "min_display_length": 50,
+    "retrigger_threshold": 48
+  },
+  "provider_settings": {
+    "openai-chatgpt": {
+      "settings": "{\"api_key\":\"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\"}",
+      "models": {}
+    },
+    "openai": {
+      "settings": "{\"api_key\":\"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\"}",
+      "models": {}
+    }
+  },
+  "presets": [],
+  "fallback": null
+}
