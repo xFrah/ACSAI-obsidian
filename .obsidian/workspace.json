@@ -4,16 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e9611359fe0c071f",
+        "id": "1dee46528c5e39bc",
         "type": "tabs",
         "children": [
           {
-            "id": "b59d4abc71f02652",
+            "id": "88b2b49a3826d9e3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "1dc61cde62cf5476",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Attention Mechanism.md",
+                "file": "MD VERSIONS/Reinforcement Learning/Markov Decision Process.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Attention Mechanism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Machine Learning/Attention Mechanism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,13 +131,10 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "MD VERSIONS/Machine Learning/Attention Mechanism.md"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -150,54 +153,54 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b59d4abc71f02652",
+  "active": "88b2b49a3826d9e3",
   "lastOpenFiles": [
-    "MD VERSIONS/Linear Algebra/Vectors.md",
-    "MD VERSIONS/Linear Algebra/SVD.md",
-    "MD VERSIONS/Machine Learning/PCA.md",
-    "MD VERSIONS/z_images/Pasted image 20230806105609.png",
-    "MD VERSIONS/Machine Learning/Attention Mechanism.md",
-    "MD VERSIONS/Linear Algebra/Matrix operations.md",
-    "MD VERSIONS/Linear Algebra/Matrix (ML).md",
-    "MD VERSIONS/Linear Algebra/Hyperplanes.md",
-    "MD VERSIONS/Machine Learning/Covariance matrix.md",
-    "MD VERSIONS/Machine Learning/Cross-validation.md",
-    "MD VERSIONS/Machine Learning/Cross-entropy.md",
-    "MD VERSIONS/z_images/Pasted image 20230806104105.png",
-    "MD VERSIONS/Machine Learning/Perceptron.md",
+    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/MAC.html",
+    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Gaussian Elimination.html",
+    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Matrix operations.html",
+    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Matrix (ML).html",
+    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Systems of Linear Equations.html",
+    "HTML VERSIONS/MD VERSIONS/Machine Learning/Attention Mechanism.html",
+    "HTML VERSIONS/MD VERSIONS/Reinforcement Learning/Bellman Equations.html",
+    "HTML VERSIONS/MD VERSIONS/Reinforcement Learning/Markov Decision Process.html",
+    "HTML VERSIONS/MD VERSIONS/Reinforcement Learning",
+    "MD VERSIONS/Machine Learning/Polynomial Regression.md",
+    "MD VERSIONS/Machine Learning/Sigmoid.md",
     "MD VERSIONS/Machine Learning/ROC.md",
-    "MD VERSIONS/Machine Learning/Neural Networks.md",
-    "MD VERSIONS/Machine Learning/Multi-Class Classification.md",
-    "MD VERSIONS/Linear Algebra/Quadratic form.md",
-    "MD VERSIONS/Linear Algebra/Gaussian Elimination.md",
-    "MD VERSIONS/z_images/Pasted image 20230806102622.png",
-    "MD VERSIONS/Linear Algebra/Untitled.md",
+    "MD VERSIONS/Machine Learning/Sphering.md",
+    "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
+    "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md",
     "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
-    "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
-    "Micropython README.md",
+    "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
+    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+    "MD VERSIONS/Probability/Bernoulli distribution.md",
+    "MD VERSIONS/Probability/Event.md",
+    "MD VERSIONS/Probability/Conditional Probability.md",
+    "MD VERSIONS/Probability/Introduction to Probability.md",
+    "MD VERSIONS/Probability/Probability distribution.md",
+    "MD VERSIONS/Probability/Random variable.md",
+    "MD VERSIONS/Statistics/Advanced Regression.md",
+    "MD VERSIONS/Statistics/Box plot.md",
+    "MD VERSIONS/Statistics/Association.md",
+    "MD VERSIONS/Statistics/Central Limit Theorem.md",
+    "MD VERSIONS/Statistics/Covariance.md",
+    "MD VERSIONS/Statistics/Correlation coefficient.md",
+    "MD VERSIONS/Statistics/Confidence interval.md",
+    "MD VERSIONS/Statistics/Expected value.md",
+    "MD VERSIONS/Statistics/Empirical rule.md",
+    "MD VERSIONS/Statistics/Measures of Position.md",
+    "MD VERSIONS/z_images/Pasted image 20230807155135.png",
+    "MD VERSIONS/Reinforcement Learning",
+    "MD VERSIONS/z_images/Pasted image 20230807153246.png",
+    "MD VERSIONS/z_images/Pasted image 20230807152401.png",
+    "MD VERSIONS/z_images/Pasted image 20230807152349.png",
+    "MD VERSIONS/z_images/Pasted image 20230806132327.png",
+    "MD VERSIONS/z_images/Pasted image 20230806105609.png",
+    "MD VERSIONS/z_images/Pasted image 20230806104105.png",
+    "MD VERSIONS/z_images/Pasted image 20230806102622.png",
     "MD VERSIONS/z_images/Pasted image 20230721204532.png",
     "MD VERSIONS/z_images/Pasted image 20230721204516.png",
-    "MD VERSIONS/Artificial Intelligence/Prenex Normal Form.md",
-    "MD VERSIONS/Artificial Intelligence/PCNF.md",
-    "MD VERSIONS/Artificial Intelligence/First Order Logic.md",
-    "MD VERSIONS/Artificial Intelligence/Forward and backward Chaining.md",
-    "MD VERSIONS/Artificial Intelligence/MAC.md",
-    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Arity.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/CNF.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Forward and backward Chaining.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/First Order Logic.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Logical Inference.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Negational Normal Form.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Propositional Resolution.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Prenex Normal Form.html",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/PCNF.html",
-    "MD VERSIONS/z_images/Pasted image 20230711183631.png",
-    "MD VERSIONS/z_images/Pasted image 20230711183107.png",
-    "MD VERSIONS/z_images/Pasted image 20230711183106.png",
-    "MD VERSIONS/z_images/Pasted image 20230710182554.png",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/Logical Equivalence.html",
-    "MD VERSIONS/z_images/Pasted image 20230708173131.png",
     "Machine Learning/Untitled.canvas"
   ]
 }

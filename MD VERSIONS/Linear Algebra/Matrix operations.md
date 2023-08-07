@@ -1,6 +1,6 @@
 ## Addition
 
-Given two 2x2 matrices $A$ and $B$: 
+Given two 2x2 [matrices](Matrix%20(ML).md) $A$ and $B$: 
 
 $$\large A = \begin{bmatrix} a & b \\ c & d \end{bmatrix} ,\quad B = \begin{bmatrix}e & f \\g & h \end{bmatrix} $$
 
@@ -31,12 +31,12 @@ $$\large kA = \begin{bmatrix} ka & kb \\ kc & kd \end{bmatrix}$$
 
 There are a few methods for matrix multiplication:
 
-### Basis vectors method
+### Basis [vectors](Vectors.md) method
 
 I'll skip this, because we don't really need it in this shit exam.
 
 ### Dot product method
-You compute the dot product between the rows of the first matrix and the columns of the second matrix.
+You compute the [dot product](Dot%20product.md) between the rows of the first matrix and the columns of the second matrix.
 
 
 ![](../z_images/Pasted%20image%2020230701131314.png)

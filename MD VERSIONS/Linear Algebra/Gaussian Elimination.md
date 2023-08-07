@@ -1,3 +1,6 @@
+---
+alias: Gauss-Jordan Elimination
+---
 ## Row Echelon Form
 
 
@@ -28,28 +31,7 @@ The matrix is used in many areas of linear algebra, including solving systems of
 
 ---
 
-## Augmented and Coefficient Matrix
-
-Consider a system of linear equations as follows: 
-
-$$\large \begin{align*} 2x + 3y - 4z &= 1 \\ 5x - 6y + 7z &= -8 \\ -9x + 10y - 11z &= 12 \end{align*}$$
-
-The **coefficient matrix** of this system is a matrix consisting only of the coefficients of the variables: 
-
-$$\large A = \begin{bmatrix} 2 & 3 & -4 \\ 5 & -6 & 7 \\ -9 & 10 & -11 \end{bmatrix}$$
-
-The **augmented matrix** of the system includes the constants on the right-hand side of the equations. It represents the entire system of equations: 
-
-$$\large [A|B] = \begin{bmatrix} 2 & 3 & -4 & 1 \\ 5 & -6 & 7 & -8 \\ -9 & 10 & -11 & 12 \end{bmatrix}$$
-
----
-
-## Elementary row operations
-
-1. **Interchange 2 rows**
-2. **Multiply a row** by a non-zero constant
-3. **Add** a multiple(potentially negative) of a row to another row
-
+#
 ---
 
 ## Gaussian Elimination with back-substitution
