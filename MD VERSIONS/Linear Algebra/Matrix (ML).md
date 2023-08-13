@@ -148,9 +148,9 @@ Which is exactly the same as the composition in the image above.
 
 ---
 
-## Determinant
+## [Determinant](Determinant.md)
 
-The determinant of a matrix/transformation is the factor by which any area is scaled by the transformation.
+The [determinant](Determinant.md) of a matrix/transformation is the factor by which any area is scaled by the transformation.
 
 ![](../z_images/Pasted%20image%2020230305161956.png)
 

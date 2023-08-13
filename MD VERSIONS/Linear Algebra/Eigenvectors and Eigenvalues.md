@@ -26,7 +26,7 @@ These vectors just get scaled.
 ```
 
 ```ad-info
-The determinant of a [matrix](Matrix.md) is the product of eigenvalues.
+The [determinant](Determinant.md) of a [matrix](Matrix.md) is the product of eigenvalues.
 ```
 
 ```ad-info

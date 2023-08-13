@@ -8,7 +8,7 @@ alias: Gauss-Jordan Elimination
 > A pivot is the first non-zero element of a row.
 
 
-A matrix is in row echelon form if it satisfies the following conditions:
+A [matrix](Matrix%20(ML).md) is in row echelon form if it satisfies the following conditions:
 
 1. **Leading Coefficients:** All nonzero rows have a pivot that is to the right of the pivot of the row above it.
 
@@ -27,7 +27,7 @@ $$\large \begin{bmatrix}
 \end{bmatrix}
 $$
 
-The matrix is used in many areas of linear algebra, including solving systems of linear equations, calculating the rank of a matrix, and finding the determinant of a matrix. It can be obtained from any matrix using elementary row operations (which include swapping two rows, multiplying a row by a nonzero scalar, and adding a multiple of one row to another row).
+The matrix is used in many areas of linear algebra, including solving [systems of linear equations](Systems%20of%20Linear%20Equations.md), calculating the rank of a matrix, and finding the [determinant](Determinant.md) of a matrix. It can be obtained from any matrix using elementary row operations (which include swapping two rows, multiplying a row by a nonzero scalar, and adding a multiple of one row to another row).
 
 ---
 
