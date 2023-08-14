@@ -121,3 +121,80 @@ If $A$ is a square matrix, then $det(A)=0$ if one of the following conditions ho
 > You can also use these opeations to create more zeros in a row or column, as to make the cofactor process easier.
 > 
 > ![](../z_images/Pasted%20image%2020230813122827.png)
+
+---
+
+## Determinant of a Matrix product
+
+If $A$ and $B$ are square matrices of the same size, then $\text{det}(AB)=\text{det}(A)\text{det}(B)$.
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020230813181325.png)
+
+---
+
+## Determinant of multiple of Matrix
+
+If $A$ is a square matrix and $c$ is a scalar, then $\text{det}(cA)=c \cdot \text{det}(A)$.
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020230813181854.png)
+
+---
+
+## Determinant of Invertible Matrix
+
+A square matrix $A$ is invertible(non-singular) if and only if $\text{det}(A) \neq 0$.
+
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020230813182551.png)
+
+---
+
+## Determinant of an Inverse Matrix
+
+If $A$ is invertible, then $\text{det}(A^{-1})=\large\frac{1}{\text{det}(A)}$.
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020230813182825.png)
+
+---
+
+## Determinant of Transpose
+
+If $A$ is a square matrix, its determinant is equal to the determinant of its transpose.
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020230813183054.png)
+
+---
+
+## Properties of Determinants
+
+If $\text{det}(A)  \neq 0$:
+1) $A$ is invertible.
+2) $Ax = 0$ has only the trivial solution, 0. ($A$ is the coefficient matrix)
+3) $Ax=b$ has unique solution whihch is $X=A^{-1}b$. ($A$ is the coefficient matrix)
+
+---
+
+## Adjoint
+
+If $A$ is a square matrix, the matrix of cofactors of A has the form:
+
+![](../z_images/Pasted%20image%2020230814131000.png)
+
+
+The transpose of this matrix is called the adjoint of $A$ and denoted by $\text{adj}(A)$:
+
+![](../z_images/Pasted%20image%2020230814131134.png)
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020230814131305.png)
+
+---
+
+## Inverse of a matrix using Adjoint
+
+![](../z_images/Pasted%20image%2020230814131616.png)

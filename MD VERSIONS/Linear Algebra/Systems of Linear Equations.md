@@ -66,3 +66,43 @@ A system of linear equations is either:
 > During the process of elimination, if one row is full of zeros except for the last element, you can safely say that the system has no solutions.
 > 
 > ![](../z_images/Pasted%20image%2020230806132327.png)
+
+---
+
+## Cramer's Rule
+
+If a system of linear equations has a coefficient matrix with a non-zero determinant $|A|$, then you can compute the solution with Cramer's rule.
+### Cramer's Rule Explained
+
+Given a system of linear equations:
+
+$$\large\begin{align*} a_{11}x_1 + a_{12}x_2 + \ldots + a_{1n}x_n & = b_1 \\ a_{21}x_1 + a_{22}x_2 + \ldots + a_{2n}x_n & = b_2 \\ \vdots & \, \\ a_{n1}x_1 + a_{n2}x_2 + \ldots + a_{nn}x_n & = b_n \end{align*}$$
+
+You can write this system as $AX = B$, where:
+- $A$ is the matrix of coefficients.
+- $ X $ is the column matrix of variables $[x_1, x_2, \ldots, x_n]^T$.
+- $ B $ is the column matrix of constants $[b_1, b_2, \ldots, b_n]^T$.
+
+To solve for each variable $x_i$, you can use the following formula:
+
+$$\large x_i = \frac{\text{det}(A_i)}{\text{det}(A)}$$
+
+> [!example]
+> Consider a system of two equations:
+> 
+> $$\large\begin{align*} 2x + 3y & = 1 \\ 3x + 4y & = 2 \end{align*}$$
+> 
+> 1. **Calculate the Determinant of $ A $:**
+>  $$\large\text{det}(A) = \text{det}\left(\begin{bmatrix} 2 & 3 \\ 3 & 4 \end{bmatrix}\right) = 1$$
+> 
+> 2. **Calculate the Determinant of $ A_x $:**
+>   $$\large\text{det}(A_x) = \text{det}\left(\begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}\right) = -2$$
+> 
+> 3. **Calculate $ x $:**
+>   $$\large x = \frac{\text{det}(A_x)}{\text{det}(A)} = -2$$
+> 
+> 4. **Repeat Steps 2-3 for $ y $:**
+>   $$\large y = \frac{\text{det}\left(\begin{bmatrix} 2 & 1 \\ 3 & 2 \end{bmatrix}\right)}{\text{det}(A)} = 1$$
+> 
+> The solution to the system is $x = -2, y = 1$.
+> 

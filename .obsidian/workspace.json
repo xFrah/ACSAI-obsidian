@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eda8f818d9015020",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Linear Algebra/Determinant.md",
+                "file": "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Linear Algebra/Determinant.md",
+                "file": "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Linear Algebra/Determinant.md"
+                "file": "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md"
               }
             }
           }
@@ -151,20 +165,20 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "88b2b49a3826d9e3",
+  "active": "eda8f818d9015020",
   "lastOpenFiles": [
     "MD VERSIONS/Linear Algebra/Determinant.md",
-    "MD VERSIONS/z_images/Pasted image 20230813122827.png",
-    "MD VERSIONS/z_images/Pasted image 20230813122547.png",
-    "MD VERSIONS/z_images/Pasted image 20230813120413.png",
-    "MD VERSIONS/z_images/Pasted image 20230813120401.png",
-    "MD VERSIONS/z_images/Pasted image 20230813115635.png",
-    "MD VERSIONS/z_images/Pasted image 20230813115615.png",
-    "MD VERSIONS/z_images/Pasted image 20230813114849.png",
+    "MD VERSIONS/z_images/Pasted image 20230814131616.png",
+    "MD VERSIONS/z_images/Pasted image 20230814131305.png",
+    "MD VERSIONS/z_images/Pasted image 20230814131231.png",
+    "MD VERSIONS/z_images/Pasted image 20230814131134.png",
+    "MD VERSIONS/z_images/Pasted image 20230814131000.png",
+    "MD VERSIONS/z_images/Pasted image 20230813183054.png",
+    "MD VERSIONS/z_images/Pasted image 20230813182825.png",
+    "MD VERSIONS/z_images/Pasted image 20230813182551.png",
+    "MD VERSIONS/z_images/Pasted image 20230813181854.png",
+    "MD VERSIONS/z_images/Pasted image 20230813181652.png",
     "MD VERSIONS/Linear Algebra/Inverse of a Matrix.md",
-    "MD VERSIONS/z_images/Pasted image 20230811200346.png",
-    "MD VERSIONS/z_images/Pasted image 20230811195826.png",
-    "MD VERSIONS/z_images/Pasted image 20230811174914.png",
     "MD VERSIONS/Linear Algebra/Gaussian Elimination.md",
     "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
     "MD VERSIONS/Reinforcement Learning/Markov Decision Process.md",
