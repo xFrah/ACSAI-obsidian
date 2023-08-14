@@ -72,7 +72,6 @@ A system of linear equations is either:
 ## Cramer's Rule
 
 If a system of linear equations has a coefficient matrix with a non-zero [determinant](Determinant.md) $|A|$, then you can compute the solution with Cramer's rule.
-### Cramer's Rule Explained
 
 Given a system of linear equations:
 
@@ -80,28 +79,34 @@ $$\large\begin{align*} a_{11}x_1 + a_{12}x_2 + \ldots + a_{1n}x_n & = b_1 \\ a_{
 
 You can write this system as $AX = B$, where:
 - $A$ is the matrix of coefficients.
-- $ X $ is the column matrix of variables $[x_1, x_2, \ldots, x_n]^T$.
-- $ B $ is the column matrix of constants $[b_1, b_2, \ldots, b_n]^T$.
+- $X$ is the column matrix of variables $[x_1, x_2, \ldots, x_n]^T$.
+- $B$ is the column matrix of constants $[b_1, b_2, \ldots, b_n]^T$.
 
 To solve for each variable $x_i$, you can use the following formula:
 
 $$\large x_i = \frac{\text{det}(A_i)}{\text{det}(A)}$$
+
+where:
+
+- $\text{det}(A)$ is the determinant of the original coefficient matrix $A$.
+- $\text{det}(Ai_​)$ is the determinant of the matrix obtained by replacing the $i$-th column of $A$ with the column matrix $B$.
+
 
 > [!example]
 > Consider a system of two equations:
 > 
 > $$\large\begin{align*} 2x + 3y & = 1 \\ 3x + 4y & = 2 \end{align*}$$
 > 
-> 1. **Calculate the Determinant of $ A $:**
+> 1. **Calculate the Determinant of $A$:**
 >  $$\large\text{det}(A) = \text{det}\left(\begin{bmatrix} 2 & 3 \\ 3 & 4 \end{bmatrix}\right) = 1$$
 > 
-> 2. **Calculate the Determinant of $ A_x $:**
+> 2. **Calculate the Determinant of $A_x$:**
 >   $$\large\text{det}(A_x) = \text{det}\left(\begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}\right) = -2$$
 > 
-> 3. **Calculate $ x $:**
+> 3. **Calculate $x$:**
 >   $$\large x = \frac{\text{det}(A_x)}{\text{det}(A)} = -2$$
 > 
-> 4. **Repeat Steps 2-3 for $ y $:**
+> 4. **Repeat Steps 2-3 for $y$:**
 >   $$\large y = \frac{\text{det}\left(\begin{bmatrix} 2 & 1 \\ 3 & 2 \end{bmatrix}\right)}{\text{det}(A)} = 1$$
 > 
 > The solution to the system is $x = -2, y = 1$.
