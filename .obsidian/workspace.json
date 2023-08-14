@@ -145,8 +145,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -165,7 +164,7 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "eda8f818d9015020",
+  "active": "f501308563189c00",
   "lastOpenFiles": [
     "MD VERSIONS/Linear Algebra/Determinant.md",
     "MD VERSIONS/z_images/Pasted image 20230814131616.png",

@@ -71,7 +71,7 @@ A system of linear equations is either:
 
 ## Cramer's Rule
 
-If a system of linear equations has a coefficient matrix with a non-zero determinant $|A|$, then you can compute the solution with Cramer's rule.
+If a system of linear equations has a coefficient matrix with a non-zero [determinant](Determinant.md) $|A|$, then you can compute the solution with Cramer's rule.
 ### Cramer's Rule Explained
 
 Given a system of linear equations:
