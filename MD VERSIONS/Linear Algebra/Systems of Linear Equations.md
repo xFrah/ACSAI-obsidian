@@ -1,3 +1,7 @@
+---
+alias: system of linear equations
+---
+
 A system of linear equations is a collection of linear equations involving the same variables.
 
 $$\large\begin{align*} x + 2y - 3z &= 4 \\ 3x - y + 2z &= -1 \\ 4x + y - z &= 2 \end{align*}$$

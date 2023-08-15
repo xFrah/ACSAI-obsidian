@@ -58,7 +58,7 @@ So we can represent our vector v as `3*Ĵ + -2*î`.
 
 ## Span:
 
-The span of a vector is the set of all their linear combinations(sum of vectors).
+The span of a vector is the set of all their [linear combinations](Linear%20Combination.md)(sum of vectors).
 The span of most 2D vectors is a 2D space.
 
 ![](../z_images/Pasted%20image%2020230304133130.png)
@@ -70,7 +70,7 @@ The span of most 2D vectors is a 2D space.
 If two basis vectors line up in the same directions, the span lies on a single line.
 Another definition, is that if a basis vector sits on the span of another vector, it is redundant and doesn't add anything to the span of the system.
 
-Two vectors are linearly dependent if one is the scaled version of the other.
+Two vectors are [linearly dependent](Linear%20dependence.md) if one is the scaled version of the other.
 
 ![](../z_images/Pasted%20image%2020230304133216.png)
 

@@ -84,7 +84,7 @@ We are gonna take the basis vectors, and we are gonna change them. Then the oper
 It's basically just a change of basis vectors.
 
 We are given the vector: $$\Large\begin{bmatrix}5\\7\end{bmatrix}$$
-we can also represent it as a linear combination of scaled basis vectors:
+we can also represent it as a [linear combination](Linear%20Combination.md) of scaled basis vectors:
 
 $$\Large5\hat{i}+7\hat{j}$$
 

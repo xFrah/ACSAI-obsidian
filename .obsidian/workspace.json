@@ -26,6 +26,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "MD VERSIONS/Linear Algebra/Linear dependence.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eae745aaa4955f58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
                 "mode": "source",
                 "backlinks": false,
@@ -101,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
+                "file": "MD VERSIONS/Linear Algebra/Linear dependence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
+                "file": "MD VERSIONS/Linear Algebra/Linear dependence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -141,11 +154,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md"
+                "file": "MD VERSIONS/Linear Algebra/Linear dependence.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,8 +178,17 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "f501308563189c00",
+  "active": "eda8f818d9015020",
   "lastOpenFiles": [
+    "MD VERSIONS/z_images/Pasted image 20230815171246.png",
+    "MD VERSIONS/z_images/Pasted image 20230815171231.png",
+    "MD VERSIONS/Linear Algebra/Linear dependence.md",
+    "MD VERSIONS/Linear Algebra/Spanning set.md",
+    "MD VERSIONS/Linear Algebra/Vector spaces.md",
+    "MD VERSIONS/Linear Algebra/Linear Combination.md",
+    "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
+    "MD VERSIONS/z_images/Pasted image 20230814182921.png",
+    "MD VERSIONS/z_images/Pasted image 20230814170545.png",
     "MD VERSIONS/Linear Algebra/Determinant.md",
     "MD VERSIONS/z_images/Pasted image 20230814131616.png",
     "MD VERSIONS/z_images/Pasted image 20230814131305.png",
@@ -174,12 +197,8 @@
     "MD VERSIONS/z_images/Pasted image 20230814131000.png",
     "MD VERSIONS/z_images/Pasted image 20230813183054.png",
     "MD VERSIONS/z_images/Pasted image 20230813182825.png",
-    "MD VERSIONS/z_images/Pasted image 20230813182551.png",
-    "MD VERSIONS/z_images/Pasted image 20230813181854.png",
-    "MD VERSIONS/z_images/Pasted image 20230813181652.png",
     "MD VERSIONS/Linear Algebra/Inverse of a Matrix.md",
     "MD VERSIONS/Linear Algebra/Gaussian Elimination.md",
-    "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
     "MD VERSIONS/Reinforcement Learning/Markov Decision Process.md",
     "MD VERSIONS/Reinforcement Learning/Bellman Equations.md",
     "MD VERSIONS/Guides to the exams/Linear Algebra Exam.md",
@@ -206,10 +225,6 @@
     "MD VERSIONS/Probability/Conditional Probability.md",
     "MD VERSIONS/Probability/Introduction to Probability.md",
     "MD VERSIONS/Probability/Probability distribution.md",
-    "MD VERSIONS/Probability/Random variable.md",
-    "MD VERSIONS/Statistics/Advanced Regression.md",
-    "MD VERSIONS/Statistics/Box plot.md",
-    "MD VERSIONS/Statistics/Association.md",
     "MD VERSIONS/Reinforcement Learning",
     "Machine Learning/Untitled.canvas"
   ]
