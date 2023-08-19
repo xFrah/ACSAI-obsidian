@@ -34,7 +34,7 @@ It would just be to follow the directions of the first vector, than we follow th
 
 
 ```ad-important
-A fundamental concept of vectors, is the idea that a vector is the sum of the scaled basis vectors.
+A fundamental concept of vectors, is the idea that a vector is the sum of the scaled [basis](Basis.md) vectors.
 
 Let me clarify. We know that the base vectors are the vectors of length 1 that lie on the two axis.
 

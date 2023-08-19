@@ -76,7 +76,7 @@ There are two ways to shear:
 	![](../z_images/Pasted%20image%2020230307181604.png)
 - Rotate both the vectors and extend only one of them.
 
-Since in this case we have only 1 angle, we are using the second way. The shear can only happen if we rotate the vectors, since if the secondary component is 0 in both of the basis vectors, unless it is rotated.
+Since in this case we have only 1 angle, we are using the second way. The shear can only happen if we rotate the vectors, since if the secondary component is 0 in both of the [basis](Basis.md) vectors, unless it is rotated.
 
 So, here, the C coefficients serve the purpose of scaling the secondary component of the unit vectors, which is rotated.
 ```

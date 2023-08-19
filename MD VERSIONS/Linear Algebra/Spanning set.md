@@ -1,5 +1,5 @@
 ---
-alias: spanning sets
+alias: spanning sets, spans
 ---
 
 A spanning set is a specific set of [vectors](Vectors.md) that can be combined through [linear combinations](Linear%20Combination.md) to create every possible vector in that [vector space](Vector%20spaces.md).

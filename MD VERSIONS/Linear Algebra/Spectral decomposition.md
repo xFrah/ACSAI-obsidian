@@ -18,7 +18,7 @@ Whenever you have a [symmetric matrix](Symmetric%20matrix.md) S, we can always a
 ![](../z_images/Pasted%20image%2020230311142752.png)
 
 What is happening is that:
-$Q^T$) We rotate the plane so that the [[Eigenvectors and Eigenvalues|eigenvectors]] end up on the basis [vectors](Vectors.md).
+$Q^T$) We rotate the plane so that the [[Eigenvectors and Eigenvalues|eigenvectors]] end up on the [basis](Basis.md) [vectors](Vectors.md).
 $A$) Once we have the eigenvectors there, we scale them.
 $Q$) We rotate the plane so that the eigenvectors end up shere they were before. But now they are scaled.
 

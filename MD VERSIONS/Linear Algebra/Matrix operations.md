@@ -31,7 +31,7 @@ $$\large kA = \begin{bmatrix} ka & kb \\ kc & kd \end{bmatrix}$$
 
 There are a few methods for matrix multiplication:
 
-### Basis [vectors](Vectors.md) method
+### [Basis](Basis.md) [vectors](Vectors.md) method
 
 I'll skip this, because we don't really need it in this shit exam.
 

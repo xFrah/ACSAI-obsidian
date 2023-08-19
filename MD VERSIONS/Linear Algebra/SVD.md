@@ -7,7 +7,7 @@ Sometimes it is useful to decompose transformation matrices in multiple matrices
 
 The difference with [spectral decomposition](Spectral%20decomposition.md), is that SVD doesn't require a [symmetric matrix](Symmetric%20matrix.md), but just about any [matrix](Matrix%20(ML).md).
 
-SVD says that any matrix, regardless of symmetry, rank or shape, can unconditionally be decomposed into 3 special matrices.
+SVD says that any matrix, regardless of symmetry, [rank](Rank.md) or shape, can unconditionally be decomposed into 3 special matrices.
 
 ![](../z_images/Pasted%20image%2020230309152504.png)
 
@@ -18,7 +18,7 @@ $$\large AV=U\Sigma$$
 **Where:**
 - A is any matrix.
 - V are the orthonormal vectors that, once transformed by A, remain orthonormal.
-- $\Sigma$ is a diagonal matrix that scales the basis vectors before they are rotated.
+- $\Sigma$ is a diagonal matrix that scales the [basis](Basis.md) vectors before they are rotated.
 - U is the rotation that brings the basis vectors 
 
 

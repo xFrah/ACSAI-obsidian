@@ -9,7 +9,7 @@ $$\Large A_{ji}=A_{ij}$$
 title: Why are they useful?
 The eigenvectors are perpendicular to each other.
 
-That means that if we pack the eigenvectors(normalized) into a matrix, we obtain an orthogonal matrix that describes a rotation of the basis vectors to the eigenvectors.
+That means that if we pack the eigenvectors(normalized) into a matrix, we obtain an orthogonal matrix that describes a rotation of the [basis](Basis.md) vectors to the eigenvectors.
 
 ‎ 
 

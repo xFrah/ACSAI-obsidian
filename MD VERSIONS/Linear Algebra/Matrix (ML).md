@@ -9,7 +9,7 @@ $$\huge\begin{bmatrix} m_{11} & ... & m_{13} \\ ... & m_{22} & ... \\ m_{31} & .
 ## Interpretation:
 - n column [[Vectors|vectors]] in a real-valued M-dimensional space.
 - m row vectors in a real-valued N-dimensional space.
-- Transformations, each column are new basis vectors.
+- Transformations, each column are new [basis](Basis.md) vectors.
 
 ---
 

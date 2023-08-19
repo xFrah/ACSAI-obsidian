@@ -1,5 +1,5 @@
 ---
-alias: Gauss-Jordan Elimination
+alias: Gauss-Jordan Elimination, R.E.F., R.E.F
 ---
 ## Row Echelon Form
 
@@ -27,7 +27,7 @@ $$\large \begin{bmatrix}
 \end{bmatrix}
 $$
 
-The matrix is used in many areas of linear algebra, including solving [systems of linear equations](Systems%20of%20Linear%20Equations.md), calculating the rank of a matrix, and finding the [determinant](Determinant.md) of a matrix. It can be obtained from any matrix using elementary row operations (which include swapping two rows, multiplying a row by a nonzero scalar, and adding a multiple of one row to another row).
+The matrix is used in many areas of linear algebra, including solving [systems of linear equations](Systems%20of%20Linear%20Equations.md), calculating the [rank](Rank.md) of a matrix, and finding the [determinant](Determinant.md) of a matrix. It can be obtained from any matrix using elementary row operations (which include swapping two rows, multiplying a row by a nonzero scalar, and adding a multiple of one row to another row).
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-alias: Linearly dependent, linearly independent, linear dependencies, linear dependence, linear independence
+alias: linearly dependent, linearly independent, linear dependencies, linear dependence, linear independence
 ---
 
 A set of [vectors](Vectors.md) is said to be linearly dependent if at least one vector in the set can be expressed as a [linear combination](Linear%20Combination.md) of the other vectors.

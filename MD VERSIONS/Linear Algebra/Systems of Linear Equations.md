@@ -14,6 +14,8 @@ Consider a system of linear equations as follows:
 
 $$\large \begin{align*} 2x + 3y - 4z &= 1 \\ 5x - 6y + 7z &= -8 \\ -9x + 10y - 11z &= 12 \end{align*}$$
 
+![](../z_images/Pasted%20image%2020230819191825.png)
+
 The **coefficient matrix** of this system is a matrix consisting only of the coefficients of the variables: 
 
 $$\large A = \begin{bmatrix} 2 & 3 & -4 \\ 5 & -6 & 7 \\ -9 & 10 & -11 \end{bmatrix}$$
@@ -115,3 +117,11 @@ where:
 > 
 > The solution to the system is $x = -2, y = 1$.
 > 
+
+---
+
+## Solutions for non-homogeneous systems
+
+?????
+
+![](../z_images/Pasted%20image%2020230819195438.png)
