@@ -54,9 +54,38 @@ Prof's solution:
 
 In order to determine whether a decomposition with dependencies $G$ preserves F, we need to check if $F \subseteq G^+$.
 
+For every dependency we must know if the right side of the dependencies are contained within $X^+_G$.
+
+These are the steps to compute $X^+_G$:
+1) For each table in the decomposition, we start with two sets:
+	- $Z$: contains the attributes functionally determined by $X$ in the decomposition.
+	- $S$: to be used in a loop, progressively collects the attributes that are determined by $Z$ in each sub-schema.
+2) We use the following formula in a loop(i++) to collect the determined attributes from each sub-schema:
+
+$$\large S \;\text{+=} \;\underbracket{\underbracket{(\underbracket{Z\;\cap R_i}_{\text{Part of X also in R}_i})^+_F}_{\text{Attributes determined}}\;\cap R_i}_{\text{Determined attributes that are also in R}_i}$$
+
+3) We add $S$ to $Z$.
+4) Repeat step 2 and 3.
+
+
+> [!example]
+> 
 $R=ABCDE$, 
-$F=\{AC🡪E, AE🡪CD, CE🡪B, DC🡪EB\}$
+$F=\{AC🡪E, AE🡪CD, CE🡪B\}$
 $ρ=\{ABCE, CD\}$ (decomposition)
-
-
-We just need to check that the left and right parts of all dependencies are together the tables.
+> 
+> We want to verify that $AC🡪E$ is satisfied.
+> 
+> $z = AC$
+> 
+> $$\large S \;\text{+=}\; (AC \cap ABCE)^+_F\cap ABCE, \quad S \;\text{+=}\; (AC \cap CD)^+_F\cap CD$$
+> $$\large S \;\text{+=}\; (AC)^+_F\cap ABCE, \quad S \;\text{+=}\; (C)^+_F\cap CD$$
+> $$\large S \;\text{+=}\; ACE\cap ABCE, \quad S \;\text{+=}\; \emptyset\cap CD$$
+> $$\large S \;\text{+=}\; ACE, \quad S \;\text{+=}\; \emptyset$$
+> 
+> $z = ACE$
+> 
+> We stop the loop here, since $E$ is inside $z$.
+> 
+> If this wasn't the case, we would have needed to do another iteration of the loop.
+> 

@@ -4,37 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1dee46528c5e39bc",
+        "id": "911645b782369bda",
         "type": "tabs",
         "children": [
           {
-            "id": "eda8f818d9015020",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD VERSIONS/Linear Algebra/Null space.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44816fd2ae389ef5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD VERSIONS/Linear Algebra/Basis.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51b7d197c01fe95c",
+            "id": "7e7c63bc5bf47fda",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,16 +150,18 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "51b7d197c01fe95c",
+  "active": "7e7c63bc5bf47fda",
   "lastOpenFiles": [
-    "MD VERSIONS/z_images/Pasted image 20230825180314.png",
-    "MD VERSIONS/Linear Algebra/Rank.md",
+    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+    "MD VERSIONS/Guides to the exams/DMA2 Oral Exam.md",
     "MD VERSIONS/Guides to the exams/DMA1 Exam.md",
-    "MD VERSIONS/z_images/Pasted image 20230824105209.png",
-    "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
-    "MD VERSIONS/z_images/Pasted image 20230819195438.png",
     "MD VERSIONS/Linear Algebra/Null space.md",
     "MD VERSIONS/Linear Algebra/Basis.md",
+    "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
+    "MD VERSIONS/z_images/Pasted image 20230825180314.png",
+    "MD VERSIONS/Linear Algebra/Rank.md",
+    "MD VERSIONS/z_images/Pasted image 20230824105209.png",
+    "MD VERSIONS/z_images/Pasted image 20230819195438.png",
     "MD VERSIONS/Linear Algebra/Spanning set.md",
     "MD VERSIONS/z_images/Pasted image 20230819191825.png",
     "MD VERSIONS/z_images/Pasted image 20230819191724.png",
@@ -197,7 +172,6 @@
     "MD VERSIONS/Linear Algebra/Gaussian Elimination.md",
     "MD VERSIONS/z_images/Pasted image 20230817125512.png",
     "MD VERSIONS/z_images/Pasted image 20230817125509 1.png",
-    "MD VERSIONS/z_images/Pasted image 20230817125509.png",
     "MD VERSIONS/Linear Algebra/Linear dependence.md",
     "MD VERSIONS/Linear Algebra/Vector spaces.md",
     "MD VERSIONS/Linear Algebra/Linear Combination.md",
@@ -220,10 +194,8 @@
     "MD VERSIONS/Machine Learning/ROC.md",
     "MD VERSIONS/Machine Learning/Sphering.md",
     "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
-    "MD VERSIONS/Guides to the exams/Data Management 2 Oral Exam.md",
     "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
     "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
-    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
     "MD VERSIONS/Reinforcement Learning",
     "Machine Learning/Untitled.canvas"
   ]

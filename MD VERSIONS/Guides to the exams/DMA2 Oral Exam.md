@@ -1,3 +1,7 @@
+> [!danger]
+> This is a shit guide, my exam didn't go well.
+
+
 - What is an entity?
 - What is a relation?
 - What constraints does serial represent?

@@ -8,7 +8,7 @@ If $A$ is an $m$x$n$ [matrix](Matrix%20(ML).md), then the set of all solutions o
 > The dimension of the null space is called the **nullity** of $A$.
 
 > [!hint] Intuitive explanation
-> When a matrix isn't full [rank](Rank.md), meaning that it has a zero [determinant](Determinant.md) and collapses the space, some [vectors](Vectors.md) go to zero.
+> When a [matrix](Matrix%20(ML).md) isn't full [rank](Rank.md), meaning that it has a zero [determinant](Determinant.md) and collapses the space, some [vectors](Vectors.md) go to zero.
 > 
 > The **set of vectors that goes to zero** after this transformation is called the null space.
 > 
