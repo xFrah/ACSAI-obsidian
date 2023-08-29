@@ -130,8 +130,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -150,28 +149,29 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "7e7c63bc5bf47fda",
+  "active": "f501308563189c00",
   "lastOpenFiles": [
-    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
-    "MD VERSIONS/Guides to the exams/DMA2 Oral Exam.md",
     "MD VERSIONS/Guides to the exams/DMA1 Exam.md",
+    "MD VERSIONS/z_images/Pasted image 20230829163426.png",
+    "MD VERSIONS/z_images/Pasted image 20230829162539.png",
+    "MD VERSIONS/z_images/Pasted image 20230829161839.png",
+    "MD VERSIONS/z_images/Pasted image 20230829161435.png",
+    "MD VERSIONS/z_images/Pasted image 20230829161305.png",
+    "MD VERSIONS/z_images/Pasted image 20230829160914.png",
+    "MD VERSIONS/z_images/Pasted image 20230829160749.png",
+    "MD VERSIONS/z_images/Pasted image 20230829155354.png",
+    "MD VERSIONS/z_images/Pasted image 20230828172634.png",
+    "MD VERSIONS/z_images/Pasted image 20230828171546.png",
+    "MD VERSIONS/Guides to the exams/DMA2 Oral Exam.md",
+    "MD VERSIONS/Guides to the exams/Linear Algebra Exam.md",
+    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
     "MD VERSIONS/Linear Algebra/Null space.md",
     "MD VERSIONS/Linear Algebra/Basis.md",
     "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
-    "MD VERSIONS/z_images/Pasted image 20230825180314.png",
     "MD VERSIONS/Linear Algebra/Rank.md",
-    "MD VERSIONS/z_images/Pasted image 20230824105209.png",
-    "MD VERSIONS/z_images/Pasted image 20230819195438.png",
     "MD VERSIONS/Linear Algebra/Spanning set.md",
-    "MD VERSIONS/z_images/Pasted image 20230819191825.png",
-    "MD VERSIONS/z_images/Pasted image 20230819191724.png",
     "MD VERSIONS/Linear Algebra/SVD.md",
-    "MD VERSIONS/z_images/Pasted image 20230817191929.png",
-    "MD VERSIONS/z_images/Pasted image 20230817131432.png",
-    "MD VERSIONS/z_images/Pasted image 20230817125734.png",
     "MD VERSIONS/Linear Algebra/Gaussian Elimination.md",
-    "MD VERSIONS/z_images/Pasted image 20230817125512.png",
-    "MD VERSIONS/z_images/Pasted image 20230817125509 1.png",
     "MD VERSIONS/Linear Algebra/Linear dependence.md",
     "MD VERSIONS/Linear Algebra/Vector spaces.md",
     "MD VERSIONS/Linear Algebra/Linear Combination.md",
@@ -179,7 +179,6 @@
     "MD VERSIONS/Linear Algebra/Inverse of a Matrix.md",
     "MD VERSIONS/Reinforcement Learning/Markov Decision Process.md",
     "MD VERSIONS/Reinforcement Learning/Bellman Equations.md",
-    "MD VERSIONS/Guides to the exams/Linear Algebra Exam.md",
     "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/MAC.html",
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Gaussian Elimination.html",
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Matrix operations.html",

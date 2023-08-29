@@ -30,9 +30,9 @@ Prof's solution:
 
 ---
 
-## Exercise 2
+## Exercise 2a
 
-![](../z_images/Pasted%20image%2020230825180314.png)
+![](../z_images/Pasted%20image%2020230828135216.png)
 
 > [!note] Checking for equivalence
 > Two sets of functional dependencies $F$ and $G$ are equivalent if
@@ -76,16 +76,80 @@ $ρ=\{ABCE, CD\}$ (decomposition)
 > 
 > We want to verify that $AC🡪E$ is satisfied.
 > 
-> $z = AC$
+> $Z = AC$
 > 
 > $$\large S \;\text{+=}\; (AC \cap ABCE)^+_F\cap ABCE, \quad S \;\text{+=}\; (AC \cap CD)^+_F\cap CD$$
 > $$\large S \;\text{+=}\; (AC)^+_F\cap ABCE, \quad S \;\text{+=}\; (C)^+_F\cap CD$$
 > $$\large S \;\text{+=}\; ACE\cap ABCE, \quad S \;\text{+=}\; \emptyset\cap CD$$
 > $$\large S \;\text{+=}\; ACE, \quad S \;\text{+=}\; \emptyset$$
 > 
-> $z = ACE$
+> $Z = ACE$
 > 
-> We stop the loop here, since $E$ is inside $z$.
+> We stop the loop here, since $E$ is inside $Z$.
 > 
 > If this wasn't the case, we would have needed to do another iteration of the loop.
 > 
+
+---
+## Exercise 2b
+
+![](../z_images/Pasted%20image%2020230828135232.png)
+
+> [!note] What is a Lossless Join?
+> We have a lossless join when upon applying natural join to a decomposition of $R$, we get exactly $R$.
+
+Steps for checking whether a join is lossless or not:
+1) We construct a table where the rows represent the sub-schemas, and the columns represent the individual attributes of $R$. In each cell, we put $a_{j}$ if the attribute is contained in the subschema, we put $b_{ij}$ otherwise ($i$=row, $j$=column).
+
+2) ![](../z_images/Pasted%20image%2020230828172634.png)
+
+3) You loop until no more changes can be made or if one row is full of $a$'s. If we have a row full of $a$'s the join is lossless, otherwise it is lossy.
+
+> [!example]
+$R = (A, B, C, D, E)$
+$F = \{ C → D, AB → E, D → B \}$
+Say whether decomposition
+$ρ = \{ AC, ADE, CDE ,AD ,B \}$
+has a lossless join.
+> ![](../z_images/Pasted%20image%2020230828171546.png)
+> 
+> We examine the dependency $C → D$, and we can see that $C$ has 2 rows($a$'s) in its columns, so we need to make the elements in the columns of $Y$ equal in correspondence of those $a$'s.
+> 
+> ![](../z_images/Pasted%20image%2020230829155354.png)
+> 
+> We examine the dependency $AB → E$, there are no rows in which $A$ and $B$ are equal, so we have no way of verifying the dependency right now(already verified).
+> 
+> We examine the dependency $D → B$, we can see that $D$ has 3 equal rows, so we make the rows of $B$ equal.
+> 
+> ![](../z_images/Pasted%20image%2020230829160914.png)
+> 
+> We have completed the first loop and we don't have a row full of $a$'s, but changes can still be made, so we keep going.
+> 
+> We examine the dependency $C → D$, which is already satisfied.
+> 
+> ![](../z_images/Pasted%20image%2020230829161305.png)
+> 
+> We examine the dependency $AB → E$, and we can make some changes:
+> 
+> ![](../z_images/Pasted%20image%2020230829161435.png)
+> 
+> We examine the dependency $D → B$, which is already satisfied.
+> 
+> We keep the loop going.
+> 
+> ![](../z_images/Pasted%20image%2020230829161839.png)
+> 
+> No more changes can be made at all.
+> Since we don't have a row full of $a$'s, our join is lossy.
+
+---
+
+## Exercise 2c
+
+![](../z_images/Pasted%20image%2020230829163426.png)
+
+> [!note] Definition of Key
+> A subset $K$ of a relation is a key if:
+> - $K → R \in F^+$: $K$ determines all other attributes.
+> - There are no subsets $K'$ such that $K → R \in F^+$: There are no subsets of $K$ that determines all other attributes.
+
