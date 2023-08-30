@@ -46,7 +46,7 @@ $$\large= \frac{1}{5}\begin{bmatrix}
 > 
 > 
 > ### Basis vectors method
-> You remember that the columns of the matrix on the left are actually basis vectors.
+> You remember that the columns of the matrix on the left are actually [basis](../Linear%20Algebra/Basis.md) vectors.
 > So you need to substitute them to the basis vectors of the two vectors in the matrix on the right.
 > 
 > 
@@ -83,7 +83,7 @@ $$\large= \frac{1}{5}\begin{bmatrix}
 > 
 > 
 > ### Dot product method
-> You compute the dot product between the rows of the first matrix and the columns of the second matrix.
+> You compute the [dot product](../Linear%20Algebra/Dot%20product.md) between the rows of the first matrix and the columns of the second matrix.
 > 
 > ![](../z_images/Pasted%20image%2020230701131314.png)
 > ![](../z_images/Pasted%20image%2020230701131332.png)
@@ -94,7 +94,7 @@ $$\large= \frac{1}{5}\begin{bmatrix}
 ![](../z_images/Pasted%20image%2020230702135031.png)
 
 
-> [!danger] How do we compute a determinant?
+> [!danger] How do we compute a [determinant](../Linear%20Algebra/Determinant.md)?
 > It might be in the exam.
 
 

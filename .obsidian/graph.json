@@ -62,6 +62,13 @@
         "a": 1,
         "rgb": 11621088
       }
+    },
+    {
+      "query": "path:\"MD VERSIONS/Guides to the exams\"",
+      "color": {
+        "a": 1,
+        "rgb": 16711927
+      }
     }
   ],
   "collapse-display": false,

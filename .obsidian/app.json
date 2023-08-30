@@ -4,11 +4,11 @@
   "useMarkdownLinks": true,
   "userIgnoreFilters": [
     "z_images/",
-    "MD VERSIONS/Guides to the exams/",
     "MD VERSIONS/Statistics/",
     "MD VERSIONS/AI-LAB/",
     "MD VERSIONS/Data Management 2/",
-    "MD VERSIONS/Machine Learning/"
+    "MD VERSIONS/Machine Learning/",
+    "MD VERSIONS/Guides to the exams/"
   ],
   "newLinkFormat": "relative",
   "alwaysUpdateLinks": true,

@@ -130,7 +130,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -149,9 +150,13 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "f501308563189c00",
+  "active": "7e7c63bc5bf47fda",
   "lastOpenFiles": [
+    "MD VERSIONS/z_images/Pasted image 20230830142449.png",
+    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
     "MD VERSIONS/Guides to the exams/DMA1 Exam.md",
+    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
+    "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
     "MD VERSIONS/z_images/Pasted image 20230829163426.png",
     "MD VERSIONS/z_images/Pasted image 20230829162539.png",
     "MD VERSIONS/z_images/Pasted image 20230829161839.png",
@@ -164,7 +169,6 @@
     "MD VERSIONS/z_images/Pasted image 20230828171546.png",
     "MD VERSIONS/Guides to the exams/DMA2 Oral Exam.md",
     "MD VERSIONS/Guides to the exams/Linear Algebra Exam.md",
-    "MD VERSIONS/Guides to the exams/Statistics Exam.md",
     "MD VERSIONS/Linear Algebra/Null space.md",
     "MD VERSIONS/Linear Algebra/Basis.md",
     "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
@@ -193,8 +197,6 @@
     "MD VERSIONS/Machine Learning/ROC.md",
     "MD VERSIONS/Machine Learning/Sphering.md",
     "MD VERSIONS/Machine Learning/Stochastic Gradient Descent.md",
-    "MD VERSIONS/Guides to the exams/Machine Learning Exam.md",
-    "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
     "MD VERSIONS/Reinforcement Learning",
     "Machine Learning/Untitled.canvas"
   ]

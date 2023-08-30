@@ -153,3 +153,65 @@ has a lossless join.
 > - $K → R \in F^+$: $K$ determines all other attributes.
 > - There are no subsets $K'$ such that $K → R \in F^+$: There are no subsets of $K$ that determines all other attributes.
 
+> [!note] Closure of a set of attributes
+> Steps for checking the closure of attributes $X^+$:
+> 1) We have two sets:
+>	- $Z$: Contains the attributes in the closure at the current iteration, at $i=0$ $Z=X$.
+>	- $S$: Temporarily contains the attributes that are determined by $Z$ at each iteration.
+> 2) We loop:
+>	1) At each iteration we add to S the single attributes that make up the right-hand parts of dependencies in F whose left part is contained in $Z$.
+>	2) Add $S$ to $Z$.
+>	   
+> > [!example]
+> > $F=\{AB→CD, AC→BD, BDE→F, DE→G, G→F\}$
+> > $R=ABCDEFG$
+> > 
+> > We want to calculate the closure of $AB$.
+> > 
+> > 1) $Z=AB,\quad S\;\text{+=}\;\{\underbracket{C, D}_{AB→CD}\}$
+> > 2) $Z=ABCD, \quad S\;\text{+=}\;\emptyset$
+> >    
+> > $(X)^\text{+=} ABCD$
+> 
+
+
+We leverage the algorithm for the closure of attributes to find the keys of a schema.
+
+1) We bruteforce test some subsets of the schema and we check if they are a key(by using $X^+$ algorithm).
+2) Once we find some keys, we test the subsets of the keys.
+
+> [!hint]
+> 1) Start from those with higher cardinality. If their
+closure does not contain R, it is not necessary to check their subsets.
+> 2) The attributes that never appear on the right of the
+functional dependencies of F, are not functionally determined by any
+other attribute, so they must be in all the keys of the schema.
+> 3) A brute force approach is not
+wrong but can be inefficient.
+
+> [!example]
+> $R = ABCDEH$
+> $F = \{ AB→CD, C→E, AB→E, ABC→D \}$
+> 
+> We begin by testing $ABH$:
+> 1) $Z=ABH,\quad S\;\text{+=}\;\{C, D, E\}$
+> 2) $Z=ABCDEH,\quad S\;\text{+=}\;\{\emptyset\}$
+>    
+> We conclude that $ABH$ is a at least a super key.
+> 
+> We gotta check for subsets. Since $H$ doesn't appear in any dependency, it must be in any key. So we only need to check $AH$ and $BH$.
+> 
+> We test $AH$:
+> 1) $Z=AH,\quad S\;\text{+=}\;\{\emptyset\}$
+> 
+> We test $BH$:
+> 1) $Z=BH,\quad S\;\text{+=}\;\{\emptyset\}$
+>
+>Neither of those subsets is a key, so the only key is $ABH$.
+
+---
+
+## Exercise 2d
+
+![](../z_images/Pasted%20image%2020230830142449.png)
+
