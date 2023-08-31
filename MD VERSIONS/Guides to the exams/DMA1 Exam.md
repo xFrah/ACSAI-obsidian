@@ -215,3 +215,65 @@ wrong but can be inefficient.
 
 ![](../z_images/Pasted%20image%2020230830142449.png)
 
+> [!note] Some definitions
+> - **Super key**: Set of attributes that functionally determines all the other attributes. Can be a superset of a key.
+> - **Candidate key**: Minimal superkey, doesn't contain unneeded attributes.
+> - **Prime set of attributes**: Every attribute of the set belongs to a candidate key.
+> 
+> 
+
+A relation is in 3NF if for every functional dependency $X→Y$, at least one of the following holds:
+- $X$ is a superkey.
+- $Y$ is prime.
+
+
+> [!example]
+> $R=ABCDEFG$
+> $F=\{AB→CD, AC→BD, BDE→F, DE→G, G→F\}$
+> $\text{Keys} = \{ABE, ACE\}$
+> 
+> - $AB→CD$: $AB$ is not superkey, $CD$ is not prime.
+>   
+> 3NF already doesn't hold.
+
+---
+
+## Exercise 2e
+
+![](../z_images/Pasted%20image%2020230831120654.png)
+
+> [!note] Definition of Minimal Cover
+> A minimal cover is a set of functional dependencies $X→Y$ equivalent to $F$ such that:
+> - Each $Y$ is non-redundant.
+> - Each $X$ is non-reduntant.
+> - Each functional dependency is non-redundant.
+>   
+
+
+ 1) We split the dependencies by their dependent attributes.
+
+ $$\large X→AB \quad\Rightarrow\quad \{X→A,\;X→B\} $$
+ 
+ 2) We try to reduce the left side of the dependencies. We want to remove the attributes that can be removed without changing the right side of the dependencies. If one subset of attributes determines the right side, remove the rest of the set.
+
+ > [!example]
+ > Assume we have dependencies $F=\{AB→C, AB→D, AC→B, AC→D, BDE→F, DE→G, G→F\}$.
+ >
+ > - $AB→C$? $\quad (A)^+=\{A\}, \;(B)^+=\{B\}\quad$ Nothing wrong here.
+ > - $BDE→F$? $\quad (BD)^+=\{BD\}, \;(DE)^+=\{DEGF\}\quad$
+ >   
+ > Here $DE$ alone contains the right side of the dependency, so there is no reason to keep $BD$ in anymore(we remove $B$ as $D$ is needed).
+> 
+ 
+
+3)  We remove the reduntant dependencies, those that if removed from F, F doesn't change.
+
+$$\large F ≡ F - \{ X → A \}$$
+
+> [!example]
+> $F=\{AB→C, AB→D, AC→B, AC→D, DE→F, DE→G, G→F\}$
+> 
+> $AB→C$? $\quad (AB)^+_{F- \{AB→C\}}=\{ABD\}\quad$ $ABD$ doesn't contain $C$, so this is non-redundant.
+> $AB→D$? $\quad (AB)^+_{F- \{AB→D\}}=\{ABCD\}\quad$ $ABCD$ contains D, so this is redundant and must be removed.
+> 
+> TO BE CONTINUED.
