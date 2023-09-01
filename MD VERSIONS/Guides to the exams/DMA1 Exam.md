@@ -277,3 +277,51 @@ $$\large F ≡ F - \{ X → A \}$$
 > $AB→D$? $\quad (AB)^+_{F- \{AB→D\}}=\{ABCD\}\quad$ $ABCD$ contains D, so this is redundant and must be removed.
 > 
 > TO BE CONTINUED.
+
+---
+
+## Exercise 3 - 
+
+![](../z_images/Pasted%20image%2020230901183206.png)
+
+> [!warning]
+> When we compute "Records per block", "Pointers per block" or "Records per bucket", we always floor round for some fucking reason.
+
+> [!note] Principles of Physical Storage
+> Usually we have an index file, to store the pointers to blocks or buckets, and we have the main file, which actually contains the data divided in blocks or buckets.
+
+> [!note] Heap database definition
+> ### Main file
+> The main file is divided in blocks.
+> 
+> ### Block
+> Each block can host $n$ records. Every time a record is added, it is added as last record, so all the blocks up until that point are filled, while the last ones are empty.
+> 
+> ### Search - Loop
+> When we need to find a record, we must iterate through every block until we find the record. If the record is in block $k$, we must do $k$ read accesses.
+
+> [!note] Hash database definition
+> ### Main file
+> The main file is divided in buckets, enumerated from $0$ to $\text{number of buckets} -1$.
+> 
+> ### Bucket
+> A bucket is made up of multiple blocks and is organized like a heap. Each block in the bucket has a pointer to another block in the bucket. 
+> 
+> ### Bucket directory
+> File that contains the pointers to each bucket.
+> 
+> ### Search - Hash function
+> Given a key, an hash function returns the corresponding bucket. A good hash function distributes the keys evenly among the buckets.
+
+- We can compute the number of blocks required to store the entire bucket directory by computing how many bytes there are in total and checking how many blocks are needed to store that many bytes.
+
+$$\large \frac{5\cdot 400}{2048}=\lceil0.98\rceil=1$$
+
+> [!hint]
+> Obviously we use ceiling rounding with this one, otherwise we wouldn't have space for the data lol.
+
+- We compute the number of blocks in each bucket by:
+	- dividing the total number of records by the number of buckets -> number of records in each bucket(we floor round this). 
+	- Then we multiply the number of records -> number of bytes that our buckets must contain(we ceil round this). 
+	- Then we dividie the number of bytes in each bucket for the block size -> number of blocks in each bucket(we ceil round this).
+
