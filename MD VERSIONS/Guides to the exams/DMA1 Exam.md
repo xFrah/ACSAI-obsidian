@@ -313,15 +313,30 @@ $$\large F ≡ F - \{ X → A \}$$
 > ### Search - Hash function
 > Given a key, an hash function returns the corresponding bucket. A good hash function distributes the keys evenly among the buckets.
 
-- We can compute the number of blocks required to store the entire bucket directory by computing how many bytes there are in total and checking how many blocks are needed to store that many bytes.
+
+### Number of blocks in bucket directory
+
+We can compute the number of blocks required to store the entire bucket directory by computing how many bytes there are in total and checking how many blocks are needed to store that many bytes.
 
 $$\large \frac{5\cdot 400}{2048}=\lceil0.98\rceil=1$$
 
 > [!hint]
 > Obviously we use ceiling rounding with this one, otherwise we wouldn't have space for the data lol.
 
-- We compute the number of blocks in each bucket by:
-	- dividing the total number of records by the number of buckets -> number of records in each bucket(we floor round this). 
-	- Then we multiply the number of records -> number of bytes that our buckets must contain(we ceil round this). 
-	- Then we dividie the number of bytes in each bucket for the block size -> number of blocks in each bucket(we ceil round this).
 
+### Number of blocks in each bucket
+
+We compute the number of blocks in each bucket by:
+- dividing the total number of records by the number of buckets -> number of records in each bucket(we floor round this). 
+
+> [!hint]
+> We floor round this because in the next steps we are gonna use a ceiling on the number of blocks for each bucket, so we try not to put too many records in advance.
+
+
+- Then we multiply the number of records -> number of bytes that our buckets must contain.
+- Then we dividie the number of bytes in each bucket for the block size -> number of blocks in each bucket(we ceil round this).
+
+
+### Average number of memory accesses to find a record
+
+The buckets are orgnized like a heap, so we need number of blocks / 2.
