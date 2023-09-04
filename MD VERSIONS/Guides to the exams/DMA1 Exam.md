@@ -280,7 +280,7 @@ $$\large F ≡ F - \{ X → A \}$$
 
 ---
 
-## Exercise 3 - 
+## Exercise 3 - HASH
 
 ![](../z_images/Pasted%20image%2020230901183206.png)
 
@@ -291,26 +291,26 @@ $$\large F ≡ F - \{ X → A \}$$
 > Usually we have an index file, to store the pointers to blocks or buckets, and we have the main file, which actually contains the data divided in blocks or buckets.
 
 > [!note] Heap database definition
-> ### Main file
+> #### Main file
 > The main file is divided in blocks.
 > 
-> ### Block
+> #### Block
 > Each block can host $n$ records. Every time a record is added, it is added as last record, so all the blocks up until that point are filled, while the last ones are empty.
 > 
-> ### Search - Loop
+> #### Search - Loop
 > When we need to find a record, we must iterate through every block until we find the record. If the record is in block $k$, we must do $k$ read accesses.
 
 > [!note] Hash database definition
-> ### Main file
+> #### Main file
 > The main file is divided in buckets, enumerated from $0$ to $\text{number of buckets} -1$.
 > 
-> ### Bucket
+> #### Bucket
 > A bucket is made up of multiple blocks and is organized like a heap. Each block in the bucket has a pointer to another block in the bucket. 
 > 
-> ### Bucket directory
+> #### Bucket directory
 > File that contains the pointers to each bucket.
 > 
-> ### Search - Hash function
+> #### Search - Hash function
 > Given a key, an hash function returns the corresponding bucket. A good hash function distributes the keys evenly among the buckets.
 
 
@@ -340,3 +340,14 @@ We compute the number of blocks in each bucket by:
 ### Average number of memory accesses to find a record
 
 The buckets are orgnized like a heap, so we need number of blocks / 2.
+
+---
+
+## Exercise 3 - BTree
+
+> [!note] B-Tree Definition
+> #### Index file
+> The index file is still divided in blocks, but now it has a hierarchical index. The high order indexes will point to low order indexes and those will point to the actual main file blocks.
+> 
+> 
+> 
