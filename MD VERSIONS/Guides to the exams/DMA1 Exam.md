@@ -343,11 +343,51 @@ The buckets are orgnized like a heap, so we need number of blocks / 2.
 
 ---
 
-## Exercise 3 - BTree
+## Exercise 3 - BTreez
+
+![](../z_images/Pasted%20image%2020230905090538.png)
 
 > [!note] B-Tree Definition
 > #### Index file
 > The index file is still divided in blocks, but now it has a hierarchical index. The high order indexes will point to low order indexes and those will point to the actual main file blocks.
 > 
 > 
+> #### Additional info
+> The blocks must be at least half filled.
 > 
+> #### Search cost
+> WIP
+
+
+### Number of blocks in main file
+
+We know that we need to keep the blocks at least half filled, so we find out how many records we can fit in half a block.
+
+$$\large (2048/2)/250=\lceil4.096\rceil=5$$
+
+> [!hint]
+> We ceil round because we want more than half.
+
+
+### Number of blocks in index file
+
+We still need to fill half the blocks.
+A record in the index file is a key + pointer, so in this case 15 + 5 = 20 bytes.
+
+Now, a block in the index file also has an additional pointer, so we need to remove it from the calculation.
+
+$$\large (1024-5)/20= \lceil50.95\rceil=51$$
+
+So in each block of the index file there are 51 keys and 52 pointers.
+
+> [!note]
+> Each layer of the index files has blocks of the same dimension. They just have more blocks.
+
+
+### Search cost
+
+Every serch requires $h + 1$ accesses, where $h$ is the height of the tree.
+
+To find out the height, you just keep dividing the number of records by the number of pointers, until you get 1.
+
+![](../z_images/Pasted%20image%2020230905104933.png)

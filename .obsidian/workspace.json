@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -167,14 +166,16 @@
   },
   "active": "19012cfcb966e396",
   "lastOpenFiles": [
+    "MD VERSIONS/z_images/Pasted image 20230905104933.png",
+    "MD VERSIONS/z_images/Pasted image 20230905090538.png",
     "MD VERSIONS/Guides to the exams/DMA1 Proofs.md",
     "MD VERSIONS/Guides to the exams/DMA1 Exam.md",
+    "MD VERSIONS/Guides to the exams/AI Exam.md",
     "MD VERSIONS/z_images/Pasted image 20230901183206.png",
     "MD VERSIONS/z_images/Pasted image 20230901183119.png",
     "MD VERSIONS/z_images/Pasted image 20230831120654.png",
     "MD VERSIONS/Guides to the exams/Statistics Exam - DONE.md",
     "MD VERSIONS/Guides to the exams/Linear Algebra Exam.md",
-    "MD VERSIONS/Guides to the exams/AI Exam.md",
     "MD VERSIONS/Artificial Intelligence/MAC.md",
     "MD VERSIONS/z_images/Pasted image 20230830142449.png",
     "MD VERSIONS/Guides to the exams/Machine Learning Exam - DONE.md",
@@ -184,7 +185,6 @@
     "MD VERSIONS/z_images/Pasted image 20230829161839.png",
     "MD VERSIONS/z_images/Pasted image 20230829161435.png",
     "MD VERSIONS/z_images/Pasted image 20230829161305.png",
-    "MD VERSIONS/z_images/Pasted image 20230829160914.png",
     "MD VERSIONS/Guides to the exams/DMA2 Oral Exam - DONE.md",
     "MD VERSIONS/Linear Algebra/Null space.md",
     "MD VERSIONS/Linear Algebra/Basis.md",
@@ -211,7 +211,6 @@
     "HTML VERSIONS/MD VERSIONS/Reinforcement Learning",
     "MD VERSIONS/Machine Learning/Polynomial Regression.md",
     "MD VERSIONS/Machine Learning/Sigmoid.md",
-    "MD VERSIONS/Machine Learning/ROC.md",
     "MD VERSIONS/Reinforcement Learning",
     "Machine Learning/Untitled.canvas"
   ]
