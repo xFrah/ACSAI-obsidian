@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "19012cfcb966e396",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MD VERSIONS/Guides to the exams/DMA1 Exam.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/DMA1 Exam.md",
+                "file": "MD VERSIONS/AI-LAB/Contour detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/DMA1 Exam.md",
+                "file": "MD VERSIONS/AI-LAB/Contour detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/DMA1 Exam.md"
+                "file": "MD VERSIONS/AI-LAB/Contour detection.md"
               }
             }
           }
@@ -164,54 +150,92 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "19012cfcb966e396",
+  "floating": {
+    "id": "98c7307f7df4e11e",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a024a9c106d9dc24",
+        "type": "window",
+        "children": [
+          {
+            "id": "4aacc19a7d0fd6d6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a214a889ccf0ba10",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "MD VERSIONS/AI-LAB/Contour detection.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 216,
+        "y": 364,
+        "width": 602,
+        "height": 300,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "a214a889ccf0ba10",
   "lastOpenFiles": [
+    "HTML VERSIONS/MD VERSIONS/Guides to the exams/DMA2 Oral Exam - DONE.html",
+    "HTML VERSIONS/MD VERSIONS/Guides to the exams/Linear Algebra Exam.html",
+    "HTML VERSIONS/MD VERSIONS/Guides to the exams/Machine Learning Exam - DONE.html",
+    "HTML VERSIONS/MD VERSIONS/Guides to the exams/Statistics Exam - DONE.html",
+    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Basis.html",
+    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Determinant.html",
+    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Inverse of a Matrix.html",
+    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Linear Combination.html",
+    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Linear dependence.html",
+    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Null space.html",
+    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Rank.html",
+    "MD VERSIONS/AI-LAB/Corner extraction.md",
+    "MD VERSIONS/AI-LAB/Convolution.md",
+    "MD VERSIONS/AI-LAB/Kernel.md",
+    "MD VERSIONS/AI-LAB/Numpy.md",
+    "MD VERSIONS/AI-LAB/Tokenizing.md",
+    "MD VERSIONS/Artificial Intelligence/A-star.md",
+    "MD VERSIONS/Artificial Intelligence/Agent.md",
+    "MD VERSIONS/Artificial Intelligence/Arity.md",
+    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
+    "MD VERSIONS/Artificial Intelligence/BFS.md",
+    "MD VERSIONS/Artificial Intelligence/CNF.md",
+    "MD VERSIONS/Artificial Intelligence/DFS.md",
+    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
+    "MD VERSIONS/Artificial Intelligence/Environment.md",
+    "MD VERSIONS/Artificial Intelligence/First Order Logic.md",
+    "MD VERSIONS/Artificial Intelligence/Forward and backward Chaining.md",
+    "MD VERSIONS/Artificial Intelligence/Functions.md",
+    "MD VERSIONS/Artificial Intelligence/Graph.md",
+    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
+    "MD VERSIONS/Artificial Intelligence/Logical Equivalence.md",
+    "MD VERSIONS/Artificial Intelligence/Logical Inference.md",
+    "MD VERSIONS/Artificial Intelligence/MAC.md",
+    "MD VERSIONS/Artificial Intelligence/Negational Normal Form.md",
+    "MD VERSIONS/Artificial Intelligence/PCNF.md",
+    "MD VERSIONS/Artificial Intelligence/Prenex Normal Form.md",
     "MD VERSIONS/z_images/Pasted image 20230905104933.png",
     "MD VERSIONS/z_images/Pasted image 20230905090538.png",
-    "MD VERSIONS/Guides to the exams/DMA1 Proofs.md",
-    "MD VERSIONS/Guides to the exams/DMA1 Exam.md",
-    "MD VERSIONS/Guides to the exams/AI Exam.md",
     "MD VERSIONS/z_images/Pasted image 20230901183206.png",
     "MD VERSIONS/z_images/Pasted image 20230901183119.png",
     "MD VERSIONS/z_images/Pasted image 20230831120654.png",
-    "MD VERSIONS/Guides to the exams/Statistics Exam - DONE.md",
-    "MD VERSIONS/Guides to the exams/Linear Algebra Exam.md",
-    "MD VERSIONS/Artificial Intelligence/MAC.md",
     "MD VERSIONS/z_images/Pasted image 20230830142449.png",
-    "MD VERSIONS/Guides to the exams/Machine Learning Exam - DONE.md",
-    "MD VERSIONS/Guides to the exams/Statistics Formulas.md",
     "MD VERSIONS/z_images/Pasted image 20230829163426.png",
     "MD VERSIONS/z_images/Pasted image 20230829162539.png",
     "MD VERSIONS/z_images/Pasted image 20230829161839.png",
     "MD VERSIONS/z_images/Pasted image 20230829161435.png",
-    "MD VERSIONS/z_images/Pasted image 20230829161305.png",
-    "MD VERSIONS/Guides to the exams/DMA2 Oral Exam - DONE.md",
-    "MD VERSIONS/Linear Algebra/Null space.md",
-    "MD VERSIONS/Linear Algebra/Basis.md",
-    "MD VERSIONS/Linear Algebra/Systems of Linear Equations.md",
-    "MD VERSIONS/Linear Algebra/Rank.md",
-    "MD VERSIONS/Linear Algebra/Spanning set.md",
-    "MD VERSIONS/Linear Algebra/SVD.md",
-    "MD VERSIONS/Linear Algebra/Gaussian Elimination.md",
-    "MD VERSIONS/Linear Algebra/Linear dependence.md",
-    "MD VERSIONS/Linear Algebra/Vector spaces.md",
-    "MD VERSIONS/Linear Algebra/Linear Combination.md",
-    "MD VERSIONS/Linear Algebra/Determinant.md",
-    "MD VERSIONS/Linear Algebra/Inverse of a Matrix.md",
-    "MD VERSIONS/Reinforcement Learning/Markov Decision Process.md",
-    "MD VERSIONS/Reinforcement Learning/Bellman Equations.md",
-    "HTML VERSIONS/MD VERSIONS/Artificial Intelligence/MAC.html",
-    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Gaussian Elimination.html",
-    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Matrix operations.html",
-    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Matrix (ML).html",
-    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Systems of Linear Equations.html",
-    "HTML VERSIONS/MD VERSIONS/Machine Learning/Attention Mechanism.html",
-    "HTML VERSIONS/MD VERSIONS/Reinforcement Learning/Bellman Equations.html",
-    "HTML VERSIONS/MD VERSIONS/Reinforcement Learning/Markov Decision Process.html",
-    "HTML VERSIONS/MD VERSIONS/Reinforcement Learning",
-    "MD VERSIONS/Machine Learning/Polynomial Regression.md",
-    "MD VERSIONS/Machine Learning/Sigmoid.md",
-    "MD VERSIONS/Reinforcement Learning",
     "Machine Learning/Untitled.canvas"
   ]
 }

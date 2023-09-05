@@ -133,3 +133,15 @@ What we are trying to do is apply the axioms another time(n+1) and prove that th
 ###### Reflexivity
 We are obtaining $X→Y \in F^A$ because $Y$ is part of $X$.
 
+> [!hint]
+> We know for sure that the dependency is in $F^A$, because we obtained i through axioms, now we gotta demonstrate that it's also in $F^+$.
+
+
+We know that the dependencies in $F^+$ need to satisfy every legal instance of $R$, so we need to ensure that by using a random dependency.
+
+$X→Y$ is legal in $R$ if:
+
+$$\large t_1[x]=t_2[x] →t_1[y]=t_2[y]$$
+
+In the case of reflexivity, this is always true, because $Y$ is part of $X$.
+
