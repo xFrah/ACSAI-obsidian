@@ -227,7 +227,7 @@ In Masi's words:
 ![](../z_images/Pasted%20image%2020230702140631.png)
 
 
-### Write the equation that computes the [[Gaussian Mixture Model|responsibilities]]
+### Write the equation that computes the [[../Machine Learning/Gaussian Mixture Model|responsibilities]]
 
 $$\large\gamma_{k} =\frac{
  \mathcal{N}(x_i;\mu_k,\Sigma_k)\cdot\pi_k}

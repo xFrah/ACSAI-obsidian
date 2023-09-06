@@ -1,4 +1,4 @@
-It's the average error of the [estimation](../Statistics/Estimation.md) from the samples.
+It's the average error of the [estimation](Estimation.md) from the samples.
 
 For the sample mean it is:
 $$\large e=\frac{\sigma}{\sqrt{n}}$$

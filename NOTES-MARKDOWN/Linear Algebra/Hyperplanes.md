@@ -15,4 +15,4 @@ Where 𝐰 is the [vector](Vectors.md) normal to the hyperplane and 𝐛 is 
 
 
 > [!seealso] See also
-> We commonly use it in Machine Learning with the [[Perceptron]].
+> We commonly use it in Machine Learning with the [[../Machine Learning/Perceptron]].

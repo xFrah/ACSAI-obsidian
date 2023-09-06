@@ -69,10 +69,10 @@ A heuristic function is said to be **admissible** if it never overestimates 
 
 > [!note] Required Notions
 > - Propositional Logic
-> - [Satisfiability](Propositional%20Satisfiability.md) of a Compound Proposition
-> - [Contrapositive](Logical%20Equivalence.md) of a proposition
+> - [Satisfiability](../Artificial%20Intelligence/Propositional%20Satisfiability.md) of a Compound Proposition
+> - [Contrapositive](../Artificial%20Intelligence/Logical%20Equivalence.md) of a proposition
 > - Forward Chaining
-> - [Entailment](Propositional%20Satisfiability.md) of propositions
+> - [Entailment](../Artificial%20Intelligence/Propositional%20Satisfiability.md) of propositions
 > - Tableau Resolution Deductive System
 > - DPLL
 

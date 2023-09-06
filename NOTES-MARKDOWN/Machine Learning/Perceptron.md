@@ -10,7 +10,7 @@ alias: Perceptrons
 
 
 Look at this graph, understand that:
-- $\theta$ is a [[Vectors|vector]] on the 2D space.
+- $\theta$ is a [[../Linear Algebra/Vectors|vector]] on the 2D space.
 - $x$ is a vector on the 2D space.
 - $\theta^T x$ is the dot product between the two vectors.
 

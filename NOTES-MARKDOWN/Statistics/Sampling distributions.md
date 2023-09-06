@@ -6,7 +6,7 @@ Now P becomes uncertain, it is [random variable](../Probability/Random%20variabl
 ![](../z_images/Pasted%20image%2020230512170514.png)
 
 
-According to the [Central Limit Theorem](../Statistics/Central%20Limit%20Theorem.md), for large samples, the sample proportion is approximately normally distributed, with mean:
+According to the [Central Limit Theorem](Central%20Limit%20Theorem.md), for large samples, the sample proportion is approximately normally distributed, with mean:
 $$\large\mu_{\hat{P}}= p$$
 and standard deviation of a proportion:
 $$\large\sigma_{\hat{P}}=\sqrt{\frac{pq}{n}}$$
@@ -25,7 +25,7 @@ $$\large \sigma_s = \frac{\sigma}{\sqrt{n}}$$
 > [!warning]
 > Sometimes we want to compute the probability of successes being more than a certain number. 
 > 
-> We know that we can get the area under a curve by using the z-scores, but this distribution only approximates a [normal distribution](../Statistics/Normal%20distribution.md) when using a large n.
+> We know that we can get the area under a curve by using the z-scores, but this distribution only approximates a [normal distribution](Normal%20distribution.md) when using a large n.
 > 
 > So when we have a small n we need to go sideways:
 > - If our configuration is also a [binomial distribution](../Probability/Bernoulli%20distribution.md), we can use that formula to compute every single discrete probability.
@@ -41,7 +41,7 @@ $$\large \sigma_s = \frac{\sigma}{\sqrt{n}}$$
 > 
 > 2. Find the probability that the proportion of having the app is at least 0.75 when n = 4.
 > 	
-> 	Here the sample size is too small, so we can't use the [normal distribution](../Statistics/Normal%20distribution.md) stuff.
+> 	Here the sample size is too small, so we can't use the [normal distribution](Normal%20distribution.md) stuff.
 > 	0.75 of 4 = 3, so we need the probability that at least 3 people have the app. 
 > 	We do that by  summing the probabilities that 3 people have the app and 4 people have the app.
 > 	Since those probabilities are discrete and there are only 2 possible outcomes per trial, we can use the binomial distribution formula

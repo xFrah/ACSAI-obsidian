@@ -37,7 +37,7 @@ $$\large\quad\hat{p}=\frac{174}{402} = 0.4328$$
 We can already see from the plot that this sample proportion really doesn't agree with our hypothesis. 
 Mathematically, to disprove the hypothesis we need to check if the sample mean/proportion lands beyond the [[Significance Test|significance level]] threshold.
 
-In order to do just that, we need the [[z-score]] for the sample proportion, also called the test statistic:
+In order to do just that, we need the [[Z-score]] for the sample proportion, also called the test statistic:
 
 $$\large z=\frac{0.4328-0.5}{\sigma}=-2.6947$$
 

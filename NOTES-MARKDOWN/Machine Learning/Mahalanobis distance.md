@@ -47,7 +47,7 @@ This is what the Mahalanobis distance actually does:
 
 ### 1) $\vec{(x-\mu)}$ - We get our vector
 
-The vector $(x-\mu)$ starts from $\mu$ and ends at the point $x$ (see [[Vectors|vector subtraction]]):
+The vector $(x-\mu)$ starts from $\mu$ and ends at the point $x$ (see [[../Linear Algebra/Vectors|vector subtraction]]):
 
 ![](../z_images/Figure_2.png)
 

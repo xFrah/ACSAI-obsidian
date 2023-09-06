@@ -16,7 +16,7 @@ I think you would do this with integrals, but i guess that integrating the norma
 > - **Compute the probability that a randomly selected vehicle speed is greater than 73**
 
 
-### What is a [z-score](../Statistics/Z-score.md) and what's its purpose:
+### What is a [z-score](Z-score.md) and what's its purpose:
 
 Basically the z-score is how many standard deviations our value is away from the mean.
 The z-score is useful because it is standardized for every normal curve.

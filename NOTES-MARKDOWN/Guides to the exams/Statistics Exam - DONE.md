@@ -13,7 +13,7 @@
 2. <u>Gender, Grade, City, Faculty, Family Income.</u>
 	The variables are just the fields of the table.
 	
-3. [[Variable types]]:
+3. [[../Statistics/Variable types]]:
 	1. Gender: <u>categorical</u> (Binary, with two categories M, F)
 	2. Grade: <u>quantitative discrete</u>
 	3. City: <u>categorical</u> (Nominal, with categories Milan, Rome, Naples, Florence)
@@ -50,7 +50,7 @@ Observations take numerical values that represent different magnitudes of the va
 ![](../z_images/Pasted%20image%2020230429132810.png)
 
 
-1. A [[Association|proportion]] is just $\large \frac{Frequency}{Total\, Observations}$:
+1. A [[../Statistics/Association|proportion]] is just $\large \frac{Frequency}{Total\, Observations}$:
 	![](../z_images/Pasted%20image%2020230429133404.png)
 	
 2. Pretty simple innit:
@@ -236,7 +236,7 @@ Example:
 	1. Range is just the max - min value. 
 	2. IRQ is the length of the interval [Q1, Q3].
 	
-6. [[Box plot|Box pot]]:
+6. [[../Statistics/Box plot|Box pot]]:
 	![](../z_images/Pasted%20image%2020230508220307.png)
 	
 ```ad-example
@@ -376,7 +376,7 @@ P(S|N) = 160 / 175 = 0.914
 
 ## Probability distributions
 
-We are sometimes asked to find the mean of a probability distribution. That is the [[Expected value|Expectation]]:
+We are sometimes asked to find the mean of a probability distribution. That is the [[../Statistics/Expected value|Expectation]]:
 $$\large E[X]=\mu = \sum p(x) \,x$$
 
 If we are asked to find the [variance](../Statistics/Variance.md):
@@ -693,7 +693,7 @@ I will explain using an exercise:
 
 ### 1. Assumptions
 
-The distribution approximates to a [[Normal distribution|normal distribution]] because of the large sample size.
+The distribution approximates to a [[../Statistics/Normal distribution|normal distribution]] because of the large sample size.
 
 
 ### 2. Hypothesis
@@ -710,9 +710,9 @@ In a significance test, the null hypothesis is presumed to be true unless the da
 
 ### 3. Test statistic
 
-A test statistic measures how far the point estimate falls from the parameter value given in the null hypothesis. The result is the number of [[Standard Error|standard errors]] between the two.
+A test statistic measures how far the point estimate falls from the parameter value given in the null hypothesis. The result is the number of [[../Statistics/Standard Error|standard errors]] between the two.
 
-First, we construct the [[Normal distribution|normal curve]] considering the hypothesis:
+First, we construct the [[../Statistics/Normal distribution|normal curve]] considering the hypothesis:
 
 $$\large n=402,\quad p= 0.5,\quad\sigma=\sqrt{\frac{pq}{402}}=0.0249$$
 Then we take the sample:
@@ -721,9 +721,9 @@ $$\large\quad\hat{p}=\frac{174}{402} = 0.4328$$
 ![](../z_images/Figure_5t54t54t45451.png)
 
 We can already see from the plot that this sample proportion really doesn't agree with our hypothesis. 
-Mathematically, to disprove the hypothesis we need to check if the sample mean/proportion lands beyond the [[Significance Test|significance level]] threshold.
+Mathematically, to disprove the hypothesis we need to check if the sample mean/proportion lands beyond the [[../Statistics/Significance Test|significance level]] threshold.
 
-In order to do just that, we need the [[z-score]] for the sample proportion, also called the test statistic:
+In order to do just that, we need the [[../Statistics/Z-score]] for the sample proportion, also called the test statistic:
 
 $$\large z=\frac{0.4328-0.5}{\sigma}=-2.6947$$
 

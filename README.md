@@ -6,4 +6,4 @@ If you want to read these notes, you either have to:
 
 ## THE NOTES ARE INTENDED TO BE READ WITH DARK MODE
 
-![](MD%20VERSIONS/z_images/walter-white-fuck-you-walt-fuck-you.gif)
+![](NOTES-MARKDOWN/z_images/walter-white-fuck-you-walt-fuck-you.gif)
