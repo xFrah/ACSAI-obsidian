@@ -5,66 +5,66 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:\"MD VERSIONS/Linear Algebra\"",
+      "query": "path:\"NOTES-MARKDOWN/Linear Algebra\"  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:\"MD VERSIONS/Machine Learning\"",
+      "query": "path:\"NOTES-MARKDOWN/Machine Learning\"",
       "color": {
         "a": 1,
         "rgb": 16756224
       }
     },
     {
-      "query": "path:\"MD VERSIONS/Artificial Intelligence\"",
+      "query": "path:\"NOTES-MARKDOWN/Artificial Intelligence\"",
       "color": {
         "a": 1,
         "rgb": 5431378
       }
     },
     {
-      "query": "path:\"MD VERSIONS/AI-LAB\"",
+      "query": "path:\"NOTES-MARKDOWN/AI-LAB\"",
       "color": {
         "a": 1,
         "rgb": 5431473
       }
     },
     {
-      "query": "path:\"MD VERSIONS/Probability\"",
+      "query": "path:\"NOTES-MARKDOWN/Probability\"",
       "color": {
         "a": 1,
         "rgb": 5419488
       }
     },
     {
-      "query": "path:\"MD VERSIONS/Statistics\"",
+      "query": "path:\"NOTES-MARKDOWN/Statistics\"",
       "color": {
         "a": 1,
         "rgb": 5395168
       }
     },
     {
-      "query": "path:\"MD VERSIONS/Calculus\"",
+      "query": "path:\"NOTES-MARKDOWN/Calculus\"",
       "color": {
         "a": 1,
         "rgb": 10682368
       }
     },
     {
-      "query": "path:\"MD VERSIONS/Reinforcement Learning\"",
+      "query": "path:\"NOTES-MARKDOWN/Reinforcement Learning\"",
       "color": {
         "a": 1,
         "rgb": 11621088
       }
     },
     {
-      "query": "path:\"MD VERSIONS/Guides to the exams\"",
+      "query": "path:\"NOTES-MARKDOWN/Guides to the exams\"",
       "color": {
         "a": 1,
         "rgb": 16711927
@@ -81,6 +81,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.8734382071490453,
+  "scale": 0.70636629888177,
   "close": true
 }

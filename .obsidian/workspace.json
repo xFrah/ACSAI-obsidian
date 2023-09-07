@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "911645b782369bda",
+        "id": "b0eb52c23345b017",
         "type": "tabs",
         "children": [
           {
-            "id": "7e7c63bc5bf47fda",
+            "id": "32312d1ee8e7f849",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD VERSIONS/Guides to the exams/DMA1 Proofs.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MD VERSIONS/AI-LAB/Contour detection.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MD VERSIONS/AI-LAB/Contour detection.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MD VERSIONS/AI-LAB/Contour detection.md"
+                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md"
               }
             }
           }
@@ -150,46 +151,14 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "floating": {
-    "id": "98c7307f7df4e11e",
-    "type": "floating",
-    "children": [
-      {
-        "id": "a024a9c106d9dc24",
-        "type": "window",
-        "children": [
-          {
-            "id": "4aacc19a7d0fd6d6",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a214a889ccf0ba10",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "MD VERSIONS/AI-LAB/Contour detection.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 216,
-        "y": 364,
-        "width": 602,
-        "height": 300,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "a214a889ccf0ba10",
+  "active": "32312d1ee8e7f849",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
+    "NOTES-MARKDOWN/Machine Learning/Multi-Class Classification.md",
+    "Pasted image 20230907084529.png",
+    "Pasted image 20230907080014.png",
+    "NOTES-MARKDOWN/Statistics/Significance Level.md",
+    "NOTES-MARKDOWN/Machine Learning/Cross-entropy.md",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/DMA2 Oral Exam - DONE.html",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/Linear Algebra Exam.html",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/Machine Learning Exam - DONE.html",
@@ -200,7 +169,6 @@
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Linear Combination.html",
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Linear dependence.html",
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Null space.html",
-    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Rank.html",
     "MD VERSIONS/AI-LAB/Corner extraction.md",
     "MD VERSIONS/AI-LAB/Convolution.md",
     "MD VERSIONS/AI-LAB/Kernel.md",
@@ -223,9 +191,6 @@
     "MD VERSIONS/Artificial Intelligence/Logical Equivalence.md",
     "MD VERSIONS/Artificial Intelligence/Logical Inference.md",
     "MD VERSIONS/Artificial Intelligence/MAC.md",
-    "MD VERSIONS/Artificial Intelligence/Negational Normal Form.md",
-    "MD VERSIONS/Artificial Intelligence/PCNF.md",
-    "MD VERSIONS/Artificial Intelligence/Prenex Normal Form.md",
     "MD VERSIONS/z_images/Pasted image 20230905104933.png",
     "MD VERSIONS/z_images/Pasted image 20230905090538.png",
     "MD VERSIONS/z_images/Pasted image 20230901183206.png",
@@ -234,8 +199,6 @@
     "MD VERSIONS/z_images/Pasted image 20230830142449.png",
     "MD VERSIONS/z_images/Pasted image 20230829163426.png",
     "MD VERSIONS/z_images/Pasted image 20230829162539.png",
-    "MD VERSIONS/z_images/Pasted image 20230829161839.png",
-    "MD VERSIONS/z_images/Pasted image 20230829161435.png",
     "Machine Learning/Untitled.canvas"
   ]
 }

@@ -4,11 +4,10 @@
   "useMarkdownLinks": true,
   "userIgnoreFilters": [
     "z_images/",
-    "MD VERSIONS/Statistics/",
-    "MD VERSIONS/AI-LAB/",
-    "MD VERSIONS/Data Management 2/",
-    "MD VERSIONS/Machine Learning/",
-    "MD VERSIONS/Guides to the exams/"
+    "NOTES-MARKDOWN/Guides to the exams/",
+    "NOTES-MARKDOWN/Statistics/Standard Deviation",
+    "NOTES-MARKDOWN/Linear Algebra/Matrix (ML)",
+    "NOTES-MARKDOWN/Linear Algebra/Vectors"
   ],
   "newLinkFormat": "relative",
   "alwaysUpdateLinks": true,
