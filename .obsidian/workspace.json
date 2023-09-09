@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7879c9ef05f9552",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Linear Algebra/Vector spaces.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d117dbf2fe6d509f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Linear Algebra/Basis.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
+                "file": "NOTES-MARKDOWN/Linear Algebra/Basis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
+                "file": "NOTES-MARKDOWN/Linear Algebra/Basis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md"
+                "file": "NOTES-MARKDOWN/Linear Algebra/Basis.md"
               }
             }
           }
@@ -151,8 +178,17 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "32312d1ee8e7f849",
+  "active": "d117dbf2fe6d509f",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Linear Algebra/Vector spaces.md",
+    "NOTES-MARKDOWN/Linear Algebra/Spanning set.md",
+    "NOTES-MARKDOWN/Linear Algebra/Linear dependence.md",
+    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
+    "Pasted image 20230909135006.png",
+    "Pasted image 20230909105318.png",
+    "Pasted image 20230909102536.png",
+    "NOTES-MARKDOWN/Guides to the exams/DMA1 Exam - DONE.md",
+    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
     "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
     "NOTES-MARKDOWN/Machine Learning/Multi-Class Classification.md",
     "Pasted image 20230907084529.png",
@@ -185,20 +221,11 @@
     "MD VERSIONS/Artificial Intelligence/Environment.md",
     "MD VERSIONS/Artificial Intelligence/First Order Logic.md",
     "MD VERSIONS/Artificial Intelligence/Forward and backward Chaining.md",
-    "MD VERSIONS/Artificial Intelligence/Functions.md",
-    "MD VERSIONS/Artificial Intelligence/Graph.md",
-    "MD VERSIONS/Artificial Intelligence/Heuristics.md",
-    "MD VERSIONS/Artificial Intelligence/Logical Equivalence.md",
-    "MD VERSIONS/Artificial Intelligence/Logical Inference.md",
-    "MD VERSIONS/Artificial Intelligence/MAC.md",
     "MD VERSIONS/z_images/Pasted image 20230905104933.png",
     "MD VERSIONS/z_images/Pasted image 20230905090538.png",
     "MD VERSIONS/z_images/Pasted image 20230901183206.png",
     "MD VERSIONS/z_images/Pasted image 20230901183119.png",
     "MD VERSIONS/z_images/Pasted image 20230831120654.png",
-    "MD VERSIONS/z_images/Pasted image 20230830142449.png",
-    "MD VERSIONS/z_images/Pasted image 20230829163426.png",
-    "MD VERSIONS/z_images/Pasted image 20230829162539.png",
     "Machine Learning/Untitled.canvas"
   ]
 }

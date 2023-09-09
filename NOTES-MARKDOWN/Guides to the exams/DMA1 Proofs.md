@@ -202,7 +202,7 @@ We do so by double inclusion and by induction on the number of iterations.
 
 #### $Z_f \subseteq X^+$
 
-##### Base case($i=0$):
+##### Base case($i=0$):q
 At the start, we have that $Z$ contains the attributes of $X$.
 $$\large Z_0=X\subseteq X^+$$
 So **by reflexivity** we have that $Z_0 \subseteq X^+$.
@@ -336,4 +336,21 @@ The following statements hold.
 
 ### Proof
 
-1. 
+We have that:
+$$\large t \in \underbracket{\{t[R_1]\} \Join \cdots \Join \{t[R_k]\}}_{\Join\text{ of projections of tuple t}} \subseteq \underbracket{\pi_{R_1}(r) \Join \cdots \Join \pi_{R_k}(r)}_{\Join\text{ of projections of the entire relation}}=m_S(r)$$
+> [!hint]
+> We are saying that if we decompose a single tuple and we join it back, this tuple is for sure contained in the reconstructed $r$ also.
+> 
+> This is a way of ensuring that additional tuples don't get generated.
+
+
+$$\large\pi_{R_i}(m_S(r))=\pi_{R_i}(r)$$
+
+> [!hint]
+> This is saying that a projection $R_i$ over $r$ should be equal to the projection $R_i$ over $m_S(r)$.
+
+
+$$\large m_S(m_S(r))=m_S(r)$$
+
+> [!hint]
+> If you project and re-join twice, the thing should stay the same.
