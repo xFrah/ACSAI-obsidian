@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Linear Algebra/Vector spaces.md",
+                "file": "NOTES-MARKDOWN/Linear Algebra/Null space.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,15 +39,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Linear Algebra/Basis.md",
+                "file": "NOTES-MARKDOWN/Linear Algebra/Gaussian Elimination.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -114,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Linear Algebra/Basis.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Linear Algebra/Basis.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Linear Algebra/Basis.md"
+                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md"
               }
             }
           }
@@ -178,21 +176,33 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "d117dbf2fe6d509f",
+  "active": "32312d1ee8e7f849",
   "lastOpenFiles": [
+    "Pasted image 20230911153040.png",
+    "Pasted image 20230911152930.png",
+    "Pasted image 20230911152406.png",
+    "NOTES-MARKDOWN/Linear Algebra/Null space.md",
+    "NOTES-MARKDOWN/Linear Algebra/Quadratic form.md",
+    "NOTES-MARKDOWN/Linear Algebra/Rank.md",
+    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
+    "Pasted image 20230911150339.png",
+    "Pasted image 20230911145703.png",
+    "NOTES-MARKDOWN/Linear Algebra/Basis.md",
+    "Pasted image 20230911143808.png",
+    "Pasted image 20230911143739.png",
+    "Pasted image 20230911143341.png",
+    "Pasted image 20230911143332.png",
+    "NOTES-MARKDOWN/Linear Algebra/Gaussian Elimination.md",
+    "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.md",
+    "Pasted image 20230911131024.png",
+    "Pasted image 20230911122338.png",
     "NOTES-MARKDOWN/Linear Algebra/Vector spaces.md",
     "NOTES-MARKDOWN/Linear Algebra/Spanning set.md",
     "NOTES-MARKDOWN/Linear Algebra/Linear dependence.md",
-    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
-    "Pasted image 20230909135006.png",
-    "Pasted image 20230909105318.png",
-    "Pasted image 20230909102536.png",
     "NOTES-MARKDOWN/Guides to the exams/DMA1 Exam - DONE.md",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
     "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
     "NOTES-MARKDOWN/Machine Learning/Multi-Class Classification.md",
-    "Pasted image 20230907084529.png",
-    "Pasted image 20230907080014.png",
     "NOTES-MARKDOWN/Statistics/Significance Level.md",
     "NOTES-MARKDOWN/Machine Learning/Cross-entropy.md",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/DMA2 Oral Exam - DONE.html",
@@ -214,18 +224,6 @@
     "MD VERSIONS/Artificial Intelligence/Agent.md",
     "MD VERSIONS/Artificial Intelligence/Arity.md",
     "MD VERSIONS/Artificial Intelligence/Best-first search.md",
-    "MD VERSIONS/Artificial Intelligence/BFS.md",
-    "MD VERSIONS/Artificial Intelligence/CNF.md",
-    "MD VERSIONS/Artificial Intelligence/DFS.md",
-    "MD VERSIONS/Artificial Intelligence/Constraint Satisfaction Problems.md",
-    "MD VERSIONS/Artificial Intelligence/Environment.md",
-    "MD VERSIONS/Artificial Intelligence/First Order Logic.md",
-    "MD VERSIONS/Artificial Intelligence/Forward and backward Chaining.md",
-    "MD VERSIONS/z_images/Pasted image 20230905104933.png",
-    "MD VERSIONS/z_images/Pasted image 20230905090538.png",
-    "MD VERSIONS/z_images/Pasted image 20230901183206.png",
-    "MD VERSIONS/z_images/Pasted image 20230901183119.png",
-    "MD VERSIONS/z_images/Pasted image 20230831120654.png",
     "Machine Learning/Untitled.canvas"
   ]
 }

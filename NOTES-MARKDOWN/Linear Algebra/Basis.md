@@ -40,6 +40,8 @@ A set of [vectors](Vectors.md) $S=\{v_1, v_2, \dots, v_n\}$ in a [vector space](
 
 ## How to find a basis for a matrix
 
+### Row space
+
 If we wanted to find the Row Space of a given [matrix](Matrix%20(ML).md) $A$, we would need to use elementary row operations to convert $A$ into row echelon form.
 
 The non-zero row vectors in [R.E.F](Gaussian%20Elimination.md). form a basis for the row space of $A$.
@@ -48,8 +50,8 @@ The non-zero row vectors in [R.E.F](Gaussian%20Elimination.md). form a basis for
 > ![](../z_images/Pasted%20image%2020230817124515.png)
 
 
+### Column space
 
-What about the Column Space?
 We either do the same thing with $A^T$, or:
 
 We take the R.E.F. again, then the columns of matrix B, which are Linearly independent because they have leading 1's, are also Linearly independent in A, and these columns in A form the basis of the column space of A.
