@@ -52,14 +52,14 @@ The <font color="#31859b">eigen vectors</font> are such that when receiving a <f
 
 ## Eigenspaces
 
-![](../../Pasted%20image%2020230910180425.png)
+![](../z_images/Pasted%20image%2020230910180425.png)
 
 ---
 
 
 ## How to compute Eigenvalues
 
-![](../../Pasted%20image%2020230910162026.png)
+![](../z_images/Pasted%20image%2020230910162026.png)
 
 ---
 
@@ -68,13 +68,13 @@ The <font color="#31859b">eigen vectors</font> are such that when receiving a <f
 
 This process must be done for each eigenvalue separately.
 
-![](../../Pasted%20image%2020230910162337.png)
+![](../z_images/Pasted%20image%2020230910162337.png)
 
 
 We input $\lambda$ in this equations for each eigenvalue.
 We are left with a system of linear equations that we can solve using any method we want.
 
-![](../../Pasted%20image%2020230910171538.png)
+![](../z_images/Pasted%20image%2020230910171538.png)
 
 ---
 
@@ -83,25 +83,25 @@ We are left with a system of linear equations that we can solve using any method
 
 ### Eigenvalues
 
-![](../../Pasted%20image%2020230910174634.png)
+![](../z_images/Pasted%20image%2020230910174634.png)
 
-![](../../Pasted%20image%2020230910174709.png)
+![](../z_images/Pasted%20image%2020230910174709.png)
 
 
 ### Eigenvectors
 
-![](../../Pasted%20image%2020230910174826.png)
+![](../z_images/Pasted%20image%2020230910174826.png)
 
-![](../../Pasted%20image%2020230910174835.png)
+![](../z_images/Pasted%20image%2020230910174835.png)
 
 Now we solve the system:
 
-![](../../Pasted%20image%2020230910174909.png)
+![](../z_images/Pasted%20image%2020230910174909.png)
 
-![](../../Pasted%20image%2020230910175145.png)
+![](../z_images/Pasted%20image%2020230910175145.png)
 
 Now we assign $1$ to $x_3$
 
-![](../../Pasted%20image%2020230910175221.png)
+![](../z_images/Pasted%20image%2020230910175221.png)
 
-![](../../Pasted%20image%2020230910175236.png)
+![](../z_images/Pasted%20image%2020230910175236.png)

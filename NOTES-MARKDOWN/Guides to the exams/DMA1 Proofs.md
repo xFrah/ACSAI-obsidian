@@ -163,7 +163,7 @@ We prove that $X→Y$ belongs to $F^+$ because:
 
 We want to demonstrate that every dependency in $F^+$ is also in $F^A$.
 
-![](../../Pasted%20image%2020230906161744.png)
+![](../z_images/Pasted%20image%2020230906161744.png)
 
 Per assurdo questa instanza non è legale.
 In order for $r$ to be illegal, we would need to have a dependency such that:
@@ -250,7 +250,7 @@ But now we also know that $F^A$ is equal to $F^+$.
 
 Since it belongs to $F^+$, $X→A$ needs to be legal for every instance of $R$.
 
-![](../../Pasted%20image%2020230907080014.png)
+![](../z_images/Pasted%20image%2020230907080014.png)
 
 
 Facciamo per assurdo, that exists a dependency $V→W$ that is not satisfacted.

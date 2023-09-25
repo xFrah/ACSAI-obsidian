@@ -13,7 +13,7 @@
 
 In order to check whether a [linear combination](../Linear%20Algebra/Linear%20Combination.md) can result in a specific vector, we put the vectors as the column of a matrix and we solve the [systems of linear equations](../Linear%20Algebra/Systems%20of%20Linear%20Equations.md) that we have generated.
 
-![](../../Pasted%20image%2020230909102536.png)
+![](../z_images/Pasted%20image%2020230909102536.png)
 
 
 ### 2) Linearity of transformation
@@ -21,7 +21,7 @@ In order to check whether a [linear combination](../Linear%20Algebra/Linear%20Co
 In order for a transformation to be linear, it must satisfy 2 conditions.
 
 $$\large T(x+y) \quad \text{and} \quad T(cu)=cT(u)$$
-![](../../Pasted%20image%2020230909105318.png)
+![](../z_images/Pasted%20image%2020230909105318.png)
 
 
 ### 3) Linear dependency check
@@ -36,7 +36,7 @@ $$\large T(x+y) \quad \text{and} \quad T(cu)=cT(u)$$
 
  In order to check we can either look at the thing and see that they are not multiples of each other:
 
-![](../../Pasted%20image%2020230909135006.png)
+![](../z_images/Pasted%20image%2020230909135006.png)
 
 
 or we gotta solve the following equation for $c_1$ and $c_2$:
@@ -69,7 +69,7 @@ If the only solution is $c1_​=0$ and $c2​=0$, then the set $S$ is [linearly 
 
 ## EX2) Eigenvalues and Eigenvectors, Basis
 
-![](../../Pasted%20image%2020230911143808.png)
+![](../z_images/Pasted%20image%2020230911143808.png)
 
 ### 1) Eigenvalues
 
@@ -106,7 +106,7 @@ In the case of multiple eigenvectors(they should be [linearly independent](../Li
 > [!note]
 > A matrix is called a diagonal matrix if all of its off-diagonal entries are zero. For example:
 > 
-> ![](../../Pasted%20image%2020230911122338.png)
+> ![](../z_images/Pasted%20image%2020230911122338.png)
 > 
 > where $a,b,c$ are real numbers.
 
@@ -124,28 +124,29 @@ where:
 - $P$: Matrix constructed by placing the eigenvectors of $A$ as its columns. If $A$ has $n$ linearly independent eigenvectors, then $P$ is invertible, and $A$ can be diagonalized.
 - $D$: This is a diagonal matrix where the diagonal entries are the eigenvalues of $A$. The order of the eigenvalues in D should match the order of the corresponding eigenvectors in P.
 
-![](../../Pasted%20image%2020230911131024.png)
+![](../z_images/Pasted%20image%2020230911131024.png)
 
 ---
 
 
 ## EX3) Basis for Row space and Column space, Rank, Nullity, Null space
 
-![](../../Pasted%20image%2020230911143739.png)
+![](../z_images/Pasted%20image%2020230911143739.png)
 
 ### 1) Basis for Row space
 
 Turn the matrix in [R.E.F](../Linear%20Algebra/Gaussian%20Elimination.md). then get the non-zero rows. Those will be the vectors of our basis.
 
-![](../../Pasted%20image%2020230911143332.png)
-![](../../Pasted%20image%2020230911143341.png)
+![](../z_images/Pasted%20image%2020230911143332.png)
+![](../z_images/Pasted%20image%2020230911143341.png)
+
 ### 1) Basis for Column space
 
 You either re-use the matrix that we used in the row space, and get the columns that have the pivots(they are surely [linearly independent](../Linear%20Algebra/Linear%20dependence.md)).
 
 Or you can use the same process of the row space on $A^T$.
 
-![](../../Pasted%20image%2020230911145703.png)
+![](../z_images/Pasted%20image%2020230911145703.png)
 
 
 ### 1) Rank
@@ -160,7 +161,7 @@ We can compute it through the following relation:
 
 $$\large \text{Nullity}(A) + \text{Rank}(A) = \text{number of columns}$$
 
-![](../../Pasted%20image%2020230911150339.png)
+![](../z_images/Pasted%20image%2020230911150339.png)
 
 
 ### 2) Null space
@@ -171,14 +172,34 @@ $$\large Ax=0$$
 
 We just need to solve the [system of linear equations](../Linear%20Algebra/Systems%20of%20Linear%20Equations.md) given by the formula above.
 
-![](../../Pasted%20image%2020230911152406.png)
+![](../z_images/Pasted%20image%2020230911152406.png)
 
 
 The free variables are $x_4$ and $x_5$, so we set $x_4 = S$ and $x_5 = t$.
 
-![](../../Pasted%20image%2020230911152930.png)
+![](../z_images/Pasted%20image%2020230911152930.png)
 
 
 We then group by the parameters and generate these two vectors:
 
-![](../../Pasted%20image%2020230911153040.png)
+![](../z_images/Pasted%20image%2020230911153040.png)
+
+---
+
+
+## EX4) Determinant properties, Invertibility, basis
+
+### Determinant properties
+
+- $\text{det}(A^{-1})=\large\frac{1}{\text{det}(A)}$ (if $A$ is invertible, so $|A|\neq 0$).
+- $\text{det}(A^T)=\text{det}(A)$ (if $A$ is square).
+- $\text{det}(cA)=c \cdot \text{det}(A)$ (if $A$ is square).
+- $\text{det}(AB)=\text{det}(A)\text{det}(B)$ (if $A$ and $B$ are square).
+
+
+### Solutions for invertibility
+
+We just pose $|A|=0$ and solve the equation.
+
+![](../z_images/Pasted%20image%2020230912100214.png)
+

@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "32312d1ee8e7f849",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b7879c9ef05f9552",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Linear Algebra/Null space.md",
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +26,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Linear Algebra/Gaussian Elimination.md",
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "845031b3b03c042b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c2cc35d709ff226",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Linear Algebra/Basis.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -96,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -112,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +166,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md"
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md"
+              }
+            }
+          },
+          {
+            "id": "3f3e9746df834a71",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -176,29 +200,34 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "32312d1ee8e7f849",
+  "active": "b7879c9ef05f9552",
   "lastOpenFiles": [
-    "Pasted image 20230911153040.png",
-    "Pasted image 20230911152930.png",
-    "Pasted image 20230911152406.png",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
+    "NOTES-MARKDOWN/Linear Algebra/Gaussian Elimination.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230906161744.png",
+    "NOTES-MARKDOWN/Foundation of Computer Science",
+    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
+    "NOTES-MARKDOWN/Linear Algebra/Basis.md",
     "NOTES-MARKDOWN/Linear Algebra/Null space.md",
+    "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
+    "NOTES-MARKDOWN/Linear Algebra/Linear dependence.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230912100214.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230911162410.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230911153040.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230911152930.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230911152406.png",
     "NOTES-MARKDOWN/Linear Algebra/Quadratic form.md",
     "NOTES-MARKDOWN/Linear Algebra/Rank.md",
-    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
-    "Pasted image 20230911150339.png",
-    "Pasted image 20230911145703.png",
-    "NOTES-MARKDOWN/Linear Algebra/Basis.md",
-    "Pasted image 20230911143808.png",
-    "Pasted image 20230911143739.png",
-    "Pasted image 20230911143341.png",
-    "Pasted image 20230911143332.png",
-    "NOTES-MARKDOWN/Linear Algebra/Gaussian Elimination.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230911150339.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230911145703.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230911143808.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230911143739.png",
     "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.md",
-    "Pasted image 20230911131024.png",
-    "Pasted image 20230911122338.png",
     "NOTES-MARKDOWN/Linear Algebra/Vector spaces.md",
     "NOTES-MARKDOWN/Linear Algebra/Spanning set.md",
-    "NOTES-MARKDOWN/Linear Algebra/Linear dependence.md",
     "NOTES-MARKDOWN/Guides to the exams/DMA1 Exam - DONE.md",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
     "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
@@ -214,16 +243,11 @@
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Inverse of a Matrix.html",
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Linear Combination.html",
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Linear dependence.html",
-    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Null space.html",
     "MD VERSIONS/AI-LAB/Corner extraction.md",
     "MD VERSIONS/AI-LAB/Convolution.md",
     "MD VERSIONS/AI-LAB/Kernel.md",
     "MD VERSIONS/AI-LAB/Numpy.md",
     "MD VERSIONS/AI-LAB/Tokenizing.md",
-    "MD VERSIONS/Artificial Intelligence/A-star.md",
-    "MD VERSIONS/Artificial Intelligence/Agent.md",
-    "MD VERSIONS/Artificial Intelligence/Arity.md",
-    "MD VERSIONS/Artificial Intelligence/Best-first search.md",
     "Machine Learning/Untitled.canvas"
   ]
 }
