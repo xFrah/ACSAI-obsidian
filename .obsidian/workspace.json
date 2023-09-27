@@ -11,13 +11,8 @@
             "id": "b7879c9ef05f9552",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -26,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+                "file": "NOTES-MARKDOWN/TODOS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -59,7 +54,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -126,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
+                "file": "NOTES-MARKDOWN/TODOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
+                "file": "NOTES-MARKDOWN/TODOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md"
+                "file": "NOTES-MARKDOWN/TODOS.md"
               }
             }
           },
@@ -178,6 +173,14 @@
               "state": {
                 "sortOrder": "frequency"
               }
+            }
+          },
+          {
+            "id": "5c545419745d9dd4",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
             }
           }
         ],
@@ -195,15 +198,20 @@
       "command-palette:Open command palette": false,
       "switcher:Open quick switcher": false,
       "random-note:Open random note": false,
-      "omnisearch:Omnisearch": false,
       "companion:Toggle completion": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "webpage-html-export:Export Vault to HTML": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "b7879c9ef05f9552",
+  "active": "d117dbf2fe6d509f",
   "lastOpenFiles": [
     "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+    "NOTES-MARKDOWN/TODOS.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230927113542.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230927112857.png",
+    "NOTES-MARKDOWN/Embedded and Multicore/Parallel Computing.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
+    "NOTES-MARKDOWN/Embedded and Multicore",
     "NOTES-MARKDOWN/Linear Algebra/Gaussian Elimination.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md",
@@ -223,8 +231,6 @@
     "NOTES-MARKDOWN/Linear Algebra/Rank.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20230911150339.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20230911145703.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20230911143808.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20230911143739.png",
     "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.md",
     "NOTES-MARKDOWN/Linear Algebra/Vector spaces.md",
     "NOTES-MARKDOWN/Linear Algebra/Spanning set.md",
@@ -242,12 +248,9 @@
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Determinant.html",
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Inverse of a Matrix.html",
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Linear Combination.html",
-    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Linear dependence.html",
     "MD VERSIONS/AI-LAB/Corner extraction.md",
     "MD VERSIONS/AI-LAB/Convolution.md",
     "MD VERSIONS/AI-LAB/Kernel.md",
-    "MD VERSIONS/AI-LAB/Numpy.md",
-    "MD VERSIONS/AI-LAB/Tokenizing.md",
     "Machine Learning/Untitled.canvas"
   ]
 }
