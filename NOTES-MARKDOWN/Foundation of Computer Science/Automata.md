@@ -54,5 +54,52 @@ The machine accepts if there exists at least one of the computation branches tha
 
 They both can do the same thing. For every non deterministic automaton, there exists a deterministic automaton that can accept the same language.
 
+How do i prove that the if A and B are regular, the union(for example) of A and B is still regular?
+We create a general automaton and show that it recognizes the resulting language.
+
+
 > [!warning]
 > This is a proof that will probably be included in the exam. Slide 2 page 10.
+
+> [!note] Remember
+> A language is regular if every string is accepted by at least one automata.
+
+
+### Closure under union
+
+> [!hint] Intuition
+> Let $A=\{good, bad\}$ and $B=\{boy, girl\}$ be two regular languages.
+> Their union will be $A\cup B = \{good, bad, boy, girl\}$. We need to make an automata that accepts this language, knowing that there are automatons that accept $A$ and $B$.
+>  
+> The solution is to make an automaton that sends the strings to both the automatas that accepted $A$ and $B$. One of the two automata will accept it.
+
+
+![](../z_images/Pasted%20image%2020230927125118.png)
+
+
+### Closure under concatenation
+
+
+> [!warning]
+> These are not all the possible permutations, only the ones that start with a string from the first set. 
+
+> [!hint] Intuition
+> Let $A=\{good, bad\}$ and $B=\{boy, girl\}$ be two regular languages.
+> Their concatenation will be $A\cup B = \{goodboy, badboy, badboy, badgirl\}$. 
+> 
+> The solution is to make an automaton that accepts the strings that belong to the set $A$ and continue with strings from set $B$.
+
+
+![](../z_images/Pasted%20image%2020230927124627.png)
+
+
+### Closure under star
+
+> [!hint] Intuition
+> Star is the concatenation of a language with itself as many times as you want.
+> 
+> The solution is to take the original automata and make arrows that go from the final states to the initial states. If the string is finished it stays in the accepted state, if not it begins again from the start. 
+> This can accept every permutation.
+
+
+![](../z_images/Pasted%20image%2020230927124701.png)

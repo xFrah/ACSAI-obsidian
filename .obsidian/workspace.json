@@ -11,17 +11,9 @@
             "id": "b7879c9ef05f9552",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "d117dbf2fe6d509f",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/TODOS.md",
+                "file": "NOTES-MARKDOWN/Embedded and Multicore/Virtual Memory.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Linear Algebra/Basis.md",
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Operations on Languages.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -121,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/TODOS.md",
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Operations on Languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/TODOS.md",
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Operations on Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -161,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/TODOS.md"
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Operations on Languages.md"
               }
             }
           },
@@ -203,34 +195,36 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d117dbf2fe6d509f",
+  "active": "3c2cc35d709ff226",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/z_images/Pasted image 20231003121324.png",
     "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Operations on Languages.md",
+    "NOTES-MARKDOWN/Embedded and Multicore/Virtual Memory.md",
+    "NOTES-MARKDOWN/Linear Algebra/Basis.md",
+    "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230927125118.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230927124701.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230927124627.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230927124450.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20230927123636.png",
     "NOTES-MARKDOWN/TODOS.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20230927113542.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20230927112857.png",
-    "NOTES-MARKDOWN/Embedded and Multicore/Parallel Computing.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
     "NOTES-MARKDOWN/Embedded and Multicore",
     "NOTES-MARKDOWN/Linear Algebra/Gaussian Elimination.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20230906161744.png",
     "NOTES-MARKDOWN/Foundation of Computer Science",
     "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
-    "NOTES-MARKDOWN/Linear Algebra/Basis.md",
     "NOTES-MARKDOWN/Linear Algebra/Null space.md",
-    "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
     "NOTES-MARKDOWN/Linear Algebra/Linear dependence.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20230912100214.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20230911162410.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20230911153040.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20230911152930.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20230911152406.png",
     "NOTES-MARKDOWN/Linear Algebra/Quadratic form.md",
     "NOTES-MARKDOWN/Linear Algebra/Rank.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20230911150339.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20230911145703.png",
     "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.md",
     "NOTES-MARKDOWN/Linear Algebra/Vector spaces.md",
     "NOTES-MARKDOWN/Linear Algebra/Spanning set.md",
@@ -249,8 +243,6 @@
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Inverse of a Matrix.html",
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Linear Combination.html",
     "MD VERSIONS/AI-LAB/Corner extraction.md",
-    "MD VERSIONS/AI-LAB/Convolution.md",
-    "MD VERSIONS/AI-LAB/Kernel.md",
     "Machine Learning/Untitled.canvas"
   ]
 }
