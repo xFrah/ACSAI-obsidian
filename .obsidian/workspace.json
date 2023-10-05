@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
+                "file": "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
+                "file": "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
+                "file": "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md"
+                "file": "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md"
               }
             }
           },
@@ -198,6 +198,7 @@
   "active": "3c2cc35d709ff226",
   "lastOpenFiles": [
     "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
+    "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Virtual Memory.md",
@@ -242,7 +243,6 @@
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Determinant.html",
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Inverse of a Matrix.html",
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Linear Combination.html",
-    "MD VERSIONS/AI-LAB/Corner extraction.md",
     "Machine Learning/Untitled.canvas"
   ]
 }
