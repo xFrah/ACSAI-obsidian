@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md",
+                "file": "NOTES-MARKDOWN/Embedded and Multicore/Program Structure Patterns.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md",
+                "file": "NOTES-MARKDOWN/Embedded and Multicore/Program Structure Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md",
+                "file": "NOTES-MARKDOWN/Embedded and Multicore/Program Structure Patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md"
+                "file": "NOTES-MARKDOWN/Embedded and Multicore/Program Structure Patterns.md"
               }
             }
           },
@@ -197,8 +197,9 @@
   },
   "active": "3c2cc35d709ff226",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md",
+    "NOTES-MARKDOWN/Embedded and Multicore/Program Structure Patterns.md",
+    "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Virtual Memory.md",
@@ -234,7 +235,6 @@
     "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
     "NOTES-MARKDOWN/Machine Learning/Multi-Class Classification.md",
     "NOTES-MARKDOWN/Statistics/Significance Level.md",
-    "NOTES-MARKDOWN/Machine Learning/Cross-entropy.md",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/DMA2 Oral Exam - DONE.html",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/Linear Algebra Exam.html",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/Machine Learning Exam - DONE.html",
