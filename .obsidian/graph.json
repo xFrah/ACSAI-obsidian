@@ -69,6 +69,13 @@
         "a": 1,
         "rgb": 16711927
       }
+    },
+    {
+      "query": "path:\"NOTES-MARKDOWN/Foundation of Computer Science\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 7935
+      }
     }
   ],
   "collapse-display": false,

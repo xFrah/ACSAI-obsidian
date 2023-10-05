@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+                "file": "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+                "file": "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+                "file": "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md"
+                "file": "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md"
               }
             }
           },
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,8 +197,9 @@
   },
   "active": "3c2cc35d709ff226",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
+    "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Virtual Memory.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20231003121324.png",
     "NOTES-MARKDOWN/Linear Algebra/Basis.md",
