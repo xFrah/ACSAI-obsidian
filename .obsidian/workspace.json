@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Embedded and Multicore/Program Structure Patterns.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -113,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Embedded and Multicore/Program Structure Patterns.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Embedded and Multicore/Program Structure Patterns.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Embedded and Multicore/Program Structure Patterns.md"
+                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md"
               }
             }
           },
@@ -165,14 +166,6 @@
               "state": {
                 "sortOrder": "frequency"
               }
-            }
-          },
-          {
-            "id": "5c545419745d9dd4",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {}
             }
           }
         ],
@@ -197,11 +190,12 @@
   },
   "active": "3c2cc35d709ff226",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md",
+    "NOTES-MARKDOWN/Guides to the exams/DMA1 Exam - DONE.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Program Structure Patterns.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
+    "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Virtual Memory.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20231003121324.png",
     "NOTES-MARKDOWN/Linear Algebra/Basis.md",
@@ -230,7 +224,6 @@
     "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.md",
     "NOTES-MARKDOWN/Linear Algebra/Vector spaces.md",
     "NOTES-MARKDOWN/Linear Algebra/Spanning set.md",
-    "NOTES-MARKDOWN/Guides to the exams/DMA1 Exam - DONE.md",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
     "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
     "NOTES-MARKDOWN/Machine Learning/Multi-Class Classification.md",

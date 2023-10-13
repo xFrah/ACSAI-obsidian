@@ -1,3 +1,10 @@
+> [!cite] Slides
+> - [Closure Lemma](https://drive.google.com/file/d/1YYm6b061ucbzg8sBA7bNud2CfCOdhLW8/view) - Slide 8 Page 10
+> - [Fa = F+](https://drive.google.com/file/d/1YYm6b061ucbzg8sBA7bNud2CfCOdhLW8/view) - Slide 8 Page 11
+> - [Closure of X+](https://drive.google.com/file/d/1M1pJCkFKwQRxXft-eQiU5Jm_1gvL5Fpi/view) - Slide 11 Page 8
+> - [Closure inclusion Lemma](https://drive.google.com/file/d/1n4PRcCG0abmxvBYpDyc5pMHGZMtALzIM/view) - Slide 13 Page 14
+
+
 ## Closure Lemma
 
 ### Lemma
@@ -63,81 +70,28 @@ $$\large X→Y \in F^A$$
 ---
 
 
-## Closure inclusion Lemma
-
-### Lemma
-
-If $F$ is dontained in $G^+$, then $F^+$ is also contained in $G^+$.
-
-$$\large \text{If} \quad F \subseteq G^+ \quad \text{then}\quad F^+\subseteq G^+$$
-### Proof
-
-> [!warning]
-> The premise is that we know that $F\subseteq G^+$ is True.
-
-
-Let $F'$ be a set of functional dependencies derived by $F$ through the axioms. We indicate this process of deriving by:
-
-$$\large F \rightarrow^{A} F'$$
-
-1) **It holds** that $F'$ can be derived through the axioms from $F$ if and only if $F'$ is in $F^+$.
-
-$$\large F \rightarrow^{A} F' \quad \text{iff} \quad F\subseteq F^+$$
-
-> [!hint]
-> Since $F^+$ contains all possible derivate dependencies of $F$, if $F'$ was derived from $F$, it must be a subset of $F^+$.
-
-
-2) **This implies** that $F^+$ can be derived from $F$ through the axioms.
-
-$$\large F \rightarrow^{A} F^+$$
-
-3) Now we have demonstrated that we can get $F^+$ from $F$. If we can get $F$ from $G$, then we know that we can get $F^+$ from $G$.
-
-$$\large F \subseteq G^+ \quad \text{iff} \quad G→^A F→^AF^+$$
-
-> [!hint]
-> The premise here is that $F\subseteq G^+$ is True, so $G→^A F→^AF^+$ is also True.
-
-
-4) $G→^A F→^AF^+$ being true means that we can get $F^+$ from $G$, and so $G^+$ also contains $F^+$.
-
-$$\large F^+ \subseteq G^+$$
-
----
-
-
 ## $F^A=F^+$
-
-### Theorem
-
-$F^+$ is equal to $F^A$.
 
 ### Proof (By double inclusion)
 
 #### $F^A \subseteq F^+$
 
+Let $X→Y$ be a **dependency in $F^A$**, we will demonstrate that it's **also in $F^+$**.
+
 ##### Base case(n=0):
-We don't use any axiom, $X→Y$ already belongs to $F$ and also to $F^+$.
-
-> [!hint]
-> Are there dependencies in $F^A$ that we can obtain with 0 applications of the axioms? YES! The ones in $F$.
-
-
+Since **we used 0 axioms** to get $X→Y$, it must be in $F$ and so in $F^+$.
 ##### Induction case:
-Here we are assuming that the dependencies obtained with n applications of the axioms are already in both $F^A$ and $F^+$.
+We assume that the dependencies obtained with n applications of the axioms are already in both $F^A$ and $F^+$.
 
-What we are trying to do is apply the axioms another time(n+1) and prove that the resulting dependencies are in $F^+$.
+**We apply the axioms another time**(n+1) and prove that the resulting dependency is in $F^+$.
 
 
-###### Reflexivity
+###### - Reflexivity
 We are obtaining $X→Y \in F^A$ because $Y$ is part of $X$.
 
 > [!hint]
-> We know for sure that the dependency is in $F^A$, because we obtained i through axioms, now we gotta demonstrate that it's also in $F^+$.
+> We know that the dependencies in $F^+$ need to satisfy every legal instance of $R$, so we demonstrate that $X→Y$ is legal in $R$.
 
-
-We know that the dependencies in $F^+$ need to satisfy every legal instance of $R$, so we need to ensure that by using a random dependency.
 
 $X→Y$ is legal in $R$ if:
 
@@ -146,7 +100,7 @@ $$\large t_1[x]=t_2[x] →t_1[y]=t_2[y]$$
 In the case of reflexivity, this is always true, because $Y$ is part of $X$.
 
 
-###### Augmentation
+###### - Augmentation
 We are obtaining $X→Y \in F^A$ through augmentation, which means that we had a dependency $V→W \in F^+$ and we augmented it to $VZ→WZ \in F^A$.
 
 We need to prove that this dependency belongs to $F^+$.
@@ -179,6 +133,51 @@ We have a contradiction:
 3. $V→W \in F$
 4. $X→W \in F^A$
 5. $W \subseteq X^+$ CONTRADICTION.
+
+---
+
+## Closure inclusion Lemma
+
+### Lemma
+
+If $F$ is contained in $G^+$, then $F^+$ is also contained in $G^+$.
+
+$$\large \text{If} \quad F \subseteq G^+ \quad \text{then}\quad F^+\subseteq G^+$$
+### Proof
+
+> [!warning]
+> The premise is that we know that $F\subseteq G^+$ is True.
+
+> [!info] Notation
+> Let $F'$ be a set of functional dependencies derived by $F$ through the axioms. We indicate this process of deriving by:
+> 
+> $$\large F \rightarrow^{A} F'$$
+> 
+
+
+1) **HOLDS:** $F'$ can be derived from $F$ (through axioms) if and only if $F'$ is in $F^+$.
+
+$$\large F \rightarrow^{A} F' \quad \text{iff} \quad F'\subseteq F^+$$
+
+> [!hint]
+> If $F'$ was derived from $F$, it must be a subset of $F^+$.
+
+
+2) **This implies** that $F^+$ can be derived from $F$.
+
+$$\large F \rightarrow^{A} F^+$$
+
+3) Now we have demonstrated that we can get $F^+$ from $F$. If we can get $F$ from $G$, then we know that we can get $F^+$ from $G$.
+
+$$\large F \subseteq G^+ \quad \text{iff} \quad G→^A F→^AF^+$$
+
+> [!hint]
+> The premise here is that $F\subseteq G^+$ is True, so $G→^A F→^AF^+$ is also True.
+
+
+4) $G→^A F→^AF^+$ being true means that we can get $F^+$ from $G$, and so $G^+$ also contains $F^+$.
+
+$$\large F^+ \subseteq G^+$$
 
 ---
 
