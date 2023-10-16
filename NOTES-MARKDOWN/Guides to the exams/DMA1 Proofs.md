@@ -9,14 +9,9 @@
 
 ### Lemma
 
-A functional dependency $X→Y$ is in the armstrong-extended $F$ if and only if $Y$ is determined by $X$.
+$X→Y$ is in $F^A$ if and only if $Y$ is determined by $X$.
 
-$$\large X→Y \in F^A \quad <=> \quad Y\subseteq X^+$$  
-> [!hint]
-> Obviously, $X→Y$ needs to belong to $F$ before belonging to $F^A$.
-> $Y\subseteq X^+$ is equal to saying that the dependency is in $F$.
-
-
+$$\large X→Y \in F^A \quad <=> \quad Y\subseteq X^+$$
 ### Proof
 
 #### "$=>$" - If $X→Y$ is in $F^A$ then $Y \subseteq X^+$
@@ -74,7 +69,7 @@ $$\large X→Y \in F^A$$
 
 ### Proof (By double inclusion)
 
-#### $F^A \subseteq F^+$
+#### $F^A \subseteq F^+$ (every dependency in $F^A$ is also in $F^+$)
 
 Let $X→Y$ be a **dependency in $F^A$**, we will demonstrate that it's **also in $F^+$**.
 
@@ -97,42 +92,56 @@ $X→Y$ is legal in $R$ if:
 
 $$\large t_1[x]=t_2[x] →t_1[y]=t_2[y]$$
 
-In the case of reflexivity, this is always true, because $Y$ is part of $X$.
+**In the case of reflexivity**, **this is always true**, because $Y$ is part of $X$.
 
 
 ###### - Augmentation
-We are obtaining $X→Y \in F^A$ through augmentation, which means that we had a dependency $V→W \in F^+$ and we augmented it to $VZ→WZ \in F^A$.
-
-We need to prove that this dependency belongs to $F^+$.
+We obtained $X→Y \in F^A$ through augmentation, which means that we had a dependency $V→W$ in $F^+$ and we augmented it to $VZ→WZ \in F^A$.
 
 > [!hint]
-> Remember that in this case $X=VZ$ and $Y=WZ$.
+> Remember that $X=VZ$ and $Y=WZ$.
 
 
-We prove that $X→Y$ belongs to $F^+$ because:
+**We assume we have a legal instance of R**, and knowing that $V→W \in F^+$, we prove that $X→Y \in F^+$.
 
-### WIP
+We take as example two tuples with equal $X$ on a legal instance of R:
+$$\large t_1[X]=t_2[X]$$
 
-#### $F^A \supseteq F^+$
+We demonstrate that if $X$ is equal, $Y$($WZ$) will be equal too.
 
-We want to demonstrate that every dependency in $F^+$ is also in $F^A$.
+- $\large t_1[V]=t_2[V]$ because of **reflexivity**.
+- $\large t_1[W]=t_2[W]$ because **we know $V→W \in F^+$ and $V$ is in $X$**.
+- $\large t_1[Y]=t_2[Y]$ because of reflexivity on $Z$ and **the two proofs above**.
+
+
+###### - Transitivity
+We obtained $X→Y \in F^A$ through transitivity, which means that we had $X→Z$ and $Z→Y$ already in $F^+$.
+
+So supposing that we have two tuples with equal $X$, for those tuples the following will hold:
+- $\large t_1[Z]=t_2[Z]$ **because of $X→Z \in F^+$**.
+- $\large t_1[Y]=t_2[Y]$ **because $Z→Y \in F^+$ and the statement above**. 
+
+#### $F^A \supseteq F^+$ (every dependency in $F^+$ is also in $F^A$)
 
 ![](../z_images/Pasted%20image%2020230906161744.png)
 
-Per assurdo questa instanza non è legale.
+We suppose that **there exists a dependency in $F^A$ that is not in $F^+$**.
+We use a legal instance of R to show that this brings a **contradiction**.
+
 In order for $r$ to be illegal, we would need to have a dependency such that:
 $$\large V→W \in F\quad \text{and} \quad t_1[V]=t_2[V] => t_2[W] \neq t_2[W]$$
-
-Let's demonstrate that this is impossible.
-For $r$ to be illegal, we would need to have that:
+This could happen only if:
 - $V$ is a subset of $X^+$ and $W$ belongs to $R-X^+$.
 
 We have a contradiction:
-1. $V \subseteq X^+$
-2. $X → V \in F^A$(LEMMA 1).
-3. $V→W \in F$
-4. $X→W \in F^A$
-5. $W \subseteq X^+$ CONTRADICTION.
+##### 1) Apply LEMMA 1
+$$\large \underbracket{V \subseteq X^+}_{\text{premise}} \quad= \quad X → V \in F^A$$
+##### 2) Apply Transitivity
+$$\large \underbracket{\underbracket{X → V \in F^A}_{\text{Lemma 1}} \quad \text{e} \quad \underbracket{V→W \in F}_{\text{premise}}}_{\text{Transitivity}} \quad=\quad X→W \in F^A$$
+
+##### 3) Apply LEMMA 1 - Contradiction part
+
+$W \subseteq X^+$ CONTRADICTION.
 
 ---
 
@@ -154,7 +163,7 @@ $$\large \text{If} \quad F \subseteq G^+ \quad \text{then}\quad F^+\subseteq G^+
 > $$\large F \rightarrow^{A} F'$$
 > 
 
-
+##### Demonstrate that $F^+$ can be derived from $F$
 1) **HOLDS:** $F'$ can be derived from $F$ (through axioms) if and only if $F'$ is in $F^+$.
 
 $$\large F \rightarrow^{A} F' \quad \text{iff} \quad F'\subseteq F^+$$
@@ -167,7 +176,8 @@ $$\large F \rightarrow^{A} F' \quad \text{iff} \quad F'\subseteq F^+$$
 
 $$\large F \rightarrow^{A} F^+$$
 
-3) Now we have demonstrated that we can get $F^+$ from $F$. If we can get $F$ from $G$, then we know that we can get $F^+$ from $G$.
+##### The actual proof
+3) Now we know that we can get $F^+$ from $F$. If we can get $F$ from $G$, then we know that we can get $F^+$ from $G$.
 
 $$\large F \subseteq G^+ \quad \text{iff} \quad G→^A F→^AF^+$$
 
@@ -201,7 +211,7 @@ We do so by double inclusion and by induction on the number of iterations.
 
 #### $Z_f \subseteq X^+$
 
-##### Base case($i=0$):q
+##### Base case($i=0$):1111111111
 At the start, we have that $Z$ contains the attributes of $X$.
 $$\large Z_0=X\subseteq X^+$$
 So **by reflexivity** we have that $Z_0 \subseteq X^+$.
