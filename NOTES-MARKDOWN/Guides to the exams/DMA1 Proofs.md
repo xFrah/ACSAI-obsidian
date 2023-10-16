@@ -128,20 +128,32 @@ So supposing that we have two tuples with equal $X$, for those tuples the follow
 We suppose that **there exists a dependency in $F^A$ that is not in $F^+$**.
 We use a legal instance of R to show that this brings a **contradiction**.
 
+##### 1) R is legal
+
 In order for $r$ to be illegal, we would need to have a dependency such that:
 $$\large V→W \in F\quad \text{and} \quad t_1[V]=t_2[V] => t_2[W] \neq t_2[W]$$
 This could happen only if:
-- $V$ is a subset of $X^+$ and $W$ belongs to $R-X^+$.
+- $V$ is a subset of $X^+$ and $W$ has parts in $R-X^+$.
 
 We have a contradiction:
-##### 1) Apply LEMMA 1
+###### 1) Apply LEMMA 1
 $$\large \underbracket{V \subseteq X^+}_{\text{premise}} \quad= \quad X → V \in F^A$$
-##### 2) Apply Transitivity
+###### 2) Apply Transitivity
 $$\large \underbracket{\underbracket{X → V \in F^A}_{\text{Lemma 1}} \quad \text{e} \quad \underbracket{V→W \in F}_{\text{premise}}}_{\text{Transitivity}} \quad=\quad X→W \in F^A$$
 
-##### 3) Apply LEMMA 1 - Contradiction part
+###### 3) Apply LEMMA 1 - Contradiction part
 
-$W \subseteq X^+$ CONTRADICTION.
+$W \subseteq X^+$. 
+
+So in any case we have that when $V$ belongs to $X^+$, $W$ belongs to $X^+$ too. $V→W \in F$ is **always satisfacted**. 
+Since we proved it with a general dependency this **R is always legal**.
+
+##### 2) Every dependency in $F^+$ is also in $F^A$
+
+Since R is legal, if we have $X → Y \in F^+$ it means that if two tuples are equal on $X$, they will also be equal on $Y$.
+
+**This means:**
+$$\large Y\subseteq X^+ \quad \text{and so} \quad X → Y \in F^A$$
 
 ---
 
@@ -211,7 +223,7 @@ We do so by double inclusion and by induction on the number of iterations.
 
 #### $Z_f \subseteq X^+$
 
-##### Base case($i=0$):1111111111
+##### Base case($i=0$):
 At the start, we have that $Z$ contains the attributes of $X$.
 $$\large Z_0=X\subseteq X^+$$
 So **by reflexivity** we have that $Z_0 \subseteq X^+$.
