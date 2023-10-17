@@ -8,20 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b7879c9ef05f9552",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Embedded and Multicore/Virtual Memory.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c2cc35d709ff226",
+            "id": "a3bccc58f5d19e24",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a3bccc58f5d19e24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,16 +161,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3c2cc35d709ff226",
+  "active": "a3bccc58f5d19e24",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
+    "NOTES-MARKDOWN/Embedded and Multicore/Virtual Memory.md",
     "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
     "NOTES-MARKDOWN/Guides to the exams/DMA1 Exam - DONE.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Program Structure Patterns.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
-    "NOTES-MARKDOWN/Embedded and Multicore/Virtual Memory.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20231003121324.png",
     "NOTES-MARKDOWN/Linear Algebra/Basis.md",
     "NOTES-MARKDOWN/Linear Algebra/Determinant.md",

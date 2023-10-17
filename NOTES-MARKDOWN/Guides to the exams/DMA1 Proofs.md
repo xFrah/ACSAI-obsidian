@@ -191,7 +191,7 @@ $$\large F \rightarrow^{A} F^+$$
 ##### The actual proof
 3) Now we know that we can get $F^+$ from $F$. If we can get $F$ from $G$, then we know that we can get $F^+$ from $G$.
 
-$$\large F \subseteq G^+ \quad \text{iff} \quad G→^A F→^AF^+$$
+$$\large F \subseteq G^+ \quad \text{iff} \quad \underbracket{G→^A F→^AF^+}_{G → F^+}$$
 
 > [!hint]
 > The premise here is that $F\subseteq G^+$ is True, so $G→^A F→^AF^+$ is also True.
