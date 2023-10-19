@@ -1,7 +1,7 @@
 > [!cite] Slides
 > - [Closure Lemma](https://drive.google.com/file/d/1YYm6b061ucbzg8sBA7bNud2CfCOdhLW8/view) - Slide 8 Page 10
 > - [Fa = F+](https://drive.google.com/file/d/1YYm6b061ucbzg8sBA7bNud2CfCOdhLW8/view) - Slide 8 Page 11
-> - [Closure of X+](https://drive.google.com/file/d/1M1pJCkFKwQRxXft-eQiU5Jm_1gvL5Fpi/view) - Slide 11 Page 8
+> - [Closure of X](https://drive.google.com/file/d/1M1pJCkFKwQRxXft-eQiU5Jm_1gvL5Fpi/view) - Slide 11 Page 8
 > - [Closure inclusion Lemma](https://drive.google.com/file/d/1n4PRcCG0abmxvBYpDyc5pMHGZMtALzIM/view) - Slide 13 Page 14
 
 
@@ -209,10 +209,6 @@ $$\large F^+ \subseteq G^+$$
 ### Theorem
 
 The algorithm outputs $X^+_F$.
-
-
-### Proof
-
 We use 2 sets in the algorithm:
 - $Z$: Attributes **already included** in the result at current iteration.
 - $S$: Attributes that **will be added** to the result at the current iteration.
@@ -220,6 +216,20 @@ We use 2 sets in the algorithm:
 We want to prove that $Z_f = X^+$.
 We do so by double inclusion and by induction on the number of iterations.
 
+> [!note]
+> A single step is done as follows:
+> $$\large S = A | Y→V ∈ F, A∈V ∧ Y⊆Z$$
+> 
+> Which basically means that we add to S **every attribute of V** if **V depends on attributes that are in Z**.
+> 
+> For each:
+> $$\large \underbracket{A}_{\text{For each attribute of the dependency}} | \underbracket{Y→V ∈ F}_{\text{For each dependency in F}}$$
+> 
+> Condition: 
+> $$\large \underbracket{A∈V}_{\text{attribute is in V}} \quad \underbracket{∧}_{\text{and}} \quad \underbracket{Y⊆Z}_{\text{left side is part of Z}}$$
+
+
+### Proof
 
 #### $Z_f \subseteq X^+$
 
@@ -244,12 +254,19 @@ In this second case, there must exist a dependency $Y→V \in F$ such that $Y \s
 > We added $A$ in the last iteration, so it means that it must be in the right part $V$ of some dependency $Y→V$, whose left part $Y$ is already in $Z_i$.
 
 
-So we have found out that $Y$ is contained in $Z$ and $Z$ is contained in $X^+$:
-$$\large Y \subseteq Z_i \subseteq X^+ \quad \text{or} \quad Y \subseteq X^+$$
-1.  $X→Y \in F^A$ by lemma 1.
-2.  $X→V \in F^A$ by transitivity.
-3.  $V\subseteq X^+$ by lemma 1. 
-4.  $A \in V \subseteq X^+$.
+###### 1) Transitivity:
+We know $Y$ is contained in $Z$ and $Z$ is contained in $X^+$:
+$$\large Y \subseteq Z_i \subseteq X^+ \quad = \quad Y \subseteq X^+$$
+###### 2) Lemma 1
+$$\large Y \subseteq X^+ \quad = \quad X→Y \in F^A$$
+
+###### 3) Transitivity
+$$\large X→Y \in F^A\quad \text{and} \quad Y→V \in F\quad = \quad X→V \in F^A$$
+###### 4) Lemma 1
+$$\large X→V \in F^A \quad = \quad V\subseteq X^+$$
+
+###### 5) A is in $X^+$
+$$\large A \in V \subseteq X^+$$
 
 We just proved that any attribute $A$ that is in $Z_{i+1}$ is also part of $X^+$.
 
