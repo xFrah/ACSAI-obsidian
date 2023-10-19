@@ -256,12 +256,12 @@ In this second case, there must exist a dependency $Y→V \in F$ such that $Y \s
 
 ###### 1) Transitivity:
 We know $Y$ is contained in $Z$ and $Z$ is contained in $X^+$:
-$$\large Y \subseteq Z_i \subseteq X^+ \quad = \quad Y \subseteq X^+$$
+$$\large Y \subseteq \underbracket{Z_i \subseteq X^+}_{\text{induction}} \quad = \quad Y \subseteq X^+$$
 ###### 2) Lemma 1
 $$\large Y \subseteq X^+ \quad = \quad X→Y \in F^A$$
 
 ###### 3) Transitivity
-$$\large X→Y \in F^A\quad \text{and} \quad Y→V \in F\quad = \quad X→V \in F^A$$
+$$\large X→Y \in F^A\quad \text{and} \quad \underbracket{Y→V \in F}_{\text{original dependency}}\quad = \quad X→V \in F^A$$
 ###### 4) Lemma 1
 $$\large X→V \in F^A \quad = \quad V\subseteq X^+$$
 
