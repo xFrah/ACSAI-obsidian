@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs - DONE.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "808a1d74a82dea7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Cybersecurity/DDoS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
+                "file": "NOTES-MARKDOWN/Cybersecurity/DDoS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
+                "file": "NOTES-MARKDOWN/Cybersecurity/DDoS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md"
+                "file": "NOTES-MARKDOWN/Cybersecurity/DDoS.md"
               }
             }
           },
@@ -161,12 +174,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a3bccc58f5d19e24",
+  "active": "3fbe08ad2a0b5f0f",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs.md",
+    "NOTES-MARKDOWN/Cybersecurity/TCP SYN Flooding.md",
+    "NOTES-MARKDOWN/Cybersecurity/DDoS.md",
+    "NOTES-MARKDOWN/Cybersecurity/Source IP Spoofing.md",
+    "NOTES-MARKDOWN/Cybersecurity/ICMP Flooding.md",
+    "NOTES-MARKDOWN/Guides to the exams/DMA1 Exam - DONE.md",
+    "NOTES-MARKDOWN/Cybersecurity",
+    "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs - DONE.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Virtual Memory.md",
-    "NOTES-MARKDOWN/Guides to the exams/DMA1 Exam - DONE.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Program Structure Patterns.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
@@ -197,10 +215,6 @@
     "NOTES-MARKDOWN/Linear Algebra/Rank.md",
     "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.md",
     "NOTES-MARKDOWN/Linear Algebra/Vector spaces.md",
-    "NOTES-MARKDOWN/Linear Algebra/Spanning set.md",
-    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
-    "NOTES-MARKDOWN/Machine Learning/Multi-Class Classification.md",
-    "NOTES-MARKDOWN/Statistics/Significance Level.md",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/DMA2 Oral Exam - DONE.html",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/Linear Algebra Exam.html",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/Machine Learning Exam - DONE.html",
@@ -208,7 +222,6 @@
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Basis.html",
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Determinant.html",
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Inverse of a Matrix.html",
-    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Linear Combination.html",
     "Machine Learning/Untitled.canvas"
   ]
 }

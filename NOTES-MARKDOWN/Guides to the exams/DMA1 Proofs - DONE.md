@@ -255,7 +255,7 @@ In this second case, there must exist a dependency $Y→V \in F$ such that $Y \s
 
 
 ###### 1) Transitivity:
-We know $Y$ is contained in $Z$ and $Z$ is contained in $X^+$:
+We know $Y \subseteq Z_i$ and $Z$ is contained in $X^+$:
 $$\large Y \subseteq \underbracket{Z_i \subseteq X^+}_{\text{induction}} \quad = \quad Y \subseteq X^+$$
 ###### 2) Lemma 1
 $$\large Y \subseteq X^+ \quad = \quad X→Y \in F^A$$
@@ -274,31 +274,38 @@ We just proved that any attribute $A$ that is in $Z_{i+1}$ is also part of $X^+$
 #### $Z_f \supseteq X^+$
 
 > [!warning]
-> The premise here is that we have just demonstrated that $Z_f \subseteq X^+$.
+> The premise here is that we have just demonstrated that $Z_f \subseteq X^+$. Or $A \in X^+ \;\;\forall A \in Z_f$.
 
 
 We need to demonstrate that $A \in X^+ => A \in Z_f$.
 
 > [!hint]
-> That every element that is in $X^+$ is also in $Z_f$.
+> That every element that $A$ is in $X^+$ is also in $Z_f$.
 
 
-By lemma 1, from $A \in X^+$ we obtain that $X→A \in F^A$.
-But now we also know that $F^A$ is equal to $F^+$.
+**By lemma 1**, from $A \in X^+$ we obtain that $X→A \in F^A$. 
+But $F^A=F^+$, so $X→A \in F^+$ and legal instances of R must respect all dependencies in F+.
 
-Since it belongs to $F^+$, $X→A$ needs to be legal for every instance of $R$.
+###### 1) Prove r is legal
 
 ![](../z_images/Pasted%20image%2020230907080014.png)
 
 
-Facciamo per assurdo, that exists a dependency $V→W$ that is not satisfacted.
-
+Facciamo per assurdo, that there exists a dependency $V→W$ that is not satisfacted.
 It would need to have $V \subseteq Z_f$ and an intersection of $W$ in $R-Z_f$.
 
 The problem here, is that if we have a dependency that is in $Z_f$ that determines something that is outside $Z_f$, it means that **the algorithm hasn't terminated**, because something is yet to be added to $Z_f$.
 
-This is a contradiction.
+This is a contradiction and r is always legal.
 
+
+###### 2) $X→A$
+
+- Since r is a legal instance and 
+- since $A$ is contained in X and 
+- X is contained in $Z_0$ and 
+- $Z_0$ is contained in $Z_f$. 
+- So a is in $Z_f$
 
 ---
 

@@ -343,7 +343,7 @@ The buckets are orgnized like a heap, so we need number of blocks / 2.
 
 ---
 
-## Exercise 3 - BTreez
+## Exercise 3 - BTrees
 
 ![](../z_images/Pasted%20image%2020230905090538.png)
 
