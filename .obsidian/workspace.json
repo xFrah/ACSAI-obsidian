@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Cybersecurity/DDoS.md",
+                "file": "NOTES-MARKDOWN/Deep Learning/Cosine Similarity.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Cybersecurity/DDoS.md",
+                "file": "NOTES-MARKDOWN/Deep Learning/Cosine Similarity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Cybersecurity/DDoS.md",
+                "file": "NOTES-MARKDOWN/Deep Learning/Cosine Similarity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Cybersecurity/DDoS.md"
+                "file": "NOTES-MARKDOWN/Deep Learning/Cosine Similarity.md"
               }
             }
           },
@@ -174,10 +174,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3fbe08ad2a0b5f0f",
+  "active": "808a1d74a82dea7a",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Cybersecurity/TCP SYN Flooding.md",
+    "NOTES-MARKDOWN/Deep Learning/Word2Vec.md",
+    "NOTES-MARKDOWN/Deep Learning/Cosine Similarity.md",
     "NOTES-MARKDOWN/Cybersecurity/DDoS.md",
+    "NOTES-MARKDOWN/Deep Learning",
+    "NOTES-MARKDOWN/Word.md",
+    "NOTES-MARKDOWN/Cybersecurity/TCP SYN Flooding.md",
     "NOTES-MARKDOWN/Cybersecurity/Source IP Spoofing.md",
     "NOTES-MARKDOWN/Cybersecurity/ICMP Flooding.md",
     "NOTES-MARKDOWN/Guides to the exams/DMA1 Exam - DONE.md",
@@ -212,16 +216,12 @@
     "NOTES-MARKDOWN/Linear Algebra/Linear dependence.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20230912100214.png",
     "NOTES-MARKDOWN/Linear Algebra/Quadratic form.md",
-    "NOTES-MARKDOWN/Linear Algebra/Rank.md",
-    "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.md",
-    "NOTES-MARKDOWN/Linear Algebra/Vector spaces.md",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/DMA2 Oral Exam - DONE.html",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/Linear Algebra Exam.html",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/Machine Learning Exam - DONE.html",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/Statistics Exam - DONE.html",
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Basis.html",
     "HTML VERSIONS/MD VERSIONS/Linear Algebra/Determinant.html",
-    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Inverse of a Matrix.html",
     "Machine Learning/Untitled.canvas"
   ]
 }
