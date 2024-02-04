@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Cybersecurity questions.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam guide.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Cybersecurity questions.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Cybersecurity questions.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Cybersecurity questions.md"
+                "file": "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam guide.md"
               }
             }
           },
@@ -136,7 +136,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -162,30 +164,31 @@
   },
   "active": "808a1d74a82dea7a",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/z_images/Pasted image 20240114222351.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240114221908.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240114215501.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240114214052.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240114202016.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240205002454.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240205001701.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240205001647.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240205001522.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240205000428.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240204235410.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240204235349.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240204232528.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240204232155.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240204232151.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240204220729.png",
+    "NOTES-MARKDOWN/Deep Learning/Word2Vec.md",
+    "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam guide.md",
+    "NOTES-MARKDOWN/Deep Learning/Universality Theorem.md",
+    "NOTES-MARKDOWN/Deep Learning/Convolutional Neural Network.md",
+    "NOTES-MARKDOWN/Deep Learning/Cosine Similarity.md",
+    "NOTES-MARKDOWN/Guides to the exams/Cybersecurity questions.md",
     "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Virtual Memory.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md",
-    "NOTES-MARKDOWN/Guides to the exams/Cybersecurity questions.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240114141447.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240114141209.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240114141208.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240114122138.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240114121425.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240114115544.png",
     "NOTES-MARKDOWN/Cybersecurity/DDoS.md",
     "NOTES-MARKDOWN/Linear Algebra/Matrix operations.md",
     "NOTES-MARKDOWN/Linear Algebra/Matrix (ML).md",
     "NOTES-MARKDOWN/Machine Learning/K-means.md",
-    "NOTES-MARKDOWN/Deep Learning/Convolutional Neural Network.md",
-    "NOTES-MARKDOWN/Deep Learning/Universality Theorem.md",
-    "NOTES-MARKDOWN/Deep Learning/Cosine Similarity.md",
-    "NOTES-MARKDOWN/Deep Learning/Word2Vec.md",
     "NOTES-MARKDOWN/Deep Learning",
     "NOTES-MARKDOWN/Word.md",
     "NOTES-MARKDOWN/Cybersecurity/TCP SYN Flooding.md",
@@ -199,7 +202,6 @@
     "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md",
     "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
     "NOTES-MARKDOWN/Linear Algebra/Basis.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.md",
     "NOTES-MARKDOWN/Embedded and Multicore",
     "NOTES-MARKDOWN/Foundation of Computer Science",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/DMA2 Oral Exam - DONE.html",

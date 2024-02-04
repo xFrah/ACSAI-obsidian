@@ -74,7 +74,6 @@ This is the algorithm:
 ![](../z_images/Pasted%20image%2020240114141447.png)
 
 
-
 The first two answers are a description of RSA. The other two are correct. Diffie-Hellman involves computing logarithms, not factoring large prime numbers.
 
 ---
@@ -156,3 +155,11 @@ The attacker uses the UNION operator to combine the results of the original quer
 
 **Second-order inject:**
 We legitimately insert shit in the db that enables us to do injection later with another legitimate query. For example a crafted name in the registration of the account.
+
+---
+
+## Cross-site shit
+
+**Cross site request forgey**: since when we make a request to a website, the credentials or token gets sent automatically, another malicious website could make us do a request to the other website using our authentication.
+
+**Reflected cross-site scripting**
