@@ -1,2 +1,0 @@
-For every boolean function there exists a feed forward neural network that can approximate it.
-For every continuous function there exists a feed forward neural network that can approximate it within a certain margin of error.

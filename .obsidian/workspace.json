@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.md",
+                "file": "NOTES-MARKDOWN/Probability/Introduction to Probability.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.md",
+                "file": "NOTES-MARKDOWN/Probability/Introduction to Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.md",
+                "file": "NOTES-MARKDOWN/Probability/Introduction to Probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.md"
+                "file": "NOTES-MARKDOWN/Probability/Introduction to Probability.md"
               }
             }
           },
@@ -162,12 +162,36 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3fbe08ad2a0b5f0f",
+  "active": "ea6482f161d02ca6",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Probability/Event.md",
+    "NOTES-MARKDOWN/Probability/Conditional Probability.md",
+    "NOTES-MARKDOWN/Probability/Bernoulli distribution.md",
+    "NOTES-MARKDOWN/Linear Algebra/Linear Combination.md",
+    "NOTES-MARKDOWN/Linear Algebra/Linear dependence.md",
+    "NOTES-MARKDOWN/Linear Algebra/Matrix operations.md",
+    "NOTES-MARKDOWN/AI-LAB/Numpy.md",
+    "NOTES-MARKDOWN/AI-LAB/Tokenizing.md",
+    "NOTES-MARKDOWN/AI-LAB/Kernel.md",
+    "NOTES-MARKDOWN/AI-LAB/Convolution.md",
+    "NOTES-MARKDOWN/AI-LAB/Corner extraction.md",
+    "NOTES-MARKDOWN/AI-LAB/Contour detection.md",
+    "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
+    "NOTES-MARKDOWN/Embedded and Multicore/Virtual Memory.md",
+    "NOTES-MARKDOWN/Embedded and Multicore/Program Structure Patterns.md",
+    "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md",
+    "NOTES-MARKDOWN/Deep Learning/Word2Vec.md",
+    "NOTES-MARKDOWN/Deep Learning/Universality Theorem.md",
+    "NOTES-MARKDOWN/Deep Learning/Cosine Similarity.md",
+    "NOTES-MARKDOWN/Calculus/Partial derivatives.md",
+    "NOTES-MARKDOWN/Deep Learning/Convolutional Neural Network.md",
+    "NOTES-MARKDOWN/Calculus/Chain Rule.md",
+    "NOTES-MARKDOWN/Cybersecurity/DDoS.md",
+    "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240205122552.png",
     "NOTES-MARKDOWN/Guides to the exams/Systems Exam.pdf",
     "NOTES-MARKDOWN/Guides to the exams/Cybersecurity Exam - DONE.md",
     "NOTES-MARKDOWN/Guides to the exams/Networking Exam.pdf",
-    "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240205002454.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240205001701.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240205001647.png",
@@ -177,39 +201,15 @@
     "NOTES-MARKDOWN/z_images/Pasted image 20240204235349.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240204232528.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240204232155.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240204232151.png",
-    "NOTES-MARKDOWN/Deep Learning/Word2Vec.md",
-    "NOTES-MARKDOWN/Deep Learning/Universality Theorem.md",
-    "NOTES-MARKDOWN/Deep Learning/Convolutional Neural Network.md",
-    "NOTES-MARKDOWN/Deep Learning/Cosine Similarity.md",
     "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
-    "NOTES-MARKDOWN/Embedded and Multicore/Virtual Memory.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md",
-    "NOTES-MARKDOWN/Cybersecurity/DDoS.md",
-    "NOTES-MARKDOWN/Linear Algebra/Matrix operations.md",
-    "NOTES-MARKDOWN/Linear Algebra/Matrix (ML).md",
-    "NOTES-MARKDOWN/Machine Learning/K-means.md",
     "NOTES-MARKDOWN/Deep Learning",
-    "NOTES-MARKDOWN/Word.md",
-    "NOTES-MARKDOWN/Cybersecurity/TCP SYN Flooding.md",
-    "NOTES-MARKDOWN/Cybersecurity/Source IP Spoofing.md",
-    "NOTES-MARKDOWN/Cybersecurity/ICMP Flooding.md",
-    "NOTES-MARKDOWN/Guides to the exams/DMA1 Exam - DONE.md",
     "NOTES-MARKDOWN/Cybersecurity",
-    "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs - DONE.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
-    "NOTES-MARKDOWN/Embedded and Multicore/Program Structure Patterns.md",
-    "NOTES-MARKDOWN/Embedded and Multicore/Foster's method.md",
-    "NOTES-MARKDOWN/Embedded and Multicore/Scaling.md",
-    "NOTES-MARKDOWN/Linear Algebra/Basis.md",
     "NOTES-MARKDOWN/Embedded and Multicore",
     "NOTES-MARKDOWN/Foundation of Computer Science",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/DMA2 Oral Exam - DONE.html",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/Linear Algebra Exam.html",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/Machine Learning Exam - DONE.html",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/Statistics Exam - DONE.html",
-    "HTML VERSIONS/MD VERSIONS/Linear Algebra/Basis.html",
     "Machine Learning/Untitled.canvas"
   ]
 }

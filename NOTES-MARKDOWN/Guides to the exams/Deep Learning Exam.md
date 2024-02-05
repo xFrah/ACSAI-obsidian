@@ -81,3 +81,13 @@ We just make a sliding window on a text and we label as 1 the words that appear 
 > [!important] Lil problem
 > ![](../z_images/Pasted%20image%2020240205002454.png)
 
+
+#### The actual training [WIP]
+
+![](../z_images/Pasted%20image%2020240205122552.png)
+
+---
+
+
+## Feedforward Neural Networks
+
