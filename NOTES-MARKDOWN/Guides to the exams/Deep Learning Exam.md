@@ -88,6 +88,5 @@ We just make a sliding window on a text and we label as 1 the words that appear 
 
 ---
 
-
-## Feedforward Neural Networks
+## Backpropagation algorithm
 
