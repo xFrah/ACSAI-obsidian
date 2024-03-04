@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Differential calculus.md",
+                "file": "NOTES-MARKDOWN/Physics/Bullet motion.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ccc10b01f6d77f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Physics/Circular motion in 2D.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Differential calculus.md",
+                "file": "NOTES-MARKDOWN/Physics/Bullet motion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,9 +116,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Differential calculus.md",
+                "file": "NOTES-MARKDOWN/Physics/Bullet motion.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Differential calculus.md"
+                "file": "NOTES-MARKDOWN/Physics/Bullet motion.md"
               }
             }
           },
@@ -147,8 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,19 +176,26 @@
   },
   "active": "ea6482f161d02ca6",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Physics/Vector operations.md",
+    "NOTES-MARKDOWN/Physics/Circular motion in 2D.md",
+    "NOTES-MARKDOWN/Physics/Bullet motion.md",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 10.24.31_ace8d80e.jpg",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 10.19.34_e137f933.jpg",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 10.05.58_7492ee1c.jpg",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 10.01.54_54d21d0f.jpg",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240304095815.png",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 09.50.29_d02b2897.jpg",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 09.42.45_0429c626.jpg",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 09.35.22_f4726dd5.jpg",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 09.30.33_4b89e48d.jpg",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 09.25.17_68ade0ff.jpg",
     "NOTES-MARKDOWN/Physics/Differential calculus.md",
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-02-26 ore 11.16.03_5d53c767.jpg",
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-02-26 ore 11.09.12_38062549.jpg",
+    "NOTES-MARKDOWN/Physics/Vector operations.md",
     "NOTES-MARKDOWN/Physics/International system of units.md",
     "NOTES-MARKDOWN/Reinforcement Learning/Bellman Equations.md",
     "NOTES-MARKDOWN/Reinforcement Learning/Markov Decision Process.md",
     "NOTES-MARKDOWN/Guides to the exams/Probability Exam.md",
     "NOTES-MARKDOWN/Physics",
     "NOTES-MARKDOWN/Physics.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240220192024.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240220185349.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240220185329.png",
     "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.md",
     "NOTES-MARKDOWN/Probability/Conditional Probability.md",
     "NOTES-MARKDOWN/Probability/Event.md",
@@ -191,18 +210,10 @@
     "NOTES-MARKDOWN/Machine Learning/Attention Mechanism.md",
     "NOTES-MARKDOWN/Machine Learning/Basis Function.md",
     "NOTES-MARKDOWN/Machine Learning/3D Morphable models.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240219194218.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240219182555.png",
     "NOTES-MARKDOWN/Machine Learning/Neural Networks.md",
     "NOTES-MARKDOWN/Machine Learning/Multi-Class Classification.md",
-    "NOTES-MARKDOWN/Machine Learning/Cross-entropy.md",
-    "NOTES-MARKDOWN/Machine Learning/ROC.md",
-    "NOTES-MARKDOWN/Machine Learning/Perceptron.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240205122552.png",
     "NOTES-MARKDOWN/Guides to the exams/Systems Exam.pdf",
     "NOTES-MARKDOWN/Guides to the exams/Networking Exam.pdf",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240205002454.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240205001701.png",
     "NOTES-MARKDOWN/Deep Learning",
     "NOTES-MARKDOWN/Cybersecurity",
     "NOTES-MARKDOWN/Embedded and Multicore",
