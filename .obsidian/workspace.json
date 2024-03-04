@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Bullet motion.md",
+                "file": "NOTES-MARKDOWN/Physics/Work.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Bullet motion.md",
+                "file": "NOTES-MARKDOWN/Physics/Work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Bullet motion.md",
+                "file": "NOTES-MARKDOWN/Physics/Work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Bullet motion.md"
+                "file": "NOTES-MARKDOWN/Physics/Work.md"
               }
             }
           },
@@ -160,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,8 +177,18 @@
   },
   "active": "ea6482f161d02ca6",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Physics/Circular motion in 2D.md",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 11.35.37_5bf4c104.jpg",
+    "NOTES-MARKDOWN/Physics/Newton's laws.md",
+    "NOTES-MARKDOWN/Physics/Work.md",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 11.27.38_ee3f49e6.jpg",
+    "NOTES-MARKDOWN/Physics/Vector operations.md",
+    "NOTES-MARKDOWN/Physics/Dynamics.md",
     "NOTES-MARKDOWN/Physics/Bullet motion.md",
+    "NOTES-MARKDOWN/Physics/Circular motion in 2D.md",
+    "NOTES-MARKDOWN/Physics/Differential calculus.md",
+    "NOTES-MARKDOWN/Physics/International system of units.md",
+    "NOTES-MARKDOWN/Physics/Untitled",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 11.02.24_7ef08cf9.jpg",
     "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 10.24.31_ace8d80e.jpg",
     "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 10.19.34_e137f933.jpg",
     "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 10.05.58_7492ee1c.jpg",
@@ -186,11 +197,6 @@
     "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 09.50.29_d02b2897.jpg",
     "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 09.42.45_0429c626.jpg",
     "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 09.35.22_f4726dd5.jpg",
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 09.30.33_4b89e48d.jpg",
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 09.25.17_68ade0ff.jpg",
-    "NOTES-MARKDOWN/Physics/Differential calculus.md",
-    "NOTES-MARKDOWN/Physics/Vector operations.md",
-    "NOTES-MARKDOWN/Physics/International system of units.md",
     "NOTES-MARKDOWN/Reinforcement Learning/Bellman Equations.md",
     "NOTES-MARKDOWN/Reinforcement Learning/Markov Decision Process.md",
     "NOTES-MARKDOWN/Guides to the exams/Probability Exam.md",
@@ -209,9 +215,6 @@
     "NOTES-MARKDOWN/Machine Learning/Decision trees.md",
     "NOTES-MARKDOWN/Machine Learning/Attention Mechanism.md",
     "NOTES-MARKDOWN/Machine Learning/Basis Function.md",
-    "NOTES-MARKDOWN/Machine Learning/3D Morphable models.md",
-    "NOTES-MARKDOWN/Machine Learning/Neural Networks.md",
-    "NOTES-MARKDOWN/Machine Learning/Multi-Class Classification.md",
     "NOTES-MARKDOWN/Guides to the exams/Systems Exam.pdf",
     "NOTES-MARKDOWN/Guides to the exams/Networking Exam.pdf",
     "NOTES-MARKDOWN/Deep Learning",
@@ -220,7 +223,6 @@
     "NOTES-MARKDOWN/Foundation of Computer Science",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/DMA2 Oral Exam - DONE.html",
     "HTML VERSIONS/MD VERSIONS/Guides to the exams/Linear Algebra Exam.html",
-    "HTML VERSIONS/MD VERSIONS/Guides to the exams/Machine Learning Exam - DONE.html",
     "Machine Learning/Untitled.canvas"
   ]
 }

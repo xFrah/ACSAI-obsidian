@@ -15,7 +15,7 @@ The rate of change of horizontal position is constant (it changes $\large v_{x0}
 $$\large\frac{dx}{dt} = v_{x0}$$
 
 The velocity of horizontal position doesn't change, which means it's constant.
-AKA the rate of change of the rate of change of the horizontal position doesn't change and it's 0:
+AKA the rate of change of the rate of change of the horizontal position is 0(velocity never changes):
 $$\large\frac{dv_x}{dt} = 0$$
 
 The actual formula for x axis:
@@ -26,7 +26,7 @@ The vertical position changes $v_{y0}$ space units every $t$ plus the gravitatio
 The rate of change of vertical position is not constant because the gravitational pull gets bigger over time:
 $$\large\frac{dy}{dt} = v_{y0} - g t$$
 
-The rate of change of vertical position also changes because of acceleartion, it changes $-g$ every $t$:
+The rate of change of vertical position also changes because of acceleration, it changes $-g$ every $t$:
 $$\large\frac{dv_y}{dt} = -g$$
 
 The actual formula for $y$ axis:
@@ -63,6 +63,25 @@ $$\large y = y_0 + \tan(\alpha)(x - x_0) - \frac{1}{2}g\frac{(x - x_0)^2}{(v_0 \
 
 ![](../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2009.30.33_4b89e48d.jpg)
 
+$$\large R = v_0 \cos \theta_0 \cdot t_R$$
+
+> [!info] How do we derive this formula?
+> We want to know at what point a projectile returns to the ground, for this we use the formula for vertical motion:
+> 
+> $$\large y(t) = y_0 + v_{y0} t - \frac{1}{2} g t^2$$
+> 
+> If we set the $y$ displacement to 0, and we solve the equation for t, we get the time at which it falls:
+> 
+> $$\large \underbracket{y(t) - y_0}_{0} = v_{y0} t - \frac{1}{2} g t^2$$
+> $$\large 0 = v_{0}sin\theta - \frac{1}{2} g t^2$$
+> 
+> And if we solve this for $t$, we get that:
+> $$\large t=\{0,\;\frac{2_{v0}sin\theta}{g}\}$$
+> 
+> We know that $t=0$ is when the object is thrown, so the time at which it falls to the ground is the second formula.
+> 
+> Now we just gotta input $t$ into the horizontal motion formula????
+
 ## Maximum height
 
 ![](../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2009.35.22_f4726dd5.jpg)
@@ -74,3 +93,4 @@ $$\large y = y_0 + \tan(\alpha)(x - x_0) - \frac{1}{2}g\frac{(x - x_0)^2}{(v_0 \
 
 > [!example] Exercise
 > ![](../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2010.24.31_ace8d80e.jpg)
+> ![](../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2011.02.24_7ef08cf9.jpg)
