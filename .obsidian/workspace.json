@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Work.md",
+                "file": "NOTES-MARKDOWN/Physics/Conservation of energy.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,19 +21,20 @@
             }
           },
           {
-            "id": "0ccc10b01f6d77f7",
+            "id": "b41908d7d57e0a6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Circular motion in 2D.md",
+                "file": "NOTES-MARKDOWN/Physics/Da smistare.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Work.md",
+                "file": "NOTES-MARKDOWN/Physics/Da smistare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Work.md",
+                "file": "NOTES-MARKDOWN/Physics/Da smistare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Work.md"
+                "file": "NOTES-MARKDOWN/Physics/Da smistare.md"
               }
             }
           },
@@ -155,8 +156,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,28 +175,32 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ea6482f161d02ca6",
+  "active": "b41908d7d57e0a6e",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 11.35.37_5bf4c104.jpg",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-11 ore 11.33.05_73967d6e.jpg",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-11 ore 11.33.15_f4cbd35f.jpg",
     "NOTES-MARKDOWN/Physics/Newton's laws.md",
+    "NOTES-MARKDOWN/Physics/Circular motion in 2D.md",
+    "NOTES-MARKDOWN/Physics/Stable Equilibrium.md",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-11 ore 10.16.20_1dcbf720.jpg",
+    "NOTES-MARKDOWN/Physics/Conservation of energy.md",
+    "NOTES-MARKDOWN/Physics/Da smistare.md",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-11 ore 09.56.05_a40f4058.jpg",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-11 ore 09.37.44_71ddf431.jpg",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-11 ore 09.33.24_f128175c.jpg",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-11 ore 09.26.09_e34e9097.jpg",
+    "NOTES-MARKDOWN/Linear Algebra/Quadratic form.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240311091741.png",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-08 ore 10.04.42_3ad860e6.jpg",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-08 ore 09.53.06_35d15701.jpg",
+    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-08 ore 09.46.46_faca2f29.jpg",
     "NOTES-MARKDOWN/Physics/Work.md",
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 11.27.38_ee3f49e6.jpg",
     "NOTES-MARKDOWN/Physics/Vector operations.md",
     "NOTES-MARKDOWN/Physics/Dynamics.md",
     "NOTES-MARKDOWN/Physics/Bullet motion.md",
-    "NOTES-MARKDOWN/Physics/Circular motion in 2D.md",
     "NOTES-MARKDOWN/Physics/Differential calculus.md",
     "NOTES-MARKDOWN/Physics/International system of units.md",
     "NOTES-MARKDOWN/Physics/Untitled",
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 11.02.24_7ef08cf9.jpg",
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 10.24.31_ace8d80e.jpg",
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 10.19.34_e137f933.jpg",
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 10.05.58_7492ee1c.jpg",
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 10.01.54_54d21d0f.jpg",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240304095815.png",
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 09.50.29_d02b2897.jpg",
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 09.42.45_0429c626.jpg",
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-04 ore 09.35.22_f4726dd5.jpg",
     "NOTES-MARKDOWN/Reinforcement Learning/Bellman Equations.md",
     "NOTES-MARKDOWN/Reinforcement Learning/Markov Decision Process.md",
     "NOTES-MARKDOWN/Guides to the exams/Probability Exam.md",
@@ -211,10 +215,6 @@
     "NOTES-MARKDOWN/Linear Algebra/Rank.md",
     "NOTES-MARKDOWN/Linear Algebra/Linear Combination.md",
     "NOTES-MARKDOWN/Linear Algebra/Linear dependence.md",
-    "NOTES-MARKDOWN/Machine Learning/Entropy.md",
-    "NOTES-MARKDOWN/Machine Learning/Decision trees.md",
-    "NOTES-MARKDOWN/Machine Learning/Attention Mechanism.md",
-    "NOTES-MARKDOWN/Machine Learning/Basis Function.md",
     "NOTES-MARKDOWN/Guides to the exams/Systems Exam.pdf",
     "NOTES-MARKDOWN/Guides to the exams/Networking Exam.pdf",
     "NOTES-MARKDOWN/Deep Learning",
