@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/1) Bullet motion.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51d3c1a25379d7cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9888d695e1d06c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/1) Bullet motion.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/1) Bullet motion.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/1) Bullet motion.md"
+                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.md"
               }
             }
           },
@@ -163,6 +189,19 @@
   },
   "active": "ea6482f161d02ca6",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.md",
+    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.md",
+    "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
+    "NOTES-MARKDOWN/Linear Algebra/Gaussian Elimination.md",
+    "NOTES-MARKDOWN/Linear Algebra/Quadratic form.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240326094130.png",
+    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
+    "NOTES-MARKDOWN/Linear Algebra/Matrix (ML).md",
+    "NOTES-MARKDOWN/Linear Algebra/Inverse of a Matrix.md",
+    "NOTES-MARKDOWN/Linear Algebra/Transformations.md",
+    "NOTES-MARKDOWN/Physics/1) Bullet motion.md",
+    "NOTES-MARKDOWN/Linear Algebra/Linear Combination.md",
+    "NOTES-MARKDOWN/Linear Algebra/Hyperplanes.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240319152904.png",
     "NOTES-MARKDOWN/Physics/Vector operations.md",
     "NOTES-MARKDOWN/Physics/International system of units.md",
@@ -178,29 +217,16 @@
     "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-15 ore 09.26.13_a1002668 1.jpg",
     "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-15 ore 09.26.13_a1002668.jpg",
     "NOTES-MARKDOWN/Physics/5) Conservation of energy.md",
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-15 ore 09.16.41_34a8fc1b.jpg",
-    "NOTES-MARKDOWN/z_images/Immagine WhatsApp 2024-03-11 ore 11.33.05_73967d6e.jpg",
     "NOTES-MARKDOWN/Physics/3) Newton's laws.md",
     "NOTES-MARKDOWN/Physics/2) Circular motion in 2D.md",
-    "NOTES-MARKDOWN/Linear Algebra/Quadratic form.md",
     "NOTES-MARKDOWN/Physics/4) Work.md",
     "NOTES-MARKDOWN/Physics/Dynamics.md",
-    "NOTES-MARKDOWN/Physics/1) Bullet motion.md",
     "NOTES-MARKDOWN/Physics/Differential calculus.md",
     "NOTES-MARKDOWN/Physics/Untitled",
     "NOTES-MARKDOWN/Reinforcement Learning/Bellman Equations.md",
     "NOTES-MARKDOWN/Reinforcement Learning/Markov Decision Process.md",
     "NOTES-MARKDOWN/Guides to the exams/Probability Exam.md",
     "NOTES-MARKDOWN/Physics",
-    "NOTES-MARKDOWN/Physics.md",
-    "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.md",
-    "NOTES-MARKDOWN/Probability/Conditional Probability.md",
-    "NOTES-MARKDOWN/Probability/Event.md",
-    "NOTES-MARKDOWN/Linear Algebra/Symmetric matrix.md",
-    "NOTES-MARKDOWN/Linear Algebra/SVD.md",
-    "NOTES-MARKDOWN/Linear Algebra/Systems of Linear Equations.md",
-    "NOTES-MARKDOWN/Linear Algebra/Rank.md",
-    "NOTES-MARKDOWN/Linear Algebra/Linear Combination.md",
     "NOTES-MARKDOWN/Guides to the exams/Systems Exam.pdf",
     "NOTES-MARKDOWN/Guides to the exams/Networking Exam.pdf",
     "NOTES-MARKDOWN/Deep Learning",

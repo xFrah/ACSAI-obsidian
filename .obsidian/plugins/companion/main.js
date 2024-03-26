@@ -398,7 +398,7 @@ var require_react_development = __commonJS({
                 var init = lazyComponent._init;
                 try {
                   return getComponentNameFromType(init(payload));
-                } catch (x) {
+                } catch (x2) {
                   return null;
                 }
               }
@@ -480,7 +480,7 @@ var require_react_development = __commonJS({
             }
           }
         }
-        var ReactElement = function(type, key, ref, self2, source, owner, props) {
+        var ReactElement = function(type, key, ref, self, source, owner, props) {
           var element = {
             // This tag allows us to uniquely identify this as a React Element
             $$typeof: REACT_ELEMENT_TYPE,
@@ -504,7 +504,7 @@ var require_react_development = __commonJS({
               configurable: false,
               enumerable: false,
               writable: false,
-              value: self2
+              value: self
             });
             Object.defineProperty(element, "_source", {
               configurable: false,
@@ -524,7 +524,7 @@ var require_react_development = __commonJS({
           var props = {};
           var key = null;
           var ref = null;
-          var self2 = null;
+          var self = null;
           var source = null;
           if (config != null) {
             if (hasValidRef(config)) {
@@ -539,7 +539,7 @@ var require_react_development = __commonJS({
               }
               key = "" + config.key;
             }
-            self2 = config.__self === void 0 ? null : config.__self;
+            self = config.__self === void 0 ? null : config.__self;
             source = config.__source === void 0 ? null : config.__source;
             for (propName in config) {
               if (hasOwnProperty.call(config, propName) && !RESERVED_PROPS.hasOwnProperty(propName)) {
@@ -581,7 +581,7 @@ var require_react_development = __commonJS({
               }
             }
           }
-          return ReactElement(type, key, ref, self2, source, ReactCurrentOwner.current, props);
+          return ReactElement(type, key, ref, self, source, ReactCurrentOwner.current, props);
         }
         function cloneAndReplaceKey(oldElement, newKey) {
           var newElement = ReactElement(oldElement.type, newKey, oldElement.ref, oldElement._self, oldElement._source, oldElement._owner, oldElement.props);
@@ -595,7 +595,7 @@ var require_react_development = __commonJS({
           var props = assign({}, element.props);
           var key = element.key;
           var ref = element.ref;
-          var self2 = element._self;
+          var self = element._self;
           var source = element._source;
           var owner = element._owner;
           if (config != null) {
@@ -633,7 +633,7 @@ var require_react_development = __commonJS({
             }
             props.children = childArray;
           }
-          return ReactElement(element.type, key, ref, self2, source, owner, props);
+          return ReactElement(element.type, key, ref, self, source, owner, props);
         }
         function isValidElement(object) {
           return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
@@ -1236,8 +1236,8 @@ var require_react_development = __commonJS({
             if (prefix === void 0) {
               try {
                 throw Error();
-              } catch (x) {
-                var match = x.stack.trim().match(/\n( *(at )?)/);
+              } catch (x2) {
+                var match = x2.stack.trim().match(/\n( *(at )?)/);
                 prefix = match && match[1] || "";
               }
             }
@@ -1283,23 +1283,23 @@ var require_react_development = __commonJS({
               if (typeof Reflect === "object" && Reflect.construct) {
                 try {
                   Reflect.construct(Fake, []);
-                } catch (x) {
-                  control = x;
+                } catch (x2) {
+                  control = x2;
                 }
                 Reflect.construct(fn, [], Fake);
               } else {
                 try {
                   Fake.call();
-                } catch (x) {
-                  control = x;
+                } catch (x2) {
+                  control = x2;
                 }
                 fn.call(Fake.prototype);
               }
             } else {
               try {
                 throw Error();
-              } catch (x) {
-                control = x;
+              } catch (x2) {
+                control = x2;
               }
               fn();
             }
@@ -1392,7 +1392,7 @@ var require_react_development = __commonJS({
                 var init = lazyComponent._init;
                 try {
                   return describeUnknownElementTypeFrameInDEV(init(payload), source, ownerFn);
-                } catch (x) {
+                } catch (x2) {
                 }
               }
             }
@@ -3301,8 +3301,8 @@ var require_react_dom_development = __commonJS({
             if (prefix === void 0) {
               try {
                 throw Error();
-              } catch (x) {
-                var match = x.stack.trim().match(/\n( *(at )?)/);
+              } catch (x2) {
+                var match = x2.stack.trim().match(/\n( *(at )?)/);
                 prefix = match && match[1] || "";
               }
             }
@@ -3348,23 +3348,23 @@ var require_react_dom_development = __commonJS({
               if (typeof Reflect === "object" && Reflect.construct) {
                 try {
                   Reflect.construct(Fake, []);
-                } catch (x) {
-                  control = x;
+                } catch (x2) {
+                  control = x2;
                 }
                 Reflect.construct(fn, [], Fake);
               } else {
                 try {
                   Fake.call();
-                } catch (x) {
-                  control = x;
+                } catch (x2) {
+                  control = x2;
                 }
                 fn.call(Fake.prototype);
               }
             } else {
               try {
                 throw Error();
-              } catch (x) {
-                control = x;
+              } catch (x2) {
+                control = x2;
               }
               fn();
             }
@@ -3462,7 +3462,7 @@ var require_react_dom_development = __commonJS({
                 var init = lazyComponent._init;
                 try {
                   return describeUnknownElementTypeFrameInDEV(init(payload), source, ownerFn);
-                } catch (x) {
+                } catch (x2) {
                 }
               }
             }
@@ -3502,8 +3502,8 @@ var require_react_dom_development = __commonJS({
               node = node.return;
             } while (node);
             return info;
-          } catch (x) {
-            return "\nError generating stack: " + x.message + "\n" + x.stack;
+          } catch (x2) {
+            return "\nError generating stack: " + x2.message + "\n" + x2.stack;
           }
         }
         function getWrappedName(outerType, innerType, wrapperName) {
@@ -3568,7 +3568,7 @@ var require_react_dom_development = __commonJS({
                 var init = lazyComponent._init;
                 try {
                   return getComponentNameFromType(init(payload));
-                } catch (x) {
+                } catch (x2) {
                   return null;
                 }
               }
@@ -5554,7 +5554,7 @@ var require_react_dom_development = __commonJS({
             passiveBrowserEventsSupported = false;
           }
         }
-        function invokeGuardedCallbackProd(name, func, context, a2, b2, c2, d3, e, f2) {
+        function invokeGuardedCallbackProd(name, func, context, a2, b2, c2, d2, e, f) {
           var funcArgs = Array.prototype.slice.call(arguments, 3);
           try {
             func.apply(context, funcArgs);
@@ -5566,7 +5566,7 @@ var require_react_dom_development = __commonJS({
         {
           if (typeof window !== "undefined" && typeof window.dispatchEvent === "function" && typeof document !== "undefined" && typeof document.createEvent === "function") {
             var fakeNode = document.createElement("react");
-            invokeGuardedCallbackImpl = function invokeGuardedCallbackDev(name, func, context, a2, b2, c2, d3, e, f2) {
+            invokeGuardedCallbackImpl = function invokeGuardedCallbackDev(name, func, context, a2, b2, c2, d2, e, f) {
               if (typeof document === "undefined" || document === null) {
                 throw new Error("The `document` global was defined when React was initialized, but is not defined anymore. This can happen in a test environment if a component schedules an update from an asynchronous callback, but the test has already finished running. To solve this, you can either unmount the component at the end of your test (and ensure that any asynchronous operations get canceled in `componentWillUnmount`), or you can change the test itself to be asynchronous.");
               }
@@ -5641,12 +5641,12 @@ var require_react_dom_development = __commonJS({
             caughtError = error2;
           }
         };
-        function invokeGuardedCallback(name, func, context, a2, b2, c2, d3, e, f2) {
+        function invokeGuardedCallback(name, func, context, a2, b2, c2, d2, e, f) {
           hasError = false;
           caughtError = null;
           invokeGuardedCallbackImpl$1.apply(reporter, arguments);
         }
-        function invokeGuardedCallbackAndCatchFirstError(name, func, context, a2, b2, c2, d3, e, f2) {
+        function invokeGuardedCallbackAndCatchFirstError(name, func, context, a2, b2, c2, d2, e, f) {
           invokeGuardedCallback.apply(this, arguments);
           if (hasError) {
             var error2 = clearCaughtError();
@@ -6356,8 +6356,8 @@ var require_react_dom_development = __commonJS({
         var clz32 = Math.clz32 ? Math.clz32 : clz32Fallback;
         var log = Math.log;
         var LN2 = Math.LN2;
-        function clz32Fallback(x) {
-          var asUint = x >>> 0;
+        function clz32Fallback(x2) {
+          var asUint = x2 >>> 0;
           if (asUint === 0) {
             return 32;
           }
@@ -8388,8 +8388,8 @@ var require_react_dom_development = __commonJS({
           }
           accumulateEnterLeaveTwoPhaseListeners(dispatchQueue, leave, enter, from, to);
         }
-        function is(x, y2) {
-          return x === y2 && (x !== 0 || 1 / x === 1 / y2) || x !== x && y2 !== y2;
+        function is(x2, y) {
+          return x2 === y && (x2 !== 0 || 1 / x2 === 1 / y) || x2 !== x2 && y !== y;
         }
         var objectIs = typeof Object.is === "function" ? Object.is : is;
         function shallowEqual(objA, objB) {
@@ -16339,7 +16339,7 @@ var require_react_dom_development = __commonJS({
                 var init = lazyComponent._init;
                 try {
                   outerMemoType = init(payload);
-                } catch (x) {
+                } catch (x2) {
                   outerMemoType = null;
                 }
                 var outerPropTypes = outerMemoType && outerMemoType.propTypes;
@@ -20830,13 +20830,13 @@ var require_react_dom_development = __commonJS({
             }
           }
         }
-        function discreteUpdates(fn, a2, b2, c2, d3) {
+        function discreteUpdates(fn, a2, b2, c2, d2) {
           var previousPriority = getCurrentUpdatePriority();
           var prevTransition = ReactCurrentBatchConfig$3.transition;
           try {
             ReactCurrentBatchConfig$3.transition = null;
             setCurrentUpdatePriority(DiscreteEventPriority);
-            return fn(a2, b2, c2, d3);
+            return fn(a2, b2, c2, d2);
           } finally {
             setCurrentUpdatePriority(previousPriority);
             ReactCurrentBatchConfig$3.transition = prevTransition;
@@ -23489,16 +23489,16 @@ var require_react_dom = __commonJS({
 var require_client = __commonJS({
   "node_modules/react-dom/client.js"(exports) {
     "use strict";
-    var m = require_react_dom();
+    var m2 = require_react_dom();
     if (false) {
-      exports.createRoot = m.createRoot;
-      exports.hydrateRoot = m.hydrateRoot;
+      exports.createRoot = m2.createRoot;
+      exports.hydrateRoot = m2.hydrateRoot;
     } else {
-      i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+      i = m2.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
       exports.createRoot = function(c2, o) {
         i.usingClientEntryPoint = true;
         try {
-          return m.createRoot(c2, o);
+          return m2.createRoot(c2, o);
         } finally {
           i.usingClientEntryPoint = false;
         }
@@ -23506,7 +23506,7 @@ var require_client = __commonJS({
       exports.hydrateRoot = function(c2, h2, o) {
         i.usingClientEntryPoint = true;
         try {
-          return m.hydrateRoot(c2, h2, o);
+          return m2.hydrateRoot(c2, h2, o);
         } finally {
           i.usingClientEntryPoint = false;
         }
@@ -23516,3547 +23516,13 @@ var require_client = __commonJS({
   }
 });
 
-// node_modules/axios/lib/helpers/bind.js
-var require_bind = __commonJS({
-  "node_modules/axios/lib/helpers/bind.js"(exports, module2) {
-    "use strict";
-    module2.exports = function bind(fn, thisArg) {
-      return function wrap() {
-        var args = new Array(arguments.length);
-        for (var i = 0; i < args.length; i++) {
-          args[i] = arguments[i];
-        }
-        return fn.apply(thisArg, args);
-      };
-    };
-  }
-});
-
-// node_modules/axios/lib/utils.js
-var require_utils = __commonJS({
-  "node_modules/axios/lib/utils.js"(exports, module2) {
-    "use strict";
-    var bind = require_bind();
-    var toString = Object.prototype.toString;
-    function isArray2(val) {
-      return Array.isArray(val);
-    }
-    function isUndefined(val) {
-      return typeof val === "undefined";
-    }
-    function isBuffer(val) {
-      return val !== null && !isUndefined(val) && val.constructor !== null && !isUndefined(val.constructor) && typeof val.constructor.isBuffer === "function" && val.constructor.isBuffer(val);
-    }
-    function isArrayBuffer(val) {
-      return toString.call(val) === "[object ArrayBuffer]";
-    }
-    function isFormData(val) {
-      return toString.call(val) === "[object FormData]";
-    }
-    function isArrayBufferView(val) {
-      var result;
-      if (typeof ArrayBuffer !== "undefined" && ArrayBuffer.isView) {
-        result = ArrayBuffer.isView(val);
-      } else {
-        result = val && val.buffer && isArrayBuffer(val.buffer);
-      }
-      return result;
-    }
-    function isString(val) {
-      return typeof val === "string";
-    }
-    function isNumber(val) {
-      return typeof val === "number";
-    }
-    function isObject(val) {
-      return val !== null && typeof val === "object";
-    }
-    function isPlainObject(val) {
-      if (toString.call(val) !== "[object Object]") {
-        return false;
-      }
-      var prototype = Object.getPrototypeOf(val);
-      return prototype === null || prototype === Object.prototype;
-    }
-    function isDate(val) {
-      return toString.call(val) === "[object Date]";
-    }
-    function isFile(val) {
-      return toString.call(val) === "[object File]";
-    }
-    function isBlob(val) {
-      return toString.call(val) === "[object Blob]";
-    }
-    function isFunction2(val) {
-      return toString.call(val) === "[object Function]";
-    }
-    function isStream(val) {
-      return isObject(val) && isFunction2(val.pipe);
-    }
-    function isURLSearchParams(val) {
-      return toString.call(val) === "[object URLSearchParams]";
-    }
-    function trim(str) {
-      return str.trim ? str.trim() : str.replace(/^\s+|\s+$/g, "");
-    }
-    function isStandardBrowserEnv() {
-      if (typeof navigator !== "undefined" && (navigator.product === "ReactNative" || navigator.product === "NativeScript" || navigator.product === "NS")) {
-        return false;
-      }
-      return typeof window !== "undefined" && typeof document !== "undefined";
-    }
-    function forEach(obj, fn) {
-      if (obj === null || typeof obj === "undefined") {
-        return;
-      }
-      if (typeof obj !== "object") {
-        obj = [obj];
-      }
-      if (isArray2(obj)) {
-        for (var i = 0, l = obj.length; i < l; i++) {
-          fn.call(null, obj[i], i, obj);
-        }
-      } else {
-        for (var key in obj) {
-          if (Object.prototype.hasOwnProperty.call(obj, key)) {
-            fn.call(null, obj[key], key, obj);
-          }
-        }
-      }
-    }
-    function merge() {
-      var result = {};
-      function assignValue(val, key) {
-        if (isPlainObject(result[key]) && isPlainObject(val)) {
-          result[key] = merge(result[key], val);
-        } else if (isPlainObject(val)) {
-          result[key] = merge({}, val);
-        } else if (isArray2(val)) {
-          result[key] = val.slice();
-        } else {
-          result[key] = val;
-        }
-      }
-      for (var i = 0, l = arguments.length; i < l; i++) {
-        forEach(arguments[i], assignValue);
-      }
-      return result;
-    }
-    function extend(a2, b2, thisArg) {
-      forEach(b2, function assignValue(val, key) {
-        if (thisArg && typeof val === "function") {
-          a2[key] = bind(val, thisArg);
-        } else {
-          a2[key] = val;
-        }
-      });
-      return a2;
-    }
-    function stripBOM(content) {
-      if (content.charCodeAt(0) === 65279) {
-        content = content.slice(1);
-      }
-      return content;
-    }
-    module2.exports = {
-      isArray: isArray2,
-      isArrayBuffer,
-      isBuffer,
-      isFormData,
-      isArrayBufferView,
-      isString,
-      isNumber,
-      isObject,
-      isPlainObject,
-      isUndefined,
-      isDate,
-      isFile,
-      isBlob,
-      isFunction: isFunction2,
-      isStream,
-      isURLSearchParams,
-      isStandardBrowserEnv,
-      forEach,
-      merge,
-      extend,
-      trim,
-      stripBOM
-    };
-  }
-});
-
-// node_modules/axios/lib/helpers/buildURL.js
-var require_buildURL = __commonJS({
-  "node_modules/axios/lib/helpers/buildURL.js"(exports, module2) {
-    "use strict";
-    var utils = require_utils();
-    function encode(val) {
-      return encodeURIComponent(val).replace(/%3A/gi, ":").replace(/%24/g, "$").replace(/%2C/gi, ",").replace(/%20/g, "+").replace(/%5B/gi, "[").replace(/%5D/gi, "]");
-    }
-    module2.exports = function buildURL(url, params, paramsSerializer) {
-      if (!params) {
-        return url;
-      }
-      var serializedParams;
-      if (paramsSerializer) {
-        serializedParams = paramsSerializer(params);
-      } else if (utils.isURLSearchParams(params)) {
-        serializedParams = params.toString();
-      } else {
-        var parts = [];
-        utils.forEach(params, function serialize(val, key) {
-          if (val === null || typeof val === "undefined") {
-            return;
-          }
-          if (utils.isArray(val)) {
-            key = key + "[]";
-          } else {
-            val = [val];
-          }
-          utils.forEach(val, function parseValue(v) {
-            if (utils.isDate(v)) {
-              v = v.toISOString();
-            } else if (utils.isObject(v)) {
-              v = JSON.stringify(v);
-            }
-            parts.push(encode(key) + "=" + encode(v));
-          });
-        });
-        serializedParams = parts.join("&");
-      }
-      if (serializedParams) {
-        var hashmarkIndex = url.indexOf("#");
-        if (hashmarkIndex !== -1) {
-          url = url.slice(0, hashmarkIndex);
-        }
-        url += (url.indexOf("?") === -1 ? "?" : "&") + serializedParams;
-      }
-      return url;
-    };
-  }
-});
-
-// node_modules/axios/lib/core/InterceptorManager.js
-var require_InterceptorManager = __commonJS({
-  "node_modules/axios/lib/core/InterceptorManager.js"(exports, module2) {
-    "use strict";
-    var utils = require_utils();
-    function InterceptorManager() {
-      this.handlers = [];
-    }
-    InterceptorManager.prototype.use = function use(fulfilled, rejected, options) {
-      this.handlers.push({
-        fulfilled,
-        rejected,
-        synchronous: options ? options.synchronous : false,
-        runWhen: options ? options.runWhen : null
-      });
-      return this.handlers.length - 1;
-    };
-    InterceptorManager.prototype.eject = function eject(id) {
-      if (this.handlers[id]) {
-        this.handlers[id] = null;
-      }
-    };
-    InterceptorManager.prototype.forEach = function forEach(fn) {
-      utils.forEach(this.handlers, function forEachHandler(h2) {
-        if (h2 !== null) {
-          fn(h2);
-        }
-      });
-    };
-    module2.exports = InterceptorManager;
-  }
-});
-
-// node_modules/axios/lib/helpers/normalizeHeaderName.js
-var require_normalizeHeaderName = __commonJS({
-  "node_modules/axios/lib/helpers/normalizeHeaderName.js"(exports, module2) {
-    "use strict";
-    var utils = require_utils();
-    module2.exports = function normalizeHeaderName(headers, normalizedName) {
-      utils.forEach(headers, function processHeader(value, name) {
-        if (name !== normalizedName && name.toUpperCase() === normalizedName.toUpperCase()) {
-          headers[normalizedName] = value;
-          delete headers[name];
-        }
-      });
-    };
-  }
-});
-
-// node_modules/axios/lib/core/enhanceError.js
-var require_enhanceError = __commonJS({
-  "node_modules/axios/lib/core/enhanceError.js"(exports, module2) {
-    "use strict";
-    module2.exports = function enhanceError(error, config, code, request, response) {
-      error.config = config;
-      if (code) {
-        error.code = code;
-      }
-      error.request = request;
-      error.response = response;
-      error.isAxiosError = true;
-      error.toJSON = function toJSON() {
-        return {
-          // Standard
-          message: this.message,
-          name: this.name,
-          // Microsoft
-          description: this.description,
-          number: this.number,
-          // Mozilla
-          fileName: this.fileName,
-          lineNumber: this.lineNumber,
-          columnNumber: this.columnNumber,
-          stack: this.stack,
-          // Axios
-          config: this.config,
-          code: this.code,
-          status: this.response && this.response.status ? this.response.status : null
-        };
-      };
-      return error;
-    };
-  }
-});
-
-// node_modules/axios/lib/defaults/transitional.js
-var require_transitional = __commonJS({
-  "node_modules/axios/lib/defaults/transitional.js"(exports, module2) {
-    "use strict";
-    module2.exports = {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    };
-  }
-});
-
-// node_modules/axios/lib/core/createError.js
-var require_createError = __commonJS({
-  "node_modules/axios/lib/core/createError.js"(exports, module2) {
-    "use strict";
-    var enhanceError = require_enhanceError();
-    module2.exports = function createError(message, config, code, request, response) {
-      var error = new Error(message);
-      return enhanceError(error, config, code, request, response);
-    };
-  }
-});
-
-// node_modules/axios/lib/core/settle.js
-var require_settle = __commonJS({
-  "node_modules/axios/lib/core/settle.js"(exports, module2) {
-    "use strict";
-    var createError = require_createError();
-    module2.exports = function settle(resolve, reject, response) {
-      var validateStatus = response.config.validateStatus;
-      if (!response.status || !validateStatus || validateStatus(response.status)) {
-        resolve(response);
-      } else {
-        reject(createError(
-          "Request failed with status code " + response.status,
-          response.config,
-          null,
-          response.request,
-          response
-        ));
-      }
-    };
-  }
-});
-
-// node_modules/axios/lib/helpers/cookies.js
-var require_cookies = __commonJS({
-  "node_modules/axios/lib/helpers/cookies.js"(exports, module2) {
-    "use strict";
-    var utils = require_utils();
-    module2.exports = utils.isStandardBrowserEnv() ? (
-      // Standard browser envs support document.cookie
-      function standardBrowserEnv() {
-        return {
-          write: function write(name, value, expires, path, domain, secure) {
-            var cookie = [];
-            cookie.push(name + "=" + encodeURIComponent(value));
-            if (utils.isNumber(expires)) {
-              cookie.push("expires=" + new Date(expires).toGMTString());
-            }
-            if (utils.isString(path)) {
-              cookie.push("path=" + path);
-            }
-            if (utils.isString(domain)) {
-              cookie.push("domain=" + domain);
-            }
-            if (secure === true) {
-              cookie.push("secure");
-            }
-            document.cookie = cookie.join("; ");
-          },
-          read: function read(name) {
-            var match = document.cookie.match(new RegExp("(^|;\\s*)(" + name + ")=([^;]*)"));
-            return match ? decodeURIComponent(match[3]) : null;
-          },
-          remove: function remove(name) {
-            this.write(name, "", Date.now() - 864e5);
-          }
-        };
-      }()
-    ) : (
-      // Non standard browser env (web workers, react-native) lack needed support.
-      function nonStandardBrowserEnv() {
-        return {
-          write: function write() {
-          },
-          read: function read() {
-            return null;
-          },
-          remove: function remove() {
-          }
-        };
-      }()
-    );
-  }
-});
-
-// node_modules/axios/lib/helpers/isAbsoluteURL.js
-var require_isAbsoluteURL = __commonJS({
-  "node_modules/axios/lib/helpers/isAbsoluteURL.js"(exports, module2) {
-    "use strict";
-    module2.exports = function isAbsoluteURL(url) {
-      return /^([a-z][a-z\d+\-.]*:)?\/\//i.test(url);
-    };
-  }
-});
-
-// node_modules/axios/lib/helpers/combineURLs.js
-var require_combineURLs = __commonJS({
-  "node_modules/axios/lib/helpers/combineURLs.js"(exports, module2) {
-    "use strict";
-    module2.exports = function combineURLs(baseURL, relativeURL) {
-      return relativeURL ? baseURL.replace(/\/+$/, "") + "/" + relativeURL.replace(/^\/+/, "") : baseURL;
-    };
-  }
-});
-
-// node_modules/axios/lib/core/buildFullPath.js
-var require_buildFullPath = __commonJS({
-  "node_modules/axios/lib/core/buildFullPath.js"(exports, module2) {
-    "use strict";
-    var isAbsoluteURL = require_isAbsoluteURL();
-    var combineURLs = require_combineURLs();
-    module2.exports = function buildFullPath(baseURL, requestedURL) {
-      if (baseURL && !isAbsoluteURL(requestedURL)) {
-        return combineURLs(baseURL, requestedURL);
-      }
-      return requestedURL;
-    };
-  }
-});
-
-// node_modules/axios/lib/helpers/parseHeaders.js
-var require_parseHeaders = __commonJS({
-  "node_modules/axios/lib/helpers/parseHeaders.js"(exports, module2) {
-    "use strict";
-    var utils = require_utils();
-    var ignoreDuplicateOf = [
-      "age",
-      "authorization",
-      "content-length",
-      "content-type",
-      "etag",
-      "expires",
-      "from",
-      "host",
-      "if-modified-since",
-      "if-unmodified-since",
-      "last-modified",
-      "location",
-      "max-forwards",
-      "proxy-authorization",
-      "referer",
-      "retry-after",
-      "user-agent"
-    ];
-    module2.exports = function parseHeaders(headers) {
-      var parsed = {};
-      var key;
-      var val;
-      var i;
-      if (!headers) {
-        return parsed;
-      }
-      utils.forEach(headers.split("\n"), function parser(line) {
-        i = line.indexOf(":");
-        key = utils.trim(line.substr(0, i)).toLowerCase();
-        val = utils.trim(line.substr(i + 1));
-        if (key) {
-          if (parsed[key] && ignoreDuplicateOf.indexOf(key) >= 0) {
-            return;
-          }
-          if (key === "set-cookie") {
-            parsed[key] = (parsed[key] ? parsed[key] : []).concat([val]);
-          } else {
-            parsed[key] = parsed[key] ? parsed[key] + ", " + val : val;
-          }
-        }
-      });
-      return parsed;
-    };
-  }
-});
-
-// node_modules/axios/lib/helpers/isURLSameOrigin.js
-var require_isURLSameOrigin = __commonJS({
-  "node_modules/axios/lib/helpers/isURLSameOrigin.js"(exports, module2) {
-    "use strict";
-    var utils = require_utils();
-    module2.exports = utils.isStandardBrowserEnv() ? (
-      // Standard browser envs have full support of the APIs needed to test
-      // whether the request URL is of the same origin as current location.
-      function standardBrowserEnv() {
-        var msie = /(msie|trident)/i.test(navigator.userAgent);
-        var urlParsingNode = document.createElement("a");
-        var originURL;
-        function resolveURL(url) {
-          var href = url;
-          if (msie) {
-            urlParsingNode.setAttribute("href", href);
-            href = urlParsingNode.href;
-          }
-          urlParsingNode.setAttribute("href", href);
-          return {
-            href: urlParsingNode.href,
-            protocol: urlParsingNode.protocol ? urlParsingNode.protocol.replace(/:$/, "") : "",
-            host: urlParsingNode.host,
-            search: urlParsingNode.search ? urlParsingNode.search.replace(/^\?/, "") : "",
-            hash: urlParsingNode.hash ? urlParsingNode.hash.replace(/^#/, "") : "",
-            hostname: urlParsingNode.hostname,
-            port: urlParsingNode.port,
-            pathname: urlParsingNode.pathname.charAt(0) === "/" ? urlParsingNode.pathname : "/" + urlParsingNode.pathname
-          };
-        }
-        originURL = resolveURL(window.location.href);
-        return function isURLSameOrigin(requestURL) {
-          var parsed = utils.isString(requestURL) ? resolveURL(requestURL) : requestURL;
-          return parsed.protocol === originURL.protocol && parsed.host === originURL.host;
-        };
-      }()
-    ) : (
-      // Non standard browser envs (web workers, react-native) lack needed support.
-      function nonStandardBrowserEnv() {
-        return function isURLSameOrigin() {
-          return true;
-        };
-      }()
-    );
-  }
-});
-
-// node_modules/axios/lib/cancel/Cancel.js
-var require_Cancel = __commonJS({
-  "node_modules/axios/lib/cancel/Cancel.js"(exports, module2) {
-    "use strict";
-    function Cancel(message) {
-      this.message = message;
-    }
-    Cancel.prototype.toString = function toString() {
-      return "Cancel" + (this.message ? ": " + this.message : "");
-    };
-    Cancel.prototype.__CANCEL__ = true;
-    module2.exports = Cancel;
-  }
-});
-
-// node_modules/axios/lib/adapters/xhr.js
-var require_xhr = __commonJS({
-  "node_modules/axios/lib/adapters/xhr.js"(exports, module2) {
-    "use strict";
-    var utils = require_utils();
-    var settle = require_settle();
-    var cookies = require_cookies();
-    var buildURL = require_buildURL();
-    var buildFullPath = require_buildFullPath();
-    var parseHeaders = require_parseHeaders();
-    var isURLSameOrigin = require_isURLSameOrigin();
-    var createError = require_createError();
-    var transitionalDefaults = require_transitional();
-    var Cancel = require_Cancel();
-    module2.exports = function xhrAdapter(config) {
-      return new Promise(function dispatchXhrRequest(resolve, reject) {
-        var requestData = config.data;
-        var requestHeaders = config.headers;
-        var responseType = config.responseType;
-        var onCanceled;
-        function done() {
-          if (config.cancelToken) {
-            config.cancelToken.unsubscribe(onCanceled);
-          }
-          if (config.signal) {
-            config.signal.removeEventListener("abort", onCanceled);
-          }
-        }
-        if (utils.isFormData(requestData)) {
-          delete requestHeaders["Content-Type"];
-        }
-        var request = new XMLHttpRequest();
-        if (config.auth) {
-          var username = config.auth.username || "";
-          var password = config.auth.password ? unescape(encodeURIComponent(config.auth.password)) : "";
-          requestHeaders.Authorization = "Basic " + btoa(username + ":" + password);
-        }
-        var fullPath = buildFullPath(config.baseURL, config.url);
-        request.open(config.method.toUpperCase(), buildURL(fullPath, config.params, config.paramsSerializer), true);
-        request.timeout = config.timeout;
-        function onloadend() {
-          if (!request) {
-            return;
-          }
-          var responseHeaders = "getAllResponseHeaders" in request ? parseHeaders(request.getAllResponseHeaders()) : null;
-          var responseData = !responseType || responseType === "text" || responseType === "json" ? request.responseText : request.response;
-          var response = {
-            data: responseData,
-            status: request.status,
-            statusText: request.statusText,
-            headers: responseHeaders,
-            config,
-            request
-          };
-          settle(function _resolve(value) {
-            resolve(value);
-            done();
-          }, function _reject(err) {
-            reject(err);
-            done();
-          }, response);
-          request = null;
-        }
-        if ("onloadend" in request) {
-          request.onloadend = onloadend;
-        } else {
-          request.onreadystatechange = function handleLoad() {
-            if (!request || request.readyState !== 4) {
-              return;
-            }
-            if (request.status === 0 && !(request.responseURL && request.responseURL.indexOf("file:") === 0)) {
-              return;
-            }
-            setTimeout(onloadend);
-          };
-        }
-        request.onabort = function handleAbort() {
-          if (!request) {
-            return;
-          }
-          reject(createError("Request aborted", config, "ECONNABORTED", request));
-          request = null;
-        };
-        request.onerror = function handleError() {
-          reject(createError("Network Error", config, null, request));
-          request = null;
-        };
-        request.ontimeout = function handleTimeout() {
-          var timeoutErrorMessage = config.timeout ? "timeout of " + config.timeout + "ms exceeded" : "timeout exceeded";
-          var transitional = config.transitional || transitionalDefaults;
-          if (config.timeoutErrorMessage) {
-            timeoutErrorMessage = config.timeoutErrorMessage;
-          }
-          reject(createError(
-            timeoutErrorMessage,
-            config,
-            transitional.clarifyTimeoutError ? "ETIMEDOUT" : "ECONNABORTED",
-            request
-          ));
-          request = null;
-        };
-        if (utils.isStandardBrowserEnv()) {
-          var xsrfValue = (config.withCredentials || isURLSameOrigin(fullPath)) && config.xsrfCookieName ? cookies.read(config.xsrfCookieName) : void 0;
-          if (xsrfValue) {
-            requestHeaders[config.xsrfHeaderName] = xsrfValue;
-          }
-        }
-        if ("setRequestHeader" in request) {
-          utils.forEach(requestHeaders, function setRequestHeader(val, key) {
-            if (typeof requestData === "undefined" && key.toLowerCase() === "content-type") {
-              delete requestHeaders[key];
-            } else {
-              request.setRequestHeader(key, val);
-            }
-          });
-        }
-        if (!utils.isUndefined(config.withCredentials)) {
-          request.withCredentials = !!config.withCredentials;
-        }
-        if (responseType && responseType !== "json") {
-          request.responseType = config.responseType;
-        }
-        if (typeof config.onDownloadProgress === "function") {
-          request.addEventListener("progress", config.onDownloadProgress);
-        }
-        if (typeof config.onUploadProgress === "function" && request.upload) {
-          request.upload.addEventListener("progress", config.onUploadProgress);
-        }
-        if (config.cancelToken || config.signal) {
-          onCanceled = function(cancel) {
-            if (!request) {
-              return;
-            }
-            reject(!cancel || cancel && cancel.type ? new Cancel("canceled") : cancel);
-            request.abort();
-            request = null;
-          };
-          config.cancelToken && config.cancelToken.subscribe(onCanceled);
-          if (config.signal) {
-            config.signal.aborted ? onCanceled() : config.signal.addEventListener("abort", onCanceled);
-          }
-        }
-        if (!requestData) {
-          requestData = null;
-        }
-        request.send(requestData);
-      });
-    };
-  }
-});
-
-// node_modules/axios/lib/defaults/index.js
-var require_defaults = __commonJS({
-  "node_modules/axios/lib/defaults/index.js"(exports, module2) {
-    "use strict";
-    var utils = require_utils();
-    var normalizeHeaderName = require_normalizeHeaderName();
-    var enhanceError = require_enhanceError();
-    var transitionalDefaults = require_transitional();
-    var DEFAULT_CONTENT_TYPE = {
-      "Content-Type": "application/x-www-form-urlencoded"
-    };
-    function setContentTypeIfUnset(headers, value) {
-      if (!utils.isUndefined(headers) && utils.isUndefined(headers["Content-Type"])) {
-        headers["Content-Type"] = value;
-      }
-    }
-    function getDefaultAdapter() {
-      var adapter;
-      if (typeof XMLHttpRequest !== "undefined") {
-        adapter = require_xhr();
-      } else if (typeof process !== "undefined" && Object.prototype.toString.call(process) === "[object process]") {
-        adapter = require_xhr();
-      }
-      return adapter;
-    }
-    function stringifySafely(rawValue2, parser, encoder) {
-      if (utils.isString(rawValue2)) {
-        try {
-          (parser || JSON.parse)(rawValue2);
-          return utils.trim(rawValue2);
-        } catch (e) {
-          if (e.name !== "SyntaxError") {
-            throw e;
-          }
-        }
-      }
-      return (encoder || JSON.stringify)(rawValue2);
-    }
-    var defaults = {
-      transitional: transitionalDefaults,
-      adapter: getDefaultAdapter(),
-      transformRequest: [function transformRequest(data, headers) {
-        normalizeHeaderName(headers, "Accept");
-        normalizeHeaderName(headers, "Content-Type");
-        if (utils.isFormData(data) || utils.isArrayBuffer(data) || utils.isBuffer(data) || utils.isStream(data) || utils.isFile(data) || utils.isBlob(data)) {
-          return data;
-        }
-        if (utils.isArrayBufferView(data)) {
-          return data.buffer;
-        }
-        if (utils.isURLSearchParams(data)) {
-          setContentTypeIfUnset(headers, "application/x-www-form-urlencoded;charset=utf-8");
-          return data.toString();
-        }
-        if (utils.isObject(data) || headers && headers["Content-Type"] === "application/json") {
-          setContentTypeIfUnset(headers, "application/json");
-          return stringifySafely(data);
-        }
-        return data;
-      }],
-      transformResponse: [function transformResponse(data) {
-        var transitional = this.transitional || defaults.transitional;
-        var silentJSONParsing = transitional && transitional.silentJSONParsing;
-        var forcedJSONParsing = transitional && transitional.forcedJSONParsing;
-        var strictJSONParsing = !silentJSONParsing && this.responseType === "json";
-        if (strictJSONParsing || forcedJSONParsing && utils.isString(data) && data.length) {
-          try {
-            return JSON.parse(data);
-          } catch (e) {
-            if (strictJSONParsing) {
-              if (e.name === "SyntaxError") {
-                throw enhanceError(e, this, "E_JSON_PARSE");
-              }
-              throw e;
-            }
-          }
-        }
-        return data;
-      }],
-      /**
-       * A timeout in milliseconds to abort a request. If set to 0 (default) a
-       * timeout is not created.
-       */
-      timeout: 0,
-      xsrfCookieName: "XSRF-TOKEN",
-      xsrfHeaderName: "X-XSRF-TOKEN",
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      validateStatus: function validateStatus(status) {
-        return status >= 200 && status < 300;
-      },
-      headers: {
-        common: {
-          "Accept": "application/json, text/plain, */*"
-        }
-      }
-    };
-    utils.forEach(["delete", "get", "head"], function forEachMethodNoData(method) {
-      defaults.headers[method] = {};
-    });
-    utils.forEach(["post", "put", "patch"], function forEachMethodWithData(method) {
-      defaults.headers[method] = utils.merge(DEFAULT_CONTENT_TYPE);
-    });
-    module2.exports = defaults;
-  }
-});
-
-// node_modules/axios/lib/core/transformData.js
-var require_transformData = __commonJS({
-  "node_modules/axios/lib/core/transformData.js"(exports, module2) {
-    "use strict";
-    var utils = require_utils();
-    var defaults = require_defaults();
-    module2.exports = function transformData(data, headers, fns) {
-      var context = this || defaults;
-      utils.forEach(fns, function transform(fn) {
-        data = fn.call(context, data, headers);
-      });
-      return data;
-    };
-  }
-});
-
-// node_modules/axios/lib/cancel/isCancel.js
-var require_isCancel = __commonJS({
-  "node_modules/axios/lib/cancel/isCancel.js"(exports, module2) {
-    "use strict";
-    module2.exports = function isCancel(value) {
-      return !!(value && value.__CANCEL__);
-    };
-  }
-});
-
-// node_modules/axios/lib/core/dispatchRequest.js
-var require_dispatchRequest = __commonJS({
-  "node_modules/axios/lib/core/dispatchRequest.js"(exports, module2) {
-    "use strict";
-    var utils = require_utils();
-    var transformData = require_transformData();
-    var isCancel = require_isCancel();
-    var defaults = require_defaults();
-    var Cancel = require_Cancel();
-    function throwIfCancellationRequested(config) {
-      if (config.cancelToken) {
-        config.cancelToken.throwIfRequested();
-      }
-      if (config.signal && config.signal.aborted) {
-        throw new Cancel("canceled");
-      }
-    }
-    module2.exports = function dispatchRequest(config) {
-      throwIfCancellationRequested(config);
-      config.headers = config.headers || {};
-      config.data = transformData.call(
-        config,
-        config.data,
-        config.headers,
-        config.transformRequest
-      );
-      config.headers = utils.merge(
-        config.headers.common || {},
-        config.headers[config.method] || {},
-        config.headers
-      );
-      utils.forEach(
-        ["delete", "get", "head", "post", "put", "patch", "common"],
-        function cleanHeaderConfig(method) {
-          delete config.headers[method];
-        }
-      );
-      var adapter = config.adapter || defaults.adapter;
-      return adapter(config).then(function onAdapterResolution(response) {
-        throwIfCancellationRequested(config);
-        response.data = transformData.call(
-          config,
-          response.data,
-          response.headers,
-          config.transformResponse
-        );
-        return response;
-      }, function onAdapterRejection(reason) {
-        if (!isCancel(reason)) {
-          throwIfCancellationRequested(config);
-          if (reason && reason.response) {
-            reason.response.data = transformData.call(
-              config,
-              reason.response.data,
-              reason.response.headers,
-              config.transformResponse
-            );
-          }
-        }
-        return Promise.reject(reason);
-      });
-    };
-  }
-});
-
-// node_modules/axios/lib/core/mergeConfig.js
-var require_mergeConfig = __commonJS({
-  "node_modules/axios/lib/core/mergeConfig.js"(exports, module2) {
-    "use strict";
-    var utils = require_utils();
-    module2.exports = function mergeConfig(config1, config2) {
-      config2 = config2 || {};
-      var config = {};
-      function getMergedValue(target, source) {
-        if (utils.isPlainObject(target) && utils.isPlainObject(source)) {
-          return utils.merge(target, source);
-        } else if (utils.isPlainObject(source)) {
-          return utils.merge({}, source);
-        } else if (utils.isArray(source)) {
-          return source.slice();
-        }
-        return source;
-      }
-      function mergeDeepProperties(prop) {
-        if (!utils.isUndefined(config2[prop])) {
-          return getMergedValue(config1[prop], config2[prop]);
-        } else if (!utils.isUndefined(config1[prop])) {
-          return getMergedValue(void 0, config1[prop]);
-        }
-      }
-      function valueFromConfig2(prop) {
-        if (!utils.isUndefined(config2[prop])) {
-          return getMergedValue(void 0, config2[prop]);
-        }
-      }
-      function defaultToConfig2(prop) {
-        if (!utils.isUndefined(config2[prop])) {
-          return getMergedValue(void 0, config2[prop]);
-        } else if (!utils.isUndefined(config1[prop])) {
-          return getMergedValue(void 0, config1[prop]);
-        }
-      }
-      function mergeDirectKeys(prop) {
-        if (prop in config2) {
-          return getMergedValue(config1[prop], config2[prop]);
-        } else if (prop in config1) {
-          return getMergedValue(void 0, config1[prop]);
-        }
-      }
-      var mergeMap = {
-        "url": valueFromConfig2,
-        "method": valueFromConfig2,
-        "data": valueFromConfig2,
-        "baseURL": defaultToConfig2,
-        "transformRequest": defaultToConfig2,
-        "transformResponse": defaultToConfig2,
-        "paramsSerializer": defaultToConfig2,
-        "timeout": defaultToConfig2,
-        "timeoutMessage": defaultToConfig2,
-        "withCredentials": defaultToConfig2,
-        "adapter": defaultToConfig2,
-        "responseType": defaultToConfig2,
-        "xsrfCookieName": defaultToConfig2,
-        "xsrfHeaderName": defaultToConfig2,
-        "onUploadProgress": defaultToConfig2,
-        "onDownloadProgress": defaultToConfig2,
-        "decompress": defaultToConfig2,
-        "maxContentLength": defaultToConfig2,
-        "maxBodyLength": defaultToConfig2,
-        "transport": defaultToConfig2,
-        "httpAgent": defaultToConfig2,
-        "httpsAgent": defaultToConfig2,
-        "cancelToken": defaultToConfig2,
-        "socketPath": defaultToConfig2,
-        "responseEncoding": defaultToConfig2,
-        "validateStatus": mergeDirectKeys
-      };
-      utils.forEach(Object.keys(config1).concat(Object.keys(config2)), function computeConfigValue(prop) {
-        var merge = mergeMap[prop] || mergeDeepProperties;
-        var configValue = merge(prop);
-        utils.isUndefined(configValue) && merge !== mergeDirectKeys || (config[prop] = configValue);
-      });
-      return config;
-    };
-  }
-});
-
-// node_modules/axios/lib/env/data.js
-var require_data = __commonJS({
-  "node_modules/axios/lib/env/data.js"(exports, module2) {
-    module2.exports = {
-      "version": "0.26.1"
-    };
-  }
-});
-
-// node_modules/axios/lib/helpers/validator.js
-var require_validator = __commonJS({
-  "node_modules/axios/lib/helpers/validator.js"(exports, module2) {
-    "use strict";
-    var VERSION = require_data().version;
-    var validators = {};
-    ["object", "boolean", "number", "function", "string", "symbol"].forEach(function(type, i) {
-      validators[type] = function validator(thing) {
-        return typeof thing === type || "a" + (i < 1 ? "n " : " ") + type;
-      };
-    });
-    var deprecatedWarnings = {};
-    validators.transitional = function transitional(validator, version, message) {
-      function formatMessage(opt, desc) {
-        return "[Axios v" + VERSION + "] Transitional option '" + opt + "'" + desc + (message ? ". " + message : "");
-      }
-      return function(value, opt, opts) {
-        if (validator === false) {
-          throw new Error(formatMessage(opt, " has been removed" + (version ? " in " + version : "")));
-        }
-        if (version && !deprecatedWarnings[opt]) {
-          deprecatedWarnings[opt] = true;
-          console.warn(
-            formatMessage(
-              opt,
-              " has been deprecated since v" + version + " and will be removed in the near future"
-            )
-          );
-        }
-        return validator ? validator(value, opt, opts) : true;
-      };
-    };
-    function assertOptions(options, schema, allowUnknown) {
-      if (typeof options !== "object") {
-        throw new TypeError("options must be an object");
-      }
-      var keys = Object.keys(options);
-      var i = keys.length;
-      while (i-- > 0) {
-        var opt = keys[i];
-        var validator = schema[opt];
-        if (validator) {
-          var value = options[opt];
-          var result = value === void 0 || validator(value, opt, options);
-          if (result !== true) {
-            throw new TypeError("option " + opt + " must be " + result);
-          }
-          continue;
-        }
-        if (allowUnknown !== true) {
-          throw Error("Unknown option " + opt);
-        }
-      }
-    }
-    module2.exports = {
-      assertOptions,
-      validators
-    };
-  }
-});
-
-// node_modules/axios/lib/core/Axios.js
-var require_Axios = __commonJS({
-  "node_modules/axios/lib/core/Axios.js"(exports, module2) {
-    "use strict";
-    var utils = require_utils();
-    var buildURL = require_buildURL();
-    var InterceptorManager = require_InterceptorManager();
-    var dispatchRequest = require_dispatchRequest();
-    var mergeConfig = require_mergeConfig();
-    var validator = require_validator();
-    var validators = validator.validators;
-    function Axios(instanceConfig) {
-      this.defaults = instanceConfig;
-      this.interceptors = {
-        request: new InterceptorManager(),
-        response: new InterceptorManager()
-      };
-    }
-    Axios.prototype.request = function request(configOrUrl, config) {
-      if (typeof configOrUrl === "string") {
-        config = config || {};
-        config.url = configOrUrl;
-      } else {
-        config = configOrUrl || {};
-      }
-      config = mergeConfig(this.defaults, config);
-      if (config.method) {
-        config.method = config.method.toLowerCase();
-      } else if (this.defaults.method) {
-        config.method = this.defaults.method.toLowerCase();
-      } else {
-        config.method = "get";
-      }
-      var transitional = config.transitional;
-      if (transitional !== void 0) {
-        validator.assertOptions(transitional, {
-          silentJSONParsing: validators.transitional(validators.boolean),
-          forcedJSONParsing: validators.transitional(validators.boolean),
-          clarifyTimeoutError: validators.transitional(validators.boolean)
-        }, false);
-      }
-      var requestInterceptorChain = [];
-      var synchronousRequestInterceptors = true;
-      this.interceptors.request.forEach(function unshiftRequestInterceptors(interceptor) {
-        if (typeof interceptor.runWhen === "function" && interceptor.runWhen(config) === false) {
-          return;
-        }
-        synchronousRequestInterceptors = synchronousRequestInterceptors && interceptor.synchronous;
-        requestInterceptorChain.unshift(interceptor.fulfilled, interceptor.rejected);
-      });
-      var responseInterceptorChain = [];
-      this.interceptors.response.forEach(function pushResponseInterceptors(interceptor) {
-        responseInterceptorChain.push(interceptor.fulfilled, interceptor.rejected);
-      });
-      var promise;
-      if (!synchronousRequestInterceptors) {
-        var chain = [dispatchRequest, void 0];
-        Array.prototype.unshift.apply(chain, requestInterceptorChain);
-        chain = chain.concat(responseInterceptorChain);
-        promise = Promise.resolve(config);
-        while (chain.length) {
-          promise = promise.then(chain.shift(), chain.shift());
-        }
-        return promise;
-      }
-      var newConfig = config;
-      while (requestInterceptorChain.length) {
-        var onFulfilled = requestInterceptorChain.shift();
-        var onRejected = requestInterceptorChain.shift();
-        try {
-          newConfig = onFulfilled(newConfig);
-        } catch (error) {
-          onRejected(error);
-          break;
-        }
-      }
-      try {
-        promise = dispatchRequest(newConfig);
-      } catch (error) {
-        return Promise.reject(error);
-      }
-      while (responseInterceptorChain.length) {
-        promise = promise.then(responseInterceptorChain.shift(), responseInterceptorChain.shift());
-      }
-      return promise;
-    };
-    Axios.prototype.getUri = function getUri(config) {
-      config = mergeConfig(this.defaults, config);
-      return buildURL(config.url, config.params, config.paramsSerializer).replace(/^\?/, "");
-    };
-    utils.forEach(["delete", "get", "head", "options"], function forEachMethodNoData(method) {
-      Axios.prototype[method] = function(url, config) {
-        return this.request(mergeConfig(config || {}, {
-          method,
-          url,
-          data: (config || {}).data
-        }));
-      };
-    });
-    utils.forEach(["post", "put", "patch"], function forEachMethodWithData(method) {
-      Axios.prototype[method] = function(url, data, config) {
-        return this.request(mergeConfig(config || {}, {
-          method,
-          url,
-          data
-        }));
-      };
-    });
-    module2.exports = Axios;
-  }
-});
-
-// node_modules/axios/lib/cancel/CancelToken.js
-var require_CancelToken = __commonJS({
-  "node_modules/axios/lib/cancel/CancelToken.js"(exports, module2) {
-    "use strict";
-    var Cancel = require_Cancel();
-    function CancelToken(executor) {
-      if (typeof executor !== "function") {
-        throw new TypeError("executor must be a function.");
-      }
-      var resolvePromise;
-      this.promise = new Promise(function promiseExecutor(resolve) {
-        resolvePromise = resolve;
-      });
-      var token = this;
-      this.promise.then(function(cancel) {
-        if (!token._listeners)
-          return;
-        var i;
-        var l = token._listeners.length;
-        for (i = 0; i < l; i++) {
-          token._listeners[i](cancel);
-        }
-        token._listeners = null;
-      });
-      this.promise.then = function(onfulfilled) {
-        var _resolve;
-        var promise = new Promise(function(resolve) {
-          token.subscribe(resolve);
-          _resolve = resolve;
-        }).then(onfulfilled);
-        promise.cancel = function reject() {
-          token.unsubscribe(_resolve);
-        };
-        return promise;
-      };
-      executor(function cancel(message) {
-        if (token.reason) {
-          return;
-        }
-        token.reason = new Cancel(message);
-        resolvePromise(token.reason);
-      });
-    }
-    CancelToken.prototype.throwIfRequested = function throwIfRequested() {
-      if (this.reason) {
-        throw this.reason;
-      }
-    };
-    CancelToken.prototype.subscribe = function subscribe(listener) {
-      if (this.reason) {
-        listener(this.reason);
-        return;
-      }
-      if (this._listeners) {
-        this._listeners.push(listener);
-      } else {
-        this._listeners = [listener];
-      }
-    };
-    CancelToken.prototype.unsubscribe = function unsubscribe(listener) {
-      if (!this._listeners) {
-        return;
-      }
-      var index = this._listeners.indexOf(listener);
-      if (index !== -1) {
-        this._listeners.splice(index, 1);
-      }
-    };
-    CancelToken.source = function source() {
-      var cancel;
-      var token = new CancelToken(function executor(c2) {
-        cancel = c2;
-      });
-      return {
-        token,
-        cancel
-      };
-    };
-    module2.exports = CancelToken;
-  }
-});
-
-// node_modules/axios/lib/helpers/spread.js
-var require_spread = __commonJS({
-  "node_modules/axios/lib/helpers/spread.js"(exports, module2) {
-    "use strict";
-    module2.exports = function spread(callback) {
-      return function wrap(arr) {
-        return callback.apply(null, arr);
-      };
-    };
-  }
-});
-
-// node_modules/axios/lib/helpers/isAxiosError.js
-var require_isAxiosError = __commonJS({
-  "node_modules/axios/lib/helpers/isAxiosError.js"(exports, module2) {
-    "use strict";
-    var utils = require_utils();
-    module2.exports = function isAxiosError(payload) {
-      return utils.isObject(payload) && payload.isAxiosError === true;
-    };
-  }
-});
-
-// node_modules/axios/lib/axios.js
-var require_axios = __commonJS({
-  "node_modules/axios/lib/axios.js"(exports, module2) {
-    "use strict";
-    var utils = require_utils();
-    var bind = require_bind();
-    var Axios = require_Axios();
-    var mergeConfig = require_mergeConfig();
-    var defaults = require_defaults();
-    function createInstance(defaultConfig) {
-      var context = new Axios(defaultConfig);
-      var instance = bind(Axios.prototype.request, context);
-      utils.extend(instance, Axios.prototype, context);
-      utils.extend(instance, context);
-      instance.create = function create(instanceConfig) {
-        return createInstance(mergeConfig(defaultConfig, instanceConfig));
-      };
-      return instance;
-    }
-    var axios = createInstance(defaults);
-    axios.Axios = Axios;
-    axios.Cancel = require_Cancel();
-    axios.CancelToken = require_CancelToken();
-    axios.isCancel = require_isCancel();
-    axios.VERSION = require_data().version;
-    axios.all = function all(promises) {
-      return Promise.all(promises);
-    };
-    axios.spread = require_spread();
-    axios.isAxiosError = require_isAxiosError();
-    module2.exports = axios;
-    module2.exports.default = axios;
-  }
-});
-
-// node_modules/axios/index.js
-var require_axios2 = __commonJS({
-  "node_modules/axios/index.js"(exports, module2) {
-    module2.exports = require_axios();
-  }
-});
-
-// node_modules/openai/dist/base.js
-var require_base = __commonJS({
-  "node_modules/openai/dist/base.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.RequiredError = exports.BaseAPI = exports.COLLECTION_FORMATS = exports.BASE_PATH = void 0;
-    var axios_1 = require_axios2();
-    exports.BASE_PATH = "https://api.openai.com/v1".replace(/\/+$/, "");
-    exports.COLLECTION_FORMATS = {
-      csv: ",",
-      ssv: " ",
-      tsv: "	",
-      pipes: "|"
-    };
-    var BaseAPI = class {
-      constructor(configuration, basePath = exports.BASE_PATH, axios = axios_1.default) {
-        this.basePath = basePath;
-        this.axios = axios;
-        if (configuration) {
-          this.configuration = configuration;
-          this.basePath = configuration.basePath || this.basePath;
-        }
-      }
-    };
-    exports.BaseAPI = BaseAPI;
-    var RequiredError = class extends Error {
-      constructor(field, msg) {
-        super(msg);
-        this.field = field;
-        this.name = "RequiredError";
-      }
-    };
-    exports.RequiredError = RequiredError;
-  }
-});
-
-// node_modules/openai/dist/common.js
-var require_common = __commonJS({
-  "node_modules/openai/dist/common.js"(exports) {
-    "use strict";
-    var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P2, generator) {
-      function adopt(value) {
-        return value instanceof P2 ? value : new P2(function(resolve) {
-          resolve(value);
-        });
-      }
-      return new (P2 || (P2 = Promise))(function(resolve, reject) {
-        function fulfilled(value) {
-          try {
-            step(generator.next(value));
-          } catch (e) {
-            reject(e);
-          }
-        }
-        function rejected(value) {
-          try {
-            step(generator["throw"](value));
-          } catch (e) {
-            reject(e);
-          }
-        }
-        function step(result) {
-          result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);
-        }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-      });
-    };
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.createRequestFunction = exports.toPathString = exports.serializeDataIfNeeded = exports.setSearchParams = exports.setOAuthToObject = exports.setBearerAuthToObject = exports.setBasicAuthToObject = exports.setApiKeyToObject = exports.assertParamExists = exports.DUMMY_BASE_URL = void 0;
-    var base_1 = require_base();
-    exports.DUMMY_BASE_URL = "https://example.com";
-    exports.assertParamExists = function(functionName, paramName, paramValue) {
-      if (paramValue === null || paramValue === void 0) {
-        throw new base_1.RequiredError(paramName, `Required parameter ${paramName} was null or undefined when calling ${functionName}.`);
-      }
-    };
-    exports.setApiKeyToObject = function(object, keyParamName, configuration) {
-      return __awaiter(this, void 0, void 0, function* () {
-        if (configuration && configuration.apiKey) {
-          const localVarApiKeyValue = typeof configuration.apiKey === "function" ? yield configuration.apiKey(keyParamName) : yield configuration.apiKey;
-          object[keyParamName] = localVarApiKeyValue;
-        }
-      });
-    };
-    exports.setBasicAuthToObject = function(object, configuration) {
-      if (configuration && (configuration.username || configuration.password)) {
-        object["auth"] = { username: configuration.username, password: configuration.password };
-      }
-    };
-    exports.setBearerAuthToObject = function(object, configuration) {
-      return __awaiter(this, void 0, void 0, function* () {
-        if (configuration && configuration.accessToken) {
-          const accessToken = typeof configuration.accessToken === "function" ? yield configuration.accessToken() : yield configuration.accessToken;
-          object["Authorization"] = "Bearer " + accessToken;
-        }
-      });
-    };
-    exports.setOAuthToObject = function(object, name, scopes, configuration) {
-      return __awaiter(this, void 0, void 0, function* () {
-        if (configuration && configuration.accessToken) {
-          const localVarAccessTokenValue = typeof configuration.accessToken === "function" ? yield configuration.accessToken(name, scopes) : yield configuration.accessToken;
-          object["Authorization"] = "Bearer " + localVarAccessTokenValue;
-        }
-      });
-    };
-    function setFlattenedQueryParams(urlSearchParams, parameter, key = "") {
-      if (parameter == null)
-        return;
-      if (typeof parameter === "object") {
-        if (Array.isArray(parameter)) {
-          parameter.forEach((item) => setFlattenedQueryParams(urlSearchParams, item, key));
-        } else {
-          Object.keys(parameter).forEach((currentKey) => setFlattenedQueryParams(urlSearchParams, parameter[currentKey], `${key}${key !== "" ? "." : ""}${currentKey}`));
-        }
-      } else {
-        if (urlSearchParams.has(key)) {
-          urlSearchParams.append(key, parameter);
-        } else {
-          urlSearchParams.set(key, parameter);
-        }
-      }
-    }
-    exports.setSearchParams = function(url, ...objects) {
-      const searchParams = new URLSearchParams(url.search);
-      setFlattenedQueryParams(searchParams, objects);
-      url.search = searchParams.toString();
-    };
-    exports.serializeDataIfNeeded = function(value, requestOptions, configuration) {
-      const nonString = typeof value !== "string";
-      const needsSerialization = nonString && configuration && configuration.isJsonMime ? configuration.isJsonMime(requestOptions.headers["Content-Type"]) : nonString;
-      return needsSerialization ? JSON.stringify(value !== void 0 ? value : {}) : value || "";
-    };
-    exports.toPathString = function(url) {
-      return url.pathname + url.search + url.hash;
-    };
-    exports.createRequestFunction = function(axiosArgs, globalAxios, BASE_PATH, configuration) {
-      return (axios = globalAxios, basePath = BASE_PATH) => {
-        const axiosRequestArgs = Object.assign(Object.assign({}, axiosArgs.options), { url: ((configuration === null || configuration === void 0 ? void 0 : configuration.basePath) || basePath) + axiosArgs.url });
-        return axios.request(axiosRequestArgs);
-      };
-    };
-  }
-});
-
-// node_modules/openai/dist/api.js
-var require_api = __commonJS({
-  "node_modules/openai/dist/api.js"(exports) {
-    "use strict";
-    var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P2, generator) {
-      function adopt(value) {
-        return value instanceof P2 ? value : new P2(function(resolve) {
-          resolve(value);
-        });
-      }
-      return new (P2 || (P2 = Promise))(function(resolve, reject) {
-        function fulfilled(value) {
-          try {
-            step(generator.next(value));
-          } catch (e) {
-            reject(e);
-          }
-        }
-        function rejected(value) {
-          try {
-            step(generator["throw"](value));
-          } catch (e) {
-            reject(e);
-          }
-        }
-        function step(result) {
-          result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);
-        }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-      });
-    };
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.OpenAIApi = exports.OpenAIApiFactory = exports.OpenAIApiFp = exports.OpenAIApiAxiosParamCreator = exports.CreateImageRequestResponseFormatEnum = exports.CreateImageRequestSizeEnum = exports.ChatCompletionResponseMessageRoleEnum = exports.ChatCompletionRequestMessageRoleEnum = void 0;
-    var axios_1 = require_axios2();
-    var common_1 = require_common();
-    var base_1 = require_base();
-    exports.ChatCompletionRequestMessageRoleEnum = {
-      System: "system",
-      User: "user",
-      Assistant: "assistant"
-    };
-    exports.ChatCompletionResponseMessageRoleEnum = {
-      System: "system",
-      User: "user",
-      Assistant: "assistant"
-    };
-    exports.CreateImageRequestSizeEnum = {
-      _256x256: "256x256",
-      _512x512: "512x512",
-      _1024x1024: "1024x1024"
-    };
-    exports.CreateImageRequestResponseFormatEnum = {
-      Url: "url",
-      B64Json: "b64_json"
-    };
-    exports.OpenAIApiAxiosParamCreator = function(configuration) {
-      return {
-        /**
-         *
-         * @summary Immediately cancel a fine-tune job.
-         * @param {string} fineTuneId The ID of the fine-tune job to cancel
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        cancelFineTune: (fineTuneId, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("cancelFineTune", "fineTuneId", fineTuneId);
-          const localVarPath = `/fine-tunes/{fine_tune_id}/cancel`.replace(`{${"fine_tune_id"}}`, encodeURIComponent(String(fineTuneId)));
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Answers the specified question using the provided documents and examples.  The endpoint first [searches](/docs/api-reference/searches) over provided documents or files to find relevant context. The relevant context is combined with the provided examples and question to create the prompt for [completion](/docs/api-reference/completions).
-         * @param {CreateAnswerRequest} createAnswerRequest
-         * @param {*} [options] Override http request option.
-         * @deprecated
-         * @throws {RequiredError}
-         */
-        createAnswer: (createAnswerRequest, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("createAnswer", "createAnswerRequest", createAnswerRequest);
-          const localVarPath = `/answers`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          localVarHeaderParameter["Content-Type"] = "application/json";
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          localVarRequestOptions.data = common_1.serializeDataIfNeeded(createAnswerRequest, localVarRequestOptions, configuration);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Creates a completion for the chat message
-         * @param {CreateChatCompletionRequest} createChatCompletionRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createChatCompletion: (createChatCompletionRequest, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("createChatCompletion", "createChatCompletionRequest", createChatCompletionRequest);
-          const localVarPath = `/chat/completions`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          localVarHeaderParameter["Content-Type"] = "application/json";
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          localVarRequestOptions.data = common_1.serializeDataIfNeeded(createChatCompletionRequest, localVarRequestOptions, configuration);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Classifies the specified `query` using provided examples.  The endpoint first [searches](/docs/api-reference/searches) over the labeled examples to select the ones most relevant for the particular query. Then, the relevant examples are combined with the query to construct a prompt to produce the final label via the [completions](/docs/api-reference/completions) endpoint.  Labeled examples can be provided via an uploaded `file`, or explicitly listed in the request using the `examples` parameter for quick tests and small scale use cases.
-         * @param {CreateClassificationRequest} createClassificationRequest
-         * @param {*} [options] Override http request option.
-         * @deprecated
-         * @throws {RequiredError}
-         */
-        createClassification: (createClassificationRequest, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("createClassification", "createClassificationRequest", createClassificationRequest);
-          const localVarPath = `/classifications`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          localVarHeaderParameter["Content-Type"] = "application/json";
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          localVarRequestOptions.data = common_1.serializeDataIfNeeded(createClassificationRequest, localVarRequestOptions, configuration);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Creates a completion for the provided prompt and parameters
-         * @param {CreateCompletionRequest} createCompletionRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createCompletion: (createCompletionRequest, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("createCompletion", "createCompletionRequest", createCompletionRequest);
-          const localVarPath = `/completions`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          localVarHeaderParameter["Content-Type"] = "application/json";
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          localVarRequestOptions.data = common_1.serializeDataIfNeeded(createCompletionRequest, localVarRequestOptions, configuration);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Creates a new edit for the provided input, instruction, and parameters.
-         * @param {CreateEditRequest} createEditRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createEdit: (createEditRequest, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("createEdit", "createEditRequest", createEditRequest);
-          const localVarPath = `/edits`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          localVarHeaderParameter["Content-Type"] = "application/json";
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          localVarRequestOptions.data = common_1.serializeDataIfNeeded(createEditRequest, localVarRequestOptions, configuration);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Creates an embedding vector representing the input text.
-         * @param {CreateEmbeddingRequest} createEmbeddingRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createEmbedding: (createEmbeddingRequest, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("createEmbedding", "createEmbeddingRequest", createEmbeddingRequest);
-          const localVarPath = `/embeddings`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          localVarHeaderParameter["Content-Type"] = "application/json";
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          localVarRequestOptions.data = common_1.serializeDataIfNeeded(createEmbeddingRequest, localVarRequestOptions, configuration);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Upload a file that contains document(s) to be used across various endpoints/features. Currently, the size of all the files uploaded by one organization can be up to 1 GB. Please contact us if you need to increase the storage limit.
-         * @param {File} file Name of the [JSON Lines](https://jsonlines.readthedocs.io/en/latest/) file to be uploaded.  If the &#x60;purpose&#x60; is set to \\\&quot;fine-tune\\\&quot;, each line is a JSON record with \\\&quot;prompt\\\&quot; and \\\&quot;completion\\\&quot; fields representing your [training examples](/docs/guides/fine-tuning/prepare-training-data).
-         * @param {string} purpose The intended purpose of the uploaded documents.  Use \\\&quot;fine-tune\\\&quot; for [Fine-tuning](/docs/api-reference/fine-tunes). This allows us to validate the format of the uploaded file.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createFile: (file, purpose, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("createFile", "file", file);
-          common_1.assertParamExists("createFile", "purpose", purpose);
-          const localVarPath = `/files`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          const localVarFormParams = new (configuration && configuration.formDataCtor || FormData)();
-          if (file !== void 0) {
-            localVarFormParams.append("file", file);
-          }
-          if (purpose !== void 0) {
-            localVarFormParams.append("purpose", purpose);
-          }
-          localVarHeaderParameter["Content-Type"] = "multipart/form-data";
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), localVarFormParams.getHeaders()), headersFromBaseOptions), options.headers);
-          localVarRequestOptions.data = localVarFormParams;
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Creates a job that fine-tunes a specified model from a given dataset.  Response includes details of the enqueued job including job status and the name of the fine-tuned models once complete.  [Learn more about Fine-tuning](/docs/guides/fine-tuning)
-         * @param {CreateFineTuneRequest} createFineTuneRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createFineTune: (createFineTuneRequest, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("createFineTune", "createFineTuneRequest", createFineTuneRequest);
-          const localVarPath = `/fine-tunes`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          localVarHeaderParameter["Content-Type"] = "application/json";
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          localVarRequestOptions.data = common_1.serializeDataIfNeeded(createFineTuneRequest, localVarRequestOptions, configuration);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Creates an image given a prompt.
-         * @param {CreateImageRequest} createImageRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createImage: (createImageRequest, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("createImage", "createImageRequest", createImageRequest);
-          const localVarPath = `/images/generations`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          localVarHeaderParameter["Content-Type"] = "application/json";
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          localVarRequestOptions.data = common_1.serializeDataIfNeeded(createImageRequest, localVarRequestOptions, configuration);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Creates an edited or extended image given an original image and a prompt.
-         * @param {File} image The image to edit. Must be a valid PNG file, less than 4MB, and square. If mask is not provided, image must have transparency, which will be used as the mask.
-         * @param {string} prompt A text description of the desired image(s). The maximum length is 1000 characters.
-         * @param {File} [mask] An additional image whose fully transparent areas (e.g. where alpha is zero) indicate where &#x60;image&#x60; should be edited. Must be a valid PNG file, less than 4MB, and have the same dimensions as &#x60;image&#x60;.
-         * @param {number} [n] The number of images to generate. Must be between 1 and 10.
-         * @param {string} [size] The size of the generated images. Must be one of &#x60;256x256&#x60;, &#x60;512x512&#x60;, or &#x60;1024x1024&#x60;.
-         * @param {string} [responseFormat] The format in which the generated images are returned. Must be one of &#x60;url&#x60; or &#x60;b64_json&#x60;.
-         * @param {string} [user] A unique identifier representing your end-user, which can help OpenAI to monitor and detect abuse. [Learn more](/docs/guides/safety-best-practices/end-user-ids).
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createImageEdit: (image, prompt, mask, n, size, responseFormat, user, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("createImageEdit", "image", image);
-          common_1.assertParamExists("createImageEdit", "prompt", prompt);
-          const localVarPath = `/images/edits`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          const localVarFormParams = new (configuration && configuration.formDataCtor || FormData)();
-          if (image !== void 0) {
-            localVarFormParams.append("image", image);
-          }
-          if (mask !== void 0) {
-            localVarFormParams.append("mask", mask);
-          }
-          if (prompt !== void 0) {
-            localVarFormParams.append("prompt", prompt);
-          }
-          if (n !== void 0) {
-            localVarFormParams.append("n", n);
-          }
-          if (size !== void 0) {
-            localVarFormParams.append("size", size);
-          }
-          if (responseFormat !== void 0) {
-            localVarFormParams.append("response_format", responseFormat);
-          }
-          if (user !== void 0) {
-            localVarFormParams.append("user", user);
-          }
-          localVarHeaderParameter["Content-Type"] = "multipart/form-data";
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), localVarFormParams.getHeaders()), headersFromBaseOptions), options.headers);
-          localVarRequestOptions.data = localVarFormParams;
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Creates a variation of a given image.
-         * @param {File} image The image to use as the basis for the variation(s). Must be a valid PNG file, less than 4MB, and square.
-         * @param {number} [n] The number of images to generate. Must be between 1 and 10.
-         * @param {string} [size] The size of the generated images. Must be one of &#x60;256x256&#x60;, &#x60;512x512&#x60;, or &#x60;1024x1024&#x60;.
-         * @param {string} [responseFormat] The format in which the generated images are returned. Must be one of &#x60;url&#x60; or &#x60;b64_json&#x60;.
-         * @param {string} [user] A unique identifier representing your end-user, which can help OpenAI to monitor and detect abuse. [Learn more](/docs/guides/safety-best-practices/end-user-ids).
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createImageVariation: (image, n, size, responseFormat, user, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("createImageVariation", "image", image);
-          const localVarPath = `/images/variations`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          const localVarFormParams = new (configuration && configuration.formDataCtor || FormData)();
-          if (image !== void 0) {
-            localVarFormParams.append("image", image);
-          }
-          if (n !== void 0) {
-            localVarFormParams.append("n", n);
-          }
-          if (size !== void 0) {
-            localVarFormParams.append("size", size);
-          }
-          if (responseFormat !== void 0) {
-            localVarFormParams.append("response_format", responseFormat);
-          }
-          if (user !== void 0) {
-            localVarFormParams.append("user", user);
-          }
-          localVarHeaderParameter["Content-Type"] = "multipart/form-data";
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), localVarFormParams.getHeaders()), headersFromBaseOptions), options.headers);
-          localVarRequestOptions.data = localVarFormParams;
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Classifies if text violates OpenAI\'s Content Policy
-         * @param {CreateModerationRequest} createModerationRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createModeration: (createModerationRequest, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("createModeration", "createModerationRequest", createModerationRequest);
-          const localVarPath = `/moderations`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          localVarHeaderParameter["Content-Type"] = "application/json";
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          localVarRequestOptions.data = common_1.serializeDataIfNeeded(createModerationRequest, localVarRequestOptions, configuration);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary The search endpoint computes similarity scores between provided query and documents. Documents can be passed directly to the API if there are no more than 200 of them.  To go beyond the 200 document limit, documents can be processed offline and then used for efficient retrieval at query time. When `file` is set, the search endpoint searches over all the documents in the given file and returns up to the `max_rerank` number of documents. These documents will be returned along with their search scores.  The similarity score is a positive score that usually ranges from 0 to 300 (but can sometimes go higher), where a score above 200 usually means the document is semantically similar to the query.
-         * @param {string} engineId The ID of the engine to use for this request.  You can select one of &#x60;ada&#x60;, &#x60;babbage&#x60;, &#x60;curie&#x60;, or &#x60;davinci&#x60;.
-         * @param {CreateSearchRequest} createSearchRequest
-         * @param {*} [options] Override http request option.
-         * @deprecated
-         * @throws {RequiredError}
-         */
-        createSearch: (engineId, createSearchRequest, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("createSearch", "engineId", engineId);
-          common_1.assertParamExists("createSearch", "createSearchRequest", createSearchRequest);
-          const localVarPath = `/engines/{engine_id}/search`.replace(`{${"engine_id"}}`, encodeURIComponent(String(engineId)));
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          localVarHeaderParameter["Content-Type"] = "application/json";
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          localVarRequestOptions.data = common_1.serializeDataIfNeeded(createSearchRequest, localVarRequestOptions, configuration);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Transcribes audio into the input language.
-         * @param {File} file The audio file to transcribe, in one of these formats: mp3, mp4, mpeg, mpga, m4a, wav, or webm.
-         * @param {string} model ID of the model to use. Only &#x60;whisper-1&#x60; is currently available.
-         * @param {string} [prompt] An optional text to guide the model\\\&#39;s style or continue a previous audio segment. The [prompt](/docs/guides/speech-to-text/prompting) should match the audio language.
-         * @param {string} [responseFormat] The format of the transcript output, in one of these options: json, text, srt, verbose_json, or vtt.
-         * @param {number} [temperature] The sampling temperature, between 0 and 1. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. If set to 0, the model will use [log probability](https://en.wikipedia.org/wiki/Log_probability) to automatically increase the temperature until certain thresholds are hit.
-         * @param {string} [language] The language of the input audio. Supplying the input language in [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) format will improve accuracy and latency.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createTranscription: (file, model, prompt, responseFormat, temperature, language, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("createTranscription", "file", file);
-          common_1.assertParamExists("createTranscription", "model", model);
-          const localVarPath = `/audio/transcriptions`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          const localVarFormParams = new (configuration && configuration.formDataCtor || FormData)();
-          if (file !== void 0) {
-            localVarFormParams.append("file", file);
-          }
-          if (model !== void 0) {
-            localVarFormParams.append("model", model);
-          }
-          if (prompt !== void 0) {
-            localVarFormParams.append("prompt", prompt);
-          }
-          if (responseFormat !== void 0) {
-            localVarFormParams.append("response_format", responseFormat);
-          }
-          if (temperature !== void 0) {
-            localVarFormParams.append("temperature", temperature);
-          }
-          if (language !== void 0) {
-            localVarFormParams.append("language", language);
-          }
-          localVarHeaderParameter["Content-Type"] = "multipart/form-data";
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), localVarFormParams.getHeaders()), headersFromBaseOptions), options.headers);
-          localVarRequestOptions.data = localVarFormParams;
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Translates audio into into English.
-         * @param {File} file The audio file to translate, in one of these formats: mp3, mp4, mpeg, mpga, m4a, wav, or webm.
-         * @param {string} model ID of the model to use. Only &#x60;whisper-1&#x60; is currently available.
-         * @param {string} [prompt] An optional text to guide the model\\\&#39;s style or continue a previous audio segment. The [prompt](/docs/guides/speech-to-text/prompting) should be in English.
-         * @param {string} [responseFormat] The format of the transcript output, in one of these options: json, text, srt, verbose_json, or vtt.
-         * @param {number} [temperature] The sampling temperature, between 0 and 1. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. If set to 0, the model will use [log probability](https://en.wikipedia.org/wiki/Log_probability) to automatically increase the temperature until certain thresholds are hit.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createTranslation: (file, model, prompt, responseFormat, temperature, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("createTranslation", "file", file);
-          common_1.assertParamExists("createTranslation", "model", model);
-          const localVarPath = `/audio/translations`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "POST" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          const localVarFormParams = new (configuration && configuration.formDataCtor || FormData)();
-          if (file !== void 0) {
-            localVarFormParams.append("file", file);
-          }
-          if (model !== void 0) {
-            localVarFormParams.append("model", model);
-          }
-          if (prompt !== void 0) {
-            localVarFormParams.append("prompt", prompt);
-          }
-          if (responseFormat !== void 0) {
-            localVarFormParams.append("response_format", responseFormat);
-          }
-          if (temperature !== void 0) {
-            localVarFormParams.append("temperature", temperature);
-          }
-          localVarHeaderParameter["Content-Type"] = "multipart/form-data";
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), localVarFormParams.getHeaders()), headersFromBaseOptions), options.headers);
-          localVarRequestOptions.data = localVarFormParams;
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Delete a file.
-         * @param {string} fileId The ID of the file to use for this request
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        deleteFile: (fileId, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("deleteFile", "fileId", fileId);
-          const localVarPath = `/files/{file_id}`.replace(`{${"file_id"}}`, encodeURIComponent(String(fileId)));
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "DELETE" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Delete a fine-tuned model. You must have the Owner role in your organization.
-         * @param {string} model The model to delete
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        deleteModel: (model, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("deleteModel", "model", model);
-          const localVarPath = `/models/{model}`.replace(`{${"model"}}`, encodeURIComponent(String(model)));
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "DELETE" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Returns the contents of the specified file
-         * @param {string} fileId The ID of the file to use for this request
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        downloadFile: (fileId, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("downloadFile", "fileId", fileId);
-          const localVarPath = `/files/{file_id}/content`.replace(`{${"file_id"}}`, encodeURIComponent(String(fileId)));
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "GET" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Lists the currently available (non-finetuned) models, and provides basic information about each one such as the owner and availability.
-         * @param {*} [options] Override http request option.
-         * @deprecated
-         * @throws {RequiredError}
-         */
-        listEngines: (options = {}) => __awaiter(this, void 0, void 0, function* () {
-          const localVarPath = `/engines`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "GET" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Returns a list of files that belong to the user\'s organization.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        listFiles: (options = {}) => __awaiter(this, void 0, void 0, function* () {
-          const localVarPath = `/files`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "GET" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Get fine-grained status updates for a fine-tune job.
-         * @param {string} fineTuneId The ID of the fine-tune job to get events for.
-         * @param {boolean} [stream] Whether to stream events for the fine-tune job. If set to true, events will be sent as data-only [server-sent events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events#Event_stream_format) as they become available. The stream will terminate with a &#x60;data: [DONE]&#x60; message when the job is finished (succeeded, cancelled, or failed).  If set to false, only events generated so far will be returned.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        listFineTuneEvents: (fineTuneId, stream, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("listFineTuneEvents", "fineTuneId", fineTuneId);
-          const localVarPath = `/fine-tunes/{fine_tune_id}/events`.replace(`{${"fine_tune_id"}}`, encodeURIComponent(String(fineTuneId)));
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "GET" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          if (stream !== void 0) {
-            localVarQueryParameter["stream"] = stream;
-          }
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary List your organization\'s fine-tuning jobs
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        listFineTunes: (options = {}) => __awaiter(this, void 0, void 0, function* () {
-          const localVarPath = `/fine-tunes`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "GET" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Lists the currently available models, and provides basic information about each one such as the owner and availability.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        listModels: (options = {}) => __awaiter(this, void 0, void 0, function* () {
-          const localVarPath = `/models`;
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "GET" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Retrieves a model instance, providing basic information about it such as the owner and availability.
-         * @param {string} engineId The ID of the engine to use for this request
-         * @param {*} [options] Override http request option.
-         * @deprecated
-         * @throws {RequiredError}
-         */
-        retrieveEngine: (engineId, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("retrieveEngine", "engineId", engineId);
-          const localVarPath = `/engines/{engine_id}`.replace(`{${"engine_id"}}`, encodeURIComponent(String(engineId)));
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "GET" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Returns information about a specific file.
-         * @param {string} fileId The ID of the file to use for this request
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        retrieveFile: (fileId, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("retrieveFile", "fileId", fileId);
-          const localVarPath = `/files/{file_id}`.replace(`{${"file_id"}}`, encodeURIComponent(String(fileId)));
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "GET" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Gets info about the fine-tune job.  [Learn more about Fine-tuning](/docs/guides/fine-tuning)
-         * @param {string} fineTuneId The ID of the fine-tune job
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        retrieveFineTune: (fineTuneId, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("retrieveFineTune", "fineTuneId", fineTuneId);
-          const localVarPath = `/fine-tunes/{fine_tune_id}`.replace(`{${"fine_tune_id"}}`, encodeURIComponent(String(fineTuneId)));
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "GET" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        }),
-        /**
-         *
-         * @summary Retrieves a model instance, providing basic information about the model such as the owner and permissioning.
-         * @param {string} model The ID of the model to use for this request
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        retrieveModel: (model, options = {}) => __awaiter(this, void 0, void 0, function* () {
-          common_1.assertParamExists("retrieveModel", "model", model);
-          const localVarPath = `/models/{model}`.replace(`{${"model"}}`, encodeURIComponent(String(model)));
-          const localVarUrlObj = new URL(localVarPath, common_1.DUMMY_BASE_URL);
-          let baseOptions;
-          if (configuration) {
-            baseOptions = configuration.baseOptions;
-          }
-          const localVarRequestOptions = Object.assign(Object.assign({ method: "GET" }, baseOptions), options);
-          const localVarHeaderParameter = {};
-          const localVarQueryParameter = {};
-          common_1.setSearchParams(localVarUrlObj, localVarQueryParameter);
-          let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
-          localVarRequestOptions.headers = Object.assign(Object.assign(Object.assign({}, localVarHeaderParameter), headersFromBaseOptions), options.headers);
-          return {
-            url: common_1.toPathString(localVarUrlObj),
-            options: localVarRequestOptions
-          };
-        })
-      };
-    };
-    exports.OpenAIApiFp = function(configuration) {
-      const localVarAxiosParamCreator = exports.OpenAIApiAxiosParamCreator(configuration);
-      return {
-        /**
-         *
-         * @summary Immediately cancel a fine-tune job.
-         * @param {string} fineTuneId The ID of the fine-tune job to cancel
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        cancelFineTune(fineTuneId, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.cancelFineTune(fineTuneId, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Answers the specified question using the provided documents and examples.  The endpoint first [searches](/docs/api-reference/searches) over provided documents or files to find relevant context. The relevant context is combined with the provided examples and question to create the prompt for [completion](/docs/api-reference/completions).
-         * @param {CreateAnswerRequest} createAnswerRequest
-         * @param {*} [options] Override http request option.
-         * @deprecated
-         * @throws {RequiredError}
-         */
-        createAnswer(createAnswerRequest, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.createAnswer(createAnswerRequest, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Creates a completion for the chat message
-         * @param {CreateChatCompletionRequest} createChatCompletionRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createChatCompletion(createChatCompletionRequest, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.createChatCompletion(createChatCompletionRequest, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Classifies the specified `query` using provided examples.  The endpoint first [searches](/docs/api-reference/searches) over the labeled examples to select the ones most relevant for the particular query. Then, the relevant examples are combined with the query to construct a prompt to produce the final label via the [completions](/docs/api-reference/completions) endpoint.  Labeled examples can be provided via an uploaded `file`, or explicitly listed in the request using the `examples` parameter for quick tests and small scale use cases.
-         * @param {CreateClassificationRequest} createClassificationRequest
-         * @param {*} [options] Override http request option.
-         * @deprecated
-         * @throws {RequiredError}
-         */
-        createClassification(createClassificationRequest, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.createClassification(createClassificationRequest, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Creates a completion for the provided prompt and parameters
-         * @param {CreateCompletionRequest} createCompletionRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createCompletion(createCompletionRequest, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.createCompletion(createCompletionRequest, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Creates a new edit for the provided input, instruction, and parameters.
-         * @param {CreateEditRequest} createEditRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createEdit(createEditRequest, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.createEdit(createEditRequest, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Creates an embedding vector representing the input text.
-         * @param {CreateEmbeddingRequest} createEmbeddingRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createEmbedding(createEmbeddingRequest, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.createEmbedding(createEmbeddingRequest, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Upload a file that contains document(s) to be used across various endpoints/features. Currently, the size of all the files uploaded by one organization can be up to 1 GB. Please contact us if you need to increase the storage limit.
-         * @param {File} file Name of the [JSON Lines](https://jsonlines.readthedocs.io/en/latest/) file to be uploaded.  If the &#x60;purpose&#x60; is set to \\\&quot;fine-tune\\\&quot;, each line is a JSON record with \\\&quot;prompt\\\&quot; and \\\&quot;completion\\\&quot; fields representing your [training examples](/docs/guides/fine-tuning/prepare-training-data).
-         * @param {string} purpose The intended purpose of the uploaded documents.  Use \\\&quot;fine-tune\\\&quot; for [Fine-tuning](/docs/api-reference/fine-tunes). This allows us to validate the format of the uploaded file.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createFile(file, purpose, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.createFile(file, purpose, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Creates a job that fine-tunes a specified model from a given dataset.  Response includes details of the enqueued job including job status and the name of the fine-tuned models once complete.  [Learn more about Fine-tuning](/docs/guides/fine-tuning)
-         * @param {CreateFineTuneRequest} createFineTuneRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createFineTune(createFineTuneRequest, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.createFineTune(createFineTuneRequest, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Creates an image given a prompt.
-         * @param {CreateImageRequest} createImageRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createImage(createImageRequest, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.createImage(createImageRequest, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Creates an edited or extended image given an original image and a prompt.
-         * @param {File} image The image to edit. Must be a valid PNG file, less than 4MB, and square. If mask is not provided, image must have transparency, which will be used as the mask.
-         * @param {string} prompt A text description of the desired image(s). The maximum length is 1000 characters.
-         * @param {File} [mask] An additional image whose fully transparent areas (e.g. where alpha is zero) indicate where &#x60;image&#x60; should be edited. Must be a valid PNG file, less than 4MB, and have the same dimensions as &#x60;image&#x60;.
-         * @param {number} [n] The number of images to generate. Must be between 1 and 10.
-         * @param {string} [size] The size of the generated images. Must be one of &#x60;256x256&#x60;, &#x60;512x512&#x60;, or &#x60;1024x1024&#x60;.
-         * @param {string} [responseFormat] The format in which the generated images are returned. Must be one of &#x60;url&#x60; or &#x60;b64_json&#x60;.
-         * @param {string} [user] A unique identifier representing your end-user, which can help OpenAI to monitor and detect abuse. [Learn more](/docs/guides/safety-best-practices/end-user-ids).
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createImageEdit(image, prompt, mask, n, size, responseFormat, user, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.createImageEdit(image, prompt, mask, n, size, responseFormat, user, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Creates a variation of a given image.
-         * @param {File} image The image to use as the basis for the variation(s). Must be a valid PNG file, less than 4MB, and square.
-         * @param {number} [n] The number of images to generate. Must be between 1 and 10.
-         * @param {string} [size] The size of the generated images. Must be one of &#x60;256x256&#x60;, &#x60;512x512&#x60;, or &#x60;1024x1024&#x60;.
-         * @param {string} [responseFormat] The format in which the generated images are returned. Must be one of &#x60;url&#x60; or &#x60;b64_json&#x60;.
-         * @param {string} [user] A unique identifier representing your end-user, which can help OpenAI to monitor and detect abuse. [Learn more](/docs/guides/safety-best-practices/end-user-ids).
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createImageVariation(image, n, size, responseFormat, user, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.createImageVariation(image, n, size, responseFormat, user, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Classifies if text violates OpenAI\'s Content Policy
-         * @param {CreateModerationRequest} createModerationRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createModeration(createModerationRequest, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.createModeration(createModerationRequest, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary The search endpoint computes similarity scores between provided query and documents. Documents can be passed directly to the API if there are no more than 200 of them.  To go beyond the 200 document limit, documents can be processed offline and then used for efficient retrieval at query time. When `file` is set, the search endpoint searches over all the documents in the given file and returns up to the `max_rerank` number of documents. These documents will be returned along with their search scores.  The similarity score is a positive score that usually ranges from 0 to 300 (but can sometimes go higher), where a score above 200 usually means the document is semantically similar to the query.
-         * @param {string} engineId The ID of the engine to use for this request.  You can select one of &#x60;ada&#x60;, &#x60;babbage&#x60;, &#x60;curie&#x60;, or &#x60;davinci&#x60;.
-         * @param {CreateSearchRequest} createSearchRequest
-         * @param {*} [options] Override http request option.
-         * @deprecated
-         * @throws {RequiredError}
-         */
-        createSearch(engineId, createSearchRequest, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.createSearch(engineId, createSearchRequest, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Transcribes audio into the input language.
-         * @param {File} file The audio file to transcribe, in one of these formats: mp3, mp4, mpeg, mpga, m4a, wav, or webm.
-         * @param {string} model ID of the model to use. Only &#x60;whisper-1&#x60; is currently available.
-         * @param {string} [prompt] An optional text to guide the model\\\&#39;s style or continue a previous audio segment. The [prompt](/docs/guides/speech-to-text/prompting) should match the audio language.
-         * @param {string} [responseFormat] The format of the transcript output, in one of these options: json, text, srt, verbose_json, or vtt.
-         * @param {number} [temperature] The sampling temperature, between 0 and 1. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. If set to 0, the model will use [log probability](https://en.wikipedia.org/wiki/Log_probability) to automatically increase the temperature until certain thresholds are hit.
-         * @param {string} [language] The language of the input audio. Supplying the input language in [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) format will improve accuracy and latency.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createTranscription(file, model, prompt, responseFormat, temperature, language, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.createTranscription(file, model, prompt, responseFormat, temperature, language, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Translates audio into into English.
-         * @param {File} file The audio file to translate, in one of these formats: mp3, mp4, mpeg, mpga, m4a, wav, or webm.
-         * @param {string} model ID of the model to use. Only &#x60;whisper-1&#x60; is currently available.
-         * @param {string} [prompt] An optional text to guide the model\\\&#39;s style or continue a previous audio segment. The [prompt](/docs/guides/speech-to-text/prompting) should be in English.
-         * @param {string} [responseFormat] The format of the transcript output, in one of these options: json, text, srt, verbose_json, or vtt.
-         * @param {number} [temperature] The sampling temperature, between 0 and 1. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. If set to 0, the model will use [log probability](https://en.wikipedia.org/wiki/Log_probability) to automatically increase the temperature until certain thresholds are hit.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createTranslation(file, model, prompt, responseFormat, temperature, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.createTranslation(file, model, prompt, responseFormat, temperature, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Delete a file.
-         * @param {string} fileId The ID of the file to use for this request
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        deleteFile(fileId, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.deleteFile(fileId, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Delete a fine-tuned model. You must have the Owner role in your organization.
-         * @param {string} model The model to delete
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        deleteModel(model, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.deleteModel(model, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Returns the contents of the specified file
-         * @param {string} fileId The ID of the file to use for this request
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        downloadFile(fileId, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.downloadFile(fileId, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Lists the currently available (non-finetuned) models, and provides basic information about each one such as the owner and availability.
-         * @param {*} [options] Override http request option.
-         * @deprecated
-         * @throws {RequiredError}
-         */
-        listEngines(options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.listEngines(options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Returns a list of files that belong to the user\'s organization.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        listFiles(options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.listFiles(options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Get fine-grained status updates for a fine-tune job.
-         * @param {string} fineTuneId The ID of the fine-tune job to get events for.
-         * @param {boolean} [stream] Whether to stream events for the fine-tune job. If set to true, events will be sent as data-only [server-sent events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events#Event_stream_format) as they become available. The stream will terminate with a &#x60;data: [DONE]&#x60; message when the job is finished (succeeded, cancelled, or failed).  If set to false, only events generated so far will be returned.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        listFineTuneEvents(fineTuneId, stream, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.listFineTuneEvents(fineTuneId, stream, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary List your organization\'s fine-tuning jobs
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        listFineTunes(options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.listFineTunes(options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Lists the currently available models, and provides basic information about each one such as the owner and availability.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        listModels(options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.listModels(options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Retrieves a model instance, providing basic information about it such as the owner and availability.
-         * @param {string} engineId The ID of the engine to use for this request
-         * @param {*} [options] Override http request option.
-         * @deprecated
-         * @throws {RequiredError}
-         */
-        retrieveEngine(engineId, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.retrieveEngine(engineId, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Returns information about a specific file.
-         * @param {string} fileId The ID of the file to use for this request
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        retrieveFile(fileId, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.retrieveFile(fileId, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Gets info about the fine-tune job.  [Learn more about Fine-tuning](/docs/guides/fine-tuning)
-         * @param {string} fineTuneId The ID of the fine-tune job
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        retrieveFineTune(fineTuneId, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.retrieveFineTune(fineTuneId, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        },
-        /**
-         *
-         * @summary Retrieves a model instance, providing basic information about the model such as the owner and permissioning.
-         * @param {string} model The ID of the model to use for this request
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        retrieveModel(model, options) {
-          return __awaiter(this, void 0, void 0, function* () {
-            const localVarAxiosArgs = yield localVarAxiosParamCreator.retrieveModel(model, options);
-            return common_1.createRequestFunction(localVarAxiosArgs, axios_1.default, base_1.BASE_PATH, configuration);
-          });
-        }
-      };
-    };
-    exports.OpenAIApiFactory = function(configuration, basePath, axios) {
-      const localVarFp = exports.OpenAIApiFp(configuration);
-      return {
-        /**
-         *
-         * @summary Immediately cancel a fine-tune job.
-         * @param {string} fineTuneId The ID of the fine-tune job to cancel
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        cancelFineTune(fineTuneId, options) {
-          return localVarFp.cancelFineTune(fineTuneId, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Answers the specified question using the provided documents and examples.  The endpoint first [searches](/docs/api-reference/searches) over provided documents or files to find relevant context. The relevant context is combined with the provided examples and question to create the prompt for [completion](/docs/api-reference/completions).
-         * @param {CreateAnswerRequest} createAnswerRequest
-         * @param {*} [options] Override http request option.
-         * @deprecated
-         * @throws {RequiredError}
-         */
-        createAnswer(createAnswerRequest, options) {
-          return localVarFp.createAnswer(createAnswerRequest, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Creates a completion for the chat message
-         * @param {CreateChatCompletionRequest} createChatCompletionRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createChatCompletion(createChatCompletionRequest, options) {
-          return localVarFp.createChatCompletion(createChatCompletionRequest, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Classifies the specified `query` using provided examples.  The endpoint first [searches](/docs/api-reference/searches) over the labeled examples to select the ones most relevant for the particular query. Then, the relevant examples are combined with the query to construct a prompt to produce the final label via the [completions](/docs/api-reference/completions) endpoint.  Labeled examples can be provided via an uploaded `file`, or explicitly listed in the request using the `examples` parameter for quick tests and small scale use cases.
-         * @param {CreateClassificationRequest} createClassificationRequest
-         * @param {*} [options] Override http request option.
-         * @deprecated
-         * @throws {RequiredError}
-         */
-        createClassification(createClassificationRequest, options) {
-          return localVarFp.createClassification(createClassificationRequest, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Creates a completion for the provided prompt and parameters
-         * @param {CreateCompletionRequest} createCompletionRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createCompletion(createCompletionRequest, options) {
-          return localVarFp.createCompletion(createCompletionRequest, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Creates a new edit for the provided input, instruction, and parameters.
-         * @param {CreateEditRequest} createEditRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createEdit(createEditRequest, options) {
-          return localVarFp.createEdit(createEditRequest, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Creates an embedding vector representing the input text.
-         * @param {CreateEmbeddingRequest} createEmbeddingRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createEmbedding(createEmbeddingRequest, options) {
-          return localVarFp.createEmbedding(createEmbeddingRequest, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Upload a file that contains document(s) to be used across various endpoints/features. Currently, the size of all the files uploaded by one organization can be up to 1 GB. Please contact us if you need to increase the storage limit.
-         * @param {File} file Name of the [JSON Lines](https://jsonlines.readthedocs.io/en/latest/) file to be uploaded.  If the &#x60;purpose&#x60; is set to \\\&quot;fine-tune\\\&quot;, each line is a JSON record with \\\&quot;prompt\\\&quot; and \\\&quot;completion\\\&quot; fields representing your [training examples](/docs/guides/fine-tuning/prepare-training-data).
-         * @param {string} purpose The intended purpose of the uploaded documents.  Use \\\&quot;fine-tune\\\&quot; for [Fine-tuning](/docs/api-reference/fine-tunes). This allows us to validate the format of the uploaded file.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createFile(file, purpose, options) {
-          return localVarFp.createFile(file, purpose, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Creates a job that fine-tunes a specified model from a given dataset.  Response includes details of the enqueued job including job status and the name of the fine-tuned models once complete.  [Learn more about Fine-tuning](/docs/guides/fine-tuning)
-         * @param {CreateFineTuneRequest} createFineTuneRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createFineTune(createFineTuneRequest, options) {
-          return localVarFp.createFineTune(createFineTuneRequest, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Creates an image given a prompt.
-         * @param {CreateImageRequest} createImageRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createImage(createImageRequest, options) {
-          return localVarFp.createImage(createImageRequest, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Creates an edited or extended image given an original image and a prompt.
-         * @param {File} image The image to edit. Must be a valid PNG file, less than 4MB, and square. If mask is not provided, image must have transparency, which will be used as the mask.
-         * @param {string} prompt A text description of the desired image(s). The maximum length is 1000 characters.
-         * @param {File} [mask] An additional image whose fully transparent areas (e.g. where alpha is zero) indicate where &#x60;image&#x60; should be edited. Must be a valid PNG file, less than 4MB, and have the same dimensions as &#x60;image&#x60;.
-         * @param {number} [n] The number of images to generate. Must be between 1 and 10.
-         * @param {string} [size] The size of the generated images. Must be one of &#x60;256x256&#x60;, &#x60;512x512&#x60;, or &#x60;1024x1024&#x60;.
-         * @param {string} [responseFormat] The format in which the generated images are returned. Must be one of &#x60;url&#x60; or &#x60;b64_json&#x60;.
-         * @param {string} [user] A unique identifier representing your end-user, which can help OpenAI to monitor and detect abuse. [Learn more](/docs/guides/safety-best-practices/end-user-ids).
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createImageEdit(image, prompt, mask, n, size, responseFormat, user, options) {
-          return localVarFp.createImageEdit(image, prompt, mask, n, size, responseFormat, user, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Creates a variation of a given image.
-         * @param {File} image The image to use as the basis for the variation(s). Must be a valid PNG file, less than 4MB, and square.
-         * @param {number} [n] The number of images to generate. Must be between 1 and 10.
-         * @param {string} [size] The size of the generated images. Must be one of &#x60;256x256&#x60;, &#x60;512x512&#x60;, or &#x60;1024x1024&#x60;.
-         * @param {string} [responseFormat] The format in which the generated images are returned. Must be one of &#x60;url&#x60; or &#x60;b64_json&#x60;.
-         * @param {string} [user] A unique identifier representing your end-user, which can help OpenAI to monitor and detect abuse. [Learn more](/docs/guides/safety-best-practices/end-user-ids).
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createImageVariation(image, n, size, responseFormat, user, options) {
-          return localVarFp.createImageVariation(image, n, size, responseFormat, user, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Classifies if text violates OpenAI\'s Content Policy
-         * @param {CreateModerationRequest} createModerationRequest
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createModeration(createModerationRequest, options) {
-          return localVarFp.createModeration(createModerationRequest, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary The search endpoint computes similarity scores between provided query and documents. Documents can be passed directly to the API if there are no more than 200 of them.  To go beyond the 200 document limit, documents can be processed offline and then used for efficient retrieval at query time. When `file` is set, the search endpoint searches over all the documents in the given file and returns up to the `max_rerank` number of documents. These documents will be returned along with their search scores.  The similarity score is a positive score that usually ranges from 0 to 300 (but can sometimes go higher), where a score above 200 usually means the document is semantically similar to the query.
-         * @param {string} engineId The ID of the engine to use for this request.  You can select one of &#x60;ada&#x60;, &#x60;babbage&#x60;, &#x60;curie&#x60;, or &#x60;davinci&#x60;.
-         * @param {CreateSearchRequest} createSearchRequest
-         * @param {*} [options] Override http request option.
-         * @deprecated
-         * @throws {RequiredError}
-         */
-        createSearch(engineId, createSearchRequest, options) {
-          return localVarFp.createSearch(engineId, createSearchRequest, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Transcribes audio into the input language.
-         * @param {File} file The audio file to transcribe, in one of these formats: mp3, mp4, mpeg, mpga, m4a, wav, or webm.
-         * @param {string} model ID of the model to use. Only &#x60;whisper-1&#x60; is currently available.
-         * @param {string} [prompt] An optional text to guide the model\\\&#39;s style or continue a previous audio segment. The [prompt](/docs/guides/speech-to-text/prompting) should match the audio language.
-         * @param {string} [responseFormat] The format of the transcript output, in one of these options: json, text, srt, verbose_json, or vtt.
-         * @param {number} [temperature] The sampling temperature, between 0 and 1. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. If set to 0, the model will use [log probability](https://en.wikipedia.org/wiki/Log_probability) to automatically increase the temperature until certain thresholds are hit.
-         * @param {string} [language] The language of the input audio. Supplying the input language in [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) format will improve accuracy and latency.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createTranscription(file, model, prompt, responseFormat, temperature, language, options) {
-          return localVarFp.createTranscription(file, model, prompt, responseFormat, temperature, language, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Translates audio into into English.
-         * @param {File} file The audio file to translate, in one of these formats: mp3, mp4, mpeg, mpga, m4a, wav, or webm.
-         * @param {string} model ID of the model to use. Only &#x60;whisper-1&#x60; is currently available.
-         * @param {string} [prompt] An optional text to guide the model\\\&#39;s style or continue a previous audio segment. The [prompt](/docs/guides/speech-to-text/prompting) should be in English.
-         * @param {string} [responseFormat] The format of the transcript output, in one of these options: json, text, srt, verbose_json, or vtt.
-         * @param {number} [temperature] The sampling temperature, between 0 and 1. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. If set to 0, the model will use [log probability](https://en.wikipedia.org/wiki/Log_probability) to automatically increase the temperature until certain thresholds are hit.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        createTranslation(file, model, prompt, responseFormat, temperature, options) {
-          return localVarFp.createTranslation(file, model, prompt, responseFormat, temperature, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Delete a file.
-         * @param {string} fileId The ID of the file to use for this request
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        deleteFile(fileId, options) {
-          return localVarFp.deleteFile(fileId, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Delete a fine-tuned model. You must have the Owner role in your organization.
-         * @param {string} model The model to delete
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        deleteModel(model, options) {
-          return localVarFp.deleteModel(model, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Returns the contents of the specified file
-         * @param {string} fileId The ID of the file to use for this request
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        downloadFile(fileId, options) {
-          return localVarFp.downloadFile(fileId, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Lists the currently available (non-finetuned) models, and provides basic information about each one such as the owner and availability.
-         * @param {*} [options] Override http request option.
-         * @deprecated
-         * @throws {RequiredError}
-         */
-        listEngines(options) {
-          return localVarFp.listEngines(options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Returns a list of files that belong to the user\'s organization.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        listFiles(options) {
-          return localVarFp.listFiles(options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Get fine-grained status updates for a fine-tune job.
-         * @param {string} fineTuneId The ID of the fine-tune job to get events for.
-         * @param {boolean} [stream] Whether to stream events for the fine-tune job. If set to true, events will be sent as data-only [server-sent events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events#Event_stream_format) as they become available. The stream will terminate with a &#x60;data: [DONE]&#x60; message when the job is finished (succeeded, cancelled, or failed).  If set to false, only events generated so far will be returned.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        listFineTuneEvents(fineTuneId, stream, options) {
-          return localVarFp.listFineTuneEvents(fineTuneId, stream, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary List your organization\'s fine-tuning jobs
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        listFineTunes(options) {
-          return localVarFp.listFineTunes(options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Lists the currently available models, and provides basic information about each one such as the owner and availability.
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        listModels(options) {
-          return localVarFp.listModels(options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Retrieves a model instance, providing basic information about it such as the owner and availability.
-         * @param {string} engineId The ID of the engine to use for this request
-         * @param {*} [options] Override http request option.
-         * @deprecated
-         * @throws {RequiredError}
-         */
-        retrieveEngine(engineId, options) {
-          return localVarFp.retrieveEngine(engineId, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Returns information about a specific file.
-         * @param {string} fileId The ID of the file to use for this request
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        retrieveFile(fileId, options) {
-          return localVarFp.retrieveFile(fileId, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Gets info about the fine-tune job.  [Learn more about Fine-tuning](/docs/guides/fine-tuning)
-         * @param {string} fineTuneId The ID of the fine-tune job
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        retrieveFineTune(fineTuneId, options) {
-          return localVarFp.retrieveFineTune(fineTuneId, options).then((request) => request(axios, basePath));
-        },
-        /**
-         *
-         * @summary Retrieves a model instance, providing basic information about the model such as the owner and permissioning.
-         * @param {string} model The ID of the model to use for this request
-         * @param {*} [options] Override http request option.
-         * @throws {RequiredError}
-         */
-        retrieveModel(model, options) {
-          return localVarFp.retrieveModel(model, options).then((request) => request(axios, basePath));
-        }
-      };
-    };
-    var OpenAIApi3 = class extends base_1.BaseAPI {
-      /**
-       *
-       * @summary Immediately cancel a fine-tune job.
-       * @param {string} fineTuneId The ID of the fine-tune job to cancel
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      cancelFineTune(fineTuneId, options) {
-        return exports.OpenAIApiFp(this.configuration).cancelFineTune(fineTuneId, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Answers the specified question using the provided documents and examples.  The endpoint first [searches](/docs/api-reference/searches) over provided documents or files to find relevant context. The relevant context is combined with the provided examples and question to create the prompt for [completion](/docs/api-reference/completions).
-       * @param {CreateAnswerRequest} createAnswerRequest
-       * @param {*} [options] Override http request option.
-       * @deprecated
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      createAnswer(createAnswerRequest, options) {
-        return exports.OpenAIApiFp(this.configuration).createAnswer(createAnswerRequest, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Creates a completion for the chat message
-       * @param {CreateChatCompletionRequest} createChatCompletionRequest
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      createChatCompletion(createChatCompletionRequest, options) {
-        return exports.OpenAIApiFp(this.configuration).createChatCompletion(createChatCompletionRequest, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Classifies the specified `query` using provided examples.  The endpoint first [searches](/docs/api-reference/searches) over the labeled examples to select the ones most relevant for the particular query. Then, the relevant examples are combined with the query to construct a prompt to produce the final label via the [completions](/docs/api-reference/completions) endpoint.  Labeled examples can be provided via an uploaded `file`, or explicitly listed in the request using the `examples` parameter for quick tests and small scale use cases.
-       * @param {CreateClassificationRequest} createClassificationRequest
-       * @param {*} [options] Override http request option.
-       * @deprecated
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      createClassification(createClassificationRequest, options) {
-        return exports.OpenAIApiFp(this.configuration).createClassification(createClassificationRequest, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Creates a completion for the provided prompt and parameters
-       * @param {CreateCompletionRequest} createCompletionRequest
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      createCompletion(createCompletionRequest, options) {
-        return exports.OpenAIApiFp(this.configuration).createCompletion(createCompletionRequest, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Creates a new edit for the provided input, instruction, and parameters.
-       * @param {CreateEditRequest} createEditRequest
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      createEdit(createEditRequest, options) {
-        return exports.OpenAIApiFp(this.configuration).createEdit(createEditRequest, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Creates an embedding vector representing the input text.
-       * @param {CreateEmbeddingRequest} createEmbeddingRequest
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      createEmbedding(createEmbeddingRequest, options) {
-        return exports.OpenAIApiFp(this.configuration).createEmbedding(createEmbeddingRequest, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Upload a file that contains document(s) to be used across various endpoints/features. Currently, the size of all the files uploaded by one organization can be up to 1 GB. Please contact us if you need to increase the storage limit.
-       * @param {File} file Name of the [JSON Lines](https://jsonlines.readthedocs.io/en/latest/) file to be uploaded.  If the &#x60;purpose&#x60; is set to \\\&quot;fine-tune\\\&quot;, each line is a JSON record with \\\&quot;prompt\\\&quot; and \\\&quot;completion\\\&quot; fields representing your [training examples](/docs/guides/fine-tuning/prepare-training-data).
-       * @param {string} purpose The intended purpose of the uploaded documents.  Use \\\&quot;fine-tune\\\&quot; for [Fine-tuning](/docs/api-reference/fine-tunes). This allows us to validate the format of the uploaded file.
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      createFile(file, purpose, options) {
-        return exports.OpenAIApiFp(this.configuration).createFile(file, purpose, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Creates a job that fine-tunes a specified model from a given dataset.  Response includes details of the enqueued job including job status and the name of the fine-tuned models once complete.  [Learn more about Fine-tuning](/docs/guides/fine-tuning)
-       * @param {CreateFineTuneRequest} createFineTuneRequest
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      createFineTune(createFineTuneRequest, options) {
-        return exports.OpenAIApiFp(this.configuration).createFineTune(createFineTuneRequest, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Creates an image given a prompt.
-       * @param {CreateImageRequest} createImageRequest
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      createImage(createImageRequest, options) {
-        return exports.OpenAIApiFp(this.configuration).createImage(createImageRequest, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Creates an edited or extended image given an original image and a prompt.
-       * @param {File} image The image to edit. Must be a valid PNG file, less than 4MB, and square. If mask is not provided, image must have transparency, which will be used as the mask.
-       * @param {string} prompt A text description of the desired image(s). The maximum length is 1000 characters.
-       * @param {File} [mask] An additional image whose fully transparent areas (e.g. where alpha is zero) indicate where &#x60;image&#x60; should be edited. Must be a valid PNG file, less than 4MB, and have the same dimensions as &#x60;image&#x60;.
-       * @param {number} [n] The number of images to generate. Must be between 1 and 10.
-       * @param {string} [size] The size of the generated images. Must be one of &#x60;256x256&#x60;, &#x60;512x512&#x60;, or &#x60;1024x1024&#x60;.
-       * @param {string} [responseFormat] The format in which the generated images are returned. Must be one of &#x60;url&#x60; or &#x60;b64_json&#x60;.
-       * @param {string} [user] A unique identifier representing your end-user, which can help OpenAI to monitor and detect abuse. [Learn more](/docs/guides/safety-best-practices/end-user-ids).
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      createImageEdit(image, prompt, mask, n, size, responseFormat, user, options) {
-        return exports.OpenAIApiFp(this.configuration).createImageEdit(image, prompt, mask, n, size, responseFormat, user, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Creates a variation of a given image.
-       * @param {File} image The image to use as the basis for the variation(s). Must be a valid PNG file, less than 4MB, and square.
-       * @param {number} [n] The number of images to generate. Must be between 1 and 10.
-       * @param {string} [size] The size of the generated images. Must be one of &#x60;256x256&#x60;, &#x60;512x512&#x60;, or &#x60;1024x1024&#x60;.
-       * @param {string} [responseFormat] The format in which the generated images are returned. Must be one of &#x60;url&#x60; or &#x60;b64_json&#x60;.
-       * @param {string} [user] A unique identifier representing your end-user, which can help OpenAI to monitor and detect abuse. [Learn more](/docs/guides/safety-best-practices/end-user-ids).
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      createImageVariation(image, n, size, responseFormat, user, options) {
-        return exports.OpenAIApiFp(this.configuration).createImageVariation(image, n, size, responseFormat, user, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Classifies if text violates OpenAI\'s Content Policy
-       * @param {CreateModerationRequest} createModerationRequest
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      createModeration(createModerationRequest, options) {
-        return exports.OpenAIApiFp(this.configuration).createModeration(createModerationRequest, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary The search endpoint computes similarity scores between provided query and documents. Documents can be passed directly to the API if there are no more than 200 of them.  To go beyond the 200 document limit, documents can be processed offline and then used for efficient retrieval at query time. When `file` is set, the search endpoint searches over all the documents in the given file and returns up to the `max_rerank` number of documents. These documents will be returned along with their search scores.  The similarity score is a positive score that usually ranges from 0 to 300 (but can sometimes go higher), where a score above 200 usually means the document is semantically similar to the query.
-       * @param {string} engineId The ID of the engine to use for this request.  You can select one of &#x60;ada&#x60;, &#x60;babbage&#x60;, &#x60;curie&#x60;, or &#x60;davinci&#x60;.
-       * @param {CreateSearchRequest} createSearchRequest
-       * @param {*} [options] Override http request option.
-       * @deprecated
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      createSearch(engineId, createSearchRequest, options) {
-        return exports.OpenAIApiFp(this.configuration).createSearch(engineId, createSearchRequest, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Transcribes audio into the input language.
-       * @param {File} file The audio file to transcribe, in one of these formats: mp3, mp4, mpeg, mpga, m4a, wav, or webm.
-       * @param {string} model ID of the model to use. Only &#x60;whisper-1&#x60; is currently available.
-       * @param {string} [prompt] An optional text to guide the model\\\&#39;s style or continue a previous audio segment. The [prompt](/docs/guides/speech-to-text/prompting) should match the audio language.
-       * @param {string} [responseFormat] The format of the transcript output, in one of these options: json, text, srt, verbose_json, or vtt.
-       * @param {number} [temperature] The sampling temperature, between 0 and 1. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. If set to 0, the model will use [log probability](https://en.wikipedia.org/wiki/Log_probability) to automatically increase the temperature until certain thresholds are hit.
-       * @param {string} [language] The language of the input audio. Supplying the input language in [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) format will improve accuracy and latency.
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      createTranscription(file, model, prompt, responseFormat, temperature, language, options) {
-        return exports.OpenAIApiFp(this.configuration).createTranscription(file, model, prompt, responseFormat, temperature, language, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Translates audio into into English.
-       * @param {File} file The audio file to translate, in one of these formats: mp3, mp4, mpeg, mpga, m4a, wav, or webm.
-       * @param {string} model ID of the model to use. Only &#x60;whisper-1&#x60; is currently available.
-       * @param {string} [prompt] An optional text to guide the model\\\&#39;s style or continue a previous audio segment. The [prompt](/docs/guides/speech-to-text/prompting) should be in English.
-       * @param {string} [responseFormat] The format of the transcript output, in one of these options: json, text, srt, verbose_json, or vtt.
-       * @param {number} [temperature] The sampling temperature, between 0 and 1. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. If set to 0, the model will use [log probability](https://en.wikipedia.org/wiki/Log_probability) to automatically increase the temperature until certain thresholds are hit.
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      createTranslation(file, model, prompt, responseFormat, temperature, options) {
-        return exports.OpenAIApiFp(this.configuration).createTranslation(file, model, prompt, responseFormat, temperature, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Delete a file.
-       * @param {string} fileId The ID of the file to use for this request
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      deleteFile(fileId, options) {
-        return exports.OpenAIApiFp(this.configuration).deleteFile(fileId, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Delete a fine-tuned model. You must have the Owner role in your organization.
-       * @param {string} model The model to delete
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      deleteModel(model, options) {
-        return exports.OpenAIApiFp(this.configuration).deleteModel(model, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Returns the contents of the specified file
-       * @param {string} fileId The ID of the file to use for this request
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      downloadFile(fileId, options) {
-        return exports.OpenAIApiFp(this.configuration).downloadFile(fileId, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Lists the currently available (non-finetuned) models, and provides basic information about each one such as the owner and availability.
-       * @param {*} [options] Override http request option.
-       * @deprecated
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      listEngines(options) {
-        return exports.OpenAIApiFp(this.configuration).listEngines(options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Returns a list of files that belong to the user\'s organization.
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      listFiles(options) {
-        return exports.OpenAIApiFp(this.configuration).listFiles(options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Get fine-grained status updates for a fine-tune job.
-       * @param {string} fineTuneId The ID of the fine-tune job to get events for.
-       * @param {boolean} [stream] Whether to stream events for the fine-tune job. If set to true, events will be sent as data-only [server-sent events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events#Event_stream_format) as they become available. The stream will terminate with a &#x60;data: [DONE]&#x60; message when the job is finished (succeeded, cancelled, or failed).  If set to false, only events generated so far will be returned.
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      listFineTuneEvents(fineTuneId, stream, options) {
-        return exports.OpenAIApiFp(this.configuration).listFineTuneEvents(fineTuneId, stream, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary List your organization\'s fine-tuning jobs
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      listFineTunes(options) {
-        return exports.OpenAIApiFp(this.configuration).listFineTunes(options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Lists the currently available models, and provides basic information about each one such as the owner and availability.
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      listModels(options) {
-        return exports.OpenAIApiFp(this.configuration).listModels(options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Retrieves a model instance, providing basic information about it such as the owner and availability.
-       * @param {string} engineId The ID of the engine to use for this request
-       * @param {*} [options] Override http request option.
-       * @deprecated
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      retrieveEngine(engineId, options) {
-        return exports.OpenAIApiFp(this.configuration).retrieveEngine(engineId, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Returns information about a specific file.
-       * @param {string} fileId The ID of the file to use for this request
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      retrieveFile(fileId, options) {
-        return exports.OpenAIApiFp(this.configuration).retrieveFile(fileId, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Gets info about the fine-tune job.  [Learn more about Fine-tuning](/docs/guides/fine-tuning)
-       * @param {string} fineTuneId The ID of the fine-tune job
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      retrieveFineTune(fineTuneId, options) {
-        return exports.OpenAIApiFp(this.configuration).retrieveFineTune(fineTuneId, options).then((request) => request(this.axios, this.basePath));
-      }
-      /**
-       *
-       * @summary Retrieves a model instance, providing basic information about the model such as the owner and permissioning.
-       * @param {string} model The ID of the model to use for this request
-       * @param {*} [options] Override http request option.
-       * @throws {RequiredError}
-       * @memberof OpenAIApi
-       */
-      retrieveModel(model, options) {
-        return exports.OpenAIApiFp(this.configuration).retrieveModel(model, options).then((request) => request(this.axios, this.basePath));
-      }
-    };
-    exports.OpenAIApi = OpenAIApi3;
-  }
-});
-
-// node_modules/openai/package.json
-var require_package = __commonJS({
-  "node_modules/openai/package.json"(exports, module2) {
-    module2.exports = {
-      name: "openai",
-      version: "3.2.1",
-      description: "Node.js library for the OpenAI API",
-      repository: {
-        type: "git",
-        url: "git@github.com:openai/openai-node.git"
-      },
-      keywords: [
-        "openai",
-        "open",
-        "ai",
-        "gpt-3",
-        "gpt3"
-      ],
-      author: "OpenAI",
-      license: "MIT",
-      main: "./dist/index.js",
-      types: "./dist/index.d.ts",
-      scripts: {
-        build: "tsc --outDir dist/"
-      },
-      dependencies: {
-        axios: "^0.26.0",
-        "form-data": "^4.0.0"
-      },
-      devDependencies: {
-        "@types/node": "^12.11.5",
-        typescript: "^3.6.4"
-      }
-    };
-  }
-});
-
-// node_modules/form-data/lib/browser.js
-var require_browser = __commonJS({
-  "node_modules/form-data/lib/browser.js"(exports, module2) {
-    module2.exports = typeof self == "object" ? self.FormData : window.FormData;
-  }
-});
-
-// node_modules/openai/dist/configuration.js
-var require_configuration = __commonJS({
-  "node_modules/openai/dist/configuration.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Configuration = void 0;
-    var packageJson = require_package();
-    var Configuration3 = class {
-      constructor(param = {}) {
-        this.apiKey = param.apiKey;
-        this.organization = param.organization;
-        this.username = param.username;
-        this.password = param.password;
-        this.accessToken = param.accessToken;
-        this.basePath = param.basePath;
-        this.baseOptions = param.baseOptions;
-        this.formDataCtor = param.formDataCtor;
-        if (!this.baseOptions) {
-          this.baseOptions = {};
-        }
-        this.baseOptions.headers = Object.assign({ "User-Agent": `OpenAI/NodeJS/${packageJson.version}`, "Authorization": `Bearer ${this.apiKey}` }, this.baseOptions.headers);
-        if (this.organization) {
-          this.baseOptions.headers["OpenAI-Organization"] = this.organization;
-        }
-        if (!this.formDataCtor) {
-          this.formDataCtor = require_browser();
-        }
-      }
-      /**
-       * Check if the given MIME is a JSON MIME.
-       * JSON MIME examples:
-       *   application/json
-       *   application/json; charset=UTF8
-       *   APPLICATION/JSON
-       *   application/vnd.company+json
-       * @param mime - MIME (Multipurpose Internet Mail Extensions)
-       * @return True if the given MIME is JSON, false otherwise.
-       */
-      isJsonMime(mime) {
-        const jsonMime = new RegExp("^(application/json|[^;/ 	]+/[^;/ 	]+[+]json)[ 	]*(;.*)?$", "i");
-        return mime !== null && (jsonMime.test(mime) || mime.toLowerCase() === "application/json-patch+json");
-      }
-    };
-    exports.Configuration = Configuration3;
-  }
-});
-
-// node_modules/openai/dist/index.js
-var require_dist = __commonJS({
-  "node_modules/openai/dist/index.js"(exports) {
-    "use strict";
-    var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k2, k22) {
-      if (k22 === void 0)
-        k22 = k2;
-      Object.defineProperty(o, k22, { enumerable: true, get: function() {
-        return m[k2];
-      } });
-    } : function(o, m, k2, k22) {
-      if (k22 === void 0)
-        k22 = k2;
-      o[k22] = m[k2];
-    });
-    var __exportStar = exports && exports.__exportStar || function(m, exports2) {
-      for (var p2 in m)
-        if (p2 !== "default" && !exports2.hasOwnProperty(p2))
-          __createBinding(exports2, m, p2);
-    };
-    Object.defineProperty(exports, "__esModule", { value: true });
-    __exportStar(require_api(), exports);
-    __exportStar(require_configuration(), exports);
-  }
-});
-
 // src/main.tsx
 var main_exports = {};
 __export(main_exports, {
   default: () => Companion
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian2 = require("obsidian");
+var import_obsidian3 = require("obsidian");
 var import_client = __toESM(require_client());
 var import_react6 = __toESM(require_react());
 
@@ -27065,47 +23531,58 @@ var import_view = require("@codemirror/view");
 var import_state = require("@codemirror/state");
 
 // node_modules/codemirror-companion-extension/dist/lib/utils.js
-function d(e, u2, c2 = void 0) {
-  let o = () => {
-  };
-  const r2 = {
+function a(n, i, t = void 0) {
+  const c2 = {
     force: () => {
     }
   };
-  return { debounced: (...n) => (o(), new Promise((t, f2) => {
-    const i = setTimeout(() => t(e(...n)), u2);
-    o = () => {
-      clearTimeout(i), c2 !== void 0 && f2(c2);
-    }, r2.force = () => {
-      clearTimeout(i), t(e(...n));
-    };
-  })), force: () => r2.force() };
+  let e = null;
+  async function* f(...u2) {
+    e && clearTimeout(e);
+    let r2 = null;
+    try {
+      await new Promise((o) => {
+        r2 = e = setTimeout(() => o(), i), c2.force = () => {
+          e && clearTimeout(e), o();
+        };
+      });
+    } catch (e2) {
+      if (t !== void 0)
+        throw t;
+    }
+    for await (const o of n(...u2)) {
+      if (r2 !== e)
+        break;
+      yield o;
+    }
+  }
+  return { debounced: f, force: () => c2.force() };
 }
 
 // node_modules/codemirror-companion-extension/dist/extension.js
-var _ = Object.defineProperty;
-var S = (n, t, e) => t in n ? _(n, t, { enumerable: true, configurable: true, writable: true, value: e }) : n[t] = e;
-var c = (n, t, e) => (S(n, typeof t != "symbol" ? t + "" : t, e), e);
-var u = import_state.StateField.define({
+var F = Object.defineProperty;
+var I = (n, t, e) => t in n ? F(n, t, { enumerable: true, configurable: true, writable: true, value: e }) : n[t] = e;
+var c = (n, t, e) => (I(n, typeof t != "symbol" ? t + "" : t, e), e);
+var r = import_state.StateField.define({
   create() {
     return { suggestion: null };
   },
   update(n, t) {
     const e = t.effects.find(
-      (s) => s.is(f)
+      (s) => s.is(d)
     );
     return t.state.doc && e && (e.value.doc == null || t.state.doc == e.value.doc) ? { suggestion: e.value.suggestion } : { suggestion: null };
   }
 });
-var f = import_state.StateEffect.define();
-function C(n, t) {
+var d = import_state.StateEffect.define();
+function E(n, t) {
   const e = n.state.selection.main.head, s = [], o = import_view.Decoration.widget({
-    widget: new D(t),
+    widget: new P(t),
     side: 1
   });
   return s.push(o.range(e)), import_view.Decoration.set(s);
 }
-var D = class extends import_view.WidgetType {
+var P = class extends import_view.WidgetType {
   constructor(e) {
     super();
     c(this, "suggestion");
@@ -27116,20 +23593,30 @@ var D = class extends import_view.WidgetType {
     return e.style.opacity = "0.4", e.className = "cm-inline-suggestion", e.textContent = this.suggestion, e;
   }
 };
-var g = (n) => import_view.ViewPlugin.fromClass(
-  class {
-    async update(e) {
-      const s = e.state.doc;
-      if (!e.docChanged)
-        return;
-      const o = await n(e.state);
-      e.view.dispatch({
-        effects: f.of({ suggestion: o, doc: s })
-      });
+var g = (n) => {
+  let t = 0;
+  return import_view.ViewPlugin.fromClass(
+    class {
+      async update(s) {
+        const o = s.state.doc;
+        if (!s.docChanged)
+          return;
+        const i = ++t;
+        for await (const a2 of n(s.state)) {
+          if (i != t)
+            return;
+          s.view.dispatch({
+            effects: d.of({
+              suggestion: a2,
+              doc: o
+            })
+          });
+        }
+      }
     }
-  }
-);
-var E = class {
+  );
+};
+var T = class {
   constructor() {
     c(this, "decorations");
     this.decorations = import_view.Decoration.none;
@@ -27137,32 +23624,33 @@ var E = class {
   update(t) {
     var s;
     const e = (s = t.state.field(
-      u
+      r
     )) == null ? void 0 : s.suggestion;
     if (!e) {
       this.decorations = import_view.Decoration.none;
       return;
     }
-    this.decorations = C(
+    this.decorations = E(
       t.view,
       e.display_suggestion
     );
   }
 };
-var a = import_view.ViewPlugin.fromClass(E, {
+var l = import_view.ViewPlugin.fromClass(T, {
   decorations: (n) => n.decorations
 });
-var p = class {
+var _ = class {
   constructor(t, e) {
     c(this, "suggestFn");
     c(this, "keymap");
+    c(this, "completionId");
     c(this, "run", (t2) => {
       var o, i;
       const e2 = (o = t2.state.field(
-        u
+        r
       )) == null ? void 0 : o.suggestion;
       return e2 ? (t2.dispatch({
-        ...I(
+        ...x(
           t2.state,
           e2.complete_suggestion,
           t2.state.selection.main.head,
@@ -27171,17 +23659,21 @@ var p = class {
       }), (i = e2.accept_hook) == null || i.call(e2), (async () => {
         if (this.suggestFn == null)
           return;
-        const l = await this.suggestFn(t2.state);
-        t2.dispatch({
-          effects: f.of({
-            suggestion: {
-              complete_suggestion: l.complete_suggestion,
-              display_suggestion: l.display_suggestion,
-              accept_hook: l.accept_hook
-            },
-            doc: null
-          })
-        });
+        const a2 = ++this.completionId;
+        for await (const f of this.suggestFn(t2.state)) {
+          if (a2 != this.completionId)
+            return;
+          t2.dispatch({
+            effects: d.of({
+              suggestion: {
+                complete_suggestion: f.complete_suggestion,
+                display_suggestion: f.display_suggestion,
+                accept_hook: f.accept_hook
+              },
+              doc: null
+            })
+          });
+        }
       })(), true) : false;
     });
     this.suggestFn = t, this.keymap = import_state.Prec.highest(
@@ -27191,10 +23683,10 @@ var p = class {
           run: (s) => this.run(s)
         }
       ])
-    );
+    ), this.completionId = 0;
   }
 };
-function I(n, t, e, s) {
+function x(n, t, e, s) {
   return {
     ...n.changeByRange((o) => {
       if (o == n.selection.main)
@@ -27211,36 +23703,38 @@ function I(n, t, e, s) {
     userEvent: "input.complete"
   };
 }
-function T(n) {
+function p(n) {
   return typeof n == "string" ? {
     complete_suggestion: n,
     display_suggestion: n
   } : n;
 }
-function y(n) {
-  return async (t) => {
+function S(n) {
+  return async function* (t) {
     const e = await n(t);
-    return T(e);
+    if (typeof e == "string" || "complete_suggestion" in e) {
+      yield p(e);
+      return;
+    }
+    for await (const s of e)
+      yield p(s);
   };
 }
-function M(n) {
-  const { delay: t = 500, accept_shortcut: e = "Tab" } = n, s = y(n.fetchFn), { debounced: o, force: i } = d(
-    s,
-    t
-  );
+function K(n) {
+  const { delay: t = 500, accept_shortcut: e = "Tab" } = n, s = S(n.fetchFn), { debounced: o, force: i } = a(s, t);
   return {
     extension: e ? [
-      u,
+      r,
       g(o),
-      a,
-      new p(
+      l,
+      new _(
         n.continue_suggesting ? s : null,
         e
       ).keymap
     ] : [
-      u,
+      r,
       g(o),
-      a
+      l
     ],
     force_fetch: i
   };
@@ -27251,6 +23745,7 @@ var React11 = __toESM(require_react());
 
 // src/complete/completers/openai/openai.tsx
 var import_react = __toESM(require_react());
+var import_obsidian = require("obsidian");
 
 // src/complete/completers/openai/models.json
 var models_default = [
@@ -27330,8 +23825,3065 @@ function SettingsUI({
   );
 }
 
-// src/complete/completers/openai/openai.tsx
-var import_openai = __toESM(require_dist());
+// node_modules/openai/version.mjs
+var VERSION = "4.17.0";
+
+// node_modules/openai/_shims/registry.mjs
+var auto = false;
+var kind = void 0;
+var fetch2 = void 0;
+var Request2 = void 0;
+var Response2 = void 0;
+var Headers2 = void 0;
+var FormData2 = void 0;
+var Blob2 = void 0;
+var File2 = void 0;
+var ReadableStream2 = void 0;
+var getMultipartRequestOptions = void 0;
+var getDefaultAgent = void 0;
+var fileFromPath = void 0;
+var isFsReadStream = void 0;
+function setShims(shims, options = { auto: false }) {
+  if (auto) {
+    throw new Error(`you must \`import 'openai/shims/${shims.kind}'\` before importing anything else from openai`);
+  }
+  if (kind) {
+    throw new Error(`can't \`import 'openai/shims/${shims.kind}'\` after \`import 'openai/shims/${kind}'\``);
+  }
+  auto = options.auto;
+  kind = shims.kind;
+  fetch2 = shims.fetch;
+  Request2 = shims.Request;
+  Response2 = shims.Response;
+  Headers2 = shims.Headers;
+  FormData2 = shims.FormData;
+  Blob2 = shims.Blob;
+  File2 = shims.File;
+  ReadableStream2 = shims.ReadableStream;
+  getMultipartRequestOptions = shims.getMultipartRequestOptions;
+  getDefaultAgent = shims.getDefaultAgent;
+  fileFromPath = shims.fileFromPath;
+  isFsReadStream = shims.isFsReadStream;
+}
+
+// node_modules/openai/_shims/MultipartBody.mjs
+var MultipartBody = class {
+  constructor(body) {
+    this.body = body;
+  }
+  get [Symbol.toStringTag]() {
+    return "MultipartBody";
+  }
+};
+
+// node_modules/openai/_shims/web-runtime.mjs
+function getRuntime({ manuallyImported } = {}) {
+  const recommendation = manuallyImported ? `You may need to use polyfills` : `Add one of these imports before your first \`import \u2026 from 'openai'\`:
+- \`import 'openai/shims/node'\` (if you're running on Node)
+- \`import 'openai/shims/web'\` (otherwise)
+`;
+  let _fetch, _Request, _Response, _Headers;
+  try {
+    _fetch = fetch;
+    _Request = Request;
+    _Response = Response;
+    _Headers = Headers;
+  } catch (error) {
+    throw new Error(`this environment is missing the following Web Fetch API type: ${error.message}. ${recommendation}`);
+  }
+  return {
+    kind: "web",
+    fetch: _fetch,
+    Request: _Request,
+    Response: _Response,
+    Headers: _Headers,
+    FormData: (
+      // @ts-ignore
+      typeof FormData !== "undefined" ? FormData : class FormData {
+        // @ts-ignore
+        constructor() {
+          throw new Error(`file uploads aren't supported in this environment yet as 'FormData' is undefined. ${recommendation}`);
+        }
+      }
+    ),
+    Blob: typeof Blob !== "undefined" ? Blob : class Blob {
+      constructor() {
+        throw new Error(`file uploads aren't supported in this environment yet as 'Blob' is undefined. ${recommendation}`);
+      }
+    },
+    File: (
+      // @ts-ignore
+      typeof File !== "undefined" ? File : class File {
+        // @ts-ignore
+        constructor() {
+          throw new Error(`file uploads aren't supported in this environment yet as 'File' is undefined. ${recommendation}`);
+        }
+      }
+    ),
+    ReadableStream: (
+      // @ts-ignore
+      typeof ReadableStream !== "undefined" ? ReadableStream : class ReadableStream {
+        // @ts-ignore
+        constructor() {
+          throw new Error(`streaming isn't supported in this environment yet as 'ReadableStream' is undefined. ${recommendation}`);
+        }
+      }
+    ),
+    getMultipartRequestOptions: async (form, opts) => ({
+      ...opts,
+      body: new MultipartBody(form)
+    }),
+    getDefaultAgent: (url) => void 0,
+    fileFromPath: () => {
+      throw new Error("The `fileFromPath` function is only supported in Node. See the README for more details: https://www.github.com/openai/openai-node#file-uploads");
+    },
+    isFsReadStream: (value) => false
+  };
+}
+
+// node_modules/openai/_shims/index.mjs
+if (!kind)
+  setShims(getRuntime(), { auto: true });
+
+// node_modules/openai/error.mjs
+var error_exports = {};
+__export(error_exports, {
+  APIConnectionError: () => APIConnectionError,
+  APIConnectionTimeoutError: () => APIConnectionTimeoutError,
+  APIError: () => APIError,
+  APIUserAbortError: () => APIUserAbortError,
+  AuthenticationError: () => AuthenticationError,
+  BadRequestError: () => BadRequestError,
+  ConflictError: () => ConflictError,
+  InternalServerError: () => InternalServerError,
+  NotFoundError: () => NotFoundError,
+  OpenAIError: () => OpenAIError,
+  PermissionDeniedError: () => PermissionDeniedError,
+  RateLimitError: () => RateLimitError,
+  UnprocessableEntityError: () => UnprocessableEntityError
+});
+var OpenAIError = class extends Error {
+};
+var APIError = class extends OpenAIError {
+  constructor(status, error, message, headers) {
+    super(`${APIError.makeMessage(status, error, message)}`);
+    this.status = status;
+    this.headers = headers;
+    const data = error;
+    this.error = data;
+    this.code = data == null ? void 0 : data["code"];
+    this.param = data == null ? void 0 : data["param"];
+    this.type = data == null ? void 0 : data["type"];
+  }
+  static makeMessage(status, error, message) {
+    const msg = (error == null ? void 0 : error.message) ? typeof error.message === "string" ? error.message : JSON.stringify(error.message) : error ? JSON.stringify(error) : message;
+    if (status && msg) {
+      return `${status} ${msg}`;
+    }
+    if (status) {
+      return `${status} status code (no body)`;
+    }
+    if (msg) {
+      return msg;
+    }
+    return "(no status code or body)";
+  }
+  static generate(status, errorResponse, message, headers) {
+    if (!status) {
+      return new APIConnectionError({ cause: castToError(errorResponse) });
+    }
+    const error = errorResponse == null ? void 0 : errorResponse["error"];
+    if (status === 400) {
+      return new BadRequestError(status, error, message, headers);
+    }
+    if (status === 401) {
+      return new AuthenticationError(status, error, message, headers);
+    }
+    if (status === 403) {
+      return new PermissionDeniedError(status, error, message, headers);
+    }
+    if (status === 404) {
+      return new NotFoundError(status, error, message, headers);
+    }
+    if (status === 409) {
+      return new ConflictError(status, error, message, headers);
+    }
+    if (status === 422) {
+      return new UnprocessableEntityError(status, error, message, headers);
+    }
+    if (status === 429) {
+      return new RateLimitError(status, error, message, headers);
+    }
+    if (status >= 500) {
+      return new InternalServerError(status, error, message, headers);
+    }
+    return new APIError(status, error, message, headers);
+  }
+};
+var APIUserAbortError = class extends APIError {
+  constructor({ message } = {}) {
+    super(void 0, void 0, message || "Request was aborted.", void 0);
+    this.status = void 0;
+  }
+};
+var APIConnectionError = class extends APIError {
+  constructor({ message, cause }) {
+    super(void 0, void 0, message || "Connection error.", void 0);
+    this.status = void 0;
+    if (cause)
+      this.cause = cause;
+  }
+};
+var APIConnectionTimeoutError = class extends APIConnectionError {
+  constructor({ message } = {}) {
+    super({ message: message != null ? message : "Request timed out." });
+  }
+};
+var BadRequestError = class extends APIError {
+  constructor() {
+    super(...arguments);
+    this.status = 400;
+  }
+};
+var AuthenticationError = class extends APIError {
+  constructor() {
+    super(...arguments);
+    this.status = 401;
+  }
+};
+var PermissionDeniedError = class extends APIError {
+  constructor() {
+    super(...arguments);
+    this.status = 403;
+  }
+};
+var NotFoundError = class extends APIError {
+  constructor() {
+    super(...arguments);
+    this.status = 404;
+  }
+};
+var ConflictError = class extends APIError {
+  constructor() {
+    super(...arguments);
+    this.status = 409;
+  }
+};
+var UnprocessableEntityError = class extends APIError {
+  constructor() {
+    super(...arguments);
+    this.status = 422;
+  }
+};
+var RateLimitError = class extends APIError {
+  constructor() {
+    super(...arguments);
+    this.status = 429;
+  }
+};
+var InternalServerError = class extends APIError {
+};
+
+// node_modules/openai/streaming.mjs
+var Stream = class {
+  constructor(iterator, controller) {
+    this.iterator = iterator;
+    this.controller = controller;
+  }
+  static fromSSEResponse(response, controller) {
+    let consumed = false;
+    const decoder = new SSEDecoder();
+    async function* iterMessages() {
+      if (!response.body) {
+        controller.abort();
+        throw new OpenAIError(`Attempted to iterate over a response with no body`);
+      }
+      const lineDecoder = new LineDecoder();
+      const iter = readableStreamAsyncIterable(response.body);
+      for await (const chunk of iter) {
+        for (const line of lineDecoder.decode(chunk)) {
+          const sse = decoder.decode(line);
+          if (sse)
+            yield sse;
+        }
+      }
+      for (const line of lineDecoder.flush()) {
+        const sse = decoder.decode(line);
+        if (sse)
+          yield sse;
+      }
+    }
+    async function* iterator() {
+      if (consumed) {
+        throw new Error("Cannot iterate over a consumed stream, use `.tee()` to split the stream.");
+      }
+      consumed = true;
+      let done = false;
+      try {
+        for await (const sse of iterMessages()) {
+          if (done)
+            continue;
+          if (sse.data.startsWith("[DONE]")) {
+            done = true;
+            continue;
+          }
+          if (sse.event === null) {
+            let data;
+            try {
+              data = JSON.parse(sse.data);
+            } catch (e) {
+              console.error(`Could not parse message into JSON:`, sse.data);
+              console.error(`From chunk:`, sse.raw);
+              throw e;
+            }
+            if (data && data.error) {
+              throw new APIError(void 0, data.error, void 0, void 0);
+            }
+            yield data;
+          }
+        }
+        done = true;
+      } catch (e) {
+        if (e instanceof Error && e.name === "AbortError")
+          return;
+        throw e;
+      } finally {
+        if (!done)
+          controller.abort();
+      }
+    }
+    return new Stream(iterator, controller);
+  }
+  /**
+   * Generates a Stream from a newline-separated ReadableStream
+   * where each item is a JSON value.
+   */
+  static fromReadableStream(readableStream, controller) {
+    let consumed = false;
+    async function* iterLines() {
+      const lineDecoder = new LineDecoder();
+      const iter = readableStreamAsyncIterable(readableStream);
+      for await (const chunk of iter) {
+        for (const line of lineDecoder.decode(chunk)) {
+          yield line;
+        }
+      }
+      for (const line of lineDecoder.flush()) {
+        yield line;
+      }
+    }
+    async function* iterator() {
+      if (consumed) {
+        throw new Error("Cannot iterate over a consumed stream, use `.tee()` to split the stream.");
+      }
+      consumed = true;
+      let done = false;
+      try {
+        for await (const line of iterLines()) {
+          if (done)
+            continue;
+          if (line)
+            yield JSON.parse(line);
+        }
+        done = true;
+      } catch (e) {
+        if (e instanceof Error && e.name === "AbortError")
+          return;
+        throw e;
+      } finally {
+        if (!done)
+          controller.abort();
+      }
+    }
+    return new Stream(iterator, controller);
+  }
+  [Symbol.asyncIterator]() {
+    return this.iterator();
+  }
+  /**
+   * Splits the stream into two streams which can be
+   * independently read from at different speeds.
+   */
+  tee() {
+    const left = [];
+    const right = [];
+    const iterator = this.iterator();
+    const teeIterator = (queue) => {
+      return {
+        next: () => {
+          if (queue.length === 0) {
+            const result = iterator.next();
+            left.push(result);
+            right.push(result);
+          }
+          return queue.shift();
+        }
+      };
+    };
+    return [
+      new Stream(() => teeIterator(left), this.controller),
+      new Stream(() => teeIterator(right), this.controller)
+    ];
+  }
+  /**
+   * Converts this stream to a newline-separated ReadableStream of
+   * JSON stringified values in the stream
+   * which can be turned back into a Stream with `Stream.fromReadableStream()`.
+   */
+  toReadableStream() {
+    const self = this;
+    let iter;
+    const encoder = new TextEncoder();
+    return new ReadableStream2({
+      async start() {
+        iter = self[Symbol.asyncIterator]();
+      },
+      async pull(ctrl) {
+        try {
+          const { value, done } = await iter.next();
+          if (done)
+            return ctrl.close();
+          const bytes = encoder.encode(JSON.stringify(value) + "\n");
+          ctrl.enqueue(bytes);
+        } catch (err) {
+          ctrl.error(err);
+        }
+      },
+      async cancel() {
+        var _a2;
+        await ((_a2 = iter.return) == null ? void 0 : _a2.call(iter));
+      }
+    });
+  }
+};
+var SSEDecoder = class {
+  constructor() {
+    this.event = null;
+    this.data = [];
+    this.chunks = [];
+  }
+  decode(line) {
+    if (line.endsWith("\r")) {
+      line = line.substring(0, line.length - 1);
+    }
+    if (!line) {
+      if (!this.event && !this.data.length)
+        return null;
+      const sse = {
+        event: this.event,
+        data: this.data.join("\n"),
+        raw: this.chunks
+      };
+      this.event = null;
+      this.data = [];
+      this.chunks = [];
+      return sse;
+    }
+    this.chunks.push(line);
+    if (line.startsWith(":")) {
+      return null;
+    }
+    let [fieldname, _2, value] = partition(line, ":");
+    if (value.startsWith(" ")) {
+      value = value.substring(1);
+    }
+    if (fieldname === "event") {
+      this.event = value;
+    } else if (fieldname === "data") {
+      this.data.push(value);
+    }
+    return null;
+  }
+};
+var LineDecoder = class {
+  constructor() {
+    this.buffer = [];
+    this.trailingCR = false;
+  }
+  decode(chunk) {
+    let text = this.decodeText(chunk);
+    if (this.trailingCR) {
+      text = "\r" + text;
+      this.trailingCR = false;
+    }
+    if (text.endsWith("\r")) {
+      this.trailingCR = true;
+      text = text.slice(0, -1);
+    }
+    if (!text) {
+      return [];
+    }
+    const trailingNewline = LineDecoder.NEWLINE_CHARS.has(text[text.length - 1] || "");
+    let lines = text.split(LineDecoder.NEWLINE_REGEXP);
+    if (lines.length === 1 && !trailingNewline) {
+      this.buffer.push(lines[0]);
+      return [];
+    }
+    if (this.buffer.length > 0) {
+      lines = [this.buffer.join("") + lines[0], ...lines.slice(1)];
+      this.buffer = [];
+    }
+    if (!trailingNewline) {
+      this.buffer = [lines.pop() || ""];
+    }
+    return lines;
+  }
+  decodeText(bytes) {
+    var _a2;
+    if (bytes == null)
+      return "";
+    if (typeof bytes === "string")
+      return bytes;
+    if (typeof Buffer !== "undefined") {
+      if (bytes instanceof Buffer) {
+        return bytes.toString();
+      }
+      if (bytes instanceof Uint8Array) {
+        return Buffer.from(bytes).toString();
+      }
+      throw new OpenAIError(`Unexpected: received non-Uint8Array (${bytes.constructor.name}) stream chunk in an environment with a global "Buffer" defined, which this library assumes to be Node. Please report this error.`);
+    }
+    if (typeof TextDecoder !== "undefined") {
+      if (bytes instanceof Uint8Array || bytes instanceof ArrayBuffer) {
+        (_a2 = this.textDecoder) != null ? _a2 : this.textDecoder = new TextDecoder("utf8");
+        return this.textDecoder.decode(bytes);
+      }
+      throw new OpenAIError(`Unexpected: received non-Uint8Array/ArrayBuffer (${bytes.constructor.name}) in a web platform. Please report this error.`);
+    }
+    throw new OpenAIError(`Unexpected: neither Buffer nor TextDecoder are available as globals. Please report this error.`);
+  }
+  flush() {
+    if (!this.buffer.length && !this.trailingCR) {
+      return [];
+    }
+    const lines = [this.buffer.join("")];
+    this.buffer = [];
+    this.trailingCR = false;
+    return lines;
+  }
+};
+LineDecoder.NEWLINE_CHARS = /* @__PURE__ */ new Set(["\n", "\r", "\v", "\f", "", "", "", "\x85", "\u2028", "\u2029"]);
+LineDecoder.NEWLINE_REGEXP = /\r\n|[\n\r\x0b\x0c\x1c\x1d\x1e\x85\u2028\u2029]/g;
+function partition(str2, delimiter) {
+  const index = str2.indexOf(delimiter);
+  if (index !== -1) {
+    return [str2.substring(0, index), delimiter, str2.substring(index + delimiter.length)];
+  }
+  return [str2, "", ""];
+}
+function readableStreamAsyncIterable(stream) {
+  if (stream[Symbol.asyncIterator])
+    return stream;
+  const reader = stream.getReader();
+  return {
+    async next() {
+      try {
+        const result = await reader.read();
+        if (result == null ? void 0 : result.done)
+          reader.releaseLock();
+        return result;
+      } catch (e) {
+        reader.releaseLock();
+        throw e;
+      }
+    },
+    async return() {
+      const cancelPromise = reader.cancel();
+      reader.releaseLock();
+      await cancelPromise;
+      return { done: true, value: void 0 };
+    },
+    [Symbol.asyncIterator]() {
+      return this;
+    }
+  };
+}
+
+// node_modules/openai/uploads.mjs
+var isResponseLike = (value) => value != null && typeof value === "object" && typeof value.url === "string" && typeof value.blob === "function";
+var isFileLike = (value) => value != null && typeof value === "object" && typeof value.name === "string" && typeof value.lastModified === "number" && isBlobLike(value);
+var isBlobLike = (value) => value != null && typeof value === "object" && typeof value.size === "number" && typeof value.type === "string" && typeof value.text === "function" && typeof value.slice === "function" && typeof value.arrayBuffer === "function";
+var isUploadable = (value) => {
+  return isFileLike(value) || isResponseLike(value) || isFsReadStream(value);
+};
+async function toFile(value, name, options = {}) {
+  var _a2, _b, _c;
+  value = await value;
+  if (isResponseLike(value)) {
+    const blob = await value.blob();
+    name || (name = (_a2 = new URL(value.url).pathname.split(/[\\/]/).pop()) != null ? _a2 : "unknown_file");
+    return new File2([blob], name, options);
+  }
+  const bits = await getBytes(value);
+  name || (name = (_b = getName(value)) != null ? _b : "unknown_file");
+  if (!options.type) {
+    const type = (_c = bits[0]) == null ? void 0 : _c.type;
+    if (typeof type === "string") {
+      options = { ...options, type };
+    }
+  }
+  return new File2(bits, name, options);
+}
+async function getBytes(value) {
+  var _a2;
+  let parts = [];
+  if (typeof value === "string" || ArrayBuffer.isView(value) || // includes Uint8Array, Buffer, etc.
+  value instanceof ArrayBuffer) {
+    parts.push(value);
+  } else if (isBlobLike(value)) {
+    parts.push(await value.arrayBuffer());
+  } else if (isAsyncIterableIterator(value)) {
+    for await (const chunk of value) {
+      parts.push(chunk);
+    }
+  } else {
+    throw new Error(`Unexpected data type: ${typeof value}; constructor: ${(_a2 = value == null ? void 0 : value.constructor) == null ? void 0 : _a2.name}; props: ${propsForError(value)}`);
+  }
+  return parts;
+}
+function propsForError(value) {
+  const props = Object.getOwnPropertyNames(value);
+  return `[${props.map((p2) => `"${p2}"`).join(", ")}]`;
+}
+function getName(value) {
+  var _a2;
+  return getStringFromMaybeBuffer(value.name) || getStringFromMaybeBuffer(value.filename) || // For fs.ReadStream
+  ((_a2 = getStringFromMaybeBuffer(value.path)) == null ? void 0 : _a2.split(/[\\/]/).pop());
+}
+var getStringFromMaybeBuffer = (x2) => {
+  if (typeof x2 === "string")
+    return x2;
+  if (typeof Buffer !== "undefined" && x2 instanceof Buffer)
+    return String(x2);
+  return void 0;
+};
+var isAsyncIterableIterator = (value) => value != null && typeof value === "object" && typeof value[Symbol.asyncIterator] === "function";
+var isMultipartBody = (body) => body && typeof body === "object" && body.body && body[Symbol.toStringTag] === "MultipartBody";
+var multipartFormRequestOptions = async (opts) => {
+  const form = await createForm(opts.body);
+  return getMultipartRequestOptions(form, opts);
+};
+var createForm = async (body) => {
+  const form = new FormData2();
+  await Promise.all(Object.entries(body || {}).map(([key, value]) => addFormValue(form, key, value)));
+  return form;
+};
+var addFormValue = async (form, key, value) => {
+  if (value === void 0)
+    return;
+  if (value == null) {
+    throw new TypeError(`Received null for "${key}"; to pass null in FormData, you must use the string 'null'`);
+  }
+  if (typeof value === "string" || typeof value === "number" || typeof value === "boolean") {
+    form.append(key, String(value));
+  } else if (isUploadable(value)) {
+    const file = await toFile(value);
+    form.append(key, file);
+  } else if (Array.isArray(value)) {
+    await Promise.all(value.map((entry) => addFormValue(form, key + "[]", entry)));
+  } else if (typeof value === "object") {
+    await Promise.all(Object.entries(value).map(([name, prop]) => addFormValue(form, `${key}[${name}]`, prop)));
+  } else {
+    throw new TypeError(`Invalid value given to form, expected a string, number, boolean, object, Array, File or Blob but got ${value} instead`);
+  }
+};
+
+// node_modules/openai/core.mjs
+var __classPrivateFieldSet = function(receiver, state, value, kind2, f) {
+  if (kind2 === "m")
+    throw new TypeError("Private method is not writable");
+  if (kind2 === "a" && !f)
+    throw new TypeError("Private accessor was defined without a setter");
+  if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
+    throw new TypeError("Cannot write private member to an object whose class did not declare it");
+  return kind2 === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value), value;
+};
+var __classPrivateFieldGet = function(receiver, state, kind2, f) {
+  if (kind2 === "a" && !f)
+    throw new TypeError("Private accessor was defined without a getter");
+  if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
+    throw new TypeError("Cannot read private member from an object whose class did not declare it");
+  return kind2 === "m" ? f : kind2 === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
+};
+var _AbstractPage_client;
+async function defaultParseResponse(props) {
+  const { response } = props;
+  if (props.options.stream) {
+    debug("response", response.status, response.url, response.headers, response.body);
+    return Stream.fromSSEResponse(response, props.controller);
+  }
+  if (response.status === 204) {
+    return null;
+  }
+  if (props.options.__binaryResponse) {
+    return response;
+  }
+  const contentType = response.headers.get("content-type");
+  if (contentType == null ? void 0 : contentType.includes("application/json")) {
+    const json = await response.json();
+    debug("response", response.status, response.url, response.headers, json);
+    return json;
+  }
+  const text = await response.text();
+  debug("response", response.status, response.url, response.headers, text);
+  return text;
+}
+var APIPromise = class extends Promise {
+  constructor(responsePromise, parseResponse = defaultParseResponse) {
+    super((resolve) => {
+      resolve(null);
+    });
+    this.responsePromise = responsePromise;
+    this.parseResponse = parseResponse;
+  }
+  _thenUnwrap(transform) {
+    return new APIPromise(this.responsePromise, async (props) => transform(await this.parseResponse(props)));
+  }
+  /**
+   * Gets the raw `Response` instance instead of parsing the response
+   * data.
+   *
+   * If you want to parse the response body but still get the `Response`
+   * instance, you can use {@link withResponse()}.
+   *
+   * 👋 Getting the wrong TypeScript type for `Response`?
+   * Try setting `"moduleResolution": "NodeNext"` if you can,
+   * or add one of these imports before your first `import … from 'openai'`:
+   * - `import 'openai/shims/node'` (if you're running on Node)
+   * - `import 'openai/shims/web'` (otherwise)
+   */
+  asResponse() {
+    return this.responsePromise.then((p2) => p2.response);
+  }
+  /**
+   * Gets the parsed response data and the raw `Response` instance.
+   *
+   * If you just want to get the raw `Response` instance without parsing it,
+   * you can use {@link asResponse()}.
+   *
+   *
+   * 👋 Getting the wrong TypeScript type for `Response`?
+   * Try setting `"moduleResolution": "NodeNext"` if you can,
+   * or add one of these imports before your first `import … from 'openai'`:
+   * - `import 'openai/shims/node'` (if you're running on Node)
+   * - `import 'openai/shims/web'` (otherwise)
+   */
+  async withResponse() {
+    const [data, response] = await Promise.all([this.parse(), this.asResponse()]);
+    return { data, response };
+  }
+  parse() {
+    if (!this.parsedPromise) {
+      this.parsedPromise = this.responsePromise.then(this.parseResponse);
+    }
+    return this.parsedPromise;
+  }
+  then(onfulfilled, onrejected) {
+    return this.parse().then(onfulfilled, onrejected);
+  }
+  catch(onrejected) {
+    return this.parse().catch(onrejected);
+  }
+  finally(onfinally) {
+    return this.parse().finally(onfinally);
+  }
+};
+var APIClient = class {
+  constructor({
+    baseURL,
+    maxRetries = 2,
+    timeout = 6e5,
+    // 10 minutes
+    httpAgent,
+    fetch: overridenFetch
+  }) {
+    this.baseURL = baseURL;
+    this.maxRetries = validatePositiveInteger("maxRetries", maxRetries);
+    this.timeout = validatePositiveInteger("timeout", timeout);
+    this.httpAgent = httpAgent;
+    this.fetch = overridenFetch != null ? overridenFetch : fetch2;
+  }
+  authHeaders(opts) {
+    return {};
+  }
+  /**
+   * Override this to add your own default headers, for example:
+   *
+   *  {
+   *    ...super.defaultHeaders(),
+   *    Authorization: 'Bearer 123',
+   *  }
+   */
+  defaultHeaders(opts) {
+    return {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+      "User-Agent": this.getUserAgent(),
+      ...getPlatformHeaders(),
+      ...this.authHeaders(opts)
+    };
+  }
+  /**
+   * Override this to add your own headers validation:
+   */
+  validateHeaders(headers, customHeaders) {
+  }
+  defaultIdempotencyKey() {
+    return `stainless-node-retry-${uuid4()}`;
+  }
+  get(path, opts) {
+    return this.methodRequest("get", path, opts);
+  }
+  post(path, opts) {
+    return this.methodRequest("post", path, opts);
+  }
+  patch(path, opts) {
+    return this.methodRequest("patch", path, opts);
+  }
+  put(path, opts) {
+    return this.methodRequest("put", path, opts);
+  }
+  delete(path, opts) {
+    return this.methodRequest("delete", path, opts);
+  }
+  methodRequest(method, path, opts) {
+    return this.request(Promise.resolve(opts).then((opts2) => ({ method, path, ...opts2 })));
+  }
+  getAPIList(path, Page2, opts) {
+    return this.requestAPIList(Page2, { method: "get", path, ...opts });
+  }
+  calculateContentLength(body) {
+    if (typeof body === "string") {
+      if (typeof Buffer !== "undefined") {
+        return Buffer.byteLength(body, "utf8").toString();
+      }
+      if (typeof TextEncoder !== "undefined") {
+        const encoder = new TextEncoder();
+        const encoded = encoder.encode(body);
+        return encoded.length.toString();
+      }
+    }
+    return null;
+  }
+  buildRequest(options) {
+    var _a2, _b, _c, _d, _e, _f;
+    const { method, path, query, headers = {} } = options;
+    const body = isMultipartBody(options.body) ? options.body.body : options.body ? JSON.stringify(options.body, null, 2) : null;
+    const contentLength = this.calculateContentLength(body);
+    const url = this.buildURL(path, query);
+    if ("timeout" in options)
+      validatePositiveInteger("timeout", options.timeout);
+    const timeout = (_a2 = options.timeout) != null ? _a2 : this.timeout;
+    const httpAgent = (_c = (_b = options.httpAgent) != null ? _b : this.httpAgent) != null ? _c : getDefaultAgent(url);
+    const minAgentTimeout = timeout + 1e3;
+    if (typeof ((_d = httpAgent == null ? void 0 : httpAgent.options) == null ? void 0 : _d.timeout) === "number" && minAgentTimeout > ((_e = httpAgent.options.timeout) != null ? _e : 0)) {
+      httpAgent.options.timeout = minAgentTimeout;
+    }
+    if (this.idempotencyHeader && method !== "get") {
+      if (!options.idempotencyKey)
+        options.idempotencyKey = this.defaultIdempotencyKey();
+      headers[this.idempotencyHeader] = options.idempotencyKey;
+    }
+    const reqHeaders = {
+      ...contentLength && { "Content-Length": contentLength },
+      ...this.defaultHeaders(options),
+      ...headers
+    };
+    if (isMultipartBody(options.body) && kind !== "node") {
+      delete reqHeaders["Content-Type"];
+    }
+    Object.keys(reqHeaders).forEach((key) => reqHeaders[key] === null && delete reqHeaders[key]);
+    const req = {
+      method,
+      ...body && { body },
+      headers: reqHeaders,
+      ...httpAgent && { agent: httpAgent },
+      // @ts-ignore node-fetch uses a custom AbortSignal type that is
+      // not compatible with standard web types
+      signal: (_f = options.signal) != null ? _f : null
+    };
+    this.validateHeaders(reqHeaders, headers);
+    return { req, url, timeout };
+  }
+  /**
+   * Used as a callback for mutating the given `RequestInit` object.
+   *
+   * This is useful for cases where you want to add certain headers based off of
+   * the request properties, e.g. `method` or `url`.
+   */
+  async prepareRequest(request, { url, options }) {
+  }
+  parseHeaders(headers) {
+    return !headers ? {} : Symbol.iterator in headers ? Object.fromEntries(Array.from(headers).map((header) => [...header])) : { ...headers };
+  }
+  makeStatusError(status, error, message, headers) {
+    return APIError.generate(status, error, message, headers);
+  }
+  request(options, remainingRetries = null) {
+    return new APIPromise(this.makeRequest(options, remainingRetries));
+  }
+  async makeRequest(optionsInput, retriesRemaining) {
+    var _a2, _b, _c;
+    const options = await optionsInput;
+    if (retriesRemaining == null) {
+      retriesRemaining = (_a2 = options.maxRetries) != null ? _a2 : this.maxRetries;
+    }
+    const { req, url, timeout } = this.buildRequest(options);
+    await this.prepareRequest(req, { url, options });
+    debug("request", url, options, req.headers);
+    if ((_b = options.signal) == null ? void 0 : _b.aborted) {
+      throw new APIUserAbortError();
+    }
+    const controller = new AbortController();
+    const response = await this.fetchWithTimeout(url, req, timeout, controller).catch(castToError);
+    if (response instanceof Error) {
+      if ((_c = options.signal) == null ? void 0 : _c.aborted) {
+        throw new APIUserAbortError();
+      }
+      if (retriesRemaining) {
+        return this.retryRequest(options, retriesRemaining);
+      }
+      if (response.name === "AbortError") {
+        throw new APIConnectionTimeoutError();
+      }
+      throw new APIConnectionError({ cause: response });
+    }
+    const responseHeaders = createResponseHeaders(response.headers);
+    if (!response.ok) {
+      if (retriesRemaining && this.shouldRetry(response)) {
+        return this.retryRequest(options, retriesRemaining, responseHeaders);
+      }
+      const errText = await response.text().catch((e) => castToError(e).message);
+      const errJSON = safeJSON(errText);
+      const errMessage = errJSON ? void 0 : errText;
+      debug("response", response.status, url, responseHeaders, errMessage);
+      const err = this.makeStatusError(response.status, errJSON, errMessage, responseHeaders);
+      throw err;
+    }
+    return { response, options, controller };
+  }
+  requestAPIList(Page2, options) {
+    const request = this.makeRequest(options, null);
+    return new PagePromise(this, request, Page2);
+  }
+  buildURL(path, query) {
+    const url = isAbsoluteURL(path) ? new URL(path) : new URL(this.baseURL + (this.baseURL.endsWith("/") && path.startsWith("/") ? path.slice(1) : path));
+    const defaultQuery = this.defaultQuery();
+    if (!isEmptyObj(defaultQuery)) {
+      query = { ...defaultQuery, ...query };
+    }
+    if (query) {
+      url.search = this.stringifyQuery(query);
+    }
+    return url.toString();
+  }
+  stringifyQuery(query) {
+    return Object.entries(query).filter(([_2, value]) => typeof value !== "undefined").map(([key, value]) => {
+      if (typeof value === "string" || typeof value === "number" || typeof value === "boolean") {
+        return `${encodeURIComponent(key)}=${encodeURIComponent(value)}`;
+      }
+      if (value === null) {
+        return `${encodeURIComponent(key)}=`;
+      }
+      throw new OpenAIError(`Cannot stringify type ${typeof value}; Expected string, number, boolean, or null. If you need to pass nested query parameters, you can manually encode them, e.g. { query: { 'foo[key1]': value1, 'foo[key2]': value2 } }, and please open a GitHub issue requesting better support for your use case.`);
+    }).join("&");
+  }
+  async fetchWithTimeout(url, init, ms, controller) {
+    const { signal, ...options } = init || {};
+    if (signal)
+      signal.addEventListener("abort", () => controller.abort());
+    const timeout = setTimeout(() => controller.abort(), ms);
+    return this.getRequestClient().fetch.call(void 0, url, { signal: controller.signal, ...options }).finally(() => {
+      clearTimeout(timeout);
+    });
+  }
+  getRequestClient() {
+    return { fetch: this.fetch };
+  }
+  shouldRetry(response) {
+    const shouldRetryHeader = response.headers.get("x-should-retry");
+    if (shouldRetryHeader === "true")
+      return true;
+    if (shouldRetryHeader === "false")
+      return false;
+    if (response.status === 408)
+      return true;
+    if (response.status === 409)
+      return true;
+    if (response.status === 429)
+      return true;
+    if (response.status >= 500)
+      return true;
+    return false;
+  }
+  async retryRequest(options, retriesRemaining, responseHeaders) {
+    var _a2;
+    let timeoutMillis;
+    const retryAfterHeader = responseHeaders == null ? void 0 : responseHeaders["retry-after"];
+    if (retryAfterHeader) {
+      const timeoutSeconds = parseInt(retryAfterHeader);
+      if (!Number.isNaN(timeoutSeconds)) {
+        timeoutMillis = timeoutSeconds * 1e3;
+      } else {
+        timeoutMillis = Date.parse(retryAfterHeader) - Date.now();
+      }
+    }
+    if (!timeoutMillis || !Number.isInteger(timeoutMillis) || timeoutMillis <= 0 || timeoutMillis > 60 * 1e3) {
+      const maxRetries = (_a2 = options.maxRetries) != null ? _a2 : this.maxRetries;
+      timeoutMillis = this.calculateDefaultRetryTimeoutMillis(retriesRemaining, maxRetries);
+    }
+    await sleep(timeoutMillis);
+    return this.makeRequest(options, retriesRemaining - 1);
+  }
+  calculateDefaultRetryTimeoutMillis(retriesRemaining, maxRetries) {
+    const initialRetryDelay = 0.5;
+    const maxRetryDelay = 8;
+    const numRetries = maxRetries - retriesRemaining;
+    const sleepSeconds = Math.min(initialRetryDelay * Math.pow(2, numRetries), maxRetryDelay);
+    const jitter = 1 - Math.random() * 0.25;
+    return sleepSeconds * jitter * 1e3;
+  }
+  getUserAgent() {
+    return `${this.constructor.name}/JS ${VERSION}`;
+  }
+};
+var AbstractPage = class {
+  constructor(client, response, body, options) {
+    _AbstractPage_client.set(this, void 0);
+    __classPrivateFieldSet(this, _AbstractPage_client, client, "f");
+    this.options = options;
+    this.response = response;
+    this.body = body;
+  }
+  hasNextPage() {
+    const items = this.getPaginatedItems();
+    if (!items.length)
+      return false;
+    return this.nextPageInfo() != null;
+  }
+  async getNextPage() {
+    const nextInfo = this.nextPageInfo();
+    if (!nextInfo) {
+      throw new OpenAIError("No next page expected; please check `.hasNextPage()` before calling `.getNextPage()`.");
+    }
+    const nextOptions = { ...this.options };
+    if ("params" in nextInfo) {
+      nextOptions.query = { ...nextOptions.query, ...nextInfo.params };
+    } else if ("url" in nextInfo) {
+      const params = [...Object.entries(nextOptions.query || {}), ...nextInfo.url.searchParams.entries()];
+      for (const [key, value] of params) {
+        nextInfo.url.searchParams.set(key, value);
+      }
+      nextOptions.query = void 0;
+      nextOptions.path = nextInfo.url.toString();
+    }
+    return await __classPrivateFieldGet(this, _AbstractPage_client, "f").requestAPIList(this.constructor, nextOptions);
+  }
+  async *iterPages() {
+    let page = this;
+    yield page;
+    while (page.hasNextPage()) {
+      page = await page.getNextPage();
+      yield page;
+    }
+  }
+  async *[(_AbstractPage_client = /* @__PURE__ */ new WeakMap(), Symbol.asyncIterator)]() {
+    for await (const page of this.iterPages()) {
+      for (const item of page.getPaginatedItems()) {
+        yield item;
+      }
+    }
+  }
+};
+var PagePromise = class extends APIPromise {
+  constructor(client, request, Page2) {
+    super(request, async (props) => new Page2(client, props.response, await defaultParseResponse(props), props.options));
+  }
+  /**
+   * Allow auto-paginating iteration on an unawaited list call, eg:
+   *
+   *    for await (const item of client.items.list()) {
+   *      console.log(item)
+   *    }
+   */
+  async *[Symbol.asyncIterator]() {
+    const page = await this;
+    for await (const item of page) {
+      yield item;
+    }
+  }
+};
+var createResponseHeaders = (headers) => {
+  return new Proxy(Object.fromEntries(
+    // @ts-ignore
+    headers.entries()
+  ), {
+    get(target, name) {
+      const key = name.toString();
+      return target[key.toLowerCase()] || target[key];
+    }
+  });
+};
+var requestOptionsKeys = {
+  method: true,
+  path: true,
+  query: true,
+  body: true,
+  headers: true,
+  maxRetries: true,
+  stream: true,
+  timeout: true,
+  httpAgent: true,
+  signal: true,
+  idempotencyKey: true,
+  __binaryResponse: true
+};
+var isRequestOptions = (obj) => {
+  return typeof obj === "object" && obj !== null && !isEmptyObj(obj) && Object.keys(obj).every((k2) => hasOwn(requestOptionsKeys, k2));
+};
+var getPlatformProperties = () => {
+  if (typeof Deno !== "undefined" && Deno.build != null) {
+    return {
+      "X-Stainless-Lang": "js",
+      "X-Stainless-Package-Version": VERSION,
+      "X-Stainless-OS": normalizePlatform(Deno.build.os),
+      "X-Stainless-Arch": normalizeArch(Deno.build.arch),
+      "X-Stainless-Runtime": "deno",
+      "X-Stainless-Runtime-Version": Deno.version
+    };
+  }
+  if (typeof EdgeRuntime !== "undefined") {
+    return {
+      "X-Stainless-Lang": "js",
+      "X-Stainless-Package-Version": VERSION,
+      "X-Stainless-OS": "Unknown",
+      "X-Stainless-Arch": `other:${EdgeRuntime}`,
+      "X-Stainless-Runtime": "edge",
+      "X-Stainless-Runtime-Version": process.version
+    };
+  }
+  if (Object.prototype.toString.call(typeof process !== "undefined" ? process : 0) === "[object process]") {
+    return {
+      "X-Stainless-Lang": "js",
+      "X-Stainless-Package-Version": VERSION,
+      "X-Stainless-OS": normalizePlatform(process.platform),
+      "X-Stainless-Arch": normalizeArch(process.arch),
+      "X-Stainless-Runtime": "node",
+      "X-Stainless-Runtime-Version": process.version
+    };
+  }
+  const browserInfo = getBrowserInfo();
+  if (browserInfo) {
+    return {
+      "X-Stainless-Lang": "js",
+      "X-Stainless-Package-Version": VERSION,
+      "X-Stainless-OS": "Unknown",
+      "X-Stainless-Arch": "unknown",
+      "X-Stainless-Runtime": `browser:${browserInfo.browser}`,
+      "X-Stainless-Runtime-Version": browserInfo.version
+    };
+  }
+  return {
+    "X-Stainless-Lang": "js",
+    "X-Stainless-Package-Version": VERSION,
+    "X-Stainless-OS": "Unknown",
+    "X-Stainless-Arch": "unknown",
+    "X-Stainless-Runtime": "unknown",
+    "X-Stainless-Runtime-Version": "unknown"
+  };
+};
+function getBrowserInfo() {
+  if (typeof navigator === "undefined" || !navigator) {
+    return null;
+  }
+  const browserPatterns = [
+    { key: "edge", pattern: /Edge(?:\W+(\d+)\.(\d+)(?:\.(\d+))?)?/ },
+    { key: "ie", pattern: /MSIE(?:\W+(\d+)\.(\d+)(?:\.(\d+))?)?/ },
+    { key: "ie", pattern: /Trident(?:.*rv\:(\d+)\.(\d+)(?:\.(\d+))?)?/ },
+    { key: "chrome", pattern: /Chrome(?:\W+(\d+)\.(\d+)(?:\.(\d+))?)?/ },
+    { key: "firefox", pattern: /Firefox(?:\W+(\d+)\.(\d+)(?:\.(\d+))?)?/ },
+    { key: "safari", pattern: /(?:Version\W+(\d+)\.(\d+)(?:\.(\d+))?)?(?:\W+Mobile\S*)?\W+Safari/ }
+  ];
+  for (const { key, pattern } of browserPatterns) {
+    const match = pattern.exec(navigator.userAgent);
+    if (match) {
+      const major = match[1] || 0;
+      const minor = match[2] || 0;
+      const patch = match[3] || 0;
+      return { browser: key, version: `${major}.${minor}.${patch}` };
+    }
+  }
+  return null;
+}
+var normalizeArch = (arch) => {
+  if (arch === "x32")
+    return "x32";
+  if (arch === "x86_64" || arch === "x64")
+    return "x64";
+  if (arch === "arm")
+    return "arm";
+  if (arch === "aarch64" || arch === "arm64")
+    return "arm64";
+  if (arch)
+    return `other:${arch}`;
+  return "unknown";
+};
+var normalizePlatform = (platform) => {
+  platform = platform.toLowerCase();
+  if (platform.includes("ios"))
+    return "iOS";
+  if (platform === "android")
+    return "Android";
+  if (platform === "darwin")
+    return "MacOS";
+  if (platform === "win32")
+    return "Windows";
+  if (platform === "freebsd")
+    return "FreeBSD";
+  if (platform === "openbsd")
+    return "OpenBSD";
+  if (platform === "linux")
+    return "Linux";
+  if (platform)
+    return `Other:${platform}`;
+  return "Unknown";
+};
+var _platformHeaders;
+var getPlatformHeaders = () => {
+  return _platformHeaders != null ? _platformHeaders : _platformHeaders = getPlatformProperties();
+};
+var safeJSON = (text) => {
+  try {
+    return JSON.parse(text);
+  } catch (err) {
+    return void 0;
+  }
+};
+var startsWithSchemeRegexp = new RegExp("^(?:[a-z]+:)?//", "i");
+var isAbsoluteURL = (url) => {
+  return startsWithSchemeRegexp.test(url);
+};
+var sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+var validatePositiveInteger = (name, n) => {
+  if (typeof n !== "number" || !Number.isInteger(n)) {
+    throw new OpenAIError(`${name} must be an integer`);
+  }
+  if (n < 0) {
+    throw new OpenAIError(`${name} must be a positive integer`);
+  }
+  return n;
+};
+var castToError = (err) => {
+  if (err instanceof Error)
+    return err;
+  return new Error(err);
+};
+var readEnv = (env) => {
+  var _a2, _b, _c, _d;
+  if (typeof process !== "undefined") {
+    return (_b = (_a2 = process.env) == null ? void 0 : _a2[env]) != null ? _b : void 0;
+  }
+  if (typeof Deno !== "undefined") {
+    return (_d = (_c = Deno.env) == null ? void 0 : _c.get) == null ? void 0 : _d.call(_c, env);
+  }
+  return void 0;
+};
+function isEmptyObj(obj) {
+  if (!obj)
+    return true;
+  for (const _k in obj)
+    return false;
+  return true;
+}
+function hasOwn(obj, key) {
+  return Object.prototype.hasOwnProperty.call(obj, key);
+}
+function debug(action, ...args) {
+  if (typeof process !== "undefined" && process.env["DEBUG"] === "true") {
+    console.log(`OpenAI:DEBUG:${action}`, ...args);
+  }
+}
+var uuid4 = () => {
+  return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (c2) => {
+    const r2 = Math.random() * 16 | 0;
+    const v = c2 === "x" ? r2 : r2 & 3 | 8;
+    return v.toString(16);
+  });
+};
+var isRunningInBrowser = () => {
+  return (
+    // @ts-ignore
+    typeof window !== "undefined" && // @ts-ignore
+    typeof window.document !== "undefined" && // @ts-ignore
+    typeof navigator !== "undefined"
+  );
+};
+
+// node_modules/openai/pagination.mjs
+var Page = class extends AbstractPage {
+  constructor(client, response, body, options) {
+    super(client, response, body, options);
+    this.data = body.data;
+    this.object = body.object;
+  }
+  getPaginatedItems() {
+    return this.data;
+  }
+  // @deprecated Please use `nextPageInfo()` instead
+  /**
+   * This page represents a response that isn't actually paginated at the API level
+   * so there will never be any next page params.
+   */
+  nextPageParams() {
+    return null;
+  }
+  nextPageInfo() {
+    return null;
+  }
+};
+var CursorPage = class extends AbstractPage {
+  constructor(client, response, body, options) {
+    super(client, response, body, options);
+    this.data = body.data;
+  }
+  getPaginatedItems() {
+    return this.data;
+  }
+  // @deprecated Please use `nextPageInfo()` instead
+  nextPageParams() {
+    const info = this.nextPageInfo();
+    if (!info)
+      return null;
+    if ("params" in info)
+      return info.params;
+    const params = Object.fromEntries(info.url.searchParams);
+    if (!Object.keys(params).length)
+      return null;
+    return params;
+  }
+  nextPageInfo() {
+    var _a2, _b;
+    if (!((_a2 = this.data) == null ? void 0 : _a2.length)) {
+      return null;
+    }
+    const next = (_b = this.data[this.data.length - 1]) == null ? void 0 : _b.id;
+    if (!next)
+      return null;
+    return { params: { after: next } };
+  }
+};
+
+// node_modules/openai/resource.mjs
+var APIResource = class {
+  constructor(client) {
+    this.client = client;
+    this.get = client.get.bind(client);
+    this.post = client.post.bind(client);
+    this.patch = client.patch.bind(client);
+    this.put = client.put.bind(client);
+    this.delete = client.delete.bind(client);
+    this.getAPIList = client.getAPIList.bind(client);
+  }
+};
+
+// node_modules/openai/resources/chat/completions.mjs
+var Completions = class extends APIResource {
+  create(body, options) {
+    var _a2;
+    return this.post("/chat/completions", { body, ...options, stream: (_a2 = body.stream) != null ? _a2 : false });
+  }
+};
+(function(Completions4) {
+})(Completions || (Completions = {}));
+
+// node_modules/openai/resources/chat/chat.mjs
+var Chat = class extends APIResource {
+  constructor() {
+    super(...arguments);
+    this.completions = new Completions(this.client);
+  }
+};
+(function(Chat3) {
+  Chat3.Completions = Completions;
+})(Chat || (Chat = {}));
+
+// node_modules/openai/resources/audio/speech.mjs
+var Speech = class extends APIResource {
+  /**
+   * Generates audio from the input text.
+   */
+  create(body, options) {
+    return this.post("/audio/speech", { body, ...options, __binaryResponse: true });
+  }
+};
+(function(Speech2) {
+})(Speech || (Speech = {}));
+
+// node_modules/openai/resources/audio/transcriptions.mjs
+var Transcriptions = class extends APIResource {
+  /**
+   * Transcribes audio into the input language.
+   */
+  create(body, options) {
+    return this.post("/audio/transcriptions", multipartFormRequestOptions({ body, ...options }));
+  }
+};
+(function(Transcriptions2) {
+})(Transcriptions || (Transcriptions = {}));
+
+// node_modules/openai/resources/audio/translations.mjs
+var Translations = class extends APIResource {
+  /**
+   * Translates audio into English.
+   */
+  create(body, options) {
+    return this.post("/audio/translations", multipartFormRequestOptions({ body, ...options }));
+  }
+};
+(function(Translations2) {
+})(Translations || (Translations = {}));
+
+// node_modules/openai/resources/audio/audio.mjs
+var Audio = class extends APIResource {
+  constructor() {
+    super(...arguments);
+    this.transcriptions = new Transcriptions(this.client);
+    this.translations = new Translations(this.client);
+    this.speech = new Speech(this.client);
+  }
+};
+(function(Audio2) {
+  Audio2.Transcriptions = Transcriptions;
+  Audio2.Translations = Translations;
+  Audio2.Speech = Speech;
+})(Audio || (Audio = {}));
+
+// node_modules/openai/resources/beta/assistants/files.mjs
+var Files = class extends APIResource {
+  /**
+   * Create an assistant file by attaching a
+   * [File](https://platform.openai.com/docs/api-reference/files) to an
+   * [assistant](https://platform.openai.com/docs/api-reference/assistants).
+   */
+  create(assistantId, body, options) {
+    return this.post(`/assistants/${assistantId}/files`, {
+      body,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * Retrieves an AssistantFile.
+   */
+  retrieve(assistantId, fileId, options) {
+    return this.get(`/assistants/${assistantId}/files/${fileId}`, {
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  list(assistantId, query = {}, options) {
+    if (isRequestOptions(query)) {
+      return this.list(assistantId, {}, query);
+    }
+    return this.getAPIList(`/assistants/${assistantId}/files`, AssistantFilesPage, {
+      query,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * Delete an assistant file.
+   */
+  del(assistantId, fileId, options) {
+    return this.delete(`/assistants/${assistantId}/files/${fileId}`, {
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+};
+var AssistantFilesPage = class extends CursorPage {
+};
+(function(Files4) {
+  Files4.AssistantFilesPage = AssistantFilesPage;
+})(Files || (Files = {}));
+
+// node_modules/openai/resources/beta/assistants/assistants.mjs
+var Assistants = class extends APIResource {
+  constructor() {
+    super(...arguments);
+    this.files = new Files(this.client);
+  }
+  /**
+   * Create an assistant with a model and instructions.
+   */
+  create(body, options) {
+    return this.post("/assistants", {
+      body,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * Retrieves an assistant.
+   */
+  retrieve(assistantId, options) {
+    return this.get(`/assistants/${assistantId}`, {
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * Modifies an assistant.
+   */
+  update(assistantId, body, options) {
+    return this.post(`/assistants/${assistantId}`, {
+      body,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  list(query = {}, options) {
+    if (isRequestOptions(query)) {
+      return this.list({}, query);
+    }
+    return this.getAPIList("/assistants", AssistantsPage, {
+      query,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * Delete an assistant.
+   */
+  del(assistantId, options) {
+    return this.delete(`/assistants/${assistantId}`, {
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+};
+var AssistantsPage = class extends CursorPage {
+};
+(function(Assistants2) {
+  Assistants2.AssistantsPage = AssistantsPage;
+  Assistants2.Files = Files;
+  Assistants2.AssistantFilesPage = AssistantFilesPage;
+})(Assistants || (Assistants = {}));
+
+// node_modules/openai/lib/RunnableFunction.mjs
+function isRunnableFunctionWithParse(fn) {
+  return typeof fn.parse === "function";
+}
+
+// node_modules/openai/lib/chatCompletionUtils.mjs
+var isAssistantMessage = (message) => {
+  return (message == null ? void 0 : message.role) === "assistant";
+};
+var isFunctionMessage = (message) => {
+  return (message == null ? void 0 : message.role) === "function";
+};
+var isToolMessage = (message) => {
+  return (message == null ? void 0 : message.role) === "tool";
+};
+
+// node_modules/openai/lib/AbstractChatCompletionRunner.mjs
+var __classPrivateFieldSet2 = function(receiver, state, value, kind2, f) {
+  if (kind2 === "m")
+    throw new TypeError("Private method is not writable");
+  if (kind2 === "a" && !f)
+    throw new TypeError("Private accessor was defined without a setter");
+  if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
+    throw new TypeError("Cannot write private member to an object whose class did not declare it");
+  return kind2 === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value), value;
+};
+var __classPrivateFieldGet2 = function(receiver, state, kind2, f) {
+  if (kind2 === "a" && !f)
+    throw new TypeError("Private accessor was defined without a getter");
+  if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
+    throw new TypeError("Cannot read private member from an object whose class did not declare it");
+  return kind2 === "m" ? f : kind2 === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
+};
+var _AbstractChatCompletionRunner_instances;
+var _AbstractChatCompletionRunner_connectedPromise;
+var _AbstractChatCompletionRunner_resolveConnectedPromise;
+var _AbstractChatCompletionRunner_rejectConnectedPromise;
+var _AbstractChatCompletionRunner_endPromise;
+var _AbstractChatCompletionRunner_resolveEndPromise;
+var _AbstractChatCompletionRunner_rejectEndPromise;
+var _AbstractChatCompletionRunner_listeners;
+var _AbstractChatCompletionRunner_ended;
+var _AbstractChatCompletionRunner_errored;
+var _AbstractChatCompletionRunner_aborted;
+var _AbstractChatCompletionRunner_catchingPromiseCreated;
+var _AbstractChatCompletionRunner_getFinalContent;
+var _AbstractChatCompletionRunner_getFinalMessage;
+var _AbstractChatCompletionRunner_getFinalFunctionCall;
+var _AbstractChatCompletionRunner_getFinalFunctionCallResult;
+var _AbstractChatCompletionRunner_calculateTotalUsage;
+var _AbstractChatCompletionRunner_handleError;
+var _AbstractChatCompletionRunner_validateParams;
+var _AbstractChatCompletionRunner_stringifyFunctionCallResult;
+var DEFAULT_MAX_CHAT_COMPLETIONS = 10;
+var AbstractChatCompletionRunner = class {
+  constructor() {
+    _AbstractChatCompletionRunner_instances.add(this);
+    this.controller = new AbortController();
+    _AbstractChatCompletionRunner_connectedPromise.set(this, void 0);
+    _AbstractChatCompletionRunner_resolveConnectedPromise.set(this, () => {
+    });
+    _AbstractChatCompletionRunner_rejectConnectedPromise.set(this, () => {
+    });
+    _AbstractChatCompletionRunner_endPromise.set(this, void 0);
+    _AbstractChatCompletionRunner_resolveEndPromise.set(this, () => {
+    });
+    _AbstractChatCompletionRunner_rejectEndPromise.set(this, () => {
+    });
+    _AbstractChatCompletionRunner_listeners.set(this, {});
+    this._chatCompletions = [];
+    this.messages = [];
+    _AbstractChatCompletionRunner_ended.set(this, false);
+    _AbstractChatCompletionRunner_errored.set(this, false);
+    _AbstractChatCompletionRunner_aborted.set(this, false);
+    _AbstractChatCompletionRunner_catchingPromiseCreated.set(this, false);
+    _AbstractChatCompletionRunner_handleError.set(this, (error) => {
+      __classPrivateFieldSet2(this, _AbstractChatCompletionRunner_errored, true, "f");
+      if (error instanceof Error && error.name === "AbortError") {
+        error = new APIUserAbortError();
+      }
+      if (error instanceof APIUserAbortError) {
+        __classPrivateFieldSet2(this, _AbstractChatCompletionRunner_aborted, true, "f");
+        return this._emit("abort", error);
+      }
+      if (error instanceof OpenAIError) {
+        return this._emit("error", error);
+      }
+      if (error instanceof Error) {
+        const openAIError = new OpenAIError(error.message);
+        openAIError.cause = error;
+        return this._emit("error", openAIError);
+      }
+      return this._emit("error", new OpenAIError(String(error)));
+    });
+    __classPrivateFieldSet2(this, _AbstractChatCompletionRunner_connectedPromise, new Promise((resolve, reject) => {
+      __classPrivateFieldSet2(this, _AbstractChatCompletionRunner_resolveConnectedPromise, resolve, "f");
+      __classPrivateFieldSet2(this, _AbstractChatCompletionRunner_rejectConnectedPromise, reject, "f");
+    }), "f");
+    __classPrivateFieldSet2(this, _AbstractChatCompletionRunner_endPromise, new Promise((resolve, reject) => {
+      __classPrivateFieldSet2(this, _AbstractChatCompletionRunner_resolveEndPromise, resolve, "f");
+      __classPrivateFieldSet2(this, _AbstractChatCompletionRunner_rejectEndPromise, reject, "f");
+    }), "f");
+    __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_connectedPromise, "f").catch(() => {
+    });
+    __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_endPromise, "f").catch(() => {
+    });
+  }
+  _run(executor) {
+    setTimeout(() => {
+      executor().then(() => {
+        this._emitFinal();
+        this._emit("end");
+      }, __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_handleError, "f"));
+    }, 0);
+  }
+  _addChatCompletion(chatCompletion) {
+    var _a2;
+    this._chatCompletions.push(chatCompletion);
+    this._emit("chatCompletion", chatCompletion);
+    const message = (_a2 = chatCompletion.choices[0]) == null ? void 0 : _a2.message;
+    if (message)
+      this._addMessage(message);
+    return chatCompletion;
+  }
+  _addMessage(message, emit = true) {
+    this.messages.push(message);
+    if (emit) {
+      this._emit("message", message);
+      if ((isFunctionMessage(message) || isToolMessage(message)) && message.content) {
+        this._emit("functionCallResult", message.content);
+      } else if (isAssistantMessage(message) && message.function_call) {
+        this._emit("functionCall", message.function_call);
+      } else if (isAssistantMessage(message) && message.tool_calls) {
+        for (const tool_call of message.tool_calls) {
+          if (tool_call.type === "function") {
+            this._emit("functionCall", tool_call.function);
+          }
+        }
+      }
+    }
+  }
+  _connected() {
+    if (this.ended)
+      return;
+    __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_resolveConnectedPromise, "f").call(this);
+    this._emit("connect");
+  }
+  get ended() {
+    return __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_ended, "f");
+  }
+  get errored() {
+    return __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_errored, "f");
+  }
+  get aborted() {
+    return __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_aborted, "f");
+  }
+  abort() {
+    this.controller.abort();
+  }
+  /**
+   * Adds the listener function to the end of the listeners array for the event.
+   * No checks are made to see if the listener has already been added. Multiple calls passing
+   * the same combination of event and listener will result in the listener being added, and
+   * called, multiple times.
+   * @returns this ChatCompletionStream, so that calls can be chained
+   */
+  on(event, listener) {
+    const listeners = __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_listeners, "f")[event] || (__classPrivateFieldGet2(this, _AbstractChatCompletionRunner_listeners, "f")[event] = []);
+    listeners.push({ listener });
+    return this;
+  }
+  /**
+   * Removes the specified listener from the listener array for the event.
+   * off() will remove, at most, one instance of a listener from the listener array. If any single
+   * listener has been added multiple times to the listener array for the specified event, then
+   * off() must be called multiple times to remove each instance.
+   * @returns this ChatCompletionStream, so that calls can be chained
+   */
+  off(event, listener) {
+    const listeners = __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_listeners, "f")[event];
+    if (!listeners)
+      return this;
+    const index = listeners.findIndex((l2) => l2.listener === listener);
+    if (index >= 0)
+      listeners.splice(index, 1);
+    return this;
+  }
+  /**
+   * Adds a one-time listener function for the event. The next time the event is triggered,
+   * this listener is removed and then invoked.
+   * @returns this ChatCompletionStream, so that calls can be chained
+   */
+  once(event, listener) {
+    const listeners = __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_listeners, "f")[event] || (__classPrivateFieldGet2(this, _AbstractChatCompletionRunner_listeners, "f")[event] = []);
+    listeners.push({ listener, once: true });
+    return this;
+  }
+  /**
+   * This is similar to `.once()`, but returns a Promise that resolves the next time
+   * the event is triggered, instead of calling a listener callback.
+   * @returns a Promise that resolves the next time given event is triggered,
+   * or rejects if an error is emitted.  (If you request the 'error' event,
+   * returns a promise that resolves with the error).
+   *
+   * Example:
+   *
+   *   const message = await stream.emitted('message') // rejects if the stream errors
+   */
+  emitted(event) {
+    return new Promise((resolve, reject) => {
+      __classPrivateFieldSet2(this, _AbstractChatCompletionRunner_catchingPromiseCreated, true, "f");
+      if (event !== "error")
+        this.once("error", reject);
+      this.once(event, resolve);
+    });
+  }
+  async done() {
+    __classPrivateFieldSet2(this, _AbstractChatCompletionRunner_catchingPromiseCreated, true, "f");
+    await __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_endPromise, "f");
+  }
+  /**
+   * @returns a promise that resolves with the final ChatCompletion, or rejects
+   * if an error occurred or the stream ended prematurely without producing a ChatCompletion.
+   */
+  async finalChatCompletion() {
+    await this.done();
+    const completion = this._chatCompletions[this._chatCompletions.length - 1];
+    if (!completion)
+      throw new OpenAIError("stream ended without producing a ChatCompletion");
+    return completion;
+  }
+  /**
+   * @returns a promise that resolves with the content of the final ChatCompletionMessage, or rejects
+   * if an error occurred or the stream ended prematurely without producing a ChatCompletionMessage.
+   */
+  async finalContent() {
+    await this.done();
+    return __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_instances, "m", _AbstractChatCompletionRunner_getFinalContent).call(this);
+  }
+  /**
+   * @returns a promise that resolves with the the final assistant ChatCompletionMessage response,
+   * or rejects if an error occurred or the stream ended prematurely without producing a ChatCompletionMessage.
+   */
+  async finalMessage() {
+    await this.done();
+    return __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_instances, "m", _AbstractChatCompletionRunner_getFinalMessage).call(this);
+  }
+  /**
+   * @returns a promise that resolves with the content of the final FunctionCall, or rejects
+   * if an error occurred or the stream ended prematurely without producing a ChatCompletionMessage.
+   */
+  async finalFunctionCall() {
+    await this.done();
+    return __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_instances, "m", _AbstractChatCompletionRunner_getFinalFunctionCall).call(this);
+  }
+  async finalFunctionCallResult() {
+    await this.done();
+    return __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_instances, "m", _AbstractChatCompletionRunner_getFinalFunctionCallResult).call(this);
+  }
+  async totalUsage() {
+    await this.done();
+    return __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_instances, "m", _AbstractChatCompletionRunner_calculateTotalUsage).call(this);
+  }
+  allChatCompletions() {
+    return [...this._chatCompletions];
+  }
+  _emit(event, ...args) {
+    if (__classPrivateFieldGet2(this, _AbstractChatCompletionRunner_ended, "f"))
+      return;
+    if (event === "end") {
+      __classPrivateFieldSet2(this, _AbstractChatCompletionRunner_ended, true, "f");
+      __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_resolveEndPromise, "f").call(this);
+    }
+    const listeners = __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_listeners, "f")[event];
+    if (listeners) {
+      __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_listeners, "f")[event] = listeners.filter((l2) => !l2.once);
+      listeners.forEach(({ listener }) => listener(...args));
+    }
+    if (event === "abort") {
+      const error = args[0];
+      if (!__classPrivateFieldGet2(this, _AbstractChatCompletionRunner_catchingPromiseCreated, "f") && !(listeners == null ? void 0 : listeners.length)) {
+        Promise.reject(error);
+      }
+      __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_rejectConnectedPromise, "f").call(this, error);
+      __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_rejectEndPromise, "f").call(this, error);
+      this._emit("end");
+      return;
+    }
+    if (event === "error") {
+      const error = args[0];
+      if (!__classPrivateFieldGet2(this, _AbstractChatCompletionRunner_catchingPromiseCreated, "f") && !(listeners == null ? void 0 : listeners.length)) {
+        Promise.reject(error);
+      }
+      __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_rejectConnectedPromise, "f").call(this, error);
+      __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_rejectEndPromise, "f").call(this, error);
+      this._emit("end");
+    }
+  }
+  _emitFinal() {
+    const completion = this._chatCompletions[this._chatCompletions.length - 1];
+    if (completion)
+      this._emit("finalChatCompletion", completion);
+    const finalMessage = this.messages[this.messages.length - 1];
+    if (finalMessage)
+      this._emit("finalMessage", finalMessage);
+    const finalContent = __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_instances, "m", _AbstractChatCompletionRunner_getFinalContent).call(this);
+    if (finalContent)
+      this._emit("finalContent", finalContent);
+    const finalFunctionCall = __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_instances, "m", _AbstractChatCompletionRunner_getFinalFunctionCall).call(this);
+    if (finalFunctionCall)
+      this._emit("finalFunctionCall", finalFunctionCall);
+    const finalFunctionCallResult = __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_instances, "m", _AbstractChatCompletionRunner_getFinalFunctionCallResult).call(this);
+    if (finalFunctionCallResult != null)
+      this._emit("finalFunctionCallResult", finalFunctionCallResult);
+    if (this._chatCompletions.some((c2) => c2.usage)) {
+      this._emit("totalUsage", __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_instances, "m", _AbstractChatCompletionRunner_calculateTotalUsage).call(this));
+    }
+  }
+  async _createChatCompletion(completions, params, options) {
+    const signal = options == null ? void 0 : options.signal;
+    if (signal) {
+      if (signal.aborted)
+        this.controller.abort();
+      signal.addEventListener("abort", () => this.controller.abort());
+    }
+    __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_instances, "m", _AbstractChatCompletionRunner_validateParams).call(this, params);
+    const chatCompletion = await completions.create({ ...params, stream: false }, { ...options, signal: this.controller.signal });
+    this._connected();
+    return this._addChatCompletion(chatCompletion);
+  }
+  async _runChatCompletion(completions, params, options) {
+    for (const message of params.messages) {
+      this._addMessage(message, false);
+    }
+    return await this._createChatCompletion(completions, params, options);
+  }
+  async _runFunctions(completions, params, options) {
+    var _a2;
+    const role = "function";
+    const { function_call = "auto", stream, ...restParams } = params;
+    const singleFunctionToCall = typeof function_call !== "string" && (function_call == null ? void 0 : function_call.name);
+    const { maxChatCompletions = DEFAULT_MAX_CHAT_COMPLETIONS } = options || {};
+    const functionsByName = {};
+    for (const f of params.functions) {
+      functionsByName[f.name || f.function.name] = f;
+    }
+    const functions = params.functions.map((f) => ({
+      name: f.name || f.function.name,
+      parameters: f.parameters,
+      description: f.description
+    }));
+    for (const message of params.messages) {
+      this._addMessage(message, false);
+    }
+    for (let i = 0; i < maxChatCompletions; ++i) {
+      const chatCompletion = await this._createChatCompletion(completions, {
+        ...restParams,
+        function_call,
+        functions,
+        messages: [...this.messages]
+      }, options);
+      const message = (_a2 = chatCompletion.choices[0]) == null ? void 0 : _a2.message;
+      if (!message) {
+        throw new OpenAIError(`missing message in ChatCompletion response`);
+      }
+      if (!message.function_call)
+        return;
+      const { name, arguments: args } = message.function_call;
+      const fn = functionsByName[name];
+      if (!fn) {
+        const content2 = `Invalid function_call: ${JSON.stringify(name)}. Available options are: ${functions.map((f) => JSON.stringify(f.name)).join(", ")}. Please try again`;
+        this._addMessage({ role, name, content: content2 });
+        continue;
+      } else if (singleFunctionToCall && singleFunctionToCall !== name) {
+        const content2 = `Invalid function_call: ${JSON.stringify(name)}. ${JSON.stringify(singleFunctionToCall)} requested. Please try again`;
+        this._addMessage({ role, name, content: content2 });
+        continue;
+      }
+      let parsed;
+      try {
+        parsed = isRunnableFunctionWithParse(fn) ? await fn.parse(args) : args;
+      } catch (error) {
+        this._addMessage({
+          role,
+          name,
+          content: error instanceof Error ? error.message : String(error)
+        });
+        continue;
+      }
+      const rawContent = await fn.function(parsed, this);
+      const content = __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_instances, "m", _AbstractChatCompletionRunner_stringifyFunctionCallResult).call(this, rawContent);
+      this._addMessage({ role, name, content });
+      if (singleFunctionToCall)
+        return;
+    }
+  }
+  async _runTools(completions, params, options) {
+    var _a2, _b;
+    const role = "tool";
+    const { tool_choice = "auto", stream, ...restParams } = params;
+    const singleFunctionToCall = typeof tool_choice !== "string" && ((_a2 = tool_choice == null ? void 0 : tool_choice.function) == null ? void 0 : _a2.name);
+    const { maxChatCompletions = DEFAULT_MAX_CHAT_COMPLETIONS } = options || {};
+    const functionsByName = {};
+    for (const f of params.tools) {
+      if (f.type === "function") {
+        functionsByName[f.function.name || f.function.function.name] = f.function;
+      }
+    }
+    const tools = "tools" in params ? params.tools.map((t) => t.type === "function" ? {
+      type: "function",
+      function: {
+        name: t.function.name || t.function.function.name,
+        parameters: t.function.parameters,
+        description: t.function.description
+      }
+    } : t) : void 0;
+    for (const message of params.messages) {
+      this._addMessage(message, false);
+    }
+    for (let i = 0; i < maxChatCompletions; ++i) {
+      const chatCompletion = await this._createChatCompletion(completions, {
+        ...restParams,
+        tool_choice,
+        tools,
+        messages: [...this.messages]
+      }, options);
+      const message = (_b = chatCompletion.choices[0]) == null ? void 0 : _b.message;
+      if (!message) {
+        throw new OpenAIError(`missing message in ChatCompletion response`);
+      }
+      if (!message.tool_calls)
+        return;
+      for (const tool_call of message.tool_calls) {
+        if (tool_call.type !== "function")
+          continue;
+        const tool_call_id = tool_call.id;
+        const { name, arguments: args } = tool_call.function;
+        const fn = functionsByName[name];
+        if (!fn) {
+          const content2 = `Invalid tool_call: ${JSON.stringify(name)}. Available options are: ${tools.map((f) => JSON.stringify(f.function.name)).join(", ")}. Please try again`;
+          this._addMessage({ role, tool_call_id, content: content2 });
+          continue;
+        } else if (singleFunctionToCall && singleFunctionToCall !== name) {
+          const content2 = `Invalid tool_call: ${JSON.stringify(name)}. ${JSON.stringify(singleFunctionToCall)} requested. Please try again`;
+          this._addMessage({ role, tool_call_id, content: content2 });
+          continue;
+        }
+        let parsed;
+        try {
+          parsed = isRunnableFunctionWithParse(fn) ? await fn.parse(args) : args;
+        } catch (error) {
+          const content2 = error instanceof Error ? error.message : String(error);
+          this._addMessage({ role, tool_call_id, content: content2 });
+          continue;
+        }
+        const rawContent = await fn.function(parsed, this);
+        const content = __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_instances, "m", _AbstractChatCompletionRunner_stringifyFunctionCallResult).call(this, rawContent);
+        this._addMessage({ role, tool_call_id, content });
+        if (singleFunctionToCall)
+          return;
+      }
+    }
+  }
+};
+_AbstractChatCompletionRunner_connectedPromise = /* @__PURE__ */ new WeakMap(), _AbstractChatCompletionRunner_resolveConnectedPromise = /* @__PURE__ */ new WeakMap(), _AbstractChatCompletionRunner_rejectConnectedPromise = /* @__PURE__ */ new WeakMap(), _AbstractChatCompletionRunner_endPromise = /* @__PURE__ */ new WeakMap(), _AbstractChatCompletionRunner_resolveEndPromise = /* @__PURE__ */ new WeakMap(), _AbstractChatCompletionRunner_rejectEndPromise = /* @__PURE__ */ new WeakMap(), _AbstractChatCompletionRunner_listeners = /* @__PURE__ */ new WeakMap(), _AbstractChatCompletionRunner_ended = /* @__PURE__ */ new WeakMap(), _AbstractChatCompletionRunner_errored = /* @__PURE__ */ new WeakMap(), _AbstractChatCompletionRunner_aborted = /* @__PURE__ */ new WeakMap(), _AbstractChatCompletionRunner_catchingPromiseCreated = /* @__PURE__ */ new WeakMap(), _AbstractChatCompletionRunner_handleError = /* @__PURE__ */ new WeakMap(), _AbstractChatCompletionRunner_instances = /* @__PURE__ */ new WeakSet(), _AbstractChatCompletionRunner_getFinalContent = function _AbstractChatCompletionRunner_getFinalContent2() {
+  return __classPrivateFieldGet2(this, _AbstractChatCompletionRunner_instances, "m", _AbstractChatCompletionRunner_getFinalMessage).call(this).content;
+}, _AbstractChatCompletionRunner_getFinalMessage = function _AbstractChatCompletionRunner_getFinalMessage2() {
+  let i = this.messages.length;
+  while (i-- > 0) {
+    const message = this.messages[i];
+    if (isAssistantMessage(message)) {
+      return message;
+    }
+  }
+  throw new OpenAIError("stream ended without producing a ChatCompletionMessage with role=assistant");
+}, _AbstractChatCompletionRunner_getFinalFunctionCall = function _AbstractChatCompletionRunner_getFinalFunctionCall2() {
+  for (let i = this.messages.length - 1; i >= 0; i--) {
+    const message = this.messages[i];
+    if (isAssistantMessage(message) && (message == null ? void 0 : message.function_call)) {
+      return message.function_call;
+    }
+  }
+  return;
+}, _AbstractChatCompletionRunner_getFinalFunctionCallResult = function _AbstractChatCompletionRunner_getFinalFunctionCallResult2() {
+  for (let i = this.messages.length - 1; i >= 0; i--) {
+    const message = this.messages[i];
+    if (isFunctionMessage(message) && message.content != null) {
+      return message.content;
+    }
+  }
+  return;
+}, _AbstractChatCompletionRunner_calculateTotalUsage = function _AbstractChatCompletionRunner_calculateTotalUsage2() {
+  const total = {
+    completion_tokens: 0,
+    prompt_tokens: 0,
+    total_tokens: 0
+  };
+  for (const { usage } of this._chatCompletions) {
+    if (usage) {
+      total.completion_tokens += usage.completion_tokens;
+      total.prompt_tokens += usage.prompt_tokens;
+      total.total_tokens += usage.total_tokens;
+    }
+  }
+  return total;
+}, _AbstractChatCompletionRunner_validateParams = function _AbstractChatCompletionRunner_validateParams2(params) {
+  if (params.n != null && params.n > 1) {
+    throw new OpenAIError("ChatCompletion convenience helpers only support n=1 at this time. To use n>1, please use chat.completions.create() directly.");
+  }
+}, _AbstractChatCompletionRunner_stringifyFunctionCallResult = function _AbstractChatCompletionRunner_stringifyFunctionCallResult2(rawContent) {
+  return typeof rawContent === "string" ? rawContent : rawContent === void 0 ? "undefined" : JSON.stringify(rawContent);
+};
+
+// node_modules/openai/lib/ChatCompletionRunner.mjs
+var ChatCompletionRunner = class extends AbstractChatCompletionRunner {
+  static runFunctions(completions, params, options) {
+    const runner = new ChatCompletionRunner();
+    runner._run(() => runner._runFunctions(completions, params, options));
+    return runner;
+  }
+  static runTools(completions, params, options) {
+    const runner = new ChatCompletionRunner();
+    runner._run(() => runner._runTools(completions, params, options));
+    return runner;
+  }
+  _addMessage(message) {
+    super._addMessage(message);
+    if (isAssistantMessage(message) && message.content) {
+      this._emit("content", message.content);
+    }
+  }
+};
+
+// node_modules/openai/lib/ChatCompletionStream.mjs
+var __classPrivateFieldGet3 = function(receiver, state, kind2, f) {
+  if (kind2 === "a" && !f)
+    throw new TypeError("Private accessor was defined without a getter");
+  if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
+    throw new TypeError("Cannot read private member from an object whose class did not declare it");
+  return kind2 === "m" ? f : kind2 === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
+};
+var __classPrivateFieldSet3 = function(receiver, state, value, kind2, f) {
+  if (kind2 === "m")
+    throw new TypeError("Private method is not writable");
+  if (kind2 === "a" && !f)
+    throw new TypeError("Private accessor was defined without a setter");
+  if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
+    throw new TypeError("Cannot write private member to an object whose class did not declare it");
+  return kind2 === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value), value;
+};
+var _ChatCompletionStream_instances;
+var _ChatCompletionStream_currentChatCompletionSnapshot;
+var _ChatCompletionStream_beginRequest;
+var _ChatCompletionStream_addChunk;
+var _ChatCompletionStream_endRequest;
+var _ChatCompletionStream_accumulateChatCompletion;
+var ChatCompletionStream = class extends AbstractChatCompletionRunner {
+  constructor() {
+    super(...arguments);
+    _ChatCompletionStream_instances.add(this);
+    _ChatCompletionStream_currentChatCompletionSnapshot.set(this, void 0);
+  }
+  get currentChatCompletionSnapshot() {
+    return __classPrivateFieldGet3(this, _ChatCompletionStream_currentChatCompletionSnapshot, "f");
+  }
+  /**
+   * Intended for use on the frontend, consuming a stream produced with
+   * `.toReadableStream()` on the backend.
+   *
+   * Note that messages sent to the model do not appear in `.on('message')`
+   * in this context.
+   */
+  static fromReadableStream(stream) {
+    const runner = new ChatCompletionStream();
+    runner._run(() => runner._fromReadableStream(stream));
+    return runner;
+  }
+  static createChatCompletion(completions, params, options) {
+    const runner = new ChatCompletionStream();
+    runner._run(() => runner._runChatCompletion(completions, { ...params, stream: true }, options));
+    return runner;
+  }
+  async _createChatCompletion(completions, params, options) {
+    var _a2;
+    const signal = options == null ? void 0 : options.signal;
+    if (signal) {
+      if (signal.aborted)
+        this.controller.abort();
+      signal.addEventListener("abort", () => this.controller.abort());
+    }
+    __classPrivateFieldGet3(this, _ChatCompletionStream_instances, "m", _ChatCompletionStream_beginRequest).call(this);
+    const stream = await completions.create({ ...params, stream: true }, { ...options, signal: this.controller.signal });
+    this._connected();
+    for await (const chunk of stream) {
+      __classPrivateFieldGet3(this, _ChatCompletionStream_instances, "m", _ChatCompletionStream_addChunk).call(this, chunk);
+    }
+    if ((_a2 = stream.controller.signal) == null ? void 0 : _a2.aborted) {
+      throw new APIUserAbortError();
+    }
+    return this._addChatCompletion(__classPrivateFieldGet3(this, _ChatCompletionStream_instances, "m", _ChatCompletionStream_endRequest).call(this));
+  }
+  async _fromReadableStream(readableStream, options) {
+    var _a2;
+    const signal = options == null ? void 0 : options.signal;
+    if (signal) {
+      if (signal.aborted)
+        this.controller.abort();
+      signal.addEventListener("abort", () => this.controller.abort());
+    }
+    __classPrivateFieldGet3(this, _ChatCompletionStream_instances, "m", _ChatCompletionStream_beginRequest).call(this);
+    this._connected();
+    const stream = Stream.fromReadableStream(readableStream, this.controller);
+    let chatId;
+    for await (const chunk of stream) {
+      if (chatId && chatId !== chunk.id) {
+        this._addChatCompletion(__classPrivateFieldGet3(this, _ChatCompletionStream_instances, "m", _ChatCompletionStream_endRequest).call(this));
+      }
+      __classPrivateFieldGet3(this, _ChatCompletionStream_instances, "m", _ChatCompletionStream_addChunk).call(this, chunk);
+      chatId = chunk.id;
+    }
+    if ((_a2 = stream.controller.signal) == null ? void 0 : _a2.aborted) {
+      throw new APIUserAbortError();
+    }
+    return this._addChatCompletion(__classPrivateFieldGet3(this, _ChatCompletionStream_instances, "m", _ChatCompletionStream_endRequest).call(this));
+  }
+  [(_ChatCompletionStream_currentChatCompletionSnapshot = /* @__PURE__ */ new WeakMap(), _ChatCompletionStream_instances = /* @__PURE__ */ new WeakSet(), _ChatCompletionStream_beginRequest = function _ChatCompletionStream_beginRequest2() {
+    if (this.ended)
+      return;
+    __classPrivateFieldSet3(this, _ChatCompletionStream_currentChatCompletionSnapshot, void 0, "f");
+  }, _ChatCompletionStream_addChunk = function _ChatCompletionStream_addChunk2(chunk) {
+    var _a2, _b, _c;
+    if (this.ended)
+      return;
+    const completion = __classPrivateFieldGet3(this, _ChatCompletionStream_instances, "m", _ChatCompletionStream_accumulateChatCompletion).call(this, chunk);
+    this._emit("chunk", chunk, completion);
+    const delta = (_b = (_a2 = chunk.choices[0]) == null ? void 0 : _a2.delta) == null ? void 0 : _b.content;
+    const snapshot = (_c = completion.choices[0]) == null ? void 0 : _c.message;
+    if (delta != null && (snapshot == null ? void 0 : snapshot.role) === "assistant" && (snapshot == null ? void 0 : snapshot.content)) {
+      this._emit("content", delta, snapshot.content);
+    }
+  }, _ChatCompletionStream_endRequest = function _ChatCompletionStream_endRequest2() {
+    if (this.ended) {
+      throw new OpenAIError(`stream has ended, this shouldn't happen`);
+    }
+    const snapshot = __classPrivateFieldGet3(this, _ChatCompletionStream_currentChatCompletionSnapshot, "f");
+    if (!snapshot) {
+      throw new OpenAIError(`request ended without sending any chunks`);
+    }
+    __classPrivateFieldSet3(this, _ChatCompletionStream_currentChatCompletionSnapshot, void 0, "f");
+    return finalizeChatCompletion(snapshot);
+  }, _ChatCompletionStream_accumulateChatCompletion = function _ChatCompletionStream_accumulateChatCompletion2(chunk) {
+    var _a3, _b2, _c;
+    var _a2, _b;
+    let snapshot = __classPrivateFieldGet3(this, _ChatCompletionStream_currentChatCompletionSnapshot, "f");
+    const { choices, ...rest } = chunk;
+    if (!snapshot) {
+      snapshot = __classPrivateFieldSet3(this, _ChatCompletionStream_currentChatCompletionSnapshot, {
+        ...rest,
+        choices: []
+      }, "f");
+    } else {
+      Object.assign(snapshot, rest);
+    }
+    for (const { delta, finish_reason, index, ...other } of chunk.choices) {
+      let choice = snapshot.choices[index];
+      if (!choice) {
+        snapshot.choices[index] = { finish_reason, index, message: delta, ...other };
+        continue;
+      }
+      if (finish_reason)
+        choice.finish_reason = finish_reason;
+      Object.assign(choice, other);
+      if (!delta)
+        continue;
+      const { content, function_call, role, tool_calls } = delta;
+      if (content)
+        choice.message.content = (choice.message.content || "") + content;
+      if (role)
+        choice.message.role = role;
+      if (function_call) {
+        if (!choice.message.function_call) {
+          choice.message.function_call = function_call;
+        } else {
+          if (function_call.name)
+            choice.message.function_call.name = function_call.name;
+          if (function_call.arguments) {
+            (_a3 = (_a2 = choice.message.function_call).arguments) != null ? _a3 : _a2.arguments = "";
+            choice.message.function_call.arguments += function_call.arguments;
+          }
+        }
+      }
+      if (tool_calls) {
+        if (!choice.message.tool_calls)
+          choice.message.tool_calls = [];
+        for (const { index: index2, id, type, function: fn } of tool_calls) {
+          const tool_call = (_b2 = (_b = choice.message.tool_calls)[index2]) != null ? _b2 : _b[index2] = {};
+          if (id)
+            tool_call.id = id;
+          if (type)
+            tool_call.type = type;
+          if (fn)
+            (_c = tool_call.function) != null ? _c : tool_call.function = { arguments: "" };
+          if (fn == null ? void 0 : fn.name)
+            tool_call.function.name = fn.name;
+          if (fn == null ? void 0 : fn.arguments)
+            tool_call.function.arguments += fn.arguments;
+        }
+      }
+    }
+    return snapshot;
+  }, Symbol.asyncIterator)]() {
+    const pushQueue = [];
+    const readQueue = [];
+    let done = false;
+    this.on("chunk", (chunk) => {
+      const reader = readQueue.shift();
+      if (reader) {
+        reader(chunk);
+      } else {
+        pushQueue.push(chunk);
+      }
+    });
+    this.on("end", () => {
+      done = true;
+      for (const reader of readQueue) {
+        reader(void 0);
+      }
+      readQueue.length = 0;
+    });
+    return {
+      next: async () => {
+        if (!pushQueue.length) {
+          if (done) {
+            return { value: void 0, done: true };
+          }
+          return new Promise((resolve) => readQueue.push(resolve)).then((chunk2) => chunk2 ? { value: chunk2, done: false } : { value: void 0, done: true });
+        }
+        const chunk = pushQueue.shift();
+        return { value: chunk, done: false };
+      }
+    };
+  }
+  toReadableStream() {
+    const stream = new Stream(this[Symbol.asyncIterator].bind(this), this.controller);
+    return stream.toReadableStream();
+  }
+};
+function finalizeChatCompletion(snapshot) {
+  const { id, choices, created, model } = snapshot;
+  return {
+    id,
+    choices: choices.map(({ message, finish_reason, index }) => {
+      if (!finish_reason)
+        throw new OpenAIError(`missing finish_reason for choice ${index}`);
+      const { content = null, function_call, tool_calls } = message;
+      const role = message.role;
+      if (!role)
+        throw new OpenAIError(`missing role for choice ${index}`);
+      if (function_call) {
+        const { arguments: args, name } = function_call;
+        if (args == null)
+          throw new OpenAIError(`missing function_call.arguments for choice ${index}`);
+        if (!name)
+          throw new OpenAIError(`missing function_call.name for choice ${index}`);
+        return { message: { content, function_call: { arguments: args, name }, role }, finish_reason, index };
+      }
+      if (tool_calls) {
+        return {
+          index,
+          finish_reason,
+          message: {
+            role,
+            content,
+            tool_calls: tool_calls.map((tool_call, i) => {
+              const { function: fn, type, id: id2 } = tool_call;
+              const { arguments: args, name } = fn || {};
+              if (id2 == null)
+                throw new OpenAIError(`missing choices[${index}].tool_calls[${i}].id
+${str(snapshot)}`);
+              if (type == null)
+                throw new OpenAIError(`missing choices[${index}].tool_calls[${i}].type
+${str(snapshot)}`);
+              if (name == null)
+                throw new OpenAIError(`missing choices[${index}].tool_calls[${i}].function.name
+${str(snapshot)}`);
+              if (args == null)
+                throw new OpenAIError(`missing choices[${index}].tool_calls[${i}].function.arguments
+${str(snapshot)}`);
+              return { id: id2, type, function: { name, arguments: args } };
+            })
+          }
+        };
+      }
+      return { message: { content, role }, finish_reason, index };
+    }),
+    created,
+    model,
+    object: "chat.completion"
+  };
+}
+function str(x2) {
+  return JSON.stringify(x2);
+}
+
+// node_modules/openai/lib/ChatCompletionStreamingRunner.mjs
+var ChatCompletionStreamingRunner = class extends ChatCompletionStream {
+  static fromReadableStream(stream) {
+    const runner = new ChatCompletionStreamingRunner();
+    runner._run(() => runner._fromReadableStream(stream));
+    return runner;
+  }
+  static runFunctions(completions, params, options) {
+    const runner = new ChatCompletionStreamingRunner();
+    runner._run(() => runner._runFunctions(completions, params, options));
+    return runner;
+  }
+  static runTools(completions, params, options) {
+    const runner = new ChatCompletionStreamingRunner();
+    runner._run(() => runner._runTools(completions, params, options));
+    return runner;
+  }
+};
+
+// node_modules/openai/resources/beta/chat/completions.mjs
+var Completions2 = class extends APIResource {
+  runFunctions(body, options) {
+    if (body.stream) {
+      return ChatCompletionStreamingRunner.runFunctions(this.client.chat.completions, body, options);
+    }
+    return ChatCompletionRunner.runFunctions(this.client.chat.completions, body, options);
+  }
+  runTools(body, options) {
+    if (body.stream) {
+      return ChatCompletionStreamingRunner.runTools(this.client.chat.completions, body, options);
+    }
+    return ChatCompletionRunner.runTools(this.client.chat.completions, body, options);
+  }
+  /**
+   * Creates a chat completion stream
+   */
+  stream(body, options) {
+    return ChatCompletionStream.createChatCompletion(this.client.chat.completions, body, options);
+  }
+};
+
+// node_modules/openai/resources/beta/chat/chat.mjs
+var Chat2 = class extends APIResource {
+  constructor() {
+    super(...arguments);
+    this.completions = new Completions2(this.client);
+  }
+};
+(function(Chat3) {
+  Chat3.Completions = Completions2;
+})(Chat2 || (Chat2 = {}));
+
+// node_modules/openai/resources/beta/threads/messages/files.mjs
+var Files2 = class extends APIResource {
+  /**
+   * Retrieves a message file.
+   */
+  retrieve(threadId, messageId, fileId, options) {
+    return this.get(`/threads/${threadId}/messages/${messageId}/files/${fileId}`, {
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  list(threadId, messageId, query = {}, options) {
+    if (isRequestOptions(query)) {
+      return this.list(threadId, messageId, {}, query);
+    }
+    return this.getAPIList(`/threads/${threadId}/messages/${messageId}/files`, MessageFilesPage, {
+      query,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+};
+var MessageFilesPage = class extends CursorPage {
+};
+(function(Files4) {
+  Files4.MessageFilesPage = MessageFilesPage;
+})(Files2 || (Files2 = {}));
+
+// node_modules/openai/resources/beta/threads/messages/messages.mjs
+var Messages = class extends APIResource {
+  constructor() {
+    super(...arguments);
+    this.files = new Files2(this.client);
+  }
+  /**
+   * Create a message.
+   */
+  create(threadId, body, options) {
+    return this.post(`/threads/${threadId}/messages`, {
+      body,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * Retrieve a message.
+   */
+  retrieve(threadId, messageId, options) {
+    return this.get(`/threads/${threadId}/messages/${messageId}`, {
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * Modifies a message.
+   */
+  update(threadId, messageId, body, options) {
+    return this.post(`/threads/${threadId}/messages/${messageId}`, {
+      body,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  list(threadId, query = {}, options) {
+    if (isRequestOptions(query)) {
+      return this.list(threadId, {}, query);
+    }
+    return this.getAPIList(`/threads/${threadId}/messages`, ThreadMessagesPage, {
+      query,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+};
+var ThreadMessagesPage = class extends CursorPage {
+};
+(function(Messages2) {
+  Messages2.ThreadMessagesPage = ThreadMessagesPage;
+  Messages2.Files = Files2;
+  Messages2.MessageFilesPage = MessageFilesPage;
+})(Messages || (Messages = {}));
+
+// node_modules/openai/resources/beta/threads/runs/steps.mjs
+var Steps = class extends APIResource {
+  /**
+   * Retrieves a run step.
+   */
+  retrieve(threadId, runId, stepId, options) {
+    return this.get(`/threads/${threadId}/runs/${runId}/steps/${stepId}`, {
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  list(threadId, runId, query = {}, options) {
+    if (isRequestOptions(query)) {
+      return this.list(threadId, runId, {}, query);
+    }
+    return this.getAPIList(`/threads/${threadId}/runs/${runId}/steps`, RunStepsPage, {
+      query,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+};
+var RunStepsPage = class extends CursorPage {
+};
+(function(Steps2) {
+  Steps2.RunStepsPage = RunStepsPage;
+})(Steps || (Steps = {}));
+
+// node_modules/openai/resources/beta/threads/runs/runs.mjs
+var Runs = class extends APIResource {
+  constructor() {
+    super(...arguments);
+    this.steps = new Steps(this.client);
+  }
+  /**
+   * Create a run.
+   */
+  create(threadId, body, options) {
+    return this.post(`/threads/${threadId}/runs`, {
+      body,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * Retrieves a run.
+   */
+  retrieve(threadId, runId, options) {
+    return this.get(`/threads/${threadId}/runs/${runId}`, {
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * Modifies a run.
+   */
+  update(threadId, runId, body, options) {
+    return this.post(`/threads/${threadId}/runs/${runId}`, {
+      body,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  list(threadId, query = {}, options) {
+    if (isRequestOptions(query)) {
+      return this.list(threadId, {}, query);
+    }
+    return this.getAPIList(`/threads/${threadId}/runs`, RunsPage, {
+      query,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * Cancels a run that is `in_progress`.
+   */
+  cancel(threadId, runId, options) {
+    return this.post(`/threads/${threadId}/runs/${runId}/cancel`, {
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * When a run has the `status: "requires_action"` and `required_action.type` is
+   * `submit_tool_outputs`, this endpoint can be used to submit the outputs from the
+   * tool calls once they're all completed. All outputs must be submitted in a single
+   * request.
+   */
+  submitToolOutputs(threadId, runId, body, options) {
+    return this.post(`/threads/${threadId}/runs/${runId}/submit_tool_outputs`, {
+      body,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+};
+var RunsPage = class extends CursorPage {
+};
+(function(Runs2) {
+  Runs2.RunsPage = RunsPage;
+  Runs2.Steps = Steps;
+  Runs2.RunStepsPage = RunStepsPage;
+})(Runs || (Runs = {}));
+
+// node_modules/openai/resources/beta/threads/threads.mjs
+var Threads = class extends APIResource {
+  constructor() {
+    super(...arguments);
+    this.runs = new Runs(this.client);
+    this.messages = new Messages(this.client);
+  }
+  create(body = {}, options) {
+    if (isRequestOptions(body)) {
+      return this.create({}, body);
+    }
+    return this.post("/threads", {
+      body,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * Retrieves a thread.
+   */
+  retrieve(threadId, options) {
+    return this.get(`/threads/${threadId}`, {
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * Modifies a thread.
+   */
+  update(threadId, body, options) {
+    return this.post(`/threads/${threadId}`, {
+      body,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * Delete a thread.
+   */
+  del(threadId, options) {
+    return this.delete(`/threads/${threadId}`, {
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * Create a thread and run it in one request.
+   */
+  createAndRun(body, options) {
+    return this.post("/threads/runs", {
+      body,
+      ...options,
+      headers: { "OpenAI-Beta": "assistants=v1", ...options == null ? void 0 : options.headers }
+    });
+  }
+};
+(function(Threads2) {
+  Threads2.Runs = Runs;
+  Threads2.RunsPage = RunsPage;
+  Threads2.Messages = Messages;
+  Threads2.ThreadMessagesPage = ThreadMessagesPage;
+})(Threads || (Threads = {}));
+
+// node_modules/openai/resources/beta/beta.mjs
+var Beta = class extends APIResource {
+  constructor() {
+    super(...arguments);
+    this.chat = new Chat2(this.client);
+    this.assistants = new Assistants(this.client);
+    this.threads = new Threads(this.client);
+  }
+};
+(function(Beta2) {
+  Beta2.Chat = Chat2;
+  Beta2.Assistants = Assistants;
+  Beta2.AssistantsPage = AssistantsPage;
+  Beta2.Threads = Threads;
+})(Beta || (Beta = {}));
+
+// node_modules/openai/resources/completions.mjs
+var Completions3 = class extends APIResource {
+  create(body, options) {
+    var _a2;
+    return this.post("/completions", { body, ...options, stream: (_a2 = body.stream) != null ? _a2 : false });
+  }
+};
+(function(Completions4) {
+})(Completions3 || (Completions3 = {}));
+
+// node_modules/openai/resources/embeddings.mjs
+var Embeddings = class extends APIResource {
+  /**
+   * Creates an embedding vector representing the input text.
+   */
+  create(body, options) {
+    return this.post("/embeddings", { body, ...options });
+  }
+};
+(function(Embeddings2) {
+})(Embeddings || (Embeddings = {}));
+
+// node_modules/openai/resources/edits.mjs
+var Edits = class extends APIResource {
+  /**
+   * Creates a new edit for the provided input, instruction, and parameters.
+   *
+   * @deprecated The Edits API is deprecated; please use Chat Completions instead.
+   *
+   * https://openai.com/blog/gpt-4-api-general-availability#deprecation-of-the-edits-api
+   */
+  create(body, options) {
+    return this.post("/edits", { body, ...options });
+  }
+};
+(function(Edits2) {
+})(Edits || (Edits = {}));
+
+// node_modules/openai/resources/files.mjs
+var Files3 = class extends APIResource {
+  /**
+   * Upload a file that can be used across various endpoints/features. The size of
+   * all the files uploaded by one organization can be up to 100 GB.
+   *
+   * The size of individual files for can be a maximum of 512MB. See the
+   * [Assistants Tools guide](https://platform.openai.com/docs/assistants/tools) to
+   * learn more about the types of files supported. The Fine-tuning API only supports
+   * `.jsonl` files.
+   *
+   * Please [contact us](https://help.openai.com/) if you need to increase these
+   * storage limits.
+   */
+  create(body, options) {
+    return this.post("/files", multipartFormRequestOptions({ body, ...options }));
+  }
+  /**
+   * Returns information about a specific file.
+   */
+  retrieve(fileId, options) {
+    return this.get(`/files/${fileId}`, options);
+  }
+  list(query = {}, options) {
+    if (isRequestOptions(query)) {
+      return this.list({}, query);
+    }
+    return this.getAPIList("/files", FileObjectsPage, { query, ...options });
+  }
+  /**
+   * Delete a file.
+   */
+  del(fileId, options) {
+    return this.delete(`/files/${fileId}`, options);
+  }
+  /**
+   * Returns the contents of the specified file.
+   */
+  retrieveContent(fileId, options) {
+    return this.get(`/files/${fileId}/content`, {
+      ...options,
+      headers: { Accept: "application/json", ...options == null ? void 0 : options.headers }
+    });
+  }
+  /**
+   * Waits for the given file to be processed, default timeout is 30 mins.
+   */
+  async waitForProcessing(id, { pollInterval = 5e3, maxWait = 30 * 60 * 1e3 } = {}) {
+    const TERMINAL_STATES = /* @__PURE__ */ new Set(["processed", "error", "deleted"]);
+    const start = Date.now();
+    let file = await this.retrieve(id);
+    while (!file.status || !TERMINAL_STATES.has(file.status)) {
+      await sleep(pollInterval);
+      file = await this.retrieve(id);
+      if (Date.now() - start > maxWait) {
+        throw new APIConnectionTimeoutError({
+          message: `Giving up on waiting for file ${id} to finish processing after ${maxWait} milliseconds.`
+        });
+      }
+    }
+    return file;
+  }
+};
+var FileObjectsPage = class extends Page {
+};
+(function(Files4) {
+  Files4.FileObjectsPage = FileObjectsPage;
+})(Files3 || (Files3 = {}));
+
+// node_modules/openai/resources/fine-tunes.mjs
+var FineTunes = class extends APIResource {
+  /**
+   * Creates a job that fine-tunes a specified model from a given dataset.
+   *
+   * Response includes details of the enqueued job including job status and the name
+   * of the fine-tuned models once complete.
+   *
+   * [Learn more about fine-tuning](https://platform.openai.com/docs/guides/legacy-fine-tuning)
+   */
+  create(body, options) {
+    return this.post("/fine-tunes", { body, ...options });
+  }
+  /**
+   * Gets info about the fine-tune job.
+   *
+   * [Learn more about fine-tuning](https://platform.openai.com/docs/guides/legacy-fine-tuning)
+   */
+  retrieve(fineTuneId, options) {
+    return this.get(`/fine-tunes/${fineTuneId}`, options);
+  }
+  /**
+   * List your organization's fine-tuning jobs
+   */
+  list(options) {
+    return this.getAPIList("/fine-tunes", FineTunesPage, options);
+  }
+  /**
+   * Immediately cancel a fine-tune job.
+   */
+  cancel(fineTuneId, options) {
+    return this.post(`/fine-tunes/${fineTuneId}/cancel`, options);
+  }
+  listEvents(fineTuneId, query, options) {
+    var _a2;
+    return this.get(`/fine-tunes/${fineTuneId}/events`, {
+      query,
+      timeout: 864e5,
+      ...options,
+      stream: (_a2 = query == null ? void 0 : query.stream) != null ? _a2 : false
+    });
+  }
+};
+var FineTunesPage = class extends Page {
+};
+(function(FineTunes2) {
+  FineTunes2.FineTunesPage = FineTunesPage;
+})(FineTunes || (FineTunes = {}));
+
+// node_modules/openai/resources/fine-tuning/jobs.mjs
+var Jobs = class extends APIResource {
+  /**
+   * Creates a job that fine-tunes a specified model from a given dataset.
+   *
+   * Response includes details of the enqueued job including job status and the name
+   * of the fine-tuned models once complete.
+   *
+   * [Learn more about fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)
+   */
+  create(body, options) {
+    return this.post("/fine_tuning/jobs", { body, ...options });
+  }
+  /**
+   * Get info about a fine-tuning job.
+   *
+   * [Learn more about fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)
+   */
+  retrieve(fineTuningJobId, options) {
+    return this.get(`/fine_tuning/jobs/${fineTuningJobId}`, options);
+  }
+  list(query = {}, options) {
+    if (isRequestOptions(query)) {
+      return this.list({}, query);
+    }
+    return this.getAPIList("/fine_tuning/jobs", FineTuningJobsPage, { query, ...options });
+  }
+  /**
+   * Immediately cancel a fine-tune job.
+   */
+  cancel(fineTuningJobId, options) {
+    return this.post(`/fine_tuning/jobs/${fineTuningJobId}/cancel`, options);
+  }
+  listEvents(fineTuningJobId, query = {}, options) {
+    if (isRequestOptions(query)) {
+      return this.listEvents(fineTuningJobId, {}, query);
+    }
+    return this.getAPIList(`/fine_tuning/jobs/${fineTuningJobId}/events`, FineTuningJobEventsPage, {
+      query,
+      ...options
+    });
+  }
+};
+var FineTuningJobsPage = class extends CursorPage {
+};
+var FineTuningJobEventsPage = class extends CursorPage {
+};
+(function(Jobs2) {
+  Jobs2.FineTuningJobsPage = FineTuningJobsPage;
+  Jobs2.FineTuningJobEventsPage = FineTuningJobEventsPage;
+})(Jobs || (Jobs = {}));
+
+// node_modules/openai/resources/fine-tuning/fine-tuning.mjs
+var FineTuning = class extends APIResource {
+  constructor() {
+    super(...arguments);
+    this.jobs = new Jobs(this.client);
+  }
+};
+(function(FineTuning2) {
+  FineTuning2.Jobs = Jobs;
+  FineTuning2.FineTuningJobsPage = FineTuningJobsPage;
+  FineTuning2.FineTuningJobEventsPage = FineTuningJobEventsPage;
+})(FineTuning || (FineTuning = {}));
+
+// node_modules/openai/resources/images.mjs
+var Images = class extends APIResource {
+  /**
+   * Creates a variation of a given image.
+   */
+  createVariation(body, options) {
+    return this.post("/images/variations", multipartFormRequestOptions({ body, ...options }));
+  }
+  /**
+   * Creates an edited or extended image given an original image and a prompt.
+   */
+  edit(body, options) {
+    return this.post("/images/edits", multipartFormRequestOptions({ body, ...options }));
+  }
+  /**
+   * Creates an image given a prompt.
+   */
+  generate(body, options) {
+    return this.post("/images/generations", { body, ...options });
+  }
+};
+(function(Images2) {
+})(Images || (Images = {}));
+
+// node_modules/openai/resources/models.mjs
+var Models = class extends APIResource {
+  /**
+   * Retrieves a model instance, providing basic information about the model such as
+   * the owner and permissioning.
+   */
+  retrieve(model, options) {
+    return this.get(`/models/${model}`, options);
+  }
+  /**
+   * Lists the currently available models, and provides basic information about each
+   * one such as the owner and availability.
+   */
+  list(options) {
+    return this.getAPIList("/models", ModelsPage, options);
+  }
+  /**
+   * Delete a fine-tuned model. You must have the Owner role in your organization to
+   * delete a model.
+   */
+  del(model, options) {
+    return this.delete(`/models/${model}`, options);
+  }
+};
+var ModelsPage = class extends Page {
+};
+(function(Models2) {
+  Models2.ModelsPage = ModelsPage;
+})(Models || (Models = {}));
+
+// node_modules/openai/resources/moderations.mjs
+var Moderations = class extends APIResource {
+  /**
+   * Classifies if text violates OpenAI's Content Policy
+   */
+  create(body, options) {
+    return this.post("/moderations", { body, ...options });
+  }
+};
+(function(Moderations2) {
+})(Moderations || (Moderations = {}));
+
+// node_modules/openai/index.mjs
+var _a;
+var OpenAI = class extends APIClient {
+  /**
+   * API Client for interfacing with the OpenAI API.
+   *
+   * @param {string} [opts.apiKey==process.env['OPENAI_API_KEY'] ?? undefined]
+   * @param {string | null} [opts.organization==process.env['OPENAI_ORG_ID'] ?? null]
+   * @param {string} [opts.baseURL] - Override the default base URL for the API.
+   * @param {number} [opts.timeout=10 minutes] - The maximum amount of time (in milliseconds) the client will wait for a response before timing out.
+   * @param {number} [opts.httpAgent] - An HTTP agent used to manage HTTP(s) connections.
+   * @param {Core.Fetch} [opts.fetch] - Specify a custom `fetch` function implementation.
+   * @param {number} [opts.maxRetries=2] - The maximum number of times the client will retry a request.
+   * @param {Core.Headers} opts.defaultHeaders - Default headers to include with every request to the API.
+   * @param {Core.DefaultQuery} opts.defaultQuery - Default query parameters to include with every request to the API.
+   * @param {boolean} [opts.dangerouslyAllowBrowser=false] - By default, client-side use of this library is not allowed, as it risks exposing your secret API credentials to attackers.
+   */
+  constructor({ apiKey = readEnv("OPENAI_API_KEY"), organization = ((_a2) => (_a2 = readEnv("OPENAI_ORG_ID")) != null ? _a2 : null)(), ...opts } = {}) {
+    var _a3, _b;
+    if (apiKey === void 0) {
+      throw new OpenAIError("The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).");
+    }
+    const options = {
+      apiKey,
+      organization,
+      ...opts,
+      baseURL: (_a3 = opts.baseURL) != null ? _a3 : `https://api.openai.com/v1`
+    };
+    if (!options.dangerouslyAllowBrowser && isRunningInBrowser()) {
+      throw new OpenAIError("It looks like you're running in a browser-like environment.\n\nThis is disabled by default, as it risks exposing your secret API credentials to attackers.\nIf you understand the risks and have appropriate mitigations in place,\nyou can set the `dangerouslyAllowBrowser` option to `true`, e.g.,\n\nnew OpenAI({ apiKey, dangerouslyAllowBrowser: true });\n\nhttps://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety\n");
+    }
+    super({
+      baseURL: options.baseURL,
+      timeout: (_b = options.timeout) != null ? _b : 6e5,
+      httpAgent: options.httpAgent,
+      maxRetries: options.maxRetries,
+      fetch: options.fetch
+    });
+    this.completions = new Completions3(this);
+    this.chat = new Chat(this);
+    this.edits = new Edits(this);
+    this.embeddings = new Embeddings(this);
+    this.files = new Files3(this);
+    this.images = new Images(this);
+    this.audio = new Audio(this);
+    this.moderations = new Moderations(this);
+    this.models = new Models(this);
+    this.fineTuning = new FineTuning(this);
+    this.fineTunes = new FineTunes(this);
+    this.beta = new Beta(this);
+    this._options = options;
+    this.apiKey = apiKey;
+    this.organization = organization;
+  }
+  defaultQuery() {
+    return this._options.defaultQuery;
+  }
+  defaultHeaders(opts) {
+    return {
+      ...super.defaultHeaders(opts),
+      "OpenAI-Organization": this.organization,
+      ...this._options.defaultHeaders
+    };
+  }
+  authHeaders(opts) {
+    return { Authorization: `Bearer ${this.apiKey}` };
+  }
+};
+_a = OpenAI;
+OpenAI.OpenAI = _a;
+OpenAI.OpenAIError = OpenAIError;
+OpenAI.APIError = APIError;
+OpenAI.APIConnectionError = APIConnectionError;
+OpenAI.APIConnectionTimeoutError = APIConnectionTimeoutError;
+OpenAI.APIUserAbortError = APIUserAbortError;
+OpenAI.NotFoundError = NotFoundError;
+OpenAI.ConflictError = ConflictError;
+OpenAI.RateLimitError = RateLimitError;
+OpenAI.BadRequestError = BadRequestError;
+OpenAI.AuthenticationError = AuthenticationError;
+OpenAI.InternalServerError = InternalServerError;
+OpenAI.PermissionDeniedError = PermissionDeniedError;
+OpenAI.UnprocessableEntityError = UnprocessableEntityError;
+var { OpenAIError: OpenAIError2, APIError: APIError2, APIConnectionError: APIConnectionError2, APIConnectionTimeoutError: APIConnectionTimeoutError2, APIUserAbortError: APIUserAbortError2, NotFoundError: NotFoundError2, ConflictError: ConflictError2, RateLimitError: RateLimitError2, BadRequestError: BadRequestError2, AuthenticationError: AuthenticationError2, InternalServerError: InternalServerError2, PermissionDeniedError: PermissionDeniedError2, UnprocessableEntityError: UnprocessableEntityError2 } = error_exports;
+(function(OpenAI2) {
+  OpenAI2.toFile = toFile;
+  OpenAI2.fileFromPath = fileFromPath;
+  OpenAI2.Page = Page;
+  OpenAI2.CursorPage = CursorPage;
+  OpenAI2.Completions = Completions3;
+  OpenAI2.Chat = Chat;
+  OpenAI2.Edits = Edits;
+  OpenAI2.Embeddings = Embeddings;
+  OpenAI2.Files = Files3;
+  OpenAI2.FileObjectsPage = FileObjectsPage;
+  OpenAI2.Images = Images;
+  OpenAI2.Audio = Audio;
+  OpenAI2.Moderations = Moderations;
+  OpenAI2.Models = Models;
+  OpenAI2.ModelsPage = ModelsPage;
+  OpenAI2.FineTuning = FineTuning;
+  OpenAI2.FineTunes = FineTunes;
+  OpenAI2.FineTunesPage = FineTunesPage;
+  OpenAI2.Beta = Beta;
+})(OpenAI || (OpenAI = {}));
+var openai_default = OpenAI;
 
 // node_modules/zod/lib/index.mjs
 var util;
@@ -27688,7 +27240,7 @@ var makeIssue = (params) => {
     path: fullPath
   };
   let errorMessage = "";
-  const maps = errorMaps.filter((m) => !!m).slice().reverse();
+  const maps = errorMaps.filter((m2) => !!m2).slice().reverse();
   for (const map of maps) {
     errorMessage = map(fullIssue, { data, defaultError: errorMessage }).message;
   }
@@ -27710,7 +27262,7 @@ function addIssueToContext(ctx, issueData) {
       getErrorMap(),
       errorMap
       // then global default map
-    ].filter((x) => !!x)
+    ].filter((x2) => !!x2)
   });
   ctx.common.issues.push(issue);
 }
@@ -27771,10 +27323,10 @@ var INVALID = Object.freeze({
 });
 var DIRTY = (value) => ({ status: "dirty", value });
 var OK = (value) => ({ status: "valid", value });
-var isAborted = (x) => x.status === "aborted";
-var isDirty = (x) => x.status === "dirty";
-var isValid = (x) => x.status === "valid";
-var isAsync = (x) => typeof Promise !== "undefined" && x instanceof Promise;
+var isAborted = (x2) => x2.status === "aborted";
+var isDirty = (x2) => x2.status === "dirty";
+var isValid = (x2) => x2.status === "valid";
+var isAsync = (x2) => typeof Promise !== "undefined" && x2 instanceof Promise;
 var errorUtil;
 (function(errorUtil2) {
   errorUtil2.errToObj = (message) => typeof message === "string" ? { message } : message || {};
@@ -27912,11 +27464,11 @@ var ZodType = class {
     throw result.error;
   }
   safeParse(data, params) {
-    var _a;
+    var _a2;
     const ctx = {
       common: {
         issues: [],
-        async: (_a = params === null || params === void 0 ? void 0 : params.async) !== null && _a !== void 0 ? _a : false,
+        async: (_a2 = params === null || params === void 0 ? void 0 : params.async) !== null && _a2 !== void 0 ? _a2 : false,
         contextualErrorMap: params === null || params === void 0 ? void 0 : params.errorMap
       },
       path: (params === null || params === void 0 ? void 0 : params.path) || [],
@@ -28272,7 +27824,7 @@ var ZodString = class extends ZodType {
       } else if (check.kind === "url") {
         try {
           new URL(input.data);
-        } catch (_a) {
+        } catch (_a2) {
           ctx = this._getOrReturnCtx(input, ctx);
           addIssueToContext(ctx, {
             validation: "url",
@@ -28387,7 +27939,7 @@ var ZodString = class extends ZodType {
     return this._addCheck({ kind: "ip", ...errorUtil.errToObj(options) });
   }
   datetime(options) {
-    var _a;
+    var _a2;
     if (typeof options === "string") {
       return this._addCheck({
         kind: "datetime",
@@ -28399,7 +27951,7 @@ var ZodString = class extends ZodType {
     return this._addCheck({
       kind: "datetime",
       precision: typeof (options === null || options === void 0 ? void 0 : options.precision) === "undefined" ? null : options === null || options === void 0 ? void 0 : options.precision,
-      offset: (_a = options === null || options === void 0 ? void 0 : options.offset) !== null && _a !== void 0 ? _a : false,
+      offset: (_a2 = options === null || options === void 0 ? void 0 : options.offset) !== null && _a2 !== void 0 ? _a2 : false,
       ...errorUtil.errToObj(options === null || options === void 0 ? void 0 : options.message)
     });
   }
@@ -28502,11 +28054,11 @@ var ZodString = class extends ZodType {
   }
 };
 ZodString.create = (params) => {
-  var _a;
+  var _a2;
   return new ZodString({
     checks: [],
     typeName: ZodFirstPartyTypeKind.ZodString,
-    coerce: (_a = params === null || params === void 0 ? void 0 : params.coerce) !== null && _a !== void 0 ? _a : false,
+    coerce: (_a2 = params === null || params === void 0 ? void 0 : params.coerce) !== null && _a2 !== void 0 ? _a2 : false,
     ...processCreateParams(params)
   });
 };
@@ -28618,13 +28170,13 @@ var ZodNumber = class extends ZodType {
   lt(value, message) {
     return this.setLimit("max", value, false, errorUtil.toString(message));
   }
-  setLimit(kind, value, inclusive, message) {
+  setLimit(kind2, value, inclusive, message) {
     return new ZodNumber({
       ...this._def,
       checks: [
         ...this._def.checks,
         {
-          kind,
+          kind: kind2,
           value,
           inclusive,
           message: errorUtil.toString(message)
@@ -28826,13 +28378,13 @@ var ZodBigInt = class extends ZodType {
   lt(value, message) {
     return this.setLimit("max", value, false, errorUtil.toString(message));
   }
-  setLimit(kind, value, inclusive, message) {
+  setLimit(kind2, value, inclusive, message) {
     return new ZodBigInt({
       ...this._def,
       checks: [
         ...this._def.checks,
         {
-          kind,
+          kind: kind2,
           value,
           inclusive,
           message: errorUtil.toString(message)
@@ -28907,11 +28459,11 @@ var ZodBigInt = class extends ZodType {
   }
 };
 ZodBigInt.create = (params) => {
-  var _a;
+  var _a2;
   return new ZodBigInt({
     checks: [],
     typeName: ZodFirstPartyTypeKind.ZodBigInt,
-    coerce: (_a = params === null || params === void 0 ? void 0 : params.coerce) !== null && _a !== void 0 ? _a : false,
+    coerce: (_a2 = params === null || params === void 0 ? void 0 : params.coerce) !== null && _a2 !== void 0 ? _a2 : false,
     ...processCreateParams(params)
   });
 };
@@ -29417,8 +28969,8 @@ var ZodObject = class extends ZodType {
       unknownKeys: "strict",
       ...message !== void 0 ? {
         errorMap: (issue, ctx) => {
-          var _a, _b, _c, _d;
-          const defaultError = (_c = (_b = (_a = this._def).errorMap) === null || _b === void 0 ? void 0 : _b.call(_a, issue, ctx).message) !== null && _c !== void 0 ? _c : ctx.defaultError;
+          var _a2, _b, _c, _d;
+          const defaultError = (_c = (_b = (_a2 = this._def).errorMap) === null || _b === void 0 ? void 0 : _b.call(_a2, issue, ctx).message) !== null && _c !== void 0 ? _c : ctx.defaultError;
           if (issue.code === "unrecognized_keys")
             return {
               message: (_d = errorUtil.errToObj(message).message) !== null && _d !== void 0 ? _d : defaultError
@@ -29961,7 +29513,7 @@ var ZodTuple = class extends ZodType {
       if (!schema)
         return null;
       return schema._parse(new ParseInputLazyPath(ctx, item, ctx.path, itemIndex));
-    }).filter((x) => !!x);
+    }).filter((x2) => !!x2);
     if (ctx.common.async) {
       return Promise.all(items).then((results) => {
         return ParseStatus.mergeArray(status, results);
@@ -30212,7 +29764,7 @@ var ZodFunction = class extends ZodType {
           ctx.schemaErrorMap,
           getErrorMap(),
           errorMap
-        ].filter((x) => !!x),
+        ].filter((x2) => !!x2),
         issueData: {
           code: ZodIssueCode.invalid_arguments,
           argumentsError: error
@@ -30228,7 +29780,7 @@ var ZodFunction = class extends ZodType {
           ctx.schemaErrorMap,
           getErrorMap(),
           errorMap
-        ].filter((x) => !!x),
+        ].filter((x2) => !!x2),
         issueData: {
           code: ZodIssueCode.invalid_return_type,
           returnTypeError: error
@@ -30798,10 +30350,10 @@ var ZodPipeline = class extends ZodType {
 var custom = (check, params = {}, fatal) => {
   if (check)
     return ZodAny.create().superRefine((data, ctx) => {
-      var _a, _b;
+      var _a2, _b;
       if (!check(data)) {
         const p2 = typeof params === "function" ? params(data) : typeof params === "string" ? { message: params } : params;
-        const _fatal = (_b = (_a = p2.fatal) !== null && _a !== void 0 ? _a : fatal) !== null && _b !== void 0 ? _b : true;
+        const _fatal = (_b = (_a2 = p2.fatal) !== null && _a2 !== void 0 ? _a2 : fatal) !== null && _b !== void 0 ? _b : true;
         const p22 = typeof p2 === "string" ? { message: p2 } : p2;
         ctx.addIssue({ code: "custom", ...p22, fatal: _fatal });
       }
@@ -31030,6 +30582,8 @@ var parse_model_settings = (settings) => {
 };
 var OpenAIModel = class {
   constructor(id, name, description, provider_settings) {
+    this.rate_limit_notice = null;
+    this.rate_limit_notice_timeout = null;
     this.Settings = ({
       settings,
       saveSettings
@@ -31059,21 +30613,67 @@ var OpenAIModel = class {
   }
   async complete(prompt, settings) {
     const parsed_settings = parse_model_settings(settings);
-    const config = new import_openai.Configuration({
-      apiKey: this.provider_settings.api_key
+    const api = new openai_default({
+      apiKey: this.provider_settings.api_key,
+      dangerouslyAllowBrowser: true
     });
-    const api = new import_openai.OpenAIApi(config);
-    const response = await api.createCompletion({
-      model: this.id,
-      prompt: prompt.prefix.slice(-parsed_settings.context_length),
-      max_tokens: 64
-    });
-    if (response.status === 401) {
-      throw new Error("OpenAI API key is invalid");
-    } else if (response.status !== 200) {
-      throw new Error(`OpenAI API returned status ${response.status}`);
+    try {
+      const response = await api.completions.create({
+        model: this.id,
+        prompt: prompt.prefix.slice(-parsed_settings.context_length),
+        max_tokens: 64
+      });
+      return response.choices[0].text || "";
+    } catch (e) {
+      this.parse_api_error(e);
+      throw e;
     }
-    return response.data.choices[0].text || "";
+  }
+  create_rate_limit_notice() {
+    if (this.rate_limit_notice) {
+      window.clearTimeout(this.rate_limit_notice_timeout);
+      this.rate_limit_notice_timeout = window.setTimeout(() => {
+        var _a2;
+        (_a2 = this.rate_limit_notice) == null ? void 0 : _a2.hide();
+        this.rate_limit_notice = null;
+        this.rate_limit_notice_timeout = null;
+      }, 5e3);
+    } else {
+      this.rate_limit_notice = new import_obsidian.Notice(
+        'Rate limit exceeded. Check the "Rate limits" section in the plugin settings for more information.',
+        25e4
+      );
+      this.rate_limit_notice_timeout = window.setTimeout(() => {
+        var _a2;
+        (_a2 = this.rate_limit_notice) == null ? void 0 : _a2.hide();
+        this.rate_limit_notice = null;
+        this.rate_limit_notice_timeout = null;
+      }, 5e3);
+    }
+  }
+  create_api_key_notice() {
+    const notice = new import_obsidian.Notice("", 5e3);
+    const notice_element = notice.noticeEl;
+    notice_element.createEl("span", {
+      text: "OpenAI API key is invalid. Please double-check your "
+    });
+    notice_element.createEl("a", {
+      text: "API key",
+      href: "https://platform.openai.com/account/api-keys"
+    });
+    notice_element.createEl("span", {
+      text: " in the plugin settings."
+    });
+  }
+  parse_api_error(e) {
+    if (e.status === 429) {
+      this.create_rate_limit_notice();
+      throw new Error();
+    } else if (e.status === 401) {
+      this.create_api_key_notice();
+      throw new Error();
+    }
+    throw e;
   }
 };
 var OpenAIComplete = class {
@@ -31096,7 +30696,7 @@ var OpenAIComplete = class {
 };
 
 // src/complete/completers/chatgpt/chatgpt.tsx
-var import_obsidian = require("obsidian");
+var import_obsidian2 = require("obsidian");
 
 // src/complete/completers/chatgpt/provider_settings.tsx
 var React4 = __toESM(require_react());
@@ -31262,9 +30862,6 @@ function SettingsUI3({
     )
   ));
 }
-
-// src/complete/completers/chatgpt/chatgpt.tsx
-var import_openai2 = __toESM(require_dist());
 
 // node_modules/mustache/mustache.mjs
 var objectToString = Object.prototype.toString;
@@ -31596,11 +31193,11 @@ Writer.prototype.renderTokens = function renderTokens(tokens, context, partials,
   return buffer;
 };
 Writer.prototype.renderSection = function renderSection(token, context, partials, originalTemplate, config) {
-  var self2 = this;
+  var self = this;
   var buffer = "";
   var value = context.lookup(token[1]);
   function subRender(template) {
-    return self2.render(template, context, partials, config);
+    return self.render(template, context, partials, config);
   }
   if (!value)
     return;
@@ -31730,13 +31327,13 @@ var mustache_default = mustache;
 
 // src/complete/completers/chatgpt/chatgpt.tsx
 var ChatGPT = class {
-  constructor(provider_settings) {
+  constructor(provider_settings, id, name, description) {
     this.rate_limit_notice = null;
     this.rate_limit_notice_timeout = null;
     this.Settings = SettingsUI3;
-    this.id = "gpt-3.5-turbo";
-    this.name = "GPT 3.5 Turbo";
-    this.description = "OpenAI's ChatGPT model";
+    this.id = id;
+    this.name = name;
+    this.description = description;
     this.provider_settings = parse_settings2(provider_settings);
   }
   async prepare(prompt, settings) {
@@ -31745,86 +31342,132 @@ var ChatGPT = class {
       suffix: prompt.suffix.slice(0, settings.prompt_length || 6e3)
     };
   }
-  async complete(prompt, settings) {
-    var _a, _b, _c;
-    const model_settings = parse_settings3(settings);
-    const config = new import_openai2.Configuration({
-      apiKey: this.provider_settings.api_key
+  async generate_messages(prompt, model_settings) {
+    return [
+      {
+        role: "system",
+        content: model_settings.system_prompt
+      },
+      {
+        role: "user",
+        content: mustache_default.render(
+          model_settings.user_prompt,
+          await this.prepare(prompt, model_settings)
+        )
+      }
+    ];
+  }
+  model_parameters(model_settings) {
+    return {
+      presence_penalty: model_settings.presence_penalty,
+      frequency_penalty: model_settings.frequency_penalty,
+      top_p: model_settings.top_p,
+      temperature: model_settings.temperature
+    };
+  }
+  create_rate_limit_notice() {
+    if (this.rate_limit_notice) {
+      window.clearTimeout(this.rate_limit_notice_timeout);
+      this.rate_limit_notice_timeout = window.setTimeout(() => {
+        var _a2;
+        (_a2 = this.rate_limit_notice) == null ? void 0 : _a2.hide();
+        this.rate_limit_notice = null;
+        this.rate_limit_notice_timeout = null;
+      }, 5e3);
+    } else {
+      this.rate_limit_notice = new import_obsidian2.Notice(
+        'Rate limit exceeded. Check the "Rate limits" section in the plugin settings for more information.',
+        25e4
+      );
+      this.rate_limit_notice_timeout = window.setTimeout(() => {
+        var _a2;
+        (_a2 = this.rate_limit_notice) == null ? void 0 : _a2.hide();
+        this.rate_limit_notice = null;
+        this.rate_limit_notice_timeout = null;
+      }, 5e3);
+    }
+  }
+  create_api_key_notice() {
+    const notice = new import_obsidian2.Notice("", 5e3);
+    const notice_element = notice.noticeEl;
+    notice_element.createEl("span", {
+      text: "OpenAI API key is invalid. Please double-check your "
     });
-    const api = new import_openai2.OpenAIApi(config);
+    notice_element.createEl("a", {
+      text: "API key",
+      href: "https://platform.openai.com/account/api-keys"
+    });
+    notice_element.createEl("span", {
+      text: " in the plugin settings."
+    });
+  }
+  parse_api_error(e) {
+    if (e.status === 429) {
+      this.create_rate_limit_notice();
+      throw new Error();
+    } else if (e.status === 401) {
+      this.create_api_key_notice();
+      throw new Error();
+    }
+    throw e;
+  }
+  get_api() {
+    return new openai_default({
+      apiKey: this.provider_settings.api_key,
+      dangerouslyAllowBrowser: true
+    });
+  }
+  async complete(prompt, settings) {
+    var _a2;
+    const model_settings = parse_settings3(settings);
     try {
-      const response = await api.createChatCompletion({
-        messages: [
-          {
-            role: "system",
-            content: model_settings.system_prompt
-          },
-          {
-            role: "user",
-            content: mustache_default.render(
-              model_settings.user_prompt,
-              await this.prepare(prompt, model_settings)
-            )
-          }
-        ],
+      const response = await this.get_api().chat.completions.create({
+        ...this.model_parameters(model_settings),
+        messages: await this.generate_messages(prompt, model_settings),
+        model: this.id,
+        max_tokens: 64
+      });
+      return this.interpret(
+        prompt,
+        ((_a2 = response.choices[0]) == null ? void 0 : _a2.message.content) || ""
+      );
+    } catch (e) {
+      this.parse_api_error(e);
+      throw e;
+    }
+  }
+  async *iterate(prompt, settings) {
+    var _a2, _b;
+    const model_settings = parse_settings3(settings);
+    try {
+      const completion = await this.get_api().chat.completions.create({
+        ...this.model_parameters(model_settings),
+        messages: await this.generate_messages(prompt, model_settings),
         model: this.id,
         max_tokens: 64,
-        presence_penalty: model_settings.presence_penalty,
-        frequency_penalty: model_settings.frequency_penalty,
-        top_p: model_settings.top_p,
-        temperature: model_settings.temperature
+        stream: true
       });
-      if (response.status !== 200) {
-        throw new Error(
-          `OpenAI API returned status ${response.status}`
-        );
-      }
-      const completion = ((_a = response.data.choices[0].message) == null ? void 0 : _a.content) || "";
-      return this.interpret(prompt, completion);
-    } catch (e) {
-      if (((_b = e.response) == null ? void 0 : _b.status) === 429) {
-        if (this.rate_limit_notice) {
-          window.clearTimeout(this.rate_limit_notice_timeout);
-          this.rate_limit_notice_timeout = window.setTimeout(() => {
-            var _a2;
-            (_a2 = this.rate_limit_notice) == null ? void 0 : _a2.hide();
-            this.rate_limit_notice = null;
-            this.rate_limit_notice_timeout = null;
-          }, 5e3);
+      let initialized = false;
+      for await (const chunk of completion) {
+        const token = ((_b = (_a2 = chunk.choices[0]) == null ? void 0 : _a2.delta) == null ? void 0 : _b.content) || "";
+        if (!initialized) {
+          yield this.interpret(prompt, token);
+          initialized = true;
         } else {
-          this.rate_limit_notice = new import_obsidian.Notice(
-            'Rate limit exceeded. Check the "Rate limits" section in the plugin settings for more information.',
-            25e4
-          );
-          this.rate_limit_notice_timeout = window.setTimeout(() => {
-            var _a2;
-            (_a2 = this.rate_limit_notice) == null ? void 0 : _a2.hide();
-            this.rate_limit_notice = null;
-            this.rate_limit_notice_timeout = null;
-          }, 5e3);
+          yield token;
         }
-        throw new Error();
-      } else if (((_c = e.response) == null ? void 0 : _c.status) === 401) {
-        const notice = new import_obsidian.Notice("", 5e3);
-        const notice_element = notice.noticeEl;
-        notice_element.createEl("span", {
-          text: "OpenAI API key is invalid. Please double-check your "
-        });
-        notice_element.createEl("a", {
-          text: "API key",
-          href: "https://platform.openai.com/account/api-keys"
-        });
-        notice_element.createEl("span", {
-          text: "in the plugin settings."
-        });
-        throw new Error();
-      } else {
-        throw e;
       }
+    } catch (e) {
+      this.parse_api_error(e);
+      throw e;
     }
   }
   interpret(prompt, completion) {
-    if (!completion.startsWith(" ") && !completion.startsWith("\n") && !prompt.prefix.endsWith(" ") && !prompt.prefix.endsWith("\n")) {
+    const response_punctuation = " \n.,?!:;";
+    const prompt_punctuation = " \n";
+    if (prompt.prefix.length !== 0 && !prompt_punctuation.includes(
+      prompt.prefix[prompt.prefix.length - 1]
+    ) && !response_punctuation.includes(completion[0])) {
       completion = " " + completion;
     }
     return completion;
@@ -31838,7 +31481,27 @@ var ChatGPTComplete = class {
     this.Settings = SettingsUI2;
   }
   async get_models(settings) {
-    return [new ChatGPT(settings)];
+    return [
+      new ChatGPT(
+        settings,
+        "gpt-3.5-turbo-1106",
+        "GPT 3.5 Turbo preview (recommended)",
+        "OpenAI's ChatGPT model, with a longer context window"
+      ),
+      new ChatGPT(
+        settings,
+        "gpt-3.5-turbo",
+        "GPT 3.5 Turbo (old)",
+        "OpenAI's ChatGPT model"
+      ),
+      new ChatGPT(
+        settings,
+        "gpt-4-1106-preview",
+        "GPT 4 Turbo",
+        "OpenAI's GPT-4 model, with a longer context window"
+      ),
+      new ChatGPT(settings, "gpt-4", "GPT 4", "OpenAI's GPT-4 model")
+    ];
   }
 };
 
@@ -31885,13 +31548,13 @@ function GenerationSettingsItem({
   saveSettings,
   parseFn = parseInt
 }) {
-  var _a;
+  var _a2;
   const parsed_settings = parse_settings4(settings);
   return /* @__PURE__ */ React6.createElement(SettingsItem, { name: id, description }, /* @__PURE__ */ React6.createElement(
     "input",
     {
       type: "number",
-      value: (_a = parsed_settings.generation_settings) == null ? void 0 : _a[id],
+      value: (_a2 = parsed_settings.generation_settings) == null ? void 0 : _a2[id],
       onChange: (e) => saveSettings(
         JSON.stringify({
           ...parsed_settings,
@@ -31913,9 +31576,9 @@ function PenaltySettingsBooleanItem({
   settings,
   saveSettings
 }) {
-  var _a, _b;
+  var _a2, _b;
   const parsed_settings = parse_settings4(settings);
-  let state = (_b = (_a = parsed_settings.generation_settings) == null ? void 0 : _a[id]) == null ? void 0 : _b[item];
+  let state = (_b = (_a2 = parsed_settings.generation_settings) == null ? void 0 : _a2[id]) == null ? void 0 : _b[item];
   if (typeof state !== "boolean") {
     state = true;
   }
@@ -31924,14 +31587,14 @@ function PenaltySettingsBooleanItem({
     {
       className: "checkbox-container" + (state ? " is-enabled" : ""),
       onClick: (_e) => {
-        var _a2;
+        var _a3;
         return saveSettings(
           JSON.stringify({
             ...parsed_settings,
             generation_settings: parsed_settings.generation_settings && {
               ...parsed_settings.generation_settings,
               [id]: {
-                ...(_a2 = parsed_settings.generation_settings) == null ? void 0 : _a2[id],
+                ...(_a3 = parsed_settings.generation_settings) == null ? void 0 : _a3[id],
                 [item]: !state
               }
             }
@@ -31947,7 +31610,7 @@ function PenaltySettings({
   settings,
   saveSettings
 }) {
-  var _a, _b, _c, _d;
+  var _a2, _b, _c, _d;
   const [expanded, setExpanded] = (0, import_react2.useState)(false);
   const parsed_settings = parse_settings4(settings);
   return /* @__PURE__ */ React6.createElement(React6.Fragment, null, /* @__PURE__ */ React6.createElement(
@@ -31973,16 +31636,16 @@ function PenaltySettings({
       "input",
       {
         type: "number",
-        value: (_b = (_a = parsed_settings.generation_settings) == null ? void 0 : _a[id]) == null ? void 0 : _b.scale,
+        value: (_b = (_a2 = parsed_settings.generation_settings) == null ? void 0 : _a2[id]) == null ? void 0 : _b.scale,
         onChange: (e) => {
-          var _a2;
+          var _a3;
           saveSettings(
             JSON.stringify({
               ...parsed_settings,
               generation_settings: typeof parseInt(e.target.value) === "number" && !isNaN(parseInt(e.target.value)) ? {
                 ...parsed_settings.generation_settings,
                 [id]: {
-                  ...(_a2 = parsed_settings.generation_settings) == null ? void 0 : _a2[id],
+                  ...(_a3 = parsed_settings.generation_settings) == null ? void 0 : _a3[id],
                   scale: parseInt(
                     e.target.value
                   )
@@ -32335,7 +31998,7 @@ function SettingsUI6({
     SettingsItem,
     {
       name: "API URL",
-      description: /* @__PURE__ */ React9.createElement(React9.Fragment, null, "Your", " ", /* @__PURE__ */ React9.createElement("a", { href: "https://github.com/rizerphe/text-generation-webui-with-cors" }, "oobabooga"), " ", "api host URL - note that (at least for now) this does not use the original webui, but a modified version that allows CORS requests. Make sure you're running it in text completion (not chat) mode, too.")
+      description: /* @__PURE__ */ React9.createElement(React9.Fragment, null, "Your", " ", /* @__PURE__ */ React9.createElement("a", { href: "https://github.com/oobabooga/text-generation-webui-with-cors" }, "oobabooga"), " ", "api host URL. Make sure you're running it in text completion (not chat) mode.")
     },
     /* @__PURE__ */ React9.createElement(
       "input",
@@ -32453,7 +32116,7 @@ var OobaboogaModel = class {
     }) => {
       const parsed_settings = parse_model_settings2(settings || "");
       return /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, model_settings_fields.map((property) => {
-        var _a;
+        var _a2;
         return /* @__PURE__ */ import_react4.default.createElement(
           SettingsItem,
           {
@@ -32465,7 +32128,7 @@ var OobaboogaModel = class {
             {
               type: "number",
               value: parsed_settings[property.field_name],
-              placeholder: (_a = default_model_settings[property.field_name]) == null ? void 0 : _a.toString(),
+              placeholder: (_a2 = default_model_settings[property.field_name]) == null ? void 0 : _a2.toString(),
               onChange: (e) => saveSettings(
                 JSON.stringify({
                   ...parsed_settings,
@@ -32683,24 +32346,24 @@ function ProviderModelChooser({
   const [model, _setModel] = (0, import_react5.useState)(null);
   const [modelSettings, _setModelSettings] = (0, import_react5.useState)(null);
   (0, import_react5.useEffect)(() => {
-    var _a;
+    var _a2;
     const candidates = available.filter(
       (provider2) => provider2.id === plugin.settings.provider
     );
     _setProvider(candidates.length > 0 ? candidates[0] : available[0]);
     _setProviderSettings(
-      (_a = plugin.settings.provider_settings[plugin.settings.provider]) == null ? void 0 : _a.settings
+      (_a2 = plugin.settings.provider_settings[plugin.settings.provider]) == null ? void 0 : _a2.settings
     );
   }, [plugin.settings.provider]);
   (0, import_react5.useEffect)(() => {
     const fetch_model = async () => {
-      var _a, _b;
+      var _a2, _b;
       if (!provider)
         return;
       setAvailableModels([]);
       _setModel(null);
       const available_models2 = await provider.get_models(
-        (_a = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a.settings
+        (_a2 = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a2.settings
       );
       setAvailableModels(available_models2);
       const candidates = available_models2.filter(
@@ -32717,48 +32380,48 @@ function ProviderModelChooser({
     fetch_model();
   }, [plugin.settings.model, provider, providerSettings]);
   const setProvider = (provider_id) => {
-    var _a;
+    var _a2;
     _setProvider(
       available.filter((provider2) => provider2.id === provider_id)[0]
     );
     _setProviderSettings(
-      (_a = plugin.settings.provider_settings[provider_id]) == null ? void 0 : _a.settings
+      (_a2 = plugin.settings.provider_settings[provider_id]) == null ? void 0 : _a2.settings
     );
     plugin.settings.provider = provider_id;
     plugin.saveData(plugin.settings);
   };
   const setProviderSettings = (settings) => {
-    var _a;
+    var _a2;
     if (!provider)
       return;
     _setProviderSettings(settings);
     plugin.settings.provider_settings[provider.id] = {
       settings,
       models: {
-        ...(_a = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a.models
+        ...(_a2 = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a2.models
       }
     };
     plugin.models = [];
     plugin.saveData(plugin.settings);
   };
   const setModel = (model_id) => {
-    var _a;
+    var _a2;
     if (!provider)
       return;
     _setModel(available_models.filter((model2) => model2.id === model_id)[0]);
     plugin.settings.model = model_id;
     _setModelSettings(
-      (_a = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a.models[model_id]
+      (_a2 = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a2.models[model_id]
     );
     plugin.saveData(plugin.settings);
   };
   const setModelSettings = (settings) => {
-    var _a, _b;
+    var _a2, _b;
     if (!provider || !model)
       return;
     _setModelSettings(settings);
     plugin.settings.provider_settings[provider.id] = {
-      settings: (_a = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a.settings,
+      settings: (_a2 = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a2.settings,
       models: {
         ...(_b = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _b.models,
         [model.id]: settings
@@ -32914,7 +32577,7 @@ function AcceptSettingsComponent({
       {
         onClick: () => setAcceptSettings({
           splitter_regex: " ",
-          display_splitter_regex: "\\.",
+          display_splitter_regex: "[.?!:;]",
           completion_completeness_regex: ".*(?!p{L})[^d]$",
           min_accept_length: 4,
           min_display_length: 50,
@@ -32927,7 +32590,7 @@ function AcceptSettingsComponent({
       {
         onClick: () => setAcceptSettings({
           splitter_regex: "\\.",
-          display_splitter_regex: "\\.",
+          display_splitter_regex: "[.?!:;]",
           completion_completeness_regex: ".*[^d]$",
           min_accept_length: 4,
           min_display_length: 50,
@@ -33089,6 +32752,7 @@ function SettingsComponent({
   const [enable_by_default, setEnableByDefault] = (0, import_react5.useState)(
     plugin.settings.enable_by_default
   );
+  const [streaming_mode, setStreamingMode] = (0, import_react5.useState)(plugin.settings.stream);
   return /* @__PURE__ */ React11.createElement(React11.Fragment, null, /* @__PURE__ */ React11.createElement(React11.Fragment, null, /* @__PURE__ */ React11.createElement(
     SettingsItem,
     {
@@ -33102,6 +32766,23 @@ function SettingsComponent({
         onClick: (_e) => {
           setEnableByDefault(!enable_by_default);
           plugin.settings.enable_by_default = !enable_by_default;
+          plugin.saveData(plugin.settings);
+        }
+      }
+    )
+  ), /* @__PURE__ */ React11.createElement(
+    SettingsItem,
+    {
+      name: "Streaming mode (experimental)",
+      description: /* @__PURE__ */ React11.createElement(React11.Fragment, null, "When enabled, the completion will be updated as it comes in, instead of waiting for the whole completion to be ready. This is useful for completions that take a long time to generate, but may produce buggy results in some cases.")
+    },
+    /* @__PURE__ */ React11.createElement(
+      "div",
+      {
+        className: "checkbox-container" + (streaming_mode ? " is-enabled" : ""),
+        onClick: (_e) => {
+          setStreamingMode(!streaming_mode);
+          plugin.settings.stream = !streaming_mode;
           plugin.saveData(plugin.settings);
         }
       }
@@ -33122,98 +32803,172 @@ function SettingsComponent({
 }
 
 // src/cache.ts
-function findLastRegexIndex(regex, str) {
+function findLastRegexIndex(regex, str2) {
   let match;
   let lastIndex = -1;
-  while ((match = regex.exec(str)) !== null) {
+  while ((match = regex.exec(str2)) !== null) {
     lastIndex = match.index;
   }
   return lastIndex;
 }
+var ExhaustableConsumable = class {
+  constructor(exhausted = false) {
+    this.exhausted = false;
+    this.queue = [];
+    this.consumers = [];
+    this.exhausted = exhausted;
+  }
+  enqueue(item) {
+    this.queue.push(item);
+    const old_consumers = this.consumers;
+    this.consumers = [];
+    for (let consumer of old_consumers) {
+      consumer({ item });
+    }
+  }
+  exhaust() {
+    this.exhausted = true;
+    for (let consumer of this.consumers) {
+      consumer(null);
+    }
+  }
+  reset() {
+    this.consumers = [];
+    this.exhausted = false;
+  }
+  async *iter() {
+    for (let item of this.queue) {
+      yield item;
+    }
+    let next_items = [];
+    let next_item_promise = Promise.resolve();
+    const add_resolver = () => {
+      next_item_promise = new Promise((resolve) => {
+        this.consumers.push((item) => {
+          if (item === null) {
+            next_item_promise = null;
+            return resolve();
+          }
+          next_items.push(item);
+          add_resolver();
+          resolve();
+        });
+      });
+    };
+    add_resolver();
+    while (!this.exhausted && next_item_promise !== null) {
+      await next_item_promise;
+      while (next_items.length > 0) {
+        const next_item = next_items.shift();
+        if (next_item) {
+          yield next_item.item;
+        } else {
+          return;
+        }
+      }
+    }
+  }
+};
 var CompletionCacher = class {
   constructor(model, model_settings, accept_settings, accept_with_obsidian) {
     this.last_suggestion = "";
-    this.current_fetch = null;
     this.cache = /* @__PURE__ */ new Map();
     this.model = model;
     this.model_settings = model_settings;
     this.accept_settings = accept_settings;
     this.accept_with_obsidian = accept_with_obsidian;
   }
-  get_cached(prompt) {
-    for (let [key, value] of this.cache) {
-      if (prompt.suffix == key.suffix) {
-        if ((key.prefix + value).startsWith(prompt.prefix)) {
-          if (!prompt.prefix.startsWith(key.prefix))
-            continue;
-          const completion = (key.prefix + value).slice(
-            prompt.prefix.length
-          );
-          if (completion.length == 0) {
-            return null;
-          }
-          let partial_completion = new RegExp(
-            this.accept_settings.completion_completeness_regex
-          ).test(completion) ? completion : completion.slice(
-            0,
-            findLastRegexIndex(
-              new RegExp(
-                this.accept_settings.splitter_regex
-              ),
-              completion
-            )
-          );
-          const display_splitter_match = completion.slice(this.accept_settings.min_display_length).match(
-            new RegExp(
-              this.accept_settings.display_splitter_regex
-            )
-          );
-          const display_splitter_index = display_splitter_match && display_splitter_match.index != void 0 ? display_splitter_match.index + display_splitter_match.length + 50 : -1;
-          partial_completion = partial_completion.slice(
-            0,
-            display_splitter_index
-          );
-          const complete_splitter_match = completion.slice(this.accept_settings.min_accept_length).match(new RegExp(this.accept_settings.splitter_regex));
-          const complete_splitter_index = complete_splitter_match && complete_splitter_match.index != void 0 ? complete_splitter_match.index + this.accept_settings.min_accept_length : void 0;
-          const first_word = completion.slice(
-            0,
-            complete_splitter_index
-          );
-          if (partial_completion.length - first_word.length < 48) {
-            if (!this.current_fetch) {
-              this.current_fetch = this.fetch({
-                prefix: prompt.prefix + completion,
-                suffix: prompt.suffix
-              });
-              this.current_fetch.then(() => {
-                this.current_fetch = null;
-              });
-            }
-          }
-          return {
-            display_suggestion: partial_completion.length > 0 ? partial_completion : completion,
-            complete_suggestion: first_word
-          };
-        }
+  get_cached_queue(prompt) {
+    for (let [cached_prompt, cached_suggestions] of this.cache) {
+      const cached_prompt_and_continuation = cached_prompt.prefix + cached_suggestions.queue.join("");
+      if (prompt.suffix != cached_prompt.suffix) {
+        continue;
       }
+      if (!prompt.prefix.startsWith(cached_prompt.prefix) || !cached_prompt_and_continuation.startsWith(prompt.prefix)) {
+        continue;
+      }
+      return [cached_prompt, cached_suggestions];
     }
     return null;
   }
-  async fetch(prompt) {
+  async fetch(prompt, stream) {
+    if (this.model.iterate && stream) {
+      await this.fetch_iteratively(prompt);
+    }
+    await this.fetch_blockwise(prompt);
+  }
+  async fetch_iteratively(prompt) {
+    var _a2, _b;
+    if (!this.model.iterate) {
+      return;
+    }
+    const queue = (_b = (_a2 = this.get_cached_queue(prompt)) == null ? void 0 : _a2[1]) != null ? _b : this.cache.set(prompt, new ExhaustableConsumable()).get(prompt);
+    if (!queue.exhausted)
+      return;
+    queue.reset();
+    for await (const token of this.model.iterate(
+      {
+        prefix: prompt.prefix + queue.queue.join(""),
+        suffix: prompt.suffix
+      },
+      this.model_settings
+    )) {
+      queue.enqueue(token);
+    }
+    queue.exhaust();
+  }
+  async fetch_blockwise(prompt) {
+    var _a2, _b;
+    const queue = (_b = (_a2 = this.get_cached_queue(prompt)) == null ? void 0 : _a2[1]) != null ? _b : this.cache.set(prompt, new ExhaustableConsumable()).get(prompt);
+    if (!queue.exhausted)
+      return;
+    queue.reset();
     const completion = await this.model.complete(
-      prompt,
+      {
+        prefix: prompt.prefix + queue.queue.join(""),
+        suffix: prompt.suffix
+      },
       this.model_settings
     );
-    for (let [key, value] of this.cache) {
-      if (prompt.suffix == key.suffix) {
-        if (prompt.prefix.startsWith(key.prefix + value)) {
-          const isolated_completion = (prompt.prefix + completion).slice(key.prefix.length);
-          this.cache.set(key, isolated_completion);
-          return;
-        }
-      }
+    if (completion == null) {
+      return;
     }
-    this.cache.set(prompt, completion);
+    queue.enqueue(completion);
+    queue.exhaust();
+  }
+  ensure_fetched(prompt, queue, stream) {
+    if (queue.queue.length > 0) {
+      return;
+    }
+    this.fetch(prompt, stream);
+  }
+  async *complete(prompt, stream = true) {
+    var _a2;
+    const [starting_prompt, queue] = (_a2 = this.get_cached_queue(prompt)) != null ? _a2 : [
+      prompt,
+      this.cache.set(prompt, new ExhaustableConsumable(true)).get(prompt)
+    ];
+    this.ensure_fetched(prompt, queue, stream);
+    let completion = "";
+    let need_continuation = false;
+    for await (const token of queue.iter()) {
+      need_continuation = false;
+      completion += token;
+      const suggestion = this.suggestion_from_completion(
+        completion.slice(
+          prompt.prefix.length - starting_prompt.prefix.length
+        ),
+        () => {
+          need_continuation = true;
+        }
+      );
+      if (suggestion == null) {
+        continue;
+      }
+      yield this.strip(suggestion);
+    }
+    if (need_continuation)
+      this.fetch(prompt, stream);
   }
   strip(suggestion) {
     this.last_suggestion = suggestion.complete_suggestion;
@@ -33225,29 +32980,35 @@ var CompletionCacher = class {
     }
     return suggestion;
   }
-  async complete(prompt) {
-    let cached = this.get_cached(prompt);
-    if (cached) {
-      return this.strip(cached);
+  suggestion_from_completion(completion, launch_refetch) {
+    if (completion.length == 0) {
+      return null;
     }
-    if (this.current_fetch) {
-      await this.current_fetch.finally(() => this.current_fetch = null);
+    let partial_completion = new RegExp(
+      this.accept_settings.completion_completeness_regex
+    ).test(completion) ? completion : completion.slice(
+      0,
+      findLastRegexIndex(
+        new RegExp(this.accept_settings.splitter_regex, "gi"),
+        completion
+      )
+    );
+    const display_splitter_match = completion.slice(this.accept_settings.min_display_length).match(new RegExp(this.accept_settings.display_splitter_regex));
+    const display_splitter_index = display_splitter_match && display_splitter_match.index != void 0 ? display_splitter_match.index + display_splitter_match.length + 50 : -1;
+    partial_completion = partial_completion.slice(
+      0,
+      display_splitter_index
+    );
+    const complete_splitter_match = completion.slice(this.accept_settings.min_accept_length).match(new RegExp(this.accept_settings.splitter_regex));
+    const complete_splitter_index = complete_splitter_match && complete_splitter_match.index != void 0 ? complete_splitter_match.index + this.accept_settings.min_accept_length : void 0;
+    const first_word = completion.slice(0, complete_splitter_index);
+    if (partial_completion.length - first_word.length < 48) {
+      launch_refetch == null ? void 0 : launch_refetch();
     }
-    cached = this.get_cached(prompt);
-    if (cached) {
-      return this.strip(cached);
-    }
-    this.current_fetch = this.fetch(prompt);
-    this.current_fetch.finally(() => this.current_fetch = null);
-    await this.current_fetch;
-    cached = this.get_cached(prompt);
-    if (cached) {
-      return this.strip(cached);
-    }
-    return this.strip({
-      display_suggestion: "",
-      complete_suggestion: ""
-    });
+    return {
+      display_suggestion: partial_completion.length > 0 ? partial_completion : completion,
+      complete_suggestion: first_word
+    };
   }
 };
 
@@ -33258,9 +33019,10 @@ var DEFAULT_SETTINGS = {
   enable_by_default: false,
   keybind: "Tab",
   delay_ms: 2e3,
+  stream: true,
   accept: {
     splitter_regex: " ",
-    display_splitter_regex: "\\.",
+    display_splitter_regex: "[.?!:;]",
     completion_completeness_regex: ".*(?!p{L})[^d]$",
     min_accept_length: 4,
     min_display_length: 50,
@@ -33270,7 +33032,7 @@ var DEFAULT_SETTINGS = {
   presets: [],
   fallback: null
 };
-var Companion = class extends import_obsidian2.Plugin {
+var Companion = class extends import_obsidian3.Plugin {
   constructor() {
     super(...arguments);
     this.enabled = false;
@@ -33309,7 +33071,7 @@ var Companion = class extends import_obsidian2.Plugin {
       (_evt) => {
         this.enabled = !this.enabled;
         this.fillStatusbar();
-        new import_obsidian2.Notice(
+        new import_obsidian3.Notice(
           `Completion is now ${this.enabled ? "enabled" : "disabled"}`
         );
       }
@@ -33320,14 +33082,14 @@ var Companion = class extends import_obsidian2.Plugin {
       callback: () => {
         this.enabled = !this.enabled;
         this.fillStatusbar();
-        new import_obsidian2.Notice(
+        new import_obsidian3.Notice(
           `Completion is now ${this.enabled ? "enabled" : "disabled"}`
         );
       }
     });
   }
   async setupSuggestions() {
-    const { extension, force_fetch } = M({
+    const { extension, force_fetch } = K({
       fetchFn: () => this.triggerCompletion(),
       delay: this.settings.delay_ms,
       continue_suggesting: true,
@@ -33422,31 +33184,35 @@ var Companion = class extends import_obsidian2.Plugin {
   async saveSettings() {
     await this.saveData(this.settings);
   }
-  async triggerCompletion() {
-    var _a, _b, _c, _d;
-    const view = this.app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
+  async *triggerCompletion() {
+    var _a2, _b, _c, _d;
+    const view = this.app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
     if (!view)
-      return "";
+      return;
     if (!this.enabled)
-      return "";
-    if (((_d = (_c = (_b = (_a = view.editor) == null ? void 0 : _a.cm) == null ? void 0 : _b.cm) == null ? void 0 : _c.state) == null ? void 0 : _d.keyMap) === "vim") {
-      return "";
+      return;
+    if (((_d = (_c = (_b = (_a2 = view.editor) == null ? void 0 : _a2.cm) == null ? void 0 : _b.cm) == null ? void 0 : _c.state) == null ? void 0 : _d.keyMap) === "vim") {
+      return;
     }
     const cursor = view.editor.getCursor();
     const currentLine = view.editor.getLine(cursor.line);
-    if (!currentLine.length)
-      return "";
+    if (!currentLine.length) {
+      yield {
+        display_suggestion: "",
+        complete_suggestion: ""
+      };
+      return;
+    }
     const prefix = view.editor.getRange({ line: 0, ch: 0 }, cursor);
     const suffix = view.editor.getRange(cursor, {
       line: view.editor.lastLine(),
       ch: view.editor.getLine(view.editor.lastLine()).length
     });
-    const completion = await this.complete(prefix, suffix);
-    return completion;
+    yield* this.complete(prefix, suffix);
   }
   async acceptCompletion(editor) {
-    var _a;
-    const suggestion = (_a = this.last_used_model) == null ? void 0 : _a.last_suggestion;
+    var _a2;
+    const suggestion = (_a2 = this.last_used_model) == null ? void 0 : _a2.last_suggestion;
     if (suggestion) {
       editor.replaceRange(suggestion, editor.getCursor());
       editor.setCursor({
@@ -33490,23 +33256,27 @@ var Companion = class extends import_obsidian2.Plugin {
     return cached;
   }
   async load_model(model) {
-    var _a, _b, _c, _d, _e, _f;
-    if (((_a = this.last_used_model) == null ? void 0 : _a.model.id) === model.model.id)
+    var _a2, _b, _c, _d, _e, _f;
+    if (((_a2 = this.last_used_model) == null ? void 0 : _a2.model.id) === model.model.id)
       return;
     await ((_d = (_c = (_b = this.last_used_model) == null ? void 0 : _b.model) == null ? void 0 : _c.unload) == null ? void 0 : _d.call(_c));
     await ((_f = (_e = model == null ? void 0 : model.model) == null ? void 0 : _e.load) == null ? void 0 : _f.call(_e));
   }
-  async _complete(prefix, suffix, provider, model) {
+  async *_complete(prefix, suffix, provider, model) {
     const cacher = await this.get_model(provider, model);
     if (!cacher)
-      return null;
+      throw { name: "ModelNotFound" };
     await this.load_model(cacher);
-    const completion = await cacher.complete({
-      prefix,
-      suffix
-    });
-    this.last_used_model = cacher;
-    return completion;
+    for await (let completion of cacher.complete(
+      {
+        prefix,
+        suffix
+      },
+      this.settings.stream
+    )) {
+      this.last_used_model = cacher;
+      yield completion;
+    }
   }
   async select_first_available_model() {
     const provider = available.find(
@@ -33517,48 +33287,55 @@ var Companion = class extends import_obsidian2.Plugin {
       provider_settings ? provider_settings.settings : ""
     ).then((models) => models[0].id)) || "";
   }
-  async fallback_complete(prefix, suffix) {
+  async *fallback_complete(prefix, suffix) {
     if (this.settings.fallback) {
       try {
         const fallback = this.settings.presets.find(
           (preset) => preset.name === this.settings.fallback
         );
         if (!fallback)
-          return "";
-        return await this._complete(
+          return;
+        const completion = this._complete(
           prefix,
           suffix,
           fallback.provider,
           fallback.model
-        ) || "";
+        );
+        if (!completion)
+          return;
+        yield* completion;
       } catch (e) {
-        new import_obsidian2.Notice(`Error completing (fallback): ${e.message}`);
+        new import_obsidian3.Notice(`Error completing (fallback): ${e.message}`);
       }
     }
-    return "";
   }
-  async complete(prefix, suffix) {
+  async *complete(prefix, suffix) {
     try {
-      const completion = await this._complete(
-        prefix,
-        suffix,
-        this.settings.provider,
-        this.settings.model
-      );
-      if (completion === null) {
-        this.select_first_available_model();
-        return await this.complete(prefix, suffix);
+      try {
+        const completion = this._complete(
+          prefix,
+          suffix,
+          this.settings.provider,
+          this.settings.model
+        );
+        yield* completion;
+      } catch (e) {
+        if (e.name === "ModelNotFound") {
+          this.select_first_available_model();
+          yield* this.complete(prefix, suffix);
+          return;
+        }
+        throw e;
       }
-      return completion;
     } catch (e) {
       if (e.message) {
-        new import_obsidian2.Notice(`Error completing: ${e.message}`);
+        new import_obsidian3.Notice(`Error completing: ${e.message}`);
       }
-      return await this.fallback_complete(prefix, suffix);
+      return this.fallback_complete(prefix, suffix);
     }
   }
 };
-var PresetChooserModal = class extends import_obsidian2.FuzzySuggestModal {
+var PresetChooserModal = class extends import_obsidian3.FuzzySuggestModal {
   constructor(plugin) {
     super(plugin.app);
     this.plugin = plugin;
@@ -33571,10 +33348,10 @@ var PresetChooserModal = class extends import_obsidian2.FuzzySuggestModal {
   }
   onChooseItem(preset, _evt) {
     this.plugin.loadPreset(preset.name);
-    new import_obsidian2.Notice("Loaded preset " + preset.name);
+    new import_obsidian3.Notice("Loaded preset " + preset.name);
   }
 };
-var CompanionSettingsTab = class extends import_obsidian2.PluginSettingTab {
+var CompanionSettingsTab = class extends import_obsidian3.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
