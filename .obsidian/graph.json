@@ -76,6 +76,13 @@
         "a": 1,
         "rgb": 7935
       }
+    },
+    {
+      "query": "path:\"NOTES-MARKDOWN/Human Computer Interaction\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 65471
+      }
     }
   ],
   "collapse-display": false,

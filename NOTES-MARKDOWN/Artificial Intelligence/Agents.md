@@ -56,7 +56,7 @@ This function helps the agent understand what's the worst and best action to tak
 - **Atomic**: Each state of the world is indivisible
 	
 > [!example]
-> Search, game playing(chess), ecc...
+> [Search](Search.md), game playing(chess), ecc...
 	
 - **Factored**: Each state is split into variables and two states can share some variables.
 	

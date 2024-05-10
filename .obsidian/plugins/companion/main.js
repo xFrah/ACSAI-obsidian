@@ -519,7 +519,7 @@ var require_react_development = __commonJS({
           }
           return element;
         };
-        function createElement9(type, config, children) {
+        function createElement11(type, config, children) {
           var propName;
           var props = {};
           var key = null;
@@ -1618,7 +1618,7 @@ var require_react_development = __commonJS({
               error("React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
             }
           }
-          var element = createElement9.apply(this, arguments);
+          var element = createElement11.apply(this, arguments);
           if (element == null) {
             return element;
           }
@@ -2391,9 +2391,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React13 = require_react();
+        var React15 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React13.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React15.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -2442,7 +2442,7 @@ var require_react_dom_development = __commonJS({
         var HostPortal = 4;
         var HostComponent = 5;
         var HostText = 6;
-        var Fragment8 = 7;
+        var Fragment10 = 7;
         var Mode = 8;
         var ContextConsumer = 9;
         var ContextProvider = 10;
@@ -3598,7 +3598,7 @@ var require_react_dom_development = __commonJS({
               return "DehydratedFragment";
             case ForwardRef:
               return getWrappedName$1(type, type.render, "ForwardRef");
-            case Fragment8:
+            case Fragment10:
               return "Fragment";
             case HostComponent:
               return type;
@@ -3998,7 +3998,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React13.Children.forEach(props.children, function(child) {
+                React15.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -9397,7 +9397,7 @@ var require_react_dom_development = __commonJS({
             }
           }
         }
-        function createElement9(type, props, rootContainerElement, parentNamespace) {
+        function createElement11(type, props, rootContainerElement, parentNamespace) {
           var isCustomComponentTag;
           var ownerDocument = getOwnerDocumentFromRootContainer(rootContainerElement);
           var domElement;
@@ -10258,7 +10258,7 @@ var require_react_dom_development = __commonJS({
             }
             parentNamespace = hostContextDev.namespace;
           }
-          var domElement = createElement9(type, props, rootContainerInstance, parentNamespace);
+          var domElement = createElement11(type, props, rootContainerInstance, parentNamespace);
           precacheFiberNode(internalInstanceHandle, domElement);
           updateFiberProps(domElement, props);
           return domElement;
@@ -12445,7 +12445,7 @@ var require_react_dom_development = __commonJS({
           }
         }
         var fakeInternalInstance = {};
-        var emptyRefsObject = new React13.Component().refs;
+        var emptyRefsObject = new React15.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -13269,7 +13269,7 @@ var require_react_dom_development = __commonJS({
             }
           }
           function updateFragment2(returnFiber, current2, fragment, lanes, key) {
-            if (current2 === null || current2.tag !== Fragment8) {
+            if (current2 === null || current2.tag !== Fragment10) {
               var created = createFiberFromFragment(fragment, returnFiber.mode, lanes, key);
               created.return = returnFiber;
               return created;
@@ -13672,7 +13672,7 @@ var require_react_dom_development = __commonJS({
               if (child.key === key) {
                 var elementType = element.type;
                 if (elementType === REACT_FRAGMENT_TYPE) {
-                  if (child.tag === Fragment8) {
+                  if (child.tag === Fragment10) {
                     deleteRemainingChildren(returnFiber, child.sibling);
                     var existing = useFiber(child, element.props.children);
                     existing.return = returnFiber;
@@ -17847,7 +17847,7 @@ var require_react_dom_development = __commonJS({
               var _resolvedProps2 = workInProgress2.elementType === type ? _unresolvedProps2 : resolveDefaultProps(type, _unresolvedProps2);
               return updateForwardRef(current2, workInProgress2, type, _resolvedProps2, renderLanes2);
             }
-            case Fragment8:
+            case Fragment10:
               return updateFragment(current2, workInProgress2, renderLanes2);
             case Mode:
               return updateMode(current2, workInProgress2, renderLanes2);
@@ -18120,7 +18120,7 @@ var require_react_dom_development = __commonJS({
             case SimpleMemoComponent:
             case FunctionComponent:
             case ForwardRef:
-            case Fragment8:
+            case Fragment10:
             case Mode:
             case Profiler:
             case ContextConsumer:
@@ -22379,7 +22379,7 @@ var require_react_dom_development = __commonJS({
           return fiber;
         }
         function createFiberFromFragment(elements, mode, lanes, key) {
-          var fiber = createFiber(Fragment8, elements, key, mode);
+          var fiber = createFiber(Fragment10, elements, key, mode);
           fiber.lanes = lanes;
           return fiber;
         }
@@ -23522,7 +23522,7 @@ __export(main_exports, {
   default: () => Companion
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian3 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 var import_client = __toESM(require_client());
 var import_react6 = __toESM(require_react());
 
@@ -23741,7 +23741,7 @@ function K(n) {
 }
 
 // src/settings/settings.tsx
-var React11 = __toESM(require_react());
+var React13 = __toESM(require_react());
 
 // src/complete/completers/openai/openai.tsx
 var import_react = __toESM(require_react());
@@ -32235,13 +32235,309 @@ var OobaboogaComplete = class {
   }
 };
 
+// src/complete/completers/ollama/ollama.tsx
+var import_obsidian3 = require("obsidian");
+
+// src/complete/completers/ollama/provider_settings.tsx
+var React11 = __toESM(require_react());
+var settings_schema3 = z.object({
+  endpoint: z.string()
+});
+var default_settings4 = {
+  endpoint: "http://localhost:11434"
+};
+var parse_settings7 = (data) => {
+  if (data === null) {
+    return default_settings4;
+  }
+  try {
+    const settings = JSON.parse(data);
+    return settings_schema3.parse(settings);
+  } catch (e) {
+    return default_settings4;
+  }
+};
+function SettingsUI7({
+  settings,
+  saveSettings
+}) {
+  return /* @__PURE__ */ React11.createElement(
+    SettingsItem,
+    {
+      name: "API route",
+      description: /* @__PURE__ */ React11.createElement(React11.Fragment, null, "Your ollama service should be running at this endpoint. Default is localhost.")
+    },
+    /* @__PURE__ */ React11.createElement(
+      "input",
+      {
+        type: "text",
+        value: parse_settings7(settings).endpoint,
+        onChange: (e) => saveSettings(JSON.stringify({ endpoint: e.target.value }))
+      }
+    )
+  );
+}
+
+// src/complete/completers/ollama/model_settings.tsx
+var React12 = __toESM(require_react());
+var settings_schema4 = z.object({
+  system_prompt: z.string(),
+  user_prompt: z.string(),
+  temperature: z.number().optional(),
+  prompt_length: z.number().optional()
+});
+var default_settings5 = {
+  system_prompt: "",
+  user_prompt: "{{#context}}Context:\n\n{{context}}\n\n=================================\n{{/context}}Continue the following paragraph:\n\n{{last_line}}"
+};
+var parse_settings8 = (data) => {
+  if (data == null) {
+    return default_settings5;
+  }
+  try {
+    const settings = JSON.parse(data);
+    return settings_schema4.parse(settings);
+  } catch (e) {
+    return default_settings5;
+  }
+};
+function SettingsUI8({
+  settings,
+  saveSettings
+}) {
+  const parsed_settings = parse_settings8(settings);
+  return /* @__PURE__ */ React12.createElement(React12.Fragment, null, /* @__PURE__ */ React12.createElement(SettingsItem, { name: "System prompt" }), /* @__PURE__ */ React12.createElement(
+    "textarea",
+    {
+      className: "ai-complete-ollama-full-width",
+      value: parsed_settings.system_prompt,
+      onChange: (e) => saveSettings(
+        JSON.stringify({
+          ...parsed_settings,
+          system_prompt: e.target.value
+        })
+      )
+    }
+  ), /* @__PURE__ */ React12.createElement(SettingsItem, { name: "User prompt" }), /* @__PURE__ */ React12.createElement(
+    "textarea",
+    {
+      className: "ai-complete-ollama-full-width",
+      value: parsed_settings.user_prompt,
+      onChange: (e) => saveSettings(
+        JSON.stringify({
+          ...parsed_settings,
+          user_prompt: e.target.value
+        })
+      )
+    }
+  ), /* @__PURE__ */ React12.createElement(SettingsItem, { name: "Temperature" }, /* @__PURE__ */ React12.createElement(
+    "input",
+    {
+      type: "number",
+      value: parsed_settings.temperature === void 0 ? "" : parsed_settings.temperature,
+      onChange: (e) => saveSettings(
+        JSON.stringify({
+          ...parsed_settings,
+          temperature: parseFloat(e.target.value)
+        })
+      )
+    }
+  )));
+}
+
+// src/complete/completers/ollama/ollama.tsx
+var OllamaModel = class {
+  constructor(provider_settings, id, name, description) {
+    this.rate_limit_notice = null;
+    this.rate_limit_notice_timeout = null;
+    this.Settings = SettingsUI8;
+    this.id = id;
+    this.name = name;
+    this.description = description;
+    this.provider_settings = parse_settings7(provider_settings);
+    this.cancel_generations = [];
+  }
+  async prepare(prompt, settings) {
+    const cropped = {
+      prefix: prompt.prefix.slice(-(settings.prompt_length || 6e3)),
+      suffix: prompt.suffix.slice(0, settings.prompt_length || 6e3)
+    };
+    const last_line = cropped.prefix.split("\n").filter((x2) => x2.length > 0).pop();
+    return {
+      ...cropped,
+      last_line: last_line || "",
+      context: cropped.prefix.split("\n").filter((x2) => x2 !== last_line).join("\n")
+    };
+  }
+  async complete(prompt, settings) {
+    const model_settings = parse_settings8(settings);
+    const response = await (0, import_obsidian3.requestUrl)({
+      url: this.provider_settings.endpoint + "/api/generate",
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        prompt: mustache_default.render(
+          model_settings.user_prompt,
+          await this.prepare(prompt, model_settings)
+        ),
+        system: model_settings.system_prompt,
+        model: this.id,
+        stream: false,
+        options: {
+          temp: model_settings.temperature
+        }
+      }),
+      throw: true
+    });
+    return this.interpret(prompt, (await response.json).response);
+  }
+  async *iterate(prompt, settings) {
+    try {
+      const model_settings = parse_settings8(settings);
+      for (const cancel_generation of this.cancel_generations) {
+        cancel_generation();
+      }
+      const textGenerator = {
+        state: "",
+        next: async () => {
+          if (textGenerator.state.length === 0) {
+            await new Promise((resolve) => {
+              textGenerator.registerItem = () => {
+                textGenerator.registerItem = null;
+                resolve(null);
+              };
+            });
+          }
+          const state = textGenerator.state;
+          const index = state.indexOf("\n");
+          const part = state.slice(0, index);
+          textGenerator.state = state.slice(index + 1);
+          return JSON.parse(part).response;
+        },
+        registerItem: null
+      };
+      const { remote } = require("electron");
+      const request = remote.net.request({
+        url: this.provider_settings.endpoint + "/api/generate",
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        }
+      });
+      const prompt_data = await this.prepare(prompt, model_settings);
+      const body = JSON.stringify({
+        prompt: mustache_default.render(
+          model_settings.user_prompt,
+          prompt_data
+        ),
+        system: model_settings.system_prompt,
+        model: this.id,
+        stream: true,
+        options: {
+          temp: model_settings.temperature
+        }
+      });
+      request.write(body);
+      this.cancel_generations.push(() => {
+        request.abort();
+      });
+      request.on("response", (response) => {
+        response.on("data", (chunk) => {
+          textGenerator.state += chunk;
+          if (textGenerator.registerItem) {
+            textGenerator.registerItem();
+          }
+        });
+        response.on("end", () => {
+          this.cancel_generations = this.cancel_generations.filter(
+            (x2) => x2 !== request.abort
+          );
+        });
+      });
+      request.end();
+      let initialized = false;
+      let generated = "";
+      let started = false;
+      while (true) {
+        let token = await textGenerator.next();
+        generated += token;
+        if (prompt_data.last_line.includes(generated)) {
+          continue;
+        }
+        if (!started) {
+          for (let i = generated.length - 1; i >= 0; i--) {
+            if (prompt_data.last_line.endsWith(
+              generated.slice(0, i)
+            )) {
+              token = generated.slice(i);
+              started = true;
+              break;
+            }
+          }
+        }
+        if (!token) {
+          continue;
+        }
+        if (!initialized) {
+          yield this.interpret(prompt, token);
+          initialized = true;
+        } else {
+          yield token;
+        }
+      }
+    } catch (e) {
+      yield this.complete(prompt, settings);
+    }
+  }
+  interpret(prompt, completion) {
+    const response_punctuation = " \n.,?!:;";
+    const prompt_punctuation = " \n";
+    if (prompt.prefix.length !== 0 && !prompt_punctuation.includes(
+      prompt.prefix[prompt.prefix.length - 1]
+    ) && !response_punctuation.includes(completion[0])) {
+      completion = " " + completion;
+    }
+    return completion;
+  }
+};
+var OllamaComplete = class {
+  constructor() {
+    this.id = "ollama";
+    this.name = "Ollama";
+    this.description = "Ollama's API, for local models";
+    this.Settings = SettingsUI7;
+  }
+  async get_models(settings) {
+    const provider_settings = parse_settings7(settings);
+    const response = await (0, import_obsidian3.requestUrl)({
+      url: `${provider_settings.endpoint}/api/tags`,
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      throw: true
+    }).then((response2) => response2.json);
+    return response.models.map((model) => {
+      return new OllamaModel(
+        settings,
+        model.name,
+        model.name,
+        model.name
+      );
+    });
+  }
+};
+
 // src/complete/completers.ts
 var available = [
   new ChatGPTComplete(),
   new OpenAIComplete(),
   new JurassicJ2Complete(),
   new GooseAIComplete(),
-  new OobaboogaComplete()
+  new OobaboogaComplete(),
+  new OllamaComplete()
 ];
 
 // src/settings/settings.tsx
@@ -32260,13 +32556,13 @@ function Presets({
     plugin.savePreset(name);
     setName("");
   };
-  return /* @__PURE__ */ React11.createElement(React11.Fragment, null, /* @__PURE__ */ React11.createElement(
+  return /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Presets",
       description: "\n				Quickly switch between different settings."
     }
-  ), /* @__PURE__ */ React11.createElement(React11.Fragment, null, plugin.settings.presets.map((preset) => /* @__PURE__ */ React11.createElement(SettingsItem, { key: preset.name, name: preset.name }, /* @__PURE__ */ React11.createElement(
+  ), /* @__PURE__ */ React13.createElement(React13.Fragment, null, plugin.settings.presets.map((preset) => /* @__PURE__ */ React13.createElement(SettingsItem, { key: preset.name, name: preset.name }, /* @__PURE__ */ React13.createElement(
     "div",
     {
       className: "checkbox-container" + (preset.enable_editor_command ? " is-enabled" : ""),
@@ -32277,7 +32573,7 @@ function Presets({
         reload_signal.reload = true;
       }
     }
-  ), "Command", /* @__PURE__ */ React11.createElement(
+  ), "Command", /* @__PURE__ */ React13.createElement(
     "button",
     {
       onClick: () => {
@@ -32287,7 +32583,7 @@ function Presets({
       }
     },
     "Load"
-  ), /* @__PURE__ */ React11.createElement(
+  ), /* @__PURE__ */ React13.createElement(
     "button",
     {
       onClick: () => {
@@ -32296,13 +32592,13 @@ function Presets({
       }
     },
     "Delete"
-  )))), /* @__PURE__ */ React11.createElement(
+  )))), /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Save preset",
       description: "Save the current settings as a preset"
     },
-    /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement(
       "input",
       {
         type: "text",
@@ -32311,14 +32607,14 @@ function Presets({
         onChange: (e) => setName(e.target.value)
       }
     ),
-    /* @__PURE__ */ React11.createElement("button", { onClick: savePreset }, "Save preset")
-  ), plugin.settings.presets.length ? /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement("button", { onClick: savePreset }, "Save preset")
+  ), plugin.settings.presets.length ? /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Fallback",
-      description: /* @__PURE__ */ React11.createElement(React11.Fragment, null, "You can use a preset as the fallback if the current model is not available, for example when you are rate limited.")
+      description: /* @__PURE__ */ React13.createElement(React13.Fragment, null, "You can use a preset as the fallback if the current model is not available, for example when you are rate limited.")
     },
-    /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement(
       "select",
       {
         className: "dropdown",
@@ -32329,8 +32625,8 @@ function Presets({
           setForceUpdate(force_update + 1);
         }
       },
-      /* @__PURE__ */ React11.createElement("option", { value: "" }, "Don't use a fallback"),
-      plugin.settings.presets.map((preset) => /* @__PURE__ */ React11.createElement("option", { value: preset.name }, preset.name))
+      /* @__PURE__ */ React13.createElement("option", { value: "" }, "Don't use a fallback"),
+      plugin.settings.presets.map((preset) => /* @__PURE__ */ React13.createElement("option", { value: preset.name }, preset.name))
     )
   ) : null);
 }
@@ -32430,15 +32726,15 @@ function ProviderModelChooser({
     plugin.models = [];
     plugin.saveData(plugin.settings);
   };
-  const ProviderSettings2 = provider == null ? void 0 : provider.Settings;
-  const ModelSettings2 = model == null ? void 0 : model.Settings;
-  return /* @__PURE__ */ React11.createElement(React11.Fragment, null, /* @__PURE__ */ React11.createElement(React11.Fragment, null, /* @__PURE__ */ React11.createElement(
+  const ProviderSettings3 = provider == null ? void 0 : provider.Settings;
+  const ModelSettings3 = model == null ? void 0 : model.Settings;
+  return /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Provider",
       description: provider ? provider.description : ""
     },
-    /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement(
       "select",
       {
         className: "dropdown",
@@ -32447,21 +32743,21 @@ function ProviderModelChooser({
           setProvider(e.target.value);
         }
       },
-      available.map((provider2) => /* @__PURE__ */ React11.createElement("option", { value: provider2.id }, provider2.name))
+      available.map((provider2) => /* @__PURE__ */ React13.createElement("option", { value: provider2.id }, provider2.name))
     )
-  ), ProviderSettings2 && /* @__PURE__ */ React11.createElement(
-    ProviderSettings2,
+  ), ProviderSettings3 && /* @__PURE__ */ React13.createElement(
+    ProviderSettings3,
     {
       settings: providerSettings,
       saveSettings: setProviderSettings
     }
-  )), /* @__PURE__ */ React11.createElement(React11.Fragment, null, /* @__PURE__ */ React11.createElement(
+  )), /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Model",
       description: model ? model.description : ""
     },
-    /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement(
       "select",
       {
         className: "dropdown",
@@ -32470,15 +32766,15 @@ function ProviderModelChooser({
           setModel(e.target.value);
         }
       },
-      provider && available_models.map((model2) => /* @__PURE__ */ React11.createElement("option", { value: model2.id }, model2.name))
+      provider && available_models.map((model2) => /* @__PURE__ */ React13.createElement("option", { value: model2.id }, model2.name))
     )
-  ), ModelSettings2 && /* @__PURE__ */ React11.createElement(
-    ModelSettings2,
+  ), ModelSettings3 && /* @__PURE__ */ React13.createElement(
+    ModelSettings3,
     {
       settings: modelSettings,
       saveSettings: setModelSettings
     }
-  )), /* @__PURE__ */ React11.createElement(
+  )), /* @__PURE__ */ React13.createElement(
     Presets,
     {
       plugin,
@@ -32518,13 +32814,13 @@ function AcceptSettingsComponent({
     plugin.saveData(plugin.settings);
     reload_signal.reload = true;
   };
-  return /* @__PURE__ */ React11.createElement(React11.Fragment, null, /* @__PURE__ */ React11.createElement(
+  return /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Delay",
-      description: /* @__PURE__ */ React11.createElement(React11.Fragment, null, "The plugin will wait this long before getting a completion. The lower the delay, the faster the completions, but the more they cost.")
+      description: /* @__PURE__ */ React13.createElement(React13.Fragment, null, "The plugin will wait this long before getting a completion. The lower the delay, the faster the completions, but the more they cost.")
     },
-    /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement(
       "input",
       {
         type: "number",
@@ -32534,14 +32830,14 @@ function AcceptSettingsComponent({
         }
       }
     ),
-    /* @__PURE__ */ React11.createElement("span", null, "ms")
-  ), /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement("span", null, "ms")
+  ), /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Use a CodeMiror Keybind",
-      description: /* @__PURE__ */ React11.createElement(React11.Fragment, null, "Allows you to use simpler keybinds like ", /* @__PURE__ */ React11.createElement("code", null, "Tab"), " ", "but might not work with other plugins.")
+      description: /* @__PURE__ */ React13.createElement(React13.Fragment, null, "Allows you to use simpler keybinds like ", /* @__PURE__ */ React13.createElement("code", null, "Tab"), " ", "but might not work with other plugins.")
     },
-    /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement(
       "div",
       {
         className: "checkbox-container" + (keybind !== null ? " is-enabled" : ""),
@@ -32550,13 +32846,13 @@ function AcceptSettingsComponent({
         }
       }
     )
-  ), keybind === null ? null : /* @__PURE__ */ React11.createElement(
+  ), keybind === null ? null : /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "CodeMiror Keybind",
-      description: /* @__PURE__ */ React11.createElement(React11.Fragment, null, /* @__PURE__ */ React11.createElement("a", { href: "https://codemirror.net/docs/ref/#h_key_bindings" }, "Keybind format"))
+      description: /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement("a", { href: "https://codemirror.net/docs/ref/#h_key_bindings" }, "Keybind format"))
     },
-    /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement(
       "input",
       {
         type: "text",
@@ -32566,13 +32862,13 @@ function AcceptSettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React11.createElement(
+  ), /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Accept",
-      description: /* @__PURE__ */ React11.createElement("div", { style: { minWidth: "max-content" } }, /* @__PURE__ */ React11.createElement("div", null, "These are presets."), /* @__PURE__ */ React11.createElement("div", { onClick: () => setExpanded(!expanded) }, expanded ? "\u25BE" : "\u25B8", " Advanced controls"))
+      description: /* @__PURE__ */ React13.createElement("div", { style: { minWidth: "max-content" } }, /* @__PURE__ */ React13.createElement("div", null, "These are presets."), /* @__PURE__ */ React13.createElement("div", { onClick: () => setExpanded(!expanded) }, expanded ? "\u25BE" : "\u25B8", " Advanced controls"))
     },
-    /* @__PURE__ */ React11.createElement("div", { className: "ai-complete-accept-presets" }, /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement("div", { className: "ai-complete-accept-presets" }, /* @__PURE__ */ React13.createElement(
       "button",
       {
         onClick: () => setAcceptSettings({
@@ -32585,7 +32881,7 @@ function AcceptSettingsComponent({
         })
       },
       "One word at a time"
-    ), /* @__PURE__ */ React11.createElement(
+    ), /* @__PURE__ */ React13.createElement(
       "button",
       {
         onClick: () => setAcceptSettings({
@@ -32598,7 +32894,7 @@ function AcceptSettingsComponent({
         })
       },
       "One sentence at a time"
-    ), /* @__PURE__ */ React11.createElement(
+    ), /* @__PURE__ */ React13.createElement(
       "button",
       {
         onClick: () => setAcceptSettings({
@@ -32611,7 +32907,7 @@ function AcceptSettingsComponent({
         })
       },
       "One line at a time"
-    ), /* @__PURE__ */ React11.createElement(
+    ), /* @__PURE__ */ React13.createElement(
       "button",
       {
         onClick: () => setAcceptSettings({
@@ -32625,13 +32921,13 @@ function AcceptSettingsComponent({
       },
       "Whole completion"
     ))
-  ), expanded && /* @__PURE__ */ React11.createElement("div", { className: "ai-complete-advanced-settings" }, /* @__PURE__ */ React11.createElement(
+  ), expanded && /* @__PURE__ */ React13.createElement("div", { className: "ai-complete-advanced-settings" }, /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Splitter regex",
       description: "Defines how to split the completion chunks;\n						only one chunk is accepted at a time when the completion is triggered"
     },
-    /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement(
       "input",
       {
         type: "text",
@@ -32644,13 +32940,13 @@ function AcceptSettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React11.createElement(
+  ), /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Preview splitter regex",
       description: "Defines how to split the preview chunks;\n						only one chunk is displayed at a time when the completion is triggered"
     },
-    /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement(
       "input",
       {
         type: "text",
@@ -32663,13 +32959,13 @@ function AcceptSettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React11.createElement(
+  ), /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Completion completeness regex",
       description: "If this is not matched, the last chunk\n						(according to the preview splitter regex) is discarded"
     },
-    /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement(
       "input",
       {
         type: "text",
@@ -32682,13 +32978,13 @@ function AcceptSettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React11.createElement(
+  ), /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Minimum completion length",
       description: "Will complete the fewest chunks\n						that add up to more than this many characters"
     },
-    /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement(
       "input",
       {
         type: "number",
@@ -32701,13 +32997,13 @@ function AcceptSettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React11.createElement(
+  ), /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Minimum display length",
       description: "Will display the fewest preview chunks\n						that add up to more than this many characters"
     },
-    /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement(
       "input",
       {
         type: "number",
@@ -32722,13 +33018,13 @@ function AcceptSettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React11.createElement(
+  ), /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Retrigger threshold",
       description: "When this many characters is left,\n						the API will be pinged again"
     },
-    /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement(
       "input",
       {
         type: "number",
@@ -32753,13 +33049,13 @@ function SettingsComponent({
     plugin.settings.enable_by_default
   );
   const [streaming_mode, setStreamingMode] = (0, import_react5.useState)(plugin.settings.stream);
-  return /* @__PURE__ */ React11.createElement(React11.Fragment, null, /* @__PURE__ */ React11.createElement(React11.Fragment, null, /* @__PURE__ */ React11.createElement(
+  return /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Enable by default",
-      description: /* @__PURE__ */ React11.createElement(React11.Fragment, null, "If the plugin isn't enabled by default, use Ctrl+P and search for Toggle Completion. You can also add a shortcut to it")
+      description: /* @__PURE__ */ React13.createElement(React13.Fragment, null, "If the plugin isn't enabled by default, use Ctrl+P and search for Toggle Completion. You can also add a shortcut to it")
     },
-    /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement(
       "div",
       {
         className: "checkbox-container" + (enable_by_default ? " is-enabled" : ""),
@@ -32770,13 +33066,13 @@ function SettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React11.createElement(
+  ), /* @__PURE__ */ React13.createElement(
     SettingsItem,
     {
       name: "Streaming mode (experimental)",
-      description: /* @__PURE__ */ React11.createElement(React11.Fragment, null, "When enabled, the completion will be updated as it comes in, instead of waiting for the whole completion to be ready. This is useful for completions that take a long time to generate, but may produce buggy results in some cases.")
+      description: /* @__PURE__ */ React13.createElement(React13.Fragment, null, "When enabled, the completion will be updated as it comes in, instead of waiting for the whole completion to be ready. This is useful for completions that take a long time to generate, but may produce buggy results in some cases.")
     },
-    /* @__PURE__ */ React11.createElement(
+    /* @__PURE__ */ React13.createElement(
       "div",
       {
         className: "checkbox-container" + (streaming_mode ? " is-enabled" : ""),
@@ -32787,13 +33083,13 @@ function SettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React11.createElement(
+  ), /* @__PURE__ */ React13.createElement(
     AcceptSettingsComponent,
     {
       plugin,
       reload_signal
     }
-  )), /* @__PURE__ */ React11.createElement(
+  )), /* @__PURE__ */ React13.createElement(
     ProviderModelChooser,
     {
       plugin,
@@ -33032,7 +33328,7 @@ var DEFAULT_SETTINGS = {
   presets: [],
   fallback: null
 };
-var Companion = class extends import_obsidian3.Plugin {
+var Companion = class extends import_obsidian4.Plugin {
   constructor() {
     super(...arguments);
     this.enabled = false;
@@ -33071,7 +33367,7 @@ var Companion = class extends import_obsidian3.Plugin {
       (_evt) => {
         this.enabled = !this.enabled;
         this.fillStatusbar();
-        new import_obsidian3.Notice(
+        new import_obsidian4.Notice(
           `Completion is now ${this.enabled ? "enabled" : "disabled"}`
         );
       }
@@ -33082,7 +33378,7 @@ var Companion = class extends import_obsidian3.Plugin {
       callback: () => {
         this.enabled = !this.enabled;
         this.fillStatusbar();
-        new import_obsidian3.Notice(
+        new import_obsidian4.Notice(
           `Completion is now ${this.enabled ? "enabled" : "disabled"}`
         );
       }
@@ -33186,7 +33482,7 @@ var Companion = class extends import_obsidian3.Plugin {
   }
   async *triggerCompletion() {
     var _a2, _b, _c, _d;
-    const view = this.app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
+    const view = this.app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
     if (!view)
       return;
     if (!this.enabled)
@@ -33305,7 +33601,7 @@ var Companion = class extends import_obsidian3.Plugin {
           return;
         yield* completion;
       } catch (e) {
-        new import_obsidian3.Notice(`Error completing (fallback): ${e.message}`);
+        new import_obsidian4.Notice(`Error completing (fallback): ${e.message}`);
       }
     }
   }
@@ -33329,13 +33625,13 @@ var Companion = class extends import_obsidian3.Plugin {
       }
     } catch (e) {
       if (e.message) {
-        new import_obsidian3.Notice(`Error completing: ${e.message}`);
+        new import_obsidian4.Notice(`Error completing: ${e.message}`);
       }
       return this.fallback_complete(prefix, suffix);
     }
   }
 };
-var PresetChooserModal = class extends import_obsidian3.FuzzySuggestModal {
+var PresetChooserModal = class extends import_obsidian4.FuzzySuggestModal {
   constructor(plugin) {
     super(plugin.app);
     this.plugin = plugin;
@@ -33348,10 +33644,10 @@ var PresetChooserModal = class extends import_obsidian3.FuzzySuggestModal {
   }
   onChooseItem(preset, _evt) {
     this.plugin.loadPreset(preset.name);
-    new import_obsidian3.Notice("Loaded preset " + preset.name);
+    new import_obsidian4.Notice("Loaded preset " + preset.name);
   }
 };
-var CompanionSettingsTab = class extends import_obsidian3.PluginSettingTab {
+var CompanionSettingsTab = class extends import_obsidian4.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;

@@ -13,3 +13,8 @@
   align-items: center;
   gap: 0.5rem;
 }
+.ai-complete-ollama-full-width {
+  width: 100%;
+  min-height: 120px;
+  resize: none;
+}
