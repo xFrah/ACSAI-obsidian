@@ -40,4 +40,6 @@ A mode error happens when you take an action that was not intended simply becaus
 
 
 
+## Temporary modes & Quasimodes
 
+![](../z_images/Pasted%20image%2020240510110542.png)

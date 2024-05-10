@@ -4,7 +4,7 @@ alias: Bellman Equation, Bellman's Equation, Bellman's Equations
 First a few definitions:
 
 > [!quote] State concept
-> A numeric representation of what the [agent](../Artificial%20Intelligence/Agent.md) is observing at a particular point in time in the [environment](../Artificial%20Intelligence/Environment.md).
+> A numeric representation of what the [agent](../Artificial%20Intelligence%20(OLD)/Agent.md) is observing at a particular point in time in the [environment](../Artificial%20Intelligence%20(OLD)/Environment.md).
 
 > [!quote] Action concept
 > The input the agent provides to the environment, computed by applying a policy to the current state.
