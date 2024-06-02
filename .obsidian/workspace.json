@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1a6fd03ac980a41a",
+        "id": "322410a8287e3d08",
         "type": "tabs",
         "children": [
           {
-            "id": "d997d99fde551d9e",
+            "id": "6355d8a896ac3e23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Search.md"
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md"
               }
             }
           },
@@ -161,9 +160,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d997d99fde551d9e",
+  "active": "6355d8a896ac3e23",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240602100039.png",
+    "NOTES-HTML/appunti.zip",
+    "NOTES-HTML/MD VERSIONS.zip",
+    "NOTES-MARKDOWN/Artificial Intelligence/Agents.md",
+    "NOTES-MARKDOWN/TODOS.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240510132909.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240510132451.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240510132424.png",
@@ -172,9 +178,7 @@
     "NOTES-MARKDOWN/z_images/Pasted image 20240510130254.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240510130030.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240510125930.png",
-    "NOTES-MARKDOWN/Artificial Intelligence/Agents.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240510115920.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240510115449.png",
     "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Heuristics.md",
     "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Logical Equivalence.md",
     "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Logical Inference.md",
@@ -197,8 +201,6 @@
     "NOTES-MARKDOWN/Human Computer Interaction/04 - Manipulating objects.md",
     "NOTES-MARKDOWN/Human Computer Interaction/03 - Gestures.md",
     "NOTES-MARKDOWN/Human Computer Interaction/02 - Widgets.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/01 - Interface.md",
-    "NOTES-MARKDOWN/Law/First.md",
     "NOTES-MARKDOWN/Human Computer Interaction",
     "NOTES-MARKDOWN/Law",
     "NOTES-MARKDOWN/Guides to the exams/Systems Exam.pdf",
@@ -206,8 +208,6 @@
     "NOTES-MARKDOWN/Physics/Untitled",
     "NOTES-MARKDOWN/Physics",
     "NOTES-MARKDOWN/Deep Learning",
-    "NOTES-MARKDOWN/Cybersecurity",
-    "NOTES-MARKDOWN/Embedded and Multicore",
     "Machine Learning/Untitled.canvas"
   ]
 }
