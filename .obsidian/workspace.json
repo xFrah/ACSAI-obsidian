@@ -32,14 +32,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b548a69ed6026b52",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ],
         "currentTab": 1
@@ -185,8 +177,13 @@
   },
   "active": "322a9b690d73261a",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240603170908.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240603165308.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240603165235.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240603163604.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240603163603.png",
     "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
     "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
     "NOTES-MARKDOWN/Statistics/Expected value.md",
@@ -197,14 +194,10 @@
     "NOTES-MARKDOWN/z_images/Pasted image 20240603124424.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240603124325.png",
     "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240602100039.png",
     "NOTES-HTML/appunti.zip",
     "NOTES-HTML/MD VERSIONS.zip",
     "NOTES-MARKDOWN/Artificial Intelligence/Agents.md",
     "NOTES-MARKDOWN/TODOS.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240510132909.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240510132451.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240510132424.png",
     "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Heuristics.md",
     "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Logical Equivalence.md",
     "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Logical Inference.md",
@@ -223,7 +216,6 @@
     "NOTES-MARKDOWN/Human Computer Interaction/06 - Modes.md",
     "NOTES-MARKDOWN/Human Computer Interaction/05 - Interrupted work.md",
     "NOTES-MARKDOWN/Human Computer Interaction/05 - Attention.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/04 - Navigation.md",
     "NOTES-MARKDOWN/Human Computer Interaction",
     "NOTES-MARKDOWN/Law",
     "NOTES-MARKDOWN/Guides to the exams/Systems Exam.pdf",
