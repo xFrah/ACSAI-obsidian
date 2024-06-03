@@ -1,6 +1,10 @@
 ## Introduction
 
+### WIP
+
 ## Improving backtracking
+
+### WIP
 ## Arc Consistency
 
 Arc Consistency is a pre-processing strategy that prunes possibilities by enforcing constraints before proceeding with the search.
@@ -12,4 +16,8 @@ put arc definition
 
 put gpt example here
 
+### WIP
+
 ## MAC
+
+### WIP
