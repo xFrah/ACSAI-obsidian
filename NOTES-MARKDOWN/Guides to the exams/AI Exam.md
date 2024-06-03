@@ -2,8 +2,8 @@
 
 - Agents [001-003] ☑️
 - Search problems [004] ☑️
-- CSP (Constraint Satisfaction Problem) [005](https://drive.google.com/file/d/1CxuYOC1pvqN2q1_cm_PEkIsPPxsRiF7u/view?usp=classroom_web&authuser=0)
-- Adversarial Search [006]
+- CSP (Constraint Satisfaction Problem) [005](https://drive.google.com/file/d/1CxuYOC1pvqN2q1_cm_PEkIsPPxsRiF7u/view?usp=classroom_web&authuser=0) ☑️ (**Missing** Optimality/Admissibility, AC-3, MAC)
+- Adversarial Search [006](https://drive.google.com/file/d/15TVdjeX2rmzAqo8BgSTY2m4EqGlu3p1q/view?usp=classroom_web&authuser=0) ☑️ (**Missing** Monte Carlo Tree Search)
 - MDP (Markov Decision Processes) [007]
 - Reinforcement Learning [008-009]
 	- Passive Reinforcement Learning [008]
@@ -14,4 +14,6 @@
 	- Inference, Equivalences, Conjunctive Normal Form [011]
 	- Soundness and Completeness [012]
 	- Forward Chaining & DPLL [013]
+
+
 

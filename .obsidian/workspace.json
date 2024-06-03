@@ -19,8 +19,30 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "322a9b690d73261a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b548a69ed6026b52",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,9 +125,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -126,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md"
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md"
               }
             }
           },
@@ -142,11 +164,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 238.5,
+    "width": 336.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -160,16 +183,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6355d8a896ac3e23",
+  "active": "322a9b690d73261a",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
+    "NOTES-MARKDOWN/Statistics/Expected value.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240603134124.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240603124908.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240603124808.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240603124722.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240603124424.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240603124325.png",
-    "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
-    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240602100039.png",
     "NOTES-HTML/appunti.zip",
@@ -179,8 +205,6 @@
     "NOTES-MARKDOWN/z_images/Pasted image 20240510132909.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240510132451.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240510132424.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240510132414.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240510131720.png",
     "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Heuristics.md",
     "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Logical Equivalence.md",
     "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Logical Inference.md",
@@ -200,7 +224,6 @@
     "NOTES-MARKDOWN/Human Computer Interaction/05 - Interrupted work.md",
     "NOTES-MARKDOWN/Human Computer Interaction/05 - Attention.md",
     "NOTES-MARKDOWN/Human Computer Interaction/04 - Navigation.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/04 - Manipulating objects.md",
     "NOTES-MARKDOWN/Human Computer Interaction",
     "NOTES-MARKDOWN/Law",
     "NOTES-MARKDOWN/Guides to the exams/Systems Exam.pdf",

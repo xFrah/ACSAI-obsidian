@@ -1,4 +1,4 @@
-## Minimax
+## Minimax search
 
 Algorithm for predicting the **best next move to make**, assuming the **opponent plays optimally**.
 Basically it **looks at all possible outcomes** (with set tree depth) and recursively assignes scores from bottom to top, considering also the opponent's moves.
@@ -21,3 +21,19 @@ The algorithm is called minimax because the player (**maximizer**) choses the mo
 > ![](../z_images/Pasted%20image%2020240603124908.png)
 > 
 > ![](../z_images/Pasted%20image%2020240603124325.png)
+
+> [!hint] Example with Alpha-Beta pruning
+> ![](../z_images/Pasted%20image%2020240603134124.png)
+> 
+> Even if we don't evaluate that final node, we already know that black won't choose that path because it's higher than the current max white value. So we can stop the computation of other white values here.
+
+
+## Expectimax search
+
+This is a special kind of node for dealing with uncertainty.
+In an expectimax node, we compute its score by using the [expected value](../Statistics/Expected%20value.md).
+
+
+## Monte Carlo Tree Search
+
+### WIP
