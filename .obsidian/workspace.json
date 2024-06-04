@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -177,22 +178,22 @@
   },
   "active": "322a9b690d73261a",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240604104238.png",
+    "Adversarial Serach.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240604100640.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240604095123.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240603170908.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240603165308.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240603165235.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240603163604.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240603163603.png",
-    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
-    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
     "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
     "NOTES-MARKDOWN/Statistics/Expected value.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240603134124.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240603124908.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240603124808.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240603124722.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240603124424.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240603124325.png",
     "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
     "NOTES-HTML/appunti.zip",
     "NOTES-HTML/MD VERSIONS.zip",
@@ -215,7 +216,6 @@
     "NOTES-MARKDOWN/Artificial Intelligence",
     "NOTES-MARKDOWN/Human Computer Interaction/06 - Modes.md",
     "NOTES-MARKDOWN/Human Computer Interaction/05 - Interrupted work.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/05 - Attention.md",
     "NOTES-MARKDOWN/Human Computer Interaction",
     "NOTES-MARKDOWN/Law",
     "NOTES-MARKDOWN/Guides to the exams/Systems Exam.pdf",
