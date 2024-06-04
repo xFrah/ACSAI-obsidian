@@ -103,10 +103,11 @@ The result is that information propagates outwards from terminal states.
 > 
 > Here the only cell that can actually update is the cell at the left of the positive finish state, since every other cell has neighbors with value 0 or -1 ($\max(0, -1) = 0$).
 > 
-> That cell has 3 possible actions:
+> That cell has 4 possible actions:
 > - Going left
 > - Going right (**we already know that it's the best action because we're human**)
 > - Going down
+> - Going up
 >   
 > > [!hint]
 > According to the bellman equation, we should iterate through the actions, and find the action that gives the highest average value (between the possible states that it can lead to).
@@ -120,12 +121,14 @@ The result is that information propagates outwards from terminal states.
 > > [!hint]
 > > Remember that **this formula accounts for the possibility of transaction randomness**.
 > > In this case we have a 0.2 chance of going to the wrong state, and we take that into account in our expected value computation.
+> > 
+> > In this case, if we decide to go right, the possibilities are 0.1 going top, 0.1 going down and 0.8 of going the right way. (No possibility of going left)
 > 
 > ![](../z_images/Pasted%20image%2020240604160207.png)
 > 
-> > [!hint]
-> > The cell from before has a new value because the adjacent cells don't have 0 value anymore, so they add to the expected value due to the 0.2 possibility of going there.
-
+> > [!question] 
+> > Why did the cell from before change from 0.72 to 0.78?
+> > Because the possibility of wrongly going up now has a value of 0.72.
 
 ---
 
