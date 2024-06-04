@@ -78,4 +78,44 @@ Obviously, in order to do this we need the $V^*$ of every state.
 
 ## Value iteration
 
-### WIP
+We keep a vector $V$ which contains all the values of all the states.
+We update vector $V$ with the bellman update equation, using values from the previous iteration:
+
+$$\large V_{i + 1}\leftarrow R(s)+\gamma \max_{a \in A} \sum_{s'}{P(s'|s, a)V_i(s')}$$
+
+> [!hint] Hints
+> - The first iteration of vector $V$ is called $V_0$, the second $V_1$ and so on...
+> - In iteration $i$ of the algorithm, we use the values of $V_i$ to fill the values in $V_{i+1}$.
+> - So basically the notation $V_i$ and $V_{i+1}$ indicate the whole vectors, not just single cells/states.
+
+
+The result is that information propagates outwards from terminal states.
+
+> [!example]
+> $\gamma = 0.9$
+> $\text{noise} = 0.2$ (probability of going to the wrong state)
+> ![](../z_images/Pasted%20image%2020240604152401.png)
+> 
+> Here the only cell that can actually update is the cell at the left of the positive finish state, since every other cell has neighbors with value 0 or -1 ($\max(0, -1) = 0$).
+> 
+> That cell has 3 possible actions:
+> - Going left
+> - Going right (**we already know that it's the best action because we're human**)
+> - Going down
+>   
+> > [!hint]
+> According to the bellman equation, we should iterate through the actions, and find the action that gives the highest average value (between the possible states that it can lead to).
+> > 
+> > But here (as humans) we already know that the best action is going to the right, so we skip the $\max$ step and we just compute the expected value of the best action.
+> 
+> We compute the expected value of "going right":
+> 
+> $$\large \gamma \sum_{s'}{P(s'|s, a)V_i(s')} = 0.9 \cdot \underbracket{[\underbracket{0.8 \cdot 1}_{\text{correct state}} + 0.2 \cdot 0 + 0.2 \cdot 0]}_{\text{expected value}} = 0.72$$
+> 
+> > [!hint]
+> > Remember that this formula accounts for the possibility of transaction randomness.
+> > In this case we have a 0.2 chance of going to the wrong state, and we take that into account for our expected value computation.
+> 
+> ![](../z_images/Pasted%20image%2020240604160207.png)
+
+ 
