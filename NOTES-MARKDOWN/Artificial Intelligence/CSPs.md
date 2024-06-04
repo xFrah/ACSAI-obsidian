@@ -1,3 +1,10 @@
+---
+aliases:
+  - Constraint satisfaction problem
+  - constraint satisfaction problems
+  - csp
+---
+
 ## Introduction
 
 ### WIP

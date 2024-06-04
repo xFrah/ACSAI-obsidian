@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -176,29 +175,31 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "322a9b690d73261a",
+  "active": "6355d8a896ac3e23",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Agents.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
+    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
+    "NOTES-MARKDOWN/Guides to the exams/Machine Learning Exam - DONE.md",
+    "NOTES-MARKDOWN/Law/First.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240604160207.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240604160150.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240604155359.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240604152401.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240604152353.png",
-    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240604104238.png",
     "Adversarial Serach.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240604100640.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240604095123.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240603170908.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240603165308.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240603165235.png",
-    "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
     "NOTES-MARKDOWN/Statistics/Expected value.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
     "NOTES-HTML/appunti.zip",
     "NOTES-HTML/MD VERSIONS.zip",
-    "NOTES-MARKDOWN/Artificial Intelligence/Agents.md",
     "NOTES-MARKDOWN/TODOS.md",
     "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Heuristics.md",
     "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Logical Equivalence.md",
@@ -215,8 +216,6 @@
     "NOTES-MARKDOWN/Physics/3) Newton's laws.md",
     "NOTES-MARKDOWN/Artificial Intelligence (OLD)/A-star.md",
     "NOTES-MARKDOWN/Artificial Intelligence",
-    "NOTES-MARKDOWN/Human Computer Interaction/06 - Modes.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/05 - Interrupted work.md",
     "NOTES-MARKDOWN/Human Computer Interaction",
     "NOTES-MARKDOWN/Law",
     "NOTES-MARKDOWN/Guides to the exams/Systems Exam.pdf",

@@ -1,18 +1,22 @@
+---
+aliases:
+  - MDP
+---
+
 A Markov Decision Process is a setting in which **the next state is not certain**, actions have probabilities of bringing different next states.
+
 For this reason, the solution to an MDP is **not a sequence of actions**, because you cannot predict the next states, but a **policy that will be used at each step** of the process.
 
 Remember, here the goal is to learn a policy, not decide the move at each step.
-The action to take is already decided by the policy at runtime, but the policy must be learned beforehand, somehow.
+The action to take is already decided by the policy at runtime, but the **policy must be learned beforehand**, somehow.
 
 ## Definitions
 
 > [!hint] Definition of **Policy**
-> A policy is a map of states to actions
+> A policy is a map of states to actions.
 
 > [!hint] Definition of **Reward**
 > Immediate feedback received after a state transition due to an action.
-> For example the finish states or the death states:
-> 
 
 > [!hint] Definition of **Utility**
 > The utility is a sum of (discounted) rewards.
@@ -25,6 +29,7 @@ The action to take is already decided by the policy at runtime, but the policy m
 
 An action has a utility based on the future states to which the action leads.
 The discount factor is how much the rewards are considered at each step away from the current state.
+This basically decides the **importance of future rewards**.
 
 > [!hint]
 > Different discount factors bring different optimal policies. A policy is optimal in relation to its discount factor.
@@ -36,7 +41,8 @@ The value of a state is the expected utility of the state considering that we al
 ![](../z_images/Pasted%20image%2020240603170908.png)
 
 > [!hint]
-> Here the rewards could be like this:
+> Utility != Rewards.
+> Here the rewards look like this:
 > ![](../z_images/Pasted%20image%2020240603165235.png)
 
 
@@ -75,7 +81,6 @@ The second part of the equation basically means:
 
 Obviously, in order to do this we need the $V^*$ of every state.
 
-
 ## Value iteration
 
 We keep a vector $V$ which contains all the values of all the states.
@@ -106,16 +111,25 @@ The result is that information propagates outwards from terminal states.
 > > [!hint]
 > According to the bellman equation, we should iterate through the actions, and find the action that gives the highest average value (between the possible states that it can lead to).
 > > 
-> > But here (as humans) we already know that the best action is going to the right, so we skip the $\max$ step and we just compute the expected value of the best action.
+> > But here (as humans) we already know that the best action is going to the right, so we skip the $\max$ step and **we just compute the expected value of the best action**.
 > 
-> We compute the expected value of "going right":
+> We compute the **expected value of "going right"**:
 > 
 > $$\large \gamma \sum_{s'}{P(s'|s, a)V_i(s')} = 0.9 \cdot \underbracket{[\underbracket{0.8 \cdot 1}_{\text{correct state}} + 0.2 \cdot 0 + 0.2 \cdot 0]}_{\text{expected value}} = 0.72$$
 > 
 > > [!hint]
-> > Remember that this formula accounts for the possibility of transaction randomness.
-> > In this case we have a 0.2 chance of going to the wrong state, and we take that into account for our expected value computation.
+> > Remember that **this formula accounts for the possibility of transaction randomness**.
+> > In this case we have a 0.2 chance of going to the wrong state, and we take that into account in our expected value computation.
 > 
 > ![](../z_images/Pasted%20image%2020240604160207.png)
+> 
+> > [!hint]
+> > The cell from before has a new value because the adjacent cells don't have 0 value anymore, so they add to the expected value due to the 0.2 possibility of going there.
 
- 
+
+---
+
+ > [!note] Sources
+>https://www.youtube.com/watch?v=l87rgLg90HI
+>https://www.cs.cmu.edu/~./15281-f19/lectures/15281_Fa19_Lecture_15_MDPs_II_inked.pdf
+>Indro's slides.
