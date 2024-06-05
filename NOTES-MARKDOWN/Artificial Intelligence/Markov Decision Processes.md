@@ -84,7 +84,7 @@ Obviously, in order to do this we need the $V^*$ of every state.
 ## Value iteration
 
 We keep a vector $V$ which contains all the values of all the states.
-We update vector $V$ with the bellman update equation, using values from the previous iteration:
+Iteration by iteration, we update vector $V$ with the bellman update equation, using values from the previous iteration:
 
 $$\large V_{i + 1}\leftarrow R(s)+\gamma \max_{a \in A} \sum_{s'}{P(s'|s, a)V_i(s')}$$
 
@@ -116,7 +116,7 @@ The result is that information propagates outwards from terminal states.
 > 
 > We compute the **expected value of "going right"**:
 > 
-> $$\large \gamma \sum_{s'}{P(s'|s, a)V_i(s')} = 0.9 \cdot \underbracket{[\underbracket{0.8 \cdot 1}_{\text{correct state}} + 0.2 \cdot 0 + 0.2 \cdot 0]}_{\text{expected value}} = 0.72$$
+> $$\large \gamma \sum_{s'}{P(s'|s, a)V_i(s')} = 0.9 \cdot \underbracket{[\underbracket{0.8 \cdot 1}_{\text{correct state}} + \underbracket{0.2 \cdot 0 + 0.2 \cdot 0}_{\text{random states}}]}_{\text{expected value}} = 0.72$$
 > 
 > > [!hint]
 > > Remember that **this formula accounts for the possibility of transaction randomness**.
