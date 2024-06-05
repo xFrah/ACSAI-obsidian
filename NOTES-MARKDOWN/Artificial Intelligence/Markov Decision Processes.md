@@ -1,8 +1,8 @@
 ---
 aliases:
   - MDP
+  - MDPs
 ---
-
 A Markov Decision Process is a setting in which **the next state is not certain**, actions have probabilities of bringing different next states.
 
 For this reason, the solution to an MDP is **not a sequence of actions**, because you cannot predict the next states, but a **policy that will be used at each step** of the process.
