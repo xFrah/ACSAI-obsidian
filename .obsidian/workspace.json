@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+                "file": "NOTES-MARKDOWN/Machine Learning/ROC.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+                "file": "NOTES-MARKDOWN/Machine Learning/ROC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+                "file": "NOTES-MARKDOWN/Machine Learning/ROC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md"
+                "file": "NOTES-MARKDOWN/Machine Learning/ROC.md"
               }
             }
           },
@@ -163,9 +163,33 @@
   },
   "active": "6355d8a896ac3e23",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/Physics/3) Newton's laws.md",
+    "NOTES-MARKDOWN/Physics/2) Circular motion in 2D.md",
+    "NOTES-MARKDOWN/Physics/1) Bullet motion.md",
+    "NOTES-MARKDOWN/Physics/4) Work.md",
+    "NOTES-MARKDOWN/Physics/5) Conservation of energy.md",
+    "NOTES-MARKDOWN/AI-LAB/Contour detection.md",
+    "NOTES-MARKDOWN/AI-LAB/Convolution.md",
+    "NOTES-MARKDOWN/AI-LAB/Kernel.md",
+    "NOTES-MARKDOWN/AI-LAB/Numpy.md",
+    "NOTES-MARKDOWN/Calculus/Partial derivatives.md",
+    "NOTES-MARKDOWN/Human Computer Interaction/06 - Modes.md",
+    "NOTES-MARKDOWN/Human Computer Interaction/05 - Interrupted work.md",
+    "NOTES-MARKDOWN/Human Computer Interaction/04 - Navigation.md",
+    "NOTES-MARKDOWN/Human Computer Interaction/04 - Manipulating objects.md",
+    "NOTES-MARKDOWN/Human Computer Interaction/01 - Interface.md",
+    "NOTES-MARKDOWN/Human Computer Interaction/02 - Widgets.md",
+    "NOTES-MARKDOWN/Statistics/Median.md",
+    "NOTES-MARKDOWN/Statistics/Estimation.md",
+    "NOTES-MARKDOWN/Physics/Vector operations.md",
+    "NOTES-MARKDOWN/Probability/Random variable.md",
+    "NOTES-MARKDOWN/Probability/Probability distribution.md",
+    "NOTES-MARKDOWN/Probability/Introduction to Probability.md",
+    "NOTES-MARKDOWN/Probability/Event.md",
+    "NOTES-MARKDOWN/Probability/Conditional Probability.md",
+    "NOTES-MARKDOWN/Physics/Da smistare.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.md",
     "lib/media/874d8b8e340f75575caa.svg",
-    "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.md",
     "lib/metadata.json",
     "lib/media",
     "lib/fonts/MathJax_Zero.woff",
@@ -176,30 +200,6 @@
     "lib/fonts/MathJax_Typewriter-Regular.woff",
     "lib/fonts/MathJax_Size2-Regular.woff",
     "lib/fonts/MathJax_Size1-Regular.woff",
-    "NOTES-MARKDOWN/Linear Algebra/Dot product.md",
-    "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
-    "NOTES-MARKDOWN/Linear Algebra/Basis.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/06 - Modes.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/05 - Interrupted work.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/04 - Navigation.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/03 - Gestures.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/02 - Widgets.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/01 - Interface.md",
-    "NOTES-MARKDOWN/Guides to the exams/Statistics Exam - DONE.md",
-    "NOTES-MARKDOWN/Guides to the exams/Probability Exam.md",
-    "NOTES-MARKDOWN/Guides to the exams/Machine Learning Exam - DONE.md",
-    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.md",
-    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
-    "NOTES-MARKDOWN/Guides to the exams/DMA2 Oral Exam - DONE.md",
-    "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs - DONE.md",
-    "NOTES-MARKDOWN/Guides to the exams/DMA1 Exam - DONE.md",
-    "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.md",
-    "NOTES-MARKDOWN/Guides to the exams/Cybersecurity Exam - DONE.md",
-    "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240604160207.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240604160150.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240604155359.png",
