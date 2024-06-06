@@ -91,7 +91,7 @@ $$\large V_{i + 1}\leftarrow R(s)+\gamma \max_{a \in A} \sum_{s'}{P(s'|s, a)V_i(
 > [!hint] Hints
 > - The first iteration of vector $V$ is called $V_0$, the second $V_1$ and so on...
 > - In iteration $i$ of the algorithm, we use the values of $V_i$ to fill the values in $V_{i+1}$.
-> - So basically the notation $V_i$ and $V_{i+1}$ indicate the whole vectors, not just single cells/states.
+> - So basically the notation $V_i$ and $V_{i+1}$ indicates the whole vectors, not just single cells/states.
 
 
 The result is that information propagates outwards from terminal states.
@@ -116,7 +116,7 @@ The result is that information propagates outwards from terminal states.
 > 
 > We compute the **expected value of "going right"**:
 > 
-> $$\large \gamma \sum_{s'}{P(s'|s, a)V_i(s')} = 0.9 \cdot \underbracket{[\underbracket{0.8 \cdot 1}_{\text{correct state}} + \underbracket{0.2 \cdot 0 + 0.2 \cdot 0}_{\text{random states}}]}_{\text{expected value}} = 0.72$$
+> $$\large \gamma \sum_{s'}{P(s'|s, a)V_i(s')} = 0.9 \cdot \underbracket{[\underbracket{0.8 \cdot 1}_{\text{correct state}} + \underbracket{0.1 \cdot 0 + 0.1 \cdot 0}_{\text{random states}}]}_{\text{expected value}} = 0.72$$
 > 
 > > [!hint]
 > > Remember that **this formula accounts for the possibility of transaction randomness**.

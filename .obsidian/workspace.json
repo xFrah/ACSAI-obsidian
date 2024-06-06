@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Propositional Satisfiability.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Propositional Satisfiability.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Propositional Satisfiability.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Propositional Satisfiability.md"
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md"
               }
             }
           },
@@ -163,6 +163,12 @@
   },
   "active": "6355d8a896ac3e23",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Agents.md",
+    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Propositional Satisfiability.md",
     "NOTES-MARKDOWN/Artificial Intelligence (OLD)/First Order Logic.md",
     "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Environment.md",
     "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Forward and backward Chaining.md",
@@ -183,12 +189,6 @@
     "NOTES-MARKDOWN/Physics/2) Circular motion in 2D.md",
     "NOTES-MARKDOWN/Physics/1) Bullet motion.md",
     "NOTES-MARKDOWN/Physics/4) Work.md",
-    "NOTES-MARKDOWN/Physics/5) Conservation of energy.md",
-    "NOTES-MARKDOWN/AI-LAB/Contour detection.md",
-    "NOTES-MARKDOWN/AI-LAB/Convolution.md",
-    "NOTES-MARKDOWN/AI-LAB/Kernel.md",
-    "NOTES-MARKDOWN/AI-LAB/Numpy.md",
-    "NOTES-MARKDOWN/Calculus/Partial derivatives.md",
     "lib/media/874d8b8e340f75575caa.svg",
     "lib/metadata.json",
     "lib/media",
