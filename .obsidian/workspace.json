@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+                "file": "NOTES-MARKDOWN/Patente/Altre informazioni.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+                "file": "NOTES-MARKDOWN/Patente/Altre informazioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+                "file": "NOTES-MARKDOWN/Patente/Altre informazioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md"
+                "file": "NOTES-MARKDOWN/Patente/Altre informazioni.md"
               }
             }
           },
@@ -163,8 +163,27 @@
   },
   "active": "6355d8a896ac3e23",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
+    "NOTES-MARKDOWN/Patente/Sostituzione pneumatico.md",
+    "NOTES-MARKDOWN/Patente/Altre informazioni.md",
+    "NOTES-MARKDOWN/Patente/Luci.md",
+    "NOTES-MARKDOWN/Patente/Spie.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240607094041.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240607094037.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240607093037.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240607092651.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240607092035.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240607091911.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240607091449.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240607091356.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240607091321.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240607091301.png",
+    "NOTES-MARKDOWN/Patente/Controlli appena saliti.md",
+    "NOTES-MARKDOWN/Patente/Controlli periodici.md",
+    "NOTES-MARKDOWN/Patente/Documenti.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
+    "NOTES-MARKDOWN/Machine Learning/K-Nearest Neighbors.md",
+    "NOTES-MARKDOWN/Patente",
     "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Agents.md",
@@ -181,15 +200,6 @@
     "NOTES-MARKDOWN/Machine Learning/Gaussian Mixture Model.md",
     "NOTES-MARKDOWN/Machine Learning/Bayes Theorem.md",
     "NOTES-MARKDOWN/Machine Learning/Gradient.md",
-    "NOTES-MARKDOWN/Machine Learning/Hessian.md",
-    "NOTES-MARKDOWN/Machine Learning/Sigmoid.md",
-    "NOTES-MARKDOWN/Machine Learning/Sphering.md",
-    "NOTES-MARKDOWN/Machine Learning/ROC.md",
-    "NOTES-MARKDOWN/Physics/3) Newton's laws.md",
-    "NOTES-MARKDOWN/Physics/2) Circular motion in 2D.md",
-    "NOTES-MARKDOWN/Physics/1) Bullet motion.md",
-    "NOTES-MARKDOWN/Physics/4) Work.md",
-    "lib/media/874d8b8e340f75575caa.svg",
     "lib/metadata.json",
     "lib/media",
     "lib/fonts/MathJax_Zero.woff",
@@ -199,16 +209,6 @@
     "lib/fonts/MathJax_Size3-Regular.woff",
     "lib/fonts/MathJax_Typewriter-Regular.woff",
     "lib/fonts/MathJax_Size2-Regular.woff",
-    "lib/fonts/MathJax_Size1-Regular.woff",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240604160207.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240604160150.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240604155359.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240604152401.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240604152353.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240604104238.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240604100640.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240604095123.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240603170908.png",
     "Machine Learning/Untitled.canvas"
   ]
 }

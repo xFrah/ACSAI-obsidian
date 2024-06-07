@@ -1,0 +1,10 @@
+- Patente
+- Certificato di circolazione: è il **documento di identità del veicolo**, contiene:
+	- Data di immatricolazione
+	- Targa
+	- Dati del proprietario
+	- Numero di posti
+	- Cilindrata
+	- Potenza
+	- Norme anti-inquinamento che il veicolo rispetta
+	- Eventuali pneumatici alternativi
