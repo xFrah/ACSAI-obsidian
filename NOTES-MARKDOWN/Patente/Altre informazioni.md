@@ -2,7 +2,7 @@
 
 - Massimo 3.5 tonnellate.
 - Massimo 9 posti
-- Moticicli fini a 125 e 11 kw.
+- Mo ticicli fini a 125 e 11 kw.
 - Per il primo anno < 70wk e rapporto kw e tara < 55
 
 ### Limiti di velocità (primi 3 anni)
