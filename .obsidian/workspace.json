@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Patente/Altre informazioni.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a9d3e965726257c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Patente/Altre informazioni.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Patente/Altre informazioni.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Patente/Altre informazioni.md"
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md"
               }
             }
           },
@@ -163,8 +176,27 @@
   },
   "active": "6355d8a896ac3e23",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Patente/Sostituzione pneumatico.md",
+    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Agents.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.md",
+    "NOTES-MARKDOWN/Linear Algebra/Rayleigh quotient.md",
+    "NOTES-MARKDOWN/Linear Algebra/Spanning set.md",
+    "NOTES-MARKDOWN/Linear Algebra/Spectral decomposition.md",
+    "NOTES-MARKDOWN/Linear Algebra/SVD.md",
+    "NOTES-MARKDOWN/Linear Algebra/Quadratic form.md",
     "NOTES-MARKDOWN/Patente/Altre informazioni.md",
+    "NOTES-MARKDOWN/Statistics/Empirical rule.md",
+    "NOTES-MARKDOWN/Statistics/Covariance.md",
+    "NOTES-MARKDOWN/Statistics/Significance Test.md",
+    "NOTES-MARKDOWN/Statistics/Sampling distributions.md",
+    "NOTES-MARKDOWN/Patente/Sostituzione pneumatico.md",
     "NOTES-MARKDOWN/Patente/Luci.md",
     "NOTES-MARKDOWN/Patente/Spie.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240607094041.png",
@@ -180,26 +212,7 @@
     "NOTES-MARKDOWN/Patente/Controlli appena saliti.md",
     "NOTES-MARKDOWN/Patente/Controlli periodici.md",
     "NOTES-MARKDOWN/Patente/Documenti.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
-    "NOTES-MARKDOWN/Machine Learning/K-Nearest Neighbors.md",
     "NOTES-MARKDOWN/Patente",
-    "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Agents.md",
-    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Propositional Satisfiability.md",
-    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/First Order Logic.md",
-    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Environment.md",
-    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Forward and backward Chaining.md",
-    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/PCNF.md",
-    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Negational Normal Form.md",
-    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Prenex Normal Form.md",
-    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/MAC.md",
-    "NOTES-MARKDOWN/Machine Learning/Generalized Linear Model.md",
-    "NOTES-MARKDOWN/Machine Learning/Attention Mechanism.md",
-    "NOTES-MARKDOWN/Machine Learning/Gaussian Mixture Model.md",
-    "NOTES-MARKDOWN/Machine Learning/Bayes Theorem.md",
-    "NOTES-MARKDOWN/Machine Learning/Gradient.md",
     "lib/metadata.json",
     "lib/media",
     "lib/fonts/MathJax_Zero.woff",

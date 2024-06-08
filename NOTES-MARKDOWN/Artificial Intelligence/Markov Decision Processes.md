@@ -130,6 +130,28 @@ The result is that information propagates outwards from terminal states.
 > > Why did the cell from before change from 0.72 to 0.78?
 > > Because the possibility of wrongly going up now has a value of 0.72.
 
+
+## Policy iteration
+
+Don't worry, we're almost finished.
+This is an alternative to value iteration.
+
+It consists of 2 steps:
+- Policy **evaluation**
+- Policy **improvement**
+
+When we are finished, we **repeat until convergence**.
+
+We start by doing the **evaluation on a fixed policy** (without values, just a map<state, single action>).
+### Policy evaluation
+
+We compute the values of the states, given the fixed actions.
+The formula for updating is similar to the value iteration algorithm, but we skip the "max" step, so for each state **we compute the expected value of only one action**.
+
+### Policy iteration
+
+We compute the new best actions, given the values of the states. The policy will be better.
+
 ---
 
  > [!note] Sources
