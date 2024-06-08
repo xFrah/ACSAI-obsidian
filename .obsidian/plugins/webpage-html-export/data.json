@@ -45,7 +45,16 @@
   "defaultMediaIcon": "lucide//file-image",
   "exportPath": "C:\\\\Users\\fdimo\\Documents\\Obsidian Vault",
   "filesToExport": [
-    []
+    [
+      "NOTES-MARKDOWN/Artificial Intelligence",
+      "NOTES-MARKDOWN/Calculus",
+      "NOTES-MARKDOWN/Guides to the exams",
+      "NOTES-MARKDOWN/Human Computer Interaction",
+      "NOTES-MARKDOWN/Linear Algebra",
+      "NOTES-MARKDOWN/Machine Learning",
+      "NOTES-MARKDOWN/Probability",
+      "NOTES-MARKDOWN/Statistics"
+    ]
   ],
   "inlineCSS": true,
   "inlineJS": true,
