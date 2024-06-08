@@ -6,6 +6,7 @@ In model-based learning, the agent first learns the model of the environment (th
 We have to learn the transition probabilities and reward functions by ourselves.
 
 So we learn an empirical MDP model:
+	
 - **Discover probabilities**: Each time we do an action, we count the outcome in the probability distribution $P(s'|s, a)$.
 	
 > [!hint]
@@ -16,12 +17,13 @@ So we learn an empirical MDP model:
 
 ### Model-free
 
-In model-free learning, the agent directly learns the value function (V) or the action-value function (Q) from the experiences, without explicitly learning the transition probabilities and reward functions.
+In model-free learning, the agent directly learns the value function (V) or the action-value function (Q) from the experiences, without learning the transition probabilities and reward functions.
 
 ---
 
 > [!attention]
-> We will mainly discuss about model-free learning from now on
+> We will mainly discuss about model-free learning from now on.
+> The question will be... **how do we find $V(s)$** without probabilities or rewards?
 
 ---
 ## Direct / Monte-Carlo evaluation
@@ -48,3 +50,21 @@ We do this several times for each state and we call them samples, then we averag
 > > $$\large V(s'') = R(s'')$$
 > 
 
+
+## Temporal difference
+
+Same as direct evaluation, the only difference is that we update the $V$ function right when we visit the states, not at the end altogether.
+
+1. We start from the fixed policy. [Start of episode]
+2. We take the action decided by the policy.
+3. We update the value for that state by weighing the previous value and the new sample:
+
+$$\large V(s) \leftarrow (1-\alpha) \underbracket{V(s)}_{\text{prev value}} + \alpha [\underbracket{R(s) + \gamma V(s')}_{\text{new sample}}]$$
+4. We go onto the next state and do the same until S is terminal. [End of episode]
+5. Restart from starting state and repeat until you are satisfied I guess?
+
+> [!hint]
+> This is just a model-free way of doing policy evaluation.
+
+> [!note] Advantages
+> It should converge faster than Direct Evaluation because...

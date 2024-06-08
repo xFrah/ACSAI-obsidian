@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -176,6 +177,8 @@
   },
   "active": "6355d8a896ac3e23",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
     "NOTES-MARKDOWN/Statistics/Z-score.md",
     "NOTES-MARKDOWN/Machine Learning/Sphering.html",
     "NOTES-MARKDOWN/Machine Learning/Attention Mechanism.html",
@@ -202,8 +205,6 @@
     "NOTES-MARKDOWN/Statistics/Advanced Regression.md",
     "NOTES-MARKDOWN/Probability/Random variable.md",
     "NOTES-MARKDOWN/Probability/Probability distribution.md",
-    "NOTES-MARKDOWN/Probability/Introduction to Probability.md",
-    "NOTES-MARKDOWN/Probability/Event.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240607094041.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240607094037.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240607093037.png",
