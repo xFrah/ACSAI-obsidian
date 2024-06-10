@@ -26,7 +26,7 @@ In model-free learning, the agent directly learns the value function (V) or the 
 > The question will be... **how do we find $V(s)$** without probabilities or rewards?
 
 ---
-## Direct / Monte-Carlo evaluation
+#### Direct / Monte-Carlo evaluation
 
 Act according to the policy, then after visiting a state, begin to write down the sum of discounted rewards from that state onwards.
 
@@ -57,7 +57,7 @@ We do this several times for each state (in different **episodes**) and we call 
 > > $$\large V(s'') = R(s'')$$
 > 
 
-## Temporal difference
+#### Temporal difference
 
 Same as direct evaluation, the only difference is that we update the $V$ function right when we visit the states, not at the end altogether.
 
@@ -76,7 +76,7 @@ $$\large V(s) \leftarrow (1-\alpha) \underbracket{V(s)}_{\text{prev value}} + \a
 > It should converge faster than Direct Evaluation because we don't wait an entire episode to update the value function, so our update can use more recent data.
 
 
-## Q-Value iteration
+#### Q-Value iteration
 
 Now that we know how to evaluate the policy in a model-free way, we need to do the action selection part.
 
@@ -98,3 +98,83 @@ $$\large Q_{i+1}(s, a) \leftarrow (1-\alpha)\underbracket{Q_i(a, s)}_{\text{old 
 
 > [!example]
 > ![](../z_images/Pasted%20image%2020240610105931.png)
+
+
+## Active Reinforcement Learning
+
+We act accordingly to the q-values for gaining experience. (**Exploitation**)
+
+> [!summary] Exploration vs Exploitation
+> - **Exploration** means that we choose suboptimal actions to gain samples and improve the policy. 
+> - **Exploitation** means that we follow the actions that were found to bring higher rewards.
+>   
+>  We need a balance between the two, because if the agent explores too much, **learning takes a long time**; if the agent exploits too much, we might get **stuck in a local optima**. 
+
+
+But in order to exploit the policy, we also need to learn it or improve it.
+We do this by exploring more, so that we can find new ways of improving the policy.
+
+### ε-greedy
+
+Every time we take a step, flip a coin, we have $ε$ probability of acting randomly.
+We should lower the probability over time.
+
+### Exploration functions
+
+Explore areas that were not explored enough times.
+
+### Approximate q-learning
+
+We don't learn all possible states, but we learn generalized states and use them for new similar solutions.
+
+This is too much for now, I don't care sorry.
+
+## Feature representations
+
+Features are functions that map states to numbers that capture important information of the state.
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020240610170931.png)
+> 
+> - Distance to closest ghost
+> - Distance to closest dot
+> - Number of ghosts
+> - 1 /(dist to dot)2
+> - Is Pacman in a tunnel? (0/1)
+
+
+### Linear Value Functions
+
+We can write the value functions using features of the states.
+
+$$\large V(s) = w_1f_1(s)+w_2f_2(s)+\dots+w_nf_n(s)$$
+$$\large Q(s, a) = w_1f_1(s, a)+w_2f_2(s, a)+\dots+w_nf_n(s, a)$$
+
+> [!hint]
+> The weights are learned, they serve the purpose of indicating the importance of a certain feature for a certain state.
+
+> [!example]
+> The features for the pacman example are:
+> - $f_1$: distance to the nearest ghost
+> - $f_2$: distance to the nearest dot
+> - $f_3$: number of remaining dots
+> - $f_4$: inverse square of the distance to the nearest power pellet
+> 
+> Now we give an example of the weights.
+> 
+> - $w_1$ =−2 (closer ghosts are more dangerous)
+> - $w_2$ =−1 (closer dots are more beneficial)
+> - $w_3$ =−0.5 (fewer dots mean progress)
+> - $w_4$ =5 (closer power pellets are very beneficial)
+> 
+> Imagine pacman is in a state where:
+> 
+> - $f1$=5 (5 steps to the nearest ghost)
+> - $f2$=3 (3 steps to the nearest dot)
+> - $f3$=20 (20 dots left)
+> - $f4$=$\frac{1}{2^2}$=0.25 (2 steps to the nearest power pellet)
+> 
+> The value for this state is:
+> $$\large V(s)=(−2)⋅5+(−1)⋅3+(−0.5)⋅20+5⋅0.25$$
+> 
+> ### This is from chatgpt, check if it's right.
