@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -177,7 +176,14 @@
   },
   "active": "6355d8a896ac3e23",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/z_images/Pasted image 20240610105931.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240610105709.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240610105639.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240610105637.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240610105552.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240610105549.png",
     "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
     "NOTES-MARKDOWN/Statistics/Z-score.md",
     "NOTES-MARKDOWN/Machine Learning/Sphering.html",
@@ -203,18 +209,11 @@
     "NOTES-MARKDOWN/Statistics/Box plot.md",
     "NOTES-MARKDOWN/Statistics/Association.md",
     "NOTES-MARKDOWN/Statistics/Advanced Regression.md",
-    "NOTES-MARKDOWN/Probability/Random variable.md",
-    "NOTES-MARKDOWN/Probability/Probability distribution.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240607094041.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240607094037.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240607093037.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240607092651.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240607092035.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240607091911.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240607091449.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240607091356.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240607091321.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240607091301.png",
     "NOTES-MARKDOWN/Patente",
     "lib/metadata.json",
     "lib/media",

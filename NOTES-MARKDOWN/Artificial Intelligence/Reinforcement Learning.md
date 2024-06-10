@@ -78,5 +78,23 @@ $$\large V(s) \leftarrow (1-\alpha) \underbracket{V(s)}_{\text{prev value}} + \a
 
 ## Q-Value iteration
 
+Now that we know how to evaluate the policy in a model-free way, we need to do the action selection part.
+
+It's exactly the same as value iteration, we keep a vector $Q_i$ which stores the q-values for each state and action at each itearation, and we use the q-values in $Q_i$ to compute $Q_{i+1}$.
+
+If this wasn't model free, we'd use the following formula:
+
+$$\large Q_{i+1}(s, a)=R(s)+\gamma \sum_{s'}{P(s'|s, a)\max_{a' \in A}Q_i(s', a')}$$
+> [!hint]
+> Which means that we are taking the expected value(because of randomness in transitions) of the best action.
 
 
+Since we don't have the probabilities or the rewards, we need to take samples.
+
+$$\large Q_{i+1}(s, a) \leftarrow (1-\alpha)\underbracket{Q_i(a, s)}_{\text{old value}} + \alpha \underbracket{[R(s) + \gamma\max Q_i(s', a')]}_{\text{new sample}}$$
+
+> [!hint]
+> The new sample is given by the best q-value from the new state $s'$ + the transition reward.
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020240610105931.png)
