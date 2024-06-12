@@ -142,7 +142,6 @@ Features are functions that map states to numbers that capture important informa
 > - 1 /(dist to dot)2
 > - Is Pacman in a tunnel? (0/1)
 
-
 ### Linear Value Functions
 
 We can write the value functions using features of the states.
@@ -162,17 +161,17 @@ $$\large Q(s, a) = w_1f_1(s, a)+w_2f_2(s, a)+\dots+w_nf_n(s, a)$$
 > 
 > Now we give an example of the weights.
 > 
-> - $w_1$ =−2 (closer ghosts are more dangerous)
-> - $w_2$ =−1 (closer dots are more beneficial)
-> - $w_3$ =−0.5 (fewer dots mean progress)
-> - $w_4$ =5 (closer power pellets are very beneficial)
+> - $w_1$ = −2 (closer ghosts are more dangerous)
+> - $w_2$ = −1 (closer dots are more beneficial)
+> - $w_3$ = −0.5 (fewer dots mean progress)
+> - $w_4$ = 5 (closer power pellets are very beneficial)
 > 
 > Imagine pacman is in a state where:
 > 
-> - $f1$=5 (5 steps to the nearest ghost)
-> - $f2$=3 (3 steps to the nearest dot)
-> - $f3$=20 (20 dots left)
-> - $f4$=$\frac{1}{2^2}$=0.25 (2 steps to the nearest power pellet)
+> - $f_1$ = 5 (5 steps to the nearest ghost)
+> - $f_2$ = 3 (3 steps to the nearest dot)
+> - $f_3$ = 20 (20 dots left)
+> - $f_4$ = $\frac{1}{2^2}$=0.25 (2 steps to the nearest power pellet)
 > 
 > The value for this state is:
 > $$\large V(s)=(−2)⋅5+(−1)⋅3+(−0.5)⋅20+5⋅0.25$$

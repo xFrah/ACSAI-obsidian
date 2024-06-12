@@ -26,14 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md"
+                "file": "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md"
               }
             }
           },
@@ -174,10 +176,25 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6355d8a896ac3e23",
+  "active": "5a9d3e965726257c",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/z_images/Pasted image 20240612181307.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240612112614.png",
+    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Logical Inference.md",
+    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Logical Equivalence.md",
+    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Forward and backward Chaining.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240610200031.png",
     "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
+    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
+    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.md",
+    "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.md",
+    "NOTES-MARKDOWN/Linear Algebra/Hyperplanes.md",
+    "NOTES-MARKDOWN/Linear Algebra/Linear Combination.md",
+    "NOTES-MARKDOWN/Linear Algebra/Linear dependence.md",
+    "NOTES-MARKDOWN/Linear Algebra/Norm.md",
+    "NOTES-MARKDOWN/Linear Algebra/Quadratic form.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240610170931.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240610105931.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240610105709.png",
@@ -198,21 +215,7 @@
     "NOTES-MARKDOWN/Statistics/Sampling distributions.md",
     "NOTES-MARKDOWN/Statistics/Regression.md",
     "NOTES-MARKDOWN/Statistics/Normal distribution.md",
-    "NOTES-MARKDOWN/Statistics/Mode.md",
-    "NOTES-MARKDOWN/Statistics/Median.md",
-    "NOTES-MARKDOWN/Statistics/Measures of Position.md",
-    "NOTES-MARKDOWN/Statistics/Expected value.md",
-    "NOTES-MARKDOWN/Statistics/Estimation.md",
-    "NOTES-MARKDOWN/Statistics/Empirical rule.md",
-    "NOTES-MARKDOWN/Statistics/Covariance.md",
-    "NOTES-MARKDOWN/Statistics/Correlation coefficient.md",
-    "NOTES-MARKDOWN/Statistics/Confidence interval.md",
-    "NOTES-MARKDOWN/Statistics/Box plot.md",
-    "NOTES-MARKDOWN/Statistics/Association.md",
-    "NOTES-MARKDOWN/Statistics/Advanced Regression.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240607094041.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240607094037.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240607093037.png",
     "NOTES-MARKDOWN/Patente",
     "lib/metadata.json",
     "lib/media",
