@@ -114,14 +114,49 @@ For the other side to be true, we either need $Y$ and $Z$ to be true, but this i
 | F    | F      | F     | T               |
 The sentence is valid.
 
+> [!danger]
+> We might need to include all the clauses, not just the entire sentence's result.
+
+
 ### 2.
 
 > [!summary] CNF
 > How do we turn a formula into Conjunctive Normal Form?
-> 1. We substitute ↔ with 
-> 2. We substitute → with 
-> 3. We allow ¬ only in front of single symbols.
+> 1. We substitute ↔ with $(α→β)∧(β→α)$
+> 2. We substitute → with $¬α∨β$
+> 3. We allow ¬ only in front of single symbols. (using double negation or De Morgan's)
+> 4. Apply distributivity to make it like this:
+>    
+>    $$\large (¬B1,1 ∨ P1,2 ∨ P2,1) ∧ (¬P1,2 ∨ B1,1) ∧ (¬P2,1 ∨ B1,1)$$
+
+We turn the left hand side and right hand side of the following formula into CNF:
+
+$$\large [(f \rightarrow p) \lor (d \rightarrow p)] \rightarrow [(f \land d) \rightarrow p]$$
+1. There are no $↔$.
+2. We remove the implications:
+
+$$\large (\lnot f \lor p) \lor (\lnot d \lor p); \quad \lnot(f \land d) \lor p$$
+
+3. We limit $\lnot$'s to symbols only:
+
+$$\large (\lnot f \lor p) \lor (\lnot d \lor p); \quad (\lnot f \lor \lnot d) \lor p$$
+
+> [!hint]
+> We used De Morgan's law.
+> 
+> $$\large \lnot (a \land b) = \lnot a \lor \lnot b$$
+> $$\large \lnot (a \lor b) = \lnot a \land \lnot b$$
 
 
+4. Apply distributivity(there is no distributivity to apply here):
 
+$$\large \lnot f \lor p \lor \lnot d;\quad \lnot f \lor \lnot d \lor p$$
 
+> [!hint]
+> Distributivity is like multiplication of a sum with a scalar.
+> 
+> $$\large a\cdot (b + c) = ab + ac$$
+> $$\large a\lor (b \land c) = (a \lor b) \land (a \lor c)$$
+> $$\large a\land (b \lor c) = (a \land b) \lor (a \land c)$$
+> 
+> The $\cdot$ becomes whatever is outsite the parenthesis.
