@@ -8,12 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6355d8a896ac3e23",
+            "id": "b0b460d4bb266028",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d46a4f6313a4a666",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md"
+                "file": "NOTES-MARKDOWN/Guides to the exams/AI Exam.md"
               }
             }
           },
@@ -147,8 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5,
-    "collapsed": true
+    "width": 336.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,46 +173,46 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6355d8a896ac3e23",
+  "active": "b0b460d4bb266028",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
-    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Propositional Satisfiability.md",
-    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Logical Equivalence.md",
-    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Logical Inference.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).md",
-    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/PCNF.md",
-    "CNF.md",
+    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Negational Normal Form.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/CNF.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Logical Equivalences.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Environments.md",
+    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Logical Inference.md",
+    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Chaining & DPLL.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
+    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Propositional Satisfiability.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Heuristics.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/First Order Logic.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/PCNF.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Prenex Normal Form.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/A-star.md",
+    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Propositional Resolution.md",
+    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Best-first search.md",
+    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Set theory.md",
+    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Arity.md",
+    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Agent.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240613174245.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240613174241.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240613173017.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240613114403.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240613114055.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240613113920.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240613113904.png",
+    "NOTES-MARKDOWN/Statistics/Significance Level.md",
+    "NOTES-MARKDOWN/Human Computer Interaction/02 - Widgets.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240612181307.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240612112614.png",
-    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/Forward and backward Chaining.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240610200031.png",
-    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
-    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
-    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.md",
-    "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.md",
-    "NOTES-MARKDOWN/Linear Algebra/Hyperplanes.md",
-    "NOTES-MARKDOWN/Linear Algebra/Linear Combination.md",
-    "NOTES-MARKDOWN/Linear Algebra/Linear dependence.md",
-    "NOTES-MARKDOWN/Linear Algebra/Norm.md",
-    "NOTES-MARKDOWN/Linear Algebra/Quadratic form.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240610170931.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240610105931.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240610105709.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240610105639.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240610105637.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240610105552.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240610105549.png",
-    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
-    "NOTES-MARKDOWN/Statistics/Z-score.md",
     "NOTES-MARKDOWN/Machine Learning/Sphering.html",
     "NOTES-MARKDOWN/Machine Learning/Attention Mechanism.html",
-    "NOTES-MARKDOWN/Statistics/Variance.md",
-    "NOTES-MARKDOWN/Statistics/Variable types.md",
-    "NOTES-MARKDOWN/Statistics/Standard Error.md",
-    "NOTES-MARKDOWN/Statistics/Standard Deviation.md",
-    "NOTES-MARKDOWN/Statistics/Significance Test.md",
-    "NOTES-MARKDOWN/Statistics/Significance Level.md",
     "NOTES-MARKDOWN/Patente",
     "lib/metadata.json",
     "lib/media",

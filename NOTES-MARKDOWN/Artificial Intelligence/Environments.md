@@ -1,4 +1,4 @@
-##### Charateristics:
+## Charateristics:
 - **Observability**
 	- Fully observable
 	- Partially observable

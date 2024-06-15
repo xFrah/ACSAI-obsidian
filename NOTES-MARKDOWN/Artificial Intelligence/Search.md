@@ -1,20 +1,5 @@
 > [!hint] Introduction
 > 
-> > [!note]
-> > We can consider **searching as an agent-based task**, for which the agent finds a sequence of actions which transform the environment into the goal state.
-> 
-> ## Open loop search
-> 
-> While the agent executes the solution, it **ignores the perception** stage.
-> This is possible if the environment is:
-> - **Deterministic**
-> - **Fully observable**
-> - **Known to the agent**
-> 
-> > [!example]
-> > This is not possible with chess, because the other player can change the environment, so we must perceive it again.
-> 
-> 
 > ## Search problem definition
 > 
 > We have a **State Space**(set) which contains all the possible states of the environment.
@@ -130,14 +115,10 @@ The strategy for this tree search is: **Always expand to the cheapest node**.
 
 Expand node closest to goal according to a heuristic function.
 
-## A*
+## [A*](A-star.md)
 
 Expand node that has lower cost according to this cost function
 
 $$\large\text{cost}(n) = \text{real cost from start to n} + \text{estimated cost from n to goal}$$
 
 ![](../z_images/Pasted%20image%2020240602100039.png)
-
-
-> [!tip] Optimality proof
-> ### WIP
