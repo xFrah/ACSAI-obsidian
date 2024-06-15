@@ -1,29 +1,43 @@
 {
   "vaultName": "Obsidian Vault",
-  "lastExport": 1717842814715,
+  "lastExport": 1718455596105,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
+    "NOTES-MARKDOWN/AI-LAB/Contour detection.md",
+    "NOTES-MARKDOWN/AI-LAB/Convolution.md",
+    "NOTES-MARKDOWN/AI-LAB/Kernel.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/A-star.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.html",
     "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Agents.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Agents.html",
+    "NOTES-MARKDOWN/Artificial Intelligence/CNF.md",
     "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
     "NOTES-MARKDOWN/Artificial Intelligence/CSPs.html",
-    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Environments.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Heuristics.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Logical Equivalences.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.html",
-    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.html",
+    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Negational Normal Form.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.html",
     "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Search.html",
     "NOTES-MARKDOWN/Calculus/Partial derivatives.html",
     "NOTES-MARKDOWN/Calculus/Partial derivatives.md",
-    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam.html",
+    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).html",
-    "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).md",
     "NOTES-MARKDOWN/Guides to the exams/Cybersecurity Exam - DONE.md",
     "NOTES-MARKDOWN/Guides to the exams/Cybersecurity Exam - DONE.html",
     "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.md",
@@ -34,8 +48,8 @@
     "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs - DONE.md",
     "NOTES-MARKDOWN/Guides to the exams/DMA2 Oral Exam - DONE.md",
     "NOTES-MARKDOWN/Guides to the exams/DMA2 Oral Exam - DONE.html",
-    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
     "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.html",
+    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
     "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.md",
     "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.html",
     "NOTES-MARKDOWN/Guides to the exams/Machine Learning Exam - DONE.md",
@@ -48,10 +62,10 @@
     "NOTES-MARKDOWN/Guides to the exams/Systems Exam.pdf",
     "NOTES-MARKDOWN/Human Computer Interaction/01 - Interface.html",
     "NOTES-MARKDOWN/Human Computer Interaction/01 - Interface.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/02 - Widgets.md",
     "NOTES-MARKDOWN/Human Computer Interaction/02 - Widgets.html",
-    "NOTES-MARKDOWN/Human Computer Interaction/03 - Gestures.md",
+    "NOTES-MARKDOWN/Human Computer Interaction/02 - Widgets.md",
     "NOTES-MARKDOWN/Human Computer Interaction/03 - Gestures.html",
+    "NOTES-MARKDOWN/Human Computer Interaction/03 - Gestures.md",
     "NOTES-MARKDOWN/Human Computer Interaction/04 - Manipulating objects.md",
     "NOTES-MARKDOWN/Human Computer Interaction/04 - Manipulating objects.html",
     "NOTES-MARKDOWN/Human Computer Interaction/04 - Navigation.md",
@@ -60,34 +74,34 @@
     "NOTES-MARKDOWN/Human Computer Interaction/05 - Attention.html",
     "NOTES-MARKDOWN/Human Computer Interaction/05 - Interrupted work.md",
     "NOTES-MARKDOWN/Human Computer Interaction/05 - Interrupted work.html",
-    "NOTES-MARKDOWN/Human Computer Interaction/06 - Modes.html",
     "NOTES-MARKDOWN/Human Computer Interaction/06 - Modes.md",
+    "NOTES-MARKDOWN/Human Computer Interaction/06 - Modes.html",
     "NOTES-MARKDOWN/Linear Algebra/Basis.md",
     "NOTES-MARKDOWN/Linear Algebra/Basis.html",
-    "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
     "NOTES-MARKDOWN/Linear Algebra/Determinant.html",
+    "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
     "NOTES-MARKDOWN/Linear Algebra/Dot product.md",
     "NOTES-MARKDOWN/Linear Algebra/Dot product.html",
     "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.md",
     "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.html",
     "NOTES-MARKDOWN/Linear Algebra/Gaussian Elimination.md",
     "NOTES-MARKDOWN/Linear Algebra/Gaussian Elimination.html",
-    "NOTES-MARKDOWN/Linear Algebra/Hyperplanes.md",
     "NOTES-MARKDOWN/Linear Algebra/Hyperplanes.html",
+    "NOTES-MARKDOWN/Linear Algebra/Hyperplanes.md",
     "NOTES-MARKDOWN/Linear Algebra/Inverse of a Matrix.md",
     "NOTES-MARKDOWN/Linear Algebra/Inverse of a Matrix.html",
-    "NOTES-MARKDOWN/Linear Algebra/Linear Combination.md",
     "NOTES-MARKDOWN/Linear Algebra/Linear Combination.html",
+    "NOTES-MARKDOWN/Linear Algebra/Linear Combination.md",
     "NOTES-MARKDOWN/Linear Algebra/Linear dependence.md",
     "NOTES-MARKDOWN/Linear Algebra/Linear dependence.html",
     "NOTES-MARKDOWN/Linear Algebra/Matrix (ML).md",
     "NOTES-MARKDOWN/Linear Algebra/Matrix (ML).html",
     "NOTES-MARKDOWN/Linear Algebra/Matrix operations.md",
     "NOTES-MARKDOWN/Linear Algebra/Matrix operations.html",
-    "NOTES-MARKDOWN/Linear Algebra/Norm.md",
     "NOTES-MARKDOWN/Linear Algebra/Norm.html",
-    "NOTES-MARKDOWN/Linear Algebra/Null space.md",
+    "NOTES-MARKDOWN/Linear Algebra/Norm.md",
     "NOTES-MARKDOWN/Linear Algebra/Null space.html",
+    "NOTES-MARKDOWN/Linear Algebra/Null space.md",
     "NOTES-MARKDOWN/Linear Algebra/Quadratic form.md",
     "NOTES-MARKDOWN/Linear Algebra/Quadratic form.html",
     "NOTES-MARKDOWN/Linear Algebra/Rank.md",
@@ -96,61 +110,61 @@
     "NOTES-MARKDOWN/Linear Algebra/Rayleigh quotient.html",
     "NOTES-MARKDOWN/Linear Algebra/Spanning set.md",
     "NOTES-MARKDOWN/Linear Algebra/Spanning set.html",
-    "NOTES-MARKDOWN/Linear Algebra/Spectral decomposition.md",
     "NOTES-MARKDOWN/Linear Algebra/Spectral decomposition.html",
-    "NOTES-MARKDOWN/Linear Algebra/SVD.md",
+    "NOTES-MARKDOWN/Linear Algebra/Spectral decomposition.md",
     "NOTES-MARKDOWN/Linear Algebra/SVD.html",
-    "NOTES-MARKDOWN/Linear Algebra/Symmetric matrix.md",
+    "NOTES-MARKDOWN/Linear Algebra/SVD.md",
     "NOTES-MARKDOWN/Linear Algebra/Symmetric matrix.html",
-    "NOTES-MARKDOWN/Linear Algebra/Systems of Linear Equations.md",
+    "NOTES-MARKDOWN/Linear Algebra/Symmetric matrix.md",
     "NOTES-MARKDOWN/Linear Algebra/Systems of Linear Equations.html",
+    "NOTES-MARKDOWN/Linear Algebra/Systems of Linear Equations.md",
     "NOTES-MARKDOWN/Linear Algebra/Transformations.md",
     "NOTES-MARKDOWN/Linear Algebra/Transformations.html",
-    "NOTES-MARKDOWN/Linear Algebra/Vector spaces.md",
     "NOTES-MARKDOWN/Linear Algebra/Vector spaces.html",
-    "NOTES-MARKDOWN/Linear Algebra/Vectors.md",
+    "NOTES-MARKDOWN/Linear Algebra/Vector spaces.md",
     "NOTES-MARKDOWN/Linear Algebra/Vectors.html",
+    "NOTES-MARKDOWN/Linear Algebra/Vectors.md",
     "NOTES-MARKDOWN/Machine Learning/Attention Mechanism.html",
     "NOTES-MARKDOWN/Machine Learning/Basis Function.html",
     "NOTES-MARKDOWN/Machine Learning/Basis Function.md",
-    "NOTES-MARKDOWN/Machine Learning/Bayes Theorem.md",
     "NOTES-MARKDOWN/Machine Learning/Bayes Theorem.html",
+    "NOTES-MARKDOWN/Machine Learning/Bayes Theorem.md",
     "NOTES-MARKDOWN/Machine Learning/Covariance matrix.md",
     "NOTES-MARKDOWN/Machine Learning/Covariance matrix.html",
     "NOTES-MARKDOWN/Machine Learning/Cross-entropy.html",
     "NOTES-MARKDOWN/Machine Learning/Cross-entropy.md",
     "NOTES-MARKDOWN/Machine Learning/Cross-validation.md",
     "NOTES-MARKDOWN/Machine Learning/Cross-validation.html",
-    "NOTES-MARKDOWN/Machine Learning/Decision trees.md",
     "NOTES-MARKDOWN/Machine Learning/Decision trees.html",
+    "NOTES-MARKDOWN/Machine Learning/Decision trees.md",
     "NOTES-MARKDOWN/Machine Learning/Entropy.md",
     "NOTES-MARKDOWN/Machine Learning/Entropy.html",
-    "NOTES-MARKDOWN/Machine Learning/Expectation Maximization.html",
     "NOTES-MARKDOWN/Machine Learning/Expectation Maximization.md",
-    "NOTES-MARKDOWN/Machine Learning/Gaussian distribution.html",
+    "NOTES-MARKDOWN/Machine Learning/Expectation Maximization.html",
     "NOTES-MARKDOWN/Machine Learning/Gaussian distribution.md",
-    "NOTES-MARKDOWN/Machine Learning/Gaussian Mixture Model.md",
+    "NOTES-MARKDOWN/Machine Learning/Gaussian distribution.html",
     "NOTES-MARKDOWN/Machine Learning/Gaussian Mixture Model.html",
+    "NOTES-MARKDOWN/Machine Learning/Gaussian Mixture Model.md",
     "NOTES-MARKDOWN/Machine Learning/Generalized Linear Model.md",
     "NOTES-MARKDOWN/Machine Learning/Generalized Linear Model.html",
-    "NOTES-MARKDOWN/Machine Learning/Gradient.html",
     "NOTES-MARKDOWN/Machine Learning/Gradient.md",
+    "NOTES-MARKDOWN/Machine Learning/Gradient.html",
     "NOTES-MARKDOWN/Machine Learning/Gradient Descent.md",
     "NOTES-MARKDOWN/Machine Learning/Gradient Descent.html",
     "NOTES-MARKDOWN/Machine Learning/Hessian.md",
     "NOTES-MARKDOWN/Machine Learning/Hessian.html",
     "NOTES-MARKDOWN/Machine Learning/Impurity functions.md",
     "NOTES-MARKDOWN/Machine Learning/Impurity functions.html",
-    "NOTES-MARKDOWN/Machine Learning/Information Gain.md",
     "NOTES-MARKDOWN/Machine Learning/Information Gain.html",
-    "NOTES-MARKDOWN/Machine Learning/Jacobian.md",
+    "NOTES-MARKDOWN/Machine Learning/Information Gain.md",
     "NOTES-MARKDOWN/Machine Learning/Jacobian.html",
-    "NOTES-MARKDOWN/Machine Learning/Joint distribution.md",
+    "NOTES-MARKDOWN/Machine Learning/Jacobian.md",
     "NOTES-MARKDOWN/Machine Learning/Joint distribution.html",
+    "NOTES-MARKDOWN/Machine Learning/Joint distribution.md",
     "NOTES-MARKDOWN/Machine Learning/K-means.md",
     "NOTES-MARKDOWN/Machine Learning/K-means.html",
-    "NOTES-MARKDOWN/Machine Learning/K-Nearest Neighbors.html",
     "NOTES-MARKDOWN/Machine Learning/K-Nearest Neighbors.md",
+    "NOTES-MARKDOWN/Machine Learning/K-Nearest Neighbors.html",
     "NOTES-MARKDOWN/Machine Learning/Kullback-Leibler divergence.md",
     "NOTES-MARKDOWN/Machine Learning/Kullback-Leibler divergence.html",
     "NOTES-MARKDOWN/Machine Learning/Linear Regression.md",
@@ -163,18 +177,18 @@
     "NOTES-MARKDOWN/Machine Learning/Maximum Likelihood Principle.html",
     "NOTES-MARKDOWN/Machine Learning/Multi-Class Classification.md",
     "NOTES-MARKDOWN/Machine Learning/Multi-Class Classification.html",
-    "NOTES-MARKDOWN/Machine Learning/Neural Networks.md",
     "NOTES-MARKDOWN/Machine Learning/Neural Networks.html",
+    "NOTES-MARKDOWN/Machine Learning/Neural Networks.md",
     "NOTES-MARKDOWN/Machine Learning/PCA.md",
     "NOTES-MARKDOWN/Machine Learning/PCA.html",
     "NOTES-MARKDOWN/Machine Learning/Perceptron.md",
     "NOTES-MARKDOWN/Machine Learning/Perceptron.html",
     "NOTES-MARKDOWN/Machine Learning/Polynomial Regression.md",
     "NOTES-MARKDOWN/Machine Learning/Polynomial Regression.html",
-    "NOTES-MARKDOWN/Machine Learning/ROC.md",
     "NOTES-MARKDOWN/Machine Learning/ROC.html",
-    "NOTES-MARKDOWN/Machine Learning/Sigmoid.md",
+    "NOTES-MARKDOWN/Machine Learning/ROC.md",
     "NOTES-MARKDOWN/Machine Learning/Sigmoid.html",
+    "NOTES-MARKDOWN/Machine Learning/Sigmoid.md",
     "NOTES-MARKDOWN/Machine Learning/Sphering.html",
     "NOTES-MARKDOWN/Machine Learning/Stochastic Gradient Descent.md",
     "NOTES-MARKDOWN/Machine Learning/Stochastic Gradient Descent.html",
@@ -182,8 +196,8 @@
     "NOTES-MARKDOWN/Probability/Bernoulli distribution.html",
     "NOTES-MARKDOWN/Probability/Conditional Probability.md",
     "NOTES-MARKDOWN/Probability/Conditional Probability.html",
-    "NOTES-MARKDOWN/Probability/Event.md",
     "NOTES-MARKDOWN/Probability/Event.html",
+    "NOTES-MARKDOWN/Probability/Event.md",
     "NOTES-MARKDOWN/Probability/Introduction to Probability.md",
     "NOTES-MARKDOWN/Probability/Introduction to Probability.html",
     "NOTES-MARKDOWN/Probability/Probability distribution.md",
@@ -194,22 +208,22 @@
     "NOTES-MARKDOWN/Statistics/Advanced Regression.html",
     "NOTES-MARKDOWN/Statistics/Association.md",
     "NOTES-MARKDOWN/Statistics/Association.html",
-    "NOTES-MARKDOWN/Statistics/Box plot.md",
     "NOTES-MARKDOWN/Statistics/Box plot.html",
-    "NOTES-MARKDOWN/Statistics/Central Limit Theorem.html",
+    "NOTES-MARKDOWN/Statistics/Box plot.md",
     "NOTES-MARKDOWN/Statistics/Central Limit Theorem.md",
-    "NOTES-MARKDOWN/Statistics/Confidence interval.md",
+    "NOTES-MARKDOWN/Statistics/Central Limit Theorem.html",
     "NOTES-MARKDOWN/Statistics/Confidence interval.html",
+    "NOTES-MARKDOWN/Statistics/Confidence interval.md",
     "NOTES-MARKDOWN/Statistics/Correlation coefficient.md",
     "NOTES-MARKDOWN/Statistics/Correlation coefficient.html",
-    "NOTES-MARKDOWN/Statistics/Covariance.md",
     "NOTES-MARKDOWN/Statistics/Covariance.html",
+    "NOTES-MARKDOWN/Statistics/Covariance.md",
     "NOTES-MARKDOWN/Statistics/Empirical rule.md",
     "NOTES-MARKDOWN/Statistics/Empirical rule.html",
-    "NOTES-MARKDOWN/Statistics/Estimation.html",
     "NOTES-MARKDOWN/Statistics/Estimation.md",
-    "NOTES-MARKDOWN/Statistics/Expected value.md",
+    "NOTES-MARKDOWN/Statistics/Estimation.html",
     "NOTES-MARKDOWN/Statistics/Expected value.html",
+    "NOTES-MARKDOWN/Statistics/Expected value.md",
     "NOTES-MARKDOWN/Statistics/Measures of Position.md",
     "NOTES-MARKDOWN/Statistics/Measures of Position.html",
     "NOTES-MARKDOWN/Statistics/Median.md",
@@ -313,1599 +327,1683 @@
   ],
   "fileInfo": {
     "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1811,
       "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Artificial Intelligence/Agents.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2108,
       "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/Agents.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 594,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 3219,
       "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/CSPs.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 6793,
       "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1646,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 6820,
       "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Artificial Intelligence/Search.md": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 4252,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 3690,
       "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/Search.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Calculus/Partial derivatives.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1635,
       "exportedPath": "NOTES-MARKDOWN/Calculus/Partial derivatives.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/AI Exam.md": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 966,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 5598,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/AI Exam.html",
       "dependencies": []
     },
-    "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).md": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 2345,
-      "exportedPath": "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).html",
-      "dependencies": []
-    },
     "NOTES-MARKDOWN/Guides to the exams/Cybersecurity Exam - DONE.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 7566,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Cybersecurity Exam - DONE.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2619,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/DMA1 Exam - DONE.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 14713,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/DMA1 Exam - DONE.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs - DONE.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 12667,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs - DONE.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/DMA2 Oral Exam - DONE.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 3386,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/DMA2 Oral Exam - DONE.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 6455,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2528,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/Machine Learning Exam - DONE.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 14002,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Machine Learning Exam - DONE.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/Networking Exam.pdf": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 11920514,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Networking Exam.pdf",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/Probability Exam.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 854,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Probability Exam.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/Statistics Exam - DONE.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 31817,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Statistics Exam - DONE.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/Systems Exam.pdf": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 16755684,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Systems Exam.pdf",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/01 - Interface.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 543,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/01 - Interface.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/02 - Widgets.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1738,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/02 - Widgets.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/03 - Gestures.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 494,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/03 - Gestures.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/04 - Manipulating objects.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 290,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/04 - Manipulating objects.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/04 - Navigation.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1541,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/04 - Navigation.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/05 - Attention.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 888,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/05 - Attention.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/05 - Interrupted work.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 369,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/05 - Interrupted work.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/06 - Modes.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1556,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/06 - Modes.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Basis.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2440,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Basis.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Determinant.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 5172,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Determinant.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Dot product.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 3101,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Dot product.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2458,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Gaussian Elimination.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 5258,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Gaussian Elimination.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Hyperplanes.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 551,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Hyperplanes.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Inverse of a Matrix.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 4338,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Inverse of a Matrix.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Linear Combination.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1066,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Linear Combination.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Linear dependence.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1449,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Linear dependence.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Matrix (ML).md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 7151,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Matrix (ML).html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Matrix operations.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 3776,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Matrix operations.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Norm.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1070,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Norm.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Null space.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 938,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Null space.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Quadratic form.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 3041,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Quadratic form.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Rank.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1194,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Rank.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Rayleigh quotient.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1631,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Rayleigh quotient.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Spanning set.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2260,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Spanning set.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Spectral decomposition.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1765,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Spectral decomposition.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/SVD.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2116,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/SVD.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Symmetric matrix.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1672,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Symmetric matrix.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Systems of Linear Equations.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 4264,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Systems of Linear Equations.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Transformations.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2995,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Transformations.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Vector spaces.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 211,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Vector spaces.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Vectors.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2756,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Vectors.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Basis Function.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1268,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Basis Function.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Bayes Theorem.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1446,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Bayes Theorem.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Covariance matrix.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1985,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Covariance matrix.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Cross-entropy.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 3194,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Cross-entropy.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Cross-validation.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2649,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Cross-validation.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Decision trees.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 7442,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Decision trees.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Entropy.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1838,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Entropy.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Expectation Maximization.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2258,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Expectation Maximization.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Gaussian distribution.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 3405,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Gaussian distribution.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Gaussian Mixture Model.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1457,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Gaussian Mixture Model.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Generalized Linear Model.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1610,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Generalized Linear Model.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Gradient.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 703,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Gradient.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Gradient Descent.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2111,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Gradient Descent.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Hessian.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 52,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Hessian.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Impurity functions.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 4418,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Impurity functions.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Information Gain.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 769,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Information Gain.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Jacobian.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 107,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Jacobian.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Joint distribution.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2434,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Joint distribution.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/K-means.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 7875,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/K-means.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/K-Nearest Neighbors.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1555,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/K-Nearest Neighbors.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Kullback-Leibler divergence.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 191,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Kullback-Leibler divergence.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Linear Regression.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 9004,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Linear Regression.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Logistic Regression.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 4209,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Logistic Regression.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Mahalanobis distance.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 4393,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Mahalanobis distance.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Maximum Likelihood Principle.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 3986,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Maximum Likelihood Principle.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Multi-Class Classification.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 5074,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Multi-Class Classification.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Neural Networks.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 15381,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Neural Networks.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/PCA.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 6612,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/PCA.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Perceptron.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 3698,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Perceptron.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Polynomial Regression.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 3417,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Polynomial Regression.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/ROC.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1671,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/ROC.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Sigmoid.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 406,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Sigmoid.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Stochastic Gradient Descent.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1337,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Stochastic Gradient Descent.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Probability/Bernoulli distribution.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1057,
       "exportedPath": "NOTES-MARKDOWN/Probability/Bernoulli distribution.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Probability/Conditional Probability.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 595,
       "exportedPath": "NOTES-MARKDOWN/Probability/Conditional Probability.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Probability/Event.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 318,
       "exportedPath": "NOTES-MARKDOWN/Probability/Event.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Probability/Introduction to Probability.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1072,
       "exportedPath": "NOTES-MARKDOWN/Probability/Introduction to Probability.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Probability/Probability distribution.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2158,
       "exportedPath": "NOTES-MARKDOWN/Probability/Probability distribution.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Probability/Random variable.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 581,
       "exportedPath": "NOTES-MARKDOWN/Probability/Random variable.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Advanced Regression.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2473,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Advanced Regression.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Association.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 3163,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Association.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Box plot.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 324,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Box plot.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Central Limit Theorem.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 246,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Central Limit Theorem.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Confidence interval.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2779,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Confidence interval.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Correlation coefficient.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 3273,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Correlation coefficient.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Covariance.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1962,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Covariance.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Empirical rule.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 239,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Empirical rule.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Estimation.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 3074,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Estimation.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Expected value.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1219,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Expected value.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Measures of Position.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1578,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Measures of Position.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Median.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 973,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Median.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Mode.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 522,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Mode.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Normal distribution.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1151,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Normal distribution.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Regression.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2340,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Regression.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Sampling distributions.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 3387,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Sampling distributions.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Significance Level.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 510,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Significance Level.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Significance Test.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2642,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Significance Test.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Standard Deviation.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1781,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Standard Deviation.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Standard Error.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 800,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Standard Error.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Variable types.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 905,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Variable types.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Variance.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 359,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Variance.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Z-score.md": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 2200,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Z-score.html",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/fonts/MathJax_Zero.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/MathJax_Zero.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Main-Regular.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/MathJax_Main-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Main-Bold.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/MathJax_Main-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Math-Italic.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/MathJax_Math-Italic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Main-Italic.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/MathJax_Main-Italic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Math-BoldItalic.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/MathJax_Math-BoldItalic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size1-Regular.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/MathJax_Size1-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size2-Regular.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/MathJax_Size2-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size3-Regular.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/MathJax_Size3-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size4-Regular.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/MathJax_Size4-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_AMS-Regular.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/MathJax_AMS-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Calligraphic-Regular.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/MathJax_Calligraphic-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Calligraphic-Bold.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/MathJax_Calligraphic-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Fraktur-Regular.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/MathJax_Fraktur-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Fraktur-Bold.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/MathJax_Fraktur-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_SansSerif-Regular.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/MathJax_SansSerif-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_SansSerif-Bold.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/MathJax_SansSerif-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_SansSerif-Italic.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/MathJax_SansSerif-Italic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Script-Regular.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/MathJax_Script-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Typewriter-Regular.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/MathJax_Typewriter-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Vector-Regular.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/MathJax_Vector-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Vector-Bold.woff": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/MathJax_Vector-Bold.woff",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 4219286,
       "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Artificial Intelligence/Agents.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 474762,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 468215,
       "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/Agents.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Artificial Intelligence/CSPs.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 348897,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 342681,
       "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/CSPs.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 3656781,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 3657991,
       "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 344175,
       "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Artificial Intelligence/Search.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 4544835,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 4542323,
       "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/Search.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Calculus/Partial derivatives.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1501343,
       "exportedPath": "NOTES-MARKDOWN/Calculus/Partial derivatives.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/AI Exam.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 350602,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 343173,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/AI Exam.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 6950460,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/Cybersecurity Exam - DONE.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 5029136,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 5022309,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Cybersecurity Exam - DONE.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 4363035,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 4355878,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/DMA1 Exam - DONE.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 4016462,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 4013889,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/DMA1 Exam - DONE.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs - DONE.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1075523,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/DMA1 Proofs - DONE.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/DMA2 Oral Exam - DONE.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1801522,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1797050,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/DMA2 Oral Exam - DONE.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 12813785,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 12809961,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1259027,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1255464,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/Machine Learning Exam - DONE.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 9210703,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 9210062,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Machine Learning Exam - DONE.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/Probability Exam.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1936425,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1933246,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Probability Exam.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Guides to the exams/Statistics Exam - DONE.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 14373859,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 14377359,
       "exportedPath": "NOTES-MARKDOWN/Guides to the exams/Statistics Exam - DONE.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/01 - Interface.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 360835,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/01 - Interface.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/02 - Widgets.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 2275741,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 2273790,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/02 - Widgets.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/03 - Gestures.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 557659,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 554537,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/03 - Gestures.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/04 - Manipulating objects.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 357539,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 354609,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/04 - Manipulating objects.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/04 - Navigation.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1043744,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1041199,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/04 - Navigation.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/05 - Attention.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 359002,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 356061,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/05 - Attention.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/05 - Interrupted work.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 356648,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 353718,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/05 - Interrupted work.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Human Computer Interaction/06 - Modes.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1380548,
       "exportedPath": "NOTES-MARKDOWN/Human Computer Interaction/06 - Modes.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Basis.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 11858373,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 11856043,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Basis.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Determinant.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 9088835,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 9088089,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Determinant.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Dot product.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 9829861,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 9826948,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Dot product.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 15004413,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 15001885,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Gaussian Elimination.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1961429,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1959088,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Gaussian Elimination.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Hyperplanes.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 2583618,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 2580386,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Hyperplanes.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Inverse of a Matrix.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 6094880,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 6092946,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Inverse of a Matrix.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Linear Combination.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 874102,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 870936,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Linear Combination.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Linear dependence.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1485345,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1482311,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Linear dependence.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Matrix (ML).html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 6893196,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 6890833,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Matrix (ML).html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Matrix operations.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 533723,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 531404,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Matrix operations.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Norm.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 369928,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 366726,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Norm.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Null space.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 368238,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 365083,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Null space.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Quadratic form.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 2628202,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 2625344,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Quadratic form.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Rank.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1640502,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1637369,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Rank.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Rayleigh quotient.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 421277,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 418089,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Rayleigh quotient.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Spanning set.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 385689,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 382721,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Spanning set.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Spectral decomposition.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 2705702,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 2702646,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Spectral decomposition.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/SVD.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 878802,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 875724,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/SVD.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Symmetric matrix.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1043583,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1040533,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Symmetric matrix.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Systems of Linear Equations.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 2577572,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 2575336,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Systems of Linear Equations.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Transformations.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 6111317,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 6108465,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Transformations.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Vector spaces.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 3013357,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 3010375,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Vector spaces.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Linear Algebra/Vectors.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 8596920,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 8594200,
       "exportedPath": "NOTES-MARKDOWN/Linear Algebra/Vectors.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Attention Mechanism.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1528121,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Attention Mechanism.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Basis Function.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 815213,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Basis Function.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Bayes Theorem.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 692696,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 689723,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Bayes Theorem.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Covariance matrix.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 3286059,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 3283031,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Covariance matrix.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Cross-entropy.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 432427,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Cross-entropy.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Cross-validation.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1274272,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1271950,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Cross-validation.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Decision trees.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1028985,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1027055,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Decision trees.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Entropy.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 712327,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 709343,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Entropy.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Expectation Maximization.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 3406253,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Expectation Maximization.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Gaussian distribution.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1649450,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Gaussian distribution.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Gaussian Mixture Model.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1903109,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1900125,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Gaussian Mixture Model.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Generalized Linear Model.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 376575,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 373486,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Generalized Linear Model.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Gradient.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 374452,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Gradient.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Gradient Descent.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 747409,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 744601,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Gradient Descent.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Hessian.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 675724,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 672720,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Hessian.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Impurity functions.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1051143,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1048709,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Impurity functions.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Information Gain.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 576516,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 573356,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Information Gain.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Jacobian.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 357452,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 354437,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Jacobian.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Joint distribution.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1077966,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1075015,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Joint distribution.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/K-means.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 10538268,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 10536109,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/K-means.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/K-Nearest Neighbors.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 365699,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/K-Nearest Neighbors.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Kullback-Leibler divergence.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 372290,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 369085,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Kullback-Leibler divergence.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Linear Regression.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1582148,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1580350,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Linear Regression.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Logistic Regression.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1082181,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1080020,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Logistic Regression.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Mahalanobis distance.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 5329981,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 5327567,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Mahalanobis distance.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Maximum Likelihood Principle.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 11813732,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 11817038,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Maximum Likelihood Principle.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Multi-Class Classification.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 2612641,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 2610404,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Multi-Class Classification.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Neural Networks.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 3706181,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 3705670,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Neural Networks.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/PCA.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 3336969,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 3340873,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/PCA.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Perceptron.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 3408178,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 3405786,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Perceptron.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Polynomial Regression.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 721673,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 719061,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Polynomial Regression.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/ROC.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 9744899,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 9748184,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/ROC.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Sigmoid.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 572531,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 575475,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Sigmoid.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Sphering.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 359907,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Sphering.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Machine Learning/Stochastic Gradient Descent.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 834742,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 831899,
       "exportedPath": "NOTES-MARKDOWN/Machine Learning/Stochastic Gradient Descent.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Probability/Bernoulli distribution.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1056066,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1052656,
       "exportedPath": "NOTES-MARKDOWN/Probability/Bernoulli distribution.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Probability/Conditional Probability.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 375845,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 372215,
       "exportedPath": "NOTES-MARKDOWN/Probability/Conditional Probability.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Probability/Event.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 758345,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 755092,
       "exportedPath": "NOTES-MARKDOWN/Probability/Event.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Probability/Introduction to Probability.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 381660,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 378206,
       "exportedPath": "NOTES-MARKDOWN/Probability/Introduction to Probability.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Probability/Probability distribution.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 2000675,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1997364,
       "exportedPath": "NOTES-MARKDOWN/Probability/Probability distribution.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Probability/Random variable.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 436564,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 433311,
       "exportedPath": "NOTES-MARKDOWN/Probability/Random variable.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Advanced Regression.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 2467723,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 2464698,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Advanced Regression.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Association.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 5812208,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 5809546,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Association.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Box plot.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1330512,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1327281,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Box plot.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Central Limit Theorem.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 361676,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Central Limit Theorem.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Confidence interval.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1850520,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1847484,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Confidence interval.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Correlation coefficient.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 942861,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 939473,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Correlation coefficient.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Covariance.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 851639,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 848174,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Covariance.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Empirical rule.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 498391,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 495061,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Empirical rule.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Estimation.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 475359,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Estimation.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Expected value.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 867348,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 863806,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Expected value.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Measures of Position.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 2493250,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 2489906,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Measures of Position.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Median.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1128591,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1125093,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Median.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Mode.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 699430,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 696188,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Mode.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Normal distribution.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 512354,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Normal distribution.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Regression.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 830868,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 827590,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Regression.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Sampling distributions.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 5341139,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 5338026,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Sampling distributions.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Significance Level.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 424196,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 420555,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Significance Level.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Significance Test.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1318214,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1314958,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Significance Test.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Standard Deviation.html": {
-      "modifiedTime": 1717842814715,
+      "modifiedTime": 1718455596105,
       "sourceSize": 1042910,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Standard Deviation.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Standard Error.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 374235,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 370704,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Standard Error.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Variable types.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 366521,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 363356,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Variable types.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Variance.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 373942,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 370312,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Variance.html",
       "dependencies": []
     },
     "NOTES-MARKDOWN/Statistics/Z-score.html": {
-      "modifiedTime": 1717842814715,
-      "sourceSize": 1311347,
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1308168,
       "exportedPath": "NOTES-MARKDOWN/Statistics/Z-score.html",
+      "dependencies": []
+    },
+    "NOTES-MARKDOWN/AI-LAB/Contour detection.md": {
+      "modifiedTime": 1718455596105,
+      "sourceSize": 2103,
+      "exportedPath": "NOTES-MARKDOWN/AI-LAB/Contour detection.html",
+      "dependencies": []
+    },
+    "NOTES-MARKDOWN/AI-LAB/Convolution.md": {
+      "modifiedTime": 1718455596105,
+      "sourceSize": 796,
+      "exportedPath": "NOTES-MARKDOWN/AI-LAB/Convolution.html",
+      "dependencies": []
+    },
+    "NOTES-MARKDOWN/AI-LAB/Kernel.md": {
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1169,
+      "exportedPath": "NOTES-MARKDOWN/AI-LAB/Kernel.html",
+      "dependencies": []
+    },
+    "NOTES-MARKDOWN/Artificial Intelligence/A-star.md": {
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1675,
+      "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/A-star.html",
+      "dependencies": []
+    },
+    "NOTES-MARKDOWN/Artificial Intelligence/CNF.md": {
+      "modifiedTime": 1718455596105,
+      "sourceSize": 807,
+      "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/CNF.html",
+      "dependencies": []
+    },
+    "NOTES-MARKDOWN/Artificial Intelligence/Environments.md": {
+      "modifiedTime": 1718455596105,
+      "sourceSize": 398,
+      "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/Environments.html",
+      "dependencies": []
+    },
+    "NOTES-MARKDOWN/Artificial Intelligence/Heuristics.md": {
+      "modifiedTime": 1718455596105,
+      "sourceSize": 544,
+      "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/Heuristics.html",
+      "dependencies": []
+    },
+    "NOTES-MARKDOWN/Artificial Intelligence/Logical Equivalences.md": {
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1451,
+      "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/Logical Equivalences.html",
+      "dependencies": []
+    },
+    "NOTES-MARKDOWN/Artificial Intelligence/Negational Normal Form.md": {
+      "modifiedTime": 1718455596105,
+      "sourceSize": 725,
+      "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/Negational Normal Form.html",
+      "dependencies": []
+    },
+    "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md": {
+      "modifiedTime": 1718455596105,
+      "sourceSize": 6540,
+      "exportedPath": "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.html",
+      "dependencies": []
+    },
+    "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.md": {
+      "modifiedTime": 1718455596105,
+      "sourceSize": 483,
+      "exportedPath": "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.html",
+      "dependencies": []
+    },
+    "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md": {
+      "modifiedTime": 1718455596105,
+      "sourceSize": 1736,
+      "exportedPath": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.html",
+      "dependencies": []
+    },
+    "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md": {
+      "modifiedTime": 1718455596105,
+      "sourceSize": 149,
+      "exportedPath": "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.html",
+      "dependencies": []
+    },
+    "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md": {
+      "modifiedTime": 1718455596105,
+      "sourceSize": 3159,
+      "exportedPath": "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.html",
+      "dependencies": []
+    },
+    "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md": {
+      "modifiedTime": 1718455596105,
+      "sourceSize": 572,
+      "exportedPath": "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.html",
       "dependencies": []
     }
   }
