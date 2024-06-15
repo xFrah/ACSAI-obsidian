@@ -94,7 +94,7 @@ $$\large p \land \lnot p$$
 
 A deductive system is defined by a set of formulae called axioms and a set of Inference Rules.
 
-These inference rules can be applied to derive a proof, which is a chain of conclusion that leads to the desired goal(in our case [SAT problems](Propositional%20Satisfiability.md) conclusions).
+These inference rules can be applied to derive a proof, which is a chain of conclusion that leads to the desired goal(in our case SAT problems conclusions).
 
 > [!note]
 > If a formula $φ$ can be deduced from a set of formulae $Γ$ in a deductive system $D$, we say that $φ$ is a deductive consequence of $Γ$ in $D$, denoted with:
@@ -189,7 +189,7 @@ $$\large (a \land b) \to c$$
 3. We continue recursively.
 
 In order for this algorithm to work, we want a knowledge base of horn clauses.
-Every step/inference is basically an application of [modus ponens](Logical%20Inference.md).
+Every step/inference is basically an application of modus ponens.
 
 > [!abstract] Clause
 > A Clause is a disjunction of Literals.

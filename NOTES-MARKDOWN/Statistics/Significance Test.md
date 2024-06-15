@@ -2,7 +2,7 @@ I will explain using an exercise:
 
 **In a sample of 402 Tor Vergata first-year students, 174 are enrolled into Statistics course.**
 
-**Is the proportion of students enrolled into Statistics course in the population of all Tor Vergata first-year students different from 0.50 at the significance level α = 0.05?**
+**Is the proportion of students enrolled into Statistics course in the population of all Tor Vergata first-year students different from 0.50 at the [significance level](Significance%20Level.md) α = 0.05?**
 
 
 ### 1. Assumptions

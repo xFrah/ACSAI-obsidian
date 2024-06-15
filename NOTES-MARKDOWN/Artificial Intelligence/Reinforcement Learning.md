@@ -7,7 +7,7 @@ We have to learn the transition probabilities and reward functions by ourselves.
 
 So we learn an empirical MDP model:
 	
-- **Discover probabilities**: Each time we do an action, we count the outcome in the probability distribution $P(s'|s, a)$.
+- **Discover probabilities**: Each time we do an action, we count the outcome in the [probability distribution](../Probability/Probability%20distribution.md) $P(s'|s, a)$.
 	
 > [!hint]
 > $P(s'|s, a)$ = (probability of $s'$ given state $s$ and action $a$)
@@ -86,7 +86,7 @@ If this wasn't model free, we'd use the following formula:
 
 $$\large Q_{i+1}(s, a)=R(s)+\gamma \sum_{s'}{P(s'|s, a)\max_{a' \in A}Q_i(s', a')}$$
 > [!hint]
-> Which means that we are taking the expected value(because of randomness in transitions) of the best action.
+> Which means that we are taking the [expected value](../Statistics/Expected%20value.md)(because of randomness in transitions) of the best action.
 
 
 Since we don't have the probabilities or the rewards, we need to take samples.

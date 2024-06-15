@@ -2,7 +2,7 @@
 alias: A*
 ---
 
-This is a specific case of the [Best-first search](Best-first%20search.md) that uses the following evaluation function:
+This is a specific case of the Best-first search that uses the following evaluation function:
 $$\large f(n) = g(n) + h(n)$$
 
 Where:

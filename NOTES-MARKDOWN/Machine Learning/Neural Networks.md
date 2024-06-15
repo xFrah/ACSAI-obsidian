@@ -102,7 +102,7 @@ Then we proceed with [gradient descent](Gradient%20Descent.md).
 
 Instead of computing the derivatives by hand, we want to automate the process so that it can work with any loss function and can be more easily implemented.
 
-This method traverses the network in reverse order, from the output to the input layer, according to the [chain rule](../Calculus/Chain%20Rule.md) from calculus. 
+This method traverses the network in reverse order, from the output to the input layer, according to the chain rule from calculus. 
 
 All the derivatives from before can be rewritten using the chain rule like this: 
 

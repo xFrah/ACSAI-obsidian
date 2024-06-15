@@ -8,10 +8,11 @@
     "NOTES-MARKDOWN/Statistics/Standard Deviation",
     "NOTES-MARKDOWN/Linear Algebra/Matrix (ML)",
     "NOTES-MARKDOWN/Linear Algebra/Vectors",
-    "NOTES-MARKDOWN/Artificial Intelligence (OLD)/",
-    "NOTES-MARKDOWN/Physics/",
     "README.md",
-    "README"
+    "README",
+    "NOTES-MARKDOWN/Physics - not good/",
+    "NOTES-MARKDOWN/Patente/",
+    "NOTES-MARKDOWN/Human Computer Interaction/"
   ],
   "newLinkFormat": "relative",
   "alwaysUpdateLinks": true,

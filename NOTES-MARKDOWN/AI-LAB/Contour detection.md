@@ -48,7 +48,7 @@ $$\large G = |G_x|+|G_y|$$
 
 
 ```ad-tldr
-When using the sobel operator, we take the product of the kernel elements and the corresponding pixels, and we add them all together. This is just normal convolution.
+When using the sobel operator, we take the product of the kernel elements and the corresponding pixels, and we add them all together. This is just normal [convolution](Convolution.md).
 
 <br>
 

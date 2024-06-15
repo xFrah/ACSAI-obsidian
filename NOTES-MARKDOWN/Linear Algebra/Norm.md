@@ -22,7 +22,7 @@ $$\Large|x+y| \leq |x| + |y|$$
 ## Euclidean norm
 
 There are many functions that compute valid norms.
-Specifically, [numpy](../AI-LAB/Numpy.md)'s norm calculates the euclidean norm.
+Specifically, numpy's norm calculates the euclidean norm.
 
 $$\Large|x|_2 = \sqrt{x_1^2 + x_2^2 + \cdots + x_n^2}$$
 
