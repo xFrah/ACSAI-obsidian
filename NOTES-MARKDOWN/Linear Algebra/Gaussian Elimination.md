@@ -31,9 +31,6 @@ The matrix is used in many areas of linear algebra, including solving [systems o
 
 ---
 
-#
----
-
 ## Gaussian Elimination with back-substitution
 
 1. **Write the Augmented Matrix:** Write down the augmented matrix.

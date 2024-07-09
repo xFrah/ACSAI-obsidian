@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "7a3739e528e2a869",
+        "id": "4afe2927420d0b65",
         "type": "tabs",
         "children": [
           {
-            "id": "17660de0ef13a837",
+            "id": "c23d08c9c781d9c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Statistics/Variable types.md",
+                "file": "NOTES-MARKDOWN/Probability 2/Introduction.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34ace4a748305e3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Statistics/Variable types.md",
+                "file": "NOTES-MARKDOWN/Probability 2/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Statistics/Variable types.md",
+                "file": "NOTES-MARKDOWN/Probability 2/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Statistics/Variable types.md"
+                "file": "NOTES-MARKDOWN/Probability 2/Introduction.md"
               }
             }
           },
@@ -160,28 +174,36 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f501308563189c00",
+  "active": "c23d08c9c781d9c3",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Machine Learning/Cross-validation.md",
-    "NOTES-MARKDOWN/AI-LAB/Convolution.md",
-    "NOTES-MARKDOWN/AI-LAB/Contour detection.md",
-    "NOTES-MARKDOWN/Statistics/Significance Level.md",
-    "NOTES-MARKDOWN/Statistics/Significance Test.md",
-    "NOTES-MARKDOWN/Linear Algebra/Dot product.md",
-    "NOTES-MARKDOWN/Machine Learning/Gaussian distribution.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Environments.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/A-star.md",
-    "NOTES-MARKDOWN/Linear Algebra/Norm.md",
-    "NOTES-MARKDOWN/Machine Learning/Neural Networks.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Agents.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/CNF.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/04 - Navigation.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/04 - Manipulating objects.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/03 - Gestures.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
-    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
-    "NOTES-MARKDOWN/Statistics/Z-score.md",
+    "NOTES-MARKDOWN/Probability/Bernoulli distribution.md",
+    "NOTES-MARKDOWN/Probability 2/Introduction.md",
+    "NOTES-MARKDOWN/Probability 2",
+    "NOTES-MARKDOWN/Probability/Conditional Probability.md",
+    "NOTES-MARKDOWN/Probability/Event.md",
+    "NOTES-MARKDOWN/Probability/Random variable.md",
+    "NOTES-MARKDOWN/Probability/Introduction to Probability.md",
+    "NOTES-MARKDOWN/Probability/Introduction.md",
+    "NOTES-MARKDOWN/Probability/Probability distribution.md",
+    "NOTES-MARKDOWN/Multicore/Pthread.md",
+    "NOTES-MARKDOWN/Multicore/OpenMP.md",
+    "NOTES-MARKDOWN/Multicore/Performance Evaluation.md",
+    "NOTES-MARKDOWN/Multicore/MPI.md",
+    "NOTES-MARKDOWN/Multicore/CUDA.md",
+    "NOTES-MARKDOWN/Multicore",
+    "NOTES-MARKDOWN/Linear Algebra/Inverse of a Matrix.md",
+    "NOTES-MARKDOWN/Linear Algebra/Linear Combination.md",
+    "NOTES-MARKDOWN/Linear Algebra/Rank.md",
+    "NOTES-MARKDOWN/Linear Algebra/Spanning set.md",
+    "NOTES-MARKDOWN/Linear Algebra/Linear dependence.md",
+    "NOTES-MARKDOWN/Linear Algebra/Systems of Linear Equations.md",
+    "NOTES-MARKDOWN/Machine Learning/Joint distribution.md",
+    "NOTES-MARKDOWN/Linear Algebra/Hyperplanes.md",
+    "NOTES-MARKDOWN/Linear Algebra/Gaussian Elimination.md",
+    "NOTES-MARKDOWN/Linear Algebra/Symmetric matrix.md",
+    "NOTES-MARKDOWN/Linear Algebra/Quadratic form.md",
+    "NOTES-MARKDOWN/Linear Algebra/Null space.md",
+    "NOTES-MARKDOWN/Linear Algebra/Eigenvectors and Eigenvalues.md",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).html",
     "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.html",
     "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.html",
@@ -190,14 +212,6 @@
     "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.html",
     "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.html",
     "NOTES-MARKDOWN/Artificial Intelligence/Negational Normal Form.html",
-    "NOTES-MARKDOWN/Artificial Intelligence/Logical Equivalences.html",
-    "NOTES-MARKDOWN/Artificial Intelligence/Heuristics.html",
-    "NOTES-MARKDOWN/Statistics/Variance.md",
-    "NOTES-MARKDOWN/Statistics/Variable types.md",
-    "NOTES-MARKDOWN/Statistics/Standard Error.md",
-    "NOTES-MARKDOWN/Statistics/Standard Deviation.md",
-    "NOTES-MARKDOWN/Statistics/Sampling distributions.md",
-    "NOTES-MARKDOWN/Statistics/Regression.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240613174245.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240613174241.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240613173017.png",
