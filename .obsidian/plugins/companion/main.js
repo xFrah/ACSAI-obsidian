@@ -519,7 +519,7 @@ var require_react_development = __commonJS({
           }
           return element;
         };
-        function createElement11(type, config, children) {
+        function createElement13(type, config, children) {
           var propName;
           var props = {};
           var key = null;
@@ -1618,7 +1618,7 @@ var require_react_development = __commonJS({
               error("React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
             }
           }
-          var element = createElement11.apply(this, arguments);
+          var element = createElement13.apply(this, arguments);
           if (element == null) {
             return element;
           }
@@ -2391,9 +2391,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React15 = require_react();
+        var React17 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React15.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React17.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -2442,7 +2442,7 @@ var require_react_dom_development = __commonJS({
         var HostPortal = 4;
         var HostComponent = 5;
         var HostText = 6;
-        var Fragment10 = 7;
+        var Fragment12 = 7;
         var Mode = 8;
         var ContextConsumer = 9;
         var ContextProvider = 10;
@@ -3598,7 +3598,7 @@ var require_react_dom_development = __commonJS({
               return "DehydratedFragment";
             case ForwardRef:
               return getWrappedName$1(type, type.render, "ForwardRef");
-            case Fragment10:
+            case Fragment12:
               return "Fragment";
             case HostComponent:
               return type;
@@ -3998,7 +3998,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React15.Children.forEach(props.children, function(child) {
+                React17.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -9397,7 +9397,7 @@ var require_react_dom_development = __commonJS({
             }
           }
         }
-        function createElement11(type, props, rootContainerElement, parentNamespace) {
+        function createElement13(type, props, rootContainerElement, parentNamespace) {
           var isCustomComponentTag;
           var ownerDocument = getOwnerDocumentFromRootContainer(rootContainerElement);
           var domElement;
@@ -10258,7 +10258,7 @@ var require_react_dom_development = __commonJS({
             }
             parentNamespace = hostContextDev.namespace;
           }
-          var domElement = createElement11(type, props, rootContainerInstance, parentNamespace);
+          var domElement = createElement13(type, props, rootContainerInstance, parentNamespace);
           precacheFiberNode(internalInstanceHandle, domElement);
           updateFiberProps(domElement, props);
           return domElement;
@@ -12445,7 +12445,7 @@ var require_react_dom_development = __commonJS({
           }
         }
         var fakeInternalInstance = {};
-        var emptyRefsObject = new React15.Component().refs;
+        var emptyRefsObject = new React17.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -13269,7 +13269,7 @@ var require_react_dom_development = __commonJS({
             }
           }
           function updateFragment2(returnFiber, current2, fragment, lanes, key) {
-            if (current2 === null || current2.tag !== Fragment10) {
+            if (current2 === null || current2.tag !== Fragment12) {
               var created = createFiberFromFragment(fragment, returnFiber.mode, lanes, key);
               created.return = returnFiber;
               return created;
@@ -13672,7 +13672,7 @@ var require_react_dom_development = __commonJS({
               if (child.key === key) {
                 var elementType = element.type;
                 if (elementType === REACT_FRAGMENT_TYPE) {
-                  if (child.tag === Fragment10) {
+                  if (child.tag === Fragment12) {
                     deleteRemainingChildren(returnFiber, child.sibling);
                     var existing = useFiber(child, element.props.children);
                     existing.return = returnFiber;
@@ -17847,7 +17847,7 @@ var require_react_dom_development = __commonJS({
               var _resolvedProps2 = workInProgress2.elementType === type ? _unresolvedProps2 : resolveDefaultProps(type, _unresolvedProps2);
               return updateForwardRef(current2, workInProgress2, type, _resolvedProps2, renderLanes2);
             }
-            case Fragment10:
+            case Fragment12:
               return updateFragment(current2, workInProgress2, renderLanes2);
             case Mode:
               return updateMode(current2, workInProgress2, renderLanes2);
@@ -18120,7 +18120,7 @@ var require_react_dom_development = __commonJS({
             case SimpleMemoComponent:
             case FunctionComponent:
             case ForwardRef:
-            case Fragment10:
+            case Fragment12:
             case Mode:
             case Profiler:
             case ContextConsumer:
@@ -22379,7 +22379,7 @@ var require_react_dom_development = __commonJS({
           return fiber;
         }
         function createFiberFromFragment(elements, mode, lanes, key) {
-          var fiber = createFiber(Fragment10, elements, key, mode);
+          var fiber = createFiber(Fragment12, elements, key, mode);
           fiber.lanes = lanes;
           return fiber;
         }
@@ -23741,7 +23741,7 @@ function K(n) {
 }
 
 // src/settings/settings.tsx
-var React13 = __toESM(require_react());
+var React15 = __toESM(require_react());
 
 // src/complete/completers/openai/openai.tsx
 var import_react = __toESM(require_react());
@@ -24250,8 +24250,8 @@ var Stream = class {
         }
       },
       async cancel() {
-        var _a2;
-        await ((_a2 = iter.return) == null ? void 0 : _a2.call(iter));
+        var _a3;
+        await ((_a3 = iter.return) == null ? void 0 : _a3.call(iter));
       }
     });
   }
@@ -24329,7 +24329,7 @@ var LineDecoder = class {
     return lines;
   }
   decodeText(bytes) {
-    var _a2;
+    var _a3;
     if (bytes == null)
       return "";
     if (typeof bytes === "string")
@@ -24345,7 +24345,7 @@ var LineDecoder = class {
     }
     if (typeof TextDecoder !== "undefined") {
       if (bytes instanceof Uint8Array || bytes instanceof ArrayBuffer) {
-        (_a2 = this.textDecoder) != null ? _a2 : this.textDecoder = new TextDecoder("utf8");
+        (_a3 = this.textDecoder) != null ? _a3 : this.textDecoder = new TextDecoder("utf8");
         return this.textDecoder.decode(bytes);
       }
       throw new OpenAIError(`Unexpected: received non-Uint8Array/ArrayBuffer (${bytes.constructor.name}) in a web platform. Please report this error.`);
@@ -24407,11 +24407,11 @@ var isUploadable = (value) => {
   return isFileLike(value) || isResponseLike(value) || isFsReadStream(value);
 };
 async function toFile(value, name, options = {}) {
-  var _a2, _b, _c;
+  var _a3, _b, _c;
   value = await value;
   if (isResponseLike(value)) {
     const blob = await value.blob();
-    name || (name = (_a2 = new URL(value.url).pathname.split(/[\\/]/).pop()) != null ? _a2 : "unknown_file");
+    name || (name = (_a3 = new URL(value.url).pathname.split(/[\\/]/).pop()) != null ? _a3 : "unknown_file");
     return new File2([blob], name, options);
   }
   const bits = await getBytes(value);
@@ -24425,7 +24425,7 @@ async function toFile(value, name, options = {}) {
   return new File2(bits, name, options);
 }
 async function getBytes(value) {
-  var _a2;
+  var _a3;
   let parts = [];
   if (typeof value === "string" || ArrayBuffer.isView(value) || // includes Uint8Array, Buffer, etc.
   value instanceof ArrayBuffer) {
@@ -24437,7 +24437,7 @@ async function getBytes(value) {
       parts.push(chunk);
     }
   } else {
-    throw new Error(`Unexpected data type: ${typeof value}; constructor: ${(_a2 = value == null ? void 0 : value.constructor) == null ? void 0 : _a2.name}; props: ${propsForError(value)}`);
+    throw new Error(`Unexpected data type: ${typeof value}; constructor: ${(_a3 = value == null ? void 0 : value.constructor) == null ? void 0 : _a3.name}; props: ${propsForError(value)}`);
   }
   return parts;
 }
@@ -24446,9 +24446,9 @@ function propsForError(value) {
   return `[${props.map((p2) => `"${p2}"`).join(", ")}]`;
 }
 function getName(value) {
-  var _a2;
+  var _a3;
   return getStringFromMaybeBuffer(value.name) || getStringFromMaybeBuffer(value.filename) || // For fs.ReadStream
-  ((_a2 = getStringFromMaybeBuffer(value.path)) == null ? void 0 : _a2.split(/[\\/]/).pop());
+  ((_a3 = getStringFromMaybeBuffer(value.path)) == null ? void 0 : _a3.split(/[\\/]/).pop());
 }
 var getStringFromMaybeBuffer = (x2) => {
   if (typeof x2 === "string")
@@ -24489,21 +24489,21 @@ var addFormValue = async (form, key, value) => {
 };
 
 // node_modules/openai/core.mjs
-var __classPrivateFieldSet = function(receiver, state, value, kind2, f) {
-  if (kind2 === "m")
+var __classPrivateFieldSet = function(receiver, state, value, kind3, f) {
+  if (kind3 === "m")
     throw new TypeError("Private method is not writable");
-  if (kind2 === "a" && !f)
+  if (kind3 === "a" && !f)
     throw new TypeError("Private accessor was defined without a setter");
   if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
     throw new TypeError("Cannot write private member to an object whose class did not declare it");
-  return kind2 === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value), value;
+  return kind3 === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value), value;
 };
-var __classPrivateFieldGet = function(receiver, state, kind2, f) {
-  if (kind2 === "a" && !f)
+var __classPrivateFieldGet = function(receiver, state, kind3, f) {
+  if (kind3 === "a" && !f)
     throw new TypeError("Private accessor was defined without a getter");
   if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
     throw new TypeError("Cannot read private member from an object whose class did not declare it");
-  return kind2 === "m" ? f : kind2 === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
+  return kind3 === "m" ? f : kind3 === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _AbstractPage_client;
 async function defaultParseResponse(props) {
@@ -24666,14 +24666,14 @@ var APIClient = class {
     return null;
   }
   buildRequest(options) {
-    var _a2, _b, _c, _d, _e, _f;
+    var _a3, _b, _c, _d, _e, _f;
     const { method, path, query, headers = {} } = options;
     const body = isMultipartBody(options.body) ? options.body.body : options.body ? JSON.stringify(options.body, null, 2) : null;
     const contentLength = this.calculateContentLength(body);
     const url = this.buildURL(path, query);
     if ("timeout" in options)
       validatePositiveInteger("timeout", options.timeout);
-    const timeout = (_a2 = options.timeout) != null ? _a2 : this.timeout;
+    const timeout = (_a3 = options.timeout) != null ? _a3 : this.timeout;
     const httpAgent = (_c = (_b = options.httpAgent) != null ? _b : this.httpAgent) != null ? _c : getDefaultAgent(url);
     const minAgentTimeout = timeout + 1e3;
     if (typeof ((_d = httpAgent == null ? void 0 : httpAgent.options) == null ? void 0 : _d.timeout) === "number" && minAgentTimeout > ((_e = httpAgent.options.timeout) != null ? _e : 0)) {
@@ -24723,10 +24723,10 @@ var APIClient = class {
     return new APIPromise(this.makeRequest(options, remainingRetries));
   }
   async makeRequest(optionsInput, retriesRemaining) {
-    var _a2, _b, _c;
+    var _a3, _b, _c;
     const options = await optionsInput;
     if (retriesRemaining == null) {
-      retriesRemaining = (_a2 = options.maxRetries) != null ? _a2 : this.maxRetries;
+      retriesRemaining = (_a3 = options.maxRetries) != null ? _a3 : this.maxRetries;
     }
     const { req, url, timeout } = this.buildRequest(options);
     await this.prepareRequest(req, { url, options });
@@ -24817,7 +24817,7 @@ var APIClient = class {
     return false;
   }
   async retryRequest(options, retriesRemaining, responseHeaders) {
-    var _a2;
+    var _a3;
     let timeoutMillis;
     const retryAfterHeader = responseHeaders == null ? void 0 : responseHeaders["retry-after"];
     if (retryAfterHeader) {
@@ -24829,7 +24829,7 @@ var APIClient = class {
       }
     }
     if (!timeoutMillis || !Number.isInteger(timeoutMillis) || timeoutMillis <= 0 || timeoutMillis > 60 * 1e3) {
-      const maxRetries = (_a2 = options.maxRetries) != null ? _a2 : this.maxRetries;
+      const maxRetries = (_a3 = options.maxRetries) != null ? _a3 : this.maxRetries;
       timeoutMillis = this.calculateDefaultRetryTimeoutMillis(retriesRemaining, maxRetries);
     }
     await sleep(timeoutMillis);
@@ -25079,9 +25079,9 @@ var castToError = (err) => {
   return new Error(err);
 };
 var readEnv = (env) => {
-  var _a2, _b, _c, _d;
+  var _a3, _b, _c, _d;
   if (typeof process !== "undefined") {
-    return (_b = (_a2 = process.env) == null ? void 0 : _a2[env]) != null ? _b : void 0;
+    return (_b = (_a3 = process.env) == null ? void 0 : _a3[env]) != null ? _b : void 0;
   }
   if (typeof Deno !== "undefined") {
     return (_d = (_c = Deno.env) == null ? void 0 : _c.get) == null ? void 0 : _d.call(_c, env);
@@ -25162,8 +25162,8 @@ var CursorPage = class extends AbstractPage {
     return params;
   }
   nextPageInfo() {
-    var _a2, _b;
-    if (!((_a2 = this.data) == null ? void 0 : _a2.length)) {
+    var _a3, _b;
+    if (!((_a3 = this.data) == null ? void 0 : _a3.length)) {
       return null;
     }
     const next = (_b = this.data[this.data.length - 1]) == null ? void 0 : _b.id;
@@ -25189,11 +25189,11 @@ var APIResource = class {
 // node_modules/openai/resources/chat/completions.mjs
 var Completions = class extends APIResource {
   create(body, options) {
-    var _a2;
-    return this.post("/chat/completions", { body, ...options, stream: (_a2 = body.stream) != null ? _a2 : false });
+    var _a3;
+    return this.post("/chat/completions", { body, ...options, stream: (_a3 = body.stream) != null ? _a3 : false });
   }
 };
-(function(Completions4) {
+(function(Completions6) {
 })(Completions || (Completions = {}));
 
 // node_modules/openai/resources/chat/chat.mjs
@@ -25203,8 +25203,8 @@ var Chat = class extends APIResource {
     this.completions = new Completions(this.client);
   }
 };
-(function(Chat3) {
-  Chat3.Completions = Completions;
+(function(Chat4) {
+  Chat4.Completions = Completions;
 })(Chat || (Chat = {}));
 
 // node_modules/openai/resources/audio/speech.mjs
@@ -25228,7 +25228,7 @@ var Transcriptions = class extends APIResource {
     return this.post("/audio/transcriptions", multipartFormRequestOptions({ body, ...options }));
   }
 };
-(function(Transcriptions2) {
+(function(Transcriptions3) {
 })(Transcriptions || (Transcriptions = {}));
 
 // node_modules/openai/resources/audio/translations.mjs
@@ -25240,7 +25240,7 @@ var Translations = class extends APIResource {
     return this.post("/audio/translations", multipartFormRequestOptions({ body, ...options }));
   }
 };
-(function(Translations2) {
+(function(Translations3) {
 })(Translations || (Translations = {}));
 
 // node_modules/openai/resources/audio/audio.mjs
@@ -25252,10 +25252,10 @@ var Audio = class extends APIResource {
     this.speech = new Speech(this.client);
   }
 };
-(function(Audio2) {
-  Audio2.Transcriptions = Transcriptions;
-  Audio2.Translations = Translations;
-  Audio2.Speech = Speech;
+(function(Audio3) {
+  Audio3.Transcriptions = Transcriptions;
+  Audio3.Translations = Translations;
+  Audio3.Speech = Speech;
 })(Audio || (Audio = {}));
 
 // node_modules/openai/resources/beta/assistants/files.mjs
@@ -25387,21 +25387,21 @@ var isToolMessage = (message) => {
 };
 
 // node_modules/openai/lib/AbstractChatCompletionRunner.mjs
-var __classPrivateFieldSet2 = function(receiver, state, value, kind2, f) {
-  if (kind2 === "m")
+var __classPrivateFieldSet2 = function(receiver, state, value, kind3, f) {
+  if (kind3 === "m")
     throw new TypeError("Private method is not writable");
-  if (kind2 === "a" && !f)
+  if (kind3 === "a" && !f)
     throw new TypeError("Private accessor was defined without a setter");
   if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
     throw new TypeError("Cannot write private member to an object whose class did not declare it");
-  return kind2 === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value), value;
+  return kind3 === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value), value;
 };
-var __classPrivateFieldGet2 = function(receiver, state, kind2, f) {
-  if (kind2 === "a" && !f)
+var __classPrivateFieldGet2 = function(receiver, state, kind3, f) {
+  if (kind3 === "a" && !f)
     throw new TypeError("Private accessor was defined without a getter");
   if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
     throw new TypeError("Cannot read private member from an object whose class did not declare it");
-  return kind2 === "m" ? f : kind2 === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
+  return kind3 === "m" ? f : kind3 === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _AbstractChatCompletionRunner_instances;
 var _AbstractChatCompletionRunner_connectedPromise;
@@ -25486,10 +25486,10 @@ var AbstractChatCompletionRunner = class {
     }, 0);
   }
   _addChatCompletion(chatCompletion) {
-    var _a2;
+    var _a3;
     this._chatCompletions.push(chatCompletion);
     this._emit("chatCompletion", chatCompletion);
-    const message = (_a2 = chatCompletion.choices[0]) == null ? void 0 : _a2.message;
+    const message = (_a3 = chatCompletion.choices[0]) == null ? void 0 : _a3.message;
     if (message)
       this._addMessage(message);
     return chatCompletion;
@@ -25707,7 +25707,7 @@ var AbstractChatCompletionRunner = class {
     return await this._createChatCompletion(completions, params, options);
   }
   async _runFunctions(completions, params, options) {
-    var _a2;
+    var _a3;
     const role = "function";
     const { function_call = "auto", stream, ...restParams } = params;
     const singleFunctionToCall = typeof function_call !== "string" && (function_call == null ? void 0 : function_call.name);
@@ -25731,7 +25731,7 @@ var AbstractChatCompletionRunner = class {
         functions,
         messages: [...this.messages]
       }, options);
-      const message = (_a2 = chatCompletion.choices[0]) == null ? void 0 : _a2.message;
+      const message = (_a3 = chatCompletion.choices[0]) == null ? void 0 : _a3.message;
       if (!message) {
         throw new OpenAIError(`missing message in ChatCompletion response`);
       }
@@ -25767,10 +25767,10 @@ var AbstractChatCompletionRunner = class {
     }
   }
   async _runTools(completions, params, options) {
-    var _a2, _b;
+    var _a3, _b;
     const role = "tool";
     const { tool_choice = "auto", stream, ...restParams } = params;
-    const singleFunctionToCall = typeof tool_choice !== "string" && ((_a2 = tool_choice == null ? void 0 : tool_choice.function) == null ? void 0 : _a2.name);
+    const singleFunctionToCall = typeof tool_choice !== "string" && ((_a3 = tool_choice == null ? void 0 : tool_choice.function) == null ? void 0 : _a3.name);
     const { maxChatCompletions = DEFAULT_MAX_CHAT_COMPLETIONS } = options || {};
     const functionsByName = {};
     for (const f of params.tools) {
@@ -25904,21 +25904,21 @@ var ChatCompletionRunner = class extends AbstractChatCompletionRunner {
 };
 
 // node_modules/openai/lib/ChatCompletionStream.mjs
-var __classPrivateFieldGet3 = function(receiver, state, kind2, f) {
-  if (kind2 === "a" && !f)
+var __classPrivateFieldGet3 = function(receiver, state, kind3, f) {
+  if (kind3 === "a" && !f)
     throw new TypeError("Private accessor was defined without a getter");
   if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
     throw new TypeError("Cannot read private member from an object whose class did not declare it");
-  return kind2 === "m" ? f : kind2 === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
+  return kind3 === "m" ? f : kind3 === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
-var __classPrivateFieldSet3 = function(receiver, state, value, kind2, f) {
-  if (kind2 === "m")
+var __classPrivateFieldSet3 = function(receiver, state, value, kind3, f) {
+  if (kind3 === "m")
     throw new TypeError("Private method is not writable");
-  if (kind2 === "a" && !f)
+  if (kind3 === "a" && !f)
     throw new TypeError("Private accessor was defined without a setter");
   if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
     throw new TypeError("Cannot write private member to an object whose class did not declare it");
-  return kind2 === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value), value;
+  return kind3 === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value), value;
 };
 var _ChatCompletionStream_instances;
 var _ChatCompletionStream_currentChatCompletionSnapshot;
@@ -25953,7 +25953,7 @@ var ChatCompletionStream = class extends AbstractChatCompletionRunner {
     return runner;
   }
   async _createChatCompletion(completions, params, options) {
-    var _a2;
+    var _a3;
     const signal = options == null ? void 0 : options.signal;
     if (signal) {
       if (signal.aborted)
@@ -25966,13 +25966,13 @@ var ChatCompletionStream = class extends AbstractChatCompletionRunner {
     for await (const chunk of stream) {
       __classPrivateFieldGet3(this, _ChatCompletionStream_instances, "m", _ChatCompletionStream_addChunk).call(this, chunk);
     }
-    if ((_a2 = stream.controller.signal) == null ? void 0 : _a2.aborted) {
+    if ((_a3 = stream.controller.signal) == null ? void 0 : _a3.aborted) {
       throw new APIUserAbortError();
     }
     return this._addChatCompletion(__classPrivateFieldGet3(this, _ChatCompletionStream_instances, "m", _ChatCompletionStream_endRequest).call(this));
   }
   async _fromReadableStream(readableStream, options) {
-    var _a2;
+    var _a3;
     const signal = options == null ? void 0 : options.signal;
     if (signal) {
       if (signal.aborted)
@@ -25990,7 +25990,7 @@ var ChatCompletionStream = class extends AbstractChatCompletionRunner {
       __classPrivateFieldGet3(this, _ChatCompletionStream_instances, "m", _ChatCompletionStream_addChunk).call(this, chunk);
       chatId = chunk.id;
     }
-    if ((_a2 = stream.controller.signal) == null ? void 0 : _a2.aborted) {
+    if ((_a3 = stream.controller.signal) == null ? void 0 : _a3.aborted) {
       throw new APIUserAbortError();
     }
     return this._addChatCompletion(__classPrivateFieldGet3(this, _ChatCompletionStream_instances, "m", _ChatCompletionStream_endRequest).call(this));
@@ -26000,12 +26000,12 @@ var ChatCompletionStream = class extends AbstractChatCompletionRunner {
       return;
     __classPrivateFieldSet3(this, _ChatCompletionStream_currentChatCompletionSnapshot, void 0, "f");
   }, _ChatCompletionStream_addChunk = function _ChatCompletionStream_addChunk2(chunk) {
-    var _a2, _b, _c;
+    var _a3, _b, _c;
     if (this.ended)
       return;
     const completion = __classPrivateFieldGet3(this, _ChatCompletionStream_instances, "m", _ChatCompletionStream_accumulateChatCompletion).call(this, chunk);
     this._emit("chunk", chunk, completion);
-    const delta = (_b = (_a2 = chunk.choices[0]) == null ? void 0 : _a2.delta) == null ? void 0 : _b.content;
+    const delta = (_b = (_a3 = chunk.choices[0]) == null ? void 0 : _a3.delta) == null ? void 0 : _b.content;
     const snapshot = (_c = completion.choices[0]) == null ? void 0 : _c.message;
     if (delta != null && (snapshot == null ? void 0 : snapshot.role) === "assistant" && (snapshot == null ? void 0 : snapshot.content)) {
       this._emit("content", delta, snapshot.content);
@@ -26021,8 +26021,8 @@ var ChatCompletionStream = class extends AbstractChatCompletionRunner {
     __classPrivateFieldSet3(this, _ChatCompletionStream_currentChatCompletionSnapshot, void 0, "f");
     return finalizeChatCompletion(snapshot);
   }, _ChatCompletionStream_accumulateChatCompletion = function _ChatCompletionStream_accumulateChatCompletion2(chunk) {
-    var _a3, _b2, _c;
-    var _a2, _b;
+    var _a4, _b2, _c;
+    var _a3, _b;
     let snapshot = __classPrivateFieldGet3(this, _ChatCompletionStream_currentChatCompletionSnapshot, "f");
     const { choices, ...rest } = chunk;
     if (!snapshot) {
@@ -26056,7 +26056,7 @@ var ChatCompletionStream = class extends AbstractChatCompletionRunner {
           if (function_call.name)
             choice.message.function_call.name = function_call.name;
           if (function_call.arguments) {
-            (_a3 = (_a2 = choice.message.function_call).arguments) != null ? _a3 : _a2.arguments = "";
+            (_a4 = (_a3 = choice.message.function_call).arguments) != null ? _a4 : _a3.arguments = "";
             choice.message.function_call.arguments += function_call.arguments;
           }
         }
@@ -26222,8 +26222,8 @@ var Chat2 = class extends APIResource {
     this.completions = new Completions2(this.client);
   }
 };
-(function(Chat3) {
-  Chat3.Completions = Completions2;
+(function(Chat4) {
+  Chat4.Completions = Completions2;
 })(Chat2 || (Chat2 = {}));
 
 // node_modules/openai/resources/beta/threads/messages/files.mjs
@@ -26494,11 +26494,11 @@ var Beta = class extends APIResource {
 // node_modules/openai/resources/completions.mjs
 var Completions3 = class extends APIResource {
   create(body, options) {
-    var _a2;
-    return this.post("/completions", { body, ...options, stream: (_a2 = body.stream) != null ? _a2 : false });
+    var _a3;
+    return this.post("/completions", { body, ...options, stream: (_a3 = body.stream) != null ? _a3 : false });
   }
 };
-(function(Completions4) {
+(function(Completions6) {
 })(Completions3 || (Completions3 = {}));
 
 // node_modules/openai/resources/embeddings.mjs
@@ -26510,7 +26510,7 @@ var Embeddings = class extends APIResource {
     return this.post("/embeddings", { body, ...options });
   }
 };
-(function(Embeddings2) {
+(function(Embeddings3) {
 })(Embeddings || (Embeddings = {}));
 
 // node_modules/openai/resources/edits.mjs
@@ -26632,12 +26632,12 @@ var FineTunes = class extends APIResource {
     return this.post(`/fine-tunes/${fineTuneId}/cancel`, options);
   }
   listEvents(fineTuneId, query, options) {
-    var _a2;
+    var _a3;
     return this.get(`/fine-tunes/${fineTuneId}/events`, {
       query,
       timeout: 864e5,
       ...options,
-      stream: (_a2 = query == null ? void 0 : query.stream) != null ? _a2 : false
+      stream: (_a3 = query == null ? void 0 : query.stream) != null ? _a3 : false
     });
   }
 };
@@ -26762,8 +26762,8 @@ var Models = class extends APIResource {
 };
 var ModelsPage = class extends Page {
 };
-(function(Models2) {
-  Models2.ModelsPage = ModelsPage;
+(function(Models3) {
+  Models3.ModelsPage = ModelsPage;
 })(Models || (Models = {}));
 
 // node_modules/openai/resources/moderations.mjs
@@ -26795,8 +26795,8 @@ var OpenAI = class extends APIClient {
    * @param {Core.DefaultQuery} opts.defaultQuery - Default query parameters to include with every request to the API.
    * @param {boolean} [opts.dangerouslyAllowBrowser=false] - By default, client-side use of this library is not allowed, as it risks exposing your secret API credentials to attackers.
    */
-  constructor({ apiKey = readEnv("OPENAI_API_KEY"), organization = ((_a2) => (_a2 = readEnv("OPENAI_ORG_ID")) != null ? _a2 : null)(), ...opts } = {}) {
-    var _a3, _b;
+  constructor({ apiKey = readEnv("OPENAI_API_KEY"), organization = ((_a3) => (_a3 = readEnv("OPENAI_ORG_ID")) != null ? _a3 : null)(), ...opts } = {}) {
+    var _a4, _b;
     if (apiKey === void 0) {
       throw new OpenAIError("The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).");
     }
@@ -26804,7 +26804,7 @@ var OpenAI = class extends APIClient {
       apiKey,
       organization,
       ...opts,
-      baseURL: (_a3 = opts.baseURL) != null ? _a3 : `https://api.openai.com/v1`
+      baseURL: (_a4 = opts.baseURL) != null ? _a4 : `https://api.openai.com/v1`
     };
     if (!options.dangerouslyAllowBrowser && isRunningInBrowser()) {
       throw new OpenAIError("It looks like you're running in a browser-like environment.\n\nThis is disabled by default, as it risks exposing your secret API credentials to attackers.\nIf you understand the risks and have appropriate mitigations in place,\nyou can set the `dangerouslyAllowBrowser` option to `true`, e.g.,\n\nnew OpenAI({ apiKey, dangerouslyAllowBrowser: true });\n\nhttps://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety\n");
@@ -27464,11 +27464,11 @@ var ZodType = class {
     throw result.error;
   }
   safeParse(data, params) {
-    var _a2;
+    var _a3;
     const ctx = {
       common: {
         issues: [],
-        async: (_a2 = params === null || params === void 0 ? void 0 : params.async) !== null && _a2 !== void 0 ? _a2 : false,
+        async: (_a3 = params === null || params === void 0 ? void 0 : params.async) !== null && _a3 !== void 0 ? _a3 : false,
         contextualErrorMap: params === null || params === void 0 ? void 0 : params.errorMap
       },
       path: (params === null || params === void 0 ? void 0 : params.path) || [],
@@ -27824,7 +27824,7 @@ var ZodString = class extends ZodType {
       } else if (check.kind === "url") {
         try {
           new URL(input.data);
-        } catch (_a2) {
+        } catch (_a3) {
           ctx = this._getOrReturnCtx(input, ctx);
           addIssueToContext(ctx, {
             validation: "url",
@@ -27939,7 +27939,7 @@ var ZodString = class extends ZodType {
     return this._addCheck({ kind: "ip", ...errorUtil.errToObj(options) });
   }
   datetime(options) {
-    var _a2;
+    var _a3;
     if (typeof options === "string") {
       return this._addCheck({
         kind: "datetime",
@@ -27951,7 +27951,7 @@ var ZodString = class extends ZodType {
     return this._addCheck({
       kind: "datetime",
       precision: typeof (options === null || options === void 0 ? void 0 : options.precision) === "undefined" ? null : options === null || options === void 0 ? void 0 : options.precision,
-      offset: (_a2 = options === null || options === void 0 ? void 0 : options.offset) !== null && _a2 !== void 0 ? _a2 : false,
+      offset: (_a3 = options === null || options === void 0 ? void 0 : options.offset) !== null && _a3 !== void 0 ? _a3 : false,
       ...errorUtil.errToObj(options === null || options === void 0 ? void 0 : options.message)
     });
   }
@@ -28054,11 +28054,11 @@ var ZodString = class extends ZodType {
   }
 };
 ZodString.create = (params) => {
-  var _a2;
+  var _a3;
   return new ZodString({
     checks: [],
     typeName: ZodFirstPartyTypeKind.ZodString,
-    coerce: (_a2 = params === null || params === void 0 ? void 0 : params.coerce) !== null && _a2 !== void 0 ? _a2 : false,
+    coerce: (_a3 = params === null || params === void 0 ? void 0 : params.coerce) !== null && _a3 !== void 0 ? _a3 : false,
     ...processCreateParams(params)
   });
 };
@@ -28170,13 +28170,13 @@ var ZodNumber = class extends ZodType {
   lt(value, message) {
     return this.setLimit("max", value, false, errorUtil.toString(message));
   }
-  setLimit(kind2, value, inclusive, message) {
+  setLimit(kind3, value, inclusive, message) {
     return new ZodNumber({
       ...this._def,
       checks: [
         ...this._def.checks,
         {
-          kind: kind2,
+          kind: kind3,
           value,
           inclusive,
           message: errorUtil.toString(message)
@@ -28378,13 +28378,13 @@ var ZodBigInt = class extends ZodType {
   lt(value, message) {
     return this.setLimit("max", value, false, errorUtil.toString(message));
   }
-  setLimit(kind2, value, inclusive, message) {
+  setLimit(kind3, value, inclusive, message) {
     return new ZodBigInt({
       ...this._def,
       checks: [
         ...this._def.checks,
         {
-          kind: kind2,
+          kind: kind3,
           value,
           inclusive,
           message: errorUtil.toString(message)
@@ -28459,11 +28459,11 @@ var ZodBigInt = class extends ZodType {
   }
 };
 ZodBigInt.create = (params) => {
-  var _a2;
+  var _a3;
   return new ZodBigInt({
     checks: [],
     typeName: ZodFirstPartyTypeKind.ZodBigInt,
-    coerce: (_a2 = params === null || params === void 0 ? void 0 : params.coerce) !== null && _a2 !== void 0 ? _a2 : false,
+    coerce: (_a3 = params === null || params === void 0 ? void 0 : params.coerce) !== null && _a3 !== void 0 ? _a3 : false,
     ...processCreateParams(params)
   });
 };
@@ -28969,8 +28969,8 @@ var ZodObject = class extends ZodType {
       unknownKeys: "strict",
       ...message !== void 0 ? {
         errorMap: (issue, ctx) => {
-          var _a2, _b, _c, _d;
-          const defaultError = (_c = (_b = (_a2 = this._def).errorMap) === null || _b === void 0 ? void 0 : _b.call(_a2, issue, ctx).message) !== null && _c !== void 0 ? _c : ctx.defaultError;
+          var _a3, _b, _c, _d;
+          const defaultError = (_c = (_b = (_a3 = this._def).errorMap) === null || _b === void 0 ? void 0 : _b.call(_a3, issue, ctx).message) !== null && _c !== void 0 ? _c : ctx.defaultError;
           if (issue.code === "unrecognized_keys")
             return {
               message: (_d = errorUtil.errToObj(message).message) !== null && _d !== void 0 ? _d : defaultError
@@ -30350,10 +30350,10 @@ var ZodPipeline = class extends ZodType {
 var custom = (check, params = {}, fatal) => {
   if (check)
     return ZodAny.create().superRefine((data, ctx) => {
-      var _a2, _b;
+      var _a3, _b;
       if (!check(data)) {
         const p2 = typeof params === "function" ? params(data) : typeof params === "string" ? { message: params } : params;
-        const _fatal = (_b = (_a2 = p2.fatal) !== null && _a2 !== void 0 ? _a2 : fatal) !== null && _b !== void 0 ? _b : true;
+        const _fatal = (_b = (_a3 = p2.fatal) !== null && _a3 !== void 0 ? _a3 : fatal) !== null && _b !== void 0 ? _b : true;
         const p22 = typeof p2 === "string" ? { message: p2 } : p2;
         ctx.addIssue({ code: "custom", ...p22, fatal: _fatal });
       }
@@ -30633,8 +30633,8 @@ var OpenAIModel = class {
     if (this.rate_limit_notice) {
       window.clearTimeout(this.rate_limit_notice_timeout);
       this.rate_limit_notice_timeout = window.setTimeout(() => {
-        var _a2;
-        (_a2 = this.rate_limit_notice) == null ? void 0 : _a2.hide();
+        var _a3;
+        (_a3 = this.rate_limit_notice) == null ? void 0 : _a3.hide();
         this.rate_limit_notice = null;
         this.rate_limit_notice_timeout = null;
       }, 5e3);
@@ -30644,8 +30644,8 @@ var OpenAIModel = class {
         25e4
       );
       this.rate_limit_notice_timeout = window.setTimeout(() => {
-        var _a2;
-        (_a2 = this.rate_limit_notice) == null ? void 0 : _a2.hide();
+        var _a3;
+        (_a3 = this.rate_limit_notice) == null ? void 0 : _a3.hide();
         this.rate_limit_notice = null;
         this.rate_limit_notice_timeout = null;
       }, 5e3);
@@ -31369,8 +31369,8 @@ var ChatGPT = class {
     if (this.rate_limit_notice) {
       window.clearTimeout(this.rate_limit_notice_timeout);
       this.rate_limit_notice_timeout = window.setTimeout(() => {
-        var _a2;
-        (_a2 = this.rate_limit_notice) == null ? void 0 : _a2.hide();
+        var _a3;
+        (_a3 = this.rate_limit_notice) == null ? void 0 : _a3.hide();
         this.rate_limit_notice = null;
         this.rate_limit_notice_timeout = null;
       }, 5e3);
@@ -31380,8 +31380,8 @@ var ChatGPT = class {
         25e4
       );
       this.rate_limit_notice_timeout = window.setTimeout(() => {
-        var _a2;
-        (_a2 = this.rate_limit_notice) == null ? void 0 : _a2.hide();
+        var _a3;
+        (_a3 = this.rate_limit_notice) == null ? void 0 : _a3.hide();
         this.rate_limit_notice = null;
         this.rate_limit_notice_timeout = null;
       }, 5e3);
@@ -31418,7 +31418,7 @@ var ChatGPT = class {
     });
   }
   async complete(prompt, settings) {
-    var _a2;
+    var _a3;
     const model_settings = parse_settings3(settings);
     try {
       const response = await this.get_api().chat.completions.create({
@@ -31429,7 +31429,7 @@ var ChatGPT = class {
       });
       return this.interpret(
         prompt,
-        ((_a2 = response.choices[0]) == null ? void 0 : _a2.message.content) || ""
+        ((_a3 = response.choices[0]) == null ? void 0 : _a3.message.content) || ""
       );
     } catch (e) {
       this.parse_api_error(e);
@@ -31437,7 +31437,7 @@ var ChatGPT = class {
     }
   }
   async *iterate(prompt, settings) {
-    var _a2, _b;
+    var _a3, _b;
     const model_settings = parse_settings3(settings);
     try {
       const completion = await this.get_api().chat.completions.create({
@@ -31449,7 +31449,7 @@ var ChatGPT = class {
       });
       let initialized = false;
       for await (const chunk of completion) {
-        const token = ((_b = (_a2 = chunk.choices[0]) == null ? void 0 : _a2.delta) == null ? void 0 : _b.content) || "";
+        const token = ((_b = (_a3 = chunk.choices[0]) == null ? void 0 : _a3.delta) == null ? void 0 : _b.content) || "";
         if (!initialized) {
           yield this.interpret(prompt, token);
           initialized = true;
@@ -31548,13 +31548,13 @@ function GenerationSettingsItem({
   saveSettings,
   parseFn = parseInt
 }) {
-  var _a2;
+  var _a3;
   const parsed_settings = parse_settings4(settings);
   return /* @__PURE__ */ React6.createElement(SettingsItem, { name: id, description }, /* @__PURE__ */ React6.createElement(
     "input",
     {
       type: "number",
-      value: (_a2 = parsed_settings.generation_settings) == null ? void 0 : _a2[id],
+      value: (_a3 = parsed_settings.generation_settings) == null ? void 0 : _a3[id],
       onChange: (e) => saveSettings(
         JSON.stringify({
           ...parsed_settings,
@@ -31576,9 +31576,9 @@ function PenaltySettingsBooleanItem({
   settings,
   saveSettings
 }) {
-  var _a2, _b;
+  var _a3, _b;
   const parsed_settings = parse_settings4(settings);
-  let state = (_b = (_a2 = parsed_settings.generation_settings) == null ? void 0 : _a2[id]) == null ? void 0 : _b[item];
+  let state = (_b = (_a3 = parsed_settings.generation_settings) == null ? void 0 : _a3[id]) == null ? void 0 : _b[item];
   if (typeof state !== "boolean") {
     state = true;
   }
@@ -31587,14 +31587,14 @@ function PenaltySettingsBooleanItem({
     {
       className: "checkbox-container" + (state ? " is-enabled" : ""),
       onClick: (_e) => {
-        var _a3;
+        var _a4;
         return saveSettings(
           JSON.stringify({
             ...parsed_settings,
             generation_settings: parsed_settings.generation_settings && {
               ...parsed_settings.generation_settings,
               [id]: {
-                ...(_a3 = parsed_settings.generation_settings) == null ? void 0 : _a3[id],
+                ...(_a4 = parsed_settings.generation_settings) == null ? void 0 : _a4[id],
                 [item]: !state
               }
             }
@@ -31610,7 +31610,7 @@ function PenaltySettings({
   settings,
   saveSettings
 }) {
-  var _a2, _b, _c, _d;
+  var _a3, _b, _c, _d;
   const [expanded, setExpanded] = (0, import_react2.useState)(false);
   const parsed_settings = parse_settings4(settings);
   return /* @__PURE__ */ React6.createElement(React6.Fragment, null, /* @__PURE__ */ React6.createElement(
@@ -31636,16 +31636,16 @@ function PenaltySettings({
       "input",
       {
         type: "number",
-        value: (_b = (_a2 = parsed_settings.generation_settings) == null ? void 0 : _a2[id]) == null ? void 0 : _b.scale,
+        value: (_b = (_a3 = parsed_settings.generation_settings) == null ? void 0 : _a3[id]) == null ? void 0 : _b.scale,
         onChange: (e) => {
-          var _a3;
+          var _a4;
           saveSettings(
             JSON.stringify({
               ...parsed_settings,
               generation_settings: typeof parseInt(e.target.value) === "number" && !isNaN(parseInt(e.target.value)) ? {
                 ...parsed_settings.generation_settings,
                 [id]: {
-                  ...(_a3 = parsed_settings.generation_settings) == null ? void 0 : _a3[id],
+                  ...(_a4 = parsed_settings.generation_settings) == null ? void 0 : _a4[id],
                   scale: parseInt(
                     e.target.value
                   )
@@ -32116,7 +32116,7 @@ var OobaboogaModel = class {
     }) => {
       const parsed_settings = parse_model_settings2(settings || "");
       return /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, model_settings_fields.map((property) => {
-        var _a2;
+        var _a3;
         return /* @__PURE__ */ import_react4.default.createElement(
           SettingsItem,
           {
@@ -32128,7 +32128,7 @@ var OobaboogaModel = class {
             {
               type: "number",
               value: parsed_settings[property.field_name],
-              placeholder: (_a2 = default_model_settings[property.field_name]) == null ? void 0 : _a2.toString(),
+              placeholder: (_a3 = default_model_settings[property.field_name]) == null ? void 0 : _a3.toString(),
               onChange: (e) => saveSettings(
                 JSON.stringify({
                   ...parsed_settings,
@@ -32288,7 +32288,7 @@ var settings_schema4 = z.object({
 });
 var default_settings5 = {
   system_prompt: "",
-  user_prompt: "{{#context}}Context:\n\n{{context}}\n\n=================================\n{{/context}}Continue the following paragraph:\n\n{{last_line}}"
+  user_prompt: '{{#context}}Context:\n\n{{context}}\n\n=================================\n{{/context}}Do not start with "...". Continue the following paragraph:\n\n{{last_line}}'
 };
 var parse_settings8 = (data) => {
   if (data == null) {
@@ -32530,6 +32530,1780 @@ var OllamaComplete = class {
   }
 };
 
+// src/complete/completers/groq/provider_settings.tsx
+var React13 = __toESM(require_react());
+var settings_schema5 = z.object({
+  api_key: z.string()
+});
+var default_settings6 = {
+  api_key: ""
+};
+var parse_settings9 = (data) => {
+  if (data === null) {
+    return default_settings6;
+  }
+  try {
+    const settings = JSON.parse(data);
+    return settings_schema5.parse(settings);
+  } catch (e) {
+    return default_settings6;
+  }
+};
+function SettingsUI9({
+  settings,
+  saveSettings
+}) {
+  return /* @__PURE__ */ React13.createElement(
+    SettingsItem,
+    {
+      name: "API key",
+      description: /* @__PURE__ */ React13.createElement(React13.Fragment, null, "Your Groq", " ", /* @__PURE__ */ React13.createElement("a", { href: "https://console.groq.com/keys" }, "API key"))
+    },
+    /* @__PURE__ */ React13.createElement(
+      "input",
+      {
+        type: "text",
+        value: parse_settings9(settings).api_key,
+        onChange: (e) => saveSettings(JSON.stringify({ api_key: e.target.value }))
+      }
+    )
+  );
+}
+
+// src/complete/completers/groq/model_settings.tsx
+var React14 = __toESM(require_react());
+var settings_schema6 = z.object({
+  system_prompt: z.string(),
+  user_prompt: z.string(),
+  temperature: z.number().optional(),
+  prompt_length: z.number().optional(),
+  max_tokens: z.number().optional()
+});
+var default_settings7 = {
+  system_prompt: "",
+  user_prompt: '{{#context}}Context:\n\n{{context}}\n\n=================================\n{{/context}}Do not start with "...". Continue the following paragraph:\n\n{{last_line}}',
+  max_tokens: 100
+};
+var parse_settings10 = (data) => {
+  if (data == null) {
+    return default_settings7;
+  }
+  try {
+    const settings = JSON.parse(data);
+    return settings_schema6.parse(settings);
+  } catch (e) {
+    return default_settings7;
+  }
+};
+function SettingsUI10({
+  settings,
+  saveSettings
+}) {
+  const parsed_settings = parse_settings10(settings);
+  return /* @__PURE__ */ React14.createElement(React14.Fragment, null, /* @__PURE__ */ React14.createElement(SettingsItem, { name: "System prompt" }), /* @__PURE__ */ React14.createElement(
+    "textarea",
+    {
+      className: "ai-complete-groq-full-width",
+      value: parsed_settings.system_prompt,
+      onChange: (e) => saveSettings(
+        JSON.stringify({
+          ...parsed_settings,
+          system_prompt: e.target.value
+        })
+      )
+    }
+  ), /* @__PURE__ */ React14.createElement(SettingsItem, { name: "User prompt" }), /* @__PURE__ */ React14.createElement(
+    "textarea",
+    {
+      className: "ai-complete-groq-full-width",
+      value: parsed_settings.user_prompt,
+      onChange: (e) => saveSettings(
+        JSON.stringify({
+          ...parsed_settings,
+          user_prompt: e.target.value
+        })
+      )
+    }
+  ), /* @__PURE__ */ React14.createElement(SettingsItem, { name: "Temperature" }, /* @__PURE__ */ React14.createElement(
+    "input",
+    {
+      type: "number",
+      value: parsed_settings.temperature === void 0 ? "" : parsed_settings.temperature,
+      onChange: (e) => saveSettings(
+        JSON.stringify({
+          ...parsed_settings,
+          temperature: parseFloat(e.target.value)
+        })
+      )
+    }
+  )), /* @__PURE__ */ React14.createElement(SettingsItem, { name: "Prompt length" }, /* @__PURE__ */ React14.createElement(
+    "input",
+    {
+      type: "number",
+      value: parsed_settings.prompt_length === void 0 ? "" : parsed_settings.prompt_length,
+      onChange: (e) => saveSettings(
+        JSON.stringify({
+          ...parsed_settings,
+          prompt_length: parseFloat(e.target.value)
+        })
+      )
+    }
+  )));
+}
+
+// node_modules/groq-sdk/version.mjs
+var VERSION2 = "0.4.0";
+
+// node_modules/groq-sdk/_shims/registry.mjs
+var auto2 = false;
+var kind2 = void 0;
+var fetch3 = void 0;
+var Request3 = void 0;
+var Response3 = void 0;
+var Headers3 = void 0;
+var FormData3 = void 0;
+var Blob3 = void 0;
+var File3 = void 0;
+var ReadableStream3 = void 0;
+var getMultipartRequestOptions2 = void 0;
+var getDefaultAgent2 = void 0;
+var fileFromPath2 = void 0;
+var isFsReadStream2 = void 0;
+function setShims2(shims, options = { auto: false }) {
+  if (auto2) {
+    throw new Error(`you must \`import 'groq-sdk/shims/${shims.kind}'\` before importing anything else from groq-sdk`);
+  }
+  if (kind2) {
+    throw new Error(`can't \`import 'groq-sdk/shims/${shims.kind}'\` after \`import 'groq-sdk/shims/${kind2}'\``);
+  }
+  auto2 = options.auto;
+  kind2 = shims.kind;
+  fetch3 = shims.fetch;
+  Request3 = shims.Request;
+  Response3 = shims.Response;
+  Headers3 = shims.Headers;
+  FormData3 = shims.FormData;
+  Blob3 = shims.Blob;
+  File3 = shims.File;
+  ReadableStream3 = shims.ReadableStream;
+  getMultipartRequestOptions2 = shims.getMultipartRequestOptions;
+  getDefaultAgent2 = shims.getDefaultAgent;
+  fileFromPath2 = shims.fileFromPath;
+  isFsReadStream2 = shims.isFsReadStream;
+}
+
+// node_modules/groq-sdk/_shims/MultipartBody.mjs
+var MultipartBody2 = class {
+  constructor(body) {
+    this.body = body;
+  }
+  get [Symbol.toStringTag]() {
+    return "MultipartBody";
+  }
+};
+
+// node_modules/groq-sdk/_shims/web-runtime.mjs
+function getRuntime2({ manuallyImported } = {}) {
+  const recommendation = manuallyImported ? `You may need to use polyfills` : `Add one of these imports before your first \`import \u2026 from 'groq-sdk'\`:
+- \`import 'groq-sdk/shims/node'\` (if you're running on Node)
+- \`import 'groq-sdk/shims/web'\` (otherwise)
+`;
+  let _fetch, _Request, _Response, _Headers;
+  try {
+    _fetch = fetch;
+    _Request = Request;
+    _Response = Response;
+    _Headers = Headers;
+  } catch (error) {
+    throw new Error(`this environment is missing the following Web Fetch API type: ${error.message}. ${recommendation}`);
+  }
+  return {
+    kind: "web",
+    fetch: _fetch,
+    Request: _Request,
+    Response: _Response,
+    Headers: _Headers,
+    FormData: (
+      // @ts-ignore
+      typeof FormData !== "undefined" ? FormData : class FormData {
+        // @ts-ignore
+        constructor() {
+          throw new Error(`file uploads aren't supported in this environment yet as 'FormData' is undefined. ${recommendation}`);
+        }
+      }
+    ),
+    Blob: typeof Blob !== "undefined" ? Blob : class Blob {
+      constructor() {
+        throw new Error(`file uploads aren't supported in this environment yet as 'Blob' is undefined. ${recommendation}`);
+      }
+    },
+    File: (
+      // @ts-ignore
+      typeof File !== "undefined" ? File : class File {
+        // @ts-ignore
+        constructor() {
+          throw new Error(`file uploads aren't supported in this environment yet as 'File' is undefined. ${recommendation}`);
+        }
+      }
+    ),
+    ReadableStream: (
+      // @ts-ignore
+      typeof ReadableStream !== "undefined" ? ReadableStream : class ReadableStream {
+        // @ts-ignore
+        constructor() {
+          throw new Error(`streaming isn't supported in this environment yet as 'ReadableStream' is undefined. ${recommendation}`);
+        }
+      }
+    ),
+    getMultipartRequestOptions: async (form, opts) => ({
+      ...opts,
+      body: new MultipartBody2(form)
+    }),
+    getDefaultAgent: (url) => void 0,
+    fileFromPath: () => {
+      throw new Error("The `fileFromPath` function is only supported in Node. See the README for more details: https://www.github.com/groq/groq-typescript#file-uploads");
+    },
+    isFsReadStream: (value) => false
+  };
+}
+
+// node_modules/groq-sdk/_shims/index.mjs
+if (!kind2)
+  setShims2(getRuntime2(), { auto: true });
+
+// node_modules/groq-sdk/error.mjs
+var error_exports2 = {};
+__export(error_exports2, {
+  APIConnectionError: () => APIConnectionError3,
+  APIConnectionTimeoutError: () => APIConnectionTimeoutError3,
+  APIError: () => APIError3,
+  APIUserAbortError: () => APIUserAbortError3,
+  AuthenticationError: () => AuthenticationError3,
+  BadRequestError: () => BadRequestError3,
+  ConflictError: () => ConflictError3,
+  GroqError: () => GroqError,
+  InternalServerError: () => InternalServerError3,
+  NotFoundError: () => NotFoundError3,
+  PermissionDeniedError: () => PermissionDeniedError3,
+  RateLimitError: () => RateLimitError3,
+  UnprocessableEntityError: () => UnprocessableEntityError3
+});
+var GroqError = class extends Error {
+};
+var APIError3 = class extends GroqError {
+  constructor(status, error, message, headers) {
+    super(`${APIError3.makeMessage(status, error, message)}`);
+    this.status = status;
+    this.headers = headers;
+    this.error = error;
+  }
+  static makeMessage(status, error, message) {
+    const msg = (error == null ? void 0 : error.message) ? typeof error.message === "string" ? error.message : JSON.stringify(error.message) : error ? JSON.stringify(error) : message;
+    if (status && msg) {
+      return `${status} ${msg}`;
+    }
+    if (status) {
+      return `${status} status code (no body)`;
+    }
+    if (msg) {
+      return msg;
+    }
+    return "(no status code or body)";
+  }
+  static generate(status, errorResponse, message, headers) {
+    if (!status) {
+      return new APIConnectionError3({ cause: castToError2(errorResponse) });
+    }
+    const error = errorResponse;
+    if (status === 400) {
+      return new BadRequestError3(status, error, message, headers);
+    }
+    if (status === 401) {
+      return new AuthenticationError3(status, error, message, headers);
+    }
+    if (status === 403) {
+      return new PermissionDeniedError3(status, error, message, headers);
+    }
+    if (status === 404) {
+      return new NotFoundError3(status, error, message, headers);
+    }
+    if (status === 409) {
+      return new ConflictError3(status, error, message, headers);
+    }
+    if (status === 422) {
+      return new UnprocessableEntityError3(status, error, message, headers);
+    }
+    if (status === 429) {
+      return new RateLimitError3(status, error, message, headers);
+    }
+    if (status >= 500) {
+      return new InternalServerError3(status, error, message, headers);
+    }
+    return new APIError3(status, error, message, headers);
+  }
+};
+var APIUserAbortError3 = class extends APIError3 {
+  constructor({ message } = {}) {
+    super(void 0, void 0, message || "Request was aborted.", void 0);
+    this.status = void 0;
+  }
+};
+var APIConnectionError3 = class extends APIError3 {
+  constructor({ message, cause }) {
+    super(void 0, void 0, message || "Connection error.", void 0);
+    this.status = void 0;
+    if (cause)
+      this.cause = cause;
+  }
+};
+var APIConnectionTimeoutError3 = class extends APIConnectionError3 {
+  constructor({ message } = {}) {
+    super({ message: message != null ? message : "Request timed out." });
+  }
+};
+var BadRequestError3 = class extends APIError3 {
+  constructor() {
+    super(...arguments);
+    this.status = 400;
+  }
+};
+var AuthenticationError3 = class extends APIError3 {
+  constructor() {
+    super(...arguments);
+    this.status = 401;
+  }
+};
+var PermissionDeniedError3 = class extends APIError3 {
+  constructor() {
+    super(...arguments);
+    this.status = 403;
+  }
+};
+var NotFoundError3 = class extends APIError3 {
+  constructor() {
+    super(...arguments);
+    this.status = 404;
+  }
+};
+var ConflictError3 = class extends APIError3 {
+  constructor() {
+    super(...arguments);
+    this.status = 409;
+  }
+};
+var UnprocessableEntityError3 = class extends APIError3 {
+  constructor() {
+    super(...arguments);
+    this.status = 422;
+  }
+};
+var RateLimitError3 = class extends APIError3 {
+  constructor() {
+    super(...arguments);
+    this.status = 429;
+  }
+};
+var InternalServerError3 = class extends APIError3 {
+};
+
+// node_modules/groq-sdk/lib/streaming.mjs
+var Stream2 = class {
+  constructor(iterator, controller) {
+    this.iterator = iterator;
+    this.controller = controller;
+  }
+  static fromSSEResponse(response, controller) {
+    let consumed = false;
+    const decoder = new SSEDecoder2();
+    async function* iterMessages() {
+      if (!response.body) {
+        controller.abort();
+        throw new GroqError(`Attempted to iterate over a response with no body`);
+      }
+      const lineDecoder = new LineDecoder2();
+      const iter = readableStreamAsyncIterable2(response.body);
+      for await (const chunk of iter) {
+        for (const line of lineDecoder.decode(chunk)) {
+          const sse = decoder.decode(line);
+          if (sse)
+            yield sse;
+        }
+      }
+      for (const line of lineDecoder.flush()) {
+        const sse = decoder.decode(line);
+        if (sse)
+          yield sse;
+      }
+    }
+    async function* iterator() {
+      if (consumed) {
+        throw new Error("Cannot iterate over a consumed stream, use `.tee()` to split the stream.");
+      }
+      consumed = true;
+      let done = false;
+      try {
+        for await (const sse of iterMessages()) {
+          if (done)
+            continue;
+          if (sse.data.startsWith("[DONE]")) {
+            done = true;
+            continue;
+          }
+          if (sse.event === null) {
+            let data;
+            try {
+              data = JSON.parse(sse.data);
+            } catch (e) {
+              console.error(`Could not parse message into JSON:`, sse.data);
+              console.error(`From chunk:`, sse.raw);
+              throw e;
+            }
+            if (data && data.error) {
+              throw new APIError3(void 0, data.error, void 0, void 0);
+            }
+            yield data;
+          }
+        }
+        done = true;
+      } catch (e) {
+        if (e instanceof Error && e.name === "AbortError")
+          return;
+        throw e;
+      } finally {
+        if (!done)
+          controller.abort();
+      }
+    }
+    return new Stream2(iterator, controller);
+  }
+  /**
+   * Generates a Stream from a newline-separated ReadableStream
+   * where each item is a JSON value.
+   */
+  static fromReadableStream(readableStream, controller) {
+    let consumed = false;
+    async function* iterLines() {
+      const lineDecoder = new LineDecoder2();
+      const iter = readableStreamAsyncIterable2(readableStream);
+      for await (const chunk of iter) {
+        for (const line of lineDecoder.decode(chunk)) {
+          yield line;
+        }
+      }
+      for (const line of lineDecoder.flush()) {
+        yield line;
+      }
+    }
+    async function* iterator() {
+      if (consumed) {
+        throw new Error("Cannot iterate over a consumed stream, use `.tee()` to split the stream.");
+      }
+      consumed = true;
+      let done = false;
+      try {
+        for await (const line of iterLines()) {
+          if (done)
+            continue;
+          if (line)
+            yield JSON.parse(line);
+        }
+        done = true;
+      } catch (e) {
+        if (e instanceof Error && e.name === "AbortError")
+          return;
+        throw e;
+      } finally {
+        if (!done)
+          controller.abort();
+      }
+    }
+    return new Stream2(iterator, controller);
+  }
+  [Symbol.asyncIterator]() {
+    return this.iterator();
+  }
+  /**
+   * Splits the stream into two streams which can be
+   * independently read from at different speeds.
+   */
+  tee() {
+    const left = [];
+    const right = [];
+    const iterator = this.iterator();
+    const teeIterator = (queue) => {
+      return {
+        next: () => {
+          if (queue.length === 0) {
+            const result = iterator.next();
+            left.push(result);
+            right.push(result);
+          }
+          return queue.shift();
+        }
+      };
+    };
+    return [
+      new Stream2(() => teeIterator(left), this.controller),
+      new Stream2(() => teeIterator(right), this.controller)
+    ];
+  }
+  /**
+   * Converts this stream to a newline-separated ReadableStream of
+   * JSON stringified values in the stream
+   * which can be turned back into a Stream with `Stream.fromReadableStream()`.
+   */
+  toReadableStream() {
+    const self = this;
+    let iter;
+    const encoder = new TextEncoder();
+    return new ReadableStream3({
+      async start() {
+        iter = self[Symbol.asyncIterator]();
+      },
+      async pull(ctrl) {
+        try {
+          const { value, done } = await iter.next();
+          if (done)
+            return ctrl.close();
+          const bytes = encoder.encode(JSON.stringify(value) + "\n");
+          ctrl.enqueue(bytes);
+        } catch (err) {
+          ctrl.error(err);
+        }
+      },
+      async cancel() {
+        var _a3;
+        await ((_a3 = iter.return) == null ? void 0 : _a3.call(iter));
+      }
+    });
+  }
+};
+var SSEDecoder2 = class {
+  constructor() {
+    this.event = null;
+    this.data = [];
+    this.chunks = [];
+  }
+  decode(line) {
+    if (line.endsWith("\r")) {
+      line = line.substring(0, line.length - 1);
+    }
+    if (!line) {
+      if (!this.event && !this.data.length)
+        return null;
+      const sse = {
+        event: this.event,
+        data: this.data.join("\n"),
+        raw: this.chunks
+      };
+      this.event = null;
+      this.data = [];
+      this.chunks = [];
+      return sse;
+    }
+    this.chunks.push(line);
+    if (line.startsWith(":")) {
+      return null;
+    }
+    let [fieldname, _2, value] = partition2(line, ":");
+    if (value.startsWith(" ")) {
+      value = value.substring(1);
+    }
+    if (fieldname === "event") {
+      this.event = value;
+    } else if (fieldname === "data") {
+      this.data.push(value);
+    }
+    return null;
+  }
+};
+var LineDecoder2 = class {
+  constructor() {
+    this.buffer = [];
+    this.trailingCR = false;
+  }
+  decode(chunk) {
+    let text = this.decodeText(chunk);
+    if (this.trailingCR) {
+      text = "\r" + text;
+      this.trailingCR = false;
+    }
+    if (text.endsWith("\r")) {
+      this.trailingCR = true;
+      text = text.slice(0, -1);
+    }
+    if (!text) {
+      return [];
+    }
+    const trailingNewline = LineDecoder2.NEWLINE_CHARS.has(text[text.length - 1] || "");
+    let lines = text.split(LineDecoder2.NEWLINE_REGEXP);
+    if (lines.length === 1 && !trailingNewline) {
+      this.buffer.push(lines[0]);
+      return [];
+    }
+    if (this.buffer.length > 0) {
+      lines = [this.buffer.join("") + lines[0], ...lines.slice(1)];
+      this.buffer = [];
+    }
+    if (!trailingNewline) {
+      this.buffer = [lines.pop() || ""];
+    }
+    return lines;
+  }
+  decodeText(bytes) {
+    var _a3;
+    if (bytes == null)
+      return "";
+    if (typeof bytes === "string")
+      return bytes;
+    if (typeof Buffer !== "undefined") {
+      if (bytes instanceof Buffer) {
+        return bytes.toString();
+      }
+      if (bytes instanceof Uint8Array) {
+        return Buffer.from(bytes).toString();
+      }
+      throw new GroqError(`Unexpected: received non-Uint8Array (${bytes.constructor.name}) stream chunk in an environment with a global "Buffer" defined, which this library assumes to be Node. Please report this error.`);
+    }
+    if (typeof TextDecoder !== "undefined") {
+      if (bytes instanceof Uint8Array || bytes instanceof ArrayBuffer) {
+        (_a3 = this.textDecoder) != null ? _a3 : this.textDecoder = new TextDecoder("utf8");
+        return this.textDecoder.decode(bytes);
+      }
+      throw new GroqError(`Unexpected: received non-Uint8Array/ArrayBuffer (${bytes.constructor.name}) in a web platform. Please report this error.`);
+    }
+    throw new GroqError(`Unexpected: neither Buffer nor TextDecoder are available as globals. Please report this error.`);
+  }
+  flush() {
+    if (!this.buffer.length && !this.trailingCR) {
+      return [];
+    }
+    const lines = [this.buffer.join("")];
+    this.buffer = [];
+    this.trailingCR = false;
+    return lines;
+  }
+};
+LineDecoder2.NEWLINE_CHARS = /* @__PURE__ */ new Set(["\n", "\r", "\v", "\f", "", "", "", "\x85", "\u2028", "\u2029"]);
+LineDecoder2.NEWLINE_REGEXP = /\r\n|[\n\r\x0b\x0c\x1c\x1d\x1e\x85\u2028\u2029]/g;
+function partition2(str2, delimiter) {
+  const index = str2.indexOf(delimiter);
+  if (index !== -1) {
+    return [str2.substring(0, index), delimiter, str2.substring(index + delimiter.length)];
+  }
+  return [str2, "", ""];
+}
+function readableStreamAsyncIterable2(stream) {
+  if (stream[Symbol.asyncIterator])
+    return stream;
+  const reader = stream.getReader();
+  return {
+    async next() {
+      try {
+        const result = await reader.read();
+        if (result == null ? void 0 : result.done)
+          reader.releaseLock();
+        return result;
+      } catch (e) {
+        reader.releaseLock();
+        throw e;
+      }
+    },
+    async return() {
+      const cancelPromise = reader.cancel();
+      reader.releaseLock();
+      await cancelPromise;
+      return { done: true, value: void 0 };
+    },
+    [Symbol.asyncIterator]() {
+      return this;
+    }
+  };
+}
+
+// node_modules/groq-sdk/uploads.mjs
+var isResponseLike2 = (value) => value != null && typeof value === "object" && typeof value.url === "string" && typeof value.blob === "function";
+var isFileLike2 = (value) => value != null && typeof value === "object" && typeof value.name === "string" && typeof value.lastModified === "number" && isBlobLike2(value);
+var isBlobLike2 = (value) => value != null && typeof value === "object" && typeof value.size === "number" && typeof value.type === "string" && typeof value.text === "function" && typeof value.slice === "function" && typeof value.arrayBuffer === "function";
+var isUploadable2 = (value) => {
+  return isFileLike2(value) || isResponseLike2(value) || isFsReadStream2(value);
+};
+async function toFile2(value, name, options) {
+  var _a3, _b, _c;
+  value = await value;
+  options != null ? options : options = isFileLike2(value) ? { lastModified: value.lastModified, type: value.type } : {};
+  if (isResponseLike2(value)) {
+    const blob = await value.blob();
+    name || (name = (_a3 = new URL(value.url).pathname.split(/[\\/]/).pop()) != null ? _a3 : "unknown_file");
+    return new File3([blob], name, options);
+  }
+  const bits = await getBytes2(value);
+  name || (name = (_b = getName2(value)) != null ? _b : "unknown_file");
+  if (!options.type) {
+    const type = (_c = bits[0]) == null ? void 0 : _c.type;
+    if (typeof type === "string") {
+      options = { ...options, type };
+    }
+  }
+  return new File3(bits, name, options);
+}
+async function getBytes2(value) {
+  var _a3;
+  let parts = [];
+  if (typeof value === "string" || ArrayBuffer.isView(value) || // includes Uint8Array, Buffer, etc.
+  value instanceof ArrayBuffer) {
+    parts.push(value);
+  } else if (isBlobLike2(value)) {
+    parts.push(await value.arrayBuffer());
+  } else if (isAsyncIterableIterator2(value)) {
+    for await (const chunk of value) {
+      parts.push(chunk);
+    }
+  } else {
+    throw new Error(`Unexpected data type: ${typeof value}; constructor: ${(_a3 = value == null ? void 0 : value.constructor) == null ? void 0 : _a3.name}; props: ${propsForError2(value)}`);
+  }
+  return parts;
+}
+function propsForError2(value) {
+  const props = Object.getOwnPropertyNames(value);
+  return `[${props.map((p2) => `"${p2}"`).join(", ")}]`;
+}
+function getName2(value) {
+  var _a3;
+  return getStringFromMaybeBuffer2(value.name) || getStringFromMaybeBuffer2(value.filename) || // For fs.ReadStream
+  ((_a3 = getStringFromMaybeBuffer2(value.path)) == null ? void 0 : _a3.split(/[\\/]/).pop());
+}
+var getStringFromMaybeBuffer2 = (x2) => {
+  if (typeof x2 === "string")
+    return x2;
+  if (typeof Buffer !== "undefined" && x2 instanceof Buffer)
+    return String(x2);
+  return void 0;
+};
+var isAsyncIterableIterator2 = (value) => value != null && typeof value === "object" && typeof value[Symbol.asyncIterator] === "function";
+var isMultipartBody2 = (body) => body && typeof body === "object" && body.body && body[Symbol.toStringTag] === "MultipartBody";
+var multipartFormRequestOptions2 = async (opts) => {
+  const form = await createForm2(opts.body);
+  return getMultipartRequestOptions2(form, opts);
+};
+var createForm2 = async (body) => {
+  const form = new FormData3();
+  await Promise.all(Object.entries(body || {}).map(([key, value]) => addFormValue2(form, key, value)));
+  return form;
+};
+var addFormValue2 = async (form, key, value) => {
+  if (value === void 0)
+    return;
+  if (value == null) {
+    throw new TypeError(`Received null for "${key}"; to pass null in FormData, you must use the string 'null'`);
+  }
+  if (typeof value === "string" || typeof value === "number" || typeof value === "boolean") {
+    form.append(key, String(value));
+  } else if (isUploadable2(value)) {
+    const file = await toFile2(value);
+    form.append(key, file);
+  } else if (Array.isArray(value)) {
+    await Promise.all(value.map((entry) => addFormValue2(form, key + "[]", entry)));
+  } else if (typeof value === "object") {
+    await Promise.all(Object.entries(value).map(([name, prop]) => addFormValue2(form, `${key}[${name}]`, prop)));
+  } else {
+    throw new TypeError(`Invalid value given to form, expected a string, number, boolean, object, Array, File or Blob but got ${value} instead`);
+  }
+};
+
+// node_modules/groq-sdk/core.mjs
+var __classPrivateFieldSet4 = function(receiver, state, value, kind3, f) {
+  if (kind3 === "m")
+    throw new TypeError("Private method is not writable");
+  if (kind3 === "a" && !f)
+    throw new TypeError("Private accessor was defined without a setter");
+  if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
+    throw new TypeError("Cannot write private member to an object whose class did not declare it");
+  return kind3 === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value), value;
+};
+var __classPrivateFieldGet4 = function(receiver, state, kind3, f) {
+  if (kind3 === "a" && !f)
+    throw new TypeError("Private accessor was defined without a getter");
+  if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver))
+    throw new TypeError("Cannot read private member from an object whose class did not declare it");
+  return kind3 === "m" ? f : kind3 === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
+};
+var _AbstractPage_client2;
+async function defaultParseResponse2(props) {
+  const { response } = props;
+  if (props.options.stream) {
+    debug2("response", response.status, response.url, response.headers, response.body);
+    if (props.options.__streamClass) {
+      return props.options.__streamClass.fromSSEResponse(response, props.controller);
+    }
+    return Stream2.fromSSEResponse(response, props.controller);
+  }
+  if (response.status === 204) {
+    return null;
+  }
+  if (props.options.__binaryResponse) {
+    return response;
+  }
+  const contentType = response.headers.get("content-type");
+  const isJSON = (contentType == null ? void 0 : contentType.includes("application/json")) || (contentType == null ? void 0 : contentType.includes("application/vnd.api+json"));
+  if (isJSON) {
+    const json = await response.json();
+    debug2("response", response.status, response.url, response.headers, json);
+    return json;
+  }
+  const text = await response.text();
+  debug2("response", response.status, response.url, response.headers, text);
+  return text;
+}
+var APIPromise2 = class extends Promise {
+  constructor(responsePromise, parseResponse = defaultParseResponse2) {
+    super((resolve) => {
+      resolve(null);
+    });
+    this.responsePromise = responsePromise;
+    this.parseResponse = parseResponse;
+  }
+  _thenUnwrap(transform) {
+    return new APIPromise2(this.responsePromise, async (props) => transform(await this.parseResponse(props)));
+  }
+  /**
+   * Gets the raw `Response` instance instead of parsing the response
+   * data.
+   *
+   * If you want to parse the response body but still get the `Response`
+   * instance, you can use {@link withResponse()}.
+   *
+   * 👋 Getting the wrong TypeScript type for `Response`?
+   * Try setting `"moduleResolution": "NodeNext"` if you can,
+   * or add one of these imports before your first `import … from 'groq-sdk'`:
+   * - `import 'groq-sdk/shims/node'` (if you're running on Node)
+   * - `import 'groq-sdk/shims/web'` (otherwise)
+   */
+  asResponse() {
+    return this.responsePromise.then((p2) => p2.response);
+  }
+  /**
+   * Gets the parsed response data and the raw `Response` instance.
+   *
+   * If you just want to get the raw `Response` instance without parsing it,
+   * you can use {@link asResponse()}.
+   *
+   *
+   * 👋 Getting the wrong TypeScript type for `Response`?
+   * Try setting `"moduleResolution": "NodeNext"` if you can,
+   * or add one of these imports before your first `import … from 'groq-sdk'`:
+   * - `import 'groq-sdk/shims/node'` (if you're running on Node)
+   * - `import 'groq-sdk/shims/web'` (otherwise)
+   */
+  async withResponse() {
+    const [data, response] = await Promise.all([this.parse(), this.asResponse()]);
+    return { data, response };
+  }
+  parse() {
+    if (!this.parsedPromise) {
+      this.parsedPromise = this.responsePromise.then(this.parseResponse);
+    }
+    return this.parsedPromise;
+  }
+  then(onfulfilled, onrejected) {
+    return this.parse().then(onfulfilled, onrejected);
+  }
+  catch(onrejected) {
+    return this.parse().catch(onrejected);
+  }
+  finally(onfinally) {
+    return this.parse().finally(onfinally);
+  }
+};
+var APIClient2 = class {
+  constructor({
+    baseURL,
+    maxRetries = 2,
+    timeout = 6e4,
+    // 1 minute
+    httpAgent,
+    fetch: overridenFetch
+  }) {
+    this.baseURL = baseURL;
+    this.maxRetries = validatePositiveInteger2("maxRetries", maxRetries);
+    this.timeout = validatePositiveInteger2("timeout", timeout);
+    this.httpAgent = httpAgent;
+    this.fetch = overridenFetch != null ? overridenFetch : fetch3;
+  }
+  authHeaders(opts) {
+    return {};
+  }
+  /**
+   * Override this to add your own default headers, for example:
+   *
+   *  {
+   *    ...super.defaultHeaders(),
+   *    Authorization: 'Bearer 123',
+   *  }
+   */
+  defaultHeaders(opts) {
+    return {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+      "User-Agent": this.getUserAgent(),
+      ...getPlatformHeaders2(),
+      ...this.authHeaders(opts)
+    };
+  }
+  /**
+   * Override this to add your own headers validation:
+   */
+  validateHeaders(headers, customHeaders) {
+  }
+  defaultIdempotencyKey() {
+    return `stainless-node-retry-${uuid42()}`;
+  }
+  get(path, opts) {
+    return this.methodRequest("get", path, opts);
+  }
+  post(path, opts) {
+    return this.methodRequest("post", path, opts);
+  }
+  patch(path, opts) {
+    return this.methodRequest("patch", path, opts);
+  }
+  put(path, opts) {
+    return this.methodRequest("put", path, opts);
+  }
+  delete(path, opts) {
+    return this.methodRequest("delete", path, opts);
+  }
+  methodRequest(method, path, opts) {
+    return this.request(Promise.resolve(opts).then((opts2) => ({ method, path, ...opts2 })));
+  }
+  getAPIList(path, Page2, opts) {
+    return this.requestAPIList(Page2, { method: "get", path, ...opts });
+  }
+  calculateContentLength(body) {
+    if (typeof body === "string") {
+      if (typeof Buffer !== "undefined") {
+        return Buffer.byteLength(body, "utf8").toString();
+      }
+      if (typeof TextEncoder !== "undefined") {
+        const encoder = new TextEncoder();
+        const encoded = encoder.encode(body);
+        return encoded.length.toString();
+      }
+    }
+    return null;
+  }
+  buildRequest(options) {
+    var _a3, _b, _c, _d, _e, _f;
+    const { method, path, query, headers = {} } = options;
+    const body = isMultipartBody2(options.body) ? options.body.body : options.body ? JSON.stringify(options.body, null, 2) : null;
+    const contentLength = this.calculateContentLength(body);
+    const url = this.buildURL(path, query);
+    if ("timeout" in options)
+      validatePositiveInteger2("timeout", options.timeout);
+    const timeout = (_a3 = options.timeout) != null ? _a3 : this.timeout;
+    const httpAgent = (_c = (_b = options.httpAgent) != null ? _b : this.httpAgent) != null ? _c : getDefaultAgent2(url);
+    const minAgentTimeout = timeout + 1e3;
+    if (typeof ((_d = httpAgent == null ? void 0 : httpAgent.options) == null ? void 0 : _d.timeout) === "number" && minAgentTimeout > ((_e = httpAgent.options.timeout) != null ? _e : 0)) {
+      httpAgent.options.timeout = minAgentTimeout;
+    }
+    if (this.idempotencyHeader && method !== "get") {
+      if (!options.idempotencyKey)
+        options.idempotencyKey = this.defaultIdempotencyKey();
+      headers[this.idempotencyHeader] = options.idempotencyKey;
+    }
+    const reqHeaders = this.buildHeaders({ options, headers, contentLength });
+    const req = {
+      method,
+      ...body && { body },
+      headers: reqHeaders,
+      ...httpAgent && { agent: httpAgent },
+      // @ts-ignore node-fetch uses a custom AbortSignal type that is
+      // not compatible with standard web types
+      signal: (_f = options.signal) != null ? _f : null
+    };
+    return { req, url, timeout };
+  }
+  buildHeaders({ options, headers, contentLength }) {
+    const reqHeaders = {};
+    if (contentLength) {
+      reqHeaders["content-length"] = contentLength;
+    }
+    const defaultHeaders = this.defaultHeaders(options);
+    applyHeadersMut(reqHeaders, defaultHeaders);
+    applyHeadersMut(reqHeaders, headers);
+    if (isMultipartBody2(options.body) && kind2 !== "node") {
+      delete reqHeaders["content-type"];
+    }
+    this.validateHeaders(reqHeaders, headers);
+    return reqHeaders;
+  }
+  /**
+   * Used as a callback for mutating the given `FinalRequestOptions` object.
+   */
+  async prepareOptions(options) {
+  }
+  /**
+   * Used as a callback for mutating the given `RequestInit` object.
+   *
+   * This is useful for cases where you want to add certain headers based off of
+   * the request properties, e.g. `method` or `url`.
+   */
+  async prepareRequest(request, { url, options }) {
+  }
+  parseHeaders(headers) {
+    return !headers ? {} : Symbol.iterator in headers ? Object.fromEntries(Array.from(headers).map((header) => [...header])) : { ...headers };
+  }
+  makeStatusError(status, error, message, headers) {
+    return APIError3.generate(status, error, message, headers);
+  }
+  request(options, remainingRetries = null) {
+    return new APIPromise2(this.makeRequest(options, remainingRetries));
+  }
+  async makeRequest(optionsInput, retriesRemaining) {
+    var _a3, _b, _c;
+    const options = await optionsInput;
+    if (retriesRemaining == null) {
+      retriesRemaining = (_a3 = options.maxRetries) != null ? _a3 : this.maxRetries;
+    }
+    await this.prepareOptions(options);
+    const { req, url, timeout } = this.buildRequest(options);
+    await this.prepareRequest(req, { url, options });
+    debug2("request", url, options, req.headers);
+    if ((_b = options.signal) == null ? void 0 : _b.aborted) {
+      throw new APIUserAbortError3();
+    }
+    const controller = new AbortController();
+    const response = await this.fetchWithTimeout(url, req, timeout, controller).catch(castToError2);
+    if (response instanceof Error) {
+      if ((_c = options.signal) == null ? void 0 : _c.aborted) {
+        throw new APIUserAbortError3();
+      }
+      if (retriesRemaining) {
+        return this.retryRequest(options, retriesRemaining);
+      }
+      if (response.name === "AbortError") {
+        throw new APIConnectionTimeoutError3();
+      }
+      throw new APIConnectionError3({ cause: response });
+    }
+    const responseHeaders = createResponseHeaders2(response.headers);
+    if (!response.ok) {
+      if (retriesRemaining && this.shouldRetry(response)) {
+        const retryMessage2 = `retrying, ${retriesRemaining} attempts remaining`;
+        debug2(`response (error; ${retryMessage2})`, response.status, url, responseHeaders);
+        return this.retryRequest(options, retriesRemaining, responseHeaders);
+      }
+      const errText = await response.text().catch((e) => castToError2(e).message);
+      const errJSON = safeJSON2(errText);
+      const errMessage = errJSON ? void 0 : errText;
+      const retryMessage = retriesRemaining ? `(error; no more retries left)` : `(error; not retryable)`;
+      debug2(`response (error; ${retryMessage})`, response.status, url, responseHeaders, errMessage);
+      const err = this.makeStatusError(response.status, errJSON, errMessage, responseHeaders);
+      throw err;
+    }
+    return { response, options, controller };
+  }
+  requestAPIList(Page2, options) {
+    const request = this.makeRequest(options, null);
+    return new PagePromise2(this, request, Page2);
+  }
+  buildURL(path, query) {
+    const url = isAbsoluteURL2(path) ? new URL(path) : new URL(this.baseURL + (this.baseURL.endsWith("/") && path.startsWith("/") ? path.slice(1) : path));
+    const defaultQuery = this.defaultQuery();
+    if (!isEmptyObj2(defaultQuery)) {
+      query = { ...defaultQuery, ...query };
+    }
+    if (typeof query === "object" && query && !Array.isArray(query)) {
+      url.search = this.stringifyQuery(query);
+    }
+    return url.toString();
+  }
+  stringifyQuery(query) {
+    return Object.entries(query).filter(([_2, value]) => typeof value !== "undefined").map(([key, value]) => {
+      if (typeof value === "string" || typeof value === "number" || typeof value === "boolean") {
+        return `${encodeURIComponent(key)}=${encodeURIComponent(value)}`;
+      }
+      if (value === null) {
+        return `${encodeURIComponent(key)}=`;
+      }
+      throw new GroqError(`Cannot stringify type ${typeof value}; Expected string, number, boolean, or null. If you need to pass nested query parameters, you can manually encode them, e.g. { query: { 'foo[key1]': value1, 'foo[key2]': value2 } }, and please open a GitHub issue requesting better support for your use case.`);
+    }).join("&");
+  }
+  async fetchWithTimeout(url, init, ms, controller) {
+    const { signal, ...options } = init || {};
+    if (signal)
+      signal.addEventListener("abort", () => controller.abort());
+    const timeout = setTimeout(() => controller.abort(), ms);
+    return this.getRequestClient().fetch.call(void 0, url, { signal: controller.signal, ...options }).finally(() => {
+      clearTimeout(timeout);
+    });
+  }
+  getRequestClient() {
+    return { fetch: this.fetch };
+  }
+  shouldRetry(response) {
+    const shouldRetryHeader = response.headers.get("x-should-retry");
+    if (shouldRetryHeader === "true")
+      return true;
+    if (shouldRetryHeader === "false")
+      return false;
+    if (response.status === 408)
+      return true;
+    if (response.status === 409)
+      return true;
+    if (response.status === 429)
+      return true;
+    if (response.status >= 500)
+      return true;
+    return false;
+  }
+  async retryRequest(options, retriesRemaining, responseHeaders) {
+    var _a3;
+    let timeoutMillis;
+    const retryAfterMillisHeader = responseHeaders == null ? void 0 : responseHeaders["retry-after-ms"];
+    if (retryAfterMillisHeader) {
+      const timeoutMs = parseFloat(retryAfterMillisHeader);
+      if (!Number.isNaN(timeoutMs)) {
+        timeoutMillis = timeoutMs;
+      }
+    }
+    const retryAfterHeader = responseHeaders == null ? void 0 : responseHeaders["retry-after"];
+    if (retryAfterHeader && !timeoutMillis) {
+      const timeoutSeconds = parseFloat(retryAfterHeader);
+      if (!Number.isNaN(timeoutSeconds)) {
+        timeoutMillis = timeoutSeconds * 1e3;
+      } else {
+        timeoutMillis = Date.parse(retryAfterHeader) - Date.now();
+      }
+    }
+    if (!(timeoutMillis && 0 <= timeoutMillis && timeoutMillis < 60 * 1e3)) {
+      const maxRetries = (_a3 = options.maxRetries) != null ? _a3 : this.maxRetries;
+      timeoutMillis = this.calculateDefaultRetryTimeoutMillis(retriesRemaining, maxRetries);
+    }
+    await sleep2(timeoutMillis);
+    return this.makeRequest(options, retriesRemaining - 1);
+  }
+  calculateDefaultRetryTimeoutMillis(retriesRemaining, maxRetries) {
+    const initialRetryDelay = 0.5;
+    const maxRetryDelay = 8;
+    const numRetries = maxRetries - retriesRemaining;
+    const sleepSeconds = Math.min(initialRetryDelay * Math.pow(2, numRetries), maxRetryDelay);
+    const jitter = 1 - Math.random() * 0.25;
+    return sleepSeconds * jitter * 1e3;
+  }
+  getUserAgent() {
+    return `${this.constructor.name}/JS ${VERSION2}`;
+  }
+};
+var AbstractPage2 = class {
+  constructor(client, response, body, options) {
+    _AbstractPage_client2.set(this, void 0);
+    __classPrivateFieldSet4(this, _AbstractPage_client2, client, "f");
+    this.options = options;
+    this.response = response;
+    this.body = body;
+  }
+  hasNextPage() {
+    const items = this.getPaginatedItems();
+    if (!items.length)
+      return false;
+    return this.nextPageInfo() != null;
+  }
+  async getNextPage() {
+    const nextInfo = this.nextPageInfo();
+    if (!nextInfo) {
+      throw new GroqError("No next page expected; please check `.hasNextPage()` before calling `.getNextPage()`.");
+    }
+    const nextOptions = { ...this.options };
+    if ("params" in nextInfo && typeof nextOptions.query === "object") {
+      nextOptions.query = { ...nextOptions.query, ...nextInfo.params };
+    } else if ("url" in nextInfo) {
+      const params = [...Object.entries(nextOptions.query || {}), ...nextInfo.url.searchParams.entries()];
+      for (const [key, value] of params) {
+        nextInfo.url.searchParams.set(key, value);
+      }
+      nextOptions.query = void 0;
+      nextOptions.path = nextInfo.url.toString();
+    }
+    return await __classPrivateFieldGet4(this, _AbstractPage_client2, "f").requestAPIList(this.constructor, nextOptions);
+  }
+  async *iterPages() {
+    let page = this;
+    yield page;
+    while (page.hasNextPage()) {
+      page = await page.getNextPage();
+      yield page;
+    }
+  }
+  async *[(_AbstractPage_client2 = /* @__PURE__ */ new WeakMap(), Symbol.asyncIterator)]() {
+    for await (const page of this.iterPages()) {
+      for (const item of page.getPaginatedItems()) {
+        yield item;
+      }
+    }
+  }
+};
+var PagePromise2 = class extends APIPromise2 {
+  constructor(client, request, Page2) {
+    super(request, async (props) => new Page2(client, props.response, await defaultParseResponse2(props), props.options));
+  }
+  /**
+   * Allow auto-paginating iteration on an unawaited list call, eg:
+   *
+   *    for await (const item of client.items.list()) {
+   *      console.log(item)
+   *    }
+   */
+  async *[Symbol.asyncIterator]() {
+    const page = await this;
+    for await (const item of page) {
+      yield item;
+    }
+  }
+};
+var createResponseHeaders2 = (headers) => {
+  return new Proxy(Object.fromEntries(
+    // @ts-ignore
+    headers.entries()
+  ), {
+    get(target, name) {
+      const key = name.toString();
+      return target[key.toLowerCase()] || target[key];
+    }
+  });
+};
+var getPlatformProperties2 = () => {
+  var _a3, _b;
+  if (typeof Deno !== "undefined" && Deno.build != null) {
+    return {
+      "X-Stainless-Lang": "js",
+      "X-Stainless-Package-Version": VERSION2,
+      "X-Stainless-OS": normalizePlatform2(Deno.build.os),
+      "X-Stainless-Arch": normalizeArch2(Deno.build.arch),
+      "X-Stainless-Runtime": "deno",
+      "X-Stainless-Runtime-Version": typeof Deno.version === "string" ? Deno.version : (_b = (_a3 = Deno.version) == null ? void 0 : _a3.deno) != null ? _b : "unknown"
+    };
+  }
+  if (typeof EdgeRuntime !== "undefined") {
+    return {
+      "X-Stainless-Lang": "js",
+      "X-Stainless-Package-Version": VERSION2,
+      "X-Stainless-OS": "Unknown",
+      "X-Stainless-Arch": `other:${EdgeRuntime}`,
+      "X-Stainless-Runtime": "edge",
+      "X-Stainless-Runtime-Version": process.version
+    };
+  }
+  if (Object.prototype.toString.call(typeof process !== "undefined" ? process : 0) === "[object process]") {
+    return {
+      "X-Stainless-Lang": "js",
+      "X-Stainless-Package-Version": VERSION2,
+      "X-Stainless-OS": normalizePlatform2(process.platform),
+      "X-Stainless-Arch": normalizeArch2(process.arch),
+      "X-Stainless-Runtime": "node",
+      "X-Stainless-Runtime-Version": process.version
+    };
+  }
+  const browserInfo = getBrowserInfo2();
+  if (browserInfo) {
+    return {
+      "X-Stainless-Lang": "js",
+      "X-Stainless-Package-Version": VERSION2,
+      "X-Stainless-OS": "Unknown",
+      "X-Stainless-Arch": "unknown",
+      "X-Stainless-Runtime": `browser:${browserInfo.browser}`,
+      "X-Stainless-Runtime-Version": browserInfo.version
+    };
+  }
+  return {
+    "X-Stainless-Lang": "js",
+    "X-Stainless-Package-Version": VERSION2,
+    "X-Stainless-OS": "Unknown",
+    "X-Stainless-Arch": "unknown",
+    "X-Stainless-Runtime": "unknown",
+    "X-Stainless-Runtime-Version": "unknown"
+  };
+};
+function getBrowserInfo2() {
+  if (typeof navigator === "undefined" || !navigator) {
+    return null;
+  }
+  const browserPatterns = [
+    { key: "edge", pattern: /Edge(?:\W+(\d+)\.(\d+)(?:\.(\d+))?)?/ },
+    { key: "ie", pattern: /MSIE(?:\W+(\d+)\.(\d+)(?:\.(\d+))?)?/ },
+    { key: "ie", pattern: /Trident(?:.*rv\:(\d+)\.(\d+)(?:\.(\d+))?)?/ },
+    { key: "chrome", pattern: /Chrome(?:\W+(\d+)\.(\d+)(?:\.(\d+))?)?/ },
+    { key: "firefox", pattern: /Firefox(?:\W+(\d+)\.(\d+)(?:\.(\d+))?)?/ },
+    { key: "safari", pattern: /(?:Version\W+(\d+)\.(\d+)(?:\.(\d+))?)?(?:\W+Mobile\S*)?\W+Safari/ }
+  ];
+  for (const { key, pattern } of browserPatterns) {
+    const match = pattern.exec(navigator.userAgent);
+    if (match) {
+      const major = match[1] || 0;
+      const minor = match[2] || 0;
+      const patch = match[3] || 0;
+      return { browser: key, version: `${major}.${minor}.${patch}` };
+    }
+  }
+  return null;
+}
+var normalizeArch2 = (arch) => {
+  if (arch === "x32")
+    return "x32";
+  if (arch === "x86_64" || arch === "x64")
+    return "x64";
+  if (arch === "arm")
+    return "arm";
+  if (arch === "aarch64" || arch === "arm64")
+    return "arm64";
+  if (arch)
+    return `other:${arch}`;
+  return "unknown";
+};
+var normalizePlatform2 = (platform) => {
+  platform = platform.toLowerCase();
+  if (platform.includes("ios"))
+    return "iOS";
+  if (platform === "android")
+    return "Android";
+  if (platform === "darwin")
+    return "MacOS";
+  if (platform === "win32")
+    return "Windows";
+  if (platform === "freebsd")
+    return "FreeBSD";
+  if (platform === "openbsd")
+    return "OpenBSD";
+  if (platform === "linux")
+    return "Linux";
+  if (platform)
+    return `Other:${platform}`;
+  return "Unknown";
+};
+var _platformHeaders2;
+var getPlatformHeaders2 = () => {
+  return _platformHeaders2 != null ? _platformHeaders2 : _platformHeaders2 = getPlatformProperties2();
+};
+var safeJSON2 = (text) => {
+  try {
+    return JSON.parse(text);
+  } catch (err) {
+    return void 0;
+  }
+};
+var startsWithSchemeRegexp2 = new RegExp("^(?:[a-z]+:)?//", "i");
+var isAbsoluteURL2 = (url) => {
+  return startsWithSchemeRegexp2.test(url);
+};
+var sleep2 = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+var validatePositiveInteger2 = (name, n) => {
+  if (typeof n !== "number" || !Number.isInteger(n)) {
+    throw new GroqError(`${name} must be an integer`);
+  }
+  if (n < 0) {
+    throw new GroqError(`${name} must be a positive integer`);
+  }
+  return n;
+};
+var castToError2 = (err) => {
+  if (err instanceof Error)
+    return err;
+  return new Error(err);
+};
+var readEnv2 = (env) => {
+  var _a3, _b, _c, _d, _e, _f;
+  if (typeof process !== "undefined") {
+    return (_c = (_b = (_a3 = process.env) == null ? void 0 : _a3[env]) == null ? void 0 : _b.trim()) != null ? _c : void 0;
+  }
+  if (typeof Deno !== "undefined") {
+    return (_f = (_e = (_d = Deno.env) == null ? void 0 : _d.get) == null ? void 0 : _e.call(_d, env)) == null ? void 0 : _f.trim();
+  }
+  return void 0;
+};
+function isEmptyObj2(obj) {
+  if (!obj)
+    return true;
+  for (const _k in obj)
+    return false;
+  return true;
+}
+function hasOwn2(obj, key) {
+  return Object.prototype.hasOwnProperty.call(obj, key);
+}
+function applyHeadersMut(targetHeaders, newHeaders) {
+  for (const k2 in newHeaders) {
+    if (!hasOwn2(newHeaders, k2))
+      continue;
+    const lowerKey = k2.toLowerCase();
+    if (!lowerKey)
+      continue;
+    const val = newHeaders[k2];
+    if (val === null) {
+      delete targetHeaders[lowerKey];
+    } else if (val !== void 0) {
+      targetHeaders[lowerKey] = val;
+    }
+  }
+}
+function debug2(action, ...args) {
+  var _a3;
+  if (typeof process !== "undefined" && ((_a3 = process == null ? void 0 : process.env) == null ? void 0 : _a3["DEBUG"]) === "true") {
+    console.log(`Groq:DEBUG:${action}`, ...args);
+  }
+}
+var uuid42 = () => {
+  return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (c2) => {
+    const r2 = Math.random() * 16 | 0;
+    const v = c2 === "x" ? r2 : r2 & 3 | 8;
+    return v.toString(16);
+  });
+};
+var isRunningInBrowser2 = () => {
+  return (
+    // @ts-ignore
+    typeof window !== "undefined" && // @ts-ignore
+    typeof window.document !== "undefined" && // @ts-ignore
+    typeof navigator !== "undefined"
+  );
+};
+
+// node_modules/groq-sdk/resource.mjs
+var APIResource2 = class {
+  constructor(client) {
+    this._client = client;
+  }
+};
+
+// node_modules/groq-sdk/resources/audio/transcriptions.mjs
+var Transcriptions2 = class extends APIResource2 {
+  /**
+   * Transcribes audio into the input language.
+   */
+  create(body, options) {
+    return this._client.post("/openai/v1/audio/transcriptions", multipartFormRequestOptions2({ body, ...options }));
+  }
+};
+(function(Transcriptions3) {
+})(Transcriptions2 || (Transcriptions2 = {}));
+
+// node_modules/groq-sdk/resources/audio/translations.mjs
+var Translations2 = class extends APIResource2 {
+  /**
+   * Translates audio into English.
+   */
+  create(body, options) {
+    return this._client.post("/openai/v1/audio/translations", multipartFormRequestOptions2({ body, ...options }));
+  }
+};
+(function(Translations3) {
+})(Translations2 || (Translations2 = {}));
+
+// node_modules/groq-sdk/resources/audio/audio.mjs
+var Audio2 = class extends APIResource2 {
+  constructor() {
+    super(...arguments);
+    this.transcriptions = new Transcriptions2(this._client);
+    this.translations = new Translations2(this._client);
+  }
+};
+(function(Audio3) {
+  Audio3.Transcriptions = Transcriptions2;
+  Audio3.Translations = Translations2;
+})(Audio2 || (Audio2 = {}));
+
+// node_modules/groq-sdk/resources/chat/completions.mjs
+var Completions4 = class extends APIResource2 {
+  create(body, options) {
+    var _a3;
+    return this._client.post("/openai/v1/chat/completions", {
+      body,
+      ...options,
+      stream: (_a3 = body.stream) != null ? _a3 : false
+    });
+  }
+};
+(function(Completions6) {
+})(Completions4 || (Completions4 = {}));
+
+// node_modules/groq-sdk/resources/chat/chat.mjs
+var Chat3 = class extends APIResource2 {
+  constructor() {
+    super(...arguments);
+    this.completions = new Completions4(this._client);
+  }
+};
+(function(Chat4) {
+  Chat4.Completions = Completions4;
+})(Chat3 || (Chat3 = {}));
+
+// node_modules/groq-sdk/resources/completions.mjs
+var Completions5 = class extends APIResource2 {
+};
+(function(Completions6) {
+})(Completions5 || (Completions5 = {}));
+
+// node_modules/groq-sdk/resources/embeddings.mjs
+var Embeddings2 = class extends APIResource2 {
+  /**
+   * Creates an embedding vector representing the input text.
+   */
+  create(body, options) {
+    return this._client.post("/openai/v1/embeddings", { body, ...options });
+  }
+};
+(function(Embeddings3) {
+})(Embeddings2 || (Embeddings2 = {}));
+
+// node_modules/groq-sdk/resources/models.mjs
+var Models2 = class extends APIResource2 {
+  /**
+   * Get a specific model
+   */
+  retrieve(model, options) {
+    return this._client.get(`/openai/v1/models/${model}`, options);
+  }
+  /**
+   * get all available models
+   */
+  list(options) {
+    return this._client.get("/openai/v1/models", options);
+  }
+  /**
+   * Delete a model
+   */
+  delete(model, options) {
+    return this._client.delete(`/openai/v1/models/${model}`, options);
+  }
+};
+(function(Models3) {
+})(Models2 || (Models2 = {}));
+
+// node_modules/groq-sdk/index.mjs
+var _a2;
+var Groq = class extends APIClient2 {
+  /**
+   * API Client for interfacing with the Groq API.
+   *
+   * @param {string | undefined} [opts.apiKey=process.env['GROQ_API_KEY'] ?? undefined]
+   * @param {string} [opts.baseURL=process.env['GROQ_BASE_URL'] ?? https://api.groq.com] - Override the default base URL for the API.
+   * @param {number} [opts.timeout=1 minute] - The maximum amount of time (in milliseconds) the client will wait for a response before timing out.
+   * @param {number} [opts.httpAgent] - An HTTP agent used to manage HTTP(s) connections.
+   * @param {Core.Fetch} [opts.fetch] - Specify a custom `fetch` function implementation.
+   * @param {number} [opts.maxRetries=2] - The maximum number of times the client will retry a request.
+   * @param {Core.Headers} opts.defaultHeaders - Default headers to include with every request to the API.
+   * @param {Core.DefaultQuery} opts.defaultQuery - Default query parameters to include with every request to the API.
+   * @param {boolean} [opts.dangerouslyAllowBrowser=false] - By default, client-side use of this library is not allowed, as it risks exposing your secret API credentials to attackers.
+   */
+  constructor({ baseURL = readEnv2("GROQ_BASE_URL"), apiKey = readEnv2("GROQ_API_KEY"), ...opts } = {}) {
+    var _a3;
+    if (apiKey === void 0) {
+      throw new GroqError("The GROQ_API_KEY environment variable is missing or empty; either provide it, or instantiate the Groq client with an apiKey option, like new Groq({ apiKey: 'My API Key' }).");
+    }
+    const options = {
+      apiKey,
+      ...opts,
+      baseURL: baseURL || `https://api.groq.com`
+    };
+    if (!options.dangerouslyAllowBrowser && isRunningInBrowser2()) {
+      throw new GroqError("It looks like you're running in a browser-like environment.\n\nThis is disabled by default, as it risks exposing your secret API credentials to attackers.\nIf you understand the risks and have appropriate mitigations in place,\nyou can set the `dangerouslyAllowBrowser` option to `true`, e.g.,\n\nnew Groq({ apiKey, dangerouslyAllowBrowser: true })");
+    }
+    super({
+      baseURL: options.baseURL,
+      timeout: (_a3 = options.timeout) != null ? _a3 : 6e4,
+      httpAgent: options.httpAgent,
+      maxRetries: options.maxRetries,
+      fetch: options.fetch
+    });
+    this.completions = new Completions5(this);
+    this.chat = new Chat3(this);
+    this.embeddings = new Embeddings2(this);
+    this.audio = new Audio2(this);
+    this.models = new Models2(this);
+    this._options = options;
+    this.apiKey = apiKey;
+  }
+  defaultQuery() {
+    return this._options.defaultQuery;
+  }
+  defaultHeaders(opts) {
+    return {
+      ...super.defaultHeaders(opts),
+      ...this._options.defaultHeaders
+    };
+  }
+  authHeaders(opts) {
+    return { Authorization: `Bearer ${this.apiKey}` };
+  }
+};
+_a2 = Groq;
+Groq.Groq = _a2;
+Groq.GroqError = GroqError;
+Groq.APIError = APIError3;
+Groq.APIConnectionError = APIConnectionError3;
+Groq.APIConnectionTimeoutError = APIConnectionTimeoutError3;
+Groq.APIUserAbortError = APIUserAbortError3;
+Groq.NotFoundError = NotFoundError3;
+Groq.ConflictError = ConflictError3;
+Groq.RateLimitError = RateLimitError3;
+Groq.BadRequestError = BadRequestError3;
+Groq.AuthenticationError = AuthenticationError3;
+Groq.InternalServerError = InternalServerError3;
+Groq.PermissionDeniedError = PermissionDeniedError3;
+Groq.UnprocessableEntityError = UnprocessableEntityError3;
+Groq.toFile = toFile2;
+Groq.fileFromPath = fileFromPath2;
+var { GroqError: GroqError2, APIError: APIError4, APIConnectionError: APIConnectionError4, APIConnectionTimeoutError: APIConnectionTimeoutError4, APIUserAbortError: APIUserAbortError4, NotFoundError: NotFoundError4, ConflictError: ConflictError4, RateLimitError: RateLimitError4, BadRequestError: BadRequestError4, AuthenticationError: AuthenticationError4, InternalServerError: InternalServerError4, PermissionDeniedError: PermissionDeniedError4, UnprocessableEntityError: UnprocessableEntityError4 } = error_exports2;
+(function(Groq2) {
+  Groq2.Completions = Completions5;
+  Groq2.Chat = Chat3;
+  Groq2.Embeddings = Embeddings2;
+  Groq2.Audio = Audio2;
+  Groq2.Models = Models2;
+})(Groq || (Groq = {}));
+var groq_sdk_default = Groq;
+
+// src/complete/completers/groq/groq.tsx
+var GroqModel = class {
+  constructor(provider_settings, id, name, description) {
+    this.rate_limit_notice = null;
+    this.rate_limit_notice_timeout = null;
+    this.Settings = SettingsUI10;
+    this.id = id;
+    this.name = name;
+    this.description = description;
+    this.provider_settings = parse_settings9(provider_settings);
+    this.cancel_generations = [];
+    this.groq = new groq_sdk_default({
+      apiKey: this.provider_settings.api_key,
+      dangerouslyAllowBrowser: true
+    });
+  }
+  async prepare(prompt, settings) {
+    const cropped = {
+      prefix: prompt.prefix.slice(-(settings.prompt_length || 6e3)),
+      suffix: prompt.suffix.slice(0, settings.prompt_length || 6e3)
+    };
+    const last_line = cropped.prefix.split("\n").filter((x2) => x2.length > 0).pop();
+    return {
+      ...cropped,
+      last_line: last_line || "",
+      context: cropped.prefix.split("\n").filter((x2) => x2 !== last_line).join("\n")
+    };
+  }
+  formulate_system_message(settings) {
+    return settings.system_prompt.length ? [
+      {
+        role: "system",
+        content: settings.system_prompt
+      }
+    ] : [];
+  }
+  formulate_messages(prompt, settings) {
+    return this.formulate_system_message(settings).concat([
+      {
+        role: "user",
+        content: mustache_default.render(settings.user_prompt, {
+          ...prompt,
+          ...settings
+        })
+      }
+    ]);
+  }
+  async complete(prompt, settings) {
+    var _a3, _b;
+    const model_settings = parse_settings10(settings);
+    const chatCompletion = await this.groq.chat.completions.create({
+      messages: this.formulate_messages(
+        await this.prepare(prompt, model_settings),
+        model_settings
+      ),
+      model: this.id,
+      temperature: model_settings.temperature,
+      max_tokens: model_settings.max_tokens
+    });
+    return this.interpret(
+      prompt,
+      ((_b = (_a3 = chatCompletion.choices[0]) == null ? void 0 : _a3.message) == null ? void 0 : _b.content) || ""
+    );
+  }
+  async *iterate(prompt, settings) {
+    const model_settings = parse_settings10(settings);
+    const prompt_data = await this.prepare(
+      prompt,
+      parse_settings10(settings)
+    );
+    const chatCompletion = await this.groq.chat.completions.create({
+      messages: this.formulate_messages(prompt_data, model_settings),
+      model: this.id,
+      temperature: model_settings.temperature,
+      max_tokens: model_settings.max_tokens,
+      stream: true
+    });
+    let initialized = false;
+    let generated = "";
+    let started = false;
+    for await (const chunk of chatCompletion) {
+      let token = chunk.choices[0].delta.content || "";
+      generated += token;
+      if (prompt_data.last_line.includes(generated)) {
+        continue;
+      }
+      if (!started) {
+        for (let i = generated.length - 1; i >= 0; i--) {
+          if (prompt_data.last_line.endsWith(generated.slice(0, i))) {
+            token = generated.slice(i);
+            started = true;
+            break;
+          }
+        }
+      }
+      if (!token) {
+        continue;
+      }
+      if (!initialized) {
+        yield this.interpret(prompt, token);
+        initialized = true;
+      } else {
+        yield token;
+      }
+    }
+  }
+  interpret(prompt, completion) {
+    const response_punctuation = " \n.,?!:;";
+    const prompt_punctuation = " \n";
+    if (prompt.prefix.length !== 0 && !prompt_punctuation.includes(
+      prompt.prefix[prompt.prefix.length - 1]
+    ) && !response_punctuation.includes(completion[0])) {
+      completion = " " + completion;
+    }
+    return completion;
+  }
+};
+var GroqComplete = class {
+  constructor() {
+    this.id = "groq";
+    this.name = "Groq";
+    this.description = "Groq API, for ultra-fast generation";
+    this.Settings = SettingsUI9;
+  }
+  async get_models(settings) {
+    const provider_settings = parse_settings9(settings);
+    const groq = new groq_sdk_default({
+      apiKey: provider_settings.api_key,
+      dangerouslyAllowBrowser: true
+    });
+    const models = await groq.models.list();
+    return models.data.map((model) => {
+      return new GroqModel(
+        settings,
+        model.id,
+        `${model.owned_by} ${model.id}`,
+        `${model.owned_by} ${model.id}`
+      );
+    });
+  }
+};
+
 // src/complete/completers.ts
 var available = [
   new ChatGPTComplete(),
@@ -32537,7 +34311,8 @@ var available = [
   new JurassicJ2Complete(),
   new GooseAIComplete(),
   new OobaboogaComplete(),
-  new OllamaComplete()
+  new OllamaComplete(),
+  new GroqComplete()
 ];
 
 // src/settings/settings.tsx
@@ -32556,13 +34331,13 @@ function Presets({
     plugin.savePreset(name);
     setName("");
   };
-  return /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement(
+  return /* @__PURE__ */ React15.createElement(React15.Fragment, null, /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Presets",
       description: "\n				Quickly switch between different settings."
     }
-  ), /* @__PURE__ */ React13.createElement(React13.Fragment, null, plugin.settings.presets.map((preset) => /* @__PURE__ */ React13.createElement(SettingsItem, { key: preset.name, name: preset.name }, /* @__PURE__ */ React13.createElement(
+  ), /* @__PURE__ */ React15.createElement(React15.Fragment, null, plugin.settings.presets.map((preset) => /* @__PURE__ */ React15.createElement(SettingsItem, { key: preset.name, name: preset.name }, /* @__PURE__ */ React15.createElement(
     "div",
     {
       className: "checkbox-container" + (preset.enable_editor_command ? " is-enabled" : ""),
@@ -32573,7 +34348,7 @@ function Presets({
         reload_signal.reload = true;
       }
     }
-  ), "Command", /* @__PURE__ */ React13.createElement(
+  ), "Command", /* @__PURE__ */ React15.createElement(
     "button",
     {
       onClick: () => {
@@ -32583,7 +34358,7 @@ function Presets({
       }
     },
     "Load"
-  ), /* @__PURE__ */ React13.createElement(
+  ), /* @__PURE__ */ React15.createElement(
     "button",
     {
       onClick: () => {
@@ -32592,13 +34367,13 @@ function Presets({
       }
     },
     "Delete"
-  )))), /* @__PURE__ */ React13.createElement(
+  )))), /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Save preset",
       description: "Save the current settings as a preset"
     },
-    /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement(
       "input",
       {
         type: "text",
@@ -32607,14 +34382,14 @@ function Presets({
         onChange: (e) => setName(e.target.value)
       }
     ),
-    /* @__PURE__ */ React13.createElement("button", { onClick: savePreset }, "Save preset")
-  ), plugin.settings.presets.length ? /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement("button", { onClick: savePreset }, "Save preset")
+  ), plugin.settings.presets.length ? /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Fallback",
-      description: /* @__PURE__ */ React13.createElement(React13.Fragment, null, "You can use a preset as the fallback if the current model is not available, for example when you are rate limited.")
+      description: /* @__PURE__ */ React15.createElement(React15.Fragment, null, "You can use a preset as the fallback if the current model is not available, for example when you are rate limited.")
     },
-    /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement(
       "select",
       {
         className: "dropdown",
@@ -32625,8 +34400,8 @@ function Presets({
           setForceUpdate(force_update + 1);
         }
       },
-      /* @__PURE__ */ React13.createElement("option", { value: "" }, "Don't use a fallback"),
-      plugin.settings.presets.map((preset) => /* @__PURE__ */ React13.createElement("option", { value: preset.name }, preset.name))
+      /* @__PURE__ */ React15.createElement("option", { value: "" }, "Don't use a fallback"),
+      plugin.settings.presets.map((preset) => /* @__PURE__ */ React15.createElement("option", { value: preset.name }, preset.name))
     )
   ) : null);
 }
@@ -32642,24 +34417,24 @@ function ProviderModelChooser({
   const [model, _setModel] = (0, import_react5.useState)(null);
   const [modelSettings, _setModelSettings] = (0, import_react5.useState)(null);
   (0, import_react5.useEffect)(() => {
-    var _a2;
+    var _a3;
     const candidates = available.filter(
       (provider2) => provider2.id === plugin.settings.provider
     );
     _setProvider(candidates.length > 0 ? candidates[0] : available[0]);
     _setProviderSettings(
-      (_a2 = plugin.settings.provider_settings[plugin.settings.provider]) == null ? void 0 : _a2.settings
+      (_a3 = plugin.settings.provider_settings[plugin.settings.provider]) == null ? void 0 : _a3.settings
     );
   }, [plugin.settings.provider]);
   (0, import_react5.useEffect)(() => {
     const fetch_model = async () => {
-      var _a2, _b;
+      var _a3, _b;
       if (!provider)
         return;
       setAvailableModels([]);
       _setModel(null);
       const available_models2 = await provider.get_models(
-        (_a2 = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a2.settings
+        (_a3 = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a3.settings
       );
       setAvailableModels(available_models2);
       const candidates = available_models2.filter(
@@ -32676,48 +34451,48 @@ function ProviderModelChooser({
     fetch_model();
   }, [plugin.settings.model, provider, providerSettings]);
   const setProvider = (provider_id) => {
-    var _a2;
+    var _a3;
     _setProvider(
       available.filter((provider2) => provider2.id === provider_id)[0]
     );
     _setProviderSettings(
-      (_a2 = plugin.settings.provider_settings[provider_id]) == null ? void 0 : _a2.settings
+      (_a3 = plugin.settings.provider_settings[provider_id]) == null ? void 0 : _a3.settings
     );
     plugin.settings.provider = provider_id;
     plugin.saveData(plugin.settings);
   };
   const setProviderSettings = (settings) => {
-    var _a2;
+    var _a3;
     if (!provider)
       return;
     _setProviderSettings(settings);
     plugin.settings.provider_settings[provider.id] = {
       settings,
       models: {
-        ...(_a2 = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a2.models
+        ...(_a3 = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a3.models
       }
     };
     plugin.models = [];
     plugin.saveData(plugin.settings);
   };
   const setModel = (model_id) => {
-    var _a2;
+    var _a3;
     if (!provider)
       return;
     _setModel(available_models.filter((model2) => model2.id === model_id)[0]);
     plugin.settings.model = model_id;
     _setModelSettings(
-      (_a2 = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a2.models[model_id]
+      (_a3 = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a3.models[model_id]
     );
     plugin.saveData(plugin.settings);
   };
   const setModelSettings = (settings) => {
-    var _a2, _b;
+    var _a3, _b;
     if (!provider || !model)
       return;
     _setModelSettings(settings);
     plugin.settings.provider_settings[provider.id] = {
-      settings: (_a2 = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a2.settings,
+      settings: (_a3 = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _a3.settings,
       models: {
         ...(_b = plugin.settings.provider_settings[provider.id]) == null ? void 0 : _b.models,
         [model.id]: settings
@@ -32726,15 +34501,15 @@ function ProviderModelChooser({
     plugin.models = [];
     plugin.saveData(plugin.settings);
   };
-  const ProviderSettings3 = provider == null ? void 0 : provider.Settings;
-  const ModelSettings3 = model == null ? void 0 : model.Settings;
-  return /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement(
+  const ProviderSettings4 = provider == null ? void 0 : provider.Settings;
+  const ModelSettings4 = model == null ? void 0 : model.Settings;
+  return /* @__PURE__ */ React15.createElement(React15.Fragment, null, /* @__PURE__ */ React15.createElement(React15.Fragment, null, /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Provider",
       description: provider ? provider.description : ""
     },
-    /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement(
       "select",
       {
         className: "dropdown",
@@ -32743,21 +34518,21 @@ function ProviderModelChooser({
           setProvider(e.target.value);
         }
       },
-      available.map((provider2) => /* @__PURE__ */ React13.createElement("option", { value: provider2.id }, provider2.name))
+      available.map((provider2) => /* @__PURE__ */ React15.createElement("option", { value: provider2.id }, provider2.name))
     )
-  ), ProviderSettings3 && /* @__PURE__ */ React13.createElement(
-    ProviderSettings3,
+  ), ProviderSettings4 && /* @__PURE__ */ React15.createElement(
+    ProviderSettings4,
     {
       settings: providerSettings,
       saveSettings: setProviderSettings
     }
-  )), /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement(
+  )), /* @__PURE__ */ React15.createElement(React15.Fragment, null, /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Model",
       description: model ? model.description : ""
     },
-    /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement(
       "select",
       {
         className: "dropdown",
@@ -32766,15 +34541,15 @@ function ProviderModelChooser({
           setModel(e.target.value);
         }
       },
-      provider && available_models.map((model2) => /* @__PURE__ */ React13.createElement("option", { value: model2.id }, model2.name))
+      provider && available_models.map((model2) => /* @__PURE__ */ React15.createElement("option", { value: model2.id }, model2.name))
     )
-  ), ModelSettings3 && /* @__PURE__ */ React13.createElement(
-    ModelSettings3,
+  ), ModelSettings4 && /* @__PURE__ */ React15.createElement(
+    ModelSettings4,
     {
       settings: modelSettings,
       saveSettings: setModelSettings
     }
-  )), /* @__PURE__ */ React13.createElement(
+  )), /* @__PURE__ */ React15.createElement(
     Presets,
     {
       plugin,
@@ -32814,13 +34589,13 @@ function AcceptSettingsComponent({
     plugin.saveData(plugin.settings);
     reload_signal.reload = true;
   };
-  return /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement(
+  return /* @__PURE__ */ React15.createElement(React15.Fragment, null, /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Delay",
-      description: /* @__PURE__ */ React13.createElement(React13.Fragment, null, "The plugin will wait this long before getting a completion. The lower the delay, the faster the completions, but the more they cost.")
+      description: /* @__PURE__ */ React15.createElement(React15.Fragment, null, "The plugin will wait this long before getting a completion. The lower the delay, the faster the completions, but the more they cost.")
     },
-    /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement(
       "input",
       {
         type: "number",
@@ -32830,14 +34605,14 @@ function AcceptSettingsComponent({
         }
       }
     ),
-    /* @__PURE__ */ React13.createElement("span", null, "ms")
-  ), /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement("span", null, "ms")
+  ), /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Use a CodeMiror Keybind",
-      description: /* @__PURE__ */ React13.createElement(React13.Fragment, null, "Allows you to use simpler keybinds like ", /* @__PURE__ */ React13.createElement("code", null, "Tab"), " ", "but might not work with other plugins.")
+      description: /* @__PURE__ */ React15.createElement(React15.Fragment, null, "Allows you to use simpler keybinds like ", /* @__PURE__ */ React15.createElement("code", null, "Tab"), " ", "but might not work with other plugins.")
     },
-    /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement(
       "div",
       {
         className: "checkbox-container" + (keybind !== null ? " is-enabled" : ""),
@@ -32846,13 +34621,13 @@ function AcceptSettingsComponent({
         }
       }
     )
-  ), keybind === null ? null : /* @__PURE__ */ React13.createElement(
+  ), keybind === null ? null : /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "CodeMiror Keybind",
-      description: /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement("a", { href: "https://codemirror.net/docs/ref/#h_key_bindings" }, "Keybind format"))
+      description: /* @__PURE__ */ React15.createElement(React15.Fragment, null, /* @__PURE__ */ React15.createElement("a", { href: "https://codemirror.net/docs/ref/#h_key_bindings" }, "Keybind format"))
     },
-    /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement(
       "input",
       {
         type: "text",
@@ -32862,13 +34637,13 @@ function AcceptSettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React13.createElement(
+  ), /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Accept",
-      description: /* @__PURE__ */ React13.createElement("div", { style: { minWidth: "max-content" } }, /* @__PURE__ */ React13.createElement("div", null, "These are presets."), /* @__PURE__ */ React13.createElement("div", { onClick: () => setExpanded(!expanded) }, expanded ? "\u25BE" : "\u25B8", " Advanced controls"))
+      description: /* @__PURE__ */ React15.createElement("div", { style: { minWidth: "max-content" } }, /* @__PURE__ */ React15.createElement("div", null, "These are presets."), /* @__PURE__ */ React15.createElement("div", { onClick: () => setExpanded(!expanded) }, expanded ? "\u25BE" : "\u25B8", " Advanced controls"))
     },
-    /* @__PURE__ */ React13.createElement("div", { className: "ai-complete-accept-presets" }, /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement("div", { className: "ai-complete-accept-presets" }, /* @__PURE__ */ React15.createElement(
       "button",
       {
         onClick: () => setAcceptSettings({
@@ -32881,7 +34656,7 @@ function AcceptSettingsComponent({
         })
       },
       "One word at a time"
-    ), /* @__PURE__ */ React13.createElement(
+    ), /* @__PURE__ */ React15.createElement(
       "button",
       {
         onClick: () => setAcceptSettings({
@@ -32894,7 +34669,7 @@ function AcceptSettingsComponent({
         })
       },
       "One sentence at a time"
-    ), /* @__PURE__ */ React13.createElement(
+    ), /* @__PURE__ */ React15.createElement(
       "button",
       {
         onClick: () => setAcceptSettings({
@@ -32907,7 +34682,7 @@ function AcceptSettingsComponent({
         })
       },
       "One line at a time"
-    ), /* @__PURE__ */ React13.createElement(
+    ), /* @__PURE__ */ React15.createElement(
       "button",
       {
         onClick: () => setAcceptSettings({
@@ -32921,13 +34696,13 @@ function AcceptSettingsComponent({
       },
       "Whole completion"
     ))
-  ), expanded && /* @__PURE__ */ React13.createElement("div", { className: "ai-complete-advanced-settings" }, /* @__PURE__ */ React13.createElement(
+  ), expanded && /* @__PURE__ */ React15.createElement("div", { className: "ai-complete-advanced-settings" }, /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Splitter regex",
       description: "Defines how to split the completion chunks;\n						only one chunk is accepted at a time when the completion is triggered"
     },
-    /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement(
       "input",
       {
         type: "text",
@@ -32940,13 +34715,13 @@ function AcceptSettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React13.createElement(
+  ), /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Preview splitter regex",
       description: "Defines how to split the preview chunks;\n						only one chunk is displayed at a time when the completion is triggered"
     },
-    /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement(
       "input",
       {
         type: "text",
@@ -32959,13 +34734,13 @@ function AcceptSettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React13.createElement(
+  ), /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Completion completeness regex",
       description: "If this is not matched, the last chunk\n						(according to the preview splitter regex) is discarded"
     },
-    /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement(
       "input",
       {
         type: "text",
@@ -32978,13 +34753,13 @@ function AcceptSettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React13.createElement(
+  ), /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Minimum completion length",
       description: "Will complete the fewest chunks\n						that add up to more than this many characters"
     },
-    /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement(
       "input",
       {
         type: "number",
@@ -32997,13 +34772,13 @@ function AcceptSettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React13.createElement(
+  ), /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Minimum display length",
       description: "Will display the fewest preview chunks\n						that add up to more than this many characters"
     },
-    /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement(
       "input",
       {
         type: "number",
@@ -33018,13 +34793,13 @@ function AcceptSettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React13.createElement(
+  ), /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Retrigger threshold",
       description: "When this many characters is left,\n						the API will be pinged again"
     },
-    /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement(
       "input",
       {
         type: "number",
@@ -33049,13 +34824,13 @@ function SettingsComponent({
     plugin.settings.enable_by_default
   );
   const [streaming_mode, setStreamingMode] = (0, import_react5.useState)(plugin.settings.stream);
-  return /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement(
+  return /* @__PURE__ */ React15.createElement(React15.Fragment, null, /* @__PURE__ */ React15.createElement(React15.Fragment, null, /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Enable by default",
-      description: /* @__PURE__ */ React13.createElement(React13.Fragment, null, "If the plugin isn't enabled by default, use Ctrl+P and search for Toggle Completion. You can also add a shortcut to it")
+      description: /* @__PURE__ */ React15.createElement(React15.Fragment, null, "If the plugin isn't enabled by default, use Ctrl+P and search for Toggle Completion. You can also add a shortcut to it")
     },
-    /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement(
       "div",
       {
         className: "checkbox-container" + (enable_by_default ? " is-enabled" : ""),
@@ -33066,13 +34841,13 @@ function SettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React13.createElement(
+  ), /* @__PURE__ */ React15.createElement(
     SettingsItem,
     {
       name: "Streaming mode (experimental)",
-      description: /* @__PURE__ */ React13.createElement(React13.Fragment, null, "When enabled, the completion will be updated as it comes in, instead of waiting for the whole completion to be ready. This is useful for completions that take a long time to generate, but may produce buggy results in some cases.")
+      description: /* @__PURE__ */ React15.createElement(React15.Fragment, null, "When enabled, the completion will be updated as it comes in, instead of waiting for the whole completion to be ready. This is useful for completions that take a long time to generate, but may produce buggy results in some cases.")
     },
-    /* @__PURE__ */ React13.createElement(
+    /* @__PURE__ */ React15.createElement(
       "div",
       {
         className: "checkbox-container" + (streaming_mode ? " is-enabled" : ""),
@@ -33083,13 +34858,13 @@ function SettingsComponent({
         }
       }
     )
-  ), /* @__PURE__ */ React13.createElement(
+  ), /* @__PURE__ */ React15.createElement(
     AcceptSettingsComponent,
     {
       plugin,
       reload_signal
     }
-  )), /* @__PURE__ */ React13.createElement(
+  )), /* @__PURE__ */ React15.createElement(
     ProviderModelChooser,
     {
       plugin,
@@ -33194,11 +34969,11 @@ var CompletionCacher = class {
     await this.fetch_blockwise(prompt);
   }
   async fetch_iteratively(prompt) {
-    var _a2, _b;
+    var _a3, _b;
     if (!this.model.iterate) {
       return;
     }
-    const queue = (_b = (_a2 = this.get_cached_queue(prompt)) == null ? void 0 : _a2[1]) != null ? _b : this.cache.set(prompt, new ExhaustableConsumable()).get(prompt);
+    const queue = (_b = (_a3 = this.get_cached_queue(prompt)) == null ? void 0 : _a3[1]) != null ? _b : this.cache.set(prompt, new ExhaustableConsumable()).get(prompt);
     if (!queue.exhausted)
       return;
     queue.reset();
@@ -33214,8 +34989,8 @@ var CompletionCacher = class {
     queue.exhaust();
   }
   async fetch_blockwise(prompt) {
-    var _a2, _b;
-    const queue = (_b = (_a2 = this.get_cached_queue(prompt)) == null ? void 0 : _a2[1]) != null ? _b : this.cache.set(prompt, new ExhaustableConsumable()).get(prompt);
+    var _a3, _b;
+    const queue = (_b = (_a3 = this.get_cached_queue(prompt)) == null ? void 0 : _a3[1]) != null ? _b : this.cache.set(prompt, new ExhaustableConsumable()).get(prompt);
     if (!queue.exhausted)
       return;
     queue.reset();
@@ -33239,8 +35014,8 @@ var CompletionCacher = class {
     this.fetch(prompt, stream);
   }
   async *complete(prompt, stream = true) {
-    var _a2;
-    const [starting_prompt, queue] = (_a2 = this.get_cached_queue(prompt)) != null ? _a2 : [
+    var _a3;
+    const [starting_prompt, queue] = (_a3 = this.get_cached_queue(prompt)) != null ? _a3 : [
       prompt,
       this.cache.set(prompt, new ExhaustableConsumable(true)).get(prompt)
     ];
@@ -33481,13 +35256,13 @@ var Companion = class extends import_obsidian4.Plugin {
     await this.saveData(this.settings);
   }
   async *triggerCompletion() {
-    var _a2, _b, _c, _d;
+    var _a3, _b, _c, _d;
     const view = this.app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
     if (!view)
       return;
     if (!this.enabled)
       return;
-    if (((_d = (_c = (_b = (_a2 = view.editor) == null ? void 0 : _a2.cm) == null ? void 0 : _b.cm) == null ? void 0 : _c.state) == null ? void 0 : _d.keyMap) === "vim") {
+    if (((_d = (_c = (_b = (_a3 = view.editor) == null ? void 0 : _a3.cm) == null ? void 0 : _b.cm) == null ? void 0 : _c.state) == null ? void 0 : _d.keyMap) === "vim") {
       return;
     }
     const cursor = view.editor.getCursor();
@@ -33507,8 +35282,8 @@ var Companion = class extends import_obsidian4.Plugin {
     yield* this.complete(prefix, suffix);
   }
   async acceptCompletion(editor) {
-    var _a2;
-    const suggestion = (_a2 = this.last_used_model) == null ? void 0 : _a2.last_suggestion;
+    var _a3;
+    const suggestion = (_a3 = this.last_used_model) == null ? void 0 : _a3.last_suggestion;
     if (suggestion) {
       editor.replaceRange(suggestion, editor.getCursor());
       editor.setCursor({
@@ -33552,8 +35327,8 @@ var Companion = class extends import_obsidian4.Plugin {
     return cached;
   }
   async load_model(model) {
-    var _a2, _b, _c, _d, _e, _f;
-    if (((_a2 = this.last_used_model) == null ? void 0 : _a2.model.id) === model.model.id)
+    var _a3, _b, _c, _d, _e, _f;
+    if (((_a3 = this.last_used_model) == null ? void 0 : _a3.model.id) === model.model.id)
       return;
     await ((_d = (_c = (_b = this.last_used_model) == null ? void 0 : _b.model) == null ? void 0 : _c.unload) == null ? void 0 : _d.call(_c));
     await ((_f = (_e = model == null ? void 0 : model.model) == null ? void 0 : _e.load) == null ? void 0 : _f.call(_e));

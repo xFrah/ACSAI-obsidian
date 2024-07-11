@@ -8,7 +8,7 @@ A joint distribution is like uniting the distributions of the two random variabl
 
 ![](../z_images/prob1.png)
 
-- But if the two distributions are correlated, that is if the random variables affect each other, then the probabilities of the joint distribution follows the rules of [conditional probability](../Probability/Conditional%20Probability.md).
+- But if the two distributions are correlated, that is if the random variables affect each other, then the probabilities of the joint distribution follows the rules of [conditional probability](../Probability%202/Conditional%20Probability.md).
 
 ![](../z_images/prob2.png)
 
