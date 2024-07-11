@@ -4,7 +4,7 @@ This technique is used as a discriminative classifier.
 > Discriminative means we model $p(y|x)$ what is the probability for the label $prob(Y=y)$ given $x$?
 
 
-We model the [conditional probability](../Probability%202/Conditional%20Probability.md) of $y\, | \,x$:
+We model the [conditional probability](../Probability/Conditional%20Probability.md) of $y\, | \,x$:
 
 $$\large\begin{cases}p(y=1\,| \,\mathbf{x};\boldsymbol{\theta}) = f_{\boldsymbol{\theta}}\\p(y=0\,|\, \mathbf{x};\boldsymbol{\theta}) = 1- f_{\boldsymbol{\theta}}\end{cases}$$
 
@@ -52,7 +52,7 @@ $$\large p(y\mid\mathbf{x};\boldsymbol{\theta}) = \big(f_{\boldsymbol{\theta}}\b
 
 > [!note]
 > 
-> In the case of [linear regression](Linear%20Regression.md), the [conditional probability](../Probability%202/Conditional%20Probability.md) of $y$ was:
+> In the case of [linear regression](Linear%20Regression.md), the [conditional probability](../Probability/Conditional%20Probability.md) of $y$ was:
 > 
 > $$\large p\left(y_i \mid x_i ; \theta\right)=\frac{1}{\sqrt{2 \pi} \sigma}^{\Huge-\frac{\left(y_i-\theta^{T} x_i\right)^{2}}{2 \sigma^{2}}}$$
 > 

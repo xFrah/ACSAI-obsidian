@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4afe2927420d0b65",
+        "id": "a7ab59316751e3e7",
         "type": "tabs",
         "children": [
           {
-            "id": "c23d08c9c781d9c3",
+            "id": "aa2083f5fc9e6851",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Probability 2/Law of total probability.md",
+                "file": "NOTES-MARKDOWN/Probability/Law of total probability.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Probability 2/Law of total probability.md",
+                "file": "NOTES-MARKDOWN/Probability/Law of total probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Probability 2/Law of total probability.md",
+                "file": "NOTES-MARKDOWN/Probability/Law of total probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Probability 2/Law of total probability.md"
+                "file": "NOTES-MARKDOWN/Probability/Law of total probability.md"
               }
             }
           },
@@ -160,33 +160,33 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c23d08c9c781d9c3",
+  "active": "aa2083f5fc9e6851",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/z_images/Pasted image 20240711181120.png",
-    "NOTES-MARKDOWN/Probability 2/Conditional Probability.md",
-    "NOTES-MARKDOWN/Probability 2/Law of total probability.md",
-    "NOTES-MARKDOWN/Probability 2/Independence.md",
-    "NOTES-MARKDOWN/Probability/Introduction to Probability.md",
+    "NOTES-MARKDOWN/Probability/Conditional Probability.md",
+    "NOTES-MARKDOWN/Probability/Law of total probability.md",
     "NOTES-MARKDOWN/Probability/Probability distribution.md",
+    "NOTES-MARKDOWN/Probability/Introduction to Probability.md",
+    "NOTES-MARKDOWN/Multicore/Performance Evaluation.md",
+    "NOTES-MARKDOWN/Multicore/MPI.md",
+    "NOTES-MARKDOWN/Multicore/Pthread.md",
+    "NOTES-MARKDOWN/Multicore/OpenMP.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240711181120.png",
+    "NOTES-MARKDOWN/Probability/Independence.md",
     "NOTES-MARKDOWN/Probability/Event.md",
-    "NOTES-MARKDOWN/Probability 2/Equally likely outcomes.md",
-    "NOTES-MARKDOWN/Probability 2/Introduction.md",
-    "NOTES-MARKDOWN/Probability 2/Multiplication rule.md",
-    "NOTES-MARKDOWN/Probability 2/Permutations.md",
-    "NOTES-MARKDOWN/Probability 2/Subsets.md",
+    "NOTES-MARKDOWN/Probability/Equally likely outcomes.md",
+    "NOTES-MARKDOWN/Probability/Introduction.md",
+    "NOTES-MARKDOWN/Probability/Multiplication rule.md",
+    "NOTES-MARKDOWN/Probability/Permutations.md",
+    "NOTES-MARKDOWN/Probability/Subsets.md",
     "NOTES-MARKDOWN/Probability/Bernoulli distribution.md",
     "NOTES-MARKDOWN/Probability 2/Conditional probability.md",
-    "NOTES-MARKDOWN/Probability 2/Probability measures.md",
+    "NOTES-MARKDOWN/Probability/Probability measures.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240710165523.png",
     "NOTES-MARKDOWN/Probability 2/Combinatorial analysis.md",
     "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
-    "NOTES-MARKDOWN/Probability 2",
+    "NOTES-MARKDOWN/Probability",
     "NOTES-MARKDOWN/Probability/Random variable.md",
     "NOTES-MARKDOWN/Probability/Introduction.md",
-    "NOTES-MARKDOWN/Multicore/Pthread.md",
-    "NOTES-MARKDOWN/Multicore/OpenMP.md",
-    "NOTES-MARKDOWN/Multicore/Performance Evaluation.md",
-    "NOTES-MARKDOWN/Multicore/MPI.md",
     "NOTES-MARKDOWN/Multicore/CUDA.md",
     "NOTES-MARKDOWN/Multicore",
     "NOTES-MARKDOWN/Linear Algebra/Inverse of a Matrix.md",
@@ -207,7 +207,6 @@
     "NOTES-MARKDOWN/z_images/Pasted image 20240613113920.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240613113904.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240612181307.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240612112614.png",
     "Machine Learning/Untitled.canvas"
   ]
 }
