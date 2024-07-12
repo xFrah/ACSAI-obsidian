@@ -7,7 +7,7 @@ We have to learn the transition probabilities and reward functions by ourselves.
 
 So we learn an empirical MDP model:
 	
-- **Discover probabilities**: Each time we do an action, we count the outcome in the [probability distribution](../Probability/Probability%20distribution.md) $P(s'|s, a)$.
+- **Discover probabilities**: Each time we do an action, we count the outcome in the [probability distribution](../Probability/Probability%20distributions.md) $P(s'|s, a)$.
 	
 > [!hint]
 > $P(s'|s, a)$ = (probability of $s'$ given state $s$ and action $a$)

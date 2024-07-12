@@ -1,3 +1,7 @@
+---
+aliases:
+  - probability distribution
+---
 A probability distribution is a function that <font color="#b2a2c7">describes the likelihood or probability of different possible outcomes</font> in a random event or experiment. 
 <font color="#b2a2c7">It maps each possible outcome to its probability</font>, such that the sum of the probabilities of all possible outcomes is equal to 1.
 

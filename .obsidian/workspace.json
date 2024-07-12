@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Probability/Law of total probability.md",
+                "file": "NOTES-MARKDOWN/Probability/Binomial distribution.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "894b9b8b65d6d4e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Probability/Subsets.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Probability/Law of total probability.md",
+                "file": "NOTES-MARKDOWN/Probability/Binomial distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Probability/Law of total probability.md",
+                "file": "NOTES-MARKDOWN/Probability/Binomial distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Probability/Law of total probability.md"
+                "file": "NOTES-MARKDOWN/Probability/Binomial distribution.md"
               }
             }
           },
@@ -142,7 +156,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -162,9 +177,15 @@
   },
   "active": "aa2083f5fc9e6851",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Probability/Conditional Probability.md",
+    "NOTES-MARKDOWN/Probability/Subsets.md",
+    "NOTES-MARKDOWN/Probability/Binomial distribution.md",
+    "NOTES-MARKDOWN/Probability/Bernoulli distribution.md",
+    "NOTES-MARKDOWN/Probability/Probability distributions.md",
+    "NOTES-MARKDOWN/Probability/Bayes' theorem.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240712121859.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240712121727.png",
     "NOTES-MARKDOWN/Probability/Law of total probability.md",
-    "NOTES-MARKDOWN/Probability/Probability distribution.md",
+    "NOTES-MARKDOWN/Probability/Conditional Probability.md",
     "NOTES-MARKDOWN/Probability/Introduction to Probability.md",
     "NOTES-MARKDOWN/Multicore/Performance Evaluation.md",
     "NOTES-MARKDOWN/Multicore/MPI.md",
@@ -177,8 +198,6 @@
     "NOTES-MARKDOWN/Probability/Introduction.md",
     "NOTES-MARKDOWN/Probability/Multiplication rule.md",
     "NOTES-MARKDOWN/Probability/Permutations.md",
-    "NOTES-MARKDOWN/Probability/Subsets.md",
-    "NOTES-MARKDOWN/Probability/Bernoulli distribution.md",
     "NOTES-MARKDOWN/Probability 2/Conditional probability.md",
     "NOTES-MARKDOWN/Probability/Probability measures.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240710165523.png",
@@ -190,7 +209,6 @@
     "NOTES-MARKDOWN/Multicore/CUDA.md",
     "NOTES-MARKDOWN/Multicore",
     "NOTES-MARKDOWN/Linear Algebra/Inverse of a Matrix.md",
-    "NOTES-MARKDOWN/Linear Algebra/Linear Combination.md",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).html",
     "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.html",
     "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.html",
@@ -205,8 +223,6 @@
     "NOTES-MARKDOWN/z_images/Pasted image 20240613114403.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240613114055.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240613113920.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240613113904.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240612181307.png",
     "Machine Learning/Untitled.canvas"
   ]
 }

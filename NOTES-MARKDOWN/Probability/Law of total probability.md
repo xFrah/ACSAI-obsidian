@@ -22,3 +22,8 @@ $$\large \mathbb{P}(A) = \sum_i{\mathbb{P}(A\cap B_i)}$$
 > $$\large \mathbb{P}(<6_{ft})=\mathbb{P}(<6_{ft}\cap \text{male})+\mathbb{P}(<6_{ft}\cap \text{female})$$
 > $$\large \mathbb{P}(<6_{ft})=\mathbb{P}(<6_{ft}|\text{male})\mathbb{P}(\text{male})+\mathbb{P}(<6_{ft}|\text{female})\mathbb{P}(\text{female})$$
 > $$\large\mathbb{P}(<6_{ft})=0.4\cdot0.4+0.9\cdot0.6$$
+
+---
+
+> [!info] Sources
+> https://www.youtube.com/watch?v=U3_783xznQI

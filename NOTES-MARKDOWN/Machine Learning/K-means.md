@@ -125,7 +125,7 @@ But how do we actually sample from a set of distances?
 
 ## Inverse transform sampling
 
-1. We turn the set D of distances into a [probability distribution](../Probability/Probability%20distribution.md)(the probability mass function).
+1. We turn the set D of distances into a [probability distribution](../Probability/Probability%20distributions.md)(the probability mass function).
 	$$\large p(d_i)= \frac{d_i}{\sum{D}}$$
 	
 ```ad-seealso
