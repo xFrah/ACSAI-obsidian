@@ -10,6 +10,15 @@ The value of p is a real number in the interval [0, 1] and stands for the proba
 
 $$\large f_X(x) = \begin{cases} p & \text{if }x=1, \\[6pt]1-p & \text {if }x=0.\end{cases}$$
 
+> [!example]
+> A coin toss usually has distribution:
+> $$\large f_X(x) = \begin{cases} 0.5 & \text{if }x=\text{head}, \\[6pt]0.5 & \text {if }x=\text{tail}.\end{cases}$$
+> 
+> 
+> 
+> If the coin is biased and has 70% probability of giving heads, then:
+> $$\large f_X(x) = \begin{cases} 0.7 & \text{if }x=\text{head}, \\[6pt]0.3 & \text {if }x=\text{tail}.\end{cases}$$
+
 ---
 
 ## Mean

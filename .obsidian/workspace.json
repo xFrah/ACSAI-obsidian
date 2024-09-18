@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aa2083f5fc9e6851",
+            "id": "894b9b8b65d6d4e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "894b9b8b65d6d4e1",
+            "id": "573fec5953ad1dc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -175,40 +174,40 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aa2083f5fc9e6851",
+  "active": "894b9b8b65d6d4e1",
   "lastOpenFiles": [
     "NOTES-MARKDOWN/Probability/Subsets.md",
     "NOTES-MARKDOWN/Probability/Binomial distribution.md",
     "NOTES-MARKDOWN/Probability/Bernoulli distribution.md",
     "NOTES-MARKDOWN/Probability/Probability distributions.md",
+    "NOTES-MARKDOWN/Probability/Law of total probability.md",
+    "NOTES-MARKDOWN/Probability/Equally likely outcomes.md",
+    "NOTES-MARKDOWN/Probability/Multiplication rule.md",
+    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Negational Normal Form.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Logical Equivalences.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Heuristics.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/CNF.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Agents.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/A-star.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Environments.md",
+    "NOTES-MARKDOWN/Probability/Geometric distribution.md",
     "NOTES-MARKDOWN/Probability/Bayes' theorem.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240712121859.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240712121727.png",
-    "NOTES-MARKDOWN/Probability/Law of total probability.md",
     "NOTES-MARKDOWN/Probability/Conditional Probability.md",
     "NOTES-MARKDOWN/Probability/Introduction to Probability.md",
     "NOTES-MARKDOWN/Multicore/Performance Evaluation.md",
-    "NOTES-MARKDOWN/Multicore/MPI.md",
-    "NOTES-MARKDOWN/Multicore/Pthread.md",
-    "NOTES-MARKDOWN/Multicore/OpenMP.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240711181120.png",
-    "NOTES-MARKDOWN/Probability/Independence.md",
-    "NOTES-MARKDOWN/Probability/Event.md",
-    "NOTES-MARKDOWN/Probability/Equally likely outcomes.md",
-    "NOTES-MARKDOWN/Probability/Introduction.md",
-    "NOTES-MARKDOWN/Probability/Multiplication rule.md",
-    "NOTES-MARKDOWN/Probability/Permutations.md",
-    "NOTES-MARKDOWN/Probability 2/Conditional probability.md",
-    "NOTES-MARKDOWN/Probability/Probability measures.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240710165523.png",
-    "NOTES-MARKDOWN/Probability 2/Combinatorial analysis.md",
-    "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
     "NOTES-MARKDOWN/Probability",
-    "NOTES-MARKDOWN/Probability/Random variable.md",
-    "NOTES-MARKDOWN/Probability/Introduction.md",
-    "NOTES-MARKDOWN/Multicore/CUDA.md",
     "NOTES-MARKDOWN/Multicore",
-    "NOTES-MARKDOWN/Linear Algebra/Inverse of a Matrix.md",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).html",
     "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.html",
     "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.html",

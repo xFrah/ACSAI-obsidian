@@ -21,7 +21,7 @@
   "deleteOldFiles": true,
   "addThemeToggle": true,
   "addOutline": true,
-  "addFileNav": true,
+  "addFileNav": false,
   "addSearchBar": false,
   "addGraphView": false,
   "addTitle": true,
@@ -29,7 +29,7 @@
   "siteURL": "",
   "authorName": "",
   "vaultTitle": "Obsidian Vault",
-  "exportPreset": "documents",
+  "exportPreset": "raw-documents",
   "openAfterExport": true,
   "graphAttractionForce": 1,
   "graphLinkLength": 10,
@@ -46,16 +46,7 @@
   "exportPath": "C:\\\\Users\\fdimo\\Documents\\Obsidian Vault",
   "filesToExport": [
     [
-      "NOTES-MARKDOWN/AI-LAB",
-      "NOTES-MARKDOWN/Artificial Intelligence",
-      "NOTES-MARKDOWN/Calculus",
-      "NOTES-MARKDOWN/Foundation of Computer Science",
-      "NOTES-MARKDOWN/Guides to the exams",
-      "NOTES-MARKDOWN/Human Computer Interaction",
-      "NOTES-MARKDOWN/Linear Algebra",
-      "NOTES-MARKDOWN/Machine Learning",
-      "NOTES-MARKDOWN/Probability",
-      "NOTES-MARKDOWN/Statistics"
+      "NOTES-MARKDOWN/Artificial Intelligence"
     ]
   ],
   "inlineCSS": true,
