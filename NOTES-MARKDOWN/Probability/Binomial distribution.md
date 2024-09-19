@@ -22,4 +22,26 @@ Where:
 >   
 >   Basically 3 combinations out of 8 give us the exact number of heads.
 
-- #### Fuck this shit, WIP
+- $p^k$ is the probability of winning $k$ times
+
+> [!example]
+> By multiplication rule, in this case its:
+> $$\large \mathbb{P}(H) \cdot \mathbb{P}(H) \cdot \mathbb{P}(H)= p^3$$
+
+- $(1-p)^{n - k}$ is the probability of losing the remaining trials, since we did $k$ out of $n$ trials.
+
+> [!example]
+> By multiplication rule, in this case its:
+> $$\large \mathbb{P}(T)\cdot\mathbb{P}(T)=(1-p)^2$$
+
+> [!hint] wtf?
+> Basically, in order:
+> - First, we get the **number of ways** in which **this scenario happens**.
+> - Second, we get the **probability of this happening**:
+> 	- $p^k$ is the part where we get the probability of the $k$ wins;
+> 	- $(1-p)^{n-k}$ is the part where we get the rest of the probability.
+
+> [!faq]
+> You may ask yourself: **aren't all the scenarios equally likely?**
+> In my examples, yes. But what if heads has probability 0.7?
+> Then the scenario in which we get all tails is far less likely.
