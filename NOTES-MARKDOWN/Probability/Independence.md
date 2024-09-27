@@ -1,4 +1,4 @@
-Events A and B are indipenden if at least one of these conditions is true:
+Events A and B are indipendent if at least one of these conditions is true:
 
 - $\large P(A\cap B) = P(A) × P(B)$
 - $\large P(A\,|\,B) = P(A)$

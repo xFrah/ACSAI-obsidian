@@ -24,6 +24,7 @@
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
     "iconsInLinksEnabled": true,
-    "debugMode": false
+    "debugMode": false,
+    "lucideIconPackType": "native"
   }
 }

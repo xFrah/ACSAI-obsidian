@@ -1,5 +1,0 @@
----
-aliases:
-  - probability measure
----
-### WIP

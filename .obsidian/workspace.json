@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Probability/Binomial distribution.md",
+                "file": "NOTES-MARKDOWN/Probability/Subsets.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,14 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Probability/Subsets.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/Probability Exam - DONE.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Probability/Binomial distribution.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/Probability Exam - DONE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Probability/Binomial distribution.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/Probability Exam - DONE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Probability/Binomial distribution.md"
+                "file": "NOTES-MARKDOWN/Guides to the exams/Probability Exam - DONE.md"
               }
             }
           },
@@ -171,41 +172,48 @@
       "switcher:Open quick switcher": false,
       "random-note:Open random note": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "894b9b8b65d6d4e1",
+  "active": "3fbe08ad2a0b5f0f",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Probability/Poisson distribution.md",
     "NOTES-MARKDOWN/Probability/Subsets.md",
+    "NOTES-MARKDOWN/Probability/Introduction.md",
+    "NOTES-MARKDOWN/Probability/Independence.md",
+    "NOTES-MARKDOWN/Probability/Multiplication rule.md",
+    "NOTES-MARKDOWN/Probability/Random variable.md",
+    "NOTES-MARKDOWN/Probability/Bayes' theorem.md",
     "NOTES-MARKDOWN/Probability/Binomial distribution.md",
     "NOTES-MARKDOWN/Probability/Bernoulli distribution.md",
-    "NOTES-MARKDOWN/Probability/Probability distributions.md",
-    "NOTES-MARKDOWN/Probability/Law of total probability.md",
-    "NOTES-MARKDOWN/Probability/Equally likely outcomes.md",
-    "NOTES-MARKDOWN/Probability/Multiplication rule.md",
-    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Negational Normal Form.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Logical Equivalences.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Heuristics.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/CNF.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Agents.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Adversarial Search.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/A-star.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Environments.md",
+    "NOTES-MARKDOWN/Probability/Conditional Probability.md",
     "NOTES-MARKDOWN/Probability/Geometric distribution.md",
-    "NOTES-MARKDOWN/Probability/Bayes' theorem.md",
+    "NOTES-MARKDOWN/Probability/Permutations.md",
+    "NOTES-MARKDOWN/Guides to the exams/Probability Exam - DONE.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240923125746.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240923125434.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240923125221.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240923125206.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240923125117.png",
+    "NOTES-MARKDOWN/Machine Learning/Mahalanobis distance.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240923124028.png",
+    "NOTES-MARKDOWN/Linear Algebra/Basis.md",
+    "NOTES-MARKDOWN/Guides to the exams/Probability.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
+    "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.md",
+    "NOTES-MARKDOWN/Guides to the exams/Cybersecurity Exam - DONE.md",
+    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
+    "NOTES-MARKDOWN/Guides to the exams/Machine Learning Exam - DONE.md",
+    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.md",
+    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
+    "NOTES-MARKDOWN/Linear Algebra/Systems of Linear Equations.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240923110037.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240921211638.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240712121859.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240712121727.png",
-    "NOTES-MARKDOWN/Probability/Conditional Probability.md",
-    "NOTES-MARKDOWN/Probability/Introduction to Probability.md",
-    "NOTES-MARKDOWN/Multicore/Performance Evaluation.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240711181120.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240710165523.png",
     "NOTES-MARKDOWN/Probability",
     "NOTES-MARKDOWN/Multicore",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).html",
@@ -216,12 +224,6 @@
     "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.html",
     "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.html",
     "NOTES-MARKDOWN/Artificial Intelligence/Negational Normal Form.html",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240613174245.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240613174241.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240613173017.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240613114403.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240613114055.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240613113920.png",
     "Machine Learning/Untitled.canvas"
   ]
 }
