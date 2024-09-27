@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -178,6 +179,10 @@
   },
   "active": "573fec5953ad1dc9",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/z_images/Pasted image 20240927120343.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240927120243.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240927115053.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240927112947.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240927105153.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240927103602.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240927103543.png",
@@ -203,10 +208,7 @@
     "NOTES-MARKDOWN/z_images/Pasted image 20240923125746.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240923125434.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240923125221.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240923125206.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240923125117.png",
     "NOTES-MARKDOWN/Machine Learning/Mahalanobis distance.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240923124028.png",
     "NOTES-MARKDOWN/Linear Algebra/Basis.md",
     "NOTES-MARKDOWN/Guides to the exams/Probability.md",
     "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
@@ -216,7 +218,6 @@
     "NOTES-MARKDOWN/Guides to the exams/Cybersecurity Exam - DONE.md",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
     "NOTES-MARKDOWN/Guides to the exams/Machine Learning Exam - DONE.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240923110037.png",
     "NOTES-MARKDOWN/Probability",
     "NOTES-MARKDOWN/Multicore",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).html",
