@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Probability Exam - DONE.md",
+                "file": "NOTES-MARKDOWN/Calculus 2/Probably garbage/Functions with several variables.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Probability Exam - DONE.md",
+                "file": "NOTES-MARKDOWN/Calculus 2/Probably garbage/Functions with several variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Probability Exam - DONE.md",
+                "file": "NOTES-MARKDOWN/Calculus 2/Probably garbage/Functions with several variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Probability Exam - DONE.md"
+                "file": "NOTES-MARKDOWN/Calculus 2/Probably garbage/Functions with several variables.md"
               }
             }
           },
@@ -176,8 +176,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3fbe08ad2a0b5f0f",
+  "active": "573fec5953ad1dc9",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/z_images/Pasted image 20240927105153.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240927103602.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240927103543.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20240927102839.png",
+    "NOTES-MARKDOWN/Calculus 2/Probably garbage",
+    "Untitled",
+    "Calculus 2.md",
+    "NOTES-MARKDOWN/Calculus 2/Probably garbage/Functions with several variables.md",
+    "NOTES-MARKDOWN/Calculus 2",
+    "NOTES-MARKDOWN/Guides to the exams/Probability Exam - DONE.md",
     "NOTES-MARKDOWN/Probability/Poisson distribution.md",
     "NOTES-MARKDOWN/Probability/Subsets.md",
     "NOTES-MARKDOWN/Probability/Introduction.md",
@@ -190,7 +200,6 @@
     "NOTES-MARKDOWN/Probability/Conditional Probability.md",
     "NOTES-MARKDOWN/Probability/Geometric distribution.md",
     "NOTES-MARKDOWN/Probability/Permutations.md",
-    "NOTES-MARKDOWN/Guides to the exams/Probability Exam - DONE.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240923125746.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240923125434.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240923125221.png",
@@ -207,13 +216,7 @@
     "NOTES-MARKDOWN/Guides to the exams/Cybersecurity Exam - DONE.md",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
     "NOTES-MARKDOWN/Guides to the exams/Machine Learning Exam - DONE.md",
-    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.md",
-    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
-    "NOTES-MARKDOWN/Linear Algebra/Systems of Linear Equations.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20240923110037.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240921211638.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240712121859.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240712121727.png",
     "NOTES-MARKDOWN/Probability",
     "NOTES-MARKDOWN/Multicore",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).html",
@@ -221,9 +224,6 @@
     "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.html",
     "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.html",
     "NOTES-MARKDOWN/Foundation of Computer Science/Automata.html",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.html",
-    "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.html",
-    "NOTES-MARKDOWN/Artificial Intelligence/Negational Normal Form.html",
     "Machine Learning/Untitled.canvas"
   ]
 }
