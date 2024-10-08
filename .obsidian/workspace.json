@@ -8,33 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "894b9b8b65d6d4e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Probability/Subsets.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "573fec5953ad1dc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus 2/Probably garbage/Functions with several variables.md",
+                "file": "NOTES-MARKDOWN/Calculus/Cartesian coordinates.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus 2/Probably garbage/Functions with several variables.md",
+                "file": "NOTES-MARKDOWN/Calculus/Cartesian coordinates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus 2/Probably garbage/Functions with several variables.md",
+                "file": "NOTES-MARKDOWN/Calculus/Cartesian coordinates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -141,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus 2/Probably garbage/Functions with several variables.md"
+                "file": "NOTES-MARKDOWN/Calculus/Cartesian coordinates.md"
               }
             }
           },
@@ -179,52 +165,52 @@
   },
   "active": "573fec5953ad1dc9",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Calculus/Inequalities and Intervals.md",
+    "NOTES-MARKDOWN/Linear Algebra/Dot product.md",
+    "NOTES-MARKDOWN/Linear Algebra/Vectors.md",
+    "NOTES-MARKDOWN/Calculus/Cartesian coordinates.md",
+    "NOTES-MARKDOWN/Multicore/MPI.md",
+    "NOTES-MARKDOWN/Calculus/Untitled.md",
+    "NOTES-MARKDOWN/Multicore/Performance Evaluation.md",
+    "NOTES-MARKDOWN/Multicore/Pthread.md",
+    "NOTES-MARKDOWN/Physics - not good/2) Circular motion in 2D.md",
+    "NOTES-MARKDOWN/Physics - not good/1) Bullet motion.md",
+    "NOTES-MARKDOWN/Patente/Sostituzione pneumatico.md",
+    "NOTES-MARKDOWN/Patente/Luci.md",
+    "NOTES-MARKDOWN/Patente/Controlli periodici.md",
+    "NOTES-MARKDOWN/Patente/Controlli appena saliti.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
+    "NOTES-MARKDOWN/Foundations of Computer Science/Regular languages.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+    "NOTES-MARKDOWN/Calculus/Partial derivatives.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241008092926.png",
+    "NOTES-MARKDOWN/Calculus 2/Probably garbage/Functions with several variables.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241008091605.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241008090316.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241008090136.png",
+    "NOTES-MARKDOWN/z_images/20241008_084917 1.jpg",
+    "NOTES-MARKDOWN/z_images/20241008_084917.jpg",
+    "NOTES-MARKDOWN/Foundations of Computer Science",
     "NOTES-MARKDOWN/z_images/Pasted image 20240927120343.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240927120243.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240927115053.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240927112947.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240927105153.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240927103602.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240927103543.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240927102839.png",
     "NOTES-MARKDOWN/Calculus 2/Probably garbage",
     "Untitled",
     "Calculus 2.md",
-    "NOTES-MARKDOWN/Calculus 2/Probably garbage/Functions with several variables.md",
     "NOTES-MARKDOWN/Calculus 2",
     "NOTES-MARKDOWN/Guides to the exams/Probability Exam - DONE.md",
     "NOTES-MARKDOWN/Probability/Poisson distribution.md",
     "NOTES-MARKDOWN/Probability/Subsets.md",
     "NOTES-MARKDOWN/Probability/Introduction.md",
-    "NOTES-MARKDOWN/Probability/Independence.md",
-    "NOTES-MARKDOWN/Probability/Multiplication rule.md",
-    "NOTES-MARKDOWN/Probability/Random variable.md",
-    "NOTES-MARKDOWN/Probability/Bayes' theorem.md",
-    "NOTES-MARKDOWN/Probability/Binomial distribution.md",
-    "NOTES-MARKDOWN/Probability/Bernoulli distribution.md",
-    "NOTES-MARKDOWN/Probability/Conditional Probability.md",
-    "NOTES-MARKDOWN/Probability/Geometric distribution.md",
-    "NOTES-MARKDOWN/Probability/Permutations.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240923125746.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240923125434.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240923125221.png",
-    "NOTES-MARKDOWN/Machine Learning/Mahalanobis distance.md",
-    "NOTES-MARKDOWN/Linear Algebra/Basis.md",
-    "NOTES-MARKDOWN/Guides to the exams/Probability.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
-    "NOTES-MARKDOWN/Guides to the exams/Deep Learning Exam.md",
-    "NOTES-MARKDOWN/Guides to the exams/Cybersecurity Exam - DONE.md",
-    "NOTES-MARKDOWN/Guides to the exams/AI Exam.md",
-    "NOTES-MARKDOWN/Guides to the exams/Machine Learning Exam - DONE.md",
     "NOTES-MARKDOWN/Probability",
     "NOTES-MARKDOWN/Multicore",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).html",
     "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.html",
     "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.html",
     "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.html",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Automata.html",
     "Machine Learning/Untitled.canvas"
   ]
 }
