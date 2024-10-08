@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus/Cartesian coordinates.md",
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus/Cartesian coordinates.md",
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus/Cartesian coordinates.md",
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus/Cartesian coordinates.md"
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md"
               }
             }
           },
@@ -165,10 +164,12 @@
   },
   "active": "573fec5953ad1dc9",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md",
+    "NOTES-MARKDOWN/Calculus/Cartesian coordinates.md",
     "NOTES-MARKDOWN/Calculus/Inequalities and Intervals.md",
     "NOTES-MARKDOWN/Linear Algebra/Dot product.md",
     "NOTES-MARKDOWN/Linear Algebra/Vectors.md",
-    "NOTES-MARKDOWN/Calculus/Cartesian coordinates.md",
     "NOTES-MARKDOWN/Multicore/MPI.md",
     "NOTES-MARKDOWN/Calculus/Untitled.md",
     "NOTES-MARKDOWN/Multicore/Performance Evaluation.md",
@@ -179,10 +180,8 @@
     "NOTES-MARKDOWN/Patente/Luci.md",
     "NOTES-MARKDOWN/Patente/Controlli periodici.md",
     "NOTES-MARKDOWN/Patente/Controlli appena saliti.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
     "NOTES-MARKDOWN/Foundations of Computer Science/Regular languages.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
     "NOTES-MARKDOWN/Calculus/Partial derivatives.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20241008092926.png",

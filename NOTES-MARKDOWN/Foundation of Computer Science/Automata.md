@@ -2,7 +2,7 @@
 aliases:
   - Automaton
 ---
-Finite automata are models for computesr with a finite amount of memory, because the memory are the states.
+Finite automata are models for computers with a finite amount of memory, because the memory are the states.
 
 A finite automaton is a 5 tuple (set of states, alphabet, transition function($Q \times \Sigma \rightarrow Q$), start state, set of accepted final states)
 
