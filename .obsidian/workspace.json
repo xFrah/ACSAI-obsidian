@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+                "file": "NOTES-MARKDOWN/Calculus/Exponentials and Logarithms.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+                "file": "NOTES-MARKDOWN/Calculus/Exponentials and Logarithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+                "file": "NOTES-MARKDOWN/Calculus/Exponentials and Logarithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md"
+                "file": "NOTES-MARKDOWN/Calculus/Exponentials and Logarithms.md"
               }
             }
           },
@@ -164,28 +164,35 @@
   },
   "active": "573fec5953ad1dc9",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md",
+    "NOTES-MARKDOWN/Calculus/Powers.md",
+    "NOTES-MARKDOWN/Calculus/Exponentials and Logarithms.md",
+    "NOTES-MARKDOWN/Multicore/MPI.md",
+    "NOTES-MARKDOWN/Machine Learning/Covariance matrix.md",
+    "NOTES-MARKDOWN/Multicore/Performance Evaluation.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Logical Equivalences.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
+    "NOTES-MARKDOWN/AI-LAB/Convolution.md",
+    "NOTES-MARKDOWN/AI-LAB/Contour detection.md",
+    "NOTES-MARKDOWN/AI-LAB/Kernel.md",
+    "NOTES-MARKDOWN/Calculus/Modulus of real numbers.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
+    "NOTES-MARKDOWN/Calculus/Linear systems.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241009093343.png",
+    "NOTES-MARKDOWN/z_images/20241009_091513.jpg",
     "NOTES-MARKDOWN/Calculus/Cartesian coordinates.md",
     "NOTES-MARKDOWN/Calculus/Inequalities and Intervals.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md",
     "NOTES-MARKDOWN/Linear Algebra/Dot product.md",
     "NOTES-MARKDOWN/Linear Algebra/Vectors.md",
-    "NOTES-MARKDOWN/Multicore/MPI.md",
-    "NOTES-MARKDOWN/Calculus/Untitled.md",
-    "NOTES-MARKDOWN/Multicore/Performance Evaluation.md",
     "NOTES-MARKDOWN/Multicore/Pthread.md",
     "NOTES-MARKDOWN/Physics - not good/2) Circular motion in 2D.md",
     "NOTES-MARKDOWN/Physics - not good/1) Bullet motion.md",
-    "NOTES-MARKDOWN/Patente/Sostituzione pneumatico.md",
-    "NOTES-MARKDOWN/Patente/Luci.md",
-    "NOTES-MARKDOWN/Patente/Controlli periodici.md",
-    "NOTES-MARKDOWN/Patente/Controlli appena saliti.md",
-    "NOTES-MARKDOWN/Foundations of Computer Science/Regular languages.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
-    "NOTES-MARKDOWN/Calculus/Partial derivatives.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20241008092926.png",
-    "NOTES-MARKDOWN/Calculus 2/Probably garbage/Functions with several variables.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20241008091605.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20241008090316.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20241008090136.png",
@@ -194,16 +201,9 @@
     "NOTES-MARKDOWN/Foundations of Computer Science",
     "NOTES-MARKDOWN/z_images/Pasted image 20240927120343.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20240927120243.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240927115053.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20240927112947.png",
     "NOTES-MARKDOWN/Calculus 2/Probably garbage",
     "Untitled",
-    "Calculus 2.md",
     "NOTES-MARKDOWN/Calculus 2",
-    "NOTES-MARKDOWN/Guides to the exams/Probability Exam - DONE.md",
-    "NOTES-MARKDOWN/Probability/Poisson distribution.md",
-    "NOTES-MARKDOWN/Probability/Subsets.md",
-    "NOTES-MARKDOWN/Probability/Introduction.md",
     "NOTES-MARKDOWN/Probability",
     "NOTES-MARKDOWN/Multicore",
     "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).html",
