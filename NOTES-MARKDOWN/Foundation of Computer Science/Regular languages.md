@@ -8,7 +8,7 @@ A language L is said regular if there exists a finite automaton that accepts L.
 > The language of all binary strings that contain the string $001$ as a substring is regular?
 > We must find an automaton that accepts it.
 > 
-> So we must seek the patter of two zeros followed by a 1.
+> So we must seek the pattern of two zeros followed by a 1.
 > 
 >  1. Haven't just seen any symbols of the pattern
 >  2. Have just seen a 0
@@ -16,7 +16,6 @@ A language L is said regular if there exists a finite automaton that accepts L.
 >  4. Have seen all 001
 
 ---
-
 
 ## Closure properties
 
@@ -42,7 +41,6 @@ But we need to prove this.
 > A language accepted by an automata is a set of strings accepted by the automata.
 
 ---
-
 
 ## Closure proofs
 
@@ -94,7 +92,6 @@ We create a general automaton and show that it recognizes the resulting language
 ![](../z_images/Pasted%20image%2020230927124701.png)
 
 ---
-
 
 ## Other minor operations
 
