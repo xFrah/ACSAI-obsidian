@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 3.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/De Morgan's Theorem.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 3.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/De Morgan's Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 3.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/De Morgan's Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 3.md"
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/De Morgan's Theorem.md"
               }
             }
           },
@@ -164,10 +164,19 @@
   },
   "active": "573fec5953ad1dc9",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/z_images/Pasted image 20241022123848.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241029104807.png",
+    "NOTES-MARKDOWN/Calculus/Limits.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/De Morgan's Theorem.md",
+    "NOTES-MARKDOWN/Computer Architecture 1",
+    "NOTES-MARKDOWN/Calculus/Exponentials and Logarithms.md",
+    "NOTES-MARKDOWN/Calculus/Inequalities and Intervals.md",
+    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 3.md",
     "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
     "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.md",
-    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 3.md",
+    "NOTES-MARKDOWN/Guides to the exams/DMA2 Oral Exam - DONE.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241022193150.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241022193133.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241022123848.png",
     "NOTES-MARKDOWN/Linear Algebra/Matrix operations.md",
     "NOTES-MARKDOWN/Linear Algebra/Transformations.md",
     "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
@@ -177,7 +186,6 @@
     "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
     "NOTES-MARKDOWN/Calculus/Powers.md",
     "NOTES-MARKDOWN/Calculus/Linear systems.md",
-    "NOTES-MARKDOWN/Calculus/Exponentials and Logarithms.md",
     "NOTES-MARKDOWN/Multicore/MPI.md",
     "NOTES-MARKDOWN/Machine Learning/Covariance matrix.md",
     "NOTES-MARKDOWN/Multicore/Performance Evaluation.md",
@@ -188,18 +196,11 @@
     "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
     "NOTES-MARKDOWN/AI-LAB/Convolution.md",
     "NOTES-MARKDOWN/AI-LAB/Contour detection.md",
-    "NOTES-MARKDOWN/AI-LAB/Kernel.md",
-    "NOTES-MARKDOWN/Calculus/Modulus of real numbers.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20241009093343.png",
     "NOTES-MARKDOWN/z_images/20241009_091513.jpg",
-    "NOTES-MARKDOWN/Calculus/Cartesian coordinates.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20241008092926.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20241008091605.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20241008090316.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20241008090136.png",
-    "NOTES-MARKDOWN/z_images/20241008_084917 1.jpg",
-    "NOTES-MARKDOWN/z_images/20241008_084917.jpg",
     "NOTES-MARKDOWN/Foundations of Computer Science",
     "NOTES-MARKDOWN/Calculus 2/Probably garbage",
     "Untitled",
@@ -209,7 +210,6 @@
     "NOTES-MARKDOWN/Guides to the exams/AI Exam (OLD).html",
     "NOTES-MARKDOWN/Foundation of Computer Science/The Halting Problem.html",
     "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.html",
-    "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.html",
     "Machine Learning/Untitled.canvas"
   ]
 }
