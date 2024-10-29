@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/De Morgan's Theorem.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/PLA.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/De Morgan's Theorem.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/PLA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/De Morgan's Theorem.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/PLA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/De Morgan's Theorem.md"
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/PLA.md"
               }
             }
           },
@@ -164,9 +164,11 @@
   },
   "active": "573fec5953ad1dc9",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/z_images/20241029_114819.jpg",
+    "NOTES-MARKDOWN/Computer Architecture 1/De Morgan's Theorem.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/PLA.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20241029104807.png",
     "NOTES-MARKDOWN/Calculus/Limits.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/De Morgan's Theorem.md",
     "NOTES-MARKDOWN/Computer Architecture 1",
     "NOTES-MARKDOWN/Calculus/Exponentials and Logarithms.md",
     "NOTES-MARKDOWN/Calculus/Inequalities and Intervals.md",
@@ -195,12 +197,10 @@
     "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
     "NOTES-MARKDOWN/AI-LAB/Convolution.md",
-    "NOTES-MARKDOWN/AI-LAB/Contour detection.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20241009093343.png",
     "NOTES-MARKDOWN/z_images/20241009_091513.jpg",
     "NOTES-MARKDOWN/z_images/Pasted image 20241008092926.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20241008091605.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20241008090316.png",
     "NOTES-MARKDOWN/Foundations of Computer Science",
     "NOTES-MARKDOWN/Calculus 2/Probably garbage",
     "Untitled",
