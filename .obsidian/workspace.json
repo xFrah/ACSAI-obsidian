@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/Priority circuit.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/Deep Learning theory.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04598edf4fda1198",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Guides to the exams/Deep Learning exercises.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c20d76053861ba5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Machine Learning/Neural Networks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/Priority circuit.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/Deep Learning exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/Priority circuit.md",
+                "file": "NOTES-MARKDOWN/Guides to the exams/Deep Learning exercises.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/Priority circuit.md"
+                "file": "NOTES-MARKDOWN/Guides to the exams/Deep Learning exercises.md"
               }
             }
           },
@@ -162,45 +189,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "573fec5953ad1dc9",
+  "active": "04598edf4fda1198",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Computer Architecture 1/Minimal form.md",
+    "NOTES-MARKDOWN/Machine Learning/Neural Networks.md",
+    "NOTES-MARKDOWN/Guides to the exams/Deep Learning exercises.md",
+    "NOTES-MARKDOWN/z_images/Untitled.png",
+    "NOTES-MARKDOWN/Guides to the exams/Deep Learning theory.md",
+    "NOTES-MARKDOWN/Guides to the exams/Machine Learning Exam - DONE.md",
+    "NOTES-MARKDOWN/Guides to the exams/AI Exam - DONE.md",
+    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 3 - DONE.md",
+    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2 - DONE.md",
+    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam - DONE.md",
+    "NOTES-MARKDOWN/Machine Learning/Impurity functions.md",
+    "NOTES-MARKDOWN/Machine Learning/Information Gain.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241106092813.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241106092741.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241106092723.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241106092721.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241106092700.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241106092537.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241106092503.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241106092438.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241106092424.png",
     "NOTES-MARKDOWN/Computer Architecture 1/Priority circuit.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/Minimal form.md",
     "NOTES-MARKDOWN/Computer Architecture 1/PLA.md",
-    "NOTES-MARKDOWN/z_images/20241029_114819.jpg",
     "NOTES-MARKDOWN/Computer Architecture 1/De Morgan's Theorem.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20241029104807.png",
     "NOTES-MARKDOWN/Calculus/Limits.md",
     "NOTES-MARKDOWN/Computer Architecture 1",
     "NOTES-MARKDOWN/Calculus/Exponentials and Logarithms.md",
     "NOTES-MARKDOWN/Calculus/Inequalities and Intervals.md",
-    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 3.md",
-    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam.md",
-    "NOTES-MARKDOWN/Guides to the exams/Linear Algebra Exam 2.md",
     "NOTES-MARKDOWN/Guides to the exams/DMA2 Oral Exam - DONE.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20241022193150.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20241022193133.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20241022123848.png",
     "NOTES-MARKDOWN/Linear Algebra/Matrix operations.md",
     "NOTES-MARKDOWN/Linear Algebra/Transformations.md",
     "NOTES-MARKDOWN/Linear Algebra/Determinant.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Automata.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20241011114809.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20241011114755.png",
     "NOTES-MARKDOWN/Foundation of Computer Science/Regular languages.md",
     "NOTES-MARKDOWN/Calculus/Powers.md",
     "NOTES-MARKDOWN/Calculus/Linear systems.md",
     "NOTES-MARKDOWN/Multicore/MPI.md",
-    "NOTES-MARKDOWN/Machine Learning/Covariance matrix.md",
-    "NOTES-MARKDOWN/Multicore/Performance Evaluation.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Logical Equivalences.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20241009093343.png",
-    "NOTES-MARKDOWN/z_images/20241009_091513.jpg",
-    "NOTES-MARKDOWN/z_images/Pasted image 20241008092926.png",
     "NOTES-MARKDOWN/Foundations of Computer Science",
     "NOTES-MARKDOWN/Calculus 2/Probably garbage",
     "Untitled",

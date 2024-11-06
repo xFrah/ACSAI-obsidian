@@ -85,8 +85,3 @@ We just make a sliding window on a text and we label as 1 the words that appear 
 #### The actual training [WIP]
 
 ![](../z_images/Pasted%20image%2020240205122552.png)
-
----
-
-## Backpropagation algorithm
-
