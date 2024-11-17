@@ -67,3 +67,8 @@ Think of the **union as a sum** and the **concatenation as a product**.
 > ![](../z_images/Pasted%20image%2020241108105941.png)
 
 
+---
+
+## Equivalence with NFA
+
+### WIP
