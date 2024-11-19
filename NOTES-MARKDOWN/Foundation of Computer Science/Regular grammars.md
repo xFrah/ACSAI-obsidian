@@ -28,3 +28,42 @@ When we want to describe a syntax, we can use generative grammars, which make us
 > - **1 9 0 **(**DIGIT**)
 > - **1 9 0 3**
 
+> [!note] Previous example but formally
+> ![](../z_images/Pasted%20image%2020241118110359.png)
+> ![](../z_images/Pasted%20image%2020241118110415.png)
+
+---
+
+## Right-Linear vs Left-Linear grammars
+
+There are two different ways of recursively generating a language or entity:
+
+- By recursively appending on the right (**right-linear**)
+- By recursively appending on the left (**left-linear**)
+
+> [!example]
+> The regular language $0(10)^*$ can be generated in two ways:
+> - We **start from the left** with $0$ and then check recursively for $10$'s
+>   
+> 	![](../z_images/Pasted%20image%2020241119113011.png)
+> 
+> - We **start from the right** by checking recursively for either $10$ or $0$.
+>   
+>   ![](../z_images/Pasted%20image%2020241119113150.png)
+>   
+> With the right-linear grammar:
+> - Start from **S**
+> - Check for **0**
+> - Start recursion for finding a sequence of **10**'s, if we find a **10** continue the recursion.
+>   
+> With the left-linear grammar:
+> - We start from **S**
+> - We check for either **10** or **0** recursively.
+> - If we find a a **10**, continue the recursion.
+
+---
+
+
+## Regularity theorems
+
+### WIP Slide 4 p. 9

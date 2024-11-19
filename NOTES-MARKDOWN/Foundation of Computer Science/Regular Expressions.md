@@ -71,4 +71,4 @@ Think of the **union as a sum** and the **concatenation as a product**.
 
 ## Equivalence with NFA
 
-### WIP
+### WIP Slide 3 p. 7

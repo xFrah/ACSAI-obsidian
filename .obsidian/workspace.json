@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Pumping Lemma.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Pumping Lemma"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -140,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Pumping Lemma.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Pumping Lemma"
             }
           },
           {
@@ -182,6 +183,22 @@
   },
   "active": "573fec5953ad1dc9",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/z_images/Pasted image 20241119125349.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241119125341.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241119125243.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241119124707.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241119124641.png",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Regular Languages.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Regular grammars.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Alphabets.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Pumping Lemma.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Regular Expressions.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241119113150.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241119113011.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241118110415.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241118110359.png",
+    "NOTES-MARKDOWN/Calculus 2/Probably garbage/Functions with several variables.md",
+    "README.md",
     "NOTES-MARKDOWN/Statistics/Z-score.md",
     "NOTES-MARKDOWN/Statistics/Z-score.html",
     "NOTES-MARKDOWN/Statistics/Variance.html",
@@ -210,24 +227,8 @@
     "NOTES-MARKDOWN/Statistics/Covariance.md",
     "NOTES-MARKDOWN/Statistics/Correlation coefficient.md",
     "NOTES-MARKDOWN/Statistics/Confidence interval.md",
-    "NOTES-MARKDOWN/Statistics/Box plot.md",
-    "NOTES-MARKDOWN/Statistics/Association.md",
-    "NOTES-MARKDOWN/Statistics/Advanced Regression.md",
-    "NOTES-MARKDOWN/Probability/Subsets.md",
-    "NOTES-MARKDOWN/Probability/Random variable.md",
-    "NOTES-MARKDOWN/Probability/Probability distributions.md",
-    "NOTES-MARKDOWN/Probability/Poisson distribution.md",
-    "NOTES-MARKDOWN/Probability/Permutations.md",
     "NOTES-HTML/z_images/walter-white-fuck-you-walt-fuck-you.gif",
     "NOTES-HTML/z_images/Untitled.png",
-    "NOTES-HTML/z_images/prob2.png",
-    "NOTES-HTML/z_images/samplingproportion.gif",
-    "NOTES-HTML/z_images/prob1.png",
-    "NOTES-HTML/z_images/Pasted image 20241117160130.png",
-    "NOTES-HTML/z_images/Pasted image 20241117160114.png",
-    "NOTES-HTML/z_images/Pasted image 20241108105941.png",
-    "NOTES-HTML/z_images/Pasted image 20241106092813.png",
-    "NOTES-HTML/z_images/Pasted image 20241106092741.png",
     "Machine Learning/Untitled.canvas"
   ]
 }
