@@ -34,10 +34,10 @@ We take as example the string **0011** and we construct an automata that accepts
 
 ![](../z_images/Pasted%20image%2020241121151608.png)
 
-In this specific case, you can see that while it accepts **0011**, it also accepts **0111**, which is not in the language (because it has unequal amount of **0**'s and **1**'s).
+In this specific case, you can see that while it accepts **0011**, it also accepts **0111**, which is NOT in the language (because it has unequal amount of **0**'s and **1**'s).
 
 > [!attention]
-> This phenomenon can be summed up as the notion that **a DFA can't keep track of the history of it's states**, so in this specific case, it can't count the number of **1**'s and **0**s, hence it's impossible to construct an automata that distinguishes the two strings mentioned.
+> This phenomenon can be summed up as the notion that **a DFA can't keep track of the history of it's states**, so in this specific case, it can't count the number of **1**'s and **0**'s, hence it's impossible to construct an automata that distinguishes the two strings mentioned.
 
 
 **This scenario can be detected by using the pumping lemma**, which is explained below.
@@ -46,3 +46,32 @@ In this specific case, you can see that while it accepts **0011**, it also accep
 
 ## The actual Pumping Lemma
 
+If A is a regular language, **these conditions must be respected for every string** $s$, which is divided into 3 parts $xyz$:
+1. $xy^iz$ for every $i$ is always in $A$
+2. $|y|>0$
+3. $|xy|<=|s|$
+
+The goal is to **find a string that doesn't respect these conditions**, to show that $A$ is not regular.
+
+## Usage
+
+Choose a string, choose $i$ and test all possible decompositions into $xy^iz$.
+
+> [!example]
+> Consider again the language B = {$0^n1^n$ | $n ≥ 0$}.
+> We choose the string $0^n1^n$ with $n=2$, so **0011**.
+> There can be 3 cases:
+> 1. $y$ contains only **0**'s:
+> In this case when we increment $i$ the number of **0**'s and **1**'s gets unbalanced, so condition 1 ($xy^iz$ for every $i$ is always in $A$) is not satisfied. 
+> > [!hint]
+> $x=0$, $y=0$, $z=11$. 
+> > If we use $xy^2z$ it becomes **00011** and it is not in the language anymore
+> 2. $y$ contains only **1**'s:
+> same as before.
+> 3. $y$ contains both **1**'s and **0**'s:
+> Let $y$ = **01**, in this case the **0**'s and **1**'s would be out of order when we put $i>1$.
+> > [!hint]
+> It would come out as something like **001011**.
+> 
+> > [!attention]
+> > Also condition 3 doesn't hold, because we can use p somehow **WIP**
