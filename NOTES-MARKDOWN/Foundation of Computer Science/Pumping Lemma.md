@@ -74,4 +74,5 @@ Choose a string, choose $i$ and test all possible decompositions into $xy^iz$.
 > It would come out as something like **001011**.
 > 
 > > [!attention]
-> > Also condition 3 doesn't hold, because we can use p somehow **WIP**
+> > Also condition 3 doesn't hold, because we can use p somehow.
+> > We need to strategically choose the powers as something that scales with p/is bigger than p, so that the contradiction can work with any p.
