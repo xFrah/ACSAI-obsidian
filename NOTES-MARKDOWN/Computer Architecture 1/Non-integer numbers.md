@@ -47,9 +47,38 @@ We have two options:
 
 ## Floating-point numbers
 
+It's basically **scientific notation**.
+For example.
+$$\large 1.73\cdot 10^3$$
+
+It's composed in this way:
+$$\large ± \text{ Mantissa } \cdot \text{ Base}^{\text{Exponent}}$$
+
+### IEEE 754 floating-point standard
+
+![](../z_images/Pasted%20image%2020241203090808.png)
+
+> [!hint]
+> By definition, the **first bit** of the mantissa (the integer part) is always 1, so there is **no need to store it**.
+
+
+### Conversion to binary
+
+1. Convert decimal to binary, using methods described above.
+2. Normalize in scientific notation.
+
 > [!example]
 > - The binary number 1101.01 would be normalized to 1.10101 × 2³
 > - The binary number 0.00101 would be normalized to 1.01 × 2⁻³
+
+> [!example]
+> Let's convert 58.25 to binary:
+> 
+> - ${58.25}_{10} = {111010.01}_2$
+> - $1.1101001 \cdot 2^5$
+> 
+> The resut is:
+> ![](../z_images/Pasted%20image%2020241203091513.png)
 
 
 ---
