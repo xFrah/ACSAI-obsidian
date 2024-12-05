@@ -81,5 +81,36 @@ $$\large ± \text{ Mantissa } \cdot \text{ Base}^{\text{Exponent}}$$
 > ![](../z_images/Pasted%20image%2020241203091513.png)
 
 
+### Biased exponent
+
+As you can see in the example above, we don't represent $5$ as **0000 0101**, but as **1000 0100**.
+
+Half of the exponents should be negative [-128, 127].
+
+We bias the exponent by **adding 127 to the real exponent**, in this way we have **all positive exponents**.
+
+> [!hint] Why all positive exponents?
+> This is because we want to **simplify the comparison operations** between numbers.
+> 
+> > [!example]
+> We use Two's Complement, and want to compare **2** (**010**) with **-3** (**101**). 
+> We need a special circuitry that understands two's complement. (**NOT STONKS** 📉)
+> 
+> To a simple binary comparison 010 < 101.
+
+> [!hint] Actual range of exponent
+> The new range is [-126, 127].
+> If we wanted to represent -126, we would do -126 + 127 = 0000 0001.
+> 
+> **0000 0000** and **1111 1111** are **reserved** for respectively zero (and something else) and infinity.
+> 
+> So the smallest exponent that we can represent is **-126 = 0001 after bias.**
+
+> [!warning] What happens when we need the real exponent?
+> - **Reading**: we just subtract 127.
+> - **Addition**: we align the exponents to match the largest one.
+> - **Multiplication**: we add the unbiased exponents together and then rebias it.
+
+
 ---
 
