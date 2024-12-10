@@ -62,7 +62,7 @@ $$\large ± \text{ Mantissa } \cdot \text{ Base}^{\text{Exponent}}$$
 > By definition, the **first bit** of the mantissa (the integer part) is always 1, so there is **no need to store it**.
 
 
-### Conversion to binary
+### Conversion
 
 1. Convert decimal to binary, using methods described above.
 2. Normalize in scientific notation.
@@ -80,12 +80,15 @@ $$\large ± \text{ Mantissa } \cdot \text{ Base}^{\text{Exponent}}$$
 > The resut is:
 > ![](../z_images/Pasted%20image%2020241203091513.png)
 
+> [!example]
+> ![](../z_images/Pasted%20image%2020241210143729.png)
+
 
 ### Biased exponent
 
 As you can see in the example above, we don't represent $5$ as **0000 0101**, but as **1000 0100**.
 
-Half of the exponents should be negative [-128, 127].
+Keep in mind that half of the exponents should be negative [-128, 127].
 
 We bias the exponent by **adding 127 to the real exponent**, in this way we have **all positive exponents**.
 
@@ -111,6 +114,10 @@ We bias the exponent by **adding 127 to the real exponent**, in this way we have
 > - **Addition**: we align the exponents to match the largest one.
 > - **Multiplication**: we add the unbiased exponents together and then rebias it.
 
+## Denormals
+### Special cases
+
+![](../z_images/Pasted%20image%2020241210143925.png)
 
 ---
 

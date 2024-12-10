@@ -1,0 +1,158 @@
+It's basically **scientific notation**.
+For example.
+$$\large 1.73\cdot 10^3$$
+
+It's composed in this way:
+$$\large ± \text{ Mantissa } \cdot \text{ Base}^{\text{Exponent}}$$
+
+## IEEE 754 floating-point standard
+
+![](../z_images/Pasted%20image%2020241203090808.png)
+
+> [!hint]
+> By definition, the **first bit** of the mantissa (the integer part) is always 1, so there is **no need to store it**.
+
+
+## Conversion
+
+1. Convert decimal to binary, using methods described above.
+2. Normalize in scientific notation.
+
+> [!example]
+> - The binary number 1101.01 would be normalized to 1.10101 × 2³
+> - The binary number 0.00101 would be normalized to 1.01 × 2⁻³
+
+> [!example] From decimal to binary
+> Let's convert 58.25 to binary:
+> 
+> - ${58.25}_{10} = {111010.01}_2$
+> - $1.1101001 \cdot 2^5$
+> 
+> The resut is:
+> ![](../z_images/Pasted%20image%2020241203091513.png)
+
+> [!example] From binary to decimal
+> ![](../z_images/Pasted%20image%2020241210143729.png)
+
+
+## Biased exponent
+
+As you can see in the example above, we don't represent $5$ as **0000 0101**, but as **1000 0100**.
+
+Keep in mind that half of the exponents should be negative [-128, 127].
+
+We bias the exponent by **adding 127 to the real exponent**, in this way we have **all positive exponents**.
+
+> [!hint] Why all positive exponents?
+> This is because we want to **simplify the comparison operations** between numbers.
+> 
+> > [!example]
+> We use Two's Complement, and want to compare **2** (**010**) with **-3** (**101**). 
+> We need a special circuitry that understands two's complement. (**NOT STONKS** 📉)
+> 
+> To a simple binary comparison 010 < 101.
+
+> [!hint] Actual range of exponent
+> The new range is [-126, 127].
+> If we wanted to represent -126, we would do -126 + 127 = 0000 0001.
+> 
+> **0000 0000** and **1111 1111** are **reserved** for respectively zero (and something else) and infinity.
+> 
+> So the smallest exponent that we can represent is **-126 = 0001 after bias.**
+
+> [!warning] What happens when we need the real exponent?
+> - **Reading**: we just subtract 127.
+> - **Addition**: we align the exponents to match the largest one.
+> - **Multiplication**: we add the unbiased exponents together and then rebias it.
+
+
+## Denormals
+
+Until now we showed numbers with implicit leading 1 (**1.fractional part**), but we can represent even smallest numbers if we use **0.fractional part**.
+
+Using IEEE 754 we can use the 23 bits of the mantissa (with **exponent set to 0**) to represent numbers up to $2^{-149}$ ($2^{-126}\cdot 2^{-23}$).
+
+> [!example]
+> Let's use a very simplified 8-bit float format example:
+> 
+> **Normal smallest**:    
+> - 1.000 × 2⁻² = 0.25
+> 
+> **Denormal numbers**:   
+> - 0.100 × 2⁻² = 0.125                     
+> - 0.010 × 2⁻² = 0.0625                    
+> - 0.001 × 2⁻² = 0.03125
+
+---
+
+## Special cases
+
+![](../z_images/special%20cases.png)
+
+And what if we can't represent the number because it's too small? It is rounded to 0 and called **underflow**.
+
+What if it's too big? **Overflow**.
+
+---
+
+
+## Half-precision, Single-precision, Double-precision
+
+Until now **we talked about 32 bits** floating-point numbers, so single-precision.
+But we can have **half the bits** or **double the bits**, and that is called respectively half-precision and double-precision.
+
+![](../z_images/Pasted%20image%2020241210150726.png)
+![](../z_images/Pasted%20image%2020241210150743.png)
+
+---
+
+## Rounding
+
+![](../z_images/Pasted%20image%2020241210150907.png)
+
+---
+
+
+# IEEE 754 Operations
+
+
+## Addition
+
+We can add two numbers **only when their exponents are the same**.
+In the case they aren't, you need to shift the mantissa until they coincide.
+
+> [!tldr]
+> 1. Prepend leading 1 to form mantissa
+> 2. Compare exponents
+> 3. Shift smaller mantissa if necessary
+> 4. Add mantissas
+> 5. Normalize mantissa and adjust exponent if necessary
+> 6. Round result
+> 7. Assemble back into floating-point format
+
+> [!example]
+> Let's do an example:
+> 
+> ![](../z_images/Pasted%20image%2020241210151523.png)
+> ### 1) Place leading 1. to mantissa
+> 
+> N1:  1.1
+> N2:  1.101
+> 
+> ### 2) Compare exponents
+> 
+> 127 < 128
+> 
+> ### 3) Shift smaller mantissa (?)
+> 
+> We want the exponents to match, so we shift N1.
+> 1.1 >> 1 = 0.11
+> 
+> ### 4) Add the mantissas
+> 
+> ![](../z_images/Pasted%20image%2020241210152026.png)
+> 
+> ### 5) Then normalize, round and put everything in floating-point format.
+> 
+> By normalizing we mean shifting the point to left.
+> We round if the result doesn't fit in 32 bits.
