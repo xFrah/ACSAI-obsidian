@@ -123,15 +123,20 @@ In the case they aren't, you need to shift the mantissa until they coincide.
 
 > [!tldr]
 > 1. Prepend leading 1 to form mantissa
+>    
 > 2. Compare exponents
+>    
 > 3. Shift smaller mantissa if necessary
+>    
 > 4. Add mantissas
+>    
 > 5. Normalize mantissa and adjust exponent if necessary
+>    
 > 6. Round result
+>    
 > 7. Assemble back into floating-point format
 
 > [!example]
-> Let's do an example:
 > 
 > ![](../z_images/Pasted%20image%2020241210151523.png)
 > ### 1) Place leading 1. to mantissa
@@ -156,3 +161,80 @@ In the case they aren't, you need to shift the mantissa until they coincide.
 > 
 > By normalizing we mean shifting the point to left.
 > We round if the result doesn't fit in 32 bits.
+
+
+## Multiplication
+
+Multiply as if they were unsigned numbers.
+Number of digits after the point = digits after the decimal point in n1 + digits after decimal point in n2.
+Exponents must be summed and bias must be subtracted.
+
+> [!tldr]
+> 1. Sum the exponents and subtract the bias
+> 
+> 2. Multiply the mantissas
+> 
+> 3. Normalize (if needed) (remember to adjust the exponent)
+> 
+> 4. Adjust the sign
+> 
+> 5. Assemble the result
+> 
+
+> [!hint] Why subtract the bias?
+> Because when we add the two exponents, we have double the bias, so one must be subtracted for the exponent to be correct.
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020241213123605.png)
+
+> [!example]
+>![](../z_images/Pasted%20image%2020241213150008.png)![](../z_images/Pasted%20image%2020241213150028.png)
+
+## Subtraction
+
+> [!tldr]
+> 1. Extract exponent and fraction bits
+> 
+> 2. Prepend leading 1 to form mantissa
+> 
+> 3. Compare exponents
+> 
+> 4. Shift smaller mantissa if necessary
+> 
+> 5. Subtract mantissas
+> 
+> 6. Normalize mantissa and adjust exponent if necessary
+> 
+> 7. Round result
+> 
+> 8. Assemble exponent and fraction back into floating-point format
+
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020241213150502.png)
+
+
+## Division
+
+> [!tldr]
+> 1. Subtract the exponents
+> 
+> 2. Divide the mantissas
+> 
+> 3. Normalize (if needed)
+
+---
+
+## Overflow and Underflow in operations
+
+When the operation return more bits than the bits we started with, but the **number is in the range** of the possible numbers, it's **not an overflow**, we just need to **round**.
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020241213152806.png)![](../z_images/Pasted%20image%2020241213152814.png)
+
+
+---
+
+## Associativity
+
+![](../z_images/Pasted%20image%2020241213153346.png)

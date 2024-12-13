@@ -1,8 +1,8 @@
 - Lecture 1 [26-09-2024] Operations ☑️
 - Lecture 2 [03-10-2024] Operations ☑️
 - Lecture 3 [08-10-2024] Fixed and Floating point ☑️
-- Lecture 4 [10-10-2024]
-- Lecture 5 [15-10-2024]
+- Lecture 4 [10-10-2024] Floating point operations ☑️
+- Lecture 5 [15-10-2024] 
 - Lecture 6 [17-10-2024]
 - Lecture 7 [29-10-2024]
 - Lecture 8 [31-10-2024]
