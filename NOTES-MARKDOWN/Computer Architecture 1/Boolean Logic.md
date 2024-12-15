@@ -16,3 +16,5 @@ You represent the truth table by writing down every minterm that outputs 1.
 > [!hint]
 > SOP can represent every boolean function.
 
+> [!example]
+> ![](../z_images/Pasted%20image%2020241215120628.png)
