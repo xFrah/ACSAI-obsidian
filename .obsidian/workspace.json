@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/Floating-point.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/Boolean Logic.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Floating-point"
+              "title": "Boolean Logic"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Regular Expressions.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/Floating-point.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Regular Expressions"
+              "title": "Outgoing links from Floating-point"
             }
           },
           {
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/Floating-point.md"
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/Boolean Logic.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Floating-point"
+              "title": "Outline of Boolean Logic"
             }
           },
           {
@@ -182,19 +182,21 @@
   },
   "active": "cf3353528bcd97a3",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/z_images/Pasted image 20241215111738.png",
+    "NOTES-MARKDOWN/Computer Architecture 1/Logic gates.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/Boolean Logic.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241215105816.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20241215105548.png",
+    "NOTES-MARKDOWN/Computer Architecture 1/Floating-point.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20241213153346.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20241213152814.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20241213152806.png",
     "NOTES-MARKDOWN/Guides to the exams/CA1.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/Floating-point.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20241213150502.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20241213150028.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20241213150008.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20241213123605.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20241210152026.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20241210151523.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20241210150907.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20241210150743.png",
     "NOTES-MARKDOWN/Computer Architecture 1/Fixed-point.md",
     "NOTES-MARKDOWN/Computer Architecture 1/Non-integer numbers.md",
     "NOTES-MARKDOWN/Computer Architecture 1/Videos recaps/Lecture 2.md",
@@ -226,8 +228,6 @@
     "NOTES-MARKDOWN/Statistics/Standard Deviation.md",
     "NOTES-MARKDOWN/Statistics/Significance Test.md",
     "NOTES-MARKDOWN/Statistics/Significance Level.md",
-    "NOTES-MARKDOWN/Statistics/Sampling distributions.md",
-    "NOTES-MARKDOWN/Statistics/Regression.md",
     "Machine Learning/Untitled.canvas"
   ]
 }
