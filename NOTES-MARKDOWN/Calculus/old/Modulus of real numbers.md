@@ -19,7 +19,7 @@ Properties of this distance:
 > $\begin{cases}x-1>=0\\ x-1<0\end{cases} \cup \begin{cases}x-1<0\\ -(x-1)<1\end{cases}$
 > $\begin{cases}x>=1\\ x<2 \end{cases}\cup \ \begin{cases}x<1\\ x>0\end{cases}$
 > $x\in [1, 2) \cup (0, 1)=(0,2)$
-> ![](../z_images/Pasted%20image%2020241009093343.png)
+> ![](../../z_images/Pasted%20image%2020241009093343.png)
 > 
 > > [!hint]
 > > Modulus is present only at the beginning, once we apply the definition we don't have it anymore.

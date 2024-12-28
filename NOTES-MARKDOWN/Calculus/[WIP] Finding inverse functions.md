@@ -1,0 +1,1 @@
+The inverse $g(x)$ of function $f(x)$ is a function that returns 

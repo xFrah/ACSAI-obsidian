@@ -5,7 +5,7 @@
 > $x^2-4x+4>=0 \quad <=> \quad x \in \mathbb{R}=(-\inf, +\inf)$ (equal to $(a+b)^2$? which is always positive.
 > $x-3>0 \quad <=> \quad x > 3 \quad <=> \quad x \in (3, +\inf)$
 > 
-> ![](../z_images/20241008_084917%201.jpg)
+> ![](../../z_images/20241008_084917%201.jpg)
 
 > [!example]
 > $$\large x+2>=^3\sqrt{x+2}$$
@@ -14,7 +14,7 @@
 > $(x+2)^3 >= (x+2)$ (the original inequality is equal to this one)
 > $(x+2)((x+2)^2-1)>=0$
 > $(x+2)(x+3)(x+1)$
-> ![](../z_images/Pasted%20image%2020241008090316.png)
+> ![](../../z_images/Pasted%20image%2020241008090316.png)
 > 
 > $$\large x \in [-3, -2]\cup [-1, +\inf)$$
 > 
@@ -27,7 +27,7 @@
 > $B=x^2-3x+2>0 \quad \Rightarrow \quad (x-1)(x-2)$
 > 
 > $\large B>0$
-> ![](../z_images/Pasted%20image%2020241008091605.png)
+> ![](../../z_images/Pasted%20image%2020241008091605.png)
 > $B>0 \quad <=> \quad x \in (-\inf, 1)\cup(2,+\inf)$
 > 
 > $\large A>=0$
@@ -42,7 +42,7 @@
 > $A>=0 \quad <=> \quad x\in[2, +\infty)$
 > 
 > $\large \frac{A}{B}>=0$
-> ![](../z_images/Pasted%20image%2020241008092926.png)
+> ![](../../z_images/Pasted%20image%2020241008092926.png)
 > 
 > $\frac{A}{B}>=0 \quad <=> \quad x \in (1, 2) \cup (2, +\infty)$
 > 
