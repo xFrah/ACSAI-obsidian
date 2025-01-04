@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus/Differentiation formulas.md",
+                "file": "NOTES-MARKDOWN/Calculus/Logarithm properties.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Differentiation formulas"
+              "title": "Logarithm properties"
             }
           }
         ]
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus/Differentiation formulas.md"
+                "file": "NOTES-MARKDOWN/Calculus/Logarithm properties.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Differentiation formulas"
+              "title": "Outline of Logarithm properties"
             }
           },
           {
@@ -182,22 +182,23 @@
   },
   "active": "cf3353528bcd97a3",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/z_images/Pasted image 20250104181419.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250104181408.png",
+    "NOTES-MARKDOWN/Calculus/Exponentials properties.md",
+    "NOTES-MARKDOWN/Calculus/Logarithm properties.md",
+    "NOTES-MARKDOWN/Calculus/[WIP] Powers properties.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250104172627.png",
+    "NOTES-MARKDOWN/Calculus/Differentiation formulas.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250104165949.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250104165839.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250104165320.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250104165000.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250103124812.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250103124725.png",
-    "NOTES-MARKDOWN/Calculus/[WIP] Exponentials properties.md",
-    "NOTES-MARKDOWN/Calculus/[WIP] Powers properties.md",
-    "NOTES-MARKDOWN/Calculus/Differentiation formulas.md",
     "NOTES-MARKDOWN/Calculus/old/Untitled.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20250103121354.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250103121338.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250103121003.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250103120948.png",
     "NOTES-MARKDOWN/Calculus/Trigonometry.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250102214804.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250102214626.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250102214613.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250102214507.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250102214432.png",
     "NOTES-MARKDOWN/Calculus/Finding inverse functions.md",
     "NOTES-MARKDOWN/Calculus/Finding domain and range.md",
     "NOTES-MARKDOWN/Calculus/Finding roots.md",
@@ -218,7 +219,6 @@
     "NOTES-MARKDOWN/Computer Architecture 1/Priority circuit.md",
     "NOTES-MARKDOWN/Computer Architecture 1/7. De Morgan's Theorem.md",
     "NOTES-MARKDOWN/Computer Architecture 1/5-6. Boolean Algebra.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/4. SOP & POS.md",
     "NOTES-MARKDOWN/Computer Architecture 1/Videos recaps",
     "NOTES-MARKDOWN/Statistics/Z-score.html",
     "NOTES-MARKDOWN/Statistics/Variance.html",
