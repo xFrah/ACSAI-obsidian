@@ -82,3 +82,10 @@ Asymptote definition:
 
 
 ![](../z_images/Pasted%20image%2020250107105433.png)
+
+---
+
+> [!note] Math definition of the limit
+> ![](../z_images/Pasted%20image%2020250107112409.png)
+> 
+> https://tutorial.math.lamar.edu/Classes/CalcI/DefnOfLimit.aspx
