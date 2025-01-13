@@ -165,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5,
-    "collapsed": true
+    "width": 336.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,16 +181,17 @@
   },
   "active": "cf3353528bcd97a3",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113163032.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113162936.png",
-    "NOTES-MARKDOWN/Computer Architecture 1/4. SOP & POS.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/8. PLA.md",
     "NOTES-MARKDOWN/Computer Architecture 1/Priority circuit.md",
     "NOTES-MARKDOWN/Computer Architecture 1/3. Combinational circuits.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/7. De Morgan's Theorem.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/Exam.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/9. Karnaugh maps.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250113163415.png",
+    "NOTES-MARKDOWN/Computer Architecture 1/[EXAM] CA1.md",
     "NOTES-MARKDOWN/Computer Architecture 1/5-6. Boolean Algebra.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/4. SOP & POS.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/7. De Morgan's Theorem.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/8. PLA.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/9. Karnaugh maps.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250113163032.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250113162936.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250113161440.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250113161247.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250113161011.png",
@@ -208,8 +208,6 @@
     "NOTES-MARKDOWN/Guides to the exams/Probability Exam - DONE.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20250113145441.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250113145255.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113145048.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113144922.png",
     "NOTES-MARKDOWN/Computer Architecture 1/PLA.md",
     "NOTES-MARKDOWN/Computer Architecture 1/0. Syllabus.md",
     "NOTES-MARKDOWN/Computer Architecture 1/2. Floating-point.md",
