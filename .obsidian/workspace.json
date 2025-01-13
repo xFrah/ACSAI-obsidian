@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/Exam.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/8. PLA.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exam"
+              "title": "8. PLA"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus/[WIP] Finding inverse functions.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/8. PLA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from [WIP] Finding inverse functions"
+              "title": "Outgoing links from 8. PLA"
             }
           },
           {
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/Exam.md"
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/8. PLA.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Exam"
+              "title": "Outline of 8. PLA"
             }
           },
           {
@@ -182,19 +182,29 @@
   },
   "active": "cf3353528bcd97a3",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113133443.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113133407.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113133352.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113133341.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113133225.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113133208.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113133107.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113132945.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113132923.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113132838.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113132837.png",
-    "NOTES-MARKDOWN/Calculus/Continuity.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250113143845.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250113143756.png",
+    "NOTES-MARKDOWN/Computer Architecture 1/Priority circuit.md",
     "NOTES-MARKDOWN/Computer Architecture 1/Exam.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/8. PLA.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250113143611.png",
+    "NOTES-MARKDOWN/Computer Architecture 1/5-6. Boolean Algebra.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/7. De Morgan's Theorem.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250113143208.png",
+    "NOTES-MARKDOWN/Computer Architecture 1/PLA.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/4. SOP & POS.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250113141342.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250113140924.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250113135802.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250113135749.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250113135732.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250113135724.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250113135454.png",
+    "NOTES-MARKDOWN/Computer Architecture 1/3. Combinational circuits.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/0. Syllabus.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/2. Floating-point.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/1. Fixed-point.md",
+    "NOTES-MARKDOWN/Calculus/Continuity.md",
     "NOTES-MARKDOWN/Calculus/Limits properties.md",
     "NOTES-MARKDOWN/Calculus/Logarithm properties.md",
     "NOTES-MARKDOWN/Calculus/Exponentials properties.md",
@@ -209,16 +219,6 @@
     "NOTES-MARKDOWN/Calculus/[WIP] Function shapes.md",
     "NOTES-MARKDOWN/Calculus/old",
     "NOTES-MARKDOWN/Calculus/[WIP] How to factor.md",
-    "NOTES-MARKDOWN/Calculus/old/Cartesian coordinates.md",
-    "NOTES-MARKDOWN/Calculus/old/Exponentials and Logarithms.md",
-    "NOTES-MARKDOWN/Calculus/old/Inequalities and Intervals.md",
-    "NOTES-MARKDOWN/Calculus/old/Limits.md",
-    "NOTES-MARKDOWN/Calculus/old/Modulus of real numbers.md",
-    "NOTES-MARKDOWN/Calculus/old/Partial derivatives.md",
-    "NOTES-MARKDOWN/Calculus/old/Powers.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Pumping Lemma.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Regular Expressions.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/PLA.md",
     "NOTES-MARKDOWN/Computer Architecture 1/Videos recaps",
     "NOTES-MARKDOWN/Statistics/Z-score.html",
     "NOTES-MARKDOWN/Statistics/Variance.html",
