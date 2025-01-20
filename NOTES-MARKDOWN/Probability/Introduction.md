@@ -40,7 +40,7 @@ $$\large P : \mathcal{F} → [0, 1]$$
 > [!note]
 > $\mathcal{F}$ contains all the subsets of $\Omega$(so all events). It is the set of all observable events.
 
-[Probability measures](Probability%20measures.md) must respect these conditions:
+Probability measures must respect these conditions:
 - $P(Ω) = 1$
 - For any sequence of disjoint events(*cannot occur simultaneously*):
 
