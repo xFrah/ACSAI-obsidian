@@ -25,3 +25,9 @@
 
 > [!example]
 > ![](../z_images/Pasted%20image%2020250120130548.png)![](../z_images/Pasted%20image%2020250120130602.png)
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020250124115134.png)
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020250124115201.png)
