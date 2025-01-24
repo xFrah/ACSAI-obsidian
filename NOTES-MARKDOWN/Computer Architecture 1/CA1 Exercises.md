@@ -31,3 +31,11 @@
 
 > [!example]
 > ![](../z_images/Pasted%20image%2020250124115201.png)
+
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020250124134524.png)![](../z_images/Pasted%20image%2020250124134609.png)
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020250124134554.png)![](../z_images/Pasted%20image%2020250124134623.png)
+
