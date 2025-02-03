@@ -1,11 +1,11 @@
-## Boolean algebra
+## [Boolean algebra](5-6.%20Boolean%20Algebra.md)
 
 > [!example]
 > ![](../z_images/Pasted%20image%2020250120122402.png)
 
 ---
 
-## PLA
+## [PLA](8.%20PLA.md)
 
 > [!example] Example ([XOR](3.%20Combinational%20circuits.md#XOR))
 > ![](../z_images/Pasted%20image%2020250115173054.png)![](../z_images/Pasted%20image%2020250115173223.png)
@@ -24,7 +24,7 @@
 
 ---
 
-## Multiplexers
+## [Multiplexers](10.%20Multiplexer.md)
 
 > [!example]
 > ![](../z_images/Pasted%20image%2020250120130247.png)
@@ -35,7 +35,7 @@
 
 ---
 
-## Latches and Flip-Flops
+## [Latches](13.%20Sequential%20circuits.md#^621042) and [Flip-Flops](13.%20Sequential%20circuits.md#^a12849)
 
 > [!example]
 > ![](../z_images/Pasted%20image%2020250124115134.png)
@@ -54,7 +54,7 @@
 
 ---
 
-## FSM
+## [FSM](14.%20Finite%20State%20Machines.md)
 
 > [!example]
 > ![](../z_images/Pasted%20image%2020250203112609.png)
