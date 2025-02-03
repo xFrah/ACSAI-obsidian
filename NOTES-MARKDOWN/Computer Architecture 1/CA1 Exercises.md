@@ -61,3 +61,14 @@
 > 
 > ### Solution
 > ![](../z_images/Pasted%20image%2020250203112622.png)
+
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020250203184823.png)![](../z_images/Pasted%20image%2020250203184836.png)![](../z_images/Pasted%20image%2020250203184844.png)
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020250203184902.png)![](../z_images/Pasted%20image%2020250203184909.png)![](../z_images/Pasted%20image%2020250203184918.png)
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020250203184934.png)![](../z_images/Pasted%20image%2020250203184945.png)
+
