@@ -1,5 +1,6 @@
 ## Sequential circuits
 ![](../z_images/Pasted%20image%2020250113133107.png)
+
 ![](../z_images/Pasted%20image%2020250113132727.png)
 
 ## Functions, truth table and circuit drawing

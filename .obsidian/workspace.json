@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/14. Finite State Machines.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/1. Integer numbers.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14. Finite State Machines"
+              "title": "1. Integer numbers"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/14. Finite State Machines.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/15. Parallelism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 14. Finite State Machines"
+              "title": "Backlinks for 15. Parallelism"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/14. Finite State Machines.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/15. Parallelism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 14. Finite State Machines"
+              "title": "Outgoing links from 15. Parallelism"
             }
           },
           {
@@ -155,10 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/14. Finite State Machines.md"
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/1. Integer numbers.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 14. Finite State Machines"
+              "title": "Outline of 1. Integer numbers"
             }
           },
           {
@@ -198,42 +198,42 @@
   },
   "active": "b8771b23f93339ca",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/z_images/Pasted image 20250203185245.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250203185231.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250203185203.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250203185138.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250203185119.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250203185044.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250203185028.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250203185006.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250205105746.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250205105711.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250205105311.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250205105239.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250205105209.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250205103851.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250205103608.png",
+    "NOTES-MARKDOWN/Computer Architecture 1/9. Karnaugh maps.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/12. Timing.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/3. Floating-point.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/1. Integer numbers.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/0. Syllabus.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/4. Combinational circuits.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/2. Fixed-point.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/[EXAM] CA1.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/7. De Morgan's Theorem.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/8. PLA.md",
     "NOTES-MARKDOWN/Computer Architecture 1/CA1 Exercises.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250203184945.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250203184934.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250203184918.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250204131406.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250204131356.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250204131345.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250204131325.png",
+    "NOTES-MARKDOWN/Computer Architecture 1/15. Parallelism.md",
     "NOTES-MARKDOWN/Computer Architecture 1/14. Finite State Machines.md",
     "NOTES-MARKDOWN/Computer Architecture 1/13. Sequential circuits.md",
     "NOTES-MARKDOWN/Computer Architecture 1/11. Decoder.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/8. PLA.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/[EXAM] CA1.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/12. Timing.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/9. Karnaugh maps.md",
     "NOTES-MARKDOWN/Computer Architecture 1/10. Multiplexer.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/2. Floating-point.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/1. Fixed-point.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/4. SOP & POS.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/3. Combinational circuits.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/5-6. Boolean Algebra.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/7. De Morgan's Theorem.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/5. SOP & POS.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/6. Boolean Algebra.md",
     "NOTES-MARKDOWN/Probability/Poisson distribution.md",
     "NOTES-MARKDOWN/Probability/Introduction.md",
     "NOTES-MARKDOWN/Computer Architecture 1/Videos recaps/Lecture 2.md",
     "Probability measures.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/0. Syllabus.md",
     "NOTES-MARKDOWN/Computer Architecture 1/Priority circuit.md",
     "NOTES-MARKDOWN/Guides to the exams/Machine Learning Exam - DONE.md",
     "NOTES-MARKDOWN/Guides to the exams/Statistics Exam - DONE.md",
-    "NOTES-MARKDOWN/Guides to the exams/AI Exam - DONE.md",
-    "NOTES-MARKDOWN/Guides to the exams/Cybersecurity Exam - DONE.md",
     "NOTES-MARKDOWN/Calculus/old",
     "NOTES-MARKDOWN/Computer Architecture 1/Videos recaps",
     "NOTES-MARKDOWN/Statistics/Z-score.html",
