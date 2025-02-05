@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/15. Parallelism.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/1. Integer numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 15. Parallelism"
+              "title": "Outgoing links from 1. Integer numbers"
             }
           },
           {
