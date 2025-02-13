@@ -1,5 +1,5 @@
+## Domain
 The **domain** of a function is the **set of inputs for which the function exists** and outputs a real number.
-The **range** of a function is simply the **set of all possible outputs**.
 
 ### Domain finding
 
@@ -11,9 +11,13 @@ For the domain we need to avoid:
 
 So basically the domain will be the set of real numbers, minus where these conditions above hold.
 
+---
+## Range
 ### Range finding
 
 We need to understand the shape of the function and draw our conclusions from that.
+
+---
 
 ## Examples
 
