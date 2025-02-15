@@ -1,8 +1,12 @@
+We have two ways of solving inequalities:
+- **Number line method** (testing for positivity): used when we have a **continuous function**.
+- Using **systems** (looking for overlaps): used when we have a **piecewise function** (square root, modulus, etc...).
+
 ## Inequalities with absolute value
 
 $$\Large|2x-3|>x+6$$
 
-We have to **get rid of the absolute value**, so we translate this into a system.
+We have to **get rid of the absolute value**, so we translate this into a system (this is a piecewise function).
 
 $$
 \Large\begin{array}{cc}
@@ -123,6 +127,11 @@ $$\Large x>9 \quad \vee \quad x>9$$
 > 
 
 ---
+
+## Inequalities with roots
+
+A square root is a piecewise function, so we need to use the systems method.
+
 
 > [!example]
 > $$\large \frac{(x-1)(x^2-4x+4)}{x-3}>=0$$
