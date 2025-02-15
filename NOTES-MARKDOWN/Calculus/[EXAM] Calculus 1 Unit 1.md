@@ -1,5 +1,12 @@
-## Exercise 1, domain, intervals, maximum minimum
+## [Domain](Domain%20and%20Range.md), [range](Domain%20and%20Range.md), intervals, inequalities
 ![](../z_images/Pasted%20image%2020250212124845.png)
+
+> [!hint]
+> For this exercise, we need to **study the [domain](Domain%20and%20Range.md)** of the inequality, or **all the values that satisfy the condition**.
+> 
+> - **Functions**: the domain is all values where the function is defined/makes sense
+> - **Sets**: all the values that satisfy those conditions
+
 
 > [!note] Set notation
 > ### Symbols
@@ -34,9 +41,15 @@
 A set is considered an interval if there are no gaps in it.
 **Whenever two numbers belong to the set**, **every number between them is also in the set**.
 
+> [!hint]
+> Just **express the "domain" in intervals**, and if there is **more than one** then the set itself is **not an interval**.
+
 ## When is a set bounded?
 
 Set does not extend infinitely in any direction.
+
+> [!hint]
+> Compute the domain and look at the bottom interval and top interval or just the bounds, if neither goes to infinity the set is bounded.
 
 
 > [!example]
@@ -47,3 +60,10 @@ Set does not extend infinitely in any direction.
 
 A set is said to have a minimum if it contains an element that is less than or equal to every other element in the set.
 
+Same shit.
+
+---
+
+## Limits
+
+![](../z_images/Pasted%20image%2020250214162217.png)

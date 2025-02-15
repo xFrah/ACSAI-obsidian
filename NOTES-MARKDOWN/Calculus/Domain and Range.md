@@ -1,3 +1,10 @@
+---
+aliases:
+  - domain
+  - domains
+  - range
+---
+
 ## Domain
 The **domain** of a function is the **set of inputs for which the function exists** and outputs a real number.
 

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus/[EXAM] Calculus 1 Unit 1.md",
+                "file": "NOTES-MARKDOWN/Calculus/Inequalities and Intervals.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "[EXAM] Calculus 1 Unit 1"
+              "title": "Inequalities and Intervals"
             }
           },
           {
@@ -158,12 +158,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/3. Floating-point.md",
+                "file": "NOTES-MARKDOWN/Calculus/Inequalities and Intervals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 3. Floating-point"
+              "title": "Outgoing links from Inequalities and Intervals"
             }
           },
           {
@@ -185,10 +185,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus/[EXAM] Calculus 1 Unit 1.md"
+                "file": "NOTES-MARKDOWN/Calculus/Inequalities and Intervals.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of [EXAM] Calculus 1 Unit 1"
+              "title": "Outline of Inequalities and Intervals"
             }
           },
           {
@@ -228,14 +228,25 @@
   },
   "active": "b8771b23f93339ca",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/z_images/Pasted image 20250215140930.png",
+    "NOTES-MARKDOWN/Calculus/old/Limits.md",
+    "NOTES-MARKDOWN/Calculus/old/Linear systems.md",
+    "NOTES-MARKDOWN/Calculus/old/Exponentials and Logarithms.md",
+    "NOTES-MARKDOWN/Calculus/old/Cartesian coordinates.md",
+    "NOTES-MARKDOWN/Calculus/old/Powers.md",
+    "NOTES-MARKDOWN/Calculus/old/Partial derivatives.md",
+    "NOTES-MARKDOWN/Calculus/old/Modulus of real numbers.md",
+    "NOTES-MARKDOWN/Calculus/Inequalities and Intervals.md",
+    "NOTES-MARKDOWN/Calculus/[EXAM] Calculus 1 Unit 1.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250214162217.png",
+    "NOTES-MARKDOWN/Calculus/Domain and Range.md",
+    "NOTES-MARKDOWN/Calculus/Continuity.md",
+    "NOTES-MARKDOWN/Calculus/Differentiation formulas.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20250213130524.png",
     "NOTES-MARKDOWN/Calculus/Trigonometry.md",
-    "NOTES-MARKDOWN/Calculus/Domain and Range.md",
     "NOTES-MARKDOWN/Calculus/Exponentials properties.md",
-    "NOTES-MARKDOWN/Calculus/[EXAM] Calculus 1 Unit 1.md",
     "NOTES-MARKDOWN/Computer Architecture 1/10. Multiplexer.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20250212124845.png",
-    "NOTES-MARKDOWN/Calculus/Continuity.md",
     "NOTES-MARKDOWN/Computer Architecture 1/[EXAM] CA1.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20250210174725.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250210174434.png",
@@ -244,8 +255,6 @@
     "NOTES-MARKDOWN/z_images/Pasted image 20250210174312.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250210172917.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250210172631.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250210172541.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250210172350.png",
     "NOTES-MARKDOWN/Computer Architecture 1/14. Finite State Machines.md",
     "NOTES-MARKDOWN/Computer Architecture 1/13. Sequential circuits.md",
     "NOTES-MARKDOWN/Computer Architecture 1/12. Timing.md",
@@ -255,15 +264,6 @@
     "NOTES-MARKDOWN/Computer Architecture 1/6. Boolean Algebra.md",
     "NOTES-MARKDOWN/Computer Architecture 1/4. Combinational circuits.md",
     "NOTES-MARKDOWN/Computer Architecture 1/3. Floating-point.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/8. PLA.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/[EXERCISES] CA1.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/1. Integer numbers.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/0. Syllabus.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/2. Fixed-point.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/7. De Morgan's Theorem.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/15. Parallelism.md",
-    "NOTES-MARKDOWN/Probability/Poisson distribution.md",
-    "NOTES-MARKDOWN/Probability/Introduction.md",
     "NOTES-MARKDOWN/Calculus/old",
     "NOTES-MARKDOWN/Computer Architecture 1/Videos recaps",
     "NOTES-MARKDOWN/Statistics/Z-score.html",
