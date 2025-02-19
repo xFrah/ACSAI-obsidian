@@ -4,9 +4,11 @@ We have two ways of solving inequalities:
 
 ## Inequalities with absolute value
 
+The argument of a modulus gets its sign flipped when it's negative, making it a piecewise function.
+
 $$\Large|2x-3|>x+6$$
 
-We have to **get rid of the absolute value**, so we translate this into a system (this is a piecewise function).
+We have to **get rid of the absolute value**, so we translate this into a system.
 
 $$
 \Large\begin{array}{cc}
@@ -130,7 +132,7 @@ $$\Large x>9 \quad \vee \quad x>9$$
 
 ## Inequalities with roots
 
-A square root is a piecewise function, so we need to use the systems method.
+A square root is defined only when the argument is positive and we can't convert it to a normal function, so it is a piecewise function.
 
 
 > [!example]
