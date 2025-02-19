@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus/How to factor.md",
+                "file": "NOTES-MARKDOWN/Calculus/Inequalities.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How to factor"
+              "title": "Inequalities"
             }
           },
           {
@@ -186,10 +186,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus/How to factor.md"
+                "file": "NOTES-MARKDOWN/Calculus/Inequalities.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of How to factor"
+              "title": "Outline of Inequalities"
             }
           },
           {
@@ -229,6 +229,7 @@
   },
   "active": "b8771b23f93339ca",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Calculus/How to factor.md",
     "NOTES-MARKDOWN/Calculus/Inequalities.md",
     "NOTES-MARKDOWN/Calculus/Finding roots.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20250215140930.png",
@@ -264,7 +265,6 @@
     "NOTES-MARKDOWN/Computer Architecture 1/5. SOP & POS.md",
     "NOTES-MARKDOWN/Computer Architecture 1/6. Boolean Algebra.md",
     "NOTES-MARKDOWN/Computer Architecture 1/4. Combinational circuits.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/3. Floating-point.md",
     "NOTES-MARKDOWN/Calculus/old",
     "NOTES-MARKDOWN/Computer Architecture 1/Videos recaps",
     "NOTES-MARKDOWN/Statistics/Z-score.html",

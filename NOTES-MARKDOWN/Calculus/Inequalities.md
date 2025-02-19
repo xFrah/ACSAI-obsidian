@@ -2,9 +2,12 @@ We have two ways of solving inequalities:
 - **Number line method** (testing for positivity): used when we have a **continuous function**.
 - Using **systems** (looking for overlaps): used when we have a **piecewise function** (square root, modulus, etc...).
 
+> [!hint] Why the system method?
+> The goal is to get a system (or piecewise function) that **mirrors exactly the behaviour of our function**, so that we can process it better.
+
 ## Inequalities with absolute value
 
-The argument of a modulus gets its sign flipped when it's negative, making it a piecewise function.
+The argument of a modulus gets its sign flipped when it's negative, we can **represent it as a piecewise function**.
 
 $$\Large|2x-3|>x+6$$
 
@@ -132,8 +135,43 @@ $$\Large x>9 \quad \vee \quad x>9$$
 
 ## Inequalities with roots
 
-A square root is defined only when the argument is positive and we can't convert it to a normal function, so it is a piecewise function.
+A square root is defined only when the argument is positive and we can't convert it to a normal function, so we **represent it as a piecewise function**.
 
+The goal here is to get rid of the square root, but there are two procedures depending on the type of inequality:
+
+### $\sqrt{f(x)}> g(x)$
+
+$$\Large \sqrt{x+3}>4$$
+
+We have to **get rid of the square root**, so what we do is **square everything**.
+
+$$\Large \begin{cases} x+3 > 4^2 \\ \dots \end{cases}$$
+
+> [!hint]
+> If we just square everything, then the square root limitation of **argument always > 0 isn't enforced anymore**, so we need to enforce it in the system.
+> 
+> Otherwise, this is **NOT** the same equation.
+
+$$\Large \begin{cases} x+3 > 4^2 \\ x+3 \geq 0\end{cases}$$
+
+> [!hint]
+> Also consider that if the right side is negative, then we can skip everything because it's always defined when $\text{arg}\geq0$.
+
+### $\sqrt{f(x)}< g(x)$
+
+
+> [!warning]
+> ##### What happens when the right side is negative(**the inequality isn't defined**), but we don't know because we squared it?
+> When the positivity of the right side isn't apparent(ie. *it's a function*), we need to enforce its positivity through a condition in the system:
+> 
+> $$\large \begin{cases} (\sqrt{\text{arg}})^2 \geq \text{right side}^2 \\ \text{arg} \geq 0 \\ \underbracket{\text{right side} > 0}_{\text{new condition}}\end{cases}$$
+> 
+> If we don't do this, we lose information on the sign, because the squared version doesn't include it.
+> 
+> This is to ensure that we don't include more intervals than we should. Without this condition, we would be saying that a negative number is greater than 
+
+
+---
 
 > [!example]
 > $$\large \frac{(x-1)(x^2-4x+4)}{x-3}>=0$$
