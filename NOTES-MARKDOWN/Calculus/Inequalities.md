@@ -137,7 +137,12 @@ $$\Large x>9 \quad \vee \quad x>9$$
 
 A square root is defined only when the argument is positive and we can't convert it to a normal function, so we **represent it as a piecewise function**.
 
-The goal here is to get rid of the square root, but there are two procedures depending on the type of inequality:
+The goal here is to **get rid of the square root**, and we do that by squaring everything, but there are two procedures depending on the type of inequality.
+
+> [!hint] Sign problem
+> The two procedures differ because of a single problem, loss of sign when we square the right part.
+> In one case we will **add an interval to the solution**, in the other we will **remove it**.
+
 
 ### $\sqrt{f(x)}> g(x)$
 
@@ -209,17 +214,33 @@ $$\Large x>-3$$
 
 ### $\sqrt{f(x)}< g(x)$
 
+$$\Large \sqrt{x+3}<4$$
 
-> [!warning]
-> ##### What happens when the right side is negative(**the inequality isn't defined**), but we don't know because we squared it?
-> When the positivity of the right side isn't apparent(ie. *it's a function*), we need to enforce its positivity through a condition in the system:
-> 
-> $$\large \begin{cases} (\sqrt{\text{arg}})^2 \leq \text{right side}^2 \\ \text{arg} \geq 0 \\ \underbracket{\text{right side} > 0}_{\text{new condition}}\end{cases}$$
-> 
-> If we don't do this, we lose information on the sign, because the squared version doesn't include it.
-> 
-> This is to ensure that we don't include more intervals than we should. Without this condition, we would be saying that a negative number is greater than 
+As usual, we square both sides and we check that the square root exists:
 
+$$\Large \begin{cases} x+3 < 4^2 \\ x+3 \geq 0\end{cases}$$
+![](../z_images/Pasted%20image%2020250220134526.png)
+And that's right in this case...
+
+##### But what if the right side is negative?
+
+$$\Large \sqrt{x+3}<-4$$
+$$\Large \begin{cases} x+3 < 4^2 \\ x+3 \geq 0\end{cases}$$
+
+As usual, we are losing information on the sign by squaring, but this time we need to remove an interval instead of adding it.
+Without an additional condition, these would be the intervals:
+
+![](../z_images/Pasted%20image%2020250220134526.png)
+
+But here we need to remove the interval where the right side is negative at least, because **that is when we lose information**.
+
+Here the interval we need to remove is $-4<0$:
+
+$$\Large \begin{cases} x+3 < 4^2 \\ x+3 \geq 0\\-4>0\end{cases}$$
+Which makes the system impossible in this specific instance.
+
+> [!hint]
+> If you look at the original inequality, you can already tell that it's impossible because a square root can never be negative.
 
 ---
 
