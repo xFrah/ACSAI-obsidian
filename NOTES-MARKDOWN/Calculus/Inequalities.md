@@ -154,8 +154,58 @@ $$\Large \begin{cases} x+3 > 4^2 \\ \dots \end{cases}$$
 
 $$\Large \begin{cases} x+3 > 4^2 \\ x+3 \geq 0\end{cases}$$
 
+The following is a representation of both intervals, with the blue one being where both intervals are defined:
+
+![](../z_images/Pasted%20image%2020250220125502.png)
+
+![](../z_images/Pasted%20image%2020250220132516.png)
+
+##### But what if the right side is negative?
+
+When we square a negative number, **we lose information on the sign**.
+And that is important information, because it's a whole different **interval that we are not including**.
+
+For example:
+$$\Large \sqrt{x+3}>-4$$
+
+This would yield the same exact system as before:
+$$\Large \begin{cases} x+3 > 4^2 \\ x+3 \geq 0\end{cases}$$
+
+But the square root is always greater than a negative number, so the green interval from before should be included too, how do we fix this?
+
+We need to "manually" include the interval that we lost, that would be:
+
+$$\Large \begin{cases} -4 <0 \\ x+3 \geq 0\end{cases}$$
+So in this case:
+
+$$
+\Large\begin{array}{cc}
+\left\{
+\begin{array}{ll}
+x+3 > 4^2 \\ x+3 \geq 0
+\end{array}
+\right.
+&
+\left\{
+\begin{array}{ll}
+-4<0 \\
+x +3 \geq 0
+\end{array}
+\right.
+\end{array}
+$$
+
+![](../z_images/Pasted%20image%2020250220131633.png)
+
+![](../z_images/Pasted%20image%2020250220133158.png)
+
+As you can see in the image, the solutions of these two systems combined give the result:
+
+$$\Large x>-3$$
+
 > [!hint]
-> Also consider that if the right side is negative, then we can skip everything because it's always defined when $\text{arg}\geq0$.
+> You can **just recognize that a square root can't be smaller than a negative number** and say that the interval is defined as long as the square root is defined (*argument is positive*) (*second system*).
+
 
 ### $\sqrt{f(x)}< g(x)$
 
@@ -164,7 +214,7 @@ $$\Large \begin{cases} x+3 > 4^2 \\ x+3 \geq 0\end{cases}$$
 > ##### What happens when the right side is negative(**the inequality isn't defined**), but we don't know because we squared it?
 > When the positivity of the right side isn't apparent(ie. *it's a function*), we need to enforce its positivity through a condition in the system:
 > 
-> $$\large \begin{cases} (\sqrt{\text{arg}})^2 \geq \text{right side}^2 \\ \text{arg} \geq 0 \\ \underbracket{\text{right side} > 0}_{\text{new condition}}\end{cases}$$
+> $$\large \begin{cases} (\sqrt{\text{arg}})^2 \leq \text{right side}^2 \\ \text{arg} \geq 0 \\ \underbracket{\text{right side} > 0}_{\text{new condition}}\end{cases}$$
 > 
 > If we don't do this, we lose information on the sign, because the squared version doesn't include it.
 > 
