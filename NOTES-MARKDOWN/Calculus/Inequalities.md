@@ -297,6 +297,12 @@ $\large x-1 \geq 0 \quad \rightarrow \quad x\geq1$
 $\large x^2-4x+4\geq0 \quad \rightarrow\quad x\geq 2 \quad\&\quad x\geq 2$
 $\large x-3>0 \quad \rightarrow \quad x > 3$
 
+Now we use the number line:
+
+![](../z_images/Senza%20titolo-2.png)
+$$\Large x \in \quad(-\infty,1] \lor \{2\}\lor(3,+\infty)$$
+
+
 > [!hint] What are we actually doing?
 > The original question is: **When is this function positive?**
 > We find the answer by:
@@ -307,13 +313,8 @@ $\large x-3>0 \quad \rightarrow \quad x > 3$
 >   
 > This works because the little functions always multiply each other at every point, and their signs get multiplied too, so when we have two negative factors it multiplies to positive.
 > ![](../z_images/Senza%20titolo-1%203.png)
-> $$\Large x \in \quad(-\infty,1] \lor \{2\}\lor(3,+\infty)$$
 > 
 > The two is included because the $\geq$ counts as a positive sign too (and negative otherwise).
-
-
-
-![](../../z_images/20241008_084917%201.jpg)
 
 
 > [!example]
