@@ -155,7 +155,7 @@ $$\Large \begin{cases} x+3 > 4^2 \\ \dots \end{cases}$$
 > [!hint]
 > If we just square everything, then the square root limitation of **argument always > 0 isn't enforced anymore**, so we need to enforce it in the system.
 > 
-> Otherwise, this is **NOT** the same equation.
+> Otherwise, this is **NOT** equal to a square root.
 
 $$\Large \begin{cases} x+3 > 4^2 \\ x+3 \geq 0\end{cases}$$
 
@@ -178,7 +178,7 @@ $$\Large \begin{cases} x+3 > 4^2 \\ x+3 \geq 0\end{cases}$$
 
 But the square root is always greater than a negative number, so the green interval from before should be included too, how do we fix this?
 
-We need to "manually" include the interval that we lost, that would be:
+We need to "manually" include the interval that we lost:
 
 $$\Large \begin{cases} -4 <0 \\ x+3 \geq 0\end{cases}$$
 So in this case:
@@ -242,30 +242,79 @@ Which makes the system impossible in this specific instance.
 > [!hint]
 > If you look at the original inequality, you can already tell that it's impossible because a square root can never be negative.
 
----
+> [!warning]
+> ##### OBVIOUSLY
+> In these examples the right part is always constant, but all these intuitions are for when the right part is a function.
 
-> [!example]
-> $$\large \frac{(x-1)(x^2-4x+4)}{x-3}>=0$$
+> [!note] Non-even roots
+> $$\Large x+2>=^3\sqrt{x+2}$$
 > 
-> $x-1 >= 0 \quad <=> \quad x>=1 \quad <=> \quad x\in [1,+\inf)$
-> $x^2-4x+4>=0 \quad <=> \quad x \in \mathbb{R}=(-\inf, +\inf)$ (equal to $(a+b)^2$? which is always positive.
-> $x-3>0 \quad <=> \quad x > 3 \quad <=> \quad x \in (3, +\inf)$
+> The condition $\text{arg}\geq0$ is no more.
+> We put both sides to the **power of 3** and **solve as a polynomial**.
 > 
-> ![](../../z_images/20241008_084917%201.jpg)
-
-> [!example]
-> $$\large x+2>=^3\sqrt{x+2}$$
-> 
-> $A>= \sqrt{B}^3 \quad <=> \quad A^3 >= (^3\sqrt{B})^3$
-> $(x+2)^3 >= (x+2)$ (the original inequality is equal to this one)
-> $(x+2)((x+2)^2-1)>=0$
-> $(x+2)(x+3)(x+1)$
+> $$\Large A>= \sqrt{B}^3 \quad <=> \quad A^3 >= (^3\sqrt{B})^3$$
+> $$\large(x+2)^3 >= (x+2)$$
+> $$\large(x+2)((x+2)^2-1)>=0$$
+> $$\large(x+2)(x+3)(x+1)$$
 > ![](../../z_images/Pasted%20image%2020241008090316.png)
 > 
 > $$\large x \in [-3, -2]\cup [-1, +\inf)$$
 > 
 > $a^3-b^3=(a-b)(a^2+ab+b^2) \qquad \forall a,b \in \mathbb{R}$
 > ???
+
+
+---
+
+## Inequalities with polynomials
+
+Here you need to [factor](How%20to%20factor.md) the polynomials to get the basic factors and then put them on the number line to study where the sign is positive.
+
+$$\Large x^2-4x+4\geq0$$
+
+We factor it:
+
+$$\Large (x-2)(x-2)\geq 0$$
+
+Then we put every factor into the number line and we compute the positivity:
+
+![](../z_images/Pasted%20image%2020250221110721.png)
+
+And the formal result is:
+
+$$\Large x \in \mathbb{R}=(-\infty, +\infty)$$
+
+
+---
+
+## Fractional inequalities
+
+$$\Large \frac{(x-1)(x^2-4x+4)}{x-3}>=0$$
+
+When everything is polynomial, put numerator $\geq 0$ and denominator $>0$, then factor everything and add each factor to the number line:
+
+$\large x-1 \geq 0 \quad \rightarrow \quad x\geq1$
+$\large x^2-4x+4\geq0 \quad \rightarrow\quad x\geq 2 \quad\&\quad x\geq 2$
+$\large x-3>0 \quad \rightarrow \quad x > 3$
+
+> [!hint] What are we actually doing?
+> The original question is: **When is this function positive?**
+> We find the answer by:
+> - decomposing the function in **little sub-functions that multiply each other** (factors)
+> $$\large \frac{\underbracket{f(x)}_{x-1}\cdot \underbracket{g(x)}_{x-2} \cdot \underbracket{h(x)}_{x-2}}{\underbracket{m(x)}_{x-3}}\geq 0$$
+> - check where the little functions are positive and where they are negative
+> - multiply their sign at each point to get the overall sign (at each point).
+>   
+> This works because the little functions always multiply each other at every point, and their signs get multiplied too, so when we have two negative factors it multiplies to positive.
+> ![](../z_images/Senza%20titolo-1%203.png)
+> $$\Large x \in \quad(-\infty,1] \lor \{2\}\lor(3,+\infty)$$
+> 
+> The two is included because the $\geq$ counts as a positive sign too (and negative otherwise).
+
+
+
+![](../../z_images/20241008_084917%201.jpg)
+
 
 > [!example]
 > $$\large \frac{x-\sqrt{x+2}}{x^2-3x+2}>0$$

@@ -1,3 +1,9 @@
+---
+aliases:
+  - factor
+  - factorization
+  - factorize
+---
 ## 3 terms, first coefficient $= 1$
 
 $$\Large x^2+7x+12$$
