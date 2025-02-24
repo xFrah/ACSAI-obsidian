@@ -109,6 +109,11 @@ The actual function doesn't need to be defined at that point for the limit to ex
 
 ## Infinities
 
+> [!note]
+> $$\large\frac{1}{\infty}\text{ approaches }0$$
+> $$\large \frac{1}{0} \text{ approaches }\infty$$
+
+
 ### Division by zero
 
 Consider the limit:
@@ -159,6 +164,22 @@ Some function grow faster than others.
 If we have two functions that go to infinity inside another function, we say that the function goes to the infinity that grows faster.
 
 $$\Large \ln(x)<x^a<e^x<x!$$
+
+> [!example]
+> $$\Large \lim_{z \to \infty} \frac{4z^2 + z^6}{1 - 5z^3}$$
+> Try to simplify, because some factors might cancel out:
+> $$\Large \lim_{z \to \infty} \frac{z^3 \left( \frac{4}{z} + z^3 \right)}{z^3 \left( \frac{1}{z^3} - 5 \right)}$$
+> $$\Large \lim_{z \to \infty} \frac{ \frac{4}{z} + z^3}{\frac{1}{z^3} - 5}$$
+> We are done simplifying, substitute the value of $z$:
+> $$\Large \lim_{z \to \infty} \frac{ \frac{4}{\infty} + \infty}{\frac{1}{\infty} - 5}$$
+> $\Large\frac{n}{\infty}$ goes to 0:
+> $$\Large \lim_{z \to \infty} \frac{ 0 + \infty}{0 - 5}=\frac{\infty}{-5}=-\infty$$
+
+> [!warning]
+> More exercises are needed here.
+
+---
+
 ## Properties
 
 ![](../z_images/Pasted%20image%2020250105155334.png)![](../z_images/Pasted%20image%2020250105155345.png)
