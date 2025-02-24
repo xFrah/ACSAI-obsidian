@@ -85,15 +85,80 @@ These are the precise cases:
 > It can also happen that both limits and the function are defined, but the function is just at another point.
 > ![](../z_images/Pasted%20image%2020250222110121.png)
 
-> [!abstract] Limit existence
-> A limit is said to exist if Left limit **=** Right limit:
-> 
-> $$\Large \lim_{x\rightarrow a^+}f(x)=\lim_{x\rightarrow a^-}f(x) = L$$
-> 
-> $$\Large \lim_{x\rightarrow a}f(x)=L$$
+
+### Limit existence
+
+A limit is said to exist if Left limit **=** Right limit:
+
+$$\Large \lim_{x\rightarrow a^+}f(x)=\lim_{x\rightarrow a^-}f(x) = L$$
+
+$$\Large \lim_{x\rightarrow a}f(x)=L$$
+
+The actual function doesn't need to be defined at that point for the limit to exist.
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020250107111902.png)
+> 1. Jump (limit doesn't exist and function is defined)
+> 2. Continuous (limit exists and function is defined)
+> 3. Hole (limit exists, function is defined but not equal to the limit)
+
+> [!note] Intermediate Value Theorem
+> ![](../z_images/Pasted%20image%2020250107112106.png)
 
 ---
 
+## Infinities
+
+### Division by zero
+
+Consider the limit:
+
+$$\Large \lim_{x\rightarrow0}\frac{1}{x}$$
+
+If we directly plug in the value, we get a division by zero and we can't do anything about it.
+But what about aroun that point?
+
+$$\Large \lim_{x\rightarrow0^-}\frac{1}{x} = -\infty\qquad\lim_{x\rightarrow0^+}\frac{1}{x}=\infty$$
+
+![](../z_images/Pasted%20image%2020250224095202.png)
+
+> [!hint]
+> From the left side ($\lim_{x \to 0^-} \frac{1}{x}$):
+> $$\begin{align*}
+> \text{When } x &= -0.1, \frac{1}{x} = -10 \\
+> \text{When } x &= -0.001, \frac{1}{x} = -1000 \\
+> \text{When } x &= -0.00001, \frac{1}{x} = -100000 \\
+> \end{align*}$$
+> 
+> From the right side ($\lim_{x \to 0^+} \frac{1}{x}$):
+>
+> $$\begin{align*}
+\text{When } x &= 0.1, \frac{1}{x} = 10 \\
+\text{When } x &= 0.001, \frac{1}{x} = 1000 \\
+\text{When } x &= 0.00001, \frac{1}{x} = 100000 \\
+\end{align*}$$
+
+
+### Polynomial growth
+
+Consider the function:
+
+$$\Large f(x)=x^2$$
+
+The function grows arbitrarily large in both directions:
+
+$$\Large\lim_{x\rightarrow\infty^-}x^2 = \infty \qquad \lim_{x\rightarrow\infty^+}x^2 = \infty$$
+
+![](../z_images/Pasted%20image%2020250224101302.png)
+
+---
+
+## Order of infinities
+
+Some function grow faster than others.
+If we have two functions that go to infinity inside another function, we say that the function goes to the infinity that grows faster.
+
+$$\Large \ln(x)<x^a<e^x<x!$$
 ## Properties
 
 ![](../z_images/Pasted%20image%2020250105155334.png)![](../z_images/Pasted%20image%2020250105155345.png)

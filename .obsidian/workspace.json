@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -228,6 +229,16 @@
   },
   "active": "b8771b23f93339ca",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/z_images/Pasted image 20250224101302.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250224095202.png",
+    "NOTES-MARKDOWN/Calculus/Logarithm properties.md",
+    "NOTES-MARKDOWN/Calculus/Finding roots.md",
+    "NOTES-MARKDOWN/Calculus/Inverse functions.md",
+    "NOTES-MARKDOWN/Calculus/Limits.md",
+    "NOTES-MARKDOWN/Calculus/Continuity.md",
+    "NOTES-MARKDOWN/Calculus/Differentiation formulas.md",
+    "NOTES-MARKDOWN/Calculus/How to factor.md",
+    "NOTES-MARKDOWN/Calculus/Inequalities.md",
     "NOTES-HTML/Calculus 2/Probably garbage/Functions with several variables.md",
     "NOTES-HTML/Computer Architecture 1/Videos recaps/Lecture 2.md",
     "NOTES-HTML/Computer Architecture 1/Videos recaps/Lecture 2.html",
@@ -255,7 +266,6 @@
     "NOTES-HTML/z_images/prob2.png",
     "NOTES-HTML/z_images/prob1.png",
     "NOTES-HTML/z_images/Pasted image 20250222110121.png",
-    "NOTES-HTML/z_images/Pasted image 20250222105250.png",
     "NOTES-HTML/Statistics/Z-score.md",
     "NOTES-HTML/Statistics/Z-score.html",
     "NOTES-HTML/Statistics/Variance.md",
@@ -265,15 +275,6 @@
     "NOTES-HTML/Statistics/Significance Test.md",
     "NOTES-HTML/Statistics/Significance Level.md",
     "NOTES-HTML/Statistics/Sampling distributions.md",
-    "NOTES-HTML/Statistics/Regression.md",
-    "NOTES-HTML/Statistics/Normal distribution.md",
-    "NOTES-HTML/Statistics/Mode.md",
-    "NOTES-HTML/Statistics/Median.md",
-    "NOTES-HTML/Statistics/Measures of Position.md",
-    "NOTES-HTML/Statistics/Expected value.md",
-    "NOTES-HTML/Statistics/Estimation.md",
-    "NOTES-HTML/Statistics/Empirical rule.md",
-    "NOTES-HTML/Statistics/Covariance.md",
     "Machine Learning/Untitled.canvas"
   ]
 }
