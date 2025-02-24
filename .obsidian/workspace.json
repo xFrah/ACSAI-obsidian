@@ -123,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "4a058683a6864a61",
@@ -159,12 +158,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus/Inequalities.md",
+                "file": "NOTES-MARKDOWN/Calculus/Limits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Inequalities"
+              "title": "Outgoing links from Limits"
             }
           },
           {
@@ -229,16 +228,28 @@
   },
   "active": "b8771b23f93339ca",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Calculus/Inequalities.md",
+    "NOTES-MARKDOWN/Calculus/Limits.md",
+    "NOTES-MARKDOWN/Calculus/Inverse functions.md",
+    "NOTES-MARKDOWN/Calculus/Trigonometry.md",
+    "NOTES-MARKDOWN/Calculus/Logarithm properties.md",
+    "NOTES-MARKDOWN/Calculus/How to factor.md",
+    "NOTES-MARKDOWN/Calculus/Finding roots.md",
+    "NOTES-MARKDOWN/Calculus/Exponentials properties.md",
+    "NOTES-MARKDOWN/Calculus/Domain and Range.md",
+    "NOTES-MARKDOWN/Calculus/Differentiation formulas.md",
+    "NOTES-MARKDOWN/Calculus/[WIP] Powers properties.md",
+    "NOTES-MARKDOWN/Calculus/[WIP] Function shapes.md",
+    "NOTES-MARKDOWN/Calculus/old/Powers.md",
+    "NOTES-MARKDOWN/Calculus/old/Exponentials and Logarithms.md",
+    "NOTES-MARKDOWN/Calculus/old/Cartesian coordinates.md",
+    "NOTES-MARKDOWN/Calculus/old/Linear systems.md",
+    "NOTES-MARKDOWN/Calculus/old/Modulus of real numbers.md",
+    "NOTES-MARKDOWN/Calculus/old/Partial derivatives.md",
+    "NOTES-MARKDOWN/Calculus/old/Limits.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20250224101302.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250224095202.png",
-    "NOTES-MARKDOWN/Calculus/Logarithm properties.md",
-    "NOTES-MARKDOWN/Calculus/Finding roots.md",
-    "NOTES-MARKDOWN/Calculus/Inverse functions.md",
-    "NOTES-MARKDOWN/Calculus/Limits.md",
     "NOTES-MARKDOWN/Calculus/Continuity.md",
-    "NOTES-MARKDOWN/Calculus/Differentiation formulas.md",
-    "NOTES-MARKDOWN/Calculus/How to factor.md",
-    "NOTES-MARKDOWN/Calculus/Inequalities.md",
     "NOTES-HTML/Calculus 2/Probably garbage/Functions with several variables.md",
     "NOTES-HTML/Computer Architecture 1/Videos recaps/Lecture 2.md",
     "NOTES-HTML/Computer Architecture 1/Videos recaps/Lecture 2.html",
@@ -252,10 +263,7 @@
     "NOTES-HTML/Calculus/old/Linear systems.md",
     "NOTES-HTML/Calculus/old/Limits.html",
     "NOTES-HTML/Calculus/old/Exponentials and Logarithms.html",
-    "NOTES-HTML/Calculus/old/Cartesian coordinates.md",
     "NOTES-HTML/Calculus/old/Linear systems.html",
-    "NOTES-HTML/Calculus/old/Limits.md",
-    "NOTES-HTML/Calculus/old/Exponentials and Logarithms.md",
     "NOTES-HTML/Calculus/old/Cartesian coordinates.html",
     "NOTES-HTML/z_images/walter-white-fuck-you-walt-fuck-you.gif",
     "NOTES-HTML/z_images/Untitled.png",
@@ -265,16 +273,7 @@
     "NOTES-HTML/z_images/samplingproportion.gif",
     "NOTES-HTML/z_images/prob2.png",
     "NOTES-HTML/z_images/prob1.png",
-    "NOTES-HTML/z_images/Pasted image 20250222110121.png",
-    "NOTES-HTML/Statistics/Z-score.md",
     "NOTES-HTML/Statistics/Z-score.html",
-    "NOTES-HTML/Statistics/Variance.md",
-    "NOTES-HTML/Statistics/Variable types.md",
-    "NOTES-HTML/Statistics/Standard Error.md",
-    "NOTES-HTML/Statistics/Standard Deviation.md",
-    "NOTES-HTML/Statistics/Significance Test.md",
-    "NOTES-HTML/Statistics/Significance Level.md",
-    "NOTES-HTML/Statistics/Sampling distributions.md",
     "Machine Learning/Untitled.canvas"
   ]
 }

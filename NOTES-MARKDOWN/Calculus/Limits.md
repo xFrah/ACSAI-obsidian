@@ -18,7 +18,7 @@ The solution to a limit is what $y$ the function approaches as we get closer and
 
 You can either do it:
 - **empirically**: actually computing the numbers close to the point.
-- **algebraically**: factor numerator and denominator to **remove the division by zero**.
+- **algebraically**: [factor](How%20to%20factor.md) numerator and denominator to **remove the division by zero**.
 
 For example, if we factor the function above, we get:
 
@@ -164,6 +164,16 @@ Some function grow faster than others.
 If we have two functions that go to infinity inside another function, we say that the function goes to the infinity that grows faster.
 
 $$\Large \ln(x)<x^a<e^x<x!$$
+
+### How to solve exercises
+
+1. Always group/factor out the largest exponential (largest one in the whole function)
+
+$$\Large \mathop {\lim }\limits_{t \to  - \infty } \frac{{{t^2} - 5t - 9}}{{2{t^4} + 3{t^3}}} = \mathop {\lim }\limits_{t \to  - \infty } \frac{{{t^4}\left( {\frac{1}{{{t^2}}} - \frac{5}{{{t^3}}} - \frac{9}{{{t^4}}}} \right)}}{{{t^4}\left( {2 + \frac{3}{t}} \right)}}$$
+
+2. Use the fact that $\Large\frac{n}{\infty}$ goes to 0 to kill numbers.
+
+$$\Large\mathop {\lim }\limits_{t \to  - \infty } \frac{{\frac{1}{{{t^2}}} - \frac{5}{{{t^3}}} - \frac{9}{{{t^4}}}}}{{2 + \frac{3}{t}}}\\ \Large = \lim_{t \to  - \infty} \frac{0 - 0 - 0}{2 + 0} = \frac{0}{2}$$
 
 > [!example]
 > $$\Large \lim_{z \to \infty} \frac{4z^2 + z^6}{1 - 5z^3}$$
