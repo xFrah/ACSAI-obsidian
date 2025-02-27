@@ -185,8 +185,8 @@ $$\Large\mathop {\lim }\limits_{t \to  - \infty } \frac{{\frac{1}{{{t^2}}} - \fr
 > $\Large\frac{n}{\infty}$ goes to 0:
 > $$\Large \lim_{z \to \infty} \frac{ 0 + \infty}{0 - 5}=\frac{\infty}{-5}=-\infty$$
 
-> [!warning]
-> More exercises are needed here.
+> [!hint]
+> ![](../z_images/Pasted%20image%2020250224173258.png)
 
 ---
 
