@@ -1,11 +1,11 @@
-![](../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2009.16.46_cac8eb0e.jpg)
+![](../../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2009.16.46_cac8eb0e.jpg)
 
 First we break down the initial velocity into its horizontal and vertical components:
 $$\large v_{x0} = v_0 \cdot \cos(\alpha)$$
 
 $$\large v_{y0} = v_0 \cdot \sin(\alpha)$$
 
-![](../z_images/Pasted%20image%2020240319152904.png)
+![](../../z_images/Pasted%20image%2020240319152904.png)
 
 We know that the acceleration in the horizontal component is 0, it is a constant velocity. Meanwhile in the vertical component we have an acceleration of $-g$:
 $$\large a_x = 0,\quad y = -g$$
@@ -43,7 +43,7 @@ $$\large y(t) = y_0 + v_{y0} t - \frac{1}{2} g t^2$$
 
 ## Trajectory equation
 
-![](../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2009.24.35_58d72c74.jpg)
+![](../../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2009.24.35_58d72c74.jpg)
 
 The following equation tells us at $y$ the object is at position $x$ (time is no more).
 
@@ -76,7 +76,7 @@ $$\large y = y_0 + \tan(\alpha)(x - x_0) - \frac{1}{2}g\frac{(x - x_0)^2}{(v_0 \
 
 ## Horizontal reach
 
-![](../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2009.30.33_4b89e48d.jpg)
+![](../../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2009.30.33_4b89e48d.jpg)
 
 $$\large R = v_{x0}\cdot t_R = v_{x} \cos \theta_0 \cdot t_R$$
 
@@ -87,13 +87,13 @@ $$\large R = v_{x0}\cdot t_R = v_{x} \cos \theta_0 \cdot t_R$$
 
 ## Maximum height
 
-![](../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2009.35.22_f4726dd5.jpg)
+![](../../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2009.35.22_f4726dd5.jpg)
 
 
 > [!example] Exercise
-> ![](../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2010.05.58_7492ee1c.jpg)
-> ![](../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2010.19.34_e137f933.jpg)
+> ![](../../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2010.05.58_7492ee1c.jpg)
+> ![](../../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2010.19.34_e137f933.jpg)
 
 > [!example] Exercise
-> ![](../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2010.24.31_ace8d80e.jpg)
-> ![](../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2011.02.24_7ef08cf9.jpg)
+> ![](../../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2010.24.31_ace8d80e.jpg)
+> ![](../../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2011.02.24_7ef08cf9.jpg)

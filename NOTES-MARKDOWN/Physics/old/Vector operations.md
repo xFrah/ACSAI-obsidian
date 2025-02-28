@@ -36,11 +36,11 @@ $|\vec{a}|$ is the magnitude of the vector.
 
 ### Cross product???????
 
-![](../z_images/Immagine%20WhatsApp%202024-02-26%20ore%2011.09.12_38062549.jpg)
+![](../../z_images/Immagine%20WhatsApp%202024-02-26%20ore%2011.09.12_38062549.jpg)
 
 
 > [!example] Exercise
-> ![](../z_images/Immagine%20WhatsApp%202024-02-26%20ore%2011.16.03_5d53c767.jpg)
+> ![](../../z_images/Immagine%20WhatsApp%202024-02-26%20ore%2011.16.03_5d53c767.jpg)
 > 
 > The **dot product** is computed as follows:
 > $$\large\vec{A} \cdot \vec{B} = (2)(-4) + (-3)(-3) + (1)(2) = 3$$

@@ -1,7 +1,7 @@
 ## Conservation of mechanical energy
 
 let v be a vector associated to vertical velocity of an object
-![](../z_images/Pasted%20image%2020240311091741.png)
+![](../../z_images/Pasted%20image%2020240311091741.png)
 
 - the object can go up
 - If v - gt = 0 the object stops.
@@ -16,7 +16,7 @@ When the object goes down, its accelerating. Kinetic energy goes up and potentia
 
 > [!example]
 > 
-![](../z_images/Immagine%20WhatsApp%202024-03-11%20ore%2009.26.09_e34e9097.jpg)
+![](../../z_images/Immagine%20WhatsApp%202024-03-11%20ore%2009.26.09_e34e9097.jpg)
 
 ---
 
@@ -28,8 +28,8 @@ When the object goes down, its accelerating. Kinetic energy goes up and potentia
 These are gravity and elastic force
 
 > [!example]
-> ![](../z_images/Immagine%20WhatsApp%202024-03-11%20ore%2009.33.24_f128175c.jpg)
-![](../z_images/Immagine%20WhatsApp%202024-03-11%20ore%2009.37.44_71ddf431.jpg)
+> ![](../../z_images/Immagine%20WhatsApp%202024-03-11%20ore%2009.33.24_f128175c.jpg)
+![](../../z_images/Immagine%20WhatsApp%202024-03-11%20ore%2009.37.44_71ddf431.jpg)
 
 
 A conservative force is always the result of variation in potential energy.
@@ -48,7 +48,7 @@ $$\large \Delta U + \Delta K = \Delta E^\text{micc}=0$$
 > [!warning] Not in the exam
 > if newtonians mechanics are at work, mechanical energy is conserved, in order for mechanical energy to be conserved we need to satisfy the second law of newton.
 > 
-> ![](../z_images/Immagine%20WhatsApp%202024-03-11%20ore%2009.56.05_a40f4058.jpg)
+> ![](../../z_images/Immagine%20WhatsApp%202024-03-11%20ore%2009.56.05_a40f4058.jpg)
 
 ---
 
@@ -79,7 +79,7 @@ $$\large U_f = \frac{-GmM_t}{vf}$$
 Is that an r in the formula or a v wtf???
 
 > [!warning] Actual blackboard for this formulas
-> ![](../z_images/Immagine%20WhatsApp%202024-03-11%20ore%2010.16.20_1dcbf720.jpg)
+> ![](../../z_images/Immagine%20WhatsApp%202024-03-11%20ore%2010.16.20_1dcbf720.jpg)
 
 ### Approximation for points close to the earth's surface
 

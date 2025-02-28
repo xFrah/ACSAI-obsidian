@@ -18,4 +18,4 @@ Whenever an objects exerts a force on another object, **the second object exerts
 
 ???
 
-![](../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2011.27.38_ee3f49e6.jpg)
+![](../../z_images/Immagine%20WhatsApp%202024-03-04%20ore%2011.27.38_ee3f49e6.jpg)
