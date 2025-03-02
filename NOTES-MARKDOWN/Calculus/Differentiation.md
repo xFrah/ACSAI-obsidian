@@ -5,12 +5,35 @@ Where $x + h$ is a point that approaches $x$.
 
 The result is a function that gives the slope of the original function at every point.
 
-## When can you differentiate
+## Points of non differentiability
+
+![](../z_images/Pasted%20image%2020250302100956.png)
+> [!hint]
+> - **Any discontinuity** in a function automatically creates a **point of non-differentiability**.
+> - A function cannot possess a derivative at points **where it's not defined**.
+> - The derivative is not defined when it yields $\infty$.
+
+### Vertical Tangent
+
+The derivative there is equal to $\infty$. Meaning the original function is completely vertical there.
+
+![](../z_images/Pasted%20image%2020250302110114.png)
+
+You can search for these by checking where the denominator of the derivative becomes 0.
+
+### Discontinuity
 
 Differentiability **requires** continuity.
-But a continuous function can be non-differentiable.
 
-Basically the left-hand derivative and right-hand derivative of a point must be the same.
+> [!warning]
+> A continuous function can be non-differentiable.
+> > [!example]
+> $\large f(x)= |x|$ is continuous, but it's still not differentiable.
+
+
+### Cusp / Corner
+
+The left-hand derivative and right-hand derivative of a point are not the same.
 
 > [!example]
 > ![](../z_images/Pasted%20image%2020250227154749.png)
@@ -19,6 +42,7 @@ Basically the left-hand derivative and right-hand derivative of a point must be 
 > But the derivative from left and right isn't the same, because at $x=0$ the slope changes abruptly.
 > 
 > In this case, the left hand derivative is $f'(x)=-1$ and the right one is $f'(x)=1$. This is called a sharp corner.
+
 
 ## Properties
 
