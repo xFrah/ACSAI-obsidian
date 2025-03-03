@@ -2,7 +2,6 @@
 
 First we break down the initial velocity into its horizontal and vertical components:
 $$\large v_{x0} = v_0 \cdot \cos(\alpha)$$
-
 $$\large v_{y0} = v_0 \cdot \sin(\alpha)$$
 
 ![](../../z_images/Pasted%20image%2020240319152904.png)
