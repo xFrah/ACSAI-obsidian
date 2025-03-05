@@ -156,6 +156,19 @@ $$\Large\lim_{x\rightarrow\infty^-}x^2 = \infty \qquad \lim_{x\rightarrow\infty^
 
 ![](../z_images/Pasted%20image%2020250224101302.png)
 
+
+## De l’Hôpital’s Theorem
+
+Sometimes we have an indeterminate form such as $\large \frac{0}{0}$.
+In order to turn it into something solvable, we use this theorem.
+
+$$\Large \lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{f'(x)}{g'(x)}$$
+
+> [!note]
+> ![](../z_images/Pasted%20image%2020250305115752.png)
+> Meaning beside the form $\large \frac{0}{0}$
+
+
 ---
 
 ## Order of infinities

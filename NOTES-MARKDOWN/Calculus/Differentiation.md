@@ -43,6 +43,7 @@ The left-hand derivative and right-hand derivative of a point are not the same.
 > 
 > In this case, the left hand derivative is $f'(x)=-1$ and the right one is $f'(x)=1$. This is called a sharp corner.
 
+---
 
 ## Properties
 
@@ -57,13 +58,19 @@ The **derivative of a scalar product** is the **scalar $\cdot$ derivative** of t
 
 **Quotient** rule:
 ![](../z_images/Pasted%20image%2020250103124812.png)
+
 ## Formulas
 
+> [!danger] Composite functions
+> For example, you can't treat $e^{9(x-9)}$ as $e^x$.
+> The first one is a composite function and needs to be evaluated through the chain rule.
+ 
+
 The derivative of a **constant** is 0.
-![](../z_images/Pasted%20image%2020250103121338.png)
+$$\Large d(c) \quad \Rightarrow \quad 0$$
 
 **Power** rule:
-![](../z_images/Pasted%20image%2020250103121354.png)
+$$\Large d(x^n)\quad \Rightarrow \quad nx^{n-1}$$
 
 > [!hint]
 > This is the reason why a variable with exponent 1 becomes 1.

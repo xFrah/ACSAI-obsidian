@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"NOTES-MARKDOWN/Linear Algebra\"  ",
@@ -83,9 +83,16 @@
         "a": 1,
         "rgb": 65471
       }
+    },
+    {
+      "query": "path:NOTES-MARKDOWN/Physics  ",
+      "color": {
+        "a": 1,
+        "rgb": 104507
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -95,6 +102,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7104699382090663,
+  "scale": 0.8077122648734704,
   "close": true
 }
