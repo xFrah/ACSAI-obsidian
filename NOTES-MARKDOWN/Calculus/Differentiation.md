@@ -89,7 +89,23 @@ Derivatives of **exponentials** and **logarithms**:
 
 
 ## Chain rule
-### WIP
+
+We use this when we need to derive composite functions, meaning functions of functions.
+
+$$\Large F'(x)=f'(g(x))\cdot g'(x)$$
+
+> [!example]
+> Consider:
+> $$\Large f(x)=\sqrt{x-1}$$
+> which can be turned into:
+> $$\Large f(x)=(x-1)^{\frac{1}{2}}$$
+> 
+> Apply the chain rule:
+> 
+> $$\Large f'(x)=\underbracket{\frac{1}{2}\cdot\frac{1}{(x-1)^{\frac{1}{2}}}}_{\text{outer}}\cdot \underbracket{1}_{\text{inner}}$$
+> 
+
+
 ---
 
 > [!abstract] Links
