@@ -81,8 +81,14 @@ Derivatives of **trigonometric functions**:
 
 ![](../z_images/Pasted%20image%2020250104165949.png)
 
-Derivatives of **exponentials** and **logarithms**:
-![](../z_images/Pasted%20image%2020250104165320.png)
+Derivatives of **exponentials**:
+$$\Large d(e^x) \quad \Rightarrow \quad e^x$$
+$$\Large d(a^x) \quad \Rightarrow \quad a^x\ln a$$
+
+Derivatives of **logarithms**:
+
+$$\Large d(\ln x)=\frac{1}{x}$$
+$$\Large d(\log_a x)=\frac{1}{x\ln a}$$
 
 > [!note]
 > ![](../z_images/Pasted%20image%2020250104165839.png)
