@@ -156,10 +156,47 @@ $$\Large\lim_{x\rightarrow\infty^-}x^2 = \infty \qquad \lim_{x\rightarrow\infty^
 
 ![](../z_images/Pasted%20image%2020250224101302.png)
 
+---
+
+## Standard limits
+
+![](../z_images/Pasted%20image%2020250309130245.png)
+
+> [!example] Using the $\frac{\sin x}{x}$ standard limit
+> $$\large \lim_{x\rightarrow 0}\frac{\sin(6x)}{9x}=\frac{6}{9}$$
+> Why? The key is to try to make the denominator equal to $u$, so that we can use the standard limit $\frac{\sin (u)}{u}$:
+> $$\large \frac{\sin(6x)}{1}\cdot\frac{1}{9x}$$
+> Then assume $u=6x$, the argument of the $\sin$:
+> $$\large \frac{\sin(u)}{1}\cdot\frac{1}{9x}$$
+> Then we can do this manipulation since the equation stays the same:
+> $$\large \frac{\sin(u)}{u}\cdot\frac{u}{9x}$$
+> And now we apply the standard limit, that tells us that $\frac{\sin (u)}{u} = 1$:
+> $$\large 1\cdot\frac{u}{9x} \quad\Rightarrow\quad \frac{6x}{9x}$$
+> 
+> > [!warning] What if $x \rightarrow \infty$?
+> When x tends to $\infty$, the numerator oscillates while the denominator grows to infinity, meaning that the fraction goes to 0.
+> > 
+> > $$\large \lim_{x\rightarrow \infty}\frac{\sin(6x)}{9x}=0$$
+
+
+
+---
 
 ## De l’Hôpital’s Theorem
 
 Sometimes we have an indeterminate form such as $\large \frac{0}{0}$.
+
+> [!danger]
+> Other important cases to watch for:
+> 
+> - $\frac{\infty}{\infty}$  (both grow without bound)
+> - $0⋅∞$
+> - $∞−∞$
+> - $1^\infty$
+>   
+> If we have one of these it's **A MUST**, to go further with De l’Hôpital’s theorem. Everything else we don't care because they are determinate forms.
+
+
 In order to turn it into something solvable, we use this theorem.
 
 $$\Large \lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{f'(x)}{g'(x)}$$
@@ -176,7 +213,7 @@ $$\Large \lim_{x\rightarrow x_0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow x_0}\frac{f
 Some function grow faster than others.
 If we have two functions that go to infinity inside another function, we say that the function goes to the infinity that grows faster.
 
-$$\Large \ln(x)<x^a<e^x<x!$$
+$$\Large \ln(x)<x^a<e^x<x!<x^x$$
 
 ### How to solve exercises
 
@@ -200,6 +237,13 @@ $$\Large\mathop {\lim }\limits_{t \to  - \infty } \frac{{\frac{1}{{{t^2}}} - \fr
 
 > [!hint]
 > ![](../z_images/Pasted%20image%2020250224173258.png)
+
+> [!warning]
+> Sometimes, the numerator and denominator both go to 0, but remember that the function that grows faster will also go to 0 faster!
+> 
+> $$\large \lim_{x\rightarrow 0}\frac{x^3}{x^2}=0$$
+> 
+> Because $x^3$ will reach 0 faster than $x^2$.
 
 ---
 
@@ -240,7 +284,6 @@ https://tutorial.math.lamar.edu/Classes/CalcI/ComputingLimits.aspx
 
 Asymptote definition:
 ![](../z_images/Pasted%20image%2020250106222412.png)
-
 
 ![](../z_images/Pasted%20image%2020250107105300.png)
 
