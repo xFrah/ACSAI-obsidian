@@ -2,7 +2,7 @@
 alias: Gradients
 ---
 
-The gradient of a multivariate function is a vector that contains all its [partial derivatives](../Calculus/old/Partial%20derivatives.md).
+The gradient of a multivariate function is a vector that contains all its [partial derivatives](../Calculus/Partial%20derivatives.md).
 
 $$\large\nabla f=\begin{bmatrix}
 \LARGE\frac{\partial f}{\partial x} \\

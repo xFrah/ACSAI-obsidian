@@ -30,7 +30,7 @@ $$\large\mathcal{J}(\theta;x,y)= \frac{1}{2} \sum_{i=1}^{n}\mathcal{L}\big(y_{i}
 
 2. We take the gradient of the loss function.
 
-3. We input $(x, y)$ into the gradient, which gives us the [[../Calculus/old/Partial derivatives|slope in every dimension]] of the curve at those inputs.
+3. We input $(x, y)$ into the gradient, which gives us the [[../Calculus/Partial derivatives|slope in every dimension]] of the curve at those inputs.
 
 4. We then take a small step towards the direction of steepest descent.
 
