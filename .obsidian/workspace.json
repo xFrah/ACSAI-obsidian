@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus/Partial derivatives.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/2. Fixed-point.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Partial derivatives"
+              "title": "2. Fixed-point"
             }
           },
           {
@@ -28,16 +28,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus/Differentiation.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/[EXAM] CA1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Differentiation"
+              "title": "[EXAM] CA1"
+            }
+          },
+          {
+            "id": "b87f2741540b73ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/3. Floating-point.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. Floating-point"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,9 +190,19 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "a58c5d7b02c935bd",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -197,30 +223,35 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "3fbe08ad2a0b5f0f",
+  "active": "65aeacc3e52dd53d",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Computer Architecture 1/2. Fixed-point.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/[EXAM] CA1.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/3. Floating-point.md",
+    "NOTES-MARKDOWN/Calculus/Differentiation.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/[EXERCISES] CA1.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/12. Timing.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/13. Sequential circuits.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/11. Decoder.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/15. Parallelism.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/14. Finite State Machines.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/8. PLA.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/6. Boolean Algebra.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/7. De Morgan's Theorem.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/5. SOP & POS.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/4. Combinational circuits.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/1. Integer numbers.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/0. Syllabus.md",
+    "NOTES-MARKDOWN/Calculus/Partial derivatives.md",
     "NOTES-MARKDOWN/Calculus/old/Powers.md",
     "NOTES-MARKDOWN/Calculus/old/Modulus of real numbers.md",
-    "NOTES-MARKDOWN/Calculus/Partial derivatives.md",
     "NOTES-MARKDOWN/Calculus/old/Linear systems.md",
     "NOTES-MARKDOWN/Calculus/old/Exponentials and Logarithms.md",
     "NOTES-MARKDOWN/Calculus/old/Cartesian coordinates.md",
     "NOTES-MARKDOWN/Calculus/Trigonometry.md",
     "NOTES-MARKDOWN/Calculus/Taylor Series.md",
     "NOTES-MARKDOWN/Calculus/Limits.md",
-    "NOTES-MARKDOWN/Calculus/Finding roots.md",
-    "NOTES-MARKDOWN/Calculus/Exponentials properties.md",
-    "NOTES-MARKDOWN/Calculus/Domain and Range.md",
-    "NOTES-MARKDOWN/Calculus/Differentiation.md",
-    "NOTES-MARKDOWN/Calculus/[EXAM] Calculus 1 Unit 1.md",
-    "NOTES-MARKDOWN/Calculus/Inequalities.md",
-    "NOTES-MARKDOWN/Calculus/[WIP] Powers properties.md",
-    "NOTES-MARKDOWN/Calculus/[WIP] Function shapes.md",
-    "NOTES-MARKDOWN/Calculus/How to factor.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20250328082321.png",
-    "NOTES-MARKDOWN/Calculus/Inverse functions.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/0. Syllabus.md",
-    "NOTES-MARKDOWN/Calculus/Logarithm properties.md",
     "Minecraft/minecraft_backups/mcserver_iojuijioj/mods/better-end-21.0.11.jar",
     "Minecraft/minecraft_backups/mcserver/mods/WilderWild-2.4.5-Fabric+1.21.jar",
     "Telefono/WhatsApp Documents/Sent/esp32-st7789-sendraw-20221118-v1.19.1.bin",
@@ -235,16 +266,11 @@
     "Telefono/DCIM/Screenshots/Screenshot_20241014_112620_Digital Wellbeing.jpg",
     "Telefono/DCIM/Screenshots/Screenshot_20240322_121823_Digital Wellbeing.jpg",
     "Telefono/DCIM/Screenshots/Screenshot_20240316_230752_Google Play Store.jpg",
-    "Minecraft/minecraft_backups/mcserver_iojuijioj/config/NoChatReports/README.md",
     "Telefono/WhatsApp Documents/Private/FOCS conceptual map/FOCS conceptual map.png",
     "Telefono/DCIM/Screenshots/Screenshot_20240313_102241_ReportOne by Framinia.jpg",
     "Telefono/DCIM/Screenshots/Screenshot_20240822_141520_Microsoft 365 (Office).jpg",
     "Telefono/DCIM/Screenshots/Screenshot_20240108_180947_Microsoft 365 (Office).jpg",
     "Telefono/WhatsApp Documents/Private/D8C2C6E5-2FAD-4B72-ADAE-F45A569172D6-export.webp",
-    "NOTES-MARKDOWN/Computer Architecture 1/2. Fixed-point.md",
-    "NOTES-MARKDOWN/Calculus U2/Recap first lectures.md",
-    "Untitled.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/Videos recaps/Lecture 2.md",
     "Machine Learning/Untitled.canvas"
   ]
 }

@@ -56,6 +56,45 @@ This exercise is asking you to:
 ![](../z_images/Pasted%20image%2020250113133407.png)
 ![](../z_images/Pasted%20image%2020250113132827.png)
 ![](../z_images/Pasted%20image%2020250210172917.png)
+
+### Decimal to Binary (EASY)
+
+For the integer part, we have to:
+1. Set to 1 the leftmost bit that would make the number still less than the number we want to convert. 
+2. Repeat until you convert it all.
+
+> [!example] Converting 18 to binary
+> 1. The fifth bit from the right would make the number 16, the sixth one 32, so we set the fifth bit to 1.
+>    $$\large 1 \cdot 2^4 + \text{?} \cdot 2^3 + \text{?} \cdot 2^2 + \text{?} \cdot 2^1 + \text{?} \cdot 2^0= 16+\text{?}$$
+>    
+>    
+> 2. The fourth bit would make the number 24 (16+8), which is higher than 18 so we don't set it.
+>    
+>    $$\large 1 \cdot 2^4 + 0 \cdot 2^3 + \text{?} \cdot 2^2 + \text{?} \cdot 2^1 + \text{?} \cdot 2^0$$
+>    
+> 3. The third bit would make the number 20, which is greater than 18 so we don't set it.
+>    
+>    $$\large 1 \cdot 2^4 + 0 \cdot 2^3 + 0 \cdot 2^2 + \text{?} \cdot 2^1 + \text{?} \cdot 2^0$$
+>    
+> 4. The second bit would make the number 18, so we set it and we stop here
+>    
+>    $$\large 1 \cdot 2^4 + 0 \cdot 2^3 + 0 \cdot 2^2 + 1 \cdot 2^1 + 0 \cdot 2^0$$
+
+
+Then for the fractional part we have to:
+1. Multiply by 2.
+2. If result is greater than 1, write 1, otherwise 0.
+3. Take result, put integer part to 0 and repeat step 1.
+
+> [!example] 0.625 to binary
+> - 0.625 × 2 = 1.25 → write 1, keep 0.25
+> - 0.25 × 2 = 0.5 → write 0, keep 0.5
+> - 0.5 × 2 = 1.0 → write 1, keep 0
+> - Since p is now 0, we're done
+> 
+> So 0.625₁₀ = 0.101₂
+
+
 ## Boolean algebra
 ![](../z_images/Pasted%20image%2020250113133443.png)
 ![](../z_images/Pasted%20image%2020250113132838.png)
