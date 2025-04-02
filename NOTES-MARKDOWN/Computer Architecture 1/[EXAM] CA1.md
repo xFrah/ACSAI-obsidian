@@ -135,6 +135,29 @@ Starting with a Fixed-point number:
 > - **Mantissa**: 23 bits
 > - **Bias**: 127
 
+### Operations
+
+> [!hint] Multiplication
+> ### Rules
+> - 0 × 0 = 0
+> - 0 × 1 = 0
+> - 1 × 0 = 0
+> - 1 × 1 = 1
+>   Remember the carries, when product is 1, add carry to left.
+>   
+> 1. Multiply the rightmost digit of one number by each digit of the other number, working left
+> 2. Add up all the partial products
+> 
+> ### Remember
+> - Multiply as if they were unsigned numbers.
+> - Number of digits after the point = digits after the decimal point in n1 + digits after decimal point in n2.
+> - Exponents must be summed and bias must be subtracted (or else you have bias x2).
+> 
+> > [!example]
+> > ![](../z_images/Pasted%20image%2020250402144327.png)
+
+
+
 
 ## Boolean algebra
 ![](../z_images/Pasted%20image%2020250113133443.png)
