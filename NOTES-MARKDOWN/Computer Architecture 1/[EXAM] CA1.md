@@ -93,6 +93,47 @@ Then for the fractional part we have to:
 > - Since p is now 0, we're done
 > 
 > So 0.625₁₀ = 0.101₂
+> 
+
+> [!hint]
+> For easier conversion, you can also think of it like this:
+> $$\large2^2+2^1+2^{-1}+2^{-2}=6.75$$
+> 
+> The fractional part is:
+> $$\large 1\cdot \frac{1}{2} + 1\cdot \frac{1}{4}= 0.75$$
+
+
+### Hex to binary
+
+> [!hint]
+> Each hex digit can hold 16 values $\rightarrow$ We need 4 bits to represent 16 values.
+> Basically we can convert any hex digit to a 4 bit number.
+
+
+Take each digit of the hex number and convert it to 4 bits binary.
+
+> [!example] Converting 0xC180 to binary
+> $$\large \underbracket{C}_{1100}\;\underbracket{1}_{0001}\;\underbracket{8}_{1000}\;\underbracket{0}_{0000}$$
+
+### Fixed-point to Floating-Point
+
+Starting with a Fixed-point number:
+- Multiply by 2 until you have only 1 bit (must be 1) on the decimal part.
+- Put the number of times you multiplied in the exponent.
+- Put the fractional part as the mantissa (floating-point assumes decimal part is 1).
+- Set the sign bit.
+
+> [!attention]
+> In the exam, usually the half-precision format is used, which is:
+> - **Exponent**: 5 bits
+> - **Mantissa**: 10 bits
+> - **Bias**: 15
+>   
+> In contrast with the single-precision format which is:
+>   
+> - **Exponent**: 8 bits
+> - **Mantissa**: 23 bits
+> - **Bias**: 127
 
 
 ## Boolean algebra
