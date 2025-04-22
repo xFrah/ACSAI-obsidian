@@ -1,0 +1,64 @@
+We now want to ask what function we differentiated to get the function $f'(x)$.
+The notation is as follows:
+
+$$\Large\int {{x^4} + 3x - 9} \;dx$$
+
+Where:
+- The function to integrate is the one between $\int$ and $dx$.
+- $dx$ indicates the variable selected for integration (here it's $x$).
+
+## Properties
+
+### Factoring out multiplicative constants
+
+$$\Large \int kf(x)\;dx\quad=\quad k\int f(x)\;dx$$
+
+> [!hint] Also works if $k=-1$
+> $$\Large \int -f(x)\; dx \quad = \quad -\int f(x)\;dx$$
+
+### Sum/Difference property
+
+$$\Large \int f(x)±g(x)\;dx\quad=\quad\int f(x)\;dx±\int g(x)\;dx$$
+
+![](../z_images/Pasted%20image%2020250422135214.png)
+
+---
+
+## How to
+
+If the integral is simple, we just guess what the function originated from, by using logic and by knowing how derivatives work. (*and adding $c$ at the end*)
+
+> [!hint] Constant term
+> We always add a constant term $c$ in the final result, because any constant will be eliminated by differentiating, and we can't know what it was originally.
+
+> [!example]
+> 
+> $$\Large\int {x^4} + 3x - 9$$
+> We know that:
+> - $\large \frac{d}{dx}(\frac{1}{5}x^5)=x^4$ 
+> - $\large \frac{d}{dx}(\frac{3}{2}x^2)=3x$
+> - $\large \frac{d}{dx}(-9x) = -9$
+>   
+> So the original function was:
+> 
+> $$\Large \frac{1}{5}x^5 + \frac{3}{2}x^2-9x+c$$
+
+
+## Substitution method
+
+Whenever we have an integral of the form:
+
+$$\Large \int f(g(x))\cdot g'(x)\;dx$$
+
+We can use the following rule to solve it:
+
+$$\Large \int f(g(x))\cdot g'(x) \;dx\quad =\quad \int f(u)\;du$$
+and the fact that: $$\Large du=g'(x)\cdot dx$$
+Then you can solve the simplified integral and substitute $u$ with it's actual value, $g(x)$.
+
+> [!hint]
+> $$\Large \Large \int f(\underbracket{g(x)}_{u})\cdot \underbracket{g'(x) \;dx}_{du}\quad =\quad \int f(u)\;du$$
+> There are two key points to this:
+> - Turning the inner function to $u$
+> - Converting $dx$ to $du$.
+> 
