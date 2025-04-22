@@ -62,3 +62,23 @@ Then you can solve the simplified integral and substitute $u$ with it's actual v
 > - Turning the inner function to $u$
 > - Converting $dx$ to $du$.
 > 
+
+> [!hint]
+> When you don't have terms for converting $du$, you add them to the equation as if it was a normal equation.
+> 
+> > [!example]
+> If $du=-8x\;dx$, and the integral is $\int x\cdot u^{-\frac{1}{2}}\;dx$, then it becomes $\int u^{-\frac{1}{2}} \cdot (-\frac{1}{8})\;du$
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020250422152215.png)
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020250422152239.png)
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020250422152300.png)
+
+> [!example]
+> ![](../z_images/Pasted%20image%2020250422152138.png)
+
+
