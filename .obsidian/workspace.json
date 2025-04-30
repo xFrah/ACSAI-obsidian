@@ -8,33 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ae409d03d8027b49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/1. Integer numbers.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Integer numbers"
-            }
-          },
-          {
             "id": "65aeacc3e52dd53d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus U2/Indefinite Integrals.md",
+                "file": "NOTES-MARKDOWN/Calculus U2/3. Definite Integrals.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indefinite Integrals"
+              "title": "3. Definite Integrals"
             }
           },
           {
@@ -43,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/3. Floating-point.md",
+                "file": "NOTES-MARKDOWN/Calculus/Differentiation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Floating-point"
+              "title": "Differentiation"
             }
           },
           {
@@ -58,17 +43,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/8. PLA.md",
+                "file": "NOTES-MARKDOWN/Calculus U2/3. Definite Integrals.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. PLA"
+              "title": "3. Definite Integrals"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -238,46 +223,45 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "65aeacc3e52dd53d",
+  "active": "21f32bbcb2a0a25b",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Calculus U2/2. Indefinite Integrals.md",
+    "NOTES-MARKDOWN/Calculus U2/3. Definite Integrals.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/8. PLA.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250427143328.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250427141332.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250427141329.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250427141302.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250427141040.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250427122900.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250427122843.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250427122610.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250427122456.png",
+    "NOTES-MARKDOWN/Calculus/Differentiation.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/3. Floating-point.md",
+    "NOTES-MARKDOWN/Calculus/Inequalities.md",
+    "NOTES-MARKDOWN/Calculus/Inverse functions.md",
+    "NOTES-MARKDOWN/Calculus/Limits.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/1. Integer numbers.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20250422152300.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250422152239.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250422152215.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250422152138.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250422135214.png",
     "NOTES-MARKDOWN/Computer Architecture 1/11. Decoder.md",
     "NOTES-MARKDOWN/Computer Architecture 1/[EXAM] CA1.md",
-    "NOTES-MARKDOWN/Calculus U2/Indefinite Integrals.md",
     "NOTES-MARKDOWN/Computer Architecture 1/7. De Morgan's Theorem.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/3. Floating-point.md",
     "NOTES-MARKDOWN/Computer Architecture 1/2. Fixed-point.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/1. Integer numbers.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/8. PLA.md",
     "NOTES-MARKDOWN/Computer Architecture 1/5. SOP & POS.md",
     "NOTES-MARKDOWN/Computer Architecture 1/14. Finite State Machines.md",
     "NOTES-MARKDOWN/Computer Architecture 1/6. Boolean Algebra.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250408122418.png",
     "NOTES-MARKDOWN/Computer Architecture 1/13. Sequential circuits.md",
     "NOTES-MARKDOWN/Computer Architecture 1/[EXERCISES] CA1.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250407123932.png",
     "NOTES-MARKDOWN/Computer Architecture 1/9. Karnaugh maps.md",
     "NOTES-MARKDOWN/Computer Architecture 1/10. Multiplexer.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250406115654.png",
     "NOTES-MARKDOWN/Computer Architecture 1/15. Parallelism.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250403182600.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250403182530.png",
     "NOTES-MARKDOWN/Computer Architecture 1/B_250210_151819 (1).pdf",
     "NOTES-MARKDOWN/Computer Architecture 1/A_250210_111233 (1).pdf",
     "NOTES-MARKDOWN/Computer Architecture 1/4. Combinational circuits.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250402144327.png",
-    "NOTES-MARKDOWN/Calculus/Differentiation.md",
     "NOTES-MARKDOWN/Computer Architecture 1/12. Timing.md",
     "NOTES-MARKDOWN/Computer Architecture 1/0. Syllabus.md",
     "NOTES-MARKDOWN/Calculus/Partial derivatives.md",
-    "NOTES-MARKDOWN/Calculus/old/Powers.md",
-    "NOTES-MARKDOWN/Calculus/old/Modulus of real numbers.md",
-    "NOTES-MARKDOWN/Calculus/old/Linear systems.md",
-    "NOTES-MARKDOWN/Calculus/old/Exponentials and Logarithms.md",
     "Minecraft/minecraft_backups/mcserver_iojuijioj/mods/better-end-21.0.11.jar",
     "Minecraft/minecraft_backups/mcserver/mods/WilderWild-2.4.5-Fabric+1.21.jar",
     "Telefono/WhatsApp Documents/Sent/esp32-st7789-sendraw-20221118-v1.19.1.bin",
