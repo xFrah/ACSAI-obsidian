@@ -14,13 +14,17 @@ $$\Large \lim_{x\rightarrow 2}\frac{x^2+4x-12}{x^2-2x}$$
 
 The solution to a limit is what $y$ the function approaches as we get closer and closer to the point in question (in this case, x = 2).
 
-### How to compute the solution
+### How to compute
 
 You can either do it:
 - **empirically**: actually computing the numbers close to the point.
-- **algebraically**: [factor](How%20to%20factor.md) numerator and denominator to **remove the division by zero**.
+- **algebraically**: remove any **division by zero or indefinite forms** (by [factoring](How%20to%20factor.md) or De l’Hôpital’s) and solve the equation to get the result.
 
-For example, if we factor the function above, we get:
+For example, we try to solve the function above, but is undefined at $x=2$ and we get an indefinite form:
+
+$$\Large \lim_{x\rightarrow 2}\frac{x^2+4x-12}{x^2-2x}\rightarrow \frac{2^2+4\cdot2-12}{2^2-2\cdot 2}=\frac{0}{0}$$
+
+So in order to compute the limit we factor and we get:
 
 $$\Large \lim_{x\rightarrow 2}\frac{(x+6)(x-2)}{x(x-2)}$$
 

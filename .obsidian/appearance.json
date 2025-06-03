@@ -2,7 +2,7 @@
   "accentColor": "#7560a4",
   "translucency": false,
   "nativeMenus": false,
-  "baseFontSize": 15,
+  "baseFontSize": 16,
   "enabledCssSnippets": [],
   "cssTheme": "Dracula Gemini",
   "theme": "obsidian",

@@ -12,7 +12,6 @@ It's based on what the user sees at first sight and his background knowledge.
 > Labels enable navigation.
 > ![](../z_images/Pasted%20image%2020240509114001.png)
 
-
 ## Discoverability
 
 Don't hide features, put them where the user can see them, and intuitively tell what they are.

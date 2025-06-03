@@ -55,14 +55,20 @@ This exercise is actually asking you to:
 ![](../z_images/Pasted%20image%2020250113132945.png)
 
 ## State transition diagram ([](14.%20Finite%20State%20Machines.md#^ed5229))
-![](../z_images/Pasted%20image%2020250113133208.png)
+
 ![](../z_images/Pasted%20image%2020250113133225.png)
 ![](../z_images/Pasted%20image%2020250210174725.png)
+![](../z_images/Pasted%20image%2020250527143237.png)![](../z_images/Pasted%20image%2020250527143249.png)![](../z_images/Pasted%20image%2020250527143302.png)
+![](../z_images/Pasted%20image%2020250602205044.png)
 
 This exercise is asking you to:
 1. Compute the formulas for each output given the FSM (Skip if you have a decoder already)
 2. Turn the formulas into a state transition table
 3. Draw the FSM
+
+
+In an FSM, you have 3 different parts, the registers, the output logic and the next state logic.
+The **output logic** is the part to the **right of the registers**, while **next state logic** is the part to the **left of the registers**.
 ## PLA
 ![](../z_images/Pasted%20image%2020250113133341.png)
 ![](../z_images/Pasted%20image%2020250113133352.png)
