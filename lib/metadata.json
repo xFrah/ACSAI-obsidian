@@ -1,27 +1,12 @@
 {
   "vaultName": "Obsidian Vault",
-  "lastExport": 1748189959874,
+  "lastExport": 1750428108657,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "NOTES-MARKDOWN/Probability/Bayes' theorem.md",
-    "NOTES-MARKDOWN/Probability/Bernoulli distribution.md",
-    "NOTES-MARKDOWN/Probability/Binomial distribution.md",
-    "NOTES-MARKDOWN/Probability/Conditional Probability.md",
-    "NOTES-MARKDOWN/Probability/Equally likely outcomes.md",
-    "NOTES-MARKDOWN/Probability/Geometric distribution.md",
-    "NOTES-MARKDOWN/Probability/Independence.md",
-    "NOTES-MARKDOWN/Probability/Introduction.md",
-    "NOTES-MARKDOWN/Probability/Law of total probability.md",
-    "NOTES-MARKDOWN/Probability/Multiplication rule.md",
-    "NOTES-MARKDOWN/Probability/Permutations.md",
-    "NOTES-MARKDOWN/Probability/Poisson distribution.md",
-    "NOTES-MARKDOWN/Probability/Probability distributions.md",
-    "NOTES-MARKDOWN/Probability/Probability Exam - DONE.md",
-    "NOTES-MARKDOWN/Probability/Random variable.md",
-    "NOTES-MARKDOWN/Probability/Subsets.md",
+    "NOTES-MARKDOWN/esercizio11.md",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -99,315 +84,225 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/fonts/MathJax_Zero.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/MathJax_Zero.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Main-Regular.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/MathJax_Main-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Main-Bold.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/MathJax_Main-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Math-Italic.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/MathJax_Math-Italic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Main-Italic.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/MathJax_Main-Italic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Math-BoldItalic.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/MathJax_Math-BoldItalic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size1-Regular.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/MathJax_Size1-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size2-Regular.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/MathJax_Size2-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size3-Regular.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/MathJax_Size3-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size4-Regular.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/MathJax_Size4-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_AMS-Regular.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/MathJax_AMS-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Calligraphic-Regular.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/MathJax_Calligraphic-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Calligraphic-Bold.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/MathJax_Calligraphic-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Fraktur-Regular.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/MathJax_Fraktur-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Fraktur-Bold.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/MathJax_Fraktur-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_SansSerif-Regular.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/MathJax_SansSerif-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_SansSerif-Bold.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/MathJax_SansSerif-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_SansSerif-Italic.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/MathJax_SansSerif-Italic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Script-Regular.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/MathJax_Script-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Typewriter-Regular.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/MathJax_Typewriter-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Vector-Regular.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/MathJax_Vector-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Vector-Bold.woff": {
-      "modifiedTime": 1748189959874,
+      "modifiedTime": 1750428108657,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/MathJax_Vector-Bold.woff",
       "dependencies": []
     },
-    "NOTES-MARKDOWN/Probability/Bayes' theorem.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 555,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Bayes' theorem.html",
-      "dependencies": []
-    },
-    "NOTES-MARKDOWN/Probability/Bernoulli distribution.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 1425,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Bernoulli distribution.html",
-      "dependencies": []
-    },
-    "NOTES-MARKDOWN/Probability/Binomial distribution.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 2237,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Binomial distribution.html",
-      "dependencies": []
-    },
-    "NOTES-MARKDOWN/Probability/Conditional Probability.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 638,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Conditional Probability.html",
-      "dependencies": []
-    },
-    "NOTES-MARKDOWN/Probability/Equally likely outcomes.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 351,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Equally likely outcomes.html",
-      "dependencies": []
-    },
-    "NOTES-MARKDOWN/Probability/Geometric distribution.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 967,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Geometric distribution.html",
-      "dependencies": []
-    },
-    "NOTES-MARKDOWN/Probability/Independence.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 490,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Independence.html",
-      "dependencies": []
-    },
-    "NOTES-MARKDOWN/Probability/Introduction.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 1672,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Introduction.html",
-      "dependencies": []
-    },
-    "NOTES-MARKDOWN/Probability/Law of total probability.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 1445,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Law of total probability.html",
-      "dependencies": []
-    },
-    "NOTES-MARKDOWN/Probability/Multiplication rule.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 688,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Multiplication rule.html",
-      "dependencies": []
-    },
-    "NOTES-MARKDOWN/Probability/Permutations.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 566,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Permutations.html",
-      "dependencies": []
-    },
-    "NOTES-MARKDOWN/Probability/Poisson distribution.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 786,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Poisson distribution.html",
-      "dependencies": []
-    },
-    "NOTES-MARKDOWN/Probability/Probability distributions.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 2204,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Probability distributions.html",
-      "dependencies": []
-    },
-    "NOTES-MARKDOWN/Probability/Probability Exam - DONE.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 1552,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Probability Exam - DONE.html",
-      "dependencies": []
-    },
-    "NOTES-MARKDOWN/Probability/Random variable.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 581,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Random variable.html",
-      "dependencies": []
-    },
-    "NOTES-MARKDOWN/Probability/Subsets.md": {
-      "modifiedTime": 1748189959874,
-      "sourceSize": 1433,
-      "exportedPath": "NOTES-MARKDOWN/Probability/Subsets.html",
+    "NOTES-MARKDOWN/esercizio11.md": {
+      "modifiedTime": 1750428108657,
+      "sourceSize": 9009,
+      "exportedPath": "NOTES-MARKDOWN/esercizio11.html",
       "dependencies": []
     }
   }

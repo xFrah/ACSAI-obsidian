@@ -30,7 +30,7 @@
   "authorName": "",
   "vaultTitle": "Obsidian Vault",
   "exportPreset": "raw-documents",
-  "openAfterExport": false,
+  "openAfterExport": true,
   "graphAttractionForce": 1,
   "graphLinkLength": 10,
   "graphRepulsionForce": 150,

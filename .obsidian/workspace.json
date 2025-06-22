@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Machine Learning/Impurity functions.md",
+                "file": "NOTES-MARKDOWN/Machine Learning/Entropy.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Impurity functions"
+              "title": "Entropy"
             }
           },
           {
@@ -28,13 +28,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/1. Integer numbers.md",
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/[SOLVED] CA1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Integer numbers"
+              "title": "[SOLVED] CA1"
+            }
+          },
+          {
+            "id": "2c4fc440626802e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Computer Architecture 1/6. Boolean Algebra.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. Boolean Algebra"
+            }
+          },
+          {
+            "id": "d1f5178081470740",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/esercizio11.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "esercizio11"
             }
           }
         ]
@@ -203,12 +233,35 @@
       "webpage-html-export:Export Vault to HTML": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
-      "find-orphaned-images:Find orphaned images": false,
       "remotely-save:Remotely Save": false
     }
   },
   "active": "369850db85dbc02b",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Calculus U2/7. Definite Integrals.md",
+    "NOTES-MARKDOWN/Calculus U2/1. Series.md",
+    "NOTES-MARKDOWN/Calculus/Differentiation.md",
+    "NOTES-MARKDOWN/Calculus U2/6. Integration by parts.md",
+    "NOTES-MARKDOWN/Calculus U2/5. Substitution method.md",
+    "NOTES-MARKDOWN/esercizio11.md",
+    "NOTES-MARKDOWN/Calculus U2/2. Convergence Tests.md",
+    "NOTES-MARKDOWN/Calculus U2/3. Indefinite Integrals.md",
+    "NOTES-MARKDOWN/Calculus U2/4. Definite Integrals.md",
+    "NOTES-MARKDOWN/Probability/Introduction.md",
+    "NOTES-MARKDOWN/Probability/Independence.md",
+    "NOTES-MARKDOWN/Probability/Law of total probability.md",
+    "NOTES-MARKDOWN/Probability/Probability Exam - DONE.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Pumping Lemma.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/[EXAM] CA1.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/6. Boolean Algebra.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/7. De Morgan's Theorem.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/[SOLVED] CA1.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/3. Floating-point.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/[EXERCISES] CA1.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/10. Multiplexer.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/1. Integer numbers.md",
+    "NOTES-MARKDOWN/Machine Learning/Impurity functions.md",
     "NOTES-MARKDOWN/z_images/20241009_091513.jpg",
     "NOTES-MARKDOWN/z_images/20241008_084917.jpg",
     "NOTES-MARKDOWN/z_images/20241008_084917 1.jpg",
@@ -219,30 +272,8 @@
     "NOTES-MARKDOWN/z_images/Pasted image 20250113135724.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250113133208.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250113132923.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113132837.png",
     "NOTES-MARKDOWN/Machine Learning/Information Gain.md",
-    "NOTES-MARKDOWN/Machine Learning/Impurity functions.md",
     "NOTES-MARKDOWN/Machine Learning/K-means.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/[EXAM] CA1.md",
-    "NOTES-MARKDOWN/Machine Learning/Hessian.md",
-    "NOTES-MARKDOWN/Machine Learning/Gradient Descent.md",
-    "NOTES-MARKDOWN/Machine Learning/Gradient.md",
-    "NOTES-MARKDOWN/Machine Learning/Generalized Linear Model.md",
-    "NOTES-MARKDOWN/Machine Learning/Gaussian distribution.md",
-    "NOTES-MARKDOWN/Machine Learning/Expectation Maximization.md",
-    "NOTES-MARKDOWN/Machine Learning/Entropy.md",
-    "NOTES-MARKDOWN/Machine Learning/Decision trees.md",
-    "NOTES-MARKDOWN/Machine Learning/Cross-validation.md",
-    "NOTES-MARKDOWN/Machine Learning/Cross-entropy.md",
-    "NOTES-MARKDOWN/Machine Learning/Covariance matrix.md",
-    "NOTES-MARKDOWN/Machine Learning/Bayes Theorem.md",
-    "NOTES-MARKDOWN/Machine Learning/Basis Function.md",
-    "NOTES-MARKDOWN/Machine Learning/Joint distribution.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/[SOLVED] CA1.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/[EXERCISES] CA1.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/3. Floating-point.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/1. Integer numbers.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.html",
     "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.html",
     "NOTES-MARKDOWN/Artificial Intelligence/Negational Normal Form.html",
@@ -253,8 +284,6 @@
     "NOTES-MARKDOWN/Artificial Intelligence/CSPs.html",
     "NOTES-MARKDOWN/Artificial Intelligence/CNF.html",
     "NOTES-MARKDOWN/Artificial Intelligence/AI Exam - DONE.html",
-    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
     "Machine Learning/Untitled.canvas"
   ]
 }
