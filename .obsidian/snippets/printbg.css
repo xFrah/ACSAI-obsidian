@@ -1,0 +1,62 @@
+@media print {
+    .print .markdown-preview-view,
+    .print .markdown-rendered,
+    body.print {
+        background-color: #282a36 !important;
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    /* Only target plain paragraph text and body text, not headings or styled elements */
+    .print .markdown-preview-view p,
+    .print .markdown-rendered p,
+    .print p {
+        color: #ffffff !important;
+    }
+    
+    /* Target list items but not their markers */
+    .print .markdown-preview-view li,
+    .print .markdown-rendered li,
+    .print li {
+        color: #ffffff !important;
+    }
+    
+    /* Target plain text content but preserve existing heading colors */
+    .print .markdown-preview-view div:not([class]),
+    .print .markdown-rendered div:not([class]) {
+        color: #ffffff !important;
+    }
+    
+    /* Fix callouts for dark background */
+    .print .callout {
+        --callout-blend-mode: normal !important;
+        background-color: rgba(68, 71, 90, 0.8) !important;
+        border: 1px solid rgba(98, 114, 164, 0.5) !important;
+        color: #f8f8f2 !important;
+    }
+    
+    .print .callout-title {
+        color: inherit !important;
+        background-color: transparent !important;
+    }
+    
+    .print .callout-content {
+        background-color: transparent !important;
+        color: #f8f8f2 !important;
+    }
+    
+    .print .callout-content p {
+        color: #f8f8f2 !important;
+    }
+    
+    /* Ensure callout icons are visible */
+    .print .callout-icon {
+        color: inherit !important;
+    }
+
+    /* --- NEW CODE: Add padding before all headers --- */
+    .print h1, .print h2, .print h3, .print h4, .print h5, .print h6 {
+        padding-top: 25px !important;
+    }
+}

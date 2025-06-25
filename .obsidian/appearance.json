@@ -3,7 +3,9 @@
   "translucency": false,
   "nativeMenus": false,
   "baseFontSize": 16,
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "printbg"
+  ],
   "cssTheme": "Dracula Gemini",
   "theme": "obsidian",
   "baseFontSizeAction": true

@@ -13,58 +13,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Machine Learning/Entropy.md",
+                "file": "NOTES-MARKDOWN/Calculus U2/8. Improper Integrals.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Entropy"
+              "title": "8. Improper Integrals"
             }
           },
           {
-            "id": "fe480ad1a10de332",
+            "id": "c9ac93c31c220475",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/[SOLVED] CA1.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "[SOLVED] CA1"
-            }
-          },
-          {
-            "id": "2c4fc440626802e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Computer Architecture 1/6. Boolean Algebra.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6. Boolean Algebra"
-            }
-          },
-          {
-            "id": "d1f5178081470740",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/esercizio11.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "esercizio11"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -158,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus U2/2. Convergence Tests.md",
+                "file": "NOTES-MARKDOWN/esercizio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2. Convergence Tests"
+              "title": "Outgoing links from esercizio"
             }
           },
           {
@@ -238,12 +203,20 @@
   },
   "active": "369850db85dbc02b",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/z_images/Pasted image 20250625091637.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250623141655.png",
+    "NOTES-MARKDOWN/Calculus/Inequalities.md",
+    "NOTES-MARKDOWN/esercizio.md",
+    "NOTES-MARKDOWN/Calculus U2/8. Improper Integrals.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250622161512.png",
+    "NOTES-MARKDOWN/Calculus U2/4. Indefinite Integrals.md",
+    "NOTES-MARKDOWN/Calculus U2/6. Integration by parts.md",
+    "NOTES-MARKDOWN/Calculus U2/Exam 20250604.pdf",
+    "NOTES-MARKDOWN/Calculus/Differentiation.md",
+    "NOTES-MARKDOWN/Machine Learning/Entropy.md",
     "NOTES-MARKDOWN/Calculus U2/7. Definite Integrals.md",
     "NOTES-MARKDOWN/Calculus U2/1. Series.md",
-    "NOTES-MARKDOWN/Calculus/Differentiation.md",
-    "NOTES-MARKDOWN/Calculus U2/6. Integration by parts.md",
     "NOTES-MARKDOWN/Calculus U2/5. Substitution method.md",
-    "NOTES-MARKDOWN/esercizio11.md",
     "NOTES-MARKDOWN/Calculus U2/2. Convergence Tests.md",
     "NOTES-MARKDOWN/Calculus U2/3. Indefinite Integrals.md",
     "NOTES-MARKDOWN/Calculus U2/4. Definite Integrals.md",
@@ -259,9 +232,6 @@
     "NOTES-MARKDOWN/Computer Architecture 1/[SOLVED] CA1.md",
     "NOTES-MARKDOWN/Computer Architecture 1/3. Floating-point.md",
     "NOTES-MARKDOWN/Computer Architecture 1/[EXERCISES] CA1.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/10. Multiplexer.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/1. Integer numbers.md",
-    "NOTES-MARKDOWN/Machine Learning/Impurity functions.md",
     "NOTES-MARKDOWN/z_images/20241009_091513.jpg",
     "NOTES-MARKDOWN/z_images/20241008_084917.jpg",
     "NOTES-MARKDOWN/z_images/20241008_084917 1.jpg",
@@ -270,10 +240,6 @@
     "NOTES-MARKDOWN/z_images/Pasted image 20250113160951.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250113144912.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250113135724.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113133208.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113132923.png",
-    "NOTES-MARKDOWN/Machine Learning/Information Gain.md",
-    "NOTES-MARKDOWN/Machine Learning/K-means.md",
     "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.html",
     "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.html",
     "NOTES-MARKDOWN/Artificial Intelligence/Negational Normal Form.html",
@@ -283,7 +249,6 @@
     "NOTES-MARKDOWN/Artificial Intelligence/Environments.html",
     "NOTES-MARKDOWN/Artificial Intelligence/CSPs.html",
     "NOTES-MARKDOWN/Artificial Intelligence/CNF.html",
-    "NOTES-MARKDOWN/Artificial Intelligence/AI Exam - DONE.html",
     "Machine Learning/Untitled.canvas"
   ]
 }
