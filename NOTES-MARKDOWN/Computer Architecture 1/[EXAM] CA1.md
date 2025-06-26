@@ -1,4 +1,4 @@
-## Sequential circuits ([HOW-TO](14.%20Finite%20State%20Machines.md#^817621))
+## [Sequential circuits](12.%20Sequential%20circuits.md) ([HOW-TO](13.%20Finite%20State%20Machines.md#^817621))
 ![](../z_images/Pasted%20image%2020250113133107.png)
 
 ![](../z_images/Pasted%20image%2020250113132727.png)
@@ -10,7 +10,7 @@
 ![](../z_images/Pasted%20image%2020250407123932.png)
 
 This exercise is actually asking you to:
-- Make an [FSM](14.%20Finite%20State%20Machines.md) for the problem
+- Make an [FSM](13.%20Finite%20State%20Machines.md) for the problem
 - Turn it into transition table
 - Make the sequential circuit for the FSM, specifically the next state circuit and the output circuit with [PLA](8.%20PLA.md), or [Decoder](11.%20Decoder.md).
 
@@ -20,7 +20,7 @@ This exercise is actually asking you to:
 > - Arrows have a label {input}/{output}
 
 > [!hint] Simple Decoder explanation
-> A decoder is a circuit in which the inputs choose the active lane, and the active lane corresponds to a binary sequence:
+> A [decoder](11.%20Decoder.md) is a circuit in which the inputs choose the active lane, and the active lane corresponds to a binary sequence:
 > 
 > ![](../z_images/Pasted%20image%2020250120121131.png)
 > 
@@ -54,7 +54,7 @@ This exercise is actually asking you to:
 ![](../z_images/Pasted%20image%2020250113132739.png)
 ![](../z_images/Pasted%20image%2020250113132945.png)
 
-## State transition diagram ([](14.%20Finite%20State%20Machines.md#^ed5229))
+## State transition diagram ([](13.%20Finite%20State%20Machines.md#^ed5229))
 
 ![](../z_images/Pasted%20image%2020250113133225.png)
 ![](../z_images/Pasted%20image%2020250210174725.png)
@@ -69,11 +69,11 @@ This exercise is asking you to:
 
 In an FSM, you have 3 different parts, the registers, the output logic and the next state logic.
 The **output logic** is the part to the **right of the registers**, while **next state logic** is the part to the **left of the registers**.
-## PLA
+## [PLA](8.%20PLA.md)
 ![](../z_images/Pasted%20image%2020250113133341.png)
 ![](../z_images/Pasted%20image%2020250113133352.png)
 
-## IEEE 754
+## [IEEE 754](3.%20Floating-point.md)
 ![](../z_images/Pasted%20image%2020250113133407.png)
 ![](../z_images/Pasted%20image%2020250113132827.png)
 ![](../z_images/Pasted%20image%2020250210172917.png)
@@ -136,7 +136,7 @@ Take each digit of the hex number and convert it to 4 bits binary.
 > [!example] Converting 0xC180 to binary
 > $$\large \underbracket{C}_{1100}\;\underbracket{1}_{0001}\;\underbracket{8}_{1000}\;\underbracket{0}_{0000}$$
 
-### Fixed-point to Floating-Point
+### [Fixed-point](2.%20Fixed-point.md) to [Floating-Point](3.%20Floating-point.md)
 
 Starting with a Fixed-point number:
 - Multiply by 2 until you have only 1 bit (must be 1) on the decimal part.
@@ -198,7 +198,7 @@ Starting with a Fixed-point number:
 > 	- append 0 always
 
 
-## Boolean algebra
+## [Boolean algebra](6.%20Boolean%20Algebra.md)
 ![](../z_images/Pasted%20image%2020250113133443.png)
 ![](../z_images/Pasted%20image%2020250113132838.png)
 ![](../z_images/Pasted%20image%2020250406115654.png)
@@ -209,8 +209,9 @@ Starting with a Fixed-point number:
 > ![](../z_images/Pasted%20image%2020241215132848.png)
 
 
-### Minimal SOP & POS
+### [Minimal](9.%20Karnaugh%20maps.md) SOP & POS
 
+We start by the minimal [SOP](5.%20SOP%20&%20POS.md#SOP%20(sum%20of%20products)):
 1. Make the Truth Table of the expression
 	1. Write down the usual initial variables
 	2. Add columns for each sub-expression, until you get a column for the whole expression.
@@ -227,7 +228,7 @@ Starting with a Fixed-point number:
 | 1 | 1 | 0 | 1  | 0  | 1       | 0  | 1  |
 | 1 | 1 | 1 | 1  | 1  | 0       | 1  | 1  |
 
-2. Produce a karnaugh map:
+2. Produce a [karnaugh](9.%20Karnaugh%20maps.md) map:
 
 | c \ ab | 00 | 01 | 11 | 10 |
 |--------|----|----|----|----|
@@ -242,7 +243,7 @@ $$\Large f'=ab + bc+ ac$$
 > [!danger] How to place the circles
 > ![](../z_images/Pasted%20image%2020250115165959.png)
 > 
-> ### POS
+> ### [Minimal POS form](9.%20Karnaugh%20maps.md#POS%20form)
 > - Circle 0's instead.
 > - The literals that you select must be negated.
 > - The literals you need to select are still the ones that do not change within the circle.

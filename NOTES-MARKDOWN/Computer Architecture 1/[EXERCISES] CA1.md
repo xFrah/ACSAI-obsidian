@@ -51,7 +51,7 @@
 
 ---
 
-## [Latches](13.%20Sequential%20circuits.md#^621042) and [Flip-Flops](13.%20Sequential%20circuits.md#^a12849)
+## [Latches](12.%20Sequential%20circuits.md#^621042) and [Flip-Flops](12.%20Sequential%20circuits.md#^a12849)
 
 > [!example]
 > ![](../z_images/Pasted%20image%2020250124115134.png)
@@ -70,7 +70,7 @@
 
 ---
 
-## [FSM](14.%20Finite%20State%20Machines.md)
+## [FSM](13.%20Finite%20State%20Machines.md)
 
 > [!example]
 > ![](../z_images/Pasted%20image%2020250203112609.png)

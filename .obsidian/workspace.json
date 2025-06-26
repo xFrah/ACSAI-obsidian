@@ -8,31 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "369850db85dbc02b",
+            "id": "d4efce0a946a4ef5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "NOTES-MARKDOWN/Calculus U2/Exam 20250604.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Exam 20250604"
+            }
+          },
+          {
+            "id": "ef3169535a0b192b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus U2/8. Improper Integrals.md",
+                "file": "NOTES-MARKDOWN/Probability/Geometric distribution.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. Improper Integrals"
-            }
-          },
-          {
-            "id": "c9ac93c31c220475",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Geometric distribution"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus U2/2. Convergence Tests.md",
+                "file": "NOTES-MARKDOWN/Probability/Geometric distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +117,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2. Convergence Tests"
+              "title": "Backlinks for Geometric distribution"
             }
           },
           {
@@ -123,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/esercizio.md",
+                "file": "NOTES-MARKDOWN/Probability/Geometric distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from esercizio"
+              "title": "Outgoing links from Geometric distribution"
             }
           },
           {
@@ -185,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5,
-    "collapsed": true
+    "width": 336.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,37 +203,39 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "369850db85dbc02b",
+  "active": "ef3169535a0b192b",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Probability/Bayes' theorem.md",
+    "NOTES-MARKDOWN/Probability/Events.md",
+    "NOTES-MARKDOWN/Probability/Geometric distribution.md",
+    "NOTES-MARKDOWN/Probability/Poisson distribution.md",
+    "NOTES-MARKDOWN/Probability/Permutations.md",
+    "NOTES-MARKDOWN/Probability/Subsets.md",
+    "NOTES-MARKDOWN/Probability/Equally likely outcomes.md",
+    "NOTES-MARKDOWN/Probability/Random variable.md",
+    "NOTES-MARKDOWN/Probability/Independence.md",
+    "NOTES-MARKDOWN/Statistics/Significance Test.md",
+    "NOTES-MARKDOWN/Machine Learning/Machine Learning Exam - DONE.md",
+    "NOTES-MARKDOWN/Machine Learning/Neural Networks.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Heuristics.md",
+    "NOTES-MARKDOWN/Statistics/Statistics Exam - DONE.md",
+    "NOTES-MARKDOWN/Calculus U2/3. Convergence Tests.md",
+    "NOTES-MARKDOWN/Calculus U2/8. Improper Integrals.md",
+    "NOTES-MARKDOWN/Calculus U2/Exam 20250604.pdf",
+    "NOTES-MARKDOWN/Calculus U2/2. Special Series.md",
+    "NOTES-MARKDOWN/Machine Learning/Entropy.md",
+    "NOTES-MARKDOWN/Physics/5. Newton's laws.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/12. Sequential circuits.md",
+    "NOTES-MARKDOWN/Statistics/Expected value.md",
+    "NOTES-MARKDOWN/Machine Learning/Impurity functions.md",
+    "NOTES-MARKDOWN/Calculus/5. Logarithms.md",
+    "NOTES-MARKDOWN/Calculus/9. Taylor Series.md",
+    "NOTES-MARKDOWN/Calculus/6. Inequalities.md",
+    "NOTES-MARKDOWN/Calculus/8. Differentiation.md",
+    "NOTES-MARKDOWN/Calculus U2/exercise sheet - numerical series.pdf",
     "NOTES-MARKDOWN/z_images/Pasted image 20250625091637.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250623141655.png",
-    "NOTES-MARKDOWN/Calculus/Inequalities.md",
-    "NOTES-MARKDOWN/esercizio.md",
-    "NOTES-MARKDOWN/Calculus U2/8. Improper Integrals.md",
     "NOTES-MARKDOWN/z_images/Pasted image 20250622161512.png",
-    "NOTES-MARKDOWN/Calculus U2/4. Indefinite Integrals.md",
-    "NOTES-MARKDOWN/Calculus U2/6. Integration by parts.md",
-    "NOTES-MARKDOWN/Calculus U2/Exam 20250604.pdf",
-    "NOTES-MARKDOWN/Calculus/Differentiation.md",
-    "NOTES-MARKDOWN/Machine Learning/Entropy.md",
-    "NOTES-MARKDOWN/Calculus U2/7. Definite Integrals.md",
-    "NOTES-MARKDOWN/Calculus U2/1. Series.md",
-    "NOTES-MARKDOWN/Calculus U2/5. Substitution method.md",
-    "NOTES-MARKDOWN/Calculus U2/2. Convergence Tests.md",
-    "NOTES-MARKDOWN/Calculus U2/3. Indefinite Integrals.md",
-    "NOTES-MARKDOWN/Calculus U2/4. Definite Integrals.md",
-    "NOTES-MARKDOWN/Probability/Introduction.md",
-    "NOTES-MARKDOWN/Probability/Independence.md",
-    "NOTES-MARKDOWN/Probability/Law of total probability.md",
-    "NOTES-MARKDOWN/Probability/Probability Exam - DONE.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Pumping Lemma.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/[EXAM] CA1.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/6. Boolean Algebra.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/7. De Morgan's Theorem.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/[SOLVED] CA1.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/3. Floating-point.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/[EXERCISES] CA1.md",
     "NOTES-MARKDOWN/z_images/20241009_091513.jpg",
     "NOTES-MARKDOWN/z_images/20241008_084917.jpg",
     "NOTES-MARKDOWN/z_images/20241008_084917 1.jpg",
@@ -239,7 +243,6 @@
     "NOTES-MARKDOWN/z_images/Pasted image 20250113162936.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250113160951.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250113144912.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113135724.png",
     "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.html",
     "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.html",
     "NOTES-MARKDOWN/Artificial Intelligence/Negational Normal Form.html",
@@ -248,7 +251,6 @@
     "NOTES-MARKDOWN/Artificial Intelligence/Heuristics.html",
     "NOTES-MARKDOWN/Artificial Intelligence/Environments.html",
     "NOTES-MARKDOWN/Artificial Intelligence/CSPs.html",
-    "NOTES-MARKDOWN/Artificial Intelligence/CNF.html",
     "Machine Learning/Untitled.canvas"
   ]
 }

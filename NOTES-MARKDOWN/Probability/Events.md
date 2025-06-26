@@ -31,6 +31,7 @@ $$\large A \subseteq \Omega$$
 > A set is countable if the number of outcomes in it is finite.
 > And viceversa.
 
+---
 
 ## Probability measure
 
@@ -49,3 +50,32 @@ $$\large \mathbb{P}\left(\bigcup_{i=1}^n A_i\right)=\sum^n_{i=1}\mathbb{P} (A_i)
 > [!hint]
 > The probability of united events must be equal to the sum of the probabilities of the individual events.
 
+---
+
+## Event independence
+
+Events A and B are indipendent if at least one of these conditions is true:
+
+- $\large P(A\cap B) = P(A) × P(B)$
+- $\large P(A\,|\,B) = P(A)$
+- $\large P(B\,|\,A) = P(B)$
+
+> [!hint]
+> A = carta fiori, $\mathbb{P}(A) = \frac{13}{52}$
+> B = carta nera, $\mathbb{P}(B) = \frac{26}{52}$
+> 
+> $$\large \mathbb{P}(\text{pescato e rimosso carta fiori e nuovamente pescato carta nera)} = \frac{13}{52} * \frac{25}{52}$$
+> $$\large\frac{13}{52} * \frac{25}{52}\neq \frac{13}{52} * \frac{26}{52}$$
+
+---
+
+## Equally likely outcomes
+
+When all the outcomes are equally likely, the probability of an event depends on the number of outcomes in the event.
+
+$$\large \mathbb{P}(A)=\frac{|A|}{|\Omega|}$$
+
+> [!hint]
+> $$\large \mathbb{P}(A\cup B)=\mathbb{P}(A)+\mathbb{P}(B)- \mathbb{P}(A∩B)$$
+> 
+> The probability of their intersection would be counted twice if we didn't remove it once.

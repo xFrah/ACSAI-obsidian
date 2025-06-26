@@ -3,7 +3,6 @@ Another way you can think of it, is that entropy describes how surprised we are 
 
 $$\large H(X) \doteq -\sum_{x \in X} p(x)\log_2 p(x)$$
 
-
 > [!hint] Formula explanation
 > Suppose we have a function $h(x)$ we call surprise, that measures our surprise if the label $x$ is picked.
 > 
@@ -28,8 +27,15 @@ $$\large H(X) \doteq -\sum_{x \in X} p(x)\log_2 p(x)$$
 > 
 > This average surprise measure, or the expectation of $h(x)$ is exactly what entropy is.
 
-> [!hint] Why the log?
+> [!hint] Why the [logarithm](../Calculus/5.%20Logarithms.md)?
 > We can also use something else, but log is cute because it gives high values to lower probability events.
+
+> [!hint] Another way to think about it
+> Basically the log is just remodeling the [probability distribution](../Probability/Probability%20distributions.md) by giving low probabilities high values, and then we sum everything.
+> 
+> ![](../z_images/Figure_1oidjgkerjg.png)
+> 
+> So the entropy score represents how many rare events there are and how rare thy are. The rarer they are, the more they matter.
 
 > [!example]
 > 
@@ -42,3 +48,11 @@ $$\large H(X) \doteq -\sum_{x \in X} p(x)\log_2 p(x)$$
 > B) ![](../z_images/Pasted%20image%2020230504143601.png)
 > 
 > 
+
+---
+
+
+```ad-seealso
+title: Useful links for a better understanding
+https://randompearls.medium.com/information-theory-rationale-behind-using-logarithm-for-entropy-335d8e942e53
+```

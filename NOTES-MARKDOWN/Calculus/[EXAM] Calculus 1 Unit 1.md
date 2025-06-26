@@ -1,8 +1,8 @@
-## [Domain](Domain%20and%20Range.md), [range](Domain%20and%20Range.md), intervals, inequalities
+## [Domain](1.%20Domain%20and%20Range.md), [range](1.%20Domain%20and%20Range.md), intervals, inequalities
 ![](../z_images/Pasted%20image%2020250212124845.png)
 
 > [!hint]
-> For this exercise, we need to **study the [domain](Domain%20and%20Range.md)** of the inequality, or **all the values that satisfy the condition**.
+> For this exercise, we need to **study the [domain](1.%20Domain%20and%20Range.md)** of the inequality, or **all the values that satisfy the condition**.
 > 
 > - **Functions**: the domain is all values where the function is defined/makes sense
 > - **Sets**: all the values that satisfy those conditions
