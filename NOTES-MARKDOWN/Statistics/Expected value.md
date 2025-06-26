@@ -1,3 +1,7 @@
+---
+aliases:
+  - expectation
+---
 The long-run average value of random variables.
 
 ![](../z_images/Pasted%20image%2020230506172400.png)

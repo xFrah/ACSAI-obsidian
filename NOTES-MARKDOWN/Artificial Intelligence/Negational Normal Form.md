@@ -20,9 +20,7 @@ $$\large φ → ψ ≡ ¬φ ∨ ψ$$
 
 ### Put negations only in front of symbols
 
-Push negation inward by using
-logical equivalences for
-negation.
+Push negation inward by using [logical equivalences](Logical%20Equivalences.md) for negation.
 
 
 > [!note]

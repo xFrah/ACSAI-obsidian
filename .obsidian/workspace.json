@@ -18,24 +18,8 @@
               "icon": "lucide-file-text",
               "title": "Exam 20250604"
             }
-          },
-          {
-            "id": "ef3169535a0b192b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Probability/Geometric distribution.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Geometric distribution"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Probability/Geometric distribution.md",
+                "file": "NOTES-MARKDOWN/Calculus U2/Exam 20250604.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +101,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Geometric distribution"
+              "title": "Backlinks for Exam 20250604"
             }
           },
           {
@@ -126,12 +110,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Probability/Geometric distribution.md",
+                "file": "NOTES-MARKDOWN/Calculus U2/Exam 20250604.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Geometric distribution"
+              "title": "Outgoing links from Exam 20250604"
             }
           },
           {
@@ -188,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 336.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,35 +188,35 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "ef3169535a0b192b",
+  "active": "d4efce0a946a4ef5",
   "lastOpenFiles": [
     "NOTES-MARKDOWN/Probability/Bayes' theorem.md",
+    "NOTES-MARKDOWN/Probability/Subsets.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/AI Exam - DONE.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Agents.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/CNF.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Environments.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Heuristics.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Negational Normal Form.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
+    "NOTES-MARKDOWN/Artificial Intelligence/Logical Equivalences.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/[EXAM] CA1.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/2. Fixed-point.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/3. Floating-point.md",
+    "NOTES-MARKDOWN/Computer Architecture 1/1. Integer numbers.md",
+    "NOTES-MARKDOWN/Probability/Bernoulli distribution.md",
+    "NOTES-MARKDOWN/Probability/Binomial distribution.md",
+    "NOTES-MARKDOWN/Probability/Conditional Probability.md",
     "NOTES-MARKDOWN/Probability/Events.md",
     "NOTES-MARKDOWN/Probability/Geometric distribution.md",
-    "NOTES-MARKDOWN/Probability/Poisson distribution.md",
+    "NOTES-MARKDOWN/Probability/Law of total probability.md",
+    "NOTES-MARKDOWN/Probability/Multiplication rule.md",
     "NOTES-MARKDOWN/Probability/Permutations.md",
-    "NOTES-MARKDOWN/Probability/Subsets.md",
-    "NOTES-MARKDOWN/Probability/Equally likely outcomes.md",
-    "NOTES-MARKDOWN/Probability/Random variable.md",
-    "NOTES-MARKDOWN/Probability/Independence.md",
-    "NOTES-MARKDOWN/Statistics/Significance Test.md",
-    "NOTES-MARKDOWN/Machine Learning/Machine Learning Exam - DONE.md",
-    "NOTES-MARKDOWN/Machine Learning/Neural Networks.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Heuristics.md",
-    "NOTES-MARKDOWN/Statistics/Statistics Exam - DONE.md",
-    "NOTES-MARKDOWN/Calculus U2/3. Convergence Tests.md",
-    "NOTES-MARKDOWN/Calculus U2/8. Improper Integrals.md",
     "NOTES-MARKDOWN/Calculus U2/Exam 20250604.pdf",
-    "NOTES-MARKDOWN/Calculus U2/2. Special Series.md",
-    "NOTES-MARKDOWN/Machine Learning/Entropy.md",
-    "NOTES-MARKDOWN/Physics/5. Newton's laws.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/12. Sequential circuits.md",
-    "NOTES-MARKDOWN/Statistics/Expected value.md",
-    "NOTES-MARKDOWN/Machine Learning/Impurity functions.md",
-    "NOTES-MARKDOWN/Calculus/5. Logarithms.md",
-    "NOTES-MARKDOWN/Calculus/9. Taylor Series.md",
-    "NOTES-MARKDOWN/Calculus/6. Inequalities.md",
-    "NOTES-MARKDOWN/Calculus/8. Differentiation.md",
     "NOTES-MARKDOWN/Calculus U2/exercise sheet - numerical series.pdf",
     "NOTES-MARKDOWN/z_images/Pasted image 20250625091637.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20250623141655.png",

@@ -40,7 +40,7 @@ $$\large \frac{1}{2}\cdot \frac{1}{2}=0.25$$
 ### 2)
 ![](../z_images/Pasted%20image%2020240923125434.png)
 
-This should follow a binomial distribution, which models the probability of $k$ number of YES in $n$ voters.
+This should follow a [binomial distribution](Binomial%20distribution.md), which models the probability of $k$ number of YES in $n$ voters.
 
 ### 3)
 ![](../z_images/Pasted%20image%2020240923125746.png)

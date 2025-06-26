@@ -186,7 +186,7 @@ Starting with a Fixed-point number:
 > - 0 + 1 = 1
 > - 1 + 1 = 0 (with carry)
 >   
-> 1. Convert numbers to Two's Complement if they are negative.
+> 1. Convert numbers to [Two's complement](1.%20Integer%20numbers.md#Two's%20complement) if they are negative.
 > 2. Do normal addition
 >   
 > ### Remember

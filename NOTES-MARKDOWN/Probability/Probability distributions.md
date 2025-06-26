@@ -40,7 +40,7 @@ It is also called the [expected value](../Statistics/Expected%20value.md) of X.
 
 A continuous [random variable](Random%20variable.md) has infinite possible values in an interval(ex. age, height, weight, income).
 
-It's probability distribution is specified by a density curve and the probability of an interval is given by the area under the curve over the interval(we take the integral).
+It's probability distribution is specified by a density curve and the probability of an interval is given by the area under the curve over the interval(we take the [integral](../Calculus%20U2/7.%20Definite%20Integrals.md)).
 
 ![](../z_images/Pasted%20image%2020230315151714.png)
 
@@ -58,6 +58,6 @@ It's probability distribution is specified by a density curve and the probabilit
 - Location is determined by the mean $\large \mu$.
 - Spread is determined by the standard deviation $\large \sigma$.
 - The [random variable](Random%20variable.md) has an infinite theoretical range, from $-\infty$ to $+\infty$.
-- The distribution is completely specified by the two parameters mean and variance.
+- The distribution is completely specified by the two parameters mean and [variance](../Statistics/Variance.md).
 
 ![](../z_images/Pasted%20image%2020230315152851.png)

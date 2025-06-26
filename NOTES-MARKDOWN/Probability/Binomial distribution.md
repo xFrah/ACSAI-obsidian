@@ -5,7 +5,7 @@ $\large \mathbb{P}(k)$ gives the probability of getting exactly $k$ successes in
 $$\large\mathbb{P}(k)=\begin{pmatrix} 
 n\\k\end{pmatrix}p^k(1-p)^{N-k}$$
 Where:
-- $\begin{pmatrix}n\\k\end{pmatrix}$ are the subsets without ordering.
+- $\begin{pmatrix}n\\k\end{pmatrix}$ are the [subsets without ordering](Subsets.md#Without%20ordering).
 
 > [!example]
 > We have $n$ trials with 2 possible outcomes, we want to get the number of ways that this can go.
@@ -25,7 +25,7 @@ Where:
 - $p^k$ is the probability of winning $k$ times
 
 > [!example]
-> By multiplication rule, in this case its:
+> By [multiplication rule](Multiplication%20rule.md), in this case its:
 > $$\large \mathbb{P}(H) \cdot \mathbb{P}(H) \cdot \mathbb{P}(H)=0.5\cdot 0.5\cdot 0.5= p^3$$
 
 - $(1-p)^{n - k}$ is the probability of losing the remaining trials, since we did $k$ out of $n$ trials.

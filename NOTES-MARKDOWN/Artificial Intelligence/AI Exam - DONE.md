@@ -1,21 +1,4 @@
-## Syllabus:
-
-- Agents [001-003] ☑️
-- Search problems [004] ☑️
-- CSP (Constraint Satisfaction Problem) [005](https://drive.google.com/file/d/1CxuYOC1pvqN2q1_cm_PEkIsPPxsRiF7u/view?usp=classroom_web&authuser=0) ☑️ (**Missing** Optimality/Admissibility, AC-3, MAC)
-- Adversarial Search [006](https://drive.google.com/file/d/15TVdjeX2rmzAqo8BgSTY2m4EqGlu3p1q/view?usp=classroom_web&authuser=0) ☑️ (**Missing** Monte Carlo Tree Search)
-- MDP (Markov Decision Processes) [007](https://drive.google.com/file/d/1ssJfH4RSYqhF3v9rFrNfL6QyaQ1dw-HR/view?usp=classroom_web&authuser=0) ☑️
-- Reinforcement Learning [008-009] ☑️
-	- Passive Reinforcement Learning [008] ☑️
-	- Active Reinforcement Learning [009] ☑️
-- Propositional Logic [010-013]
-	- Syntax, semantics and formulas [010] ☑️
-	- Satisfiability, Tautology and Contradiction [010] ☑️
-	- Inference, Equivalences, Conjunctive Normal Form [011] ☑️
-	- Soundness and Completeness [012]
-	- Forward Chaining & DPLL [013]
-
-# CSPs
+# [CSPs](CSPs.md)
 
 ![](../z_images/Pasted%20image%2020240613173017.png)
 
@@ -54,7 +37,7 @@
 2. Dequeue: **check** if the node on the **left has a domain change**. If it does, **put in queue** again all the **arcs with that node on the right**(if they are not in the queue)
 
 ---
-# Propositional Logic
+# [Propositional Logic](Propositional%20Logic.md)
 ## Checking entailments (Reductio at absurdum)
 
 ![](../z_images/Pasted%20image%2020240612112614.png)
@@ -82,7 +65,7 @@ For the other side to be true, we either need $Y$ and $Z$ to be true, but this i
 > The two $X$ or two $Y$ would need to have 2 different assignments and that's not possible.
 
 
-## Truth tables, CNF
+## Truth tables, [CNF](CNF.md)
 
 ![](../z_images/Pasted%20image%2020240612181307.png)
 
@@ -116,7 +99,7 @@ The sentence is valid.
 > How do we turn a formula into Conjunctive Normal Form?
 > 1. We substitute ↔ with $(α→β)∧(β→α)$
 > 2. We substitute → with $¬α∨β$
-> 3. We allow ¬ only in front of single symbols. (using double negation or De Morgan's)
+> 3. We allow ¬ only in front of single symbols. (using double negation or [De Morgan](../Computer%20Architecture%201/7.%20De%20Morgan's%20Theorem.md)'s)
 > 4. Apply distributivity to make it like this:
 >    
 >    $$\large (¬B1,1 ∨ P1,2 ∨ P2,1) ∧ (¬P1,2 ∨ B1,1) ∧ (¬P2,1 ∨ B1,1)$$

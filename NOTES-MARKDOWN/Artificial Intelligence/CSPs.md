@@ -3,7 +3,7 @@ aliases:
   - Constraint satisfaction problem
   - constraint satisfaction problems
 ---
-CSP search algorithms aim to take advantage of the structure of states(and not [heuristics](../Artificial%20Intelligence/Heuristics.md)) to enable the solution of complex problems.
+CSP [search](Search.md) algorithms aim to take advantage of the structure of states(and not [heuristics](../Artificial%20Intelligence/Heuristics.md)) to enable the solution of complex problems.
 
 We want to eliminate large portions of the search space all at once by identifying which combinations violate the constraints.
 

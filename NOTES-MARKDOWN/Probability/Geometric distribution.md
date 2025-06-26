@@ -1,4 +1,4 @@
-Models the probability of obtaining the first success in a series of bernoulli trials.
+Models the probability of obtaining the first success in a series of [bernoulli](Bernoulli%20distribution.md) trials.
 
 The geometric distribution models the probability of getting the first success on the kth trial in a sequence of independent Bernoulli trials.
 

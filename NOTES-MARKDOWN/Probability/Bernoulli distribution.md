@@ -1,7 +1,6 @@
 ---
 alias: Bernoulli
 ---
-
 The Bernoulli distribution has a single parameter, often called **p**. 
 The value of p is a real number in the interval [0, 1] and stands for the probability of one of the outcomes.
 
@@ -23,7 +22,7 @@ $$\large f_X(x) = \begin{cases} p & \text{if }x=1, \\[6pt]1-p & \text {if }x=0.\
 
 ## Mean
 
-In order to compute the Expectation of a distribution, we just need to multiply each event by their probability and sum it all together:
+In order to compute the [Expectation](../Statistics/Expected%20value.md) of a distribution, we just need to multiply each event by their probability and sum it all together:
 
 $$\large E[x] = \mu = 1 \cdot p + 0\cdot(1 - p) $$
 

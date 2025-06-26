@@ -1,7 +1,7 @@
 Used for when we have an event that occurs $\lambda$ times in a fixed time or space.
 The poisson distribution models how probable it is that the event occurs $k$ times (instead of $\lambda$).
 
-- $\lambda$ is the average number of events occurring in the interval.
+- $\lambda$ is the average number of [events](Events.md) occurring in the interval.
 - $k$ is the number of events that we want the probability of, instead of $\lambda$.
 
 $$\large P(k) = \frac{λ^k \cdot e^{-λ}}{!k}$$
