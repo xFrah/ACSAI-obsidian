@@ -11,12 +11,15 @@
             "id": "d4efce0a946a4ef5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus U2/Exam 20250604.pdf"
+                "file": "NOTES-MARKDOWN/Calculus U2/3. Convergence Tests.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Exam 20250604"
+              "icon": "lucide-file",
+              "title": "3. Convergence Tests"
             }
           },
           {
@@ -25,17 +28,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus U2/5. Substitution method.md",
+                "file": "NOTES-MARKDOWN/Calculus U2/8. Improper Integrals.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "5. Substitution method"
+              "title": "8. Improper Integrals"
+            }
+          },
+          {
+            "id": "e11ded38111bc4d9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "NOTES-MARKDOWN/Calculus U2/Exam 20250604.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Exam 20250604"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -54,7 +68,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -107,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus U2/5. Substitution method.md",
+                "file": "NOTES-MARKDOWN/Calculus U2/8. Improper Integrals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +132,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 5. Substitution method"
+              "title": "Backlinks for 8. Improper Integrals"
             }
           },
           {
@@ -126,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus U2/5. Substitution method.md",
+                "file": "NOTES-MARKDOWN/Calculus U2/8. Improper Integrals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 5. Substitution method"
+              "title": "Outgoing links from 8. Improper Integrals"
             }
           },
           {
@@ -204,54 +219,54 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "d718472db2883f0a",
+  "active": "d4efce0a946a4ef5",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Calculus U2/4. Indefinite Integrals.md",
-    "NOTES-MARKDOWN/Calculus U2/5. Substitution method.md",
-    "NOTES-MARKDOWN/Calculus U2/3. Convergence Tests.md",
-    "NOTES-MARKDOWN/Calculus U2/2. Special Series.md",
-    "NOTES-MARKDOWN/Calculus U2/mock second midterm.pdf",
-    "NOTES-MARKDOWN/Calculus U2/Exercises_Series.pdf",
-    "NOTES-MARKDOWN/Calculus U2/exercise sheet - ODE.pdf",
-    "NOTES-MARKDOWN/Calculus U2/exercise sheet - power series.pdf",
-    "NOTES-MARKDOWN/Calculus U2/exercise sheet - revision.pdf",
-    "NOTES-MARKDOWN/Calculus U2/exercise sheet - numerical series.pdf",
-    "NOTES-MARKDOWN/Calculus U2/Exam 20250604.pdf",
-    "NOTES-MARKDOWN/Probability/Bayes' theorem.md",
+    "NOTES-HTML/lib/search-index.json",
+    "NOTES-HTML/lib/metadata.json",
+    "NOTES-HTML/lib/styles/theme.css",
+    "NOTES-HTML/lib/styles/snippets.css",
+    "NOTES-HTML/lib/styles/main-styles.css",
+    "NOTES-HTML/lib/styles/other-plugins.css",
+    "NOTES-HTML/lib/styles/obsidian.css",
+    "NOTES-HTML/lib/styles/global-variable-styles.css",
+    "NOTES-HTML/lib/styles",
+    "NOTES-HTML/lib/media/favicon.png",
+    "NOTES-HTML/lib/html/file-tree.html",
+    "NOTES-HTML/lib/html",
+    "NOTES-HTML/lib/media/6155340132a851f6089e.svg",
+    "NOTES-HTML/lib/media/asdasdasd2.png",
+    "NOTES-HTML/lib/media/pasted-image-20230511175121.png",
+    "NOTES-HTML/lib/media/asdasdasd.png",
+    "NOTES-HTML/lib/media/pasted-image-20230511173014.png",
+    "NOTES-HTML/lib/media/pasted-image-20230511165147.png",
+    "NOTES-HTML/lib/media/pasted-image-20230511133103.png",
+    "NOTES-HTML/lib/media/figure_134645654657456.png",
+    "NOTES-HTML/lib/media/figure_134344334.png",
+    "NOTES-MARKDOWN/Statistics/Z-score.md",
+    "NOTES-MARKDOWN/Statistics/Variance.md",
+    "NOTES-MARKDOWN/Statistics/Statistics Exam - DONE.md",
+    "NOTES-MARKDOWN/Statistics/Standard Error.md",
+    "NOTES-MARKDOWN/Statistics/Standard Deviation.md",
+    "NOTES-MARKDOWN/Statistics/Significance Test.md",
+    "NOTES-MARKDOWN/Statistics/Significance Level.md",
+    "NOTES-MARKDOWN/Statistics/Sampling distributions.md",
+    "NOTES-MARKDOWN/Statistics/Regression.md",
+    "NOTES-MARKDOWN/Statistics/Normal distribution.md",
+    "NOTES-MARKDOWN/Statistics/Mode.md",
+    "NOTES-MARKDOWN/Statistics/Median.md",
+    "NOTES-MARKDOWN/Statistics/Measures of Position.md",
+    "NOTES-MARKDOWN/Statistics/Expected value.md",
+    "NOTES-MARKDOWN/Statistics/Estimation.md",
+    "NOTES-MARKDOWN/Statistics/Empirical rule.md",
+    "NOTES-MARKDOWN/Statistics/Covariance.md",
+    "NOTES-MARKDOWN/Statistics/Correlation coefficient.md",
+    "NOTES-MARKDOWN/Statistics/Confidence interval.md",
+    "NOTES-MARKDOWN/Statistics/Box plot.md",
+    "NOTES-MARKDOWN/Statistics/Association.md",
+    "NOTES-MARKDOWN/Statistics/Advanced Regression.md",
     "NOTES-MARKDOWN/Probability/Subsets.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/AI Exam - DONE.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Agents.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/CNF.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/CSPs.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Environments.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Heuristics.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Search.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Negational Normal Form.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Markov Decision Processes.md",
-    "NOTES-MARKDOWN/Artificial Intelligence/Logical Equivalences.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/[EXAM] CA1.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/2. Fixed-point.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/3. Floating-point.md",
-    "NOTES-MARKDOWN/Computer Architecture 1/1. Integer numbers.md",
-    "NOTES-MARKDOWN/Probability/Bernoulli distribution.md",
-    "NOTES-MARKDOWN/Probability/Binomial distribution.md",
-    "NOTES-MARKDOWN/Probability/Conditional Probability.md",
-    "NOTES-MARKDOWN/Probability/Events.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250625091637.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250623141655.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250622161512.png",
-    "NOTES-MARKDOWN/z_images/20241009_091513.jpg",
-    "NOTES-MARKDOWN/z_images/20241008_084917.jpg",
-    "NOTES-MARKDOWN/z_images/20241008_084917 1.jpg",
-    "NOTES-MARKDOWN/z_images/1_RIHS9QCl8p-NEmUwxFaK-A.gif",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113162936.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113160951.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250113144912.png",
-    "NOTES-MARKDOWN/Artificial Intelligence/Reinforcement Learning.html",
-    "NOTES-MARKDOWN/Artificial Intelligence/Propositional Logic.html",
-    "NOTES-MARKDOWN/Artificial Intelligence/Negational Normal Form.html",
+    "NOTES-MARKDOWN/Probability/Random variable.md",
+    "NOTES-MARKDOWN/Probability/Probability Exam - DONE.md",
     "Machine Learning/Untitled.canvas"
   ]
 }
