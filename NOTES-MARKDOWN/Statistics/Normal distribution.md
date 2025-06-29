@@ -1,5 +1,5 @@
 It's a [probability distribution](../Probability/Probability%20distributions.md) that is symmetric around the mean.
-It shows that data near the mean occur more frequently than data far from the mean.
+It shows that data near the mean occurs more frequently than data far from the mean.
 
 It is also called the [Gaussian distribution](../Machine%20Learning/Gaussian%20distribution.md) or bell curve.
 

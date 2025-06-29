@@ -1,7 +1,6 @@
 ---
 alias: Gaussian, Gaussian curve, Gaussians
 ---
-
 The [normal distribution](../Statistics/Normal%20distribution.md), also known as Gaussian distribution, is defined by two parameters:
 - Mean $\large \mu$, which is [expected value](../Statistics/Expected%20value.md) of the distribution 
 - [standard deviation](../Statistics/Standard%20Deviation.md) $\large \sigma$, which corresponds to the expected squared deviation from the mean.

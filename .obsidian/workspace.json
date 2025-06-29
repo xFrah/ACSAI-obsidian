@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d4efce0a946a4ef5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Calculus/5. Logarithms.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "5. Logarithms"
-            }
-          },
-          {
             "id": "d718472db2883f0a",
             "type": "leaf",
             "state": {
@@ -47,6 +32,21 @@
               },
               "icon": "lucide-file-text",
               "title": "Exam 20250604"
+            }
+          },
+          {
+            "id": "32d2bc443f3673da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Calculus U2/3. Convergence Tests.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "3. Convergence Tests"
             }
           }
         ]
@@ -219,8 +219,35 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "d4efce0a946a4ef5",
+  "active": "d718472db2883f0a",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Calculus U2/3. Convergence Tests.md",
+    "NOTES-MARKDOWN/Calculus U2/8. Improper Integrals.md",
+    "NOTES-MARKDOWN/Statistics/Standard Deviation.md",
+    "NOTES-MARKDOWN/Statistics/Confidence interval.md",
+    "NOTES-MARKDOWN/Statistics/Significance Level.md",
+    "NOTES-MARKDOWN/Statistics/Significance Test.md",
+    "NOTES-MARKDOWN/Machine Learning/Gaussian distribution.md",
+    "NOTES-MARKDOWN/Statistics/Normal distribution.md",
+    "NOTES-MARKDOWN/Statistics/Sampling distributions.md",
+    "NOTES-MARKDOWN/Statistics/Mode.md",
+    "NOTES-MARKDOWN/Statistics/Variable types.md",
+    "NOTES-MARKDOWN/Statistics/Statistics Exam - DONE.md",
+    "NOTES-MARKDOWN/Statistics/Standard Error.md",
+    "NOTES-MARKDOWN/Probability/Bayes' theorem.md",
+    "NOTES-MARKDOWN/Probability/Subsets.md",
+    "NOTES-MARKDOWN/Probability/Multiplication rule.md",
+    "NOTES-MARKDOWN/Probability/Random variable.md",
+    "NOTES-MARKDOWN/Probability/Probability Exam - DONE.md",
+    "NOTES-MARKDOWN/Probability/Poisson distribution.md",
+    "NOTES-MARKDOWN/Probability/Geometric distribution.md",
+    "NOTES-MARKDOWN/Probability/Conditional Probability.md",
+    "NOTES-MARKDOWN/Probability/Binomial distribution.md",
+    "NOTES-MARKDOWN/Statistics/Z-score.md",
+    "NOTES-MARKDOWN/Statistics/Variance.md",
+    "NOTES-MARKDOWN/Statistics/Regression.md",
+    "NOTES-MARKDOWN/Statistics/Median.md",
+    "NOTES-MARKDOWN/Calculus U2/Exam 20250604.pdf",
     "NOTES-HTML/notes-markdown/z_images/walter-white-fuck-you-walt-fuck-you.gif",
     "NOTES-HTML/notes-markdown/z_images/untitled.png",
     "NOTES-HTML/notes-markdown/z_images/special-cases.png",
@@ -231,33 +258,7 @@
     "NOTES-HTML/notes-markdown/z_images/prob2.png",
     "NOTES-HTML/notes-markdown/z_images/prob1.png",
     "NOTES-HTML/notes-markdown/z_images/pasted-image-20250628110330.png",
-    "NOTES-HTML/notes-markdown/z_images/pasted-image-20250625091637.png",
-    "NOTES-MARKDOWN/Statistics/Z-score.md",
     "NOTES-HTML/notes-markdown/z_images",
-    "NOTES-MARKDOWN/Statistics/Variance.md",
-    "NOTES-MARKDOWN/Statistics/Statistics Exam - DONE.md",
-    "NOTES-MARKDOWN/Statistics/Standard Error.md",
-    "NOTES-MARKDOWN/Statistics/Standard Deviation.md",
-    "NOTES-MARKDOWN/Statistics/Significance Test.md",
-    "NOTES-MARKDOWN/Statistics/Significance Level.md",
-    "NOTES-MARKDOWN/Statistics/Sampling distributions.md",
-    "NOTES-MARKDOWN/Statistics/Regression.md",
-    "NOTES-MARKDOWN/Statistics/Normal distribution.md",
-    "NOTES-MARKDOWN/Statistics/Mode.md",
-    "NOTES-MARKDOWN/Statistics/Median.md",
-    "NOTES-MARKDOWN/Statistics/Measures of Position.md",
-    "NOTES-MARKDOWN/Statistics/Expected value.md",
-    "NOTES-MARKDOWN/Statistics/Estimation.md",
-    "NOTES-MARKDOWN/Statistics/Empirical rule.md",
-    "NOTES-MARKDOWN/Statistics/Covariance.md",
-    "NOTES-MARKDOWN/Statistics/Correlation coefficient.md",
-    "NOTES-MARKDOWN/Statistics/Confidence interval.md",
-    "NOTES-MARKDOWN/Statistics/Box plot.md",
-    "NOTES-MARKDOWN/Statistics/Association.md",
-    "NOTES-MARKDOWN/Statistics/Advanced Regression.md",
-    "NOTES-MARKDOWN/Probability/Subsets.md",
-    "NOTES-MARKDOWN/Probability/Random variable.md",
-    "NOTES-MARKDOWN/Probability/Probability Exam - DONE.md",
     "NOTES-HTML/lib/search-index.json",
     "NOTES-HTML/lib/metadata.json",
     "NOTES-HTML/lib/styles/theme.css",
@@ -266,7 +267,6 @@
     "NOTES-HTML/lib/styles/other-plugins.css",
     "NOTES-HTML/lib/styles/obsidian.css",
     "NOTES-HTML/lib/styles/global-variable-styles.css",
-    "NOTES-HTML/lib/styles",
     "Machine Learning/Untitled.canvas"
   ]
 }

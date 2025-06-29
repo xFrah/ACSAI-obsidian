@@ -7,7 +7,7 @@ The mode of a distribution is the <span style="background:rgba(183, 152, 255, 0.
 ![](../z_images/Pasted%20image%2020230301143247.png)
 
 - Unimodality: A distribution with a single mound is called unimodal.
-- Bimodality: A distribution with two distinc mounds is called bimodal.
+- Bimodality: A distribution with two distinct mounds is called bimodal.
 
 
 ```ad-warning

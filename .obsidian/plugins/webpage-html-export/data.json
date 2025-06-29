@@ -3,7 +3,7 @@
   "makeOfflineCompatible": false,
   "inlineAssets": false,
   "includePluginCSS": "obsidian-admonition",
-  "includeSvelteCSS": false,
+  "includeSvelteCSS": true,
   "titleProperty": "title",
   "customHeadContentPath": "",
   "faviconPath": "",
@@ -20,10 +20,10 @@
   "onlyExportModified": false,
   "deleteOldFiles": false,
   "addThemeToggle": true,
-  "addOutline": true,
-  "addFileNav": true,
-  "addSearchBar": true,
-  "addGraphView": true,
+  "addOutline": false,
+  "addFileNav": false,
+  "addSearchBar": false,
+  "addGraphView": false,
   "addTitle": true,
   "addRSSFeed": false,
   "siteURL": "",
@@ -46,7 +46,12 @@
   "exportPath": "C:\\\\Users\\fdimo\\Documents\\Obsidian Vault\\NOTES-HTML",
   "filesToExport": [
     [
-      "NOTES-MARKDOWN/Probability"
+      "NOTES-MARKDOWN/Calculus",
+      "NOTES-MARKDOWN/Calculus 2",
+      "NOTES-MARKDOWN/Calculus U2",
+      "NOTES-MARKDOWN/Machine Learning",
+      "NOTES-MARKDOWN/Probability",
+      "NOTES-MARKDOWN/Statistics"
     ]
   ],
   "inlineCSS": true,
