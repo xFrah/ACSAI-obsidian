@@ -8,45 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d718472db2883f0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Calculus U2/8. Improper Integrals.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "8. Improper Integrals"
-            }
-          },
-          {
-            "id": "e11ded38111bc4d9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "NOTES-MARKDOWN/Calculus U2/Exam 20250604.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Exam 20250604"
-            }
-          },
-          {
             "id": "32d2bc443f3673da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus U2/3. Convergence Tests.md",
+                "file": "NOTES-MARKDOWN/Physics/Exam guide.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3. Convergence Tests"
+              "title": "Exam guide"
             }
           }
         ]
@@ -141,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus U2/8. Improper Integrals.md",
+                "file": "NOTES-MARKDOWN/Physics/Exam guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 8. Improper Integrals"
+              "title": "Outgoing links from Exam guide"
             }
           },
           {
@@ -219,10 +192,24 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "d718472db2883f0a",
+  "active": "32d2bc443f3673da",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Physics/5. Newton's laws.md",
+    "NOTES-MARKDOWN/Physics/Exam guide.md",
+    "NOTES-MARKDOWN/Physics/4. Kinematics.md",
+    "NOTES-MARKDOWN/Physics/6. Work.md",
+    "NOTES-MARKDOWN/Physics/3. Useful math stuff.md",
+    "NOTES-MARKDOWN/Physics/2. Vector operations.md",
+    "NOTES-MARKDOWN/Calculus U2/Exam 20250604.pdf",
+    "NOTES-MARKDOWN/Calculus U2/2. Special Series.md",
     "NOTES-MARKDOWN/Calculus U2/3. Convergence Tests.md",
+    "NOTES-MARKDOWN/Calculus U2/7. Definite Integrals.md",
     "NOTES-MARKDOWN/Calculus U2/8. Improper Integrals.md",
+    "NOTES-MARKDOWN/Calculus U2/4. Indefinite Integrals.md",
+    "NOTES-MARKDOWN/Calculus U2/5. Substitution method.md",
+    "NOTES-MARKDOWN/Calculus/2. Inverse functions.md",
+    "NOTES-MARKDOWN/Calculus/1. Domain and Range.md",
+    "NOTES-MARKDOWN/Calculus/8. Differentiation.md",
     "NOTES-MARKDOWN/Statistics/Standard Deviation.md",
     "NOTES-MARKDOWN/Statistics/Confidence interval.md",
     "NOTES-MARKDOWN/Statistics/Significance Level.md",
@@ -234,20 +221,6 @@
     "NOTES-MARKDOWN/Statistics/Variable types.md",
     "NOTES-MARKDOWN/Statistics/Statistics Exam - DONE.md",
     "NOTES-MARKDOWN/Statistics/Standard Error.md",
-    "NOTES-MARKDOWN/Probability/Bayes' theorem.md",
-    "NOTES-MARKDOWN/Probability/Subsets.md",
-    "NOTES-MARKDOWN/Probability/Multiplication rule.md",
-    "NOTES-MARKDOWN/Probability/Random variable.md",
-    "NOTES-MARKDOWN/Probability/Probability Exam - DONE.md",
-    "NOTES-MARKDOWN/Probability/Poisson distribution.md",
-    "NOTES-MARKDOWN/Probability/Geometric distribution.md",
-    "NOTES-MARKDOWN/Probability/Conditional Probability.md",
-    "NOTES-MARKDOWN/Probability/Binomial distribution.md",
-    "NOTES-MARKDOWN/Statistics/Z-score.md",
-    "NOTES-MARKDOWN/Statistics/Variance.md",
-    "NOTES-MARKDOWN/Statistics/Regression.md",
-    "NOTES-MARKDOWN/Statistics/Median.md",
-    "NOTES-MARKDOWN/Calculus U2/Exam 20250604.pdf",
     "NOTES-HTML/notes-markdown/z_images/walter-white-fuck-you-walt-fuck-you.gif",
     "NOTES-HTML/notes-markdown/z_images/untitled.png",
     "NOTES-HTML/notes-markdown/z_images/special-cases.png",
