@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Exam guide.md",
+                "file": "NOTES-MARKDOWN/Physics/8. Fluids.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Exam guide"
+              "title": "Backlinks for 8. Fluids"
             }
           },
           {
@@ -175,12 +175,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Exam guide.md",
+                "file": "NOTES-MARKDOWN/Physics/8. Fluids.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Exam guide"
+              "title": "Outgoing links from 8. Fluids"
             }
           },
           {
@@ -247,10 +247,12 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "c9b334669fb39663",
+  "active": "cc7f1c28d2cdb260",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/Physics/8. Fluids.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250716105455.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250716105409.png",
     "NOTES-MARKDOWN/Physics/Exam guide.md",
+    "NOTES-MARKDOWN/Physics/8. Fluids.md",
     "NOTES-MARKDOWN/Physics/0. Introduction to physics.md",
     "NOTES-MARKDOWN/Physics/1. Kinematics.md",
     "NOTES-MARKDOWN/Physics/7. Circular Motion.md",
@@ -274,7 +276,6 @@
     "NOTES-MARKDOWN/Human Computer Interaction/04 - Navigation.md",
     "NOTES-MARKDOWN/Human Computer Interaction/04 - Manipulating objects.md",
     "NOTES-MARKDOWN/Human Computer Interaction/02 - Widgets.md",
-    "NOTES-MARKDOWN/Human Computer Interaction/01 - Interface.md",
-    "NOTES-MARKDOWN/AI-LAB/Kernel.md"
+    "NOTES-MARKDOWN/Human Computer Interaction/01 - Interface.md"
   ]
 }
