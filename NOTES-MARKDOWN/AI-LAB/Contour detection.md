@@ -1,7 +1,7 @@
 There are some well known kernels that allow to extract only the edges from the image.
 The most famous are the Sobel and Laplacian kernels.
 
-The sobel operator is a [kernel](Kernel.md) that computes the first derivative of pixels intensity.
+The sobel operator is a [kernel](Kernel.md) that computes the first [derivative](../Calculus/8.%20Differentiation.md) of pixels intensity.
 
 ![](../z_images/Pasted%20image%2020230321171341.png)
 

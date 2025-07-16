@@ -411,11 +411,11 @@ wtf?
 
 ### Compute the [gradient](../Machine%20Learning/Gradient.md) using the [chain rule](../Calculus/Chain%20Rule.md)
 
-At the last gate, we compute the derivatives with respect to each component of $\mathcal{L}$:
+At the last gate, we compute the [derivatives](../Calculus/8.%20Differentiation.md) with respect to each component of $\mathcal{L}$:
 
 $$\large\mathcal{L}=\text{sqrt}\cdot \text{plus} \quad\rightarrow\quad \frac{\partial \mathcal{L}}{\partial \text{plus}}=\text{sqrt},\quad \frac{\partial \mathcal{L}}{\partial \text{sqrt}}=\text{plus}$$
 
-Now, in order to apply the chain rule, we would need to know the derivatives of $\text{sqrt}$ and $\text{plus}$.
+Now, in order to apply the chain rule, we would need to know the [derivatives](../Calculus/8.%20Differentiation.md) of $\text{sqrt}$ and $\text{plus}$.
 
 $$\large\text{sqrt}=\sqrt{x}\quad\rightarrow\quad \frac{\partial \text{sqrt}}{\partial x}=\frac{1}{2} \cdot x^{\frac{1}{2}-1}=\frac{1}{2x}$$
 $$\large\text{plus}=\text{cube}+\text{sqrt}\quad\rightarrow\quad\frac{\partial \text{plus}}{\partial \text{cube}}=\text{sqrt}, \quad \frac{\partial \text{plus}}{\partial \text{sqrt}}=\text{cube}$$

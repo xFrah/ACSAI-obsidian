@@ -88,7 +88,7 @@
       "query": "path:NOTES-MARKDOWN/Physics  ",
       "color": {
         "a": 1,
-        "rgb": 104507
+        "rgb": 9961707
       }
     },
     {
@@ -109,6 +109,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6702611832823256,
+  "scale": 0.6967529657007303,
   "close": true
 }

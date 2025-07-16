@@ -1,4 +1,4 @@
-An agent is anything that perceives its environment and acts accordingly.
+An agent is anything that perceives its [environment](Environments.md) and acts accordingly.
 
 > [!example]
 > **Human agent:**

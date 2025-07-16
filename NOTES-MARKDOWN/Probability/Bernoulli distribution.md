@@ -4,7 +4,6 @@ alias: Bernoulli
 The Bernoulli distribution has a single parameter, often called **p**. 
 The value of p is a real number in the interval [0, 1] and stands for the probability of one of the outcomes.
 
-
 ## Probability Mass function
 
 $$\large f_X(x) = \begin{cases} p & \text{if }x=1, \\[6pt]1-p & \text {if }x=0.\end{cases}$$

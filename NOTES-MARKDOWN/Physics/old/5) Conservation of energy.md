@@ -1,8 +1,6 @@
 ## Conservation of mechanical energy
 
-let v be a vector associated to vertical velocity of an object
-![](../../z_images/Pasted%20image%2020240311091741.png)
-
+let v be a vector associated to vertical velocity of an object:
 - the object can go up
 - If v - gt = 0 the object stops.
 - the object can go down

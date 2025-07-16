@@ -87,7 +87,7 @@ $$\large\frac{\partial\mathcal{L}(x,y,z)}{\partial y} =  (xz+\mathbf{y}z)^{\prim
 $$\large \frac{\partial\mathcal{L}(x,y,z)}{\partial z} =  x+y$$
 
 > [!hint]
-> $(\mathbf{x}z+yz)^{\prime}=(\mathbf{x}z)^{\prime}+(yz)^{\prime}$ with respect to x, is because the derivative of a sum is the sum of the derivatives of the two components.
+> $(\mathbf{x}z+yz)^{\prime}=(\mathbf{x}z)^{\prime}+(yz)^{\prime}$ with respect to x, is because the [derivative](../Calculus/8.%20Differentiation.md) of a sum is the sum of the derivatives of the two components.
 > 
 > Recall also that $(\text{const})^\prime=0$
 

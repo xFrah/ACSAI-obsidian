@@ -2,7 +2,7 @@
 > 
 > ## Search problem definition
 > 
-> We have a **State Space**(set) which contains all the possible states of the environment.
+> We have a **State Space**(set) which contains all the possible states of the [environment](Environments.md).
 > 
 > ![](../z_images/Pasted%20image%2020240510115334.png)
 > 

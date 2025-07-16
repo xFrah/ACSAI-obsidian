@@ -33,7 +33,7 @@ In fact, if we plug in $\mu = 30$ and $\sigma = 2$:
 
 We get a likelyhood of 0.12, which is definitely better!
 
-By the way, if we plot the likelyhood hovering all over the possible values of $\mu$, we can actually see that we can get the maximum likelyhood where the derivative of the whole thing is 0:
+By the way, if we plot the likelyhood hovering all over the possible values of $\mu$, we can actually see that we can get the maximum likelyhood where the [derivative](../Calculus/8.%20Differentiation.md) of the whole thing is 0:
 
 ![](../z_images/Pasted%20image%2020230414001747.png)
 

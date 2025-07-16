@@ -2,7 +2,7 @@
 
 ### Model-based
 
-In model-based learning, the agent first learns the model of the environment (the [MDP](Markov%20Decision%20Processes.md)) from the experiences. 
+In model-based learning, the agent first learns the model of the [environment](Environments.md) (the [MDP](Markov%20Decision%20Processes.md)) from the experiences. 
 We have to learn the transition probabilities and reward functions by ourselves.
 
 So we learn an empirical MDP model:

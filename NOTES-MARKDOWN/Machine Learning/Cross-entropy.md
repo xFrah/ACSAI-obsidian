@@ -1,7 +1,6 @@
 ---
 alias: Cross-entropy Loss, CE Loss
 ---
-
 It is commonly used to quantify the difference between two [[../Probability/Probability distributions|probability distributions]] in the [Kullback-Leibler divergence](Kullback-Leibler%20divergence.md).
 It is also used in machine learning to estimate the loss/error for categorical [multi-class classification](Multi-Class%20Classification.md).
 
