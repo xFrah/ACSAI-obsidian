@@ -11,7 +11,7 @@ This is a broad category covering motion, forces, energy, collisions, and the be
 - **[Friction](5.%20Friction.md):** Static and kinetic friction, understanding the normal force and its relation to friction.
 - **[Circular Motion](7.%20Circular%20Motion.md):** Centripetal force and acceleration (relevant for objects on circular paths or turning cars).
 - **Fluids - [Hydrostatics](8.%20Fluids.md#Hydrostatics):** Pressure in fluids ([Pascal's Law](8.%20Fluids.md#Pascal's%20Law) implied in some problems), **Buoyancy ([Archimedes' Principle](8.%20Fluids.md#Buoyant%20Forces%20and%20Archimedes'%20Principle))**.
-- **Fluids - Dynamics:** **Bernoulli's Principle** and **Continuity Equation** (flow rate).
+- **Fluids - [Dynamics](8.%20Fluids.md#Fluid%20Dynamics):** **[Bernoulli's Principle](8.%20Fluids.md#Bernoulli's%20Formula)** and **[Continuity Equation](8.%20Fluids.md#Equation%20of%20Continuity)** (flow rate).
 
 > [!example]
 > ### Common exercises
@@ -31,7 +31,7 @@ This is a broad category covering motion, forces, energy, collisions, and the be
 
 This section deals with heat, temperature, energy, and the behavior of gases.
 
-- **Ideal Gas Law (PV=nRT)**.
+- **[Ideal Gas Law](9.%20Thermodynamics.md) (PV=nRT)**.
 - **Thermodynamic Processes:** Understand and be able to draw pV diagrams for **isochoric (constant volume)**, **isobaric (constant pressure)**, **isothermal (constant temperature)**, and **adiabatic (no heat exchange)** processes.
 - **First Law of Thermodynamics (ΔU = Q - W)**: Relates change in internal energy (ΔU) to heat (Q) and work (W).
 - **Work Done by/on Gas:** Understand that work is the area under the pV curve. Work is zero for isochoric processes.
