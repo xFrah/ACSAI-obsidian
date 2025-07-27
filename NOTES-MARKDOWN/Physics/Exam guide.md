@@ -4,14 +4,14 @@ This is a broad category covering motion, forces, energy, collisions, and the be
 
 ### Topics
 
-- **[Kinematics](1.%20Kinematics.md):** Equations of motion (position, velocity, acceleration).
-- **[Newton's Laws](2.%20Newton's%20laws.md) of Motion:** Free-body diagrams, sum of forces, acceleration.
-- **[Work](3.%20Work%20&%20Energy.md) and Energy:** [Work-Energy Theorem](3.%20Work%20&%20Energy.md#Work-Energy%20Theorem), [Conservative forces](4.%20Conservative%20and%20Non-Conservative%20forces.md#Conservative%20forces) (gravity, spring), [Non-Conservative forces](4.%20Conservative%20and%20Non-Conservative%20forces.md#Non-Conservative%20forces) (friction), Conservation of Mechanical Energy. Understand **potential energy (gravitational, elastic)** and **kinetic energy**.
-- **[Collisions](6.%20Collisions.md):** [Conservation of Momentum](6.%20Collisions.md#Conservation%20of%20Momentum), Conservation of Energy (for [Elastic Collisions](6.%20Collisions.md#Elastic%20Collisions)) or energy transfer (for [Inelastic Collisions](6.%20Collisions.md#Inelastic%20Collisions)).
-- **[Friction](5.%20Friction.md):** Static and kinetic friction, understanding the normal force and its relation to friction.
-- **[Circular Motion](7.%20Circular%20Motion.md):** Centripetal force and acceleration (relevant for objects on circular paths or turning cars).
-- **Fluids - [Hydrostatics](8.%20Fluids.md#Hydrostatics):** Pressure in fluids ([Pascal's Law](8.%20Fluids.md#Pascal's%20Law) implied in some problems), **Buoyancy ([Archimedes' Principle](8.%20Fluids.md#Buoyant%20Forces%20and%20Archimedes'%20Principle))**.
-- **Fluids - [Dynamics](8.%20Fluids.md#Fluid%20Dynamics):** **[Bernoulli's Principle](8.%20Fluids.md#Bernoulli's%20Formula)** and **[Continuity Equation](8.%20Fluids.md#Equation%20of%20Continuity)** (flow rate).
+- **[Kinematics](Mechanics/1.%20Kinematics.md):** Equations of motion (position, velocity, acceleration).
+- **[Newton's Laws](Mechanics/2.%20Newton's%20laws.md) of Motion:** Free-body diagrams, sum of forces, acceleration.
+- **[Work](Mechanics/3.%20Work%20&%20Energy.md) and Energy:** [Work-Energy Theorem](Mechanics/3.%20Work%20&%20Energy.md#Work-Energy%20Theorem), [Conservative forces](Mechanics/4.%20Conservative%20and%20Non-Conservative%20forces.md#Conservative%20forces) (gravity, spring), [Non-Conservative forces](Mechanics/4.%20Conservative%20and%20Non-Conservative%20forces.md#Non-Conservative%20forces) (friction), Conservation of Mechanical Energy. Understand **potential energy (gravitational, elastic)** and **kinetic energy**.
+- **[Collisions](Mechanics/6.%20Collisions.md):** [Conservation of Momentum](Mechanics/6.%20Collisions.md#Conservation%20of%20Momentum), Conservation of Energy (for [Elastic Collisions](Mechanics/6.%20Collisions.md#Elastic%20Collisions)) or energy transfer (for [Inelastic Collisions](Mechanics/6.%20Collisions.md#Inelastic%20Collisions)).
+- **[Friction](Mechanics/5.%20Friction.md):** Static and kinetic friction, understanding the normal force and its relation to friction.
+- **[Circular Motion](Mechanics/7.%20Circular%20Motion.md):** Centripetal force and acceleration (relevant for objects on circular paths or turning cars).
+- **Fluids - [Hydrostatics](Fluids/1.%20Fluids.md#Hydrostatics):** Pressure in fluids ([Pascal's Law](Fluids/1.%20Fluids.md#Pascal's%20Law) implied in some problems), **Buoyancy ([Archimedes' Principle](Fluids/1.%20Fluids.md#Buoyant%20Forces%20and%20Archimedes'%20Principle))**.
+- **Fluids - [Dynamics](Fluids/1.%20Fluids.md#Fluid%20Dynamics):** **[Bernoulli's Principle](Fluids/1.%20Fluids.md#Bernoulli's%20Formula)** and **[Continuity Equation](Fluids/1.%20Fluids.md#Equation%20of%20Continuity)** (flow rate).
 
 > [!example]
 > ### Common exercises
@@ -31,14 +31,14 @@ This is a broad category covering motion, forces, energy, collisions, and the be
 
 This section deals with heat, temperature, energy, and the behavior of gases.
 
-- **[Ideal Gas Law](9.%20Thermodynamics.md) (PV=nRT)**.
-- **Thermodynamic Processes:** Understand and be able to draw pV diagrams for **isochoric (constant volume)**, **isobaric (constant pressure)**, **isothermal (constant temperature)**, and **adiabatic (no heat exchange)** processes.
-- **First Law of Thermodynamics (ΔU = Q - W)**: Relates change in internal energy (ΔU) to heat (Q) and work (W).
+- **[Ideal Gas Law](Thermodynamics/9.%20Thermodynamics.md#Ideal%20Gas%20Law) (PV=nRT)**.
+- **[Thermodynamic processes](Thermodynamics/9.%20Thermodynamics.md#Thermodynamic%20processes):** Understand and be able to draw pV diagrams for **[Isochoric](Thermodynamics/9.%20Thermodynamics.md#Isochoric%20Process) (constant volume)**, **[Isobaric](Thermodynamics/9.%20Thermodynamics.md#Isobaric%20Process) (constant pressure)**, **[Isothermal Process](Thermodynamics/9.%20Thermodynamics.md#Isothermal%20Process) (constant temperature)**, and **[Adiabatic](Thermodynamics/9.%20Thermodynamics.md#Adiabatic%20Process) (no heat exchange)** processes.
+- **[First Law of Thermodynamics](Thermodynamics/9.%20Thermodynamics.md#First%20Law%20of%20Thermodynamics) (ΔU = Q - W)**: Relates change in internal energy (ΔU) to heat (Q) and work (W).
 - **Work Done by/on Gas:** Understand that work is the area under the pV curve. Work is zero for isochoric processes.
 - **Internal Energy (ΔU):** For ideal gases, internal energy depends only on temperature. Thus, ΔU=0 for isothermal processes.
 - **Heat (Q):** How to calculate heat for different processes (e.g., Q=nCvΔT for isochoric, Q=nCpΔT for isobaric, Q=W for isothermal).
-- **Entropy (ΔS):** Definition and calculation, especially for reversible processes or phase changes.
-- **Heat Engines/Cycles:** Concepts of efficiency (Carnot cycle).
+- **[Entropy](Thermodynamics/9.%20Thermodynamics.md#Entropy) (ΔS):** Definition and calculation, especially for reversible processes or phase changes. *WE NEED TO DO THIS BETTER*
+- **Heat Engines/Cycles:** Concepts of efficiency ([Carnot cycle](Thermodynamics/9.%20Thermodynamics.md#Carnot%20cycle)).
 - **Phase Changes:** Latent heat (fusion, vaporization).
 - **Thermal Equilibrium/Mixing:** Calculating equilibrium temperatures when mixing substances.
 
