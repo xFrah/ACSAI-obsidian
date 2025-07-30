@@ -1,27 +1,3 @@
 {
-  "promptDelete": false,
-  "attachmentFolderPath": "NOTES-MARKDOWN/z_images",
-  "useMarkdownLinks": true,
-  "userIgnoreFilters": [
-    "z_images/",
-    "NOTES-MARKDOWN/Guides to the exams/",
-    "NOTES-MARKDOWN/Statistics/Standard Deviation",
-    "NOTES-MARKDOWN/Linear Algebra/Matrix (ML)",
-    "NOTES-MARKDOWN/Linear Algebra/Vectors",
-    "README.md",
-    "README",
-    "NOTES-MARKDOWN/Physics - not good/",
-    "NOTES-MARKDOWN/Patente/",
-    "NOTES-MARKDOWN/Human Computer Interaction/"
-  ],
-  "newLinkFormat": "relative",
-  "alwaysUpdateLinks": true,
-  "pdfExportSettings": {
-    "includeName": true,
-    "pageSize": "A4",
-    "landscape": false,
-    "margin": "0",
-    "downscalePercent": 100
-  },
   "spellcheck": false
 }

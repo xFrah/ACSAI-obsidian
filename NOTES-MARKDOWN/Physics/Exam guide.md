@@ -58,7 +58,7 @@ This section covers electric charges, fields, potentials, and magnetic phenomena
 
 ### Topics
 
-- **Coulomb's Law:** Force between point charges.
+- **[[1. Coulomb's Law|Coulomb's Law]]:** Force between point charges.
 - **Electric Field (E):** Definition (force per unit charge), field due to point charges, charged spheres, or charged layers. Electric field inside a conductor is zero.
 - **Electric Potential (V):** Definition, potential due to point charges, relation between E and V (E = -dV/dx).
 - **Work Done by Electric Force:** W = -ΔU = -qΔV.
