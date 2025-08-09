@@ -36,21 +36,26 @@ The machine **accepts** if there exists **at least one** of the computation bran
 
 ## Equivalence of NFA and DFA
 
-They both can do the same thing. For every non deterministic automaton, there exists a deterministic automaton that can accept the same language.
+They both can do the same thing. For every non deterministic automaton, there exists a deterministic automaton that can accept the same language ([[DFA = NFA|proof here]]).
 
-We will try to convert NFA's to DFA's.
+### NFA to DFA conversion
 
-> [!hint] NFA to DFA
-> Instead of states, the new DFA will have groups of states from the original NFA.
-> You can think of them as: "The set of possible states that we can reach from a particular point without any other input"
-> 
-> ![](../z_images/Pasted%20image%2020241011114755.png)
-> 
-> This is the converted DFA:
-> 
-> ![](../z_images/Pasted%20image%2020241011114809.png)
-> 
-> In the NFA the starting state is 1, but without any further input we can also reach 3, so in the DFA, the starting state is {1, 3}.
+Instead of states, the new DFA will have groups of states from the original NFA.
+You can think of them as: "The set of possible states that we can reach from a particular point without any other input"
+
+![](../z_images/Pasted%20image%2020241011114755.png)
+
+
+This is the converted DFA:
+
+![](../z_images/Pasted%20image%2020241011114809.png) 
+
+> [!hint] Tips for drawing the converted DFA
+> If the original NFA has $k$ states, the converted DFA will have $2^k$ states.
+> So you can just draw every possible combination of states, and THEN draw the arrows.
+
+
+In the NFA the starting state is 1, but without any further input we can also reach 3, so in the DFA, the starting state is {1, 3}.
 
 If from this {1, 3} state we input a, we could go back to 1, which without further input, can lead to 3, so we are still in {1, 3}.
 
