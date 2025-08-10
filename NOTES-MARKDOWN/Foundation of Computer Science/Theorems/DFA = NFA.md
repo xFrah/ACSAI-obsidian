@@ -15,15 +15,14 @@ Then, we define our NFA and our new DFA:
 
 ### Building the new DFA
 
-1. We define $Q'$ as a set of subsets of $Q$, essentially a set of groups of states of the NFA.
+1. We define $Q'$ as a set of subsets of $Q$, essentially a set of groups of states of the NFA ($R$ = state inside $Q$, $r$ = state inside $R$).
 
 2. We define the transition function for the converted DFA as:
-	
+
 $$\Large δ'(R,a) = \bigcup_{r\in R}δ(r,a)$$
-	Where $R$ is a state of the new DFA (set of states from $Q$) and $r$ is a state from $R$.
 
 > [!hint]
-> This means that the next state in the new DFA, given $(R, a)$, equals to the unions of all the possible next states in the NFA, given all the $(r_i, a)$ in $R$.
+> This means that the next state in the new DFA, given $(R, a)$, equals to the unions of all the possible next states in the NFA, given all the $(r, a)$ in $R$.
 
 
 3. $q_0'$ is a state of $Q'$ that contains ONLY the starting state from the NFA.
@@ -34,5 +33,22 @@ $$\Large q_0' = \{q_0\}$$
 > It's a set of states $R$ containing only one $r_i$.
 
 
-4. $F'$ is a set of states frpm $Q'$, with each state having at least one accept state from the NFA inside of it.
+4. $F'$ is a set of states from $Q'$, with each state having at least one accept state from the NFA inside of it.
 
+### Adding the $ε$ arrows
+
+We define $E(R)$ as the set of states reachable from $r$ states (inside $R$) using only $ε$ routes (0 or more).
+
+Now that we have this notation, we need to modify the transition function to include it, we just need to do this: $E(δ(r,a))$.
+
+$$\Large δ'(R,a) = \bigcup_{r\in R}E(δ(r,a))$$
+
+We also need to change the starting state:
+
+$$\Large q_0' = E(\{q_0\})$$
+
+> [!attention] Conclusion
+> We have now completed the construction of the DFA $M$ that simulates the NFA $N$. 
+> The construction of $M$ obviously works correctly. 
+> At every step in the com putation of $M$ on aninput, it clearly enters a state that corresponds to the subset of states that $N$ could be in at that point. 
+> Thus our proof is complete.
