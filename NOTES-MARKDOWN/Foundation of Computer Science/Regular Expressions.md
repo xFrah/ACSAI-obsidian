@@ -5,6 +5,9 @@ There are 3 operations that we can do:
 - **Union**: $a \cup b$, matches both characters at a single spot.
 - **Star**: $a*$ or $\Sigma*$ (for any character), matches a sequence of any length of a character.
 
+> [!warning] Expressions can define a language
+> A [[Regular Languages|language]] is a collection of strings, and you can generate or describe a language using a regular expression.
+
 > [!note]
 > - ε means **no character**, just like pressing enter without any character.
 > - $\Sigma$ stands for the alphabet, so it's a **placeholder for any character** in the alphabet.
@@ -54,6 +57,7 @@ There are 3 operations that we can do:
 > > $D^+$ is equal to $DD^*$. 
 > > This is useful because $D^*$ can match empty strings, while $D^+$ can't.
 
+---
 
 ## Algebraic laws
 
@@ -65,7 +69,6 @@ Think of the **union as a sum** and the **concatenation as a product**.
 
 > [!example]
 > ![](../z_images/Pasted%20image%2020241108105941.png)
-
 
 ---
 

@@ -2,15 +2,20 @@
 aliases:
   - Automaton
 ---
+## Finite Automata (DFA)
+
 A finite automaton is a 5 tuple (set of states, alphabet, transition function($Q \times \Sigma \rightarrow Q$), start state, set of accepted final states)
 
 When an automaton receives an input string, it **reads the characters one by one** and **passes them to the transition function**.
 
 This leads the automaton to an arrival state, which may or may note be in the set of accepted final states, if it is, we accept the input, if it is not, we reject it.
 
+> [!note]
+> Every state in a DFA has an outgoing arrow for each symbol of the alphabet.
+
 ---
 
-## Non-deterministic automata
+## Non-deterministic automata (NFA)
 
 Each state can have multiple exiting arrows for a single symbol.
 
@@ -36,7 +41,7 @@ The machine **accepts** if there exists **at least one** of the computation bran
 
 ## Equivalence of NFA and DFA
 
-They both can do the same thing. For every non deterministic automaton, there exists a deterministic automaton that can accept the same language ([[DFA = NFA|proof here]]).
+They both can do the same thing. For every non deterministic automaton, there exists a deterministic automaton that can accept the same language ([[1.39 - DFA = NFA|proof here]]).
 
 ### NFA to DFA conversion
 
