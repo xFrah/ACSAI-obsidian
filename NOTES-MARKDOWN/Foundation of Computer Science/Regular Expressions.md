@@ -1,3 +1,9 @@
+---
+aliases:
+  - regex
+  - regular expression
+  - regular expressions
+---
 We want to match strings. This is what we call **RegEx** usually.
 
 There are 3 operations that we can do:
@@ -74,4 +80,4 @@ Think of the **union as a sum** and the **concatenation as a product**.
 
 ## Equivalence with NFA
 
-### WIP Slide 3 p. 7
+![[Pasted image 20250812114117.png]]
