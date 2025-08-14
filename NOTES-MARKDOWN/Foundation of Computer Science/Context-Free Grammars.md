@@ -5,6 +5,10 @@ aliases:
   - context-free grammar
   - cfg
   - cfgs
+  - context-free languages
+  - context-free language
+  - context free language
+  - context free languages
 ---
 > [!cite] Variables and Terminals
 > - A **variable** is a symbol that may be substituted with another grammar rule.
