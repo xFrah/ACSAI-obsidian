@@ -1,4 +1,11 @@
+---
+aliases:
+  - regular grammar
+---
 When we want to describe a syntax, we can use generative grammars, which make use of their recursive structure and substitutions to "generate" valid entities.
+
+> [!note]
+> Regular grammars are specifically designed to generate strings that belong to [[regular languages]]. They have a specific structure in their production rules that limits the types of strings they can produce to those that can be recognized by a finite [[automata]].
 
 > [!hint]
 > Used by compilers to parse code with the correct syntax.

@@ -33,7 +33,8 @@ Regular languages are closed(the result is a regular language) under these 3 ope
 - **Concatenation**
 - **Star**: concatenation of a language with itself as many times as you want.
 
-But we need to [[1.45,1.47,1.49 - Closures of Regular Languages|prove this]].
+But we need to [[1.45,1.47,1.49 - Closures of Regular Languages|prove this]]. 
+And they are also better explained [[Regular Expressions|here]].
 
 > [!example]
 > ![](../z_images/Pasted%20image%2020230927123636.png)
