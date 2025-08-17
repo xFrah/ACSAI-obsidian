@@ -1,6 +1,12 @@
 ---
 aliases:
   - Automaton
+  - NFA
+  - DFA
+  - NFAs
+  - DFAs
+  - NFA's
+  - DFA's
 ---
 ## Finite Automata (DFA)
 

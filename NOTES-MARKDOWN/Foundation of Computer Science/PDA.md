@@ -46,7 +46,7 @@ If you try to pop from an empty stack, the machine will stop.
 > 
 > 1. The first thing we do, is push a symbol $\$$ on the stack, which will be the base symbol of the stack. Basically if we reach it again at some point of the automaton, we should be able to accept it and go to a final state.
 > 2. We create a loop for reading the $0$'s and push them onto the stack.
-> 3. We make an $ε$ transition for when we need to switch to reading $1$'s
+> 3. We make an $ε$ transition for when we need to switch to reading $1$'s.
 > 4. We create a loop for reading the $1$'s and pop them from the stack.
 > 5. We create a transition for reading the symbol $\$$ at the base of the stack, which signals that we can go to a finish state.
 
