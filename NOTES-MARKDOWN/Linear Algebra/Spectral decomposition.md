@@ -2,7 +2,7 @@
 alias: Eigendecomposition
 ---
 
-We know that we can actually combine multiple [transformations](Transformations.md) into just one [matrix](Matrix%20(ML).md).
+We know that we can actually combine multiple [transformations](Transformations.md) into just one [matrix](Matrices.md).
 
 This matrix would applied would have the same result than if we applied the individual matrices one after the other.
 

@@ -9,7 +9,7 @@ The vector spactor spaces spanned by the row vectors and column vectors are call
 
 ## Definition of Rank
 
-If $A$ is an $m$x$n$ [matrix](Matrix%20(ML).md), then the Row Space and the Column Space of $A$ have the same dimension.
+If $A$ is an $m$x$n$ [matrix](Matrices.md), then the Row Space and the Column Space of $A$ have the same dimension.
 This dimension is called the rank of $A$ and is denoted by $\text{rank}(A)$.
 More precisely, the rank is the **number of dimensions in the Column Space**.
 

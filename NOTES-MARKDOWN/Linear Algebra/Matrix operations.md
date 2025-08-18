@@ -1,6 +1,6 @@
 ## Addition
 
-Given two 2x2 [matrices](Matrix%20(ML).md) $A$ and $B$: 
+Given two 2x2 [matrices](Matrices.md) $A$ and $B$: 
 
 $$\large A = \begin{bmatrix} a & b \\ c & d \end{bmatrix} ,\quad B = \begin{bmatrix}e & f \\g & h \end{bmatrix} $$
 

@@ -7,7 +7,7 @@ $$\large\begin{align*} x + 2y - 3z &= 4 \\ 3x - y + 2z &= -1 \\ 4x + y - z &= 2 
 
 ---
 
-## Augmented and Coefficient [Matrix](Matrix%20(ML).md)
+## Augmented and Coefficient [Matrices](Matrices.md)
 
 Consider a system of linear equations as follows: 
 

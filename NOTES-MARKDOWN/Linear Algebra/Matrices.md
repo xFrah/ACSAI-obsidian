@@ -1,7 +1,6 @@
 ---
 alias: Matrices, Matrix
 ---
-
 We shouldn't think of it as a list of scalars.
 
 $$\huge\begin{bmatrix} m_{11} & ... & m_{13} \\ ... & m_{22} & ... \\ m_{31} & ... & m_{33} \end{bmatrix}$$

@@ -8,7 +8,7 @@ alias: Gauss-Jordan Elimination, R.E.F., R.E.F
 > A pivot is the first non-zero element of a row.
 
 
-A [matrix](Matrix%20(ML).md) is in row echelon form if it satisfies the following conditions:
+A [matrix](Matrices.md) is in row echelon form if it satisfies the following conditions:
 
 1. **Leading Coefficients:** All nonzero rows have a pivot that is to the right of the pivot of the row above it.
 

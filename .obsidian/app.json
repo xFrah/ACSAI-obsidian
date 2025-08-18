@@ -1,4 +1,5 @@
 {
   "spellcheck": false,
-  "attachmentFolderPath": "NOTES-MARKDOWN/z_images"
+  "attachmentFolderPath": "NOTES-MARKDOWN/z_images",
+  "alwaysUpdateLinks": true
 }

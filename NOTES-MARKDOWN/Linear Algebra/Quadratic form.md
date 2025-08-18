@@ -42,7 +42,7 @@ $$\large ax^2 + bxy + cy^2$$
 Usually, instead of $b\cdot xy$ we would think of it as $2b\cdot xy$, it is more convenient in this way because?
 ```
 
-The correct way to express a quadratic form with a [matrix](Matrix%20(ML).md) is to:
+The correct way to express a quadratic form with a [matrix](Matrices.md) is to:
 1. Take a 2x2 matrix:
 $$\Large \begin{bmatrix}
 a & b \\

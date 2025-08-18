@@ -40,7 +40,7 @@ And they are also better explained [[Regular Expressions|here]].
 > ![](../z_images/Pasted%20image%2020230927123636.png)
 
 > [!note]
-> A string is accepted by an [automata](Automata.md) if and only if the automata starting at the initial state ends in an accepting state after reading the string.
+> A string is accepted by an [automata](Finite%20Automata.md) if and only if the automata starting at the initial state ends in an accepting state after reading the string.
 > A language accepted by an automata is a set of strings accepted by the automata.
 
 ---

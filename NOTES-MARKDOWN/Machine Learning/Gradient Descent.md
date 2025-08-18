@@ -5,7 +5,7 @@ The function $\mathcal{J}(\theta;x,y)$ is a **convex quadratic function**.
 ![](../z_images/Pasted%20image%2020230522115650.png)
 
 > [!note] Function Analysis
-> The [Hessian](Hessian.md) of $\mathcal{J}(\theta;x,y)$) at any vector $θ$ is the positive definite [matrix](../Linear%20Algebra/Matrix%20(ML).md) $X^TX$. Since $\mathcal{J}$ is lower bounded and grows at infinity, there is a minimum.
+> The [Hessian](Hessian.md) of $\mathcal{J}(\theta;x,y)$) at any vector $θ$ is the positive definite [matrix](Matrices.md) $X^TX$. Since $\mathcal{J}$ is lower bounded and grows at infinity, there is a minimum.
 > 
 > -   if $\operatorname{rank}({X}) =\min\{d,n\}$ then $X^TX$ is strictly positive definite. In this case the error function $\mathcal{J}$ is strictly convex, so the **minimum is unique (Ball Shape)**
 > -   if $\operatorname{rank}({X}) < \min\{d,n\}$ then then $\mathcal{J}$ is not strictly convex and the minimum

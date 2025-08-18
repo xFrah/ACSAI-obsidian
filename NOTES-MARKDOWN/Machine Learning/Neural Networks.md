@@ -10,7 +10,7 @@ We use $k$ Perceptrons to give scores to $k$ classes based on the input $\mathbf
 
 $$\large\underbracket{\mathbf{z}}_{\mathbb{R}^{Kx1}} = \underbracket{\mathbf{W}}_{\mathbb{R}^{K\times d}}\underbracket{\mathbf{x}}_{\mathbb{R}^{d\times1}} + \underbracket{\mathbf{b}}_{\mathbb{R}^K}$$
 
-Each row of the [matrix](../Linear%20Algebra/Matrix%20(ML).md) W contains the parameters of the [hyperplane](../Linear%20Algebra/Hyperplanes.md) of one class/Perceptron.
+Each row of the [matrix](Matrices.md) W contains the parameters of the [hyperplane](../Linear%20Algebra/Hyperplanes.md) of one class/Perceptron.
 In other words, each row of W represents the feature that output neuron $z_i$ is looking for.
 
 $$\large\mathbf{W} \mathbf{x}=\left(\begin{array}{c}-\text { neuron feature - } \\\vdots \\-\text { neuron feature }-\end{array}\right)\left(\begin{array}{c}\mid \\\mathbf{x} \\\mid\end{array}\right)$$

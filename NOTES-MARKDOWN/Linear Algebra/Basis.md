@@ -42,7 +42,7 @@ A set of [vectors](Vectors.md) $S=\{v_1, v_2, \dots, v_n\}$ in a [vector space](
 
 ### Row space
 
-If we wanted to find the Row Space of a given [matrix](Matrix%20(ML).md) $A$, we would need to use elementary row operations to convert $A$ into row echelon form.
+If we wanted to find the Row Space of a given [matrix](Matrices.md) $A$, we would need to use elementary row operations to convert $A$ into row echelon form.
 
 The non-zero row vectors in [R.E.F](Gaussian%20Elimination.md). form a basis for the row space of $A$.
 

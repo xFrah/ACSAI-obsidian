@@ -1,7 +1,7 @@
 ---
 alias: Minor, Cofactor, minors, cofactors, determinants
 ---
-Every square [matrix](Matrix%20(ML).md) can be associated with a real number called its determinant.
+Every square [matrix](Matrices.md) can be associated with a real number called its determinant.
 
 
 > [!abstract] Notation

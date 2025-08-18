@@ -4,7 +4,7 @@ alias: Rotation, Translation, Rotations, Translations, Scale, Flip, Affine
 
 ## Isometries/Orthogonal matrix: Rotations and Translations
 
-If we want to rotate, we can add one single scalar. We can do that by using this transformation [matrix](Matrix%20(ML).md), and justby using a single number we can rotate.
+If we want to rotate, we can add one single scalar. We can do that by using this transformation [matrix](Matrices.md), and justby using a single number we can rotate.
 
 $$\huge\begin{bmatrix}
 \cos{\theta} & -\sin{\theta} \\

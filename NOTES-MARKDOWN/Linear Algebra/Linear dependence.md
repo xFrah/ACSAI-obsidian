@@ -25,7 +25,7 @@ If $\text{det}(A)\neq 0$ then $c_1=c_2=\dots=c_k=0$ and the system is linearly i
 
 ### The coefficient matrix is rectangular
 
-Use [Gaussian Elimination](Gaussian%20Elimination.md) or [Gauss-Jordan Elimination](Gaussian%20Elimination.md) on the augmented [matrix](Matrix%20(ML).md) to find the solution.
+Use [Gaussian Elimination](Gaussian%20Elimination.md) or [Gauss-Jordan Elimination](Gaussian%20Elimination.md) on the augmented [matrix](Matrices.md) to find the solution.
 If $c_1=c_2=\dots=c_k=0$ then the vectors are linearly independent.
 
 > [!example]
