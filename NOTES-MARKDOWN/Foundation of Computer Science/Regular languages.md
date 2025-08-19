@@ -1,8 +1,7 @@
 ---
 aliases:
   - Regular language
-  - language
-  - languages
+  - regular languages
 ---
 A language L is said regular if there exists a finite automaton that accepts L.
 

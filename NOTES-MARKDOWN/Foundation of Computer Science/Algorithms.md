@@ -24,3 +24,22 @@ The thesis can be expressed in several equivalent formulations:
 
 > [!example]
 > A classic example of an effective method is the **truth table test** for determining if a logical formula is a tautology.
+
+---
+
+## Algorithms as [[Turing Machines#Deciders|Deciders]]
+
+Algorithms usually take arbitrary inputs (arrays, graphs, grammars, automata, ...) and return outputs (YES, NO, ...).
+
+We can use [[Turing Machines]] to define algorithms, and since algorithms always terminate, we will focus on deciders:
+
+- **Outputs**: we can consider multitape TMs with a tape reserved for output.
+- **Inputs**: TMs only have one single string as input, so we need to encode stuff.
+
+> [!note]
+> ![[Pasted image 20250819161821.png]]
+
+---
+
+## Problems as Languages
+
