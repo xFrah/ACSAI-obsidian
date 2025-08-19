@@ -51,3 +51,11 @@ The machine starts with the input on the tape and blanks elsewhere; it repeatedl
 
 > [!note]
 > The enumerator enumerates a language if it prints **all and only** the strings in the language.
+
+---
+
+## Deciders
+
+A type of Turing Machine that always halts, and it either rejects or accepts a string in finite time.
+
+The languages accepted by deciders are called decidable.
