@@ -3,6 +3,7 @@ aliases:
   - tm
   - tm's
   - tms
+  - turing machine
 ---
 A turing machine is a type of automata that generalizes all other types of automata ([[Finite Automata|DFA]], [[Finite Automata|NFA]] and [[PDA]]).
 

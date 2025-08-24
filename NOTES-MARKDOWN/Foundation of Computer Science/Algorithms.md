@@ -39,7 +39,5 @@ We can use [[Turing Machines]] to define algorithms, and since algorithms always
 > [!note]
 > ![[Pasted image 20250819161821.png]]
 
----
 
-## Problems as Languages
-
+These problems are called [[Decidability]].
