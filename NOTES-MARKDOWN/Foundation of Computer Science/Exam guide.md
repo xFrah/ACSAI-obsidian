@@ -3,21 +3,21 @@
 
 ## Exercises
 
-1. Given the language, write the correspondent [[PDA]]
-2. Given the following grammar, write the correspondent [[Finite Automata|automaton]]
+1. Given the language, write the correspondent [[7. PDA]]
+2. Given the following grammar, write the correspondent [[2. Finite Automata|automaton]]
 3. Given the automata, write the grammar
 4. Turn the following automata into a right-linear grammar
 5. Is the following language regular?
-6. Determine if a language is regular, provide a [[Regular grammars|regular grammar]], or prove that it's not
+6. Determine if a language is regular, provide a [[5. Regular grammars|regular grammar]], or prove that it's not
 7. Is the following language context-free?
 8. Given the language, write the grammar
-9. Write the [[Context-Free Grammars|CFG]] equivalent to the following language
-10. Given the [[Finite Automata|DFA]], write the [[Regular Expressions|Regex]]
-11. Given the Regex, write the [[Finite Automata|NFA]]
+9. Write the [[6. Context-Free Grammars|CFG]] equivalent to the following language
+10. Given the [[2. Finite Automata|DFA]], write the [[4. Regular Expressions|Regex]]
+11. Given the Regex, write the [[2. Finite Automata|NFA]]
 
-### Given the language, write the correspondent [[PDA]]
+### Given the language, write the correspondent [[7. PDA]]
 
-[[PDA]]'s are used when you have "simmetry" in the grammar (usually between 2 symbols).
+[[7. PDA]]'s are used when you have "simmetry" in the grammar (usually between 2 symbols).
 
 Order of operation:
 1. Read the character
@@ -39,7 +39,7 @@ $$\Large \underbracket{a}_{\text{read}},\underbracket{b}_{\text{push}}\rightarro
 > In that case you just construct another branch of the PDA.
 
 > [!hint]
-> Sometimes you don't need the stack, and you can use the [[PDA]] as an [[Finite Automata|NFA]].
+> Sometimes you don't need the stack, and you can use the [[7. PDA]] as an [[2. Finite Automata|NFA]].
 
 > [!warning]
 > DO SOME EXERCISES!
@@ -48,7 +48,7 @@ $$\Large \underbracket{a}_{\text{read}},\underbracket{b}_{\text{push}}\rightarro
 
 ### Given the following grammar, write the correspondent automata
 
-Apparently, we are talking about [[Regular Grammars]], and conversion should be possible only with right-linear grammars.
+Apparently, we are talking about [[5. Regular grammars]], and conversion should be possible only with right-linear grammars.
 
 - Turn each variable on the left into a state.
 - The start symbol becomes the initial state.
