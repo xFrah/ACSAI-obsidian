@@ -13,16 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/7.36 - pol. reduction in NPC.md",
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/17. HAM-PATH.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "7.36 - pol. reduction in NPC"
+              "title": "17. HAM-PATH"
+            }
+          },
+          {
+            "id": "2573f5a74a375594",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Exam guide.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Exam guide"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,12 +130,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/16. P vs NP.md",
+                "file": "NOTES-MARKDOWN/Foundation of Computer Science/Exam guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 16. P vs NP"
+              "title": "Outgoing links from Exam guide"
             }
           },
           {
@@ -187,29 +203,37 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "601287e8b714cad0",
+  "active": "2573f5a74a375594",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/Foundation of Computer Science/17. HAM-PATH.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Exam guide.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/2. Finite Automata.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/1.70 - Pumping Lemma.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/1.45,1.47,1.49 - Closures of Regular Languages.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/1.39 - DFA = NFA.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/1.55 - From reg. exp to finite automata.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/2.21 - From CFG to PDA.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250902174040.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250902144024.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250901170152.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250901170137.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250901170118.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250901170104.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250901170051.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250901170010.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250901165948.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20250901165933.png",
+    "NOTES-MARKDOWN/Foundation of Computer Science/18. U-HAM-PATH.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/19..md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/7.36 - pol. reduction in NPC.md",
+    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/17..md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/7.20 - NP = polytime verific..md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/7.31 - pol. reduction in P.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/7.36 - pol. reduction in NPC.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250901132753.png",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Exam guide.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/1. Strings, alphabets and languages.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/16. P vs NP.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250901130005.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250901092420.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250901092342.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250901092106.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250901091845.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250901091321.png",
     "NOTES-MARKDOWN/Foundation of Computer Science/9. Turing Machines.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/7. PDA.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/6. Context-Free Grammars.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/1.45,1.47,1.49 - Closures of Regular Languages.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/1.39 - DFA = NFA.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250831191807.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250831181106.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20250831181054.png",
     "NOTES-MARKDOWN/Foundation of Computer Science/12. Algorithms.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/11. Problems as Languages.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/13. Decidability.md",
@@ -217,13 +241,6 @@
     "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/4.1,4.2.4.3,4.4,4.5 - Decidability in Regular Languages.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/3. Regular Languages.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/10. Turing-Recognizability.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Optimization problems.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/4. Regular Expressions.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/NPC problems.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/5. Regular grammars.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/2. Finite Automata.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/15. Time Complexity.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/2.21 - From CFG to PDA.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Theorems",
     "NOTES-MARKDOWN/Physics/Electromagnetism",
     "Thermodynamics",

@@ -1,23 +1,32 @@
 ![[Pasted image 20250809121914.png]]
 ![[Pasted image 20250809121918.png]]
 
+- [ ] SAT
+- [ ] 3CNFSAT
+- [ ] HAMILTONIAN PATH
+- [ ] UNDIRECTED HAMILTONIAN PATH
+- [ ] CLIQUE
+- [ ] VERTEX COVER
+- [ ] HAMILTONIAL CYCLE
+- [ ] TSP
+- [ ] APPROXIMATE VERTEX COVER
 ## Exercises
 
-1. Given the language, write the correspondent [[7. PDA]]
-2. Given the following grammar, write the correspondent [[2. Finite Automata|automaton]]
-3. Given the automata, write the grammar
-4. Turn the following automata into a right-linear grammar
-5. Is the following language regular?
-6. Determine if a language is regular, provide a [[5. Regular grammars|regular grammar]], or prove that it's not
-7. Is the following language context-free?
-8. Given the language, write the grammar
-9. Write the [[6. Context-Free Grammars|CFG]] equivalent to the following language
-10. Given the [[2. Finite Automata|DFA]], write the [[4. Regular Expressions|Regex]]
-11. Given the Regex, write the [[2. Finite Automata|NFA]]
+- [x] Given the language, write the correspondent [[7. PDA|PDA]]
+- [x] Given the following grammar, write the correspondent [[2. Finite Automata|automaton]]
+- [x] Given the automata, write the grammar
+- [x] Turn the following automata into a right-linear grammar
+- [x] Is the following language regular?
+- [x] Determine if a language is regular, provide a [[5. Regular grammars|regular grammar]], or prove that it's not
+- [ ] Is the following language context-free?
+- [x] Given the language, write the grammar
+- [ ] Write the [[6. Context-Free Grammars|CFG]] equivalent to the following language
+- [x] Given the [[2. Finite Automata|DFA]], write the [[4. Regular Expressions|Regex]]
+- [ ] Given the Regex, write the [[2. Finite Automata|NFA]]
 
-### Given the language, write the correspondent [[7. PDA]]
+### Given the language, write the correspondent [[7. PDA|PDA]]
 
-[[7. PDA]]'s are used when you have "simmetry" in the grammar (usually between 2 symbols).
+[[7. PDA|PDA]]'s are used when you have "simmetry" in the grammar (usually between 2 symbols).
 
 Order of operation:
 1. Read the character
@@ -26,7 +35,7 @@ Order of operation:
 
 Notation for transition arrows:
 
-$$\Large \underbracket{a}_{\text{read}},\underbracket{b}_{\text{push}}\rightarrow \underbracket{c}_{\text{pop}}$$
+$$\Large \underbracket{a}_{\text{read}},\underbracket{b}_{\text{pop}}\rightarrow \underbracket{c}_{\text{push}}$$
 
 1. First thing in the exercise, we need to push the delimiter symbol $\$$.
 
@@ -39,21 +48,63 @@ $$\Large \underbracket{a}_{\text{read}},\underbracket{b}_{\text{push}}\rightarro
 > In that case you just construct another branch of the PDA.
 
 > [!hint]
-> Sometimes you don't need the stack, and you can use the [[7. PDA]] as an [[2. Finite Automata|NFA]].
+> Sometimes you don't need the stack, and you can use the [[7. PDA|PDA]] as an [[2. Finite Automata|NFA]].
+
+> [!example]
+> ![[Pasted image 20250901170051.png]]
+
+> [!example]
+> ![[Pasted image 20250901170104.png]]
+
+> [!example]
+> ![[Pasted image 20250901170118.png]]
+
+> [!example]
+> ![[Pasted image 20250901170137.png]]
+
+> [!example]
+> ![[Pasted image 20250901170152.png]]
+
+---
+
+### Given the following grammar, write the correspondent automata
+
+Apparently, we are talking about [[5. Regular grammars|Regular grammars]], and conversion should be possible only with right-linear grammars.
+
+- Turn each variable on the left into a state.
+- The start symbol becomes the initial state.
+- The states with a transition to $ε$ become a final state.
+- You can also add a final state $\Sigma$ if multiple transitions go to only terminals.
+
+> [!example]
+> ![[Pasted image 20250901165915.png]]
+
+> [!example]
+> ![[Pasted image 20250901165933.png]]
+
+> [!example]
+> ![[Pasted image 20250901165948.png]]
+
+> [!example]
+> ![[Pasted image 20250901170010.png]]
 
 > [!warning]
 > DO SOME EXERCISES!
 
 ---
 
-### Given the following grammar, write the correspondent automata
+### Given the automata, write the grammar
 
-Apparently, we are talking about [[5. Regular grammars]], and conversion should be possible only with right-linear grammars.
+Turn automatons into a right-linear grammar like italian.
 
-- Turn each variable on the left into a state.
-- The start symbol becomes the initial state.
-- The states with a transition to $ε$ become a final state.
-	- You can also add a final state $\Sigma$ if multiple transitions go to only terminals.
+![[Pasted image 20250901165821.png]]
 
-> [!warning]
-> DO SOME EXERCISES!
+> [!example]
+> ![[Pasted image 20250901165837.png]]
+
+---
+
+### Is this language regular?
+
+Give an explanation and/or use pumping lemma to disprove.
+
