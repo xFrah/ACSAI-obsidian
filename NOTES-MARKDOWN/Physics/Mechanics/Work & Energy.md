@@ -46,12 +46,3 @@ In terms of work, this represents:
 $$\Large K=\frac{1}{2}mv^2$$
 
 ---
-
-## Potential Energy
-
-It's a scalar quantity based on the position or configuration of the object or system.
-In terms of work, this represents:
-- how much work the object or system has the capacity to do due to its position or configuration, OR 
-- how much work was done on it to get it to that state.
-
-$$\Large U=mgh$$

@@ -8,7 +8,7 @@ aliases:
   - non conservative forces
 ---
 A force is said to be:
-- **Conservative**: if **the [work](Mechanics/3.%20Work%20&%20Energy.md) done is independent from the path** it takes, and it just depends on the displacement.
+- **Conservative**: if **the [work](Work%20&%20Energy.md) done is independent from the path** it takes, and it just depends on the displacement.
 - **Non**-**Conservative**: if the **work is dependent on the path**.
 
 ![](../../z_images/Pasted%20image%2020250701174044.png)
@@ -29,8 +29,6 @@ $$\Large \Delta U + \Delta K = \Delta E^\text{micc}=0$$
 
 ### Gravity
 
-$$\Large \vec{F_g}=-\frac{GmMt}{r^2}\hat{r}$$
-
 > [!example] Why?
 > 
 > Think about bullet motion. The path is different, but gravity does the same amount of work.
@@ -41,16 +39,14 @@ $$\Large \vec{F_g}=-\frac{GmMt}{r^2}\hat{r}$$
 
 ### Spring
 
-$$\large F(x) = -Kx$$
-$$\large \Delta U = \int^{\Delta x}_0-Fdx=\frac{1}{2}K\Delta x^2$$
-
+---
 ## Non-Conservative forces
 
 The work done on a system does not transform into potential or potential energy, it is transformed into internal energy (**Dissipation**).
 
 For example friction is not a conservative force, the more io put work in a system with friction the more energy it dissipates, it is not preserved.
 
-> [!example] [Friction](5.%20Friction.md) example
+> [!example] [Friction](Friction.md) example
 > Friction does more work the longer the object is dragged.
 > 
 > ![](../../z_images/Pasted%20image%2020250701183548.png)

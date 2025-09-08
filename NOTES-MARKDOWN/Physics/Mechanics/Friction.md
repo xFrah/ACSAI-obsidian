@@ -18,3 +18,12 @@ $$\Large |F_f|=\mu\cdot |N|=\mu \cdot m\cdot g$$
 Where $\mu$ is a constant that depends on the material, it can either be:
 - $\mu_s$ (**static** friction coefficient): For when the object is starting to move from rest.
 - $\mu_d$ (**dynamic** friction coefficient): For when the object is already moving.
+
+---
+
+## Work done by friction
+
+We don't need an integral here, since friction doesn't depend on anything but the constants $\mu$, $m$ and $g$.
+
+$$\Large W_f=F_f\cdot d$$
+

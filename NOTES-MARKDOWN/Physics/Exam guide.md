@@ -1,15 +1,18 @@
+---
+ca.:
+---
 ## 1. Mechanics & Fluids
 
 This is a broad category covering motion, forces, energy, collisions, and the behavior of liquids and gases.
 
 ### Topics
 
-- **[Kinematics](Mechanics/1.%20Kinematics.md):** Equations of motion (position, velocity, acceleration).
-- **[Newton's Laws](Mechanics/2.%20Newton's%20laws.md) of Motion:** Free-body diagrams, sum of forces, acceleration.
-- **[Work](Mechanics/3.%20Work%20&%20Energy.md) and Energy:** [Work-Energy Theorem](Mechanics/3.%20Work%20&%20Energy.md#Work-Energy%20Theorem), [Conservative forces](Mechanics/4.%20Conservative%20and%20Non-Conservative%20forces.md#Conservative%20forces) (gravity, spring), [Non-Conservative forces](Mechanics/4.%20Conservative%20and%20Non-Conservative%20forces.md#Non-Conservative%20forces) (friction), Conservation of Mechanical Energy. Understand **potential energy (gravitational, elastic)** and **kinetic energy**.
-- **[Collisions](Mechanics/6.%20Collisions.md):** [Conservation of Momentum](Mechanics/6.%20Collisions.md#Conservation%20of%20Momentum), Conservation of Energy (for [Elastic Collisions](Mechanics/6.%20Collisions.md#Elastic%20Collisions)) or energy transfer (for [Inelastic Collisions](Mechanics/6.%20Collisions.md#Inelastic%20Collisions)).
-- **[Friction](Mechanics/5.%20Friction.md):** Static and kinetic friction, understanding the normal force and its relation to friction.
-- **[Circular Motion](Mechanics/7.%20Circular%20Motion.md):** Centripetal force and acceleration (relevant for objects on circular paths or turning cars).
+- **[Kinematics](Motion%20equations.md):** Equations of motion (position, velocity, acceleration).
+- **[Newton's Laws](Newton's%20laws.md) of Motion:** Free-body diagrams, sum of forces, acceleration.
+- **[Work](Work%20&%20Energy.md) and Energy:** [Work-Energy Theorem](Work%20&%20Energy.md#Work-Energy%20Theorem), [Conservative forces](Conservative%20and%20Non-Conservative%20forces.md#Conservative%20forces) (gravity, spring), [Non-Conservative forces](Conservative%20and%20Non-Conservative%20forces.md#Non-Conservative%20forces) (friction), Conservation of Mechanical Energy. Understand **potential energy (gravitational, elastic)** and **kinetic energy**.
+- **[Collisions](Collisions.md):** [Conservation of Momentum](Collisions.md#Conservation%20of%20Momentum), Conservation of Energy (for [Elastic Collisions](Collisions.md#Elastic%20Collisions)) or energy transfer (for [Inelastic Collisions](Collisions.md#Inelastic%20Collisions)).
+- **[Friction](Friction.md):** Static and kinetic friction, understanding the normal force and its relation to friction.
+- **[Circular Motion](Circular%20Motion.md):** Centripetal force and acceleration (relevant for objects on circular paths or turning cars).
 - **Fluids - [Hydrostatics](Fluids/1.%20Fluids.md#Hydrostatics):** Pressure in fluids ([Pascal's Law](Fluids/1.%20Fluids.md#Pascal's%20Law) implied in some problems), **Buoyancy ([Archimedes' Principle](Fluids/1.%20Fluids.md#Buoyant%20Forces%20and%20Archimedes'%20Principle))**.
 - **Fluids - [Dynamics](Fluids/1.%20Fluids.md#Fluid%20Dynamics):** **[Bernoulli's Principle](Fluids/1.%20Fluids.md#Bernoulli's%20Formula)** and **[Continuity Equation](Fluids/1.%20Fluids.md#Equation%20of%20Continuity)** (flow rate).
 
@@ -108,3 +111,12 @@ This section covers topics at the beginning of quantum mechanics.
 - **Definitions and Explanations** are often asked, especially in Modern Physics and for concepts like conservative forces.
 
 Good luck with your exam! Focus on understanding the principles behind each problem type, and practice similar exercises as much as possible.
+
+---
+
+# Exam exercises
+
+## Mechanics
+
+![[Pasted image 20250908123251.png]]
+
