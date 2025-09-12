@@ -8,7 +8,7 @@ aliases:
   - non conservative forces
 ---
 A force is said to be:
-- **Conservative**: if **the [work](Work%20&%20Energy.md) done is independent from the path** it takes, and it just depends on the displacement.
+- **Conservative**: if **the [work](Work.md) done is independent from the path** it takes, and it just depends on the displacement.
 - **Non**-**Conservative**: if the **work is dependent on the path**.
 
 ![](../../z_images/Pasted%20image%2020250701174044.png)

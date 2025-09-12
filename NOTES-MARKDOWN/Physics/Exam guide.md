@@ -9,7 +9,7 @@ This is a broad category covering motion, forces, energy, collisions, and the be
 
 - **[Kinematics](Motion%20equations.md):** Equations of motion (position, velocity, acceleration).
 - **[Newton's Laws](Newton's%20laws.md) of Motion:** Free-body diagrams, sum of forces, acceleration.
-- **[Work](Work%20&%20Energy.md) and Energy:** [Work-Energy Theorem](Work%20&%20Energy.md#Work-Energy%20Theorem), [Conservative forces](Conservative%20and%20Non-Conservative%20forces.md#Conservative%20forces) (gravity, spring), [Non-Conservative forces](Conservative%20and%20Non-Conservative%20forces.md#Non-Conservative%20forces) (friction), Conservation of Mechanical Energy. Understand **potential energy (gravitational, elastic)** and **kinetic energy**.
+- **[Work](Work.md) and Energy:** [Work-Energy Theorem](Work.md#Work-Energy%20Theorem), [Conservative forces](Conservative%20and%20Non-Conservative%20forces.md#Conservative%20forces) (gravity, spring), [Non-Conservative forces](Conservative%20and%20Non-Conservative%20forces.md#Non-Conservative%20forces) (friction), Conservation of Mechanical Energy. Understand **potential energy (gravitational, elastic)** and **kinetic energy**.
 - **[Collisions](Collisions.md):** [Conservation of Momentum](Collisions.md#Conservation%20of%20Momentum), Conservation of Energy (for [Elastic Collisions](Collisions.md#Elastic%20Collisions)) or energy transfer (for [Inelastic Collisions](Collisions.md#Inelastic%20Collisions)).
 - **[Friction](Friction.md):** Static and kinetic friction, understanding the normal force and its relation to friction.
 - **[Circular Motion](Circular%20Motion.md):** Centripetal force and acceleration (relevant for objects on circular paths or turning cars).
@@ -119,4 +119,27 @@ Good luck with your exam! Focus on understanding the principles behind each prob
 ## Mechanics
 
 ![[Pasted image 20250908123251.png]]
+
+### a)
+Here you can do it all using the conservation of energy.
+1. Get the kinetic energy of the object after being launched by the spring:
+	1. Get force that can be exerted by the string.
+	2. Get the potential energy, for due to displacement of the spring.
+	3. Get the kinetic energy, which in this case is the same as quantity potential energy
+2. Get the kinetic energy of the object after going through BC:
+	1. Get the friction force
+	2. Get the work done by the force
+	3. Get kinetic energy difference from work done ($\Large W = \Delta K$).
+3. Get potential energy at point D due to gravity, and use conservation of energy to get kinetic energy, and get $v$ from it.
+### b)
+Just a matter of using the law of accelerated motion to get the the time by plugging in $g$ as acceleration and $0$ as velocity.
+
+### c)
+After you get the formula for the velocity at point D and the time of flight, use the law of non-accelerated motion to get the minimum velocity that can traverse distance d at the time the object hits the ground.
+Then you plug the velocity inside the formula for velocity at point D, and through the inverse formula you get the compression of the spring.
+
+---
+
+![[Pasted image 20250911190214.png]]
+
 

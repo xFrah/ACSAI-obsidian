@@ -49,7 +49,7 @@ Collisions are **categorized based on whether kinetic energy is conserved**.
 
 ### Elastic Collisions
 
-An elastic collision is one in which the **total [kinetic energy](Work%20&%20Energy.md#Kinetic%20Energy) of the system is conserved** (in addition to the linear momentum). 
+An elastic collision is one in which the **total [kinetic energy](Work.md#Kinetic%20Energy) of the system is conserved** (in addition to the linear momentum). 
 
 > [!example]
 > For two particles, $m_1$ and $m_2$, with initial velocities $v_{1i}$ and $v_{2i}$, and final velocities $v_{1f}$ and $v_{2f}$, both kinetic energy and momentum are conserved:
@@ -97,4 +97,4 @@ The general statement of energy conservation for a non-isolated system accounts 
 
 $$\Large \Delta E_{system} = \sum T$$
 
-Where `ΣT` represents the sum of all energy transfers, which can include [work](Work%20&%20Energy.md) done on the system (`W`), heat transferred (`Q`), and other forms of energy transfer7. For instance, if a friction force (`f_k`) acts over a distance `d` within a system, the change in internal energy can be `ΔE = f_kd`7. This is relevant when considering scenarios where energy is lost from the mechanical system due to friction, as seen in problems involving dynamic friction8....
+Where `ΣT` represents the sum of all energy transfers, which can include [work](Work.md) done on the system (`W`), heat transferred (`Q`), and other forms of energy transfer7. For instance, if a friction force (`f_k`) acts over a distance `d` within a system, the change in internal energy can be `ΔE = f_kd`7. This is relevant when considering scenarios where energy is lost from the mechanical system due to friction, as seen in problems involving dynamic friction8....
