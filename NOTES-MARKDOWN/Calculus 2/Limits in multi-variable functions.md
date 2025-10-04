@@ -14,6 +14,15 @@ But does its limit exist?
 > - A limit in single-variable functions exists when both left and right limits yield the same result.
 > - A limit in multi-variable functions exists when all the possible paths yield the same limit.
 
+---
+
+## Direct substitution
+
+![[Pasted image 20251004131905.png]]
+
+---
+
+## Two-path test
 
 Since we can't actually check all the possible paths, we need to find two paths that yield different result and prove that the limit doesn't exist.
 
@@ -21,12 +30,14 @@ Lines are usually the easiest path to check first, we set $y=x$:
 
 $$\Large f(x,y)=\frac{x^2}{x^2+x^2}=\frac{1}{2}$$
 
-![[Pasted image 20251004120657.png]]
+![[Pasted image 20251004130410.png]]
 
 
 Then we check another path, we choose a crossing line for simplicity, $y=-x$:
 
 $$\Large f(x,y)=\frac{-x^2}{x^2+x^2}=-\frac{1}{2}$$
+
+![[Pasted image 20251004130452.png]]
 
 We can see that two different paths yield a different limit, so the limit doesn't exist at $(0, 0)$.
 
@@ -36,3 +47,8 @@ We can see that two different paths yield a different limit, so the limit doesn'
 > Like a normal 2-D function.
 > 
 > It needs to pass through the point we want to test.
+
+> [!hint]
+> We can also test other lines:
+> ![[Pasted image 20251004130712.png]]
+> ![[Pasted image 20251004130739.png]]
