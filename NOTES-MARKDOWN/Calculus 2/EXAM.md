@@ -14,7 +14,5 @@ Only difference is the complexity of the domain restrictions.
 
 ## Limits
 
-![[Pasted image 20251003173411.png]]
 
-> [!example]
-> ![[Pasted image 20251003181802.png]]
+

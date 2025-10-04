@@ -16,6 +16,12 @@ But does its limit exist?
 
 ---
 
+## How to solve
+
+![[Pasted image 20251003173411.png]]
+
+---
+
 ## Direct substitution
 
 ![[Pasted image 20251004131905.png]]
@@ -52,3 +58,12 @@ We can see that two different paths yield a different limit, so the limit doesn'
 > We can also test other lines:
 > ![[Pasted image 20251004130712.png]]
 > ![[Pasted image 20251004130739.png]]
+
+---
+
+## Solve using [[polar coordinates]]
+
+Convert the function from the cartesian system to the polar system, and solve in that way.
+This is useful because if we can show that the final limit does not depend on the angle, it means that the limit is the same for every possible path.
+
+![[Pasted image 20251004153257.png]]

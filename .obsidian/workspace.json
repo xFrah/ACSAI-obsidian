@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Thermodynamics/3. Thermodynamic processes.md",
+                "file": "NOTES-MARKDOWN/Calculus 2/Limits in multi-variable functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3. Thermodynamic processes"
+              "title": "Backlinks for Limits in multi-variable functions"
             }
           },
           {
@@ -129,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Thermodynamics/3. Thermodynamic processes.md",
+                "file": "NOTES-MARKDOWN/Calculus 2/Limits in multi-variable functions.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 3. Thermodynamic processes"
+              "title": "Outgoing links from Limits in multi-variable functions"
             }
           },
           {
@@ -180,7 +180,8 @@
               "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -203,6 +204,14 @@
   },
   "active": "ec897b329d12abed",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/z_images/Pasted image 20251004153257.png",
+    "NOTES-MARKDOWN/Calculus 2/Functions with several variables.md",
+    "NOTES-MARKDOWN/Calculus 2/EXAM.md",
+    "NOTES-MARKDOWN/Calculus 2/Partial derivatives.md",
+    "NOTES-MARKDOWN/Calculus 2/Polar coordinates.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20251004151020.png",
+    "NOTES-MARKDOWN/Calculus 2/Limits in multi-variable functions.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20251004145819.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20251004131905.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20251004130739.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20251004130712.png",
@@ -211,13 +220,6 @@
     "NOTES-MARKDOWN/z_images/Pasted image 20251004130410.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20251004130317.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20251004120657.png",
-    "NOTES-MARKDOWN/Calculus 2/Functions with several variables.md",
-    "NOTES-MARKDOWN/Calculus 2/EXAM.md",
-    "NOTES-MARKDOWN/Calculus 2/Limits in multi-variable functions.md",
-    "NOTES-MARKDOWN/Calculus 2/Partial derivatives.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20251004113928.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20251003181802.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20251003173411.png",
     "NOTES-MARKDOWN/Calculus/1. Domain and Range.md",
     "NOTES-MARKDOWN/Calculus/[EXAM] Calculus 1 Unit 1.md",
     "NOTES-MARKDOWN/Physics/Thermodynamics/3. Thermodynamic processes.md",
@@ -238,7 +240,6 @@
     "NOTES-MARKDOWN/Physics/Thermodynamics/2. First Law of Thermodynamics.md",
     "NOTES-MARKDOWN/Physics/Thermodynamics/0. Internal energy - Temperature.md",
     "NOTES-MARKDOWN/Physics/Thermodynamics/0. Heat.md",
-    "NOTES-MARKDOWN/Physics/Thermodynamics/0. Systems.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Theorems",
     "NOTES-MARKDOWN/Physics/Electromagnetism",
     "Thermodynamics",
