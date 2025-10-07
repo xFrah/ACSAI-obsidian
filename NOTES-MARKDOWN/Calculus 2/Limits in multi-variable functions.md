@@ -67,3 +67,10 @@ Convert the function from the cartesian system to the polar system, and solve in
 This is useful because if we can show that the final limit does not depend on the angle, it means that the limit is the same for every possible path.
 
 ![[Pasted image 20251004153257.png]]
+
+> [!note]
+> ![[Pasted image 20251004153704.png]]
+> 
+> > [!hint] Why $x^2+y^2$ converted to polar simplifies to $r^2$
+> > ![[Pasted image 20251004155243.png]]
+

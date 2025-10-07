@@ -438,7 +438,7 @@ The AUC is computed by computing:
 
 $$\large \text{AUC} = \sum_i{(FPR_i - FPR_{i-1}) \cdot TPR_i}$$
 
-### Useful local gradients
+### Useful local Gradient
 
 
 #### Sigmoid:

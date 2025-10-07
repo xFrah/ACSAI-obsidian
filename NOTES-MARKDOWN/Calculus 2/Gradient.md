@@ -1,14 +1,22 @@
 ---
-alias: Gradients
+aliases:
+  - gradient
+  - gradients
+---
+The gradient of a function is a vector containing the [[partial derivatives]] of said function:
+
+$$\Large ∇f(x,y) = 
+\begin{bmatrix}
+f_x'(x,y)\\ 
+f_y'(x,y)
+\end{bmatrix}$$
+
+> [!example]
+> ![[Pasted image 20251005162531.png]]
+
 ---
 
-The gradient of a multivariate function is a vector that contains all its [partial derivatives](../Calculus%202/Partial%20derivatives.md).
-
-$$\large\nabla f=\begin{bmatrix}
-\LARGE\frac{\partial f}{\partial x} \\
-\LARGE\frac{\partial f}{\partial y} \\
-\LARGE\vdots
-\end{bmatrix}$$
+## Useful for machine learning
 
 If you input a point $(x_0, y_0, ...)$ in the input space of $f$, the vector $\nabla f(x_0, y_0, ...)$ tells you which direction you should travel to increase/decrease the value of $f$ most rapidly:
 
