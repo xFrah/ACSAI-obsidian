@@ -21,6 +21,11 @@ Where:
 > 
 > ![[Pasted image 20251007181808.png]]
 
-
 > [!hint]
 > The limit equals 0 if the error shrinks faster than the distance, meaning the tangent plane is a genuinely good approximation.
+
+---
+
+## Continuity vs Differentiability
+
+![[Pasted image 20251007222903.png]]
