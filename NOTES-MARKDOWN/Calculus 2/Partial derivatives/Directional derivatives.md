@@ -5,20 +5,21 @@ We now need to discuss how to find the rate of change of $f$ if we allow both�
 
 We define the unit vector representing the direction as:
 
-$$\large \vec{u}=\begin{bmatrix}
+$$\Large \vec{u}=\begin{bmatrix}
 a\\b
 \end{bmatrix}$$
 
 We define the function that we want to get the derivative of as:
 
-$$\large g( h ) = f( {{x_0} + ah,{y_0} + bh})$$
+$$\Large g( h ) = f( {{x_0} + ah,{y_0} + bh})$$
 where:
-- $(x_0, y_0)$ are the starting point.
-- $(a, b)$ are the direction vector components
-- $h$ is how far along the direction we are going
+- $(x_0, y_0)$ is the starting point.
+- $(a, b)$ are the direction vector components.
+- $h$ is how far along the direction we are going.
 
 > [!hint]
-> Everything is a fixed number, except for $h$. We can actually derive this.
+> Everything is a fixed number, except for $h$. 
+> Since this is a single variable function, **we can actually derive this.**
 
 ---
 
@@ -39,4 +40,7 @@ $$\Large ∇f=\begin{bmatrix}
 
 Then we take the dot product between the gradient and the vector, and we get the actual directional derivative.
 
-$$\Large f'_u=∇f\cdot\vec{u}=2x\cdot 2+2y\cdot 1$$
+$$\Large D_\vec{u}f=∇f\cdot\vec{u}=2x\cdot 2+2y\cdot 1$$
+
+> [!hint]
+> This formula actually emerges from deriving the formula in the previous section, using the chain rule apparently, but I don't care about it for now.

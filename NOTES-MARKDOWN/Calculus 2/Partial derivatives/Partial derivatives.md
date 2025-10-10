@@ -4,7 +4,7 @@ aliases:
 ---
  Imagine we take the derivative of a function like this:
 
-![](../z_images/Pasted%20image%2020230522120629.png)
+![](Pasted%20image%2020230522120629.png)
 
 > [!note] Remember
 > The derivative is a function that returns the rate of change at a point in the curve.
@@ -20,7 +20,7 @@ Sometimes tho, we don't want points, we want functions that describe the rate of
 
 In the example above, if we fix $y=0$ and let $x$ move freely, we get this function:
 
-![](../z_images/Pasted%20image%2020230522121259.png)
+![](Pasted%20image%2020230522121259.png)
 
 This function is the partial derivative of the curve if we derive on $x$.
 
@@ -51,4 +51,15 @@ $$\large f(x,y) = y^3x^2$$
 $$\large\begin{align*}\frac{\partial f}{\partial x}(x) = 2c^3x.\end{align*}$$
 
 ---
+
+## Higher order partial derivatives
+
+![[Pasted image 20251008134709.png]]
+
+
+### Schwarz’s theorem
+
+If the partial derivatives of a function are continuous, then the **mixed second-order derivatives are equal**, **no matter the order of derivation**.
+
+![[Pasted image 20251008134803.png]]
 

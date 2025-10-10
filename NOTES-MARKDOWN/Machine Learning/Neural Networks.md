@@ -80,7 +80,7 @@ Assume we have the following loss function:
 
 $$\large \mathcal{L}(x,y,z) = (x+y)z$$
 
-Now we want to derive this(its [partial derivatives](../Calculus%202/Partial%20derivatives.md)) in order to obtain the [gradient](Gradient.md) of the loss function.
+Now we want to derive this(its [partial derivatives](Partial%20derivatives.md)) in order to obtain the [gradient](Gradient.md) of the loss function.
 
 $$\large\frac{\partial\mathcal{L}(x,y,z)}{\partial x} =  (\mathbf{x}z+yz)^{\prime}=(\mathbf{x}z)^{\prime}+(yz)^{\prime} = z$$
 $$\large\frac{\partial\mathcal{L}(x,y,z)}{\partial y} =  (xz+\mathbf{y}z)^{\prime}=(xz)^{\prime}+(\mathbf{y}z)^{\prime} = z$$
@@ -107,7 +107,7 @@ All the derivatives from before can be rewritten using the chain rule like this:
 
 $$\large\frac{\partial\mathcal{L}}{\partial x} =  \big(\underbracket{(\mathbf{x}+y)}_{q}z\big)^{\prime}=\frac{\partial\mathcal{L}}{\partial q}\frac{\partial q}{\partial x}$$
 
-Since the chain rule computes the gradient of each intermediate variable and parameter ([partial derivatives](../Calculus%202/Partial%20derivatives.md)), it will also output the [gradients](Gradient.md) $\LARGE\frac{\partial\mathcal{L}}{\partial \mathbf{W}^1}$ and $\LARGE\frac{\partial\mathcal{L}}{\partial \mathbf{W}^2}$, which is exactly what we need.
+Since the chain rule computes the gradient of each intermediate variable and parameter ([partial derivatives](Partial%20derivatives.md)), it will also output the [gradients](Gradient.md) $\LARGE\frac{\partial\mathcal{L}}{\partial \mathbf{W}^1}$ and $\LARGE\frac{\partial\mathcal{L}}{\partial \mathbf{W}^2}$, which is exactly what we need.
 
 
 We have this fucking graph and every node is an operation/nested function.
@@ -249,7 +249,7 @@ $$\large\frac{\partial\mathcal{L}}{\partial_{z_j}} (\mathbf{y}, \hat{\mathbf{y}}
 > 
 
 > [!hint]
-> Since the output is a [vector](../Linear%20Algebra/Vectors.md) composed of [partial derivatives](../Calculus%202/Partial%20derivatives.md), we can call it a [gradient](Gradient.md)!
+> Since the output is a [vector](../Linear%20Algebra/Vectors.md) composed of [partial derivatives](Partial%20derivatives.md), we can call it a [gradient](Gradient.md)!
 > 
 > $$\large\begin{bmatrix}
 \LARGE\frac{\partial \mathcal{L}}{\partial z_1} \\

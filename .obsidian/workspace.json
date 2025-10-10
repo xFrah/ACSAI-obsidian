@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus 2/Directional derivatives.md",
+                "file": "NOTES-MARKDOWN/Calculus 2/Curves/4. Length of a curve.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Directional derivatives"
+              "title": "4. Length of a curve"
             }
           },
           {
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus 2/Directional derivatives.md",
+                "file": "NOTES-MARKDOWN/Calculus 2/Curves/4. Length of a curve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Directional derivatives"
+              "title": "Backlinks for 4. Length of a curve"
             }
           },
           {
@@ -129,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOTES-MARKDOWN/Calculus 2/Directional derivatives.md",
+                "file": "NOTES-MARKDOWN/Calculus 2/Curves/Curves.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Directional derivatives"
+              "title": "Outgoing links from Curves"
             }
           },
           {
@@ -203,47 +203,51 @@
   },
   "active": "ec897b329d12abed",
   "lastOpenFiles": [
-    "NOTES-MARKDOWN/z_images/Pasted image 20251008113749.png",
-    "NOTES-MARKDOWN/Calculus 2/Differentiability in multi-variable functions.md",
-    "NOTES-MARKDOWN/Calculus 2/Directional derivatives.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20251007222903.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20251007181808.png",
-    "NOTES-MARKDOWN/Calculus 2/Tangent planes.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20251007095242.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20251007093716.png",
-    "NOTES-MARKDOWN/Calculus 2/Continuity in multi-variable functions.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20251010100655.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20251010095320.png",
+    "NOTES-MARKDOWN/Calculus 2/Curves/0. Curves.md",
+    "NOTES-MARKDOWN/Calculus 2/Curves/4. Length of a curve.md",
+    "NOTES-MARKDOWN/Calculus 2/Curves/3. Regular curves.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20251010093505.png",
+    "NOTES-MARKDOWN/Calculus 2/Multivariable functions/3. Continuity in multi-variable functions.md",
+    "NOTES-MARKDOWN/Calculus 2/Multivariable functions/1. Limits in multi-variable functions.md",
+    "NOTES-MARKDOWN/Calculus 2/Curves/1. Closed curves.md",
+    "NOTES-MARKDOWN/Calculus 2/Curves/2. Simple curves.md",
+    "NOTES-MARKDOWN/Calculus 2/Partial derivatives/Partial derivatives.md",
+    "NOTES-MARKDOWN/Calculus 2/Partial derivatives/Differentiability in multi-variable functions.md",
+    "NOTES-MARKDOWN/Calculus 2/Partial derivatives/Directional derivatives.md",
+    "NOTES-MARKDOWN/Calculus 2/Partial derivatives/Tangent planes.md",
+    "NOTES-MARKDOWN/Calculus 2/Extreme values/Stationary points in multi-variable functions.md",
+    "NOTES-MARKDOWN/Calculus 2/Extreme values/Hessian.md",
+    "NOTES-MARKDOWN/Machine Learning/Hessian.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20251009185046.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20251009184919.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20251009124038.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20251009123925.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20251009123134.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20251009121945.png",
+    "NOTES-MARKDOWN/Calculus 2/Multiple integrals",
+    "NOTES-MARKDOWN/Calculus 2/Curves",
+    "NOTES-MARKDOWN/Calculus 2/Extreme values",
+    "NOTES-MARKDOWN/Calculus 2/Partial derivatives",
+    "NOTES-MARKDOWN/Calculus 2/Multivariable functions",
+    "NOTES-MARKDOWN/z_images/Pasted image 20251009094626.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20251009094619.png",
     "NOTES-MARKDOWN/Calculus 2/EXAM.md",
-    "NOTES-MARKDOWN/Calculus 2/Partial derivatives.md",
-    "NOTES-MARKDOWN/Calculus 2/Gradient.md",
-    "NOTES-MARKDOWN/Calculus 2/Limits in multi-variable functions.md",
+    "NOTES-MARKDOWN/Calculus 2/Partial derivatives/Gradient.md",
     "NOTES-MARKDOWN/Machine Learning/Jacobian.md",
     "NOTES-MARKDOWN/Machine Learning/Machine Learning Exam - DONE.md",
     "NOTES-MARKDOWN/Machine Learning/ROC.md",
     "NOTES-MARKDOWN/Machine Learning/Gradient Descent.md",
     "NOTES-MARKDOWN/Machine Learning/Logistic Regression.md",
     "NOTES-MARKDOWN/Machine Learning/Gradient.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20251005162531.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20251005124627.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20251004155243.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20251004153704.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20251004153257.png",
-    "NOTES-MARKDOWN/Calculus 2/Functions with several variables.md",
-    "NOTES-MARKDOWN/Calculus 2/Polar coordinates.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20251004151020.png",
+    "NOTES-MARKDOWN/Calculus 2/Multivariable functions/0. Functions with several variables.md",
+    "NOTES-MARKDOWN/Calculus 2/Multivariable functions/Polar coordinates.md",
     "NOTES-MARKDOWN/Calculus/1. Domain and Range.md",
-    "NOTES-MARKDOWN/Calculus/[EXAM] Calculus 1 Unit 1.md",
-    "NOTES-MARKDOWN/Physics/Thermodynamics/3. Thermodynamic processes.md",
-    "NOTES-MARKDOWN/Physics/Thermodynamics/6. Second Law of Thermodynamics.md",
-    "NOTES-MARKDOWN/Physics/Thermodynamics/5. Entropy.md",
-    "NOTES-MARKDOWN/Physics/old/1) Bullet motion.md",
-    "NOTES-MARKDOWN/Physics/old/7) Power.md",
-    "NOTES-MARKDOWN/Physics/Fluids/1. Hydrostatics & Ideal Fluid.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/2.21 - From CFG to PDA.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Theorems",
     "NOTES-MARKDOWN/Physics/Electromagnetism",
     "Thermodynamics",
     "NOTES-MARKDOWN/Physics/Fluids",
-    "NOTES-MARKDOWN/Physics/Thermodynamics",
-    "NOTES-MARKDOWN/Physics/Mechanics"
+    "NOTES-MARKDOWN/Physics/Thermodynamics"
   ]
 }

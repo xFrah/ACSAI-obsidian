@@ -3,7 +3,7 @@ aliases:
   - gradient
   - gradients
 ---
-The gradient of a function is a vector containing the [[partial derivatives]] of said function:
+The gradient of a function is a vector containing the [[Partial derivatives]] of said function:
 
 $$\Large ∇f(x,y) = 
 \begin{bmatrix}
