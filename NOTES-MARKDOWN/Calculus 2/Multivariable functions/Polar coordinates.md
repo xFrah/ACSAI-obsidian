@@ -5,8 +5,23 @@ Instead of points being described as $(x, y)$, here we have $(\text{length}, \th
 
 ---
 
-## Conversion to and from cartesian coordinates
+## Conversion to polar coordinates
 
-![[Pasted image 20251004151020.png]]
+$$\Large x=ρ\cos(\theta),\quad y=ρ\sin(\theta)$$
+
+> [!danger] **IMPORTANT**
+> Always remember:
+> $$\Large \cos^2x+\sin^2y=1$$
 
 
+### Shifted polar coordinates
+
+When the center point is not $(0,0)$, the conversion becomes:
+
+$$\Large x-x_c=ρ\cos(\theta),\quad y-y_c=ρ\sin(\theta)$$
+
+> [!example]
+> With the following limit:
+> $$\Large \lim_{(x,y)\rightarrow(1,0)}$$
+> The conversion would become:
+> $$\Large x-1=ρ\cos(\theta),\quad y=ρ\sin(\theta)$$

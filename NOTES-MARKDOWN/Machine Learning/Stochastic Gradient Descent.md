@@ -1,7 +1,6 @@
 ---
 alias: SGD
 ---
-
 While classic [Gradient Descent](Gradient%20Descent.md) has to iterate through all the datapoints just to update the parameters once, Stochastic [Gradient](Gradient.md) Descent(SGD) will process only a small subset of the dataset and then update the parameters.
 
 > [!hint] Difference between GD and SGD
