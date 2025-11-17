@@ -101,7 +101,7 @@ If $A$ is a square matrix, then $det(A)=0$ if one of the following conditions ho
 > ![](../z_images/Pasted%20image%2020230813122547.png)
 
 
-1) If we interchange two rows of A, the determinant chang sign.
+1) If we interchange two rows of A, the determinant changes sign.
 
 > [!example]
 > ![](../z_images/Pasted%20image%2020230813115615.png)

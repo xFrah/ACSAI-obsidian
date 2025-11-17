@@ -1,4 +1,4 @@
-Partial derivatives represent the rate of change of $f$ as we vary $x$ (holding $y$ fixed) and as we vary $y$ (holding $x$ fixed) respectively. 
+[[Partial derivatives]] represent the rate of change of $f$ as we vary $x$ (holding $y$ fixed) and as we vary $y$ (holding $x$ fixed) respectively. 
 We now need to discuss how to find the rate of change of $f$ if we allow both $x$ and $y$ to change simultaneously (in another new direction that isn't an axis).
 
 ![[Pasted image 20251008113749.png]]
@@ -9,12 +9,12 @@ $$\Large \vec{u}=\begin{bmatrix}
 a\\b
 \end{bmatrix}$$
 
-We define the function that we want to get the derivative of as:
+We define the function that we want to get the [[8. Differentiation|derivative]] of as:
 
 $$\Large g( h ) = f( {{x_0} + ah,{y_0} + bh})$$
 where:
 - $(x_0, y_0)$ is the starting point.
-- $(a, b)$ are the direction vector components.
+- $(a, b)$ are the direction [[vector components]].
 - $h$ is how far along the direction we are going.
 
 > [!hint]
@@ -23,7 +23,7 @@ where:
 
 ---
 
-## Formula using the gradient
+## Formula using the [[gradient]]
 
 You can also use the gradient to compute a directional derivative.
 Assume we have this gradient and direction vector $\vec{u}$:
@@ -38,7 +38,7 @@ $$\Large ∇f=\begin{bmatrix}
 > We use $\vec{u}=\begin{bmatrix}2\\1\end{bmatrix}$ just for simplicity, but in real calculations, we need it to be normalized to have magnitude 1.
 
 
-Then we take the dot product between the gradient and the vector, and we get the actual directional derivative.
+Then we take the [[dot product]] between the gradient and the vector, and we get the actual directional derivative.
 
 $$\Large D_\vec{u}f=∇f\cdot\vec{u}=2x\cdot 2+2y\cdot 1$$
 

@@ -1,3 +1,7 @@
+---
+aliases:
+  - tangent plane
+---
 A plane is tangent to a surface at a specific point if it "just touches" the surface at that point.
 In such planes lie infinite vectors, emanating from the point of contact and going in all possible directions.
 
