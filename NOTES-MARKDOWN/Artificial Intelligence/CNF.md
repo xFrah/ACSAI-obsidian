@@ -2,6 +2,8 @@
 aliases:
   - Conjunctive normal form
 ---
+![[Pasted image 20251124083333.png]]
+
 We can translate any formula into its Conjunctive Normal Form. 
 
 ### 1. Kill ↔

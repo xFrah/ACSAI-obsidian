@@ -19,7 +19,14 @@ $$\Large\int_c^d \int_a^b f(x, y) \, dx \, dy$$
 
 For non-rectangular regions, we use **functions** as integration limits instead of constants. 
 **Type I region** (vertical slices): 
-$$\Large D = \{(x,y) \in \mathbb{R}^2 : a \leq x \leq b, \, \alpha(x) \leq y \leq \beta(x)\}$$ The integral becomes: $$\Large\iint_D f(x,y) \, dA = \int_a^b \int_{\alpha(x)}^{\beta(x)} f(x,y) \, dy \, dx$$ Where: 
+$$\Large D = \{\underbracket{(x,y) \in \mathbb{R}^2}_{\text{space}} : \underbracket{a \leq x \leq b}_{\text{x interval}}, \, \underbracket{\alpha(x) \leq y \leq \beta(x)}_{\text{y interval}}\}$$
+> [!example]
+> ![[Pasted image 20251119142056.png]]
+
+
+This is called **normal domain with respect to $x$**, because $x$ is the **axis bounded by constants**, and the $y$ axis depends on $x$.
+
+The integral becomes: $$\Large\iint_D f(x,y) \, dA = \int_a^b \int_{\alpha(x)}^{\beta(x)} f(x,y) \, dy \, dx$$ Where: 
 - $a$ and $b$ are **constant** bounds for $x$ 
 - $\alpha(x)$ is the **lower boundary** (function of $x$) 
 - $\beta(x)$ is the **upper boundary** (function of $x$) 
@@ -28,6 +35,16 @@ $$\Large D = \{(x,y) \in \mathbb{R}^2 : a \leq x \leq b, \, \alpha(x) \leq y \le
 1. For each fixed value of $x$ between $a$ and $b$ 
 2. Integrate $f(x,y)$ with respect to $y$ from the bottom curve $\alpha(x)$ to the top curve $\beta(x)$ 
 3. Then integrate that result over all $x$ from $a$ to $b$
+
+### Region bounded by only constants (rectangle region)
+
+Same as above, but order of integration doesn't matter.
+
+> [!example]
+> ![[Pasted image 20251119143812.png]]
+
+> [!example]
+> ![[Pasted image 20251119144218.png]]
 
 --- 
 ## Polar Coordinates 
