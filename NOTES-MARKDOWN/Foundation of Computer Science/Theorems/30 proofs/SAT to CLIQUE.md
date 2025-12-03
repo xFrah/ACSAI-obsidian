@@ -1,5 +1,11 @@
 ### Reduction from SAT to CLIQUE
 
+We can show that 3-CNF-SAT reduces to clique ($\text{3-CNF-SAT} \leq_P \text{CLIQUE}$).
+
+(G, k) with k as the number of clauses in my formulas.
+We need to find formulas that are satisfiable if and only if bla bla bla
+
+
 For every clause and for every literal of a clause, i add some nodes.
 
 Imagine we have a graph, and for each clause we have a triplet of nodes (literals), basically one vertex for every literal.
