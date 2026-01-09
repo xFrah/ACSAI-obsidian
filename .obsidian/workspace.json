@@ -8,127 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ec897b329d12abed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Calculus/Asymptotic Equivalences.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Asymptotic Equivalences"
-            }
-          },
-          {
-            "id": "d79cca5b5eeb6114",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Foundation of Computer Science/17. NPC.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "17. NPC"
-            }
-          },
-          {
-            "id": "383837af35988d6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Physics/Electromagnetism/old/3. Electric potential.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "3. Electric potential"
-            }
-          },
-          {
-            "id": "5344c3a4e8988633",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Physics/Electromagnetism/old/4. Work done by Electric Force.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "4. Work done by Electric Force"
-            }
-          },
-          {
-            "id": "ce0a7c50c7192682",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Physics/Electromagnetism/old/5. Capacitors.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "5. Capacitors"
-            }
-          },
-          {
-            "id": "3356d6f245b8ee3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Physics/Electromagnetism/old/3. Electric potential.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "3. Electric potential"
-            }
-          },
-          {
-            "id": "c98fc85b7e576c20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES-MARKDOWN/Physics/Electromagnetism/old/4. Work done by Electric Force.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "4. Work done by Electric Force"
-            }
-          },
-          {
             "id": "135f27c86a991516",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES-MARKDOWN/Physics/Electromagnetism/3. Flux.md",
+                "file": "NOTES-MARKDOWN/Physics/Electromagnetism/5. Magnetic fields.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3. Flux"
+              "title": "5. Magnetic fields"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -295,30 +189,34 @@
   },
   "active": "135f27c86a991516",
   "lastOpenFiles": [
+    "NOTES-MARKDOWN/z_images/Pasted image 20260109125449.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20260109125444.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20260109125307.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20260109125300.png",
+    "NOTES-MARKDOWN/z_images/Pasted image 20260109125008.png",
+    "NOTES-MARKDOWN/Physics/Electromagnetism/4. Electric potential and Voltage.md",
+    "NOTES-MARKDOWN/Physics/Electromagnetism/5. Magnetic fields.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20260109122811.png",
+    "NOTES-MARKDOWN/Physics/Mechanics/Potential energy.md",
+    "NOTES-MARKDOWN/Physics/Mechanics/Work.md",
+    "NOTES-MARKDOWN/Physics/Electromagnetism/old/4. Work done by Electric Force.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20260109113406.png",
+    "NOTES-MARKDOWN/Physics/Electromagnetism/1. Coulomb's Law.md",
+    "NOTES-MARKDOWN/Physics/Electromagnetism/2. Electric field.md",
+    "NOTES-MARKDOWN/Physics/Electromagnetism/3. Flux.md",
+    "NOTES-MARKDOWN/z_images/Pasted image 20260108181743.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20260108180452.png",
     "NOTES-MARKDOWN/z_images/Pasted image 20260108175455.png",
     "NOTES-MARKDOWN/z_images/angledflux.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20260108170638.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20260108165819.png",
     "NOTES-MARKDOWN/Physics/Electromagnetism/old/5. Capacitors.md",
-    "NOTES-MARKDOWN/Physics/Electromagnetism/3. Flux.md",
-    "NOTES-MARKDOWN/Physics/Electromagnetism/old/4. Work done by Electric Force.md",
     "NOTES-MARKDOWN/Physics/Electromagnetism/old/3. Electric potential.md",
     "NOTES-MARKDOWN/Physics/Electromagnetism/old",
-    "NOTES-MARKDOWN/Physics/Electromagnetism/2. Electric field.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20260108162336.png",
-    "NOTES-MARKDOWN/Physics/Electromagnetism/1. Coulomb's Law.md",
     "NOTES-MARKDOWN/Physics/Thermodynamics/5. Entropy.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20260108112137.png",
     "NOTES-MARKDOWN/Physics/Thermodynamics/6. Second Law of Thermodynamics.md",
     "NOTES-MARKDOWN/Physics/Thermodynamics/3. Thermodynamic processes.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20260105181644.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20260105181333.png",
-    "NOTES-MARKDOWN/z_images/Pasted image 20260104152429.png",
     "NOTES-MARKDOWN/Physics/Thermodynamics/1. Ideal Gas Law.md",
     "NOTES-MARKDOWN/Physics/Thermodynamics/2. First Law of Thermodynamics.md",
     "NOTES-MARKDOWN/Physics/Thermodynamics/0. Specific heat capacities.md",
-    "NOTES-MARKDOWN/z_images/Pasted image 20260103121612.png",
     "NOTES-MARKDOWN/Physics/Thermodynamics/7. Carnot cycle.md",
     "NOTES-MARKDOWN/Physics/Thermodynamics/0. Internal energy - Temperature.md",
     "NOTES-MARKDOWN/Physics/Thermodynamics/0. Heat.md",
@@ -328,10 +226,6 @@
     "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/7.36 - pol. reduction in NPC.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/7.31 - pol. reduction in P.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/4.11 - A_TM is undecidable.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/4.22.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/2.21 - From CFG to PDA.md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/30 proofs/Cook & Levin (30 e lode).md",
-    "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/5.1 - Halting Problem.md",
     "NOTES-MARKDOWN/Foundation of Computer Science/Theorems/30 proofs",
     "NOTES-MARKDOWN/Calculus 2/Multiple integrals",
     "NOTES-MARKDOWN/Calculus 2/Curves",
