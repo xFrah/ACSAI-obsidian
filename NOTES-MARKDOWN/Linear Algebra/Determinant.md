@@ -15,7 +15,7 @@ $$\large A=\begin{bmatrix}
 a & b \\ c & d
 \end{bmatrix}$$
 
-The determinant of the matix above is given by
+The determinant of the matrix above is given by
 
 $$\large \text{det}(A)=ad-bc$$
 
@@ -71,7 +71,7 @@ $$\large |A|=a_{11}c_{11}+a_{12}c_{12}+\dots + a_{1n}c_{1n}$$
 
 
 > [!note]
-> I think we can do this with any row or column of the matrix.
+> We can do this with any row or column of the matrix.
 > Usually we take the row/column with the most 0's.
 
 > [!example]

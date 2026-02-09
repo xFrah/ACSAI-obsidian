@@ -124,7 +124,7 @@ Good luck with your exam! Focus on understanding the principles behind each prob
 Here you can do it all using the conservation of energy.
 1. Get the kinetic energy of the object after being launched by the spring:
 	1. Get force that can be exerted by the string.
-	2. Get the potential energy, for due to displacement of the spring.
+	2. Get the potential energy, due to displacement of the spring.
 	3. Get the kinetic energy, which in this case is the same as quantity potential energy
 2. Get the kinetic energy of the object after going through BC:
 	1. Get the friction force
@@ -143,3 +143,21 @@ Then you plug the velocity inside the formula for velocity at point D, and throu
 ![[Pasted image 20250911190214.png]]
 
 
+## Electromagnetism
+
+![[Pasted image 20260115115924.png]]![[Pasted image 20260115105758.png]]
+
+
+Electric fields can be measured at any point, in this case we want to measure it at point $P$.
+And specifically, we want to find out what charge we must place at point $O$ to have no $\hat{x}$ component for the magnetic field at $p$ (ony vertical electric field).
+
+Magnetic fields add up, and to find out the net magnetic field at a point we just sum their vectors.
+So we need to find out the vectors for charge $q$ and charge $2q$.
+
+The formula for the electric field from one of these single charges is:
+
+$$\Large E=\frac{k_eq}{r^2}$$
+In this case:
+$$\Large r=\sqrt{d^2+L^2}$$
+
+![[Pasted image 20260115124720.png]]

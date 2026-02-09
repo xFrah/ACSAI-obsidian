@@ -56,7 +56,6 @@ The <font color="#31859b">eigen vectors</font> are such that when receiving a <f
 
 ---
 
-
 ## How to compute Eigenvalues
 
 ![](../z_images/Pasted%20image%2020230910162026.png)
