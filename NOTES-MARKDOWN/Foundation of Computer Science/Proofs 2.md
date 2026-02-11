@@ -73,6 +73,13 @@
 
 ## NP == polynomial verifiability
 
+> [!note] NP definition
+> ![[Pasted image 20260206002255.png]]
+
+> [!note] Polynomially verifiable definition
+> ![[Pasted image 20260206002325.png]]
+
+
 ![[Pasted image 20260209145419.png]]
 ![[Pasted image 20260209144611.png]]
 
