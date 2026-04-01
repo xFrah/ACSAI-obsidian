@@ -1,4 +1,4 @@
-A tension is a force that acts along the length of a medium.
+zA tension is a force that acts along the length of a medium.
 The tension force pulls outward along the two ends of a rope.
 
 ![[Pasted image 20250912105222.png]]

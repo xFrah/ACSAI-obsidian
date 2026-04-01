@@ -1,4 +1,4 @@
-# Automata theory
+222222222222222# Automata theory
 ## NFA = DFA
 
 ![[Pasted image 20260209112502.png]]![[Pasted image 20260209112515.png]]
