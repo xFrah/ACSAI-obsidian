@@ -1,3 +1,4 @@
+
 > [!hint] Introduction
 > 
 > ## Search problem definition
