@@ -96,3 +96,126 @@ Of course a force is given by $m\cdot a$, so if we add mass, we get the centripe
 $$\Large F_c=\frac{mv^2}{r}$$
 
 Which is still pointed towards the center of the circle.
+
+---
+
+# Harmonic motion
+## Mass-Spring SHM
+
+### Angular frequency
+$$\Large w = \sqrt{\frac{k}{m}}$$
+
+Instead of imagining a spring going in 1D, imagine a mass moving in a circle.
+The projection on the horizontal diameter is the actual spring, while we abstract using a circle for formulae and calculations.
+
+> [!hint]
+> The angular frequency measure how many radians per second the mass goes along the abstract circle.
+
+
+### Total energy stored in the oscillating system
+
+$$\Large E=\frac{1}{2}kA^2$$
+
+## Pendulum
+
+### Period (one swing of a pendulum)
+
+![[Pasted image 20260608165626.png]]
+
+- $L$ is the **length of the rope**.
+- $g$ is the gravitational acceleration
+
+
+## Traveling wave
+
+Imagine a string that vibrates, thus creating waves.
+This formula describes the exact positions of every piece of the vibrating string, at each point in time.
+
+![[Pasted image 20260609111726.png]]
+
+- $x$ is the horizontal position along the string.
+- $t$ is the instant at which we want to measure.
+- $y$ is the vertical position of the string, at position $x$ and insant $t$.
+
+
+> [!hint]
+> The curve changes shape with each instant of time.
+> ![[Pasted image 20260609111928.png]]
+
+
+### Scaling factor k
+
+![[Pasted image 20260609113313.png]]
+
+This is just a stretch factor for the x axis, determined by the wave length $\lambda$.
+
+### Velocity of wave
+
+![[Pasted image 20260609114117.png]]
+
+---
+
+# Thermodynamics
+## Thermal Expansion
+
+Objects can expand when heated up.
+
+### 1D (length expansion)
+
+$$\Large \Delta L = \alpha L_0 \Delta T$$
+
+- $\Delta L$ is the change in length
+- $\alpha$ is the coefficient of linear expansion
+- $L_0$ is the initial length
+- $\Delta T$ is the change in temperature
+
+### 3D (volume expansion)
+
+$$\Large \Delta V = \beta V_0 \Delta T$$
+
+- $\Delta V$ is the change in volume
+- $\beta$ is the coefficient of volume expansion
+- $\Delta T$ is the change in temperature
+
+
+## Heat
+
+$$\Large Q=mc\Delta T$$
+We use this formula with the mass almost exclusively for solids and liquids. We switch to moles when we are using gases.
+
+---
+
+# Electromagnetism
+
+## Coulomb Force
+
+![[Pasted image 20260615122118.png]]
+![[Pasted image 20260615122153.png]]
+
+
+## Electric field
+
+Force experienced at any point in space from an hypotetical test-charge, given a $q$ charge.
+
+![[Pasted image 20260615122401.png]]
+
+
+## Electric Potential
+
+It's the energy required to move a +1 Coulomb charge from an hypotetical infinitely distant starting point (no electric field influences) to that point.
+
+$$\Large V=k_e\frac{q}{r}$$
+
+> [!hint]
+> You can picture this as if it was the height of the field. Each point of the "scalar" field has a potential, and for example positive charges find it more difficult to climb to higher potentials, rather than going where potential is less.
+> 
+> ![[Pasted image 20260615184717.png]]
+
+> [!note] What if we have **multiple charges**?
+> ![[Pasted image 20260615185032.png]]
+
+
+### Line integral
+
+When we want to compute the energy it takes for a charge to move through an electric field, we use this line integral:
+
