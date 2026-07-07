@@ -60,7 +60,6 @@ To support the rapid combinatorial expansion of the lazy generator, the algorith
 The architecture of this tree is organized by the following hierarchy:
 
 - **Root nodes:** The root nodes (multiple ones) of the tree consists of nodes representing completely unconstrained slots of various lengths. For example, a root node for a length of five contains all five-letter words in the vocabulary, represented purely by wildcards.
-
 - **Child-nodes:** Every node in the tree represents a specific constraint pattern, and contains all the words in the vocabulary after filtering according to the constraint. A child node always enforces a stricter constraint than its parent node. Consequently, the list of valid words within any child node is a strict, smaller subset of the words contained in its parent.
 
 
@@ -71,3 +70,14 @@ When the solver requests the list of words that fit a specific constraint, the t
 - **New Constraint Caching:** Once the new constraint is added as a child to the located parent, it triggers a self-organizing mechanism. The new node evaluates its siblings (the other existing children of its parent). If any sibling represents a constraint that is actually a stricter subset of the _new_ node, the new node "kidnaps" it: the sibling is removed from the original parent and reassigned as a child of the newly created node.
 
 This insertion logic ensures that the tree remains perfectly layered and optimized as new constraints are discovered on the fly.
+
+### 4.2 Variable Resolution and Search Space Narrowing
+
+The lazy generator invokes the cache tree strictly on-demand. When evaluating a slot, the generator isolates contiguous segments bounded by blocks and queries the cache using the segment's precise constraint pattern (e.g., `a..b..`).
+
+The tree gets traversed to find the most specific encompassing parent node, returning a heavily reduced wordset. The generator then transforms this static wordlist into a lazy sequence of spatial combinations. Instead of computing all possible grid states simultaneously, it wraps the wordlist in an iterator and constructs full vectors on-demand.
+
+For each valid word, the generator builds a complete spatial combination for the entire slot: it maps the word to the target segment's exact coordinates, inserts the required boundary blocks ($\text{⯀}$), and leaves the remaining outer indices as deferred empty spaces ($\text{⬚}$).
+
+Crucially, this entire execution is directed by heuristics. Rather than blindly building combinations for every available space or segment, the generator may prioritize yielding highly constrained segments immediately, or choose to bypass generating unpromising patterns altogether, ensuring computational effort is spent only on the most viable topological paths.
+

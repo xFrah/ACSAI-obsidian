@@ -16,7 +16,7 @@
     "pageSize": "A4",
     "marginType": "0",
     "showTitle": true,
-    "open": false,
+    "open": true,
     "scale": 100,
     "landscape": false,
     "marginTop": "10",
@@ -25,7 +25,7 @@
     "marginRight": "10",
     "displayHeader": true,
     "displayFooter": false,
-    "cssSnippet": "C:\\Users\\fdimo\\Documents\\Obsidian Vault\\.obsidian\\snippets\\printbg.css",
+    "cssSnippet": "0",
     "pageHeight": "-1",
     "pageWidth": "200"
   }
